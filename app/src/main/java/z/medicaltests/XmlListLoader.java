@@ -50,7 +50,7 @@ public class XmlListLoader {
             Names = new String[nList.getLength()];
             Files = new String[nList.getLength()];
             Test = new String[nList.getLength()];
-            Test[0] = it;
+            //Test[0] = it;
 
             for(int i = 0; i< nList.getLength(); i++) {
                 Node nNode = nList.item(i);

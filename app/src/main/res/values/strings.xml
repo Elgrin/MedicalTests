@@ -15,4 +15,7 @@
     <string name="subjects">subjects</string>
     <string name="subjects_text">Выберите предмет, для которого вы хотите пройти тестирование:</string>
     <string name="themes_text">Выберите тему теста:</string>
+
+    <string name="button_all_questions">Все вопросы</string>
+    <string name="button_exam_mode">Режим экзамена</string>
 </resources>

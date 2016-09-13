@@ -42,19 +42,34 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
     @Override
     public void itemClicked(long id, String[] Files, String[] Test) {
 
-        XmlReader fragment;
-        fragment = new XmlReader();
+        if(Files[0] != null) {
+            if (!(Files[(int) id].equals(""))) {
+                XmlReader fragment;
+                fragment = new XmlReader();
+                fragment.SetMessage(Files[(int) id],
+                        getResources().getString(R.string.themes_text), getAssets());
 
-        if(Files[0] != null)
-        if(!(Files[(int)id].equals(""))){
-        fragment.SetMessage(Files[(int)id],
-                getResources().getString(R.string.themes_text), getAssets());
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                ft.replace(R.id.content_frame, fragment);
+                ft.addToBackStack(null);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                ft.commit();
+            }
+        }
 
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.content_frame, fragment);
-        ft.addToBackStack(null);
-        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-        ft.commit();}
+        if(Test[0] !=null){
+            if(!(Test[(int)id].equals(""))){
+                ButtonMenu fragment;
+                fragment = new ButtonMenu();
+
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                ft.replace(R.id.content_frame, fragment);
+                ft.addToBackStack(null);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                ft.commit();
+            }
+        }
+
 
         TextView text = (TextView) findViewById(R.id.it);
         try {
