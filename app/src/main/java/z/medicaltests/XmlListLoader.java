@@ -25,7 +25,7 @@ import org.xml.sax.SAXException;
  */
 public class XmlListLoader {
     private String FileName = "";
-    private String Names[],Files[];
+    private String Names[],Files[], Test[];
     public String Example;
     private static final String TAG = "XmlListLoaderLogs";
     XmlListLoader(String message, AssetManager assetManager) {
@@ -38,15 +38,33 @@ public class XmlListLoader {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(is);
 
+
+            NodeList Properties = doc.getElementsByTagName("properties");
+            Node node = Properties.item(0);
+            Element el = (Element) node;
+            String it = el.getAttribute("it");
+
+
             NodeList nList = doc.getElementsByTagName("item");
+
             Names = new String[nList.getLength()];
             Files = new String[nList.getLength()];
+            Test = new String[nList.getLength()];
+            Test[0] = it;
+
             for(int i = 0; i< nList.getLength(); i++) {
                 Node nNode = nList.item(i);
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Names[i] = nNode.getTextContent();
                     Element element = (Element) nNode;
-                    Files[i] = element.getAttribute("next");
+
+                     if(it.equals("subjects")) {
+                        Files[i] = element.getAttribute("next");
+                      }
+                      else {
+                          Test[i] = element.getAttribute("test");
+                      }
+
                 }
             }
         }
@@ -59,4 +77,5 @@ public class XmlListLoader {
         return Names;
     }
     public String[] getFiles() {return Files; }
+    public String[] getTest() {return Test; }
 }

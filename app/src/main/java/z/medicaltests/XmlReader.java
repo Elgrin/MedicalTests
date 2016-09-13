@@ -27,13 +27,14 @@ import java.io.File;
 public class XmlReader extends Fragment{
 
     static interface XmlReaderListener {
-        void itemClicked(long id, String[] F);
+        void itemClicked(long id, String[] Files, String[] Test);
     }
 
     private XmlReaderListener listener;
     protected  String message = "";
     protected String Names[];
     public  String Files[];
+    public  String Test[];
     protected String Text ="";
 
 
@@ -50,7 +51,7 @@ public class XmlReader extends Fragment{
         XmlListLoader loader = new XmlListLoader(message, assetManager);
         Files = loader.getFiles();
         Names = loader.getNames();
-
+        Test = loader.getTest();
     }
 
     @Override
@@ -59,6 +60,7 @@ public class XmlReader extends Fragment{
         // Inflate the layout for this fragment
         if(savedInstanceState != null) {
             Files = savedInstanceState.getStringArray("files");
+            Test = savedInstanceState.getStringArray("test");
             Names = savedInstanceState.getStringArray("names");
             message = savedInstanceState.getString("message");
             Text = savedInstanceState.getString("text");
@@ -93,7 +95,7 @@ public class XmlReader extends Fragment{
                                                 int position,
                                                 long id) {
                             if (listener != null) {
-                                listener.itemClicked(id, Files);
+                                listener.itemClicked(id, Files, Test);
                             }
                         }
                     };
@@ -125,6 +127,7 @@ public class XmlReader extends Fragment{
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         savedInstanceState.putStringArray("names", Names);
+        savedInstanceState.putStringArray("test", Test);
         savedInstanceState.putStringArray("files", Files);
         savedInstanceState.putString("message", message);
         savedInstanceState.putString("text", Text);

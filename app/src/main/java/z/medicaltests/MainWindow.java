@@ -40,14 +40,14 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
     private int currentPosition = 0;
 
     @Override
-    public void itemClicked(long id, String[] F) {
+    public void itemClicked(long id, String[] Files, String[] Test) {
 
         XmlReader fragment;
         fragment = new XmlReader();
 
-        if(F != null)
-        if(!(F[(int)id].equals(""))){
-        fragment.SetMessage(F[(int)id],
+        if(Files[0] != null)
+        if(!(Files[(int)id].equals(""))){
+        fragment.SetMessage(Files[(int)id],
                 getResources().getString(R.string.themes_text), getAssets());
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
@@ -55,6 +55,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();}
+
+        TextView text = (TextView) findViewById(R.id.it);
+        try {
+            text.setText(Test[0]);}
+        catch (Exception e){};
 
     }
 

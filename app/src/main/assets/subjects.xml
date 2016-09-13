@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subjects>
-    <item next="biothemes"> Анатомия </item>
-    <item next=""> Биология </item>
+    <properties it="subjects"></properties>
+    <item next=""> Анатомия </item>
+    <item next="biothemes"> Биология </item>
     <item next=""> Биохимия </item>
     <item next=""> Гистология </item>
     <item next=""> Патологическая анатомия </item>
