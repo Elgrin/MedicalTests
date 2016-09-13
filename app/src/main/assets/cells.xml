@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quize size = "283">
+<question id = "1" size = "5" type = "1">
+	<text> Живые системы отличаются от неживых систем наличием </text>
+	<item flag = "1"> Обмен веществ </item>
+	<item flag = "1"> Жиров </item>
+	<item flag = "1"> Белков </item>
+	<item flag = "1"> Раздражимости </item>
+	<item flag = "1"> Авторегуляцией </item>
+</question>
+<question id = "2" size = "5" type = "1">
+	<text> Термин "клетка" ввел </text>
+	<item flag = "0">  М.Шлейден </item>
+	<item flag = "0"> Т.Шванн </item>
+	<item flag = "0"> А.Левенгук </item>
+	<item flag = "1"> Р.Гук </item>
+	<item flag = "0"> Р.Вирхов </item>
+</question>
+<question id = "3" size = "5" type = "1">
+	<text> Клетку как "открытую систему" характеризует </text>
+	<item flag = "1"> Обмен вещесив с окружающей средой </item>
+	<item flag = "0"> Компартментализация внутреннего пространства </item>
+	<item flag = "1"> Обмен информацией с окружающей средой </item>
+	<item flag = "1"> Уменьшение энергии внутри системы за счет обмена энергией с окружающей средой </item>
+	<item flag = "1"> Обмен энергией с окружающей средой </item>
+</question>
+<question id = "5" size = "5" type = "1">
+	<text> Положения клеточной теории </text>
+	<item flag = "1"> Всякая клетка происходит только от клетки </item>
+	<item flag = "0"> Функции клеток определяются деятельностью органелл</item>
+	<item flag = "0"> Клетки по строению делятся на про- и эукариотические </item>
+	<item flag = "1"> Клетка основная структура и функциональная единица живого </item>
+	<item flag = "1"> Клетки сходны по строению и свойствам </item>
+</question>
+<question id = "6" size = "5" type = "1">
+	<text> Для прокариотической клетки характерно наличие </text>
+	<item flag = "0"> Митохондрий </item>
+	<item flag = "1"> Нуклеотида </item>
+	<item flag = "0"> Лизосом </item>
+	<item flag = "1"> Мезосом </item>
+	<item flag = "0"> ЭПС </item>
+</question>
+<question id = "272" size_x = "7" size_y = "8" type = "2">
+	<text> Клеточным органеллам - ______ соответствуют функции - ______ </text>
+	<item> Рибосомам </item>
+	<item> Митохондриям </item>
+	<item> Клеточному центру </item>
+	<item> Пластидам </item>
+	<item> Лизосомам </item>
+	<item> Комплексу Гольджи </item>
+	<item> Ядру </item>
+	<child pair = "2">  а) Синтез АТФ </child>
+	<child pair = "1">  б) Синтез белка </child>
+	<child pair = "7">  в) Синтез нуклеиновых кислот </child>
+	<child pair = "5">  г) Расщеплние макромоекул </child>
+	<child pair = "4">  д) Фотосинтез </child>
+	<child pair = "3">  е) Формирование веретена деления </child>
+	<child pair = "6">  ж) Формирование лизосом </child>
+</question>
+<question id = "273" size_x = "5" size_y = "5" type = "2">
+	<text> Структуры клетки - ________ формируют - _________</text>
+	<item> Микротрубочки </item>
+	<item> Актиновые и миозиновые филаменты </item>
+	<item> Промежуточные филаменты, актиновые микрофиламенты и микротрубочки </item>
+	<item> Центриоли </item>
+	<item> Мембраны </item>
+	<child pair = "4">  а) Клеточный центр </child>
+	<child pair = "1">  б) Нити митотического веретена </child>
+	<child pair = "3">  в) Цитоскелет </child>
+	<child pair = "2">  г) Миофибриллы </child>
+	<child pair = "5">  д) ЭПС </child>
+</question>
+
+</quize> 
+
