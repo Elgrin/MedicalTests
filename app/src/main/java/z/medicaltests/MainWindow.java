@@ -44,6 +44,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     public void onButtonClick(int Size, String size) {
         TextView text = (TextView) findViewById(R.id.it);
 
+        if(Size==283)
+        text.setText(size);
     }
     @Override
     public void itemClicked(long id, String[] Files, String[] Test) {

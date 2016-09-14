@@ -30,7 +30,7 @@ public class XmlTestLoader {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(is);
 
-            NodeList Properties = doc.getElementsByTagName("properties");
+            NodeList Properties = doc.getElementsByTagName("quize");
             Node node = Properties.item(0);
             Element el = (Element) node;
             size = el.getAttribute("size");
