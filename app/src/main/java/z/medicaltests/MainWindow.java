@@ -27,7 +27,8 @@ import android.widget.TextView;
 import java.io.File;
 
 
-public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
+public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
+        ButtonMenu.ButtonMenuListener {
 
     //Переменные для заполнения выдвижной панели
 
@@ -39,6 +40,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
     private String[] titles;
     private int currentPosition = 0;
 
+    @Override
+    public void onButtonClick(int Size, String size) {
+        TextView text = (TextView) findViewById(R.id.it);
+
+    }
     @Override
     public void itemClicked(long id, String[] Files, String[] Test) {
 
@@ -61,6 +67,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener{
             if(!(Test[(int)id].equals(""))){
                 ButtonMenu fragment;
                 fragment = new ButtonMenu();
+                fragment.setMessage((Test[(int) id]),
+                        getResources().getString(R.string.mode_text), getAssets());
 
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment);

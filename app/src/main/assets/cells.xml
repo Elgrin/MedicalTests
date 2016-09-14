@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size = "283">
+<quize>
+	<properties size="283"></properties>
 <question id = "1" size = "5" type = "1">
 	<text> Живые системы отличаются от неживых систем наличием </text>
 	<item flag = "1"> Обмен веществ </item>
