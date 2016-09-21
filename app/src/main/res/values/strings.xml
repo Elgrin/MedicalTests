@@ -19,4 +19,11 @@
 
     <string name="button_all_questions">Все вопросы</string>
     <string name="button_exam_mode">Режим экзамена</string>
+    <string name="check_box_mistakes">Показывать лшибки сразу?</string>
+
+    <string name="text_mistakes_1">В тесте всего</string>
+    <string name="text_mistakes_2">вопросов.</string>
+    <string name="text_mistales_set">Выберите количество вопросов в тесте:</string>
+
+
 </resources>

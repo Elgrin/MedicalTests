@@ -44,4 +44,5 @@ public class XmlTestLoader {
 
     public int getSize() {return iSize;}
     public String getS() {return size;}
+
 }

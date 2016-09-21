@@ -41,12 +41,43 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     private int currentPosition = 0;
 
     @Override
-    public void onButtonClick(int Size, String size) {
+    public void onButtonClickAllQuestions(int Size, String File) {
         TextView text = (TextView) findViewById(R.id.it);
 
-        if(Size==283)
-        text.setText(size);
+        text.setText(Integer.toString(Size));
+
+        TestSettings fragment;
+        fragment = new TestSettings();
+        fragment.SetMessage(File, Size,
+                getResources().getString(R.string.text_mistakes_1),
+                getResources().getString(R.string.text_mistakes_2));
+
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.replace(R.id.content_frame, fragment);
+        ft.addToBackStack(null);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        ft.commit();
+
     }
+
+    @Override
+    public void onButtonClickExamMode(int Size, String File) {
+        TextView text = (TextView) findViewById(R.id.it);
+
+         text.setText("Hello2");
+
+        TestSettings fragment;
+        fragment = new TestSettings();
+        fragment.SetMessage(File, Size,
+                getResources().getString(R.string.text_mistales_set));
+
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.replace(R.id.content_frame, fragment);
+        ft.addToBackStack(null);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        ft.commit();
+    }
+
     @Override
     public void itemClicked(long id, String[] Files, String[] Test) {
 

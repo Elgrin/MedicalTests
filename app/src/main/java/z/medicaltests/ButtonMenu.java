@@ -24,29 +24,35 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
     private static final String TAG = "Button";
     private String File="";
     private int Size;
-    private String size;
     protected String Text ="";
+
     static  interface  ButtonMenuListener {
-        void onButtonClick(int Size, String size);
+        void onButtonClickAllQuestions(int Size, String File);
+        void  onButtonClickExamMode(int Size, String File);
     }
 
     public ButtonMenu() {
         // Required empty public constructor
     }
 
-
     public void setMessage(String message, String Text, AssetManager assetManager) {
         File = message;
         XmlTestLoader loader = new XmlTestLoader(message, assetManager);
         Size = loader.getSize();
-        size = loader.getS();
         this.Text = Text;
+
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         final View layout = inflater.inflate(R.layout.fragment_button_menu, container, false);
+
+        if (savedInstanceState != null) {
+            File = savedInstanceState.getString("file");
+            Size = savedInstanceState.getInt("size_int");
+            Text = savedInstanceState.getString("text");
+        }
 
         Button allQuestions = (Button) layout.findViewById(R.id.allQuestions);
         allQuestions.setOnClickListener(this);
@@ -88,13 +94,13 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
             case R.id.allQuestions:
                 onClickAllQuestions();
                 if (listener != null) {
-                    listener.onButtonClick(Size, size);
+                    listener.onButtonClickAllQuestions(Size, File);
                 }
                 break;
             case R.id.ExamMode:
                 onClickExamMode();
                 if (listener != null) {
-                    listener.onButtonClick(Size, size);
+                    listener.onButtonClickExamMode(Size, File);
                 }
                 break;
         }
@@ -107,6 +113,14 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
 
     public void onClickExamMode() {
 
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("file", File);
+        outState.putInt("size_int", Size);
+        outState.putString("text", Text);
     }
 
 }
