@@ -64,7 +64,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     public void onButtonClickExamMode(int Size, String File) {
         TextView text = (TextView) findViewById(R.id.it);
 
-         text.setText("Hello2");
+         text.setText("Hello_3");
 
         TestSettings fragment;
         fragment = new TestSettings();

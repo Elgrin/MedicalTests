@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 /**
@@ -49,9 +51,13 @@ public class TestSettings extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-
-
+        View view = getView();
+        if(!Flag) {
+            EditText editText = (EditText) view.findViewById(R.id.Exam_size);
+            editText.setVisibility(View.GONE);
+        }
+        TextView textView = (TextView) view.findViewById(R.id.Size);
+        textView.setText(Text);
         return inflater.inflate(R.layout.fragment_test_settings, container, false);
     }
 
