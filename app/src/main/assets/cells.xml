@@ -920,7 +920,7 @@
 	<question id="115" size="5" type="1">
 		<text>Кроссинговер в профазе I мейоза происходит в</text>
 		<item flag="0">Лептотене</item>
-		<item flag="1">Пахитене></item>
+		<item flag="1">Пахитене</item>
 		<item flag="0">Диплотене</item>
 		<item flag="0">Диакинезе</item>
 		<item flag="0">Зиготене</item>

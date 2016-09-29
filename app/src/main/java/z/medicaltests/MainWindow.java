@@ -98,9 +98,10 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     public void onButtonResultPageListener() {
 
 
+        /*
         FragmentManager fragmentManager = getFragmentManager();
 
-        fragmentManager.popBackStack(0, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        fragmentManager.popBackStack(0, FragmentManager.POP_BACK_STACK_INCLUSIVE);*/
 
 
         XmlReader fragment;
@@ -133,7 +134,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
-            ft.addToBackStack(null);
+            //ft.addToBackStack(null);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
 
@@ -150,7 +151,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
-            ft.addToBackStack(null);
+            //ft.addToBackStack(null);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
         }
@@ -188,7 +189,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
 
-        ft.addToBackStack(null);
+        //ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
 
@@ -466,10 +467,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        /*
         if (drawerToggle.onOptionsItemSelected(item)) {
             return true;
-        }
-        return super.onOptionsItemSelected(item);
+        }*/
+        return drawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
 }
