@@ -2,18 +2,15 @@ package z.medicaltests;
 
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
-
-import z.medicaltests.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -117,6 +114,7 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
         super.onSaveInstanceState(outState);
         outState.putString("file", File);
         outState.putInt("size_int", Size);

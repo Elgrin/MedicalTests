@@ -1,13 +1,17 @@
 package z.medicaltests;
 
 import android.app.Activity;
-import android.content.Context;
-import android.os.Bundle;
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -15,35 +19,41 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TestSettings extends Fragment {
+public class TestSettings extends Fragment implements View.OnClickListener {
 
     private String File;
     private int Size;
-    String Text;
+    private String Text;
     boolean Flag;
-    private static final String TAG = "Settings";
+    private static final String TAG = "SETTINGS";
+    public TestSettings.TestSettingsListener listener;
 
-
+    static interface TestSettingsListener {
+        void onButtonCommitListener(boolean show, int Size_all, int Size_exam, String File);
+    }
 
     public TestSettings() {
         // Required empty public constructor
     }
 
     public void SetMessage(String File, int Size,
-                           String Text_1, String Text_2) {
+                           String Text_1,
+                           String Text_2) {
         this.File = File;
         this.Size = Size;
-        Text = Text_1 + " " + Integer.toString(Size) + Text_2;
+        Text = Text_1 + " " + Integer.toString(Size);
         Flag = false;
-
     }
 
     public  void SetMessage(String File, int Size,
-                            String Text_1) {
+                            String Text,
+                            String Text_1,
+                            String Text_2) {
         this.File = File;
         this.Size = Size;
-        Text = Text_1;
+        this.Text = Text_1 + " " + Integer.toString(Size) + "\n" + Text;
         Flag = true;
+
     }
 
 
@@ -51,36 +61,114 @@ public class TestSettings extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        final View layout = inflater.inflate(R.layout.fragment_test_settings, container, false);
 
-        return inflater.inflate(R.layout.fragment_test_settings, container, false);
+        if (savedInstanceState != null) {
+            File = savedInstanceState.getString("file");
+            Size = savedInstanceState.getInt("size_int");
+            Text = savedInstanceState.getString("text");
+            Flag = savedInstanceState.getBoolean("flag");
+        }
+
+        TextView textView = (TextView) layout.findViewById(R.id.Size);
+        textView.setText(Text);
+
+        Button commit = (Button) layout.findViewById(R.id.commit_settings);
+        commit.setOnClickListener(this);
+
+        return layout;
     }
 
     @Override
     public  void onStart() {
         super.onStart();
 
+
         View view = getView();
         if(!Flag) {
             EditText editText = (EditText) view.findViewById(R.id.Exam_size);
             editText.setVisibility(View.GONE);
         }
-        TextView textView = (TextView) view.findViewById(R.id.Size);
-        textView.setText(Text);
+
 
     }
 
     @Override
     public void onAttach(Activity context) {
         super.onAttach(context);
-
+        this.listener = (TestSettings.TestSettingsListener) context;
         Log.v(TAG, "Activity");
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-
+        this.listener = (TestSettings.TestSettingsListener) context;
         Log.v(TAG, "Context");
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        super.onSaveInstanceState(outState);
+        outState.putString("file", File);
+        outState.putInt("size_int", Size);
+        outState.putString("text", Text);
+        outState.putBoolean("flag", Flag);
+    }
+
+
+    protected void Alert(String Error) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setTitle("Ошибка!")
+                .setMessage(Error)
+                .setCancelable(false)
+                .setNegativeButton("ОК",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
+    @Override
+    public void onClick(View view) {
+
+        Log.v(TAG, "Click");
+
+        View View = getView();
+
+        int Size_exam;
+        CheckBox checkBox = (CheckBox) View.findViewById(R.id.Show_mistakes);
+        boolean show = checkBox.isChecked();
+
+        if (Flag) {
+            EditText editText = (EditText) View.findViewById(R.id.Exam_size);
+
+            try {
+                Size_exam = Integer.parseInt(editText.getText().toString());
+            } catch (Exception e) {
+                Size_exam = 0;
+                Alert("Не выбрано количество вопросов.");
+                return;
+            }
+        } else {
+            Size_exam = Size;
+        }
+
+        if (Size_exam > Size ||
+                Size_exam == 0) {
+            EditText editText = (EditText) View.findViewById(R.id.Exam_size);
+            editText.setText(null);
+            Alert("Количество вопросов для теста больше доступного.");
+
+        } else {
+            if (listener != null) {
+                listener.onButtonCommitListener(show, Size, Size_exam, File);
+            }
+        }
     }
 
 }

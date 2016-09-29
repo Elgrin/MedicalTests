@@ -16,10 +16,11 @@ import javax.xml.parsers.DocumentBuilderFactory;
 /**
  * Created by Жаров on 14.09.2016.
  */
-public class XmlTestLoader {
+class XmlTestLoader {
     private String FileName;
     private int iSize;
     private String size;
+    private TestStructure Questions[];
     private static final String TAG = "TestLoader";
     XmlTestLoader(String fileName, AssetManager assetManager) {
         FileName = fileName;
@@ -42,7 +43,122 @@ public class XmlTestLoader {
             Log.v(TAG, "Error while loading...");}
     }
 
-    public int getSize() {return iSize;}
+    XmlTestLoader(String fileName, AssetManager assetManager, int mass[]) {
+        FileName = fileName;
+        int AbstractSize = 0;
+        TestStructure allQuestions[] = new TestStructure[mass.length];
+
+        try {
+            InputStream is = assetManager.open(FileName + ".xml");
+
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(is);
+
+            NodeList nList = doc.getElementsByTagName("question");
+
+            main:
+            for (int i = 0; i < nList.getLength(); i++) {
+
+                if (AbstractSize == mass.length) break;
+                Node nNode = nList.item(i);
+
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element element = (Element) nNode;
+
+                    String ID = element.getAttribute("id");
+                    int id = Integer.parseInt(ID);
+                    boolean flag = false;
+
+                    Log.v(TAG, "ОШИБКА " + Integer.toString(mass.length));
+                    for (int j = 0; j < mass.length; j++) {
+
+                        Log.v(TAG, "ОШИБКА2 " + Integer.toString(id) + " " + Integer.toString(mass[j]));
+                        if (mass[j] == id) {
+                            flag = true;
+                            Log.v(TAG, "ОШИБКА3 " + Integer.toString(id));
+                        }
+
+                        if (flag) break;
+                    }
+
+                    if (!flag) continue;
+
+
+                    String TYPE = element.getAttribute("type");
+                    int type = Integer.parseInt(TYPE);
+
+                    String SIZE = element.getAttribute("size");
+                    int size = Integer.parseInt(SIZE);
+
+                    //Первый тип вопросов
+                    if (type == 1) {
+                        String Text = "";
+                        String Options[] = new String[size];
+                        boolean Flag[] = new boolean[size];
+
+                        TestCheckBox question = new TestCheckBox();
+
+                        NodeList nList_Second = nNode.getChildNodes();
+
+                        Log.v(TAG, SIZE);
+
+                        int mass_size = 0;
+                        for (int q = 0; q < nList_Second.getLength(); q++) {
+                            Node nNode_Second = nList_Second.item(q);
+
+                            if (nNode_Second.getNodeType() == Node.ELEMENT_NODE) {
+                                boolean it = nNode_Second.getNodeName().equals("text");
+                                if (it) {
+                                    Text = nNode_Second.getTextContent();
+                                } else {
+                                    Options[mass_size] = nNode_Second.getTextContent();
+                                    Element element_Second = (Element) nNode_Second;
+                                    String s_Flag = element_Second.getAttribute("flag");
+
+                                    Flag[mass_size] = !(s_Flag.equals("0"));
+
+                                    /*
+                                    if (s_Flag.equals("0")) {
+                                        Flag[mass_size] = false;
+                                    } else {
+                                        Flag[mass_size] = true;
+                                    }*/
+
+
+                                    Log.v(TAG, Options[mass_size] + " " + Flag[mass_size]);
+                                    mass_size++;
+                                }
+
+                            }
+                        }
+
+                        Log.v(TAG, "2");
+
+                        question.setType(type);
+                        question.setFlags(Flag);
+                        question.setOptions(Options);
+                        question.setText(Text);
+
+                        allQuestions[AbstractSize] = question;
+                        AbstractSize++;
+                    }
+                }
+            }
+            Questions = allQuestions;
+        } catch (Exception e) {
+            Log.v(TAG, "Error while loading...");
+        }
+    }
+
+
+    int getSize() {
+        return iSize;
+    }
     public String getS() {return size;}
+
+    TestStructure[] getTestStructure() {
+        return Questions;
+    }
 
 }

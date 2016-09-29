@@ -2,11 +2,10 @@ package z.medicaltests;
 
 
 import android.app.Activity;
-import android.app.ListFragment;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,15 +15,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-import java.io.File;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
+
+
 public class XmlReader extends Fragment{
+
 
     static interface XmlReaderListener {
         void itemClicked(long id, String[] Files, String[] Test);
@@ -38,12 +36,17 @@ public class XmlReader extends Fragment{
     protected String Text ="";
 
 
-    private static final String TAG = "myLogs";
+    private static final String TAG = "XmlReader";
 
     public XmlReader() {
         // Required empty public constructor
     }
 
+    /**
+     * @param msg          Имя файла для чтения
+     * @param Text         Текст для вывода
+     * @param assetManager Контекст
+     */
     public  void SetMessage(String msg, String Text, AssetManager assetManager) {
         message = msg;
         this.Text = Text;
@@ -54,6 +57,12 @@ public class XmlReader extends Fragment{
         Test = loader.getTest();
     }
 
+    /**
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -126,6 +135,7 @@ public class XmlReader extends Fragment{
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putStringArray("names", Names);
         savedInstanceState.putStringArray("test", Test);
         savedInstanceState.putStringArray("files", Files);

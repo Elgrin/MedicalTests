@@ -3,10 +3,12 @@
     <string name="lessons">Предметы</string>
     <string name="statisctics">Статистика</string>
     <string-array name="menu">
-        <item>Выбор теста</item>
+        <item>Тесты</item>
+        <item>Загрузить сохранённые</item>
         <item>Статистика</item>
         <item>О приложении</item>
     </string-array>
+
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
     <string name="action_settings">Settings</string>
@@ -21,9 +23,25 @@
     <string name="button_exam_mode">Режим экзамена</string>
     <string name="check_box_mistakes">Показывать ошибки сразу?</string>
 
-    <string name="text_mistakes_1">В тесте всего</string>
+    <string name="text_mistakes_1">Всего в тесте вопросов:</string>
     <string name="text_mistakes_2">вопросов.</string>
-    <string name="text_mistales_set">Выберите количество вопросов в тесте:</string>
+    <string name="text_mistales_set">Выберите количество вопросов, которые будут в режиме тестирования:</string>
 
+    <string name="commit_settings_text">Начать тест</string>
+
+    <string name="fragment_right">Правильные</string>
+    <string name="fragment_mistake">Неправильные </string>
+    <string name="fragment_unchosen">Невыбранные правильные</string>
+
+    <string name="button_next">Далее</string>
+    <string name="button_next_colors">Показать правильные</string>
+    <string name="button_save">Сохранить и выйти</string>
+
+    <string name="color_green">#7FFF00</string>
+    <string name="color_red">#FF69B4</string>
+    <string name="color_blue">#7B68EE</string>
+
+    <string name="result_page_text">Итоги:</string>
+    <string name="result_page_button">Перейти к предметам</string>
 
 </resources>
