@@ -29,6 +29,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     static protected boolean Colors;
     private Check_Boxes fragment;
     private int Max;
+    private static final String TAG = "TestFragmentCheckBox";
 
     public static boolean getColor() {
         return Colors;
@@ -84,7 +85,6 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
     private TestFragmentCheckBox.TestFragmentCheckBoxListener listener;
 
-    private static final String TAG = "Settings";
 
     static interface TestFragmentCheckBoxListener {
         void onButtonCheckBoxCommitListener(boolean Show,
@@ -108,12 +108,11 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     }
 
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
 
-
+        super.onCreate(savedInstanceState);
         if (savedInstanceState != null) {
+
             Number = savedInstanceState.getInt("number");
             RightAnswers = savedInstanceState.getDouble("rightAnswer");
             Show = savedInstanceState.getBoolean("show");
@@ -127,6 +126,23 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             TestFragmentPacerable fragment_box;
             fragment_box = savedInstanceState.getParcelable("fragment");
             fragment = fragment_box.getCheckBoxes();
+
+            /*
+            if (Questions[Number - 1].getType() == 1) {
+                //View view = getView();
+
+                CheckBox[] Boxes = fragment.getCheckBoxes();
+                int BackGroundColor[] = fragment.getBackGroundColor();
+                boolean Checked[] = fragment.getChecked();
+
+                fragment.SetMessage(Questions[Number - 1], Boxes, BackGroundColor, Checked);
+
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                ft.replace(R.id.fragment_frame, fragment, "fragment");
+                ft.addToBackStack(null);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                ft.commit();
+            }*/
 
         } else {
             //Check_Boxes fragment;
@@ -148,6 +164,12 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 ft.commit();
             }
         }
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_test_fragment_check_box, container, false);
@@ -173,7 +195,11 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         if (Show && !Colors)
             Next.setText(getResources().getString(R.string.button_next_colors));
 
-        if (Show && Colors)
+
+        if (Colors)
+            Save.setVisibility(View.GONE);
+
+        if (!Show)
             Save.setVisibility(View.GONE);
 
 
@@ -223,7 +249,13 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         if (Questions[Number - 1].getType() == 1) {
             Colors = true;
+
+            View view = getView();
+
+            Button Save = (Button) view.findViewById(R.id.button_save);
+            Save.setVisibility(View.GONE);
             fragment.Paint();
+
             CheckBox[] Boxes = fragment.getCheckBoxes();
             int BackGroundColor[] = fragment.getBackGroundColor();
             boolean Checked[] = fragment.getChecked();

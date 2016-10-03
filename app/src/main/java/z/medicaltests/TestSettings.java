@@ -158,14 +158,24 @@ public class TestSettings extends Fragment implements View.OnClickListener {
             Size_exam = Size;
         }
 
-        if (Size_exam > Size ||
-                Size_exam == 0) {
+        if (Size_exam > Size) {
             EditText editText = (EditText) View.findViewById(R.id.Exam_size);
             editText.setText(null);
             Alert("Количество вопросов для теста больше доступного.");
 
         } else {
+            if (Size_exam == 0) {
+                EditText editText = (EditText) View.findViewById(R.id.Exam_size);
+                editText.setText(null);
+                Alert("Количество вопросов в тесте не должно равняться 0");
+                return;
+            }
             if (listener != null) {
+                View layout = getView();
+                Button commit = (Button) layout.findViewById(R.id.commit_settings);
+                //commit.setText("Загрузка вопросов");
+                commit.setEnabled(false);
+
                 listener.onButtonCommitListener(show, Size, Size_exam, File);
             }
         }

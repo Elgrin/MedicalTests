@@ -16,7 +16,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.Random;
 
@@ -134,16 +133,12 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
-            //ft.addToBackStack(null);
+            ft.addToBackStack(null);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
 
-            TextView text = (TextView) findViewById(R.id.it);
-            text.setText(Double.toString(RighAnswers));
         } else {
 
-            TextView text = (TextView) findViewById(R.id.it);
-            text.setText(Double.toString(RighAnswers) + " " + Integer.toString(Number));
 
             TestFragmentCheckBox fragment;
             fragment = new TestFragmentCheckBox();
@@ -160,7 +155,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     @Override
     public void onButtonCommitListener(boolean Show, int Size_all, int Size_exam, String File) {
-        TextView text = (TextView) findViewById(R.id.it);
+
 
         int mass[];
         if (Size_all == Size_exam) {
@@ -197,9 +192,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     @Override
     public void onButtonClickAllQuestions(int Size, String File) {
-        TextView text = (TextView) findViewById(R.id.it);
 
-        text.setText(Integer.toString(Size));
 
         TestSettings fragment;
         fragment = new TestSettings();
@@ -267,12 +260,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
             }
-        }
-
-
-        TextView text = (TextView) findViewById(R.id.it);
-        try {
-            text.setText(Test[0]);} catch (Exception e) {
         }
 
     }

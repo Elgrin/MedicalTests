@@ -15,7 +15,7 @@
     <string name="banner_id">ca-app-pub-4783454866533768/8497938330</string>
 
     <string name="subjects">subjects</string>
-    <string name="subjects_text">Выберите предмет, для которого вы хотите пройти тестирование:</string>
+    <string name="subjects_text">Выберите предмет для теста:</string>
     <string name="themes_text">Выберите тему теста:</string>
     <string name="mode_text">Выберите режим тестирования:</string>
 
@@ -25,7 +25,7 @@
 
     <string name="text_mistakes_1">Всего в тесте вопросов:</string>
     <string name="text_mistakes_2">вопросов.</string>
-    <string name="text_mistales_set">Выберите количество вопросов, которые будут в режиме тестирования:</string>
+    <string name="text_mistales_set">Выберите количество вопросов для тестирования</string>
 
     <string name="commit_settings_text">Начать тест</string>
 
@@ -34,7 +34,7 @@
     <string name="fragment_unchosen">Невыбранные правильные</string>
 
     <string name="button_next">Далее</string>
-    <string name="button_next_colors">Показать правильные</string>
+    <string name="button_next_colors">Проверить</string>
     <string name="button_save">Сохранить и выйти</string>
 
     <string name="color_green">#7FFF00</string>

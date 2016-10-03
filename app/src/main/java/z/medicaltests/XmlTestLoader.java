@@ -70,13 +70,13 @@ class XmlTestLoader {
                     int id = Integer.parseInt(ID);
                     boolean flag = false;
 
-                    Log.v(TAG, "ОШИБКА " + Integer.toString(mass.length));
+                    //Log.v(TAG, "ОШИБКА " + Integer.toString(mass.length));
                     for (int j = 0; j < mass.length; j++) {
 
-                        Log.v(TAG, "ОШИБКА2 " + Integer.toString(id) + " " + Integer.toString(mass[j]));
+                        //Log.v(TAG, "ОШИБКА2 " + Integer.toString(id) + " " + Integer.toString(mass[j]));
                         if (mass[j] == id) {
                             flag = true;
-                            Log.v(TAG, "ОШИБКА3 " + Integer.toString(id));
+                            //Log.v(TAG, "ОШИБКА3 " + Integer.toString(id));
                         }
 
                         if (flag) break;

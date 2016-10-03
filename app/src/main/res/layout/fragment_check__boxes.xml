@@ -9,7 +9,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/check_box_layout"
-        android:gravity="center_vertical"></LinearLayout>
+        android:id="@+id/check_box_layout" />
 
 </FrameLayout>

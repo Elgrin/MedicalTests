@@ -12,7 +12,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/linear_layout"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="15dp">
 
 
             <TextView
@@ -20,7 +21,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/exercise_number"
                 android:layout_gravity="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginBottom="5dp" />
 
             <View
                 android:id="@+id/view1"
@@ -32,13 +34,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/exercise_text"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:gravity="center"
+                android:padding="5dp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
 
             <FrameLayout
                 android:id="@+id/fragment_frame"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"></FrameLayout>
+                android:layout_weight="1" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -52,7 +62,8 @@
                     android:textSize="20sp"
                     android:layout_alignStart="@+id/button_save"
                     android:layout_alignEnd="@+id/button_save"
-                    android:id="@+id/button_next" />
+                    android:id="@+id/button_next"
+                    android:padding="25dp" />
 
                 <Button
                     android:layout_width="wrap_content"
@@ -61,7 +72,8 @@
                     android:layout_below="@+id/button_next"
                     android:layout_centerHorizontal="true"
                     android:textSize="20sp"
-                    android:id="@+id/button_save" />
+                    android:id="@+id/button_save"
+                    android:padding="25dp" />
 
             </RelativeLayout>
 

@@ -2,7 +2,7 @@
 <themes>
     <properties it="themes"></properties>
     <item test="cells"> Цитология </item>
-    <item test=""> Генетика </item>
+    <item test="genes">Генетика</item>
     <item test=""> Онтогенез </item>
     <item test=""> Протозоология </item>
     <item test=""> Гельминтология </item>

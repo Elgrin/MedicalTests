@@ -2,11 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ButtonMenu">
+    tools:context=".ButtonMenu"
+    android:padding="15dp">
 
    <RelativeLayout
        android:layout_width="match_parent"
-       android:layout_height="match_parent">
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical">
 
 
        <Button
@@ -14,7 +16,10 @@
            android:layout_height="wrap_content"
            android:id="@+id/allQuestions"
            android:text="@string/button_all_questions"
-           android:layout_centerHorizontal="true"/>
+           android:layout_centerHorizontal="true"
+           android:layout_alignStart="@+id/ExamMode"
+           android:layout_alignEnd="@+id/ExamMode"
+           android:padding="45dp" />
 
        <Button
            android:layout_width="wrap_content"
@@ -22,7 +27,8 @@
            android:id="@+id/ExamMode"
            android:layout_below="@id/allQuestions"
            android:text="@string/button_exam_mode"
-           android:layout_centerHorizontal="true"/>
+           android:layout_centerHorizontal="true"
+           android:padding="45dp" />
 
        <TextView
            android:layout_width="wrap_content"

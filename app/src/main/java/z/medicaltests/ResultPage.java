@@ -69,7 +69,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         textView.setText("Получено баллов: "
                 + Double.toString(Result)
                 + " из "
-                + Integer.toString(All));
+                + Double.toString(All));
     }
 
     @Override
@@ -86,6 +86,10 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
+
+        super.onSaveInstanceState(outState);
+        //setRetainInstance(true);
+
         outState.putInt("all", All);
         outState.putDouble("result", Result);
     }

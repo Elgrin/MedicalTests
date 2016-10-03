@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size="136">
+<quize size="271">
 	<question id="1" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
 		<item flag="1">Обмена веществ</item>
@@ -64,7 +64,7 @@
 		<item flag="1">Бактерии</item>
 		<item flag="0">Мхи</item>
 		<item flag="1">Цианобактерии</item>
-		<item flag="1">Синезелёные водоросли</item>
+		<item flag="1">Сине-зелёные водоросли</item>
 	</question>
 	<question id="9" size="5" type="1">
 		<text>Размножение у прокариот сопровождается</text>
@@ -99,7 +99,7 @@
 		<item flag="1">Имеет цитозоль</item>
 	</question>
 	<question id="13" size="5" type="1">
-		<text>В клеточной стенке прокариот присутсвует</text>
+		<text>В клеточной стенке прокариот присутствует</text>
 		<item flag="0">Целлюлоза</item>
 		<item flag="1">Муреин</item>
 		<item flag="1">Псевдомуреин</item>
@@ -171,7 +171,7 @@
 		<item flag="0">Осуществляют эктоцитоз</item>
 	</question>
 	<question id="22" size="5" type="1">
-		<text>Функции перефирических белков плазматической мембраны</text>
+		<text>Функции перифирических белков плазматической мембраны</text>
 		<item flag="0">Транспортируют воду и гидрофильные молекулы</item>
 		<item flag="1">Являются ферментами</item>
 		<item flag="0">Осуществляют активный транспорт</item>
@@ -182,7 +182,7 @@
 		<text>Функции полуинтегральных белков</text>
 		<item flag="1">Являются ферментами</item>
 		<item flag="0">Обеспечивают межклеточные взаимодействия</item>
-		<item flag="1">Осушествляют активный транспорт</item>
+		<item flag="1">Осуществляют активный транспорт</item>
 		<item flag="1">Транспортируют воду и другие гидрофильные молекулы</item>
 		<item flag="0">Участвуют в эктоцитозе</item>
 	</question>
@@ -195,7 +195,7 @@
 		<item flag="1">Имеет цитозоль</item>
 	</question>
 	<question id="25" size="5" type="1">
-		<text>Цитосклет это</text>
+		<text>Цитосклет - это</text>
 		<item flag="0">Лизосомы</item>
 		<item flag="1">Микротрубочки</item>
 		<item flag="1">Микрофиламенты</item>
@@ -245,7 +245,7 @@
 	<question id="31" size="5" type="1">
 		<text>Шероховатая ЭПС выполняет функции</text>
 		<item flag="1">Транспорта веществ внутри клетки</item>
-		<item flag="0">Зашитную</item>
+		<item flag="0">Защитную</item>
 		<item flag="1">Синтеза белков</item>
 		<item flag="0">Синтеза углеводов</item>
 		<item flag="0">Аутолиза органелл</item>
@@ -310,7 +310,7 @@
 		<text>Функции лизосом</text>
 		<item flag="0">Синтез белков</item>
 		<item flag="0">Синтез углеводов</item>
-		<item flag="1">Участвие во внутриклеточном пищеварении</item>
+		<item flag="1">Участие во внутриклеточном пищеварении</item>
 		<item flag="1">Аутолиз органелл</item>
 		<item flag="0">Синтез РНК</item>
 	</question>
@@ -347,7 +347,7 @@
 		<item flag="0">Фагосомы</item>
 	</question>
 	<question id="44" size="5" type="1">
-		<text>Центральные вакуоли присутсвуют в цитоплазме клеток</text>
+		<text>Центральные вакуоли присутствуют в цитоплазме клеток</text>
 		<item flag="0">Бактерий</item>
 		<item flag="0">Животных</item>
 		<item flag="0">Амеб</item>
@@ -359,7 +359,7 @@
 		<item flag="1">Синтеза АТФ</item>
 		<item flag="1">Дыхания клеток</item>
 		<item flag="1">Синтеза белков</item>
-		<item flag="0">Дления клетки</item>
+		<item flag="0">Деления клетки</item>
 		<item flag="0">Синтеза сложных углеводов</item>
 	</question>
 	<question id="46" size="5" type="1">
@@ -472,7 +472,7 @@
 		<item flag="0">Ферментативную</item>
 		<item flag="0">Транспортную</item>
 		<item flag="1">Хранение генетической информации</item>
-		<item flag="0">Запасаюшую</item>
+		<item flag="0">Запасающую</item>
 	</question>
 	<question id="60" size="5" type="1">
 		<text>Нуклеиновые кислоты выполняют функции</text>
@@ -523,7 +523,7 @@
 		<item flag="0">Вакуолях</item>
 	</question>
 	<question id="66" size="5" type="1">
-		<text>Процессы окислительного фосфорилирования в лекте протекают в</text>
+		<text>Процессы окислительного фосфорилирования в клетке протекают в</text>
 		<item flag="0">Цитоплазме</item>
 		<item flag="0">Рибосомах</item>
 		<item flag="0">Хлоропластах</item>
@@ -627,7 +627,7 @@
 		<item flag="1">Репликация</item>
 		<item flag="0">Процессы выполнения специфических функций</item>
 		<item flag="0">Процессы клеточной дифференцировки</item>
-		<item flag="1">Деспирализацию ДНК</item>
+		<item flag="1">Деспирализация ДНК</item>
 	</question>
 	<question id="79" size="5" type="1">
 		<text>Митотический цикл включает</text>
@@ -654,7 +654,7 @@
 		<item flag="0">Деспирализация ДНК наблюдается в профазе</item>
 	</question>
 	<question id="82" size="5" type="1">
-		<text>В клетках высших растений, делящихся митозом отсутствуют</text>
+		<text>В клетках высших растений, делящихся митозом, отсутствуют</text>
 		<item flag="0">Веретено деления</item>
 		<item flag="1">Перетяжка в телофазе митоза</item>
 		<item flag="1">Центриоли</item>
@@ -846,7 +846,7 @@
 		<item flag="1">Анафазе II</item>
 	</question>
 	<question id="106" size="5" type="1">
-		<text>В процессе андрогенеза организм развиватеся из</text>
+		<text>В процессе андрогенеза организм развивается из</text>
 		<item flag="0">Сперматозоида</item>
 		<item flag="0">Яйцеклетки</item>
 		<item flag="0">Зиготы</item>
@@ -856,7 +856,7 @@
 	<question id="107" size="5" type="1">
 		<text>Бесполое размножение у одноклеточных организмов</text>
 		<item flag="1">Митоз</item>
-		<item flag="1">Споробразование</item>
+		<item flag="1">Спорообразование</item>
 		<item flag="1">Шизогония</item>
 		<item flag="1">Бинарное равновеликое поперечное деление</item>
 		<item flag="1">Почкование</item>
@@ -878,7 +878,7 @@
 		<item flag="0">Анафазы II</item>
 	</question>
 	<question id="110" size="5" type="1">
-		<text>При партеногенезе организм развиватеся из</text>
+		<text>При партеногенезе организм развивается из</text>
 		<item flag="0">Сперматозоида</item>
 		<item flag="1">Яйцеклетки</item>
 		<item flag="0">Зиготы</item>
@@ -929,8 +929,8 @@
 		<text>В сперматогенезе клетки называют сперматидами в период</text>
 		<item flag="0">Размножения</item>
 		<item flag="0">Роста</item>
-		<item flag="0">Созревания(редукционной деление)</item>
-		<item flag="1">Созревания(эквационной деление)</item>
+		<item flag="0">Созревания (редукционной деление)</item>
+		<item flag="1">Созревания (эквационной деление)</item>
 		<item flag="0">Формирования</item>
 	</question>
 	<question id="117" size="5" type="1">
@@ -992,8 +992,8 @@
 	<question id="124" size="5" type="1">
 		<text>В сперматогенезе клетки называют сперматозоидами в период</text>
 		<item flag="0">Размножения</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 		<item flag="1">Формирования</item>
 		<item flag="0">Роста</item>
 	</question>
@@ -1010,35 +1010,35 @@
 		<item flag="0">Роста</item>
 		<item flag="1">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="127" size="5" type="1">
 		<text>В сперматогенезе клетки называют сперматоцитами I порядка в период</text>
 		<item flag="1">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="128" size="5" type="1">
 		<text>В сперматогенезе клетки называют сперматоцитами II порядка в период</text>
 		<item flag="0">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="1">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="1">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="129" size="5" type="1">
 		<text>В овогенезе отсутствует период</text>
 		<item flag="0">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="1">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="130" size="5" type="1">
-		<text>Феномен, определяющиц запуск механизма клеточного деления</text>
+		<text>Феномен, определяющий запуск механизма клеточного деления</text>
 		<item flag="0">Удвоение ДНК</item>
 		<item flag="0">Спирализация ДНК</item>
 		<item flag="0">Деспирализация ДНК</item>
@@ -1050,36 +1050,36 @@
 		<item flag="0">Роста</item>
 		<item flag="1">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="132" size="5" type="1">
 		<text>В овогенезе клетки называют овотидами в период</text>
 		<item flag="0">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="1">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="1">Созревания (эквационное деление)</item>
 	</question>
 	<question id="133" size="5" type="1">
-		<text>В овогенезе клеки называют овоцитами I порядка в период</text>
+		<text>В овогенезе клетки называют овоцитами I порядка в период</text>
 		<item flag="1">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="0">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="134" size="5" type="1">
-		<text>В овогенезе клеки называют овоцитами II порядка в период</text>
+		<text>В овогенезе клетки называют овоцитами II порядка в период</text>
 		<item flag="0">Роста</item>
 		<item flag="0">Размножения</item>
 		<item flag="0">Формирования</item>
-		<item flag="1">Созревания(редукционное деление)</item>
-		<item flag="0">Созревания(эквационное деление)</item>
+		<item flag="1">Созревания (редукционное деление)</item>
+		<item flag="0">Созревания (эквационное деление)</item>
 	</question>
 	<question id="135" size="5" type="1">
 		<text>Генетический материал описан формулой nc для</text>
-		<item flag="1">Спертамозоида</item>
+		<item flag="1">Сперматозоида</item>
 		<item flag="0">Сперматоцита I порядка</item>
 		<item flag="1">Овотиды</item>
 		<item flag="0">Овогония</item>
@@ -1087,11 +1087,1136 @@
 	</question>
 	<question id="136" size="5" type="1">
 		<text>Генетический материал описан формулой n2c для</text>
-		<item flag="0">Спертамозоида</item>
+		<item flag="0">Сперматозоида</item>
 		<item flag="1">Овоцита II порядка</item>
 		<item flag="0">Сперматогония</item>
 		<item flag="1">Сперматоцита II порядка</item>
 		<item flag="0">Сперматоцита I порядка</item>
+	</question>
+	<question id="137" size="5" type="1">
+		<text>Генетический материал описан формулой 2n2c для</text>
+		<item flag="0">Сперматозоида</item>
+		<item flag="0">Овоцита II порядка</item>
+		<item flag="1">Сперматогония</item>
+		<item flag="0">Сперматоцита II порядка</item>
+		<item flag="0">Сперматоцита I порядка</item>
+	</question>
+	<question id="138" size="5" type="1">
+		<text>Генетический материал описан формулой 2n2c для</text>
+		<item flag="1">Овогония</item>
+		<item flag="0">Сперматиды</item>
+		<item flag="0">Овоцита I порядка</item>
+		<item flag="0">Овотиды</item>
+		<item flag="0">Овоцита II порядка</item>
+	</question>
+	<question id="139" size="5" type="1">
+		<text>Кариотип - это совокупность</text>
+		<item flag="0">Генов соматической клетки организма</item>
+		<item flag="1">Хромосом соматической клетки организма</item>
+		<item flag="0">Признаков организма</item>
+		<item flag="0">Клеток организма</item>
+		<item flag="0">Хромосом половой клетки</item>
+	</question>
+	<question id="140" size="5" type="1">
+		<text>Геном - это</text>
+		<item flag="0">Набор генов соматической клетки</item>
+		<item flag="1">Набор генов половой клетки</item>
+		<item flag="0">Диплоидный набор хромосом человека</item>
+		<item flag="1">Гаплоидный набор хромосом сперматозоида</item>
+		<item flag="1">Гаплоидный набор хромосом яйцеклетки</item>
+	</question>
+	<question id="141" size="5" type="1">
+		<text>В кариотипе мужского организма</text>
+		<item flag="0">Все хромосомы парные</item>
+		<item flag="1">Парные только аутосомы</item>
+		<item flag="0">Половые хромосомы - гомологичные</item>
+		<item flag="1">Половые хромосомы - негомологичные</item>
+		<item flag="1">24 группы сцепления</item>
+	</question>
+	<question id="142" size="5" type="1">
+		<text>В кариотипе женского организма</text>
+		<item flag="1">Все хромосомы парные</item>
+		<item flag="0">Парные только аутосомы</item>
+		<item flag="1">Половые хромосомы - гомологичные</item>
+		<item flag="0">Половые хромосомы - негомологичные</item>
+		<item flag="1">23 группы сцепления</item>
+	</question>
+	<question id="143" size="5" type="1">
+		<text>Первые эукариоты появились на Земле в эру</text>
+		<item flag="0">Кайнозойскую</item>
+		<item flag="0">Мезозойскую</item>
+		<item flag="0">Палеозойскую</item>
+		<item flag="1">Докембрийскую</item>
+		<item flag="0">Архейскую</item>
+	</question>
+	<question id="144" size="5" type="1">
+		<text>Наиболее древними эукариотами являются</text>
+		<item flag="1">Жгутиковые</item>
+		<item flag="0">Споровики</item>
+		<item flag="0">Ресничные</item>
+		<item flag="0">Саркодовые</item>
+		<item flag="0">Инфузории</item>
+	</question>
+	<question id="145" size="5" type="1">
+		<text>Первыми живыми организмами на Земле были</text>
+		<item flag="0">Фотосинтетики</item>
+		<item flag="0">Хемосинтетики</item>
+		<item flag="1">Гетеротрофы</item>
+		<item flag="0">Паразиты</item>
+		<item flag="0">Сапрофиты</item>
+	</question>
+	<question id="146" size="5" type="1">
+		<text>Хемосинтезирующие бактерии для получения энергии окисляют поступающие из внешней
+			среды
+		</text>
+		<item flag="0">Органические вещества</item>
+		<item flag="0">Биополимеры</item>
+		<item flag="1">Неорганические соединения</item>
+		<item flag="1">Газы</item>
+		<item flag="0">Органические мономеры</item>
+	</question>
+	<question id="147" size="5" type="1">
+		<text>Вирусным генетическим материалом является</text>
+		<item flag="0">Только ДНК</item>
+		<item flag="0">ДНК и РНК</item>
+		<item flag="0">Только РНК</item>
+		<item flag="1">ДНК или РНК</item>
+		<item flag="0">Капсид</item>
+	</question>
+	<question id="148" size="3" type="1">
+		<text>Макроэлементами живых организмов являются</text>
+		<item flag="0">H, C, O, Zn, I, S, K</item>
+		<item flag="1">O, C, H, S, P, Ca, N, Cl</item>
+		<item flag="0">C, H, O, S, Cl, Cu, K</item>
+	</question>
+	<question id="149" size="5" type="1">
+		<text>Первичная структура белка определяется</text>
+		<item flag="0">Только количеством аминокислотных остатков</item>
+		<item flag="0">Видами аминокислот</item>
+		<item flag="0">Последовательностью аминокислот</item>
+		<item flag="1">Количеством и последовательностью аминокислотных остатков</item>
+		<item flag="0">Взаимодействиями между аминокислотами</item>
+	</question>
+	<question id="150" size="5" type="1">
+		<text>Вторичная структура белка обеспечивается</text>
+		<item flag="1">Водородными связями</item>
+		<item flag="0">Дисульфидными связями</item>
+		<item flag="0">Пептидными связями</item>
+		<item flag="0">Гидрофобными взаимодействиями</item>
+		<item flag="0">Электростатическими связями</item>
+	</question>
+	<question id="151" size="5" type="1">
+		<text>Четвертичная структура белка обеспечивается</text>
+		<item flag="0">Пептидными связями</item>
+		<item flag="0">Водородными связями</item>
+		<item flag="0">Дисульфидными связями</item>
+		<item flag="1">Соединением нескольких полипептидов</item>
+		<item flag="1">Электростатическими связями</item>
+	</question>
+	<question id="152" size="5" type="1">
+		<text>Аминокислотные остатки в полипептиде последовательно соединены в помощью ... связей
+		</text>
+		<item flag="0">Водородных</item>
+		<item flag="0">Дисульфидных</item>
+		<item flag="1">Пептидных</item>
+		<item flag="1">Ковалентных</item>
+		<item flag="0">Гидрофобных</item>
+	</question>
+	<question id="153" size="5" type="1">
+		<text>Разница в порядке аминокислот в молекулах белков организмов разных видов
+			определяется
+		</text>
+		<item flag="0">Потребляемой пищей</item>
+		<item flag="0">Видом транспортной РНК</item>
+		<item flag="0">Строением хромосомы</item>
+		<item flag="1">Структурой генов</item>
+		<item flag="0">Набором ферментов</item>
+	</question>
+	<question id="154" size="5" type="1">
+		<text>Функциями белков являются</text>
+		<item flag="1">Транспортная</item>
+		<item flag="0">Хранение генетической информации</item>
+		<item flag="1">Энергетическая</item>
+		<item flag="1">Регуляторная</item>
+		<item flag="1">Защитная</item>
+	</question>
+	<question id="155" size="5" type="1">
+		<text>Функциями углеводов являются</text>
+		<item flag="0">Транспортная</item>
+		<item flag="0">Защитная</item>
+		<item flag="1">Энергетическая</item>
+		<item flag="0">Ферментативная</item>
+		<item flag="1">Структурная</item>
+	</question>
+	<question id="156" size="5" type="1">
+		<text>Гликоген является резервным углеводом</text>
+		<item flag="1">Животных</item>
+		<item flag="0">Растений</item>
+		<item flag="0">Бактерий</item>
+		<item flag="1">Грибов</item>
+		<item flag="1">Человека</item>
+	</question>
+	<question id="157" size="5" type="1">
+		<text>Функциями жиров являются</text>
+		<item flag="1">Энергетическая</item>
+		<item flag="0">Транспортная</item>
+		<item flag="1">Защитная</item>
+		<item flag="1">Запасная</item>
+		<item flag="1">Структурная</item>
+	</question>
+	<question id="158" size="5" type="1">
+		<text>Структуру ДНК расшифровали</text>
+		<item flag="0">Г. Мендель</item>
+		<item flag="0">Т. Морган</item>
+		<item flag="0">Н. Вавилов</item>
+		<item flag="1">Ф. Крик</item>
+		<item flag="1">Д. Уотсон</item>
+	</question>
+	<question id="159" size="5" type="1">
+		<text>Комплементарные пары нуклеотидов в ДНК удерживаются</text>
+		<item flag="1">Водородными связями</item>
+		<item flag="0">Ковалентными связями</item>
+		<item flag="0">Гидрофобными связями</item>
+		<item flag="0">Пептидными связями</item>
+		<item flag="0">Дисульфидными мостиками</item>
+	</question>
+	<question id="160" size="5" type="1">
+		<text>Диаметр двойной спирали ДНК составляет примерно</text>
+		<item flag="0">100 нм</item>
+		<item flag="0">20 нм</item>
+		<item flag="0">10 нм</item>
+		<item flag="1">2 нм</item>
+		<item flag="0">3,4 нм</item>
+	</question>
+	<question id="161" size="5" type="1">
+		<text>Функциями транспортной РНК являются</text>
+		<item flag="0">Транспорт нуклеотидов</item>
+		<item flag="0">Синтез и-РНК</item>
+		<item flag="1">Участие в синтезе полипептидов</item>
+		<item flag="1">Узнавание кодонов и-РНК</item>
+		<item flag="1">Транспорт аминокислот</item>
+	</question>
+	<question id="162" size="5" type="1">
+		<text>Участок молекулы т-РНК, комплементарный кодону и-РНК, называется</text>
+		<item flag="0">Ген</item>
+		<item flag="0">Триплет</item>
+		<item flag="0">Генетический код</item>
+		<item flag="1">Антикодон</item>
+		<item flag="0">Акцептор</item>
+	</question>
+	<question id="163" size="5" type="1">
+		<text>Для синтеза т-РНК в эукариотической клетке необходимы следующие компоненты</text>
+		<item flag="1">ДНК</item>
+		<item flag="1">Нуклеотиды</item>
+		<item flag="0">и-РНК</item>
+		<item flag="1">РНК-полимераза</item>
+		<item flag="0">Кодаза</item>
+	</question>
+	<question id="164" size="5" type="1">
+		<text>АТФ - это</text>
+		<item flag="0">Углевод</item>
+		<item flag="0">Аминокислота</item>
+		<item flag="0">Белок</item>
+		<item flag="1">Нуклеотид</item>
+		<item flag="0">Липид</item>
+	</question>
+	<question id="165" size="3" type="1">
+		<text>Лейкопласты - это пластиды</text>
+		<item flag="0">Содержащие зеленый пигмент и находящиеся в клетках листьев и других зеленых
+			органов растений
+		</item>
+		<item flag="0">Содержащие желтые, оранжевые, красные пигменты и находящиеся в клетках
+			цветков и плодов
+		</item>
+		<item flag="1">Не содержащие пигментов и находящиеся в клетках некоторых органов растений
+			(или в клетках растений)
+		</item>
+	</question>
+	<question id="166" size="5" type="1">
+		<text>Тонопласт представляет собой</text>
+		<item flag="0">Клеточную стенку</item>
+		<item flag="1">Мембрану вакуоли растительной клетки</item>
+		<item flag="0">Жидкость, заполняющую вакуоль</item>
+		<item flag="0">Клеточную стенку бактерий</item>
+		<item flag="0">Разновидность пластид</item>
+	</question>
+	<question id="167" size="5" type="1">
+		<text>Прокариотическими организмами являются</text>
+		<item flag="0">Зеленый водоросли</item>
+		<item flag="0">Простейшие</item>
+		<item flag="1">Бактерии</item>
+		<item flag="1">Цианобактерии</item>
+		<item flag="0">Грибы</item>
+	</question>
+	<question id="168" size="10" type="1">
+		<text>В состав прокариотической клетки входят</text>
+		<item flag="1">Рибосомы</item>
+		<item flag="1">Цитоплазма</item>
+		<item flag="0">Ядро</item>
+		<item flag="1">Мезосомы</item>
+		<item flag="1">Плазмамолемма</item>
+		<item flag="1">Клеточная стенка</item>
+		<item flag="0">Митохондрии</item>
+		<item flag="0">Эндоплазмическая сеть</item>
+		<item flag="0">Лизосомы</item>
+		<item flag="0">Цитоскелет</item>
+	</question>
+	<question id="169" size="5" type="1">
+		<text>Клетка прокариот отличается от клетки эукариот отсутствием</text>
+		<item flag="0">Клеточной стенки</item>
+		<item flag="1">Пластид</item>
+		<item flag="1">Митохондрий</item>
+		<item flag="1">Мембран</item>
+		<item flag="1">Ядра, окруженного двойной мембраной</item>
+	</question>
+	<question id="170" size="5" type="1">
+		<text>Роцесс хемосинтеза открыл</text>
+		<item flag="0">Р. Хилл</item>
+		<item flag="0">М. Кальвин</item>
+		<item flag="0">В. Вернадский</item>
+		<item flag="1">С. Виноградский</item>
+		<item flag="0">К. Тимирязев</item>
+	</question>
+	<question id="171" size="5" type="1">
+		<text>Хемосинтезирующими автотрофами являются</text>
+		<item flag="0">Грибы</item>
+		<item flag="1">Нитратные бактерии</item>
+		<item flag="1">Нитритные бактерии</item>
+		<item flag="0">Водоросли</item>
+		<item flag="1">Серобактерии</item>
+	</question>
+	<question id="172" size="5" type="1">
+		<text>Неклеточными организмами являются</text>
+		<item flag="0">Простейшие</item>
+		<item flag="1">Вирусы</item>
+		<item flag="0">Бактерии</item>
+		<item flag="0">Сине-зелёные водоросли</item>
+		<item flag="1">Фаги</item>
+	</question>
+	<question id="173" size="5" type="1">
+		<text>Вирусы были открыты</text>
+		<item flag="1">Д. Ивановским</item>
+		<item flag="0">Ф. Туортом</item>
+		<item flag="0">А. Виноградовым</item>
+		<item flag="0">М. Шлейденом</item>
+		<item flag="0">Р. Гуком</item>
+	</question>
+	<question id="174" size="5" type="1">
+		<text>Фаги паразитируют в клетках</text>
+		<item flag="0">Простейших</item>
+		<item flag="1">Бактерий</item>
+		<item flag="0">Плоских червей</item>
+		<item flag="0">Низших растений</item>
+		<item flag="0">Животных</item>
+	</question>
+	<question id="175" size="5" type="1">
+		<text>Общим для всех клеточных мембран является</text>
+		<item flag="1">Липопротеидное строение</item>
+		<item flag="0">Состав липидов</item>
+		<item flag="0">Состав белков</item>
+		<item flag="0">Одинаковый поверхностный электрический заряд</item>
+		<item flag="0">Состав гликокаликса</item>
+	</question>
+	<question id="176" size="5" type="1">
+		<text>Пассивным транспортом ионов и молекул через цитоплазматическую мембрану является
+		</text>
+		<item flag="0">Эктоцитоз</item>
+		<item flag="0">Пиноцитоз</item>
+		<item flag="1">Осмос</item>
+		<item flag="1">Облегченная диффузия</item>
+		<item flag="0">Фагоцитоз</item>
+	</question>
+	<question id="177" size="5" type="1">
+		<text>Транспортировать вещества через цитоплазматическую мембрану путем пиноцитоза способны
+			клетки
+		</text>
+		<item flag="0">Растений</item>
+		<item flag="1">Животных</item>
+		<item flag="0">Грибов</item>
+		<item flag="0">Бактерий</item>
+		<item flag="0">Вирусов</item>
+	</question>
+	<question id="178" size="5" type="1">
+		<text>На внутренней поверхности клеточной мембраны сосредоточены</text>
+		<item flag="0">HCO(3)-</item>
+		<item flag="0">K+</item>
+		<item flag="1">Na+</item>
+		<item flag="0">COOH-</item>
+		<item flag="0">АТФ</item>
+	</question>
+	<question id="179" size="5" type="1">
+		<text>Ионы К+ транспортируются через цитоплазматическую мембрану в клетку посредством</text>
+		<item flag="0">Диффузии</item>
+		<item flag="0">Осмоса</item>
+		<item flag="1">Активного транспорта</item>
+		<item flag="0">Эндоцитоза</item>
+		<item flag="0">Эктоцитоза</item>
+	</question>
+	<question id="180" size="5" type="1">
+		<text>В состав клеточной мембраны могут входить все соединения, кроме</text>
+		<item flag="0">Фосфолипидов</item>
+		<item flag="0">Холестерина</item>
+		<item flag="1">Гликозоаминогликанов</item>
+		<item flag="0">Белков-ферментов</item>
+		<item flag="0">Белков-переносчиков</item>
+	</question>
+	<question id="181" size="5" type="1">
+		<text>Специфичность функций биологических мембран обеспечена</text>
+		<item flag="0">Липидным составом</item>
+		<item flag="0">Поверхностным зарядом</item>
+		<item flag="1">Белками и углеводами</item>
+		<item flag="0">pH среды</item>
+		<item flag="0">Насыщением среды кислородом</item>
+	</question>
+	<question id="182" size="5" type="1">
+		<text>К самовоспроизведению способны органеллы</text>
+		<item flag="0">Рибосомы</item>
+		<item flag="1">Митохондрии</item>
+		<item flag="1">Центриоли</item>
+		<item flag="1">Пластиды</item>
+		<item flag="0">Комплекс Гольджи</item>
+	</question>
+	<question id="183" size="5" type="1">
+		<text>Специфической структурой митохондрии являются</text>
+		<item flag="0">Тилактоиды</item>
+		<item flag="0">Граны</item>
+		<item flag="1">Кристы</item>
+		<item flag="0">Диктиосомы</item>
+		<item flag="0">Ламеллы</item>
+	</question>
+	<question id="184" size="5" type="1">
+		<text>Методом синтеза рибосомальной РНК является</text>
+		<item flag="0">Эндоплазматическая сеть</item>
+		<item flag="0">Цитозоль</item>
+		<item flag="1">Ядрышко</item>
+		<item flag="0">Рибосома</item>
+		<item flag="0">Центросома</item>
+	</question>
+	<question id="185" size="5" type="1">
+		<text>Непостоянными структурами эукариотической клетки являются</text>
+		<item flag="0">Рибосомы</item>
+		<item flag="1">Ядрышко</item>
+		<item flag="1">Включения</item>
+		<item flag="0">Комплекс Гольджи</item>
+		<item flag="0">Центросома</item>
+	</question>
+	<question id="186" size="5" type="1">
+		<text>Немембранными органеллами клетки являются</text>
+		<item flag="0">Лизосомы</item>
+		<item flag="1">Рибосомы</item>
+		<item flag="0">Комплекс Гольджи</item>
+		<item flag="1">Центросома</item>
+		<item flag="1">Микрофиламенты</item>
+	</question>
+	<question id="187" size="5" type="1">
+		<text>Специфическими структурами хлоропласта являются</text>
+		<item flag="1">Тилакоиды</item>
+		<item flag="0">Кристы</item>
+		<item flag="1">Граны</item>
+		<item flag="0">Диктиосомы</item>
+		<item flag="1">Ламеллы</item>
+	</question>
+	<question id="188" size="5" type="1">
+		<text>Эндоплазматическая сеть - это система</text>
+		<item flag="0">Микротрубочек</item>
+		<item flag="0">Канальцев и цистерн</item>
+		<item flag="0">Мелких вакуолей</item>
+		<item flag="0">Диктиосом</item>
+		<item flag="1">Мембран</item>
+	</question>
+	<question id="189" size="3" type="1">
+		<text>Эндоплазматическая сеть обеспечивает</text>
+		<item flag="1">Транспорт органических веществ</item>
+		<item flag="1">Синтез белков</item>
+		<item flag="1">Синтез углеводов и липидов</item>
+	</question>
+	<question id="190" size="5" type="1">
+		<text>Ферментативные системы, участвующие в жировом и углеводном обмене, находятся на
+			мембранах
+		</text>
+		<item flag="1">Гладкой эндоплазматической сети</item>
+		<item flag="0">Шероховатой эндоплазматической сети</item>
+		<item flag="1">Митохондрий</item>
+		<item flag="0">Пластид</item>
+		<item flag="0">Цитоскелета</item>
+	</question>
+	<question id="191" size="3" type="1">
+		<text>Размер функционального центра рибосомы соответствует</text>
+		<item flag="0">Одному триплету нуклеотидов</item>
+		<item flag="1">Двум триплетам нуклеотидов</item>
+		<item flag="0">Нескольким триплетам нуклеотидов</item>
+	</question>
+	<question id="192" size="5" type="1">
+		<text>Ядрышко участвует в</text>
+		<item flag="0">Энергетическом обмене</item>
+		<item flag="0">Синтезе ДНК</item>
+		<item flag="0">Организации деления клетки</item>
+		<item flag="1">Формировании рибосом</item>
+		<item flag="0">Формировании ахроматинового веретена</item>
+	</question>
+	<question id="193" size="5" type="1">
+		<text>Клеточный центр необходим для</text>
+		<item flag="0">Синтеза белка</item>
+		<item flag="0">Энергетического обмена</item>
+		<item flag="0">Образования клеточных мембран</item>
+		<item flag="1">Деления клетки</item>
+		<item flag="0">Распределения органелл</item>
+	</question>
+	<question id="194" size="5" type="1">
+		<text>Функции аппарата Гольджи заключаются в</text>
+		<item flag="1">Накоплении белков для последующего их выведения</item>
+		<item flag="0">Синтезе белков и последующем их выведении</item>
+		<item flag="0">Накоплении белков и последующем их расщеплении</item>
+		<item flag="0">Синтезе белков и последующем их расщеплении</item>
+		<item flag="1">Образовании гликопротеинов</item>
+	</question>
+	<question id="195" size="5" type="1">
+		<text>Комплекс Гольджи участвует в ряде процессов, кроме</text>
+		<item flag="0">Образования лизосом</item>
+		<item flag="0">Образования белково-полисахарных комплексов</item>
+		<item flag="1">Обезвреживания перекисей</item>
+		<item flag="0">Накопления секретов</item>
+		<item flag="0">Выведения секретов</item>
+	</question>
+	<question id="196" size="5" type="1">
+		<text>Выведение веществ из клетки через пузырьки комплекса Гольджи происходит путем</text>
+		<item flag="0">Осмоса</item>
+		<item flag="1">Активного транспорта</item>
+		<item flag="0">Облегченной диффузии</item>
+		<item flag="1">Экзоцитоза</item>
+		<item flag="0">Эндоцитоза</item>
+	</question>
+	<question id="197" size="5" type="1">
+		<text>Главная функция лейкопластов заключается в</text>
+		<item flag="0">Осуществлении фотосинтеза</item>
+		<item flag="0">Предотвращении потери воды через стебель</item>
+		<item flag="1">Запасании крахмала</item>
+		<item flag="0">Запасании гликолитических ферментов</item>
+		<item flag="0">Синтезе белков</item>
+	</question>
+	<question id="198" size="5" type="1">
+		<text>Факторами, позволяющими митохондриям быть "энергетическими станциями" клетки,
+			являются
+		</text>
+		<item flag="1">Наличие на внутренней мембране молекул - переносчиков кислорода</item>
+		<item flag="1">Наличие крист</item>
+		<item flag="0">Непроницаемость митохондриальной мембраны для ионов</item>
+		<item flag="0">Наличие плазмид</item>
+		<item flag="1">АТФ-сомы на ножках</item>
+	</question>
+	<question id="199" size="5" type="1">
+		<text>Сложные структуры молекулы белка формируются в</text>
+		<item flag="0">Рибосомах</item>
+		<item flag="1">Матриксе цитоплазмы</item>
+		<item flag="0">Каналах гладкой эндоплазматической сети</item>
+		<item flag="0">Каналах шероховатой эндоплазматической</item>
+		<item flag="0">Диктиосомах аппарата Гольджи</item>
+	</question>
+	<question id="200" size="5" type="1">
+		<text>Липиды образуются в</text>
+		<item flag="1">Гладкой ЭПС</item>
+		<item flag="0">Гранулярной ЭПС</item>
+		<item flag="0">Комплексе Гольджи</item>
+		<item flag="0">Лизосомах</item>
+		<item flag="0">Митохондриях</item>
+	</question>
+	<question id="201" size="5" type="1">
+		<text>От избыточного накопления жиров, углеводов и метаболитов клетку предохраняют</text>
+		<item flag="0">Митохондрии</item>
+		<item flag="0">Гладкая ЭПС</item>
+		<item flag="0">Гранулярная ЭПС</item>
+		<item flag="0">Комплекс Гольджи</item>
+		<item flag="1">Лизосомы</item>
+	</question>
+	<question id="202" size="5" type="1">
+		<text>Пищеварительной вакуолью в животной клетке называют</text>
+		<item flag="0">Пиноцитозный пузырек</item>
+		<item flag="0">Лизосому</item>
+		<item flag="0">Фагосому</item>
+		<item flag="1">Слившиеся фагосому с лизосомой</item>
+		<item flag="0">Остаточное тельце</item>
+	</question>
+	<question id="203" size="5" type="1">
+		<text>Новые митохондрии в клетке образуются в результате фрагментации</text>
+		<item flag="0">Комплекса Гольджи</item>
+		<item flag="0">Гладкой ЭПС</item>
+		<item flag="0">Гранулярной ЭПС</item>
+		<item flag="1">Митохондрий</item>
+		<item flag="0">Ядрышка</item>
+	</question>
+	<question id="204" size="4" type="1">
+		<text>Новые центриоли перед делением клетки образуются</text>
+		<item flag="0">Почкованием материнских</item>
+		<item flag="1">Путем образования процентриоли рядом с материнской</item>
+		<item flag="0">В комплексе Гольджи</item>
+		<item flag="0">В гранулярной ЭПС</item>
+	</question>
+	<question id="205" size="5" type="1">
+		<text>Субъединицы рибосом образуются в</text>
+		<item flag="0">Гладкой ЭПС</item>
+		<item flag="0">Гранулярной ЭПС</item>
+		<item flag="0">Комплексе Гольджи</item>
+		<item flag="1">Ядрышковых организаторах</item>
+		<item flag="0">Результате почкования материнских рибосом</item>
+	</question>
+	<question id="206" size="5" type="1">
+		<text>Новые хлоропласты образуются в результате фрагментации</text>
+		<item flag="0">Комплекса Гольджи</item>
+		<item flag="0">Гладкой ЭПС</item>
+		<item flag="0">Гранулярной ЭПС</item>
+		<item flag="1">Хлоропластов</item>
+		<item flag="0">Ядрышка</item>
+	</question>
+	<question id="207" size="5" type="1">
+		<text>Белки внутриклеточных мембран синтезируются в</text>
+		<item flag="1">Гранулярной ЭПС</item>
+		<item flag="0">Гладкой ЭПС</item>
+		<item flag="0">Комплексе Гольджи</item>
+		<item flag="1">Рибосомах</item>
+		<item flag="0">Ядрышках</item>
+	</question>
+	<question id="208" size="5" type="1">
+		<text>К включениям животной клетки относят</text>
+		<item flag="0">Пигменты</item>
+		<item flag="1">Гликоген</item>
+		<item flag="1">Крахмал</item>
+		<item flag="1">Капли жира</item>
+		<item flag="0">Волютин</item>
+	</question>
+	<question id="209" size="5" type="1">
+		<text>Аутосомы одной клетки могут отличаться</text>
+		<item flag="1">Формой</item>
+		<item flag="1">Размерами</item>
+		<item flag="1">Наборами генов</item>
+		<item flag="1">Расположением центромеры</item>
+		<item flag="1">Химическим составом</item>
+	</question>
+	<question id="210" size="5" type="1">
+		<text>Хроматидами называют</text>
+		<item flag="0">Деспирализованные хромосомы</item>
+		<item flag="0">Перетяжки в хромосомах</item>
+		<item flag="1">Половинки хромосом, расходящиеся во время митоза</item>
+		<item flag="0">Слившиеся гомологичные хромосомы</item>
+		<item flag="0">Спутниковые хромосомы</item>
+	</question>
+	<question id="211" size="5" type="1">
+		<text>Нуклеосома - это</text>
+		<item flag="0">Рибосома в составе полисомы</item>
+		<item flag="0">Комплекс и-РНК с белком</item>
+		<item flag="1">Петля ДНК вокруг молекул гистонов</item>
+		<item flag="0">Участок ДНК, связанный с РНК-полимерами</item>
+		<item flag="0">Малая субъединица рибосомы</item>
+	</question>
+	<question id="212" size="5" type="1">
+		<text>В хонах первичных перетяжек митотических хромосом находятся</text>
+		<item flag="0">Теломеры</item>
+		<item flag="0">Ядрышковые организаторы</item>
+		<item flag="1">Кинетохоры</item>
+		<item flag="0">Нуклеосомы</item>
+		<item flag="0">Спутники хромосом</item>
+	</question>
+	<question id="213" size="5" type="1">
+		<text>Гетерохроматин, видимый в ядре при световой микроскопии, является участком хромосомы,
+			содержащим
+		</text>
+		<item flag="0">Активные гены</item>
+		<item flag="1">Неактивные гены</item>
+		<item flag="0">Ядрышковый организатор</item>
+		<item flag="0">Скопление рибонуклеопротеидов</item>
+		<item flag="1">Спирализованную ДНК</item>
+	</question>
+	<question id="214" size="3" type="1">
+		<text>В синтетическом периоде интерфазы митотического цикла происходит</text>
+		<item flag="1">Синтез РНК, синтез белков, синтез ДНК</item>
+		<item flag="0">Синтез РНК, увеличение количества рибосом, увеличение количества митохондрий,
+			синтез белка, рост клетки
+		</item>
+		<item flag="0">Синтез белков микротрубочек, накопление АТФ</item>
+	</question>
+	<question id="215" size="3" type="1">
+		<text>В постсинтетическом периоде интерфазы митотического цикла происходит</text>
+		<item flag="0">Синтез РНК, синтез белков, синтез ДНК</item>
+		<item flag="0">Синтез РНК, увеличение количества рибосом, увеличение количества митохондрий,
+			синтез белка, рост клетки
+		</item>
+		<item flag="1">Синтез белков микротрубочек, накопление АТФ</item>
+	</question>
+	<question id="216" size="3" type="1">
+		<text>Хроматиды одной хромосомы после репликации ДНК содержат</text>
+		<item flag="1">Идентичные молекулы ДНК</item>
+		<item flag="0">Разные молекулы ДНК</item>
+		<item flag="0">Частично разные молекулы ДНК</item>
+	</question>
+	<question id="217" size="5" type="1">
+		<text>Стволовые клетки различных тканей находятся в фазе</text>
+		<item flag="1">G0</item>
+		<item flag="0">G1</item>
+		<item flag="0">G2</item>
+		<item flag="0">S</item>
+		<item flag="0">Митоза</item>
+	</question>
+	<question id="218" size="5" type="1">
+		<text>В процессе митоза спирализация ДНК происходит в</text>
+		<item flag="1">Профазе</item>
+		<item flag="1">Прометафазе</item>
+		<item flag="0">Метафазе</item>
+		<item flag="0">Анафазе</item>
+		<item flag="0">Телофазе</item>
+	</question>
+	<question id="219" size="5" type="1">
+		<text>В процессе митоза ядерная мембрана исчезает в</text>
+		<item flag="1">Профазе</item>
+		<item flag="0">Прометафазе</item>
+		<item flag="0">Метафазе</item>
+		<item flag="0">Анафазе</item>
+		<item flag="0">Телофазе</item>
+	</question>
+	<question id="220" size="3" type="1">
+		<text>В телофазе митоза происходит</text>
+		<item flag="0">Укорочение и утолщение хромосом, образование нитей веретена, формирование
+			двух полюсов деления клетки, исчезновение ядерной мембраны
+		</item>
+		<item flag="0">Разделение центромерных районов хроматид каждой хромосомы, движение хроматид
+			к полюсам клетки
+		</item>
+		<item flag="1">Восстановление ядерных оболочек вокруг собравшихся у полюсов хромосом</item>
+	</question>
+	<question id="221" size="5" type="1">
+		<text>В процессе митоза хромосомы располагаются на экваторе клетки в</text>
+		<item flag="0">Профазе</item>
+		<item flag="1">Метафазе</item>
+		<item flag="0">Анафазе</item>
+		<item flag="0">Телофазе</item>
+		<item flag="0">Интерфазе</item>
+	</question>
+	<question id="222" size="3" type="1">
+		<text>В профазе митоза происходит</text>
+		<item flag="0">Прикрепление к центромерам хромосом микротрубочек веретена деления и
+			распределение хромосом на экваторе клетки
+		</item>
+		<item flag="1">Укорочение и утолщение ДНК, образование нитей веретена, формирование двух
+			полюсов деления клетки, исчезновение ядерной мембраны
+		</item>
+		<item flag="0">Разделение центромерных районов хроматид каждой хромосомы, движение хроматид
+			к полючам клетки
+		</item>
+	</question>
+	<question id="223" size="3" type="1">
+		<text>В процессе цитокинеза происходит</text>
+		<item flag="0">Разделение центромерных районов хроматид каждой хромосомы, движение хроматид
+			к полюсам клетки
+		</item>
+		<item flag="0">Формирование ядерных оболочек вокруг собравшихся у полюсов хромосом</item>
+		<item flag="1">Формирование цитоплазматической мембраны дочерних клеток</item>
+	</question>
+	<question id="224" size="5" type="1">
+		<text>Формирование ядерной мембраны в процессе митоза происходит в</text>
+		<item flag="0">Профазе</item>
+		<item flag="0">Прометафазе</item>
+		<item flag="0">Метафазе</item>
+		<item flag="0">Анафазе</item>
+		<item flag="1">Телофазе</item>
+	</question>
+	<question id="225" size="4" type="1">
+		<text>В анафазе митоза</text>
+		<item flag="0">ДНК спирализуется и утолщается</item>
+		<item flag="0">Хромосомы располагаются в экваториальной плоскости</item>
+		<item flag="0">Формируется веретено деления</item>
+		<item flag="1">Дочерние хромосомы движутся к полюсам клетки</item>
+	</question>
+	<question id="226" size="5" type="1">
+		<text>Число хромосом в анафазе диплоидной клетки составляет</text>
+		<item flag="0">n</item>
+		<item flag="0">2n</item>
+		<item flag="1">4n</item>
+		<item flag="0">2c</item>
+		<item flag="0">8n</item>
+	</question>
+	<question id="227" size="5" type="1">
+		<text>Самая короткая по времени стадия митоза - это</text>
+		<item flag="0">Профаза</item>
+		<item flag="0">Метафаза</item>
+		<item flag="1">Анафаза</item>
+		<item flag="0">Телофаза</item>
+		<item flag="0">Интерфваза</item>
+	</question>
+	<question id="228" size="6" type="1">
+		<text>Мейотическое деление происходит в процессе</text>
+		<item flag="1">Конъюгации инфузорий</item>
+		<item flag="0">Шизогонии</item>
+		<item flag="0">Почкования</item>
+		<item flag="0">Бинарного деления</item>
+		<item flag="1">Размножения с оплодотворением</item>
+		<item flag="0">Фрагментации</item>
+	</question>
+	<question id="229" size="5" type="1">
+		<text>Кроссинговер НЕ происходит в процессе</text>
+		<item flag="1">Митоза</item>
+		<item flag="0">Мейоза</item>
+		<item flag="1">Оплодотворения</item>
+		<item flag="1">Партеногенеза</item>
+		<item flag="1">Эндомитоза</item>
+	</question>
+	<question id="230" size="6" type="1">
+		<text>Расхождение гомологичных хромосм к полюсам клетки происходит в</text>
+		<item flag="0">Профазе мейоза</item>
+		<item flag="0">Профазе митоза</item>
+		<item flag="1">Метафазе I мейоза</item>
+		<item flag="0">Метафазе митоза</item>
+		<item flag="0">Анафазе I мейоза</item>
+		<item flag="0">Анафазе II мейоза</item>
+	</question>
+	<question id="231" size="5" type="1">
+		<text>В процессе мейоза кроссинговер происходит в</text>
+		<item flag="0">Анафазе I</item>
+		<item flag="0">Телофазе I</item>
+		<item flag="0">Метафазе I</item>
+		<item flag="1">Профазе I</item>
+		<item flag="0">Интеркинезе</item>
+	</question>
+	<question id="232" size="4" type="1">
+		<text>Хроматиды становятся дочерними хромосомами в</text>
+		<item flag="0">Профазе митоза</item>
+		<item flag="1">Анафазе митоза</item>
+		<item flag="0">Метафазе митоза</item>
+		<item flag="1">Анафазе II мейоза</item>
+	</question>
+	<question id="233" size="6" type="1">
+		<text>Расхождение дочерних хромосом к полюсам клетки происходит в</text>
+		<item flag="0">Профазе I мейоза</item>
+		<item flag="0">Профазе митоза</item>
+		<item flag="0">Анафазе I мейоза</item>
+		<item flag="1">Анафазе II мейоза</item>
+		<item flag="1">Анафазе митоза</item>
+		<item flag="0">Телофазе митоза</item>
+	</question>
+	<question id="234" size="5" type="1">
+		<text>Разделение центромерных районов хромосм в процессе мейоза происходит в</text>
+		<item flag="0">Метафазе I</item>
+		<item flag="0">Метафазе II</item>
+		<item flag="0">Анафазе I</item>
+		<item flag="1">Анафазе II</item>
+		<item flag="0">Теловазе</item>
+	</question>
+	<question id="235" size="4" type="1">
+		<text>Мейотическое деление в процессе гаметогенеза происходит в период</text>
+		<item flag="0">Формирования</item>
+		<item flag="0">Роста</item>
+		<item flag="1">Созревания</item>
+		<item flag="0">Размножения</item>
+	</question>
+	<question id="236" size="7" type="1">
+		<text>Клеткой, с которой начинается процесс оогенеза, является</text>
+		<item flag="0">Ооцит 1-го порядка</item>
+		<item flag="1">Оогоний</item>
+		<item flag="0">Ооцит 2-го порядка</item>
+		<item flag="0">1-е направительное тельце</item>
+		<item flag="0">Оотида</item>
+		<item flag="0">2-е направительное тельце</item>
+		<item flag="0">Яйцеклетка</item>
+	</question>
+	<question id="237" size="5" type="1">
+		<text>Характеристика первого редукционного тельца</text>
+		<item flag="0">Набор n2c, большой объем цитоплазмы, клетка стадии созревания</item>
+		<item flag="1">Набор n2c, клетка стадии созревания, малый объем цитоплазмы</item>
+		<item flag="1">Клетка яичника, набор nc, малый объем цитоплазмы</item>
+		<item flag="0">Набор n2c, клетка стадии роста, крупные размеры</item>
+		<item flag="0">Набор nc, клетка стадии созревания, овуляция при созревании</item>
+	</question>
+	<question id="238" size="5" type="1">
+		<text>Характеристика яйцеклетки млекопитающих</text>
+		<item flag="0">Набор nc, большой объем цитоплазмы, образование из оогониев</item>
+		<item flag="0">Набор nc, наличие акросомы, неподвижность</item>
+		<item flag="1">Набор nc, формирование в яичниках, большой объем цитоплазмы</item>
+		<item flag="0">Набор n2c, наличие желтка, крупные размеры</item>
+		<item flag="0">Набор 2n2c, выделение гиногамонов, овуляция при созревании</item>
+	</question>
+	<question id="239" size="5" type="1">
+		<text>В яйцеклетке млекопитающих отсутствует</text>
+		<item flag="0">Ядро</item>
+		<item flag="0">Митохондрии</item>
+		<item flag="0">Комплекс Гольджи</item>
+		<item flag="1">Клеточный центр</item>
+		<item flag="0">Эндоплазматическая сеть</item>
+	</question>
+	<question id="240" size="5" type="1">
+		<text>В процессе размножения от родителей к потомкам передаются</text>
+		<item flag="1">Гены</item>
+		<item flag="0">Гены и признаки</item>
+		<item flag="0">Признаки</item>
+		<item flag="0">Характер</item>
+		<item flag="0">Клетки</item>
+	</question>
+	<question id="241" size="5" type="1">
+		<text>Тип размножения земноводных</text>
+		<item flag="0">Партеногенез</item>
+		<item flag="1">Размножение с оплодотворением</item>
+		<item flag="0">Конъюгация</item>
+		<item flag="0">Спорообразование</item>
+		<item flag="0">Андрогенез</item>
+	</question>
+	<question id="242" size="9" type="1">
+		<text>Основными чертами бесполого размножения являются</text>
+		<item flag="1">Одна родительская особь</item>
+		<item flag="0">Потомство генетически уникально</item>
+		<item flag="1">Гаметы не образуются</item>
+		<item flag="0">Основной клеточный механизм - мейоз</item>
+		<item flag="1">Потомство генетически идентично</item>
+		<item flag="0">Две родительские особи</item>
+		<item flag="1">Основной клеточный механизм - митоз</item>
+		<item flag="0">Характерна генотипическая изменичивость</item>
+		<item flag="0">Образование специализированных клеток - гамет</item>
+	</question>
+	<question id="243" size="12" type="1">
+		<text>Формами полового размножения являются</text>
+		<item flag="0">Множественной деление</item>
+		<item flag="1">Партеногенез</item>
+		<item flag="1">Андрогенез</item>
+		<item flag="0">Почкование</item>
+		<item flag="0">Бинарное деление</item>
+		<item flag="0">Спорогония</item>
+		<item flag="1">С оплодотворением</item>
+		<item flag="0">Вегетативное размножение</item>
+		<item flag="0">Фрагментация</item>
+		<item flag="1">Изогамия</item>
+		<item flag="1">Анизогамия</item>
+		<item flag="1">Оогамия</item>
+	</question>
+	<question id="244" size="5" type="1">
+		<text>Впервые партеногенез описал</text>
+		<item flag="0">Н. Вавилов</item>
+		<item flag="0">Б. Астауров</item>
+		<item flag="1">А. Тихомиров</item>
+		<item flag="0">Г. Карпеченко</item>
+		<item flag="0">К. Скрябин</item>
+	</question>
+	<question id="245" size="5" type="1">
+		<text>Промышленный способ получения партеногенетического потомства тутового шелкопряда
+			разработал
+		</text>
+		<item flag="0">Н. Вавилов</item>
+		<item flag="1">Б. Астауров</item>
+		<item flag="0">А. Тихомиров</item>
+		<item flag="0">Г. Карпеченко</item>
+		<item flag="0">Д. Ивановский</item>
+	</question>
+	<question id="246" size="5" type="1">
+		<text>Партогенетически размножаются</text>
+		<item flag="0">Гидры</item>
+		<item flag="0">Бычьи цепни</item>
+		<item flag="0">Дождевые черви</item>
+		<item flag="1">Пчелы</item>
+		<item flag="1">Муравьи</item>
+	</question>
+	<question id="247" size="5" type="1">
+		<text>Соответствие одной аминокислоте в полипептиде трем последовательно расположенным
+			нуклеотидам в РНК называется
+		</text>
+		<item flag="0">Однозначностью</item>
+		<item flag="0">Вырожденностью</item>
+		<item flag="1">Триплетностью</item>
+		<item flag="0">Коллинсарностью</item>
+		<item flag="0">Линейностью</item>
+	</question>
+	<question id="248" size="5" type="1">
+		<text>Кодирование одной аминокислоты более чем одним триплетом генетического кода
+			называется
+		</text>
+		<item flag="0">Триплетностью</item>
+		<item flag="1">Вырожденностью</item>
+		<item flag="0">Универсальностью</item>
+		<item flag="1">Избыточностью</item>
+		<item flag="0">Терминацией</item>
+	</question>
+	<question id="249" size="5" type="1">
+		<text>Число вариантов ДНК, кодирующих структуру полипептидов, равно</text>
+		<item flag="0">1</item>
+		<item flag="0">3</item>
+		<item flag="0">20</item>
+		<item flag="1">61</item>
+		<item flag="0">64</item>
+	</question>
+	<question id="250" size="5" type="1">
+		<text>Число вариантов антикодонов т-РНК равно</text>
+		<item flag="0">1</item>
+		<item flag="0">3</item>
+		<item flag="1">20</item>
+		<item flag="0">61</item>
+		<item flag="0">64</item>
+	</question>
+	<question id="251" size="5" type="1">
+		<text>Информация о синтезе одной молекулы белка содержится в</text>
+		<item flag="0">Триплете ДНК</item>
+		<item flag="1">Гене</item>
+		<item flag="0">Молекуле ДНК</item>
+		<item flag="0">Рибосоме</item>
+		<item flag="0">Хромосоме</item>
+	</question>
+	<question id="252" size="5" type="1">
+		<text>Матрицей для синтеза полипептида служит</text>
+		<item flag="1">Информативная цепь ДНК</item>
+		<item flag="0">Информационная РНК</item>
+		<item flag="0">Транспортная РНК</item>
+		<item flag="0">Проматричная РНК</item>
+		<item flag="1">Кодогенная цепь ДНК</item>
+	</question>
+	<question id="253" size="5" type="1">
+		<text>Транскрипцией у эукариот называют</text>
+		<item flag="0">Считывание информации с ДНК на и-РНК</item>
+		<item flag="0">Присоединение аминокислоты к т-РНК</item>
+		<item flag="0">Синтез р-РНК</item>
+		<item flag="1">Синтез белковой молекулы</item>
+		<item flag="0">Считывание информации с ДНК на про-м-РНК</item>
+	</question>
+	<question id="254" size="5" type="1">
+		<text>Трансляцией называется</text>
+		<item flag="0">Считывание информации с ДНК на и-РНК</item>
+		<item flag="0">Присоединение аминокислоты к т-РНК</item>
+		<item flag="1">Синтез молекулы полипептида</item>
+		<item flag="0">Синтез различных биополимеров</item>
+		<item flag="0">Синтез р-РНК</item>
+	</question>
+	<question id="255" size="5" type="1">
+		<text>В трансляции участвует</text>
+		<item flag="1">Информационная РНК</item>
+		<item flag="0">ДНК</item>
+		<item flag="0">Рибосомальная РНК</item>
+		<item flag="1">Транспортная РНК</item>
+		<item flag="0">про-м-РНК</item>
+	</question>
+	<question id="256" size="5" type="1">
+		<text>Процесс трансляции происходит в</text>
+		<item flag="0">Ядре</item>
+		<item flag="1">Рибосомах</item>
+		<item flag="0">Комплексе Гольджи</item>
+		<item flag="0">Цитоплазме</item>
+		<item flag="0">Центросомах</item>
+	</question>
+	<question id="257" size="5" type="1">
+		<text>Последовательность нуклеотид и-РНК комплементарна последовательности нуклеотидов
+		</text>
+		<item flag="0">двух цепей ДНК</item>
+		<item flag="1">Одной из цепей ДНК</item>
+		<item flag="0">молекул т-РНК</item>
+		<item flag="0">про-м-РНК</item>
+		<item flag="0">Рибосомальной РНК</item>
+	</question>
+	<question id="258" size="5" type="1">
+		<text>Функция ДНК в синтезе белка заключается в передаче информации в процессе</text>
+		<item flag="1">Транскрипции</item>
+		<item flag="0">Траснляции</item>
+		<item flag="0">Синтеза т-РНК</item>
+		<item flag="0">Синтеза р-РНК</item>
+		<item flag="0">Рекогниции</item>
+	</question>
+	<question id="259" size="5" type="1">
+		<text>Время, требуемое для синтеза одной молекулы белка (200-300 аминокислот), составляет
+		</text>
+		<item flag="0">Менее одной секунды</item>
+		<item flag="0">Несколько секунд</item>
+		<item flag="0">1-2 минуты</item>
+		<item flag="0">10-15 минут</item>
+		<item flag="1">Один час</item>
+	</question>
+	<question id="260" size="5" type="1">
+		<text>В эукариотической клетке РНК-полимераза необходима для</text>
+		<item flag="0">Образования пептидных связей</item>
+		<item flag="0">Образования фосфодиэфирных связей</item>
+		<item flag="1">Синтеза и-РНК</item>
+		<item flag="0">Считывания информации с 5-3 цепи ДНК</item>
+		<item flag="1">Считывания информации с 3-5 цепи ДНК</item>
+	</question>
+	<question id="261" size="5" type="1">
+		<text>При отсутствии кислорода в мышечной клетке пировиноградная кислота, образовавшаяся из
+			глюкозы
+		</text>
+		<item flag="0">Расщепляется до C02 и H2O</item>
+		<item flag="1">Восстанавливается до молочной кислоты</item>
+		<item flag="0">Превращается в глюкозу</item>
+		<item flag="0">Превращается в C02 и спирт</item>
+		<item flag="0">Превращается в гликоген</item>
+	</question>
+	<question id="262" size="5" type="1">
+		<text>При наличии кислорода в клетке пировиноградная кислота</text>
+		<item flag="1">Расщепляется до C02 и H2O</item>
+		<item flag="0">Восстанавливается до молочной кислоты</item>
+		<item flag="0">Восстанавливается до глюкозы</item>
+		<item flag="0">превращается в гликоген</item>
+		<item flag="0">Превращается в C02 и спирт</item>
+	</question>
+	<question id="263" size="5" type="1">
+		<text>Акцепторами электронов в клетке являются</text>
+		<item flag="1">Кислород</item>
+		<item flag="0">НАД+</item>
+		<item flag="0">НАДФ+</item>
+		<item flag="0">АТФ</item>
+		<item flag="0">ФАД+</item>
+	</question>
+	<question id="264" size="5" type="1">
+		<text>Наибольшее количество молекул АТФ образуется в процессе</text>
+		<item flag="0">Анаэробного гликолиза</item>
+		<item flag="0">Цикла Кребса</item>
+		<item flag="0">Превращения глюкозы в пируват</item>
+		<item flag="1">Окислительного фосфорилирования</item>
+		<item flag="0">Фотосинтеза</item>
+	</question>
+	<question id="265" size="6" type="1">
+		<text>В результате анаэробного окисления одной молекулы глюкозы при гликолизе образуется
+		</text>
+		<item flag="1">2 молекулы АТФ</item>
+		<item flag="0">4 молекулы АТФ</item>
+		<item flag="0">34 молекулы АТФ</item>
+		<item flag="0">38 молекул АТФ</item>
+		<item flag="1">2 молекулы пировиноградной кислоты</item>
+		<item flag="0">2 молекулы НАДФ H2</item>
+	</question>
+	<question id="266" size="5" type="1">
+		<text>Молекулы АТФ образуются в процессах</text>
+		<item flag="0">Подготовительного этапа метаболизма</item>
+		<item flag="1">Диссимиляции</item>
+		<item flag="0">Ассимиляции</item>
+		<item flag="1">Световой фазы фотосинтеза</item>
+		<item flag="0">Темновой фазы фотосинтеза</item>
+	</question>
+	<question id="267" size="5" type="1">
+		<text>Энергетический этап обмена вещесвт у анаэробных организмов состоит их процессов</text>
+		<item flag="1">Гликолиза</item>
+		<item flag="1">Брожения</item>
+		<item flag="0">Цикла Кребса</item>
+		<item flag="0">Дыхательной цепи</item>
+		<item flag="0">Цикла лимонной кислоты</item>
+	</question>
+	<question id="268" size="5" type="1">
+		<text>Цепь переноса электронов расположена</text>
+		<item flag="1">Во внутренней мембране митохондрий</item>
+		<item flag="0">Матриксе митохондрий</item>
+		<item flag="0">В цитоплазме клетки</item>
+		<item flag="0">В наружной мембране митохондрий</item>
+		<item flag="0">В рибосомах</item>
+	</question>
+	<question id="269" size="5" type="1">
+		<text>Ферменты цикла Кребса в митохондрии расположены</text>
+		<item flag="1">В матриксе</item>
+		<item flag="0">На кристах</item>
+		<item flag="0">В рибосомах</item>
+		<item flag="0">В АТФ-сомах</item>
+		<item flag="0">На мембранах</item>
+	</question>
+	<question id="270" size="5" type="1">
+		<text>Процесс гликолиза идет в</text>
+		<item flag="0">Клетках всех организмов</item>
+		<item flag="1">Клетках животных и некоторых бактерий</item>
+		<item flag="0">Клетках растений</item>
+		<item flag="0">Только в клетках животных</item>
+		<item flag="0">Вирусных частицах</item>
+	</question>
+	<question id="271" size="5" type="1">
+		<text>Процесс гликолиза идет в</text>
+		<item flag="0">На мембранах гладкой ЭПС</item>
+		<item flag="0">На мембранах шероховатой ЭПС</item>
+		<item flag="1">В гиалоплазме</item>
+		<item flag="0">В аппарате Гольджи</item>
+		<item flag="0">На кристах митохондрий</item>
 	</question>
 
 
@@ -1117,7 +2242,7 @@
 		<child pair="2">а) Синтез АТФ</child>
 		<child pair="1">б) Синтез белка</child>
 		<child pair="7">в) Синтез нуклеиновых кислот</child>
-		<child pair="5">г) Расщеплние макромоекул</child>
+		<child pair="5">г) Расщепление макромолекул</child>
 		<child pair="4">д) Фотосинтез</child>
 		<child pair="3">е) Формирование веретена деления</child>
 		<child pair="6">ж) Формирование лизосом</child>

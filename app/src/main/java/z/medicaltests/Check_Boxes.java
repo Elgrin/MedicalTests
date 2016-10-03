@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 
 import java.math.BigDecimal;
@@ -21,7 +22,8 @@ import java.math.RoundingMode;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Check_Boxes extends Fragment implements View.OnClickListener {
+public class Check_Boxes extends Fragment implements View.OnClickListener,
+        CheckBox.OnCheckedChangeListener {
 
 
     protected TestStructure Question;
@@ -151,19 +153,37 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
 
 
     @Override
-    public void onClick(View view) {
-        int v = view.getId();
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
-        CheckBox box = (CheckBox) view.findViewById(v);
-        Boxes[v].setChecked(box.isChecked());
-        Checked[v] = box.isChecked();
+        int v = buttonView.getId();
+        Boxes[v].setChecked(buttonView.isChecked());
+        Checked[v] = (buttonView.isChecked());
+
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public void onClick(View view) {
 
+        /*
+        Log.v(TAG, "Abayo");
+        View c = getView();
+        int v = view.getId();
+
+        CheckBox box = (CheckBox) c.findViewById(v);
+        Boxes[v].setChecked(box.isChecked());
+        Checked[v] = box.isChecked();
+
+        for(int i = 0; i  < Options.length; i++) {
+            Log.v(TAG, "CHECKED " + Boolean.toString(Checked[i]));
+            CheckBox box_2 = (CheckBox) c.findViewById(i);
+            Log.v(TAG, "CHECKBOXES " + Boolean.toString(box_2.isChecked()));
+            Log.v(TAG, "CHECKBOXES " + box_2.getText());
+        }*/
+    }
+
+
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         if (savedInstanceState != null) {
             Options = savedInstanceState.getStringArray("options");
             Flags = savedInstanceState.getBooleanArray("flags");
@@ -183,7 +203,11 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
             //Log.v(TAG, "Haha2 " + Integer.toString(Boxes.length));
 
         }
-
+    }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_check__boxes, container, false);
     }
 
@@ -203,10 +227,10 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
         layout.removeAllViews();
 
         CheckBox checkBoxes[] = new CheckBox[Question.getOptions().length];
-        View v_0 = new View(getActivity());
-        v_0.setMinimumHeight(1);
-        v_0.setBackgroundColor(Color.GRAY);
-        layout.addView(v_0);
+        //View v_0 = new View(getActivity());
+        // v_0.setMinimumHeight(1);
+        //v_0.setBackgroundColor(Color.GRAY);
+        //layout.addView(v_0);
 
 
         View[] v = new View[Question.getOptions().length];
@@ -221,7 +245,9 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
             checkBoxes[i].setText(Options[i]);
             checkBoxes[i].setTextSize(20);
             checkBoxes[i].setId(i);
+            //checkBoxes[i].setGravity(Gravity.FILL_HORIZONTAL);
             Log.v(TAG, "CHECKED " + Boolean.toString(Checked[i]));
+
             try {
                 checkBoxes[i].setChecked(Checked[i]);
             } catch (Exception e) {
@@ -246,6 +272,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
                 //checkBoxes[i].setBackgroundColor(BackGroundColor[i]);
                 Log.v(TAG, "CHECKBOXES " + Boolean.toString(checkBoxes[i].isChecked()));
             } catch (Exception e) {
+
             }
             try {
                 checkBoxes[i].setEnabled(Boxes[i].isEnabled());
@@ -253,14 +280,28 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
             }
 
             checkBoxes[i].setOnClickListener(this);
+            checkBoxes[i].setOnCheckedChangeListener(this);
+
 
             v[i].setMinimumHeight(1);
             v[i].setBackgroundColor(Color.GRAY);
             layout.addView(checkBoxes[i]);
             layout.addView(v[i]);
+            Log.v(TAG, Options[i]);
         }
 
         Boxes = checkBoxes;
+
+        /*
+        TextView text_1 = new TextView(getActivity());
+        TextView text_2 = new TextView(getActivity());
+
+
+        text_1.setText("Cjgkb d yjg");
+        text_2.setText("sifnskjdnflsdg");
+
+        layout.addView(text_1);
+        layout.addView(text_2);*/
     }
 
     public class CheckBoxesParcerable implements Parcelable {
@@ -348,5 +389,6 @@ public class Check_Boxes extends Fragment implements View.OnClickListener {
         savedInstanceState.putIntArray("backgroundcolor", BackGroundColor);
 
     }
+
 
 }
