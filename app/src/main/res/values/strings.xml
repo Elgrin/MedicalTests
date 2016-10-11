@@ -4,14 +4,16 @@
     <string name="statisctics">Статистика</string>
     <string-array name="menu">
         <item>Тесты</item>
-        <item>Загрузить сохранённые</item>
+        <item>Закладки</item>
         <item>Статистика</item>
         <item>О приложении</item>
     </string-array>
 
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Заново</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete_all">Удалить все</string>
     <string name="banner_id">ca-app-pub-4783454866533768/8497938330</string>
 
     <string name="subjects">subjects</string>
@@ -43,5 +45,7 @@
 
     <string name="result_page_text">Итоги:</string>
     <string name="result_page_button">Перейти к предметам</string>
+
+
 
 </resources>

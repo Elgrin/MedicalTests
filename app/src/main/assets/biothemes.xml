@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
     <properties it="themes"></properties>
-    <item test="cells"> Цитология </item>
+    <item test="cells">Цитология</item>
     <item test="genes">Генетика</item>
-    <item test=""> Онтогенез </item>
-    <item test=""> Протозоология </item>
-    <item test=""> Гельминтология </item>
-    <item test=""> Арахноэнтомология </item>
-    <item test=""> Филогенез </item>
-    <item test=""> Эволюционное учение </item>
-    <item test=""> Антропогенез+Экология </item>
+    <item test="ontogenesis">Онтогенез</item>
+    <item test="">Протозоология</item>
+    <item test="">Гельминтология</item>
+    <item test="">Арахноэнтомология</item>
+    <item test="">Филогенез</item>
+    <item test="">Эволюционное учение</item>
+    <item test="">Антропогенез+Экология</item>
 </themes>
 
 	

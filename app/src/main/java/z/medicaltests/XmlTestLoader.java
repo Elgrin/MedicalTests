@@ -22,6 +22,8 @@ class XmlTestLoader {
     private String size;
     private TestStructure Questions[];
     private static final String TAG = "TestLoader";
+    private String Path;
+    private String Name;
     XmlTestLoader(String fileName, AssetManager assetManager) {
         FileName = fileName;
         try{
@@ -54,6 +56,13 @@ class XmlTestLoader {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(is);
+
+            NodeList quize = doc.getElementsByTagName("quize");
+            Node node = quize.item(0);
+            Element el = (Element) node;
+            Path = el.getAttribute("file");
+            Name = el.getAttribute("name");
+
 
             NodeList nList = doc.getElementsByTagName("question");
 
@@ -156,6 +165,8 @@ class XmlTestLoader {
         return iSize;
     }
     public String getS() {return size;}
+    public String getPath() {return Path;}
+    public String getName() {return Name;}
 
     TestStructure[] getTestStructure() {
         return Questions;

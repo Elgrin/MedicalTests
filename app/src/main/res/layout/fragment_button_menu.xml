@@ -19,14 +19,17 @@
            android:layout_centerHorizontal="true"
            android:layout_alignStart="@+id/ExamMode"
            android:layout_alignEnd="@+id/ExamMode"
+           android:background="@drawable/outline"
            android:padding="45dp" />
 
        <Button
+           android:layout_marginTop="10dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:id="@+id/ExamMode"
            android:layout_below="@id/allQuestions"
            android:text="@string/button_exam_mode"
+           android:background="@drawable/outline"
            android:layout_centerHorizontal="true"
            android:padding="45dp" />
 

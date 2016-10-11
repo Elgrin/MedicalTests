@@ -37,7 +37,6 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
         XmlTestLoader loader = new XmlTestLoader(message, assetManager);
         Size = loader.getSize();
         this.Text = Text;
-
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -79,6 +78,12 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
         super.onAttach(context);
         this.listener = (ButtonMenuListener) context;
         Log.v(TAG, "Context");
+    }
+
+    @Override
+    public  void onDetach() {
+        super.onDetach();
+        listener = null;
     }
 
     @Override

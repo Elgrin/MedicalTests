@@ -129,6 +129,11 @@ public class XmlReader extends Fragment{
         this.listener = (XmlReaderListener) context;
 
     }
+    @Override
+    public  void onDetach() {
+        super.onDetach();
+        listener = null;
+    }
 
 
     public String[] GetFileName() {return Files;}

@@ -106,6 +106,12 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         this.listener = (TestSettings.TestSettingsListener) context;
         Log.v(TAG, "Context");
     }
+    @Override
+    public  void onDetach() {
+        super.onDetach();
+        listener = null;
+    }
+
 
     @Override
     public void onSaveInstanceState(Bundle outState) {

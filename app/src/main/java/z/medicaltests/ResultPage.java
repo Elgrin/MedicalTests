@@ -85,9 +85,15 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     }
 
     @Override
+    public  void onDetach() {
+        super.onDetach();
+        listener = null;
+    }
+
+    @Override
     public void onSaveInstanceState(Bundle outState) {
 
-        super.onSaveInstanceState(outState);
+        //super.onSaveInstanceState(outState);
         //setRetainInstance(true);
 
         outState.putInt("all", All);

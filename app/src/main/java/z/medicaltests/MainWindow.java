@@ -10,6 +10,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,7 +25,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         ButtonMenu.ButtonMenuListener,
         TestSettings.TestSettingsListener,
         TestFragmentCheckBox.TestFragmentCheckBoxListener,
-        ResultPage.ResultPageListener {
+        ResultPage.ResultPageListener,
+        TestFragmentCheckBox.TestFragmentBarListener{
 
     //Переменные для заполнения выдвижной панели
 
@@ -32,10 +34,48 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     private ActionBarDrawerToggle drawerToggle;
     private DrawerLayout drawerLayout;
     private static final String TAG = "MAIN";
+    private boolean MenuFlag = false;
 
-    //
     private String[] titles;
     private int currentPosition = 0;
+
+    public void BarDrawerTrue(boolean MenuFlag) {
+        this.MenuFlag = MenuFlag;
+        invalidateOptionsMenu();
+    }
+
+    public void BarDrawer(String Name, String Path, TestStructure Questions[],boolean Show, int Max) {
+
+        TestFragmentCheckBox fragment;
+        fragment = new TestFragmentCheckBox();
+        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max);
+
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        ft.replace(R.id.content_frame, fragment, "fragment");
+
+        //ft.addToBackStack(null);
+        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        ft.commit();
+
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_advertisment, menu);
+
+        //MenuItem item = menu.getItem(0);
+        //item.setShowAsActionFlags(MenuItem.SHOW_AS_ACTION_ALWAYS);
+
+        //if (!MenuFlag)
+        {
+            for (int i = 0; i < menu.size(); i++)
+                menu.getItem(i).setVisible(false);
+        }
+
+        return super.onCreateOptionsMenu(menu);
+    }
 
 
     protected int[] Randomize(int Size, int Up) {
@@ -102,7 +142,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         fragmentManager.popBackStack(0, FragmentManager.POP_BACK_STACK_INCLUSIVE);*/
 
-
         XmlReader fragment;
         fragment = new XmlReader();
 
@@ -119,7 +158,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     }
 
     @Override
-    public void onButtonCheckBoxCommitListener(boolean Show,
+    public void onButtonCheckBoxCommitListener(String Name, String Path, boolean Show,
                                                TestStructure Questions[],
                                                int Number,
                                                double RighAnswers,
@@ -142,7 +181,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             TestFragmentCheckBox fragment;
             fragment = new TestFragmentCheckBox();
-            fragment.SetMessage(Questions, Number, Show, false, RighAnswers, Max);
+            fragment.SetMessage(Name, Path, Questions, Number, Show, false, RighAnswers, Max);
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
@@ -176,10 +215,13 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
 
         TestStructure Questions[] = loader.getTestStructure();
+        String Path = loader.getPath();
+        String Name = loader.getName();
+        Log.v("Path", Path);
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Questions, 1, Show, false, 0, Size_exam);
+        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Size_exam);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -238,7 +280,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 fragment.SetMessage(Files[(int) id],
                         getResources().getString(R.string.themes_text), getAssets());
 
-
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
                 ft.addToBackStack(null);
@@ -268,6 +309,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_main_window);
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -337,6 +380,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 }
         );
 
+
     }
 
     protected void Alert(String Error) {
@@ -397,27 +441,37 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     }
 
     private void selectedItem(int position) {
-        XmlReader fragment;
         currentPosition = position;
 
         switch (position) {
 
             case 1: {
-                fragment = new XmlReader();
+                XmlSavedReader loader = new XmlSavedReader(getBaseContext());
+
+                SavedTests fragment;
+                fragment = new SavedTests();
+                fragment.setMessage(loader.getBundle());
+                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                ft.replace(R.id.content_frame, fragment, "fragment");
+                ft.addToBackStack(null);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                ft.commit();
+
                 //fragment.SetMessage(getResources().getString(R.string.subjects));
                 break;
             }
             case 2: {
                 //О приложении
-                fragment = new XmlReader();
+                //fragment = new XmlReader();
                 break;
             }
             case 3: {
                 //О приложении
-                fragment = new XmlReader();
+                //fragment = new XmlReader();
                 break;
             }
             default: {
+                XmlReader fragment;
                 fragment = new XmlReader();
 
                 fragment.SetMessage(getResources().getString(R.string.subjects),
@@ -426,6 +480,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 ///Временно вынесено сюда
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+                ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
 
@@ -460,5 +515,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         }*/
         return drawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
+
 
 }

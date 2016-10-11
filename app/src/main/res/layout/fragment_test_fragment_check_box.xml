@@ -52,7 +52,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
 
                 <Button
                     android:layout_width="wrap_content"
@@ -63,9 +64,11 @@
                     android:layout_alignStart="@+id/button_save"
                     android:layout_alignEnd="@+id/button_save"
                     android:id="@+id/button_next"
+                    android:background="@drawable/outline"
                     android:padding="25dp" />
 
                 <Button
+                    android:layout_marginTop="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/button_save"
@@ -73,6 +76,7 @@
                     android:layout_centerHorizontal="true"
                     android:textSize="20sp"
                     android:id="@+id/button_save"
+                    android:background="@drawable/outline"
                     android:padding="25dp" />
 
             </RelativeLayout>

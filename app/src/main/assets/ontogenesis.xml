@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quize size="73" file="ontogenesis" name="Отногенез">
+		<question id = "1" size = "5" type = "1">
+            <text>Стадия зародышевого развития морула - это зародыш</text>
+            <item flag = "0">С тремя зародышевыми листками</item>
+            <item flag = "1">Без полости</item>
+            <item flag = "0">С полостью</item>
+            <item flag = "0">С двумя зародышевыми листками</item>
+            <item flag = "0">С бластопором</item>
+        </question>
+		<question id = "2" size = "5" type = "1">
+            <text>Стадия зародышевого развития морула - это зародыш</text>
+            <item flag = "0">С осевыми органами</item>
+            <item flag = "1">Без полости</item>
+            <item flag = "0">Из одного слоя клеток с полостью</item>
+            <item flag = "0">С тремя зародышевыми листками</item>
+            <item flag = "0">С одним зародышевым листком</item>
+        </question>
+		<question id = "3" size = "5" type = "1">
+            <text>Бластула - это зародыш</text>
+            <item flag = "1">С бластоцелем</item>
+            <item flag = "0">С осевыми органами</item>
+            <item flag = "0">С бластопором</item>
+            <item flag = "0">Из двух зародышевых листков</item>
+            <item flag = "0">Из трех зародышевых листков</item>
+        </question>
+		<question id = "4" size = "5" type = "1">
+            <text>Бластула - это зародыш, имеющий</text>
+            <item flag = "0">Три слоя клеток</item>
+            <item flag = "1">Полость и бластодерму</item>
+            <item flag = "0">Бластопор</item>
+            <item flag = "0">Нервную трубку</item>
+            <item flag = "0">Энтодерму</item>
+        </question>
+		<question id = "5" size = "5" type = "1">
+            <text>Бластула - это зародыш</text>
+            <item flag = "0">Из трех слоев клеток</item>
+            <item flag = "1">Имеющий полость и бластодерму</item>
+            <item flag = "0">Имеющий бластопор</item>
+            <item flag = "0">Из двух слоев клеток</item>
+            <item flag = "0">Имеющий эктодерму</item>
+        </question>
+		<question id = "6" size = "5" type = "1">
+            <text>Рання гаструла - это зародыш, имеющий</text>
+            <item flag = "1">Два зародышевых листка</item>
+            <item flag = "0">Три зародышевых листка</item>
+            <item flag = "1">Бластопор</item>
+            <item flag = "0">Комплекс осевых органов</item>
+            <item flag = "0">Бластомеры</item>
+        </question>
+		<question id = "7" size = "5" type = "1">
+            <text>Поздняя гаструла - это зародыш, имеющий</text>
+            <item flag = "1">Первичную кишку</item>
+            <item flag = "1">Гастроцель</item>
+            <item flag = "0">Бластомеры</item>
+            <item flag = "0">Нервную трубку</item>
+            <item flag = "1">Три зародышевых листка</item>
+        </question>
+		<question id = "8" size = "5" type = "1">
+            <text>Нейрула - это зародыш, имеющий</text>
+            <item flag = "0">Один слой клеток с полостью</item>
+            <item flag = "1">Нервную трубку</item>
+            <item flag = "1">Хорду</item>
+            <item flag = "0">Два слоя клеток с полостью</item>
+            <item flag = "1">Вторичную полость</item>
+        </question>
+		<question id = "9" size = "5" type = "1">
+            <text>Нейрула - это зародыш, имеющий</text>
+            <item flag = "0">Два слоя клеток с полостью</item>
+            <item flag = "1">Комплекс осевых органов</item>
+            <item flag = "1">Вторичную кишку</item>
+            <item flag = "1">Целом</item>
+            <item flag = "0">Первичную кишку</item>
+        </question>
+		<question id = "10" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "1">Бластулы</item>
+            <item flag = "1">Бластомеров</item>
+            <item flag = "0">Кишечной трубки</item>
+            <item flag = "0">Хорды</item>
+            <item flag = "1">Бластодермы</item>
+        </question> 
+		<question id = "11" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "1">Бластоцеля</item>
+            <item flag = "0">Целома</item>
+            <item flag = "1">Бластодермы</item>
+            <item flag = "0">Хорды</item>
+            <item flag = "0">Эктодермы</item>
+        </question> 
+		<question id = "12" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "0">Целома</item>
+            <item flag = "1">Полости бластулы</item>
+            <item flag = "0">Кишечной трубки</item>
+            <item flag = "0">Нервной трубки</item>
+            <item flag = "1">Бластоцеля</item>
+        </question> 
+		<question id = "13" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "1">Бластулы</item>
+            <item flag = "0">Двух зародышевых листков</item>
+            <item flag = "0">Вторичной полости тела</item>
+            <item flag = "0">Трех зародышевых листков</item>
+            <item flag = "1">Бластомеров</item>
+        </question>
+		<question id = "14" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "1">Бластоцеля</item>
+            <item flag = "0">Нервной трубки</item>
+            <item flag = "0">Бластопора</item>
+            <item flag = "0">Двух зародышевых листков</item>
+            <item flag = "1">Бластулы</item>
+        </question> 
+		<question id = "15" size = "5" type = "1">
+            <text>В процессе дробления яйцеклетки происходит образование</text>
+            <item flag = "1">Бластомеров</item>
+            <item flag = "0">Нервной трубки</item>
+            <item flag = "0">Вторичной полости тела</item>
+            <item flag = "0">Трех зародышевых листков</item>
+            <item flag = "1">Однослойного многоклеточного зародыша</item>
+        </question>
+		<question id = "16" size = "5" type = "1">
+            <text>Яйцеклетки млекопитающих</text>
+            <item flag = "0">Олиголецитальные</item>
+            <item flag = "0">Мезолецитальные</item>
+            <item flag = "0">Полицетальные</item>
+            <item flag = "1">Алецитальные</item>
+            <item flag = "1">Гомолецитальные</item>
+        </question> 
+		<question id = "17" size = "5" type = "1">
+            <text>Яйцеклетки амфибий</text>
+            <item flag = "0">Олиголецитальные</item>
+            <item flag = "1">Мезолецитальные</item>
+            <item flag = "0">Алецитальные</item>
+            <item flag = "0">Изолецитальные</item>
+            <item flag = "1">Умеренно телолецитальные</item>
+        </question> 
+		<question id = "18" size = "5" type = "1">
+            <text>Яйцеклетки рептилий</text>
+            <item flag = "0">Олиголецитальные</item>
+            <item flag = "0">Мезолецитальные</item>
+            <item flag = "0">Алецитальные</item>
+            <item flag = "1">Полицетальные</item>
+            <item flag = "1">Резко телолецитальные</item>
+        </question>
+		<question id = "19" size = "5" type = "1">
+            <text>Яйцеклетки ланцетника</text>
+            <item flag = "1">Олиголецитальные</item>
+            <item flag = "0">Мезолецитальные</item>
+            <item flag = "1">Изолецитальные</item>
+            <item flag = "0">Алецитальные</item>
+            <item flag = "0">Полицетальные</item>
+        </question>
+		<question id = "20" size = "5" type = "1">
+            <text>Яйцеклетки птиц</text>
+            <item flag = "1">Полицетальные</item>
+            <item flag = "0">Умеренно телолецитальные</item>
+            <item flag = "0">Мезолецитальные</item>
+            <item flag = "0">Олиголецитальные</item>
+            <item flag = "1">Резко телолецитальные</item>
+        </question>
+		<question id = "21" size = "5" type = "1">
+            <text>В олиголецитальных яйцеклетках дробление</text>
+            <item flag = "0">Полное неравномерное</item>
+            <item flag = "1">Голобластическое</item>
+            <item flag = "1">Полоное равномерное</item>
+            <item flag = "0">Неполное равномерное</item>
+            <item flag = "0">Поверхностное</item>
+        </question>
+		<question id = "22" size = "5" type = "1">
+            <text>В умеренно телолецитальных яйцеклетках дробление</text>
+            <item flag = "1">Полное неравномерное</item>
+            <item flag = "0">Неполное неравномерное</item>
+            <item flag = "0">Полное равномерное</item>
+            <item flag = "1">Голобластическое</item>
+            <item flag = "0">Поверхностное</item>
+        </question>
+		<question id = "23" size = "5" type = "1">
+            <text>В резко телолецитальных яйцеклетках дробление</text>
+            <item flag = "0">Поверхностное</item>
+            <item flag = "1">Дискоидальное</item>
+            <item flag = "0">Полное равномерное</item>
+            <item flag = "0">Полное неравномерное</item>
+            <item flag = "1">Меробластическое</item>
+        </question>
+		<question id = "24" size = "5" type = "1">
+            <text>В центролецитальных яйцеклетках дробление</text>
+            <item flag = "0">Дискоидальное</item>
+            <item flag = "0">Полное равномерное</item>
+            <item flag = "1">Поверхностное</item>
+            <item flag = "0">Полное неравномерное</item>
+            <item flag = "1">Меробластическое</item>
+        </question>
+		<question id = "25" size = "5" type = "1">
+            <text>Бластула ланцетника</text>
+            <item flag = "1">Целобластула</item>
+            <item flag = "0">Перибластула</item>
+            <item flag = "0">Дискобластула</item>
+            <item flag = "0">Морула</item>
+            <item flag = "0">Бластоциста</item>
+        </question>
+		<question id = "26" size = "5" type = "1">
+            <text>Бластула птиц</text>
+            <item flag = "1">Дискобластула</item>
+            <item flag = "0">Целобластула</item>
+            <item flag = "0">Бластоциста</item>
+            <item flag = "0">Перибластула</item>
+            <item flag = "0">Морула</item>
+        </question>
+		<question id = "27" size = "5" type = "1">
+            <text>Бластула млекопитающих</text>
+            <item flag = "0">Целобластула</item>
+            <item flag = "0">Перибластула</item>
+            <item flag = "0">Дискобластула</item>
+            <item flag = "1">Бластоциста</item>
+            <item flag = "0">Морула</item>
+        </question>
+		<question id = "28" size = "5" type = "1">
+            <text>Бластула насекомых</text>
+            <item flag = "0">Целобластула</item>
+            <item flag = "1">Перибластула</item>
+            <item flag = "0">Дискобластула</item>
+            <item flag = "0">Бластоциста</item>
+            <item flag = "0">Стерробластула</item>
+        </question>
+		<question id = "29" size = "5" type = "1">
+            <text>Дискоидальное дробление</text>
+            <item flag = "0">Полное неравномерное</item>
+            <item flag = "1">Меробластическое</item>
+            <item flag = "0">Полное равномерное</item>
+            <item flag = "1">Частичное</item>
+            <item flag = "0">Голобластическое</item>
+        </question>
+		<question id = "30" size = "5" type = "1">
+            <text>Амфибластула образуется в результате дробления</text>
+            <item flag = "1">Полного неравномерного</item>
+            <item flag = "0">Полного равномерного</item>
+            <item flag = "0">Частичного</item>
+            <item flag = "0">Меробластического</item>
+            <item flag = "1">Голобластического</item>
+        </question>
+		<question id = "31" size = "5" type = "1">
+            <text>Целобластула образуется в результате дробления</text>
+            <item flag = "0">Полного неравномерного</item>
+            <item flag = "0">Неполного неравномерного</item>
+            <item flag = "1">Полного равномерного</item>
+            <item flag = "1">Голобластического</item>
+            <item flag = "0">Дискоидального</item>
+        </question>
+		<question id = "32" size = "5" type = "1">
+            <text>Перибластула образуется в результате дробления</text>
+            <item flag = "0">Полного неравномерного</item>
+            <item flag = "1">Поверхностного</item>
+            <item flag = "0">Полного равномерного</item>
+            <item flag = "1">Частичного</item>
+            <item flag = "1">Меробластического</item>
+        </question>
+		<question id = "33" size = "5" type = "1">
+            <text>Дискобластула образуется в результате дробления</text>
+            <item flag = "0">Поверхностного</item>
+            <item flag = "1">Дискоидального</item>
+            <item flag = "0">Полного равномерного</item>
+            <item flag = "0">Голобластического</item>
+            <item flag = "1">Меробластического</item>
+        </question>
+		<question id = "34" size = "5" type = "1">
+            <text>Тип дробления яйцеклетки ланцетника</text>
+            <item flag = "1">Полное равномерное</item>
+            <item flag = "0">Поверхностное</item>
+            <item flag = "0">Частичное</item>
+            <item flag = "1">Синхронное</item>
+            <item flag = "1">Голобластическое</item>
+        </question>
+		<question id = "35" size = "5" type = "1">
+            <text>Ти дробления яйцеклетки амфибий</text>
+            <item flag = "1">Полное</item>
+            <item flag = "0">Неполное</item>
+            <item flag = "0">Равномерное</item>
+            <item flag = "1">Неравномерное</item>
+            <item flag = "1">Голобластическое</item>
+        </question>
+		<question id = "36" size = "5" type = "1">
+            <text>Тип дробления яйцеклетки птиц</text>
+            <item flag = "0">Полное</item>
+            <item flag = "1">Неполное</item>
+            <item flag = "1">Меробластическое</item>
+            <item flag = "0">Голобластическое</item>
+            <item flag = "1">Частичное</item>
+        </question>
+		<question id = "37" size = "5" type = "1">
+            <text>Тип дробления яйцеклетки человека</text>
+            <item flag = "1">Полное</item>
+            <item flag = "1">Голобластическое</item>
+            <item flag = "0">Неполное</item>
+            <item flag = "0">Синхронное</item>
+            <item flag = "1">Асинхронное</item>
+        </question>
+		<question id = "38" size = "5" type = "1">
+            <text>Тип дробления яйцеклетки млекопитающего</text>
+            <item flag = "0">Меробластическое</item>
+            <item flag = "1">Голобластическое</item>
+            <item flag = "0">Частичное</item>
+            <item flag = "1">Неравномерное</item>
+            <item flag = "1">Асинхронное</item>
+        </question>
+		<question id = "39" size = "5" type = "1">
+            <text>Способ гаструляции зародыша ланцетника</text>
+            <item flag = "0">Эпиболия</item>
+            <item flag = "0">Деламинация</item>
+            <item flag = "1">Инвагинация</item>
+            <item flag = "0">Иммиграция</item>
+            <item flag = "0">Сегрегация</item>
+        </question>
+		<question id = "40" size = "5" type = "1">
+            <text>Способ гаструляции зародыша амфибии</text>
+            <item flag = "0">Эпиболия и иммиграция</item>
+            <item flag = "0">Инвагинация и деламинация</item>
+            <item flag = "1">Эпиболия и инвагинация</item>
+            <item flag = "0">Инвагинация и иммиграция</item>
+            <item flag = "0">Эпиболия и деламинация</item>
+        </question>
+		<question id = "41" size = "5" type = "1">
+            <text>Способ гаструляции зародыша рептилий</text>
+            <item flag = "0">Деламинация и эпиболия</item>
+            <item flag = "1">Деламинация и иммиграция</item>
+            <item flag = "0">Эпиболия и инвагинация</item>
+            <item flag = "0">Эпиболия и деламинация</item>
+            <item flag = "0">Инвагинация и иммиграция</item>
+        </question>
+		<question id = "42" size = "5" type = "1">
+            <text>Способ гаструляции зародыша у птиц</text>
+            <item flag = "0">Деламинация и эпиболия</item>
+            <item flag = "1">Деламинация и иммиграция</item>
+            <item flag = "0">Эпиболия и инвагинация</item>
+            <item flag = "0">Эпиболия и деламинация</item>
+            <item flag = "0">Инвагинация и иммиграция</item>
+        </question>
+		<question id = "43" size = "5" type = "1">
+            <text>Способ гаструляции зародыша млекопитающих</text>
+            <item flag = "0">Деламинация и эпиболия</item>
+            <item flag = "0">Инвагинация и иммиграция</item>
+            <item flag = "1">Деламинация и иммиграция</item>
+            <item flag = "0">Эпиболия и инвагинация</item>
+            <item flag = "0">Эпиболия и деламинация</item>
+        </question>
+		<question id = "44" size = "5" type = "1">
+            <text>Из мезодермы образуются</text>
+            <item flag = "1">Дерма кожи</item>
+            <item flag = "0">Пищеварительные железы</item>
+            <item flag = "1">Скелетная мускулатура</item>
+            <item flag = "0">Рецепторные клетки органов чувств</item>
+            <item flag = "1">Выделительная система</item>
+        </question>
+		<question id = "45" size = "5" type = "1">
+            <text>Из мезодермы образуются</text>
+            <item flag = "0">Эпителий кожи</item>
+            <item flag = "1">Сердечно-сосудистая система</item>
+            <item flag = "1">Костная ткань</item>
+            <item flag = "1">Эпителий целома</item>
+            <item flag = "1">Половая система</item>
+        </question>
+		<question id = "46" size = "5" type = "1">
+            <text>Из мезодермы образуются</text>
+            <item flag = "1">Скелетные мышцы</item>
+            <item flag = "0">Рецепторные клетки органов чувств</item>
+            <item flag = "1">Дерма</item>
+            <item flag = "0">Спинной мозг</item>
+            <item flag = "1">Хрящевая ткань</item>
+        </question>
+		<question id = "47" size = "5" type = "1">
+            <text>ИИз мезодермы образуются</text>
+            <item flag = "1">Плевра</item>
+            <item flag = "1">Соединительная ткань</item>
+            <item flag = "0">Потовые железы</item>
+            <item flag = "0">Зубная эмаль</item>
+            <item flag = "1">Брюшина</item>
+        </question>
+		<question id = "48" size = "5" type = "1">
+            <text>Из эктодермы образуются</text>
+            <item flag = "1">Хрусталик глаза</item>
+            <item flag = "0">Кровь</item>
+            <item flag = "1">Ногти</item>
+            <item flag = "0">Почки</item>
+            <item flag = "1">Внутреннее ухо</item>
+        </question>
+		<question id = "49" size = "5" type = "1">
+            <text>Из эктодермы образуются</text>
+            <item flag = "1">Эпителий рта и прямой кишки</item>
+            <item flag = "0">Секреторные клетки желудочно-кишечного тракта</item>
+            <item flag = "1">Нервная система</item>
+            <item flag = "0">Эпителий целома</item>
+            <item flag = "0">Эпителий дыхательных и мочеполовых путей</item>
+        </question>
+		<question id = "50" size = "5" type = "1">
+            <text>Из эктодермы образуются</text>
+            <item flag = "0">Эпителий легких</item>
+            <item flag = "0">Эпителий всего желудочно-кишечного тракта</item>
+            <item flag = "1">Нервная система</item>
+            <item flag = "0">Гладкая мускулатура</item>
+            <item flag = "1">Эпидермис кожи</item>
+        </question>
+		<question id = "51" size = "5" type = "1">
+            <text>Из эктодермы образуются</text>
+            <item flag = "0">Эпителий мочеполовых путей</item>
+            <item flag = "1">Головной мозг</item>
+            <item flag = "1">Гипофиз</item>
+            <item flag = "0">Щитовидная железа</item>
+            <item flag = "1">Молочные железы</item>
+        </question>
+		<question id = "52" size = "5" type = "1">
+            <text>Из энтодермы образуются</text>
+            <item flag = "0">Эпителий целома</item>
+            <item flag = "0">Эпителий рта и прямой кишки</item>
+            <item flag = "1">Пищеварительные железы</item>
+            <item flag = "0">Рецепторные клетки органов чувств</item>
+            <item flag = "1">Эпителий средней кишки</item>
+        </question>
+		<question id = "53" size = "5" type = "1">
+            <text>Из энтодермы образуются</text>
+            <item flag = "0">Надпочечники</item>
+            <item flag = "0">Почки</item>
+            <item flag = "1">Эпителий тонкого кишечника</item>
+            <item flag = "1">Эпителий легких</item>
+            <item flag = "1">Печень</item>
+        </question>
+		<question id = "54" size = "5" type = "1">
+            <text>Из энтодермы образуются</text>
+            <item flag = "1">Легкие</item>
+            <item flag = "1">Поджелудочная железа</item>
+            <item flag = "1">Щитовидная железа</item>
+            <item flag = "0">Плевра</item>
+            <item flag = "1">Эпителий дыхательных путей</item>
+        </question>
+		<question id = "55" size = "5" type = "1">
+            <text>Из энтодермы образуются</text>
+            <item flag = "0">Перикард</item>
+            <item flag = "1">Мочевой пузырь</item>
+            <item flag = "0">Кора надпочечников</item>
+            <item flag = "1">Околощитовидные железы</item>
+            <item flag = "1">Бронхи</item>
+        </question>
+		<question id = "56" size = "5" type = "1">
+            <text>Секреторные клетки желудочно-кишечного тракта развиваются из</text>
+            <item flag = "0">Спланхнотома</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "1">Энтодермы</item>
+            <item flag = "0">Соматоплевры</item>
+            <item flag = "0">Спланхноплевры</item>
+        </question>
+		<question id = "57" size = "5" type = "1">
+            <text>Печень развивается из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "1">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Спланхноплевры</item>
+        </question>
+		<question id = "58" size = "5" type = "1">
+            <text>Скелетные мышцы туловища развиваются из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "1">Миотома</item>
+            <item flag = "0">Боковой пластинки</item>
+        </question>
+		<question id = "59" size = "5" type = "1">
+            <text>Гладкие мышцы развиваются из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "1">Мезенхимы</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Соматоплевры</item>
+        </question>
+		<question id = "60" size = "5" type = "1">
+            <text>Позвоночник развивается из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "1">Мезенхимы</item>
+            <item flag = "0">Боковой пластинки</item>
+            <item flag = "1">Дорзальной мезодермы</item>
+        </question>
+		<question id = "61" size = "5" type = "1">
+            <text>Дерма развивается из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Вентральной мезодермы</item>
+            <item flag = "1">Дорзальной мезодермы</item>
+        </question>
+		<question id = "62" size = "5" type = "1">
+            <text>Эпидермис кожи развивается из</text>
+            <item flag = "0">Склеротома</item>
+            <item flag = "0">Дерматома</item>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Энтодермы</item>
+        </question>
+		<question id = "63" size = "5" type = "1">
+            <text>Плевра развивается из</text>
+            <item flag = "1">Боковой пластинки</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+        </question>
+		<question id = "64" size = "5" type = "1">
+            <text>Перикард развивается из</text>
+            <item flag = "1">Сомитов</item>
+            <item flag = "0">Боковой пластинки</item>
+            <item flag = "1">Вентральной мезодермы</item>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Мезенхимы</item>
+        </question>
+		<question id = "65" size = "5" type = "1">
+            <text>Брюшина развивается из</text>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "1">Вентральной мезодермы</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Эктодермы</item>
+        </question>
+		<question id = "66" size = "5" type = "1">
+            <text>Сердечно-сосудистая система образуется из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "1">Боковой пластинки</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Промежуточной мезодермы</item>
+        </question>
+		<question id = "67" size = "5" type = "1">
+            <text>Почки развиваются из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "1">Промежуточной мезодермы</item>
+            <item flag = "0">Соматоплевры</item>
+        </question>
+		<question id = "68" size = "5" type = "1">
+            <text>Половые протоки и мочеточники развиваются из</text>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Спланхноплевры</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "1">Ножек сомитов</item>
+        </question>
+		<question id = "69" size = "5" type = "1">
+            <text>Рецепторы органов чувств развиваются из</text>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Сомитов</item>
+            <item flag = "0">Мезодермы</item>
+        </question>
+		<question id = "70" size = "5" type = "1">
+            <text>Гипофиз развивается из</text>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Сомита</item>
+        </question>
+		<question id = "71" size = "5" type = "1">
+            <text>Щитовидная железа развивается из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "1">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Вентральной мезодермы</item>
+        </question>
+		<question id = "72" size = "5" type = "1">
+            <text>Паращитовидные железы развиваются из</text>
+            <item flag = "0">Вентральной мезодермы</item>
+            <item flag = "0">Дорзальной мезодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "1">Энтодермы</item>
+        </question>
+		<question id = "73" size = "5" type = "1">
+            <text>Надпочечники развиваются из</text>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "1">Мезодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Ножек сомита</item>
+        </question>
+		
+		
+		
+	
+<!--
+        <question id = "" size = "5" type = "1">
+            <text></text>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+        </question> -->
+</quize>
