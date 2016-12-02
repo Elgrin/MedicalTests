@@ -21,5 +21,13 @@
         android:title="@string/action_delete_all"
         android:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_delete_chosen"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_backup_white_48dp"
+        android:title="@string/action_delete_chosen"
+        android:showAsAction="never" />
+
+
 </menu>
 

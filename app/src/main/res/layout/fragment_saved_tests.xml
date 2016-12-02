@@ -5,14 +5,37 @@
     tools:context="z.medicaltests.SavedTests"
     android:id="@+id/main_saved">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/ww"/>
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/list_saved">
-    </ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ww"
+                android:textSize="24sp"
+                android:layout_gravity="center"/>
+            <ListView
+                android:layout_height="0dip"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/list_saved">
+            </ListView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/load"
+                android:text="@string/load_button_text"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:padding="25dp"
+                android:background="@drawable/outline"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+
 
 </FrameLayout>

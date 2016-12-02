@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size="5" file="genes" name = "Генетика">
+<quize size="6" file="genes" name = "Генетика">
     <question id="1" size="5" type="1">
         <text>Генетика - это наука о</text>
         <item flag="1">Основных закономерностях наследственности и изменчивости</item>
         <item flag="0">Наследовании признаков</item>
         <item flag="0">Изучении ДНК</item>
-        <item flag="0">Наследтсвенных болезнях</item>
+        <item flag="0">Наследственных болезнях</item>
         <item flag="0">Родственных связях</item>
     </question>
     <question id="2" size="5" type="1">
@@ -40,6 +40,18 @@
         <item flag="0">При взаимодействии генов по типу неполного доминирования</item>
         <item flag="0">При взаимодействии по типу кодоминирования</item>
     </question>
+    <question id="6" size_x="4" size_y="4" type="2">
+        <text>Соотнестите фенотип с генотипом, учитывая "Бомбейский феномен"</text>
+        <item>1) I0I0XX</item>
+        <item>2) IaIaxx</item>
+        <item>3) IaIbXx</item>
+        <item>4) IbIbxx</item>
+
+        <child pair="1">а) I группа</child>
+        <child pair="1">б) II группа</child>
+        <child pair="4">в) III группа</child>
+        <child pair="1">г) IV группа</child>
+    </question>
 
 
     <!--
@@ -51,4 +63,18 @@
             <item flag = "0"></item>
             <item flag = "0"></item>
         </question> -->
+    <!--
+    <question id="273" size_x="5" size_y="5" type="2">
+        <text>Структуры клетки - ________ формируют - _________</text>
+        <item>Микротрубочки</item>
+        <item>Актиновые и миозиновые филаменты</item>
+        <item>Промежуточные филаменты, актиновые микрофиламенты и микротрубочки</item>
+        <item>Центриоли</item>
+        <item>Мембраны</item>
+        <child pair="4">а) Клеточный центр</child>
+        <child pair="1">б) Нити митотического веретена</child>
+        <child pair="3">в) Цитоскелет</child>
+        <child pair="2">г) Миофибриллы</child>
+        <child pair="5">д) ЭПС</child>
+    </question> -->
 </quize>

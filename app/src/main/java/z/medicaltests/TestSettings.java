@@ -24,12 +24,15 @@ public class TestSettings extends Fragment implements View.OnClickListener {
     private String File;
     private int Size;
     private String Text;
-    boolean Flag;
+    private boolean Flag;
+    private int Mode;
+
+
     private static final String TAG = "SETTINGS";
     public TestSettings.TestSettingsListener listener;
 
     static interface TestSettingsListener {
-        void onButtonCommitListener(boolean show, int Size_all, int Size_exam, String File);
+        void onButtonCommitListener(boolean show, int Size_all, int Size_exam, String File, int Mode);
     }
 
     public TestSettings() {
@@ -43,6 +46,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         this.Size = Size;
         Text = Text_1 + " " + Integer.toString(Size);
         Flag = false;
+        Mode = 0;
     }
 
     public  void SetMessage(String File, int Size,
@@ -53,6 +57,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         this.Size = Size;
         this.Text = Text_1 + " " + Integer.toString(Size) + "\n" + Text;
         Flag = true;
+        Mode = 1;
 
     }
 
@@ -68,6 +73,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
             Size = savedInstanceState.getInt("size_int");
             Text = savedInstanceState.getString("text");
             Flag = savedInstanceState.getBoolean("flag");
+            Mode = savedInstanceState.getInt("mode");
         }
 
         TextView textView = (TextView) layout.findViewById(R.id.Size);
@@ -88,6 +94,11 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         if(!Flag) {
             EditText editText = (EditText) view.findViewById(R.id.Exam_size);
             editText.setVisibility(View.GONE);
+
+        }
+        else {
+            CheckBox checkBox = (CheckBox) view.findViewById(R.id.Show_mistakes);
+            checkBox.setVisibility(View.GONE);
         }
 
 
@@ -121,6 +132,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         outState.putInt("size_int", Size);
         outState.putString("text", Text);
         outState.putBoolean("flag", Flag);
+        outState.putInt("mode", Mode);
     }
 
 
@@ -182,7 +194,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
                 //commit.setText("Загрузка вопросов");
                 commit.setEnabled(false);
 
-                listener.onButtonCommitListener(show, Size, Size_exam, File);
+                listener.onButtonCommitListener(show, Size, Size_exam, File, Mode);
             }
         }
     }

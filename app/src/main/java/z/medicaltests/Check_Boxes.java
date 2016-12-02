@@ -52,7 +52,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
     }
 
     static interface Check_BoxesListener {
-         public void contextSave(Check_Boxes boxes);
+        public void contextSave(Check_Boxes boxes);
     }
 
 
@@ -177,7 +177,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         View lay = getView();
         Log.v(TAG, "onClick");
         Paint();
-        for(int i = 0; i < Options.length; i++) {
+        for (int i = 0; i < Options.length; i++) {
 
             CheckBox checkBox = (CheckBox) lay.findViewById(i);
             Paint();
@@ -208,6 +208,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
         }
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -215,7 +216,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
         //final View view = inflater.inflate(R.layout.fragment_check__boxes, container, false);
 
-        return inflater.inflate(R.layout.fragment_check__boxes, container, false) ;
+        return inflater.inflate(R.layout.fragment_check__boxes, container, false);
     }
 
 
@@ -414,6 +415,5 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         //setRetainInstance(true);
         //this.listener = (Check_BoxesListener) this;
     }
-
 
 }

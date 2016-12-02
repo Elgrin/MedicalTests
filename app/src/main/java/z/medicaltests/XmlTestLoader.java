@@ -13,9 +13,7 @@ import java.io.InputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-/**
- * Created by Жаров on 14.09.2016.
- */
+
 class XmlTestLoader {
     private String FileName;
     private int iSize;
@@ -24,6 +22,7 @@ class XmlTestLoader {
     private static final String TAG = "TestLoader";
     private String Path;
     private String Name;
+
     XmlTestLoader(String fileName, AssetManager assetManager) {
         FileName = fileName;
         try{
@@ -47,6 +46,7 @@ class XmlTestLoader {
 
     XmlTestLoader(String fileName, AssetManager assetManager, int mass[]) {
         FileName = fileName;
+
         int AbstractSize = 0;
         TestStructure allQuestions[] = new TestStructure[mass.length];
 
@@ -97,11 +97,13 @@ class XmlTestLoader {
                     String TYPE = element.getAttribute("type");
                     int type = Integer.parseInt(TYPE);
 
-                    String SIZE = element.getAttribute("size");
-                    int size = Integer.parseInt(SIZE);
 
                     //Первый тип вопросов
                     if (type == 1) {
+                        String SIZE = element.getAttribute("size");
+                        int size = Integer.parseInt(SIZE);
+
+
                         String Text = "";
                         String Options[] = new String[size];
                         boolean Flag[] = new boolean[size];
@@ -148,10 +150,81 @@ class XmlTestLoader {
                         question.setFlags(Flag);
                         question.setOptions(Options);
                         question.setText(Text);
+                        Log.v(TAG, " " + "ID"  + " " + id);
+                        question.setID(id);
 
                         allQuestions[AbstractSize] = question;
                         AbstractSize++;
                     }
+                    else {
+                        if (type == 2) {
+
+                            String SIZE_X = element.getAttribute("size_x");
+                            int size_x = Integer.parseInt(SIZE_X);
+                            String SIZE_Y = element.getAttribute("size_y");
+                            int size_y = Integer.parseInt(SIZE_Y);
+
+                            String Text = "";
+
+                            String Parents[] = new String[size_x];
+                            String Children[] = new String[size_y];
+                            int Relations[] = new int[size_y];
+
+                            MultipleChoices question = new MultipleChoices();
+
+                            NodeList nList_Second = nNode.getChildNodes();
+
+                            Log.v(TAG, SIZE_X + " " + SIZE_Y);
+
+                            int mass_size_x = 0;
+                            int mass_size_y=0;
+                            for (int q = 0; q < nList_Second.getLength(); q++) {
+                                Node nNode_Second = nList_Second.item(q);
+
+                                if (nNode_Second.getNodeType() == Node.ELEMENT_NODE) {
+                                    boolean it = nNode_Second.getNodeName().equals("text");
+                                    if (it) {
+                                        Text = nNode_Second.getTextContent();
+                                    } else {
+
+                                        if (nNode_Second.getNodeName().equals("item")) {
+
+                                            Parents[mass_size_x] = nNode_Second.getTextContent();
+
+                                            Log.v(TAG, Parents[mass_size_x]);
+                                            mass_size_x++;
+                                        }
+                                        if (nNode_Second.getNodeName().equals("child")) {
+
+                                            Children[mass_size_y] = nNode_Second.getTextContent();
+                                            Element element_Second = (Element) nNode_Second;
+                                            String s_Flag = element_Second.getAttribute("pair");
+
+                                            Relations[mass_size_y] = Integer.parseInt(s_Flag);
+
+                                            Log.v(TAG, Children[mass_size_y] + " " + Relations[mass_size_y]);
+                                            mass_size_y++;
+
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            Log.v(TAG, "2");
+
+                            question.setType(type);
+                            question.setText(Text);
+                            question.setParents(Parents);
+                            question.setChildren(Children);
+                            question.setRelations(Relations);
+                            question.setID(id);
+
+                            allQuestions[AbstractSize] = question;
+                            AbstractSize++;
+                        }
+                    }
+
                 }
             }
             Questions = allQuestions;
@@ -165,7 +238,7 @@ class XmlTestLoader {
         return iSize;
     }
     public String getS() {return size;}
-    public String getPath() {return Path;}
+    String getPath() {return Path;}
     public String getName() {return Name;}
 
     TestStructure[] getTestStructure() {

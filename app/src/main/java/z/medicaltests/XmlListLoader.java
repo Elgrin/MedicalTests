@@ -1,33 +1,25 @@
 package z.medicaltests;
 
-import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import java.io.File;
-import java.io.IOException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
 import java.io.InputStream;
-import java.io.InputStreamReader;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
-/**
- * Created by Жаров on 08.09.2016.
- */
-public class XmlListLoader {
+ class XmlListLoader {
     private String FileName = "";
     private String Names[],Files[], Test[];
     public String Example;
     private static final String TAG = "XmlListLoaderLogs";
+
     XmlListLoader(String message, AssetManager assetManager) {
         FileName = message;
         try {
@@ -73,9 +65,7 @@ public class XmlListLoader {
         }
     }
 
-    public String[] getNames() {
-        return Names;
-    }
-    public String[] getFiles() {return Files; }
+     String[] getNames() {return Names;}
+     String[] getFiles() {return Files; }
     public String[] getTest() {return Test; }
 }
