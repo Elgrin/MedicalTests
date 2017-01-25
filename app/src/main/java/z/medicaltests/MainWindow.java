@@ -47,11 +47,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     }
 
     public void BarDrawer(String Name, String Path, TestStructure Questions[],
-                          boolean Show, int Max, int Mode, int MistakesIndexesArray[]) {
+                          boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize) {
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max, Mode, MistakesIndexesArray);
+        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max, Mode, MistakesIndexesArray, AbsoluteSize);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -168,7 +168,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                                                double RighAnswers,
                                                int Max,
                                                int Mode,
-                                               int[] MistakesIndexesArray) {
+                                               int[] MistakesIndexesArray,
+                                               int AbsoluteSize) {
 
         if ((Max + 1) == (Number)) {
 
@@ -193,7 +194,9 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             TestFragmentCheckBox fragment;
             fragment = new TestFragmentCheckBox();
-            fragment.SetMessage(Name, Path, Questions, Number, Show, false, RighAnswers, Max, Mode, MistakesIndexesArray);
+            fragment.SetMessage(Name, Path, Questions, Number, Show, false, RighAnswers, Max, Mode,
+                    MistakesIndexesArray,
+                    AbsoluteSize);
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
@@ -234,7 +237,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Size_exam, Mode, null);
+        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Size_exam, Mode, null, Size_exam);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");

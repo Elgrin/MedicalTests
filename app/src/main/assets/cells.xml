@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size="271" file="cells" name = "Цитология">
+<quize size="273" file="cells" name = "Цитология">
 	<question id="1" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
 		<item flag="1">Обмена веществ</item>
@@ -2183,14 +2183,14 @@
 	</question> -->
 
 	<question id="272" size_x="7" size_y="8" type="2">
-		<text>Клеточным органеллам - ______ соответствуют функции - ______</text>
-		<item>Рибосомам</item>
-		<item>Митохондриям</item>
-		<item>Клеточному центру</item>
-		<item>Пластидам</item>
-		<item>Лизосомам</item>
-		<item>Комплексу Гольджи</item>
-		<item>Ядру</item>
+		<text>1) Клеточным органеллам - ______ соответствуют функции - ______</text>
+		<item>2) Рибосомам</item>
+		<item>3) Митохондриям</item>
+		<item>4) Клеточному центру</item>
+		<item>5) Пластидам</item>
+		<item>6) Лизосомам</item>
+		<item>7) Комплексу Гольджи</item>
+		<item>8) Ядру</item>
 		<child pair="2">а) Синтез АТФ</child>
 		<child pair="1">б) Синтез белка</child>
 		<child pair="7">в) Синтез нуклеиновых кислот</child>
@@ -2201,16 +2201,45 @@
 	</question>
 	<question id="273" size_x="5" size_y="5" type="2">
 		<text>Структуры клетки - ________ формируют - _________</text>
-		<item>Микротрубочки</item>
-		<item>Актиновые и миозиновые филаменты</item>
-		<item>Промежуточные филаменты, актиновые микрофиламенты и микротрубочки</item>
-		<item>Центриоли</item>
-		<item>Мембраны</item>
+		<item>1) Микротрубочки</item>
+		<item>2) Актиновые и миозиновые филаменты</item>
+		<item>3) Промежуточные филаменты, актиновые микрофиламенты и микротрубочки</item>
+		<item>4) Центриоли</item>
+		<item>5) Мембраны</item>
 		<child pair="4">а) Клеточный центр</child>
 		<child pair="1">б) Нити митотического веретена</child>
 		<child pair="3">в) Цитоскелет</child>
 		<child pair="2">г) Миофибриллы</child>
 		<child pair="5">д) ЭПС</child>
 	</question>
+	<question id="274" size_x="5" size_y="5" type="2">
+        <text>Процесс - ________ происходит - _________</text>
+        <item>1) Анаэробного окисления (гликолиз)</item>
+        <item>2) Аэробного окисления</item>
+        <item>3) Окислительного фосфорилирования</item>
+        <item>4) Синтеза р-РНК и т-РНК</item>
+        <item>5) Полимеризации тубулинов</item>
+        <child pair="3">а) На мембранах крист митохондрий</child>
+        <child pair="5">б) В гиалоплазме</child>
+        <child pair="2">в) В матриксе митохондрий</child>
+        <child pair="4">г) В ядрышках</child>
+        <child pair="5">д) В лизосомах</child>
+    </question>
+	
+	<!--
+	<question id="273" size_x="5" size_y="5" type="2">
+        <text>Структуры клетки - ________ формируют - _________</text>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <child pair="4">а) </child>
+        <child pair="1">б) </child>
+        <child pair="3">в) </child>
+        <child pair="2">г) </child>
+        <child pair="5">д) </child>
+    </question> -->
+	
 </quize> 
 

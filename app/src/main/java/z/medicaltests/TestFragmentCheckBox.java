@@ -7,6 +7,8 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -59,6 +61,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     private String Name;
     private int Mode;
     private int MistakesIndexesArray[];
+    private int AbsoluteSize;
 
     private static final String TAG = "TestFragmentCheckBox";
     private TestFragmentBarListener barListener;
@@ -77,11 +80,36 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         ad.setPositiveButton("Да", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int arg1) {
                 if(mode == 0) {
-                    barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, MistakesIndexesArray);
+                    barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, MistakesIndexesArray,
+                            AbsoluteSize);
                 }
                 else {
                     if(mode == 1) {
                         onClickSave();
+                    }
+                    else {
+                        if(mode == 2) {
+
+                            Intent intent = new Intent(Intent.ACTION_SENDTO);
+                            intent.setData(Uri.parse("mailto:" + getResources().
+                                    getString(R.string.email)));
+                            intent.putExtra(Intent.EXTRA_SUBJECT,
+                                    getResources().
+                                            getString(R.string.header));
+                            startActivity(intent);
+
+                            /*
+                            intent.setType("text/plain");
+                            intent.putExtra(Intent.EXTRA_EMAIL, new String[] {getResources().
+                                    getString(R.string.email)});
+                            intent.putExtra(Intent.EXTRA_SUBJECT,
+                                    getResources().
+                                            getString(R.string.header));
+
+                            String chooserTitle = getString(R.string.choser);
+                            Intent chosenIntent = Intent.createChooser(intent, chooserTitle);
+                            startActivity(chosenIntent);*/
+                        }
                     }
                 }
 
@@ -101,7 +129,8 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     interface TestFragmentBarListener {
         public void BarDrawerTrue(boolean MenuFlag);
         public void BarDrawer(String Name, String Path, TestStructure Questions[],boolean Show, int Max, int Mode,
-                              int[] MistakesIndexesArray);
+                              int[] MistakesIndexesArray,
+                              int AbsoluteSize);
     }
 
     public static boolean getColor() {
@@ -173,7 +202,8 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                                             double RighAnswers,
                                             int Max,
                                             int Mode,
-                                            int[] MistakesIndexesArray);
+                                            int[] MistakesIndexesArray,
+                                            int AbsoluteSize);
     }
 
 
@@ -196,7 +226,8 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                            double RightAnswers,
                            int Max,
                            int Mode,
-                           int[] MistakesIndexesArray) {
+                           int[] MistakesIndexesArray,
+                           int AbsoluteSize) {
         this.Path = Path;
         this.Questions = Questions;
         this.Number = Number;
@@ -207,9 +238,10 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         this.Name = Name;
         this.Mode = Mode;
         this.MistakesIndexesArray = MistakesIndexesArray;
+        this.AbsoluteSize = AbsoluteSize;
 
         if(MistakesIndexesArray == null)
-        this.MistakesIndexesArray = new int[1];
+            this.MistakesIndexesArray = new int[0];
         else {
             this.MistakesIndexesArray = MistakesIndexesArray;
         }
@@ -232,6 +264,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             Name = savedInstanceState.getString("name");
             Mode = savedInstanceState.getInt("mode");
             MistakesIndexesArray = savedInstanceState.getIntArray("mistakesIndexesArray");
+            AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
 
             TestFragmentPacerable question;
             question = savedInstanceState.getParcelable("questions");
@@ -310,6 +343,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         menu.getItem(0).setVisible(true);
         menu.getItem(1).setVisible(true);
+        menu.getItem(4).setVisible(true);
         // Do something that differs the Activity's menu here
         super.onCreateOptionsMenu(menu, inflater);
     }
@@ -336,6 +370,13 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                     //onClickSave();
                 toastMessage(getResources().
                         getString(R.string.alert_dialogue_save_header), 1);
+                break;
+            }
+
+            case R.id.action_bug_report: {
+                //onClickSave();
+                toastMessage(getResources().
+                        getString(R.string.alert_dialogue_bug_report), 2);
                 break;
             }
         }
@@ -389,14 +430,18 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     public void mistakesArray(double digit) {
 
         if(digit!=(double) 1) {
-            int i = MistakesIndexesArray.length;
-            MistakesIndexesArray[i-1] = Number-1;
+            //int i = MistakesIndexesArray.length;
+
+            //MistakesIndexesArray[i-1] = Number-1;
 
             int t[] = new int[MistakesIndexesArray.length+1];
             for(int j = 0; j < MistakesIndexesArray.length; j++) {
                 t[j] = MistakesIndexesArray[j];
             }
+
             MistakesIndexesArray = t;
+            int i = MistakesIndexesArray.length;
+            MistakesIndexesArray[i-1] = Number-1;
         }
 
     }
@@ -430,7 +475,8 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
                         if (listener != null) {
                             listener.onButtonCheckBoxCommitListener(Name, Path, Show, Questions,
-                                    Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray);
+                                    Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray,
+                                    AbsoluteSize);
                         }
                         break;
                     }
@@ -459,11 +505,11 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         switch (view.getId()) {
 
-
             case R.id.button_next: {
                 if (listener != null) {
                     listener.onButtonCheckBoxCommitListener(Name, Path, Show, Questions,
-                            Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray);
+                            Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray,
+                            AbsoluteSize);
                 }
                 break;
             }
@@ -538,8 +584,6 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         //getActivity().deleteFile(filePath);
         if(exist) {
-
-
             try {
                 InputStream is = getActivity().openFileInput(filePath);
 
@@ -586,7 +630,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
                 Log.v(TAG, "Mistakes");
                 Element NameElementMistakes = doc.createElement("mistakes");
-                NameElementMistakes.setAttribute("size", Integer.toString(MistakesIndexesArray.length-1));
+                NameElementMistakes.setAttribute("size", Integer.toString(MistakesIndexesArray.length));
 
                 Log.v(TAG, "Massive");
                 for(int i=0; i < Questions.length; i++) {
@@ -597,8 +641,8 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 }
 
                 Log.v(TAG+"A", "Mistakes");
-                Log.v(TAG+"A", Integer.toString(MistakesIndexesArray.length-1));
-                for(int i=0; i < MistakesIndexesArray.length-1; i++) {
+                Log.v(TAG+"A", Integer.toString(MistakesIndexesArray.length));
+                for(int i=0; i < MistakesIndexesArray.length; i++) {
 
                     Log.v(TAG+"A", Integer.toString(MistakesIndexesArray[i]+1));
                     Element element = doc.createElement("element");
@@ -606,6 +650,9 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                     NameElementMistakes.appendChild(element);
                 }
 
+                Element NameElementAbsoluteSize = doc.createElement("absolute");
+                Log.v(TAG, Name);
+                NameElementAbsoluteSize.appendChild(doc.createTextNode(Integer.toString(AbsoluteSize)));
 
 
                 NameElementTitle.appendChild(NameElementPath);
@@ -616,7 +663,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 NameElementTitle.appendChild(NameElementName);
                 NameElementTitle.appendChild(NameElementMassive);
                 NameElementTitle.appendChild(NameElementMistakes);
-
+                NameElementTitle.appendChild(NameElementAbsoluteSize);
 
                 nNode.appendChild(NameElementTitle);
 
@@ -697,6 +744,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         savedInstanceState.putString("name", Name);
         savedInstanceState.putInt("mode", Mode);
         savedInstanceState.putIntArray("mistakesIndexesArray", MistakesIndexesArray);
+        savedInstanceState.putInt("AbsoluteSize", AbsoluteSize);
 
 
         TestFragmentPacerable question = new TestFragmentPacerable();

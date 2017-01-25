@@ -7,6 +7,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,6 +31,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     private int Mode;
     protected boolean Show;
     private int[] MistakesIndexesArray;
+    private int AbsoluteSize;
 
     private TestFragmentCheckBox.TestFragmentBarListener barListener;
 
@@ -50,19 +52,34 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             }
             case R.id.mistakes_page_button: {
 
-                TestStructure newQuestions[] = new TestStructure[MistakesIndexesArray.length-1];
+                TestStructure newQuestions[] = new TestStructure[MistakesIndexesArray.length];
 
-                for(int i = 0; i < MistakesIndexesArray.length-1; i++) {
+                for(int i = 0; i < MistakesIndexesArray.length; i++) {
                     newQuestions[i] = Questions[MistakesIndexesArray[i]];
                 }
                 Questions = newQuestions;
                 Max = Questions.length;
-                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null);
+                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null, AbsoluteSize);
 
                 break;
             }
             case R.id.again_page_button: {
-                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null);
+                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null, AbsoluteSize);
+                break;
+            }
+
+            case R.id.main_page_button: {
+
+                int mass[] = new int[AbsoluteSize];
+                for (int i = 0; i < AbsoluteSize; i++) {
+                    mass[i] = i + 1;
+                }
+                XmlTestLoader loader = new XmlTestLoader(Path, getActivity().getAssets(), mass);
+                Log.v("Baba", Integer.toString(AbsoluteSize)  +" " + Path);
+
+                TestStructure Questions[] = loader.getTestStructure();
+
+                barListener.BarDrawer(Name, Path, Questions, Show, AbsoluteSize, Mode, null, AbsoluteSize);
                 break;
             }
         }
@@ -106,6 +123,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             Name = savedInstanceState.getString("name");
             Mode = savedInstanceState.getInt("mode");
             MistakesIndexesArray = savedInstanceState.getIntArray("MistakesIndexesArray");
+            AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
 
             ResultFragmentPacerable question;
             question = savedInstanceState.getParcelable("questions");
@@ -122,6 +140,9 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
         Button again = (Button) view.findViewById(R.id.again_page_button);
         again.setOnClickListener(this);
+
+        Button start = (Button) view.findViewById(R.id.main_page_button);
+        start.setOnClickListener(this);
         // Inflate the layout for this fragment
         return view;
     }
@@ -138,8 +159,17 @@ public class ResultPage extends Fragment implements View.OnClickListener {
                 + Double.toString(All));
 
         Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
-        if(MistakesIndexesArray.length==1) {
+        Button again = (Button) view.findViewById(R.id.again_page_button);
+        Button main = (Button) view.findViewById(R.id.main_page_button);
+        main.setVisibility(View.GONE);
+
+        if(MistakesIndexesArray.length==0)  {
             mistakes.setVisibility(View.GONE);
+        }
+        if(Max == AbsoluteSize) {
+            //again.setVisibility(View.GONE);
+
+
         }
     }
 
@@ -183,6 +213,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         outState.putString("name", Name);
         outState.putInt("mode", Mode);
         outState.putIntArray("MistakesIndexesArray", MistakesIndexesArray);
+        outState.putInt("AbsoluteSize", AbsoluteSize);
 
         ResultFragmentPacerable question = new ResultFragmentPacerable();
         question.setTestStruscture(Questions);

@@ -135,7 +135,8 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                             savedBundle[it].getRightAnswers(),
                             savedBundle[it].getMaxSize(),
                             0,
-                            savedBundle[it].getMistakes());
+                            savedBundle[it].getMistakes(),
+                            savedBundle[it].getAbsoluteSize());
 
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     ft.replace(R.id.content_frame, fragment, "fragment");
@@ -206,7 +207,8 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                                     savedBundle[it].getRightAnswers(),
                                     savedBundle[it].getMaxSize(),
                                     0,
-                                    savedBundle[it].getMistakes());
+                                    savedBundle[it].getMistakes(),
+                                    savedBundle[it].getAbsoluteSize());
 
                             FragmentTransaction ft = getFragmentManager().beginTransaction();
                             ft.replace(R.id.content_frame, fragment, "fragment");

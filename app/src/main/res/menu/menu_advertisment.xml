@@ -28,6 +28,12 @@
         android:title="@string/action_delete_chosen"
         android:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_bug_report"
+        android:orderInCategory="0"
+        android:icon="@drawable/ic_bug_report_white_48dp"
+        android:title="@string/action_mail_chosen"
+        android:showAsAction="never" />
 
 </menu>
 

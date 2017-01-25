@@ -42,15 +42,38 @@
     </question>
     <question id="6" size_x="4" size_y="4" type="2">
         <text>Соотнестите фенотип с генотипом, учитывая "Бомбейский феномен"</text>
-        <item>1) I0I0XX</item>
-        <item>2) IaIaxx</item>
-        <item>3) IaIbXx</item>
-        <item>4) IbIbxx</item>
-
-        <child pair="1">а) I группа</child>
-        <child pair="1">б) II группа</child>
-        <child pair="4">в) III группа</child>
-        <child pair="1">г) IV группа</child>
+        <item>
+			<text>1) I0I0XX</text>
+			<pair>1</pair>
+            <pair>1</pair>
+            <pair>0</pair>
+            <pair>1</pair>
+		</item>
+        <item>
+            <text>2) IaIaxx</text>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+        </item>
+        <item>
+            <text>3) IaIbXx</text>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+        </item>
+        <item pairs="1">
+            <text>4) IbIbxx</text>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>1</pair>
+            <pair>0</pair>
+        </item>
+        <child>а) I группа</child>
+        <child>б) II группа</child>
+        <child>в) III группа</child>
+        <child>г) IV группа</child>
     </question>
 
 

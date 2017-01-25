@@ -5,7 +5,7 @@ abstract class TestStructure {
     private String s[];
     private boolean f[];
     private int Type;
-    private int R[];
+    private boolean R[];
 
     public String getText() {
         return "";
@@ -21,7 +21,7 @@ abstract class TestStructure {
     }
     public String[] getParents(){return s;}
     public String[] getChildren(){return s;}
-    public int[] getRelations(){return R;}
+    public boolean[] getRelations(){return R;}
     public TestStructure getThis(){return this;}
     public int getID() {
         return 0;
@@ -73,14 +73,14 @@ class MultipleChoices extends TestStructure{
     private int Type;
     private String Parents[];
     private String Children[];
-    private int Relations[];
+    private boolean Relations[];
     private int ID;
 
     public String getText() {return Text;}
     public int getType(){return Type;}
     public String[] getParents(){return Parents;}
     public String[] getChildren(){return Children;}
-    public int[] getRelations(){return Relations;}
+    public boolean[] getRelations(){return Relations;}
     public MultipleChoices getThis(){return this;}
     public int getID() {
         return ID;
@@ -90,6 +90,6 @@ class MultipleChoices extends TestStructure{
     void setType(int Type){this.Type=Type;}
     void setParents(String Parents[]){this.Parents=Parents;}
     void setChildren(String Children[]){this.Children=Children;}
-    void setRelations(int Relations[]){this.Relations=Relations;}
+    void setRelations(boolean Relations[]){this.Relations=Relations;}
     void setID(int ID) {this.ID  = ID;}
 }

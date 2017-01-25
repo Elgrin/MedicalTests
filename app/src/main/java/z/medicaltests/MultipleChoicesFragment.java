@@ -11,10 +11,9 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.math.BigDecimal;
@@ -30,6 +29,8 @@ public class MultipleChoicesFragment extends Fragment {
     private String Parents[];
     private String Children[];
     private int Relations[];
+    private boolean Checked[];
+
     private int Relations_ID[];
     private int Answers_ID[];
     private String parentsNumbers[];
@@ -43,18 +44,82 @@ public class MultipleChoicesFragment extends Fragment {
 
     public double Count() {
 
-        int Rights = 0;
-        int All = Question.getChildren().length;;
+        double Rights = 0;
+        int small_Right = 0;
+        int counter = 0;
 
         View view = getView();
+        for(int i = 0; i < Checked.length; i++) {
 
+            CheckBox checkBox = (CheckBox) view.findViewById(i);
+            checkBox.setEnabled(false);
+            counter++;
+
+            if(Checked[i]==Question.getRelations()[i]) {
+                small_Right++;
+            }
+
+            Log.v("CCC_CCC", " i = " + i + " counter =" + counter);
+
+            if(counter == 4) {
+                double w = (double) ((small_Right*100)/Question.getChildren().length);
+                if (w <= 50) {
+                    Rights+=0;
+                } else {
+                    Rights += new
+                            BigDecimal(w / 100).
+                            setScale(2, RoundingMode.UP).doubleValue();
+                }
+
+                Log.v("CCC", " counter = " + counter + " small_Right = " + small_Right + " Rights = " + Rights + " w = " + w);
+                counter = 0;
+                small_Right = 0;
+            }
+
+        }
+
+        double Result;
+        double w  = (double) ((Rights*100)/Question.getChildren().length);
+
+        if (w <= 50) {
+            Result = 0;
+        } else {
+            Result = new
+                    BigDecimal(w / 100).
+                    setScale(2, RoundingMode.UP).doubleValue();
+        }
+
+        return Result;
+
+        /*
+        int Rights = 0;
+        int All = Checked.length;
+
+        View view = getView();
+        for(int i = 0; i < Checked.length; i++) {
+
+            CheckBox checkBox = (CheckBox) view.findViewById(i);
+            checkBox.setEnabled(false);
+
+            if(Checked[i]==Question.getRelations()[i]) {
+                Rights++;
+            }
+            else {
+                //checkBox.setBackgroundColor(Color.RED);
+            }
+
+        }
+
+        /*
         for (int i = 0; i < Question.getChildren().length; i++) {
             Spinner spinner = (Spinner) view.findViewById(Relations_ID[i]);
             if((spinner.getSelectedItemPosition() + 1)== Question.getRelations()[i]) {
                 Rights++;
             }
         }
+        */
 
+        /*
         double w = (double) ((Rights*100)/All);
 
 
@@ -64,10 +129,28 @@ public class MultipleChoicesFragment extends Fragment {
             return new
                     BigDecimal(w / 100).
                     setScale(2, RoundingMode.UP).doubleValue();
-        }
+        }*/
+
+
     }
     public void Paint() {
 
+        View view = getView();
+        for(int i = 0; i < Checked.length; i++) {
+
+            CheckBox checkBox = (CheckBox) view.findViewById(i);
+            checkBox.setEnabled(false);
+
+            if(Checked[i]==Question.getRelations()[i]) {
+                checkBox.setBackgroundColor(Color.GREEN);
+            }
+            else {
+                checkBox.setBackgroundColor(Color.RED);
+            }
+
+        }
+
+        /*
         View view = getView();
         TextView textView = (TextView) view.findViewById(R.id.www);
         //textView.setText(Integer.toString(Relations_ID.length) + " "+
@@ -93,6 +176,7 @@ public class MultipleChoicesFragment extends Fragment {
                 }
             }
         }
+        */
 
     }
 
@@ -104,12 +188,15 @@ public class MultipleChoicesFragment extends Fragment {
             parentsNumbers[j] = Question.getParents()[j];
         }
 
-        Relations = new int[(3*Question.getChildren().length)];
+        //Relations = new int[(3*Question.getChildren().length)];
         Relations_ID = new int[Question.getChildren().length];
         Answers_ID = new int[Question.getChildren().length];
+        /*
         for(int j = 0; j < (3*Question.getChildren().length); j++) {
             Relations[j] = 0;
-        }
+        }*/
+        Checked = new boolean[Question.getChildren().length
+                *Question.getParents().length];
 
     }
 
@@ -118,7 +205,8 @@ public class MultipleChoicesFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (savedInstanceState != null) {
             parentsNumbers = savedInstanceState.getStringArray("parentsNumbers");
-            Relations = savedInstanceState.getIntArray("relations");
+            //Relations = savedInstanceState.getIntArray("relations");
+            Checked = savedInstanceState.getBooleanArray("Checked");
             Relations_ID = savedInstanceState.getIntArray("relations_id");
             Answers_ID = savedInstanceState.getIntArray("answers_id");
 
@@ -152,7 +240,10 @@ public class MultipleChoicesFragment extends Fragment {
 
             TextView parentsStrings[] = new TextView[Question.getParents().length];
             TextView childrenStrings[] = new TextView[Question.getChildren().length];
-            Spinner relations[] = new Spinner[Question.getRelations().length];
+
+            CheckBox variants[] = new CheckBox[Question.getParents().length
+                    *Question.getChildren().length];
+            //Spinner relations[] = new Spinner[Question.getRelations().length];
             TextView answers[] = new TextView[Question.getRelations().length];
 
             View v = new View(getActivity());
@@ -160,29 +251,58 @@ public class MultipleChoicesFragment extends Fragment {
             for (int i = 0; i < Question.getParents().length; i++) {
                 parentsStrings[i] = new TextView(getActivity());
             }
+            for (int i = 0; i < Question.getParents().length
+                    *Question.getChildren().length; i++) {
+                variants[i] = new CheckBox(getActivity());
+            }
             for (int i = 0; i < Question.getChildren().length; i++) {
                 childrenStrings[i] = new TextView(getActivity());
-                relations[i] = new Spinner(getActivity());
+                //relations[i] = new Spinner(getActivity());
                 answers[i] = new TextView(getActivity());
             }
 
 
             int ID =0;
-            /*
-            for (int i = 0; i < Question.getParents().length; i++, ID++) {
+            int counter = 0;
+
+            for (int i = 0; i < Question.getParents().length; i++) {
+
                 parentsStrings[i].setText(Question.getParents()[i]);
                 parentsStrings[i].setTextSize(20);
-                parentsStrings[i].setId(ID);
-
+                //parentsStrings[i].setId(ID);
                 parentsStrings[i].setGravity(Gravity.FILL_HORIZONTAL);
-
-                v.setMinimumHeight(1);
-                v.setBackgroundColor(Color.GRAY);
+                //v.setMinimumHeight(1);
+                //v.setBackgroundColor(Color.GRAY);
                 layout.addView(parentsStrings[i]);
+                //layout.addView(v);
+
+                for(int j = 0; j < Question.getChildren().length; j++, counter++) {
+                    variants[counter].setText(Question.getChildren()[j]);
+                    variants[counter].setTextSize(20);
+                    variants[counter].setChecked(Checked[counter]);
+                    variants[counter].setId(counter);
+
+                    variants[counter].setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+                        @Override
+                        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                            int v = buttonView.getId();
+                            Checked[v] = (buttonView.isChecked());
+                        }
+                    });
+
+
+
+                    layout.addView(variants[counter]);
+                    ID++;
+                }
+                //ID++;
             }
+            //layout.addView(v);
 
-            layout.addView(v);*/
 
+/*
             int ID_2 = 0;
             int ID_3 = 0;
             for (int i = 0; i < Question.getChildren().length; i++, ID++,ID_2++,ID_3++) {
@@ -233,20 +353,25 @@ public class MultipleChoicesFragment extends Fragment {
                 //ArrayAdapter<String> spinnerArrayAdapter_2 = new ArrayAdapter<String>
                         //(getActivity(), android.R.layout.simple_spinner_dropdown_item, parentsNumbers); //selected item will look like a spinner set from XML
 
+                /*
                 //answers[i].setAdapter(spinnerArrayAdapter_2);
                 Answers_ID[ID_3] = ID;
                 answers[i].setText(Question.getParents()[Question.getRelations()[i]-1]);
+                */
                 //answers[i].setEnabled(false);
+            /*
                 answers[i].setVisibility(View.GONE);
                 answers[i].setTextSize(20);
 
                 childrenStrings[i].setGravity(Gravity.FILL_HORIZONTAL);
                 layout.addView(childrenStrings[i]);
-                layout.addView(relations[i]);
+                //layout.addView(relations[i]);
                 layout.addView(answers[i]);
 
             }
 
+
+*/
             if (TestFragmentCheckBox.getColor()) {
                 Paint();
             }
@@ -295,15 +420,17 @@ public class MultipleChoicesFragment extends Fragment {
         }
 
     }
+
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
 
         super.onSaveInstanceState(savedInstanceState);
 
         savedInstanceState.putStringArray("parentsNumbers", parentsNumbers);
-        savedInstanceState.putIntArray("relations", Relations);
+        //savedInstanceState.putIntArray("relations", Relations);
         savedInstanceState.putIntArray("relations_id", Relations_ID);
         savedInstanceState.putIntArray("answers_id", Answers_ID);
+        savedInstanceState.putBooleanArray("Checked", Checked);
 
         MultipleParcerable boxes = new MultipleParcerable();
         boxes.setTestStruscture(Question);

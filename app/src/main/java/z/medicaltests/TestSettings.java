@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -157,6 +158,11 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         Log.v(TAG, "Click");
 
         View View = getView();
+
+        if (View != null) {
+            InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
 
         int Size_exam;
         CheckBox checkBox = (CheckBox) View.findViewById(R.id.Show_mistakes);

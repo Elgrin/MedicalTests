@@ -159,6 +159,8 @@ class XmlTestLoader {
                     else {
                         if (type == 2) {
 
+                            Log.v(TAG, " " + "Type"  + " " + type);
+
                             String SIZE_X = element.getAttribute("size_x");
                             int size_x = Integer.parseInt(SIZE_X);
                             String SIZE_Y = element.getAttribute("size_y");
@@ -168,7 +170,8 @@ class XmlTestLoader {
 
                             String Parents[] = new String[size_x];
                             String Children[] = new String[size_y];
-                            int Relations[] = new int[size_y];
+                            boolean Relations[] = new boolean[size_x
+                                    *size_y];
 
                             MultipleChoices question = new MultipleChoices();
 
@@ -178,9 +181,10 @@ class XmlTestLoader {
 
                             int mass_size_x = 0;
                             int mass_size_y=0;
+                            int pairs_counter = 0;
+
                             for (int q = 0; q < nList_Second.getLength(); q++) {
                                 Node nNode_Second = nList_Second.item(q);
-
                                 if (nNode_Second.getNodeType() == Node.ELEMENT_NODE) {
                                     boolean it = nNode_Second.getNodeName().equals("text");
                                     if (it) {
@@ -189,7 +193,43 @@ class XmlTestLoader {
 
                                         if (nNode_Second.getNodeName().equals("item")) {
 
-                                            Parents[mass_size_x] = nNode_Second.getTextContent();
+                                            Log.v(TAG, " " + "Item"  + " ");
+                                            //Parents[mass_size_x] = nNode_Second.getTextContent();
+
+                                            Element element_Second = (Element) nNode_Second;
+
+                                            NodeList nList_Third = nNode_Second.getChildNodes();
+
+                                            for (int x = 0; x < nList_Third.getLength(); x++) {
+
+                                                Node nNode_Third = nList_Third.item(x);
+                                                //Log.v(TAG, " " + "ThirdNode"  + " " + x);
+
+                                                if (nNode_Third.getNodeType() == Node.ELEMENT_NODE) {
+
+                                                    boolean flager = nNode_Third.getNodeName().equals("text");
+                                                    Log.v(TAG, " " + "ThirdNodeInside"  + " " + x + " " + Boolean.toString(flager));
+
+                                                    if (flager) {
+                                                        Parents[mass_size_x] = nNode_Third.getTextContent();
+                                                        Log.v(TAG, " " + "Parent"  + " " + Parents[mass_size_x]);
+                                                    } else {
+                                                        String s_Pairs = nNode_Third.getTextContent();
+                                                        Log.v(TAG, " " + s_Pairs);
+                                                        if(s_Pairs.equals("1")) {
+                                                            Relations[pairs_counter] = true;
+                                                        }
+                                                        else {
+                                                            Relations[pairs_counter] = false;
+                                                        }
+                                                        Log.v(TAG, " " + pairs_counter  + " " + Relations[pairs_counter]);
+                                                        pairs_counter++;
+                                                    }
+
+
+                                                }
+
+                                            }
 
                                             Log.v(TAG, Parents[mass_size_x]);
                                             mass_size_x++;
@@ -197,12 +237,12 @@ class XmlTestLoader {
                                         if (nNode_Second.getNodeName().equals("child")) {
 
                                             Children[mass_size_y] = nNode_Second.getTextContent();
-                                            Element element_Second = (Element) nNode_Second;
-                                            String s_Flag = element_Second.getAttribute("pair");
+                                            //Element element_Second = (Element) nNode_Second;
+                                            //String s_Flag = element_Second.getAttribute("pair");
 
-                                            Relations[mass_size_y] = Integer.parseInt(s_Flag);
+                                            //Relations[mass_size_y] = Integer.parseInt(s_Flag);
 
-                                            Log.v(TAG, Children[mass_size_y] + " " + Relations[mass_size_y]);
+                                            //Log.v(TAG, Children[mass_size_y] + " " + Relations[mass_size_y]);
                                             mass_size_y++;
 
                                         }

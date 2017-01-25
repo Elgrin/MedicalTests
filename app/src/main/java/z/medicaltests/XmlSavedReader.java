@@ -23,7 +23,7 @@ class SavedBundle {
     private int ID;
     private int[] Massive;
     private int[] Mistakes;
-
+    private int AbsoluteSize;
 
     void setPath(String Path) {this.Path = Path;}
     void setNumber(int Number) {this.Number = Number;}
@@ -34,6 +34,7 @@ class SavedBundle {
     void setID(int ID){this.ID=ID;}
     void setMassive(int Massive[]){this.Massive=Massive;}
     void setMistakes(int Mistakes[]){this.Mistakes=Mistakes;}
+    void setAbsolute(int AbsoluteSize){this.AbsoluteSize=AbsoluteSize;}
 
     String getPath() {return Path;}
     int getNumber() {return Number;}
@@ -44,6 +45,7 @@ class SavedBundle {
     int getID(){return ID;}
     int[] getMassive() {return Massive;}
     int[] getMistakes() {return Mistakes;}
+    int getAbsoluteSize() {return  AbsoluteSize;}
 }
 
  class XmlSavedReader {
@@ -188,6 +190,11 @@ class SavedBundle {
                                     Log.v(TAG+"Nodes", "Empty");
                                     bundle[Iterator].setMistakes(null);
                                 }
+                            }
+
+                            if(j==8) {
+                                bundle[Iterator].setAbsolute(Integer.parseInt(nNode_Second.getTextContent()));
+                                Log.v(TAG, "Max " + nNode_Second.getTextContent());
                             }
                         }
                     }
