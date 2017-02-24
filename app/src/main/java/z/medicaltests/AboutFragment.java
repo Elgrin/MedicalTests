@@ -36,6 +36,12 @@ public class AboutFragment extends Fragment {
 
         View view = getView();
 
+        int versionCode = BuildConfig.VERSION_CODE;
+        String versionName = BuildConfig.VERSION_NAME;
+
+        TextView ver = (TextView) view.findViewById(R.id.version);
+        ver.setText(versionName);
+
         TextView textView = (TextView) view.findViewById(R.id.mailto);
 
         textView.setOnClickListener(new View.OnClickListener() {

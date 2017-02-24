@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="136" file="arachnoentomology" name = "Арахноэнтомология">
+	<question id = "1" size = "5" type = "1">
+        <text>Особенности строения представителей типа Членистоногие</text>
+		<item flag = "0">гемоглобин в крови</item>
+		<item flag = "1">хитиновый экзоскелет</item>
+		<item flag = "0">замкнутая кровеносная система</item>
+        <item flag = "1">гетерономная сегментация тела</item>
+        <item flag = "1">поперечнополосатая мускулатура</item>
+    </question>
+	<question id = "2" size = "5" type = "1">
+        <text>Представители семейства Иксодовые клещи</text>
+		<item flag = "0">аргас</item>
+		<item flag = "0">орнитодорус</item>
+		<item flag = "1">дермацентор</item>
+        <item flag = "1">таежный клещ</item>
+        <item flag = "1">Собачий клещ</item>
+    </question>
+	<question id = "3" size = "5" type = "1">
+        <text>Особенности строения представителей класса Паукообразные</text>
+		<item flag = "0">3 пары ходильных ног</item>
+		<item flag = "1">наличие трахей или легких</item>
+		<item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "1">коксальные выделительные железы и мальпигиевы сосуды</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "4" size = "5" type = "1">
+        <text>Представители семейства Аргазовые клещи</text>
+		<item flag = "1">аргас</item>
+		<item flag = "0">демодекс</item>
+		<item flag = "0">дермацентор</item>
+        <item flag = "0">собачий клещ</item>
+        <item flag = "1">поселковый клещ</item>
+    </question>
+	<question id = "5" size = "5" type = "1">
+        <text>Характерные черты строения паразитиформных клещей </text>
+		<item flag = "0">3 пары ходильных ног</item>
+		<item flag = "1">отсутствие сегментации</item>
+		<item flag = "0">тонкий хитиновый покров без щитков</item>
+        <item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "6" size = "5" type = "1">
+        <text>Представители семейства акариформных</text>
+		<item flag = "0">дермацентор</item>
+		<item flag = "0">орнитодорус</item>
+		<item flag = "1">жировой клещ</item>
+        <item flag = "1">железница угревая</item>
+        <item flag = "1">чесоточный зудень</item>
+    </question>
+	<question id = "7" size = "5" type = "1">
+        <text>Особенности строения представителей отряда Пауки</text>
+		<item flag = "0">наличие крыльев</item>
+		<item flag = "1">4 пары ходильных ног </item>
+		<item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "1">коксальные выделительные железы</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "8" size = "5" type = "1">
+        <text>Представители семейства Иксодовые клещи</text>
+		<item flag = "0">демодекс</item>
+		<item flag = "1">дермацентор</item>
+		<item flag = "1">собачий клещ</item>
+        <item flag = "1">таёжный клещ</item>
+        <item flag = "0">поселковый клещ</item>
+    </question>
+	<question id = "9" size = "5" type = "1">
+        <text>Особенности строения представителей класса Насекомые</text>
+		<item flag = "1">З сегмента груди</item>
+		<item flag = "1">наличие крыльев</item>
+		<item flag = "1">мальпигиевы сосуды</item>
+        <item flag = "0">4 пары ходильных ног</item>
+        <item flag = "1">развитие с метаморфозом</item>
+    </question>
+	<question id = "10" size = "5" type = "1">
+        <text>Жизненный цикл насекомых характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">зависимостью от t° среды</item>
+		<item flag = "1">развитием с метаморфозом</item>
+        <item flag = "0">наружным оплодотворением</item>
+        <item flag = "1">внутренним оплодотворением </item>
+    </question>
+	<question id = "11" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Мухи характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">полным метаморфозом</item>
+		<item flag = "1">развитием в гниющих отходах</item>
+        <item flag = "1">перезимовкой на стадии куколки</item>
+        <item flag = "0">развитием в загрязненных водоемах</item>
+    </question>
+	<question id = "12" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Триатомовые клопы характеризуется</text>
+		<item flag = "1">ночным образом жизни</item>
+		<item flag = "1">временным эктопаразитизмом</item>
+		<item flag = "1">гонотрофическим циклом у самок</item>
+        <item flag = "0">развитием с полным метаморфозом</item>
+        <item flag = "0">развитием личинок и куколок в норах грызунов</item>
+    </question>
+	<question id = "13" size = "5" type = "1">
+        <text>Особенности строения представителей семейства Комары</text>
+		<item flag = "1">3 сегмента груди</item>
+		<item flag = "0">4 пары ходильных ног</item>
+		<item flag = "1">наличие 1 пары крыльев</item>
+        <item flag = "1">гонотрофический цикл у самок</item>
+        <item flag = "1">развитие с метаморфозом в водной среде</item>
+    </question>
+	<question id = "14" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Москиты характеризуется</text>
+		<item flag = "1">гематофагией</item>
+		<item flag = "0">наружным оплодотворением</item>
+		<item flag = "1">внутренним оплодотворением</item>
+        <item flag = "0">прямым развитием в водоёмах</item>
+        <item flag = "1">развитием с метаморфозом в сухих или влажных местах</item>
+    </question>
+	<question id = "15" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Мошки характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">полным метаморфозом</item>
+		<item flag = "0">развитием в гниющих отходах</item>
+        <item flag = "0">развитием в загрязненных водоемах</item>
+        <item flag = "1">развитием в чистых проточных водоёмах</item>
+    </question>
+	<question id = "16" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Комары характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">гонотрофическим циклом у самок</item>
+		<item flag = "1">развитием с полным метаморфозом</item>
+        <item flag = "1">развитием личинок и куколок в водоёмах</item>
+        <item flag = "0">развитием личинок и куколок в норах грызунов</item>
+    </question>
+	<question id = "17" size = "5" type = "1">
+        <text>Особенности строения представителей типа Членистоногие</text>
+		<item flag = "1">гемоцианин в крови</item>
+		<item flag = "1">хитиновый экзоскелет</item>
+		<item flag = "1">незамкнутая кровеносная система</item>
+        <item flag = "0">гомономная сегментация тела</item>
+        <item flag = "1">поперечнополосатая мускулатура</item>
+    </question>
+	<question id = "18" size = "5" type = "1">
+        <text>Особенности строения представителей класса Паукообразные</text>
+		<item flag = "0">наличие крыльев</item>
+		<item flag = "1">пары ходильных ног</item>
+		<item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "1">коксaльные и мальпигиевые сосуды</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "19" size = "5" type = "1">
+        <text>Представители семейства Иксодовые клещи</text>
+		<item flag = "0">каракурт</item>
+		<item flag = "1">дермацентор</item>
+		<item flag = "1">собачий клещ</item>
+        <item flag = "1">таёжный клещ</item>
+        <item flag = "0">чесоточный клещ</item>
+    </question>
+	<question id = "20" size = "5" type = "1">
+        <text>Особенности строения представителей типа Членистоногие</text>
+		<item flag = "0">гемоглобин в крови</item>
+		<item flag = "1">хитиновый экзоскелет</item>
+		<item flag = "0">гомономная сегментация тела</item>
+        <item flag = "1">незамкнутая кровеносная система</item>
+        <item flag = "1">поперечнополосатая мускулатура</item>
+    </question>
+	<question id = "21" size = "5" type = "1">
+        <text>Особенности строения представителей класса Паукообразные</text>
+		<item flag = "0">3 пары ходильных ног</item>
+		<item flag = "1">наличие трахей или лёгких</item>
+		<item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+        <item flag = "1">коксальные выделительные железы и мальпигиевые сосуды</item>
+    </question>
+	<question id = "22" size = "5" type = "1">
+        <text>Аргазовые клещи</text>
+		<item flag = "0">каракурт</item>
+		<item flag = "0">дермацентор</item>
+		<item flag = "0">собачий клещ</item>
+        <item flag = "1">поселковый клещ</item>
+        <item flag = "0">чесоточный клещ</item>
+    </question>
+	<question id = "23" size = "5" type = "1">
+        <text>Особенности строения представителей типа Членистоногие</text>
+		<item flag = "1">гемоцианин в крови</item>
+		<item flag = "1">хитиновый экзоскелет</item>
+		<item flag = "0">гомономная сегментация тела</item>
+        <item flag = "0">замкнутая кровеносная система</item>
+        <item flag = "1">поперечнополосатые мышцы</item>
+    </question>
+	<question id = "24" size = "5" type = "1">
+        <text>Особенности строения имаго паразитиформных клещей</text>
+		<item flag = "0">3 пары ходильных ног</item>
+		<item flag = "1">отсутствие сегментации</item>
+		<item flag = "1">плотный хитиновый покров</item>
+        <item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "25" size = "5" type = "1">
+        <text>Представители семейства акариформных клещей</text>
+		<item flag = "0">орнитодорус</item>
+		<item flag = "0">дермацентор</item>
+		<item flag = "0">собачий клещ</item>
+        <item flag = "1">железница угревая</item>
+        <item flag = "1">чесоточный зудень</item>
+    </question>
+	<question id = "26" size = "5" type = "1">
+        <text>Особенности строения представителей типа Членистоногие</text>
+		<item flag = "0">эритроциты с гемоглобином в крови</item>
+		<item flag = "1">хитиновый экзоскелет</item>
+		<item flag = "1">членистые конечности</item>
+        <item flag = "0">замкнутая кровеносная система</item>
+        <item flag = "0">ортогональная нервная система</item>
+    </question>
+	 <question id = "27" size = "5" type = "1">
+        <text>Особенности строения представителей отряда Пауки</text>
+		<item flag = "0">наличие крыльев</item>
+		<item flag = "1">4 пары ходильных ног </item>
+		<item flag = "1">наличие хелицер и педипальп</item>
+        <item flag = "0">антеннaльные выделительные железы</item>
+        <item flag = "0">развитие с полным метаморфозом</item>
+    </question>
+	<question id = "28" size = "5" type = "1">
+        <text>Представители семейства Иксодовые клещи</text>
+		<item flag = "1">дермацентор</item>
+		<item flag = "1">собачий клещ</item>
+		<item flag = "1">таёжный клещ</item>
+        <item flag = "0">поселковый клещ</item>
+        <item flag = "0">чесоточный клещ</item>
+    </question>
+	<question id = "29" size = "5" type = "1">
+        <text>Особенности строения представителей класса Насекомые</text>
+		<item flag = "0">4 сегмента груди</item>
+		<item flag = "1">наличие крыльев</item>
+		<item flag = "1">мaльпигиевы сосуды</item>
+        <item flag = "0">4 пары ходильных ног</item>
+        <item flag = "0">прямое развитие</item>
+    </question>
+	<question id = "30" size = "5" type = "1">
+        <text>Жизненный цикл отряда Вши характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">паразитическим образом жизни</item>
+		<item flag = "1">развитием с метаморфозом</item>
+        <item flag = "0">наружным оплодотворением</item>
+        <item flag = "1">внутренним оплодотворением</item>
+    </question>
+	<question id = "31" size = "5" type = "1">
+        <text>Жизненный цикл представителей семейства Мухи характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "0">неполным метаморфозом</item>
+		<item flag = "1">развитием в гниющих отходах</item>
+        <item flag = "1">перезимовкой на стадии куколки</item>
+        <item flag = "0">развитием в загрязненных водоемах</item>
+    </question>
+	<question id = "32" size = "5" type = "1">
+        <text>Жизненный цикл представителей отряда Блохи характеризуется</text>
+		<item flag = "0">прямым развитием</item>
+		<item flag = "1">гонотрофическим циклом у самок</item>
+		<item flag = "1">развитием с полным метаморфозом</item>
+        <item flag = "0">развитием личинок и куколок в водоёмах</item>
+        <item flag = "1">развитием личинок и куколок в норах грызунов</item>
+    </question>
+	<question id = "33" size = "5" type = "1">
+        <text>Медицинское значение акариформных клещей</text>
+		<item flag = "1">возбудители чесотки</item>
+		<item flag = "1">возбудители демодекоза</item>
+		<item flag = "0">возбудители сыпного тифа</item>
+        <item flag = "0">переносчики возвратного тифа</item>
+        <item flag = "0">переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "34" size = "5" type = "1">
+        <text>Аргазовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "1">резервуарные хозяева спирохет</item>
+        <item flag = "0">промежуточные хозяева гельминтов</item>
+        <item flag = "1">специфические переносчики возвратного тифа</item>
+    </question>
+	<question id = "35" size = "5" type = "1">
+        <text>Обязательные условия существования природного очага трансмиссивных болезней</text>
+		<item flag = "1">переносчик</item>
+		<item flag = "1">возбудитель болезни</item>
+		<item flag = "0">промежуточные хозяева</item>
+        <item flag = "1">резервуарные хозяева - дикие животные</item>
+        <item flag = "1">определенный климат и географический ландшафт</item>
+    </question>
+	<question id = "36" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропозоонозные заболевания</text>
+		<item flag = "0">демодекоз</item>
+		<item flag = "0">лихорадка Ку</item>
+		<item flag = "0">таёжный энцефалит</item>
+        <item flag = "1">клещевой сыпной тиф</item>
+        <item flag = "1">клещевой возвратный тиф</item>
+    </question>
+	<question id = "37" size = "5" type = "1">
+        <text>Иксодовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">резервуарные хозяева спирохет</item>
+		<item flag = "0">промежуточные хозяева гельминтов</item>
+        <item flag = "1">специфические переносчики сыпного тифа</item>
+        <item flag = "1">специфические переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "38" size = "5" type = "1">
+        <text>Медицинское значение акариформных клещей</text>
+		<item flag = "1">возбудители чесотки</item>
+		<item flag = "1">возбудители демодекоза</item>
+		<item flag = "0">переносчики сыпного тифа</item>
+        <item flag = "0">возбудители возвратного тифа</item>
+        <item flag = "0">переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "39" size = "5" type = "1">
+        <text>Факультативно-трансмиссивными антропозоонозными заболеваниями являются</text>
+		<item flag = "1">чума</item>
+		<item flag = "1">туляремия</item>
+		<item flag = "1">лихорадка Ку</item>
+        <item flag = "1">таёжный энцефалит</item>
+        <item flag = "0">клещевой сыпной тиф</item>
+    </question>
+	<question id = "40" size = "5" type = "1">
+        <text>Аргазовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">переносчики сыпного тифа</item>
+        <item flag = "1">резервуарные хозяева спирохет</item>
+        <item flag = "1">специфические переносчики возвратного тифа</item>
+    </question>
+	<question id = "41" size = "5" type = "1">
+        <text>Медицинское значение Иксодовых клещей</text>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "1">переносчики сыпного тифа</item>
+		<item flag = "0">переносчики возвратного тифа</item>
+        <item flag = "0">резервуарные хозяева спирохет</item>
+        <item flag = "1">переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "42" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропозоонозными заболеваниями являются</text>
+		<item flag = "0">демодекоз</item>
+		<item flag = "1">болезнь Лайма</item>
+		<item flag = "0">лихорадка Ку</item>
+        <item flag = "0">таёжный энцефалит</item>
+        <item flag = "1">клещевой сыпной тиф</item>
+    </question>
+	<question id = "43" size = "5" type = "1">
+        <text>Акариформные клещи имеют медицинское значение как</text>
+		<item flag = "0">эктопаразиты</item>
+		<item flag = "1">эндопаразиты</item>
+		<item flag = "1">возбудители чесотки</item>
+        <item flag = "1">возбудители демодекоза</item>
+        <item flag = "0">резервуарные хозяева спирохет</item>
+    </question>
+	<question id = "44" size = "5" type = "1">
+        <text>Медицинское значение аргазовых клещей</text>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "0">возбудители сыпного тифа</item>
+        <item flag = "0">переносчики таёжного энцефалита</item>
+        <item flag = "1">переносчики возвратного энцефалита</item>
+    </question>
+	<question id = "45" size = "5" type = "1">
+        <text>Медицинское значение представителей отряда Клопы</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "0">ядовитый животные</item>
+        <item flag = "1">вероятные переносчики гепатита В</item>
+        <item flag = "1">переносчики болезни Чагаса</item>
+    </question>
+	<question id = "46" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные болезни, распространяемые вшами</text>
+		<item flag = "0">чума</item>
+		<item flag = "0">тунгилез</item>
+		<item flag = "1">сыпной тиф</item>
+        <item flag = "1">возвратный тиф</item>
+        <item flag = "1">траншейная лихорадка</item>
+    </question>
+	<question id = "47" size = "5" type = "1">
+        <text>Возбудители миазмов человека</text>
+		<item flag = "0">демодекс</item>
+		<item flag = "1">личинки оводов</item>
+		<item flag = "0">чесоточный зудень</item>
+        <item flag = "1">личинки вольфартовой мухи</item>
+        <item flag = "0">личинки триатомовых клопов</item>
+    </question>
+	<question id = "48" size = "5" type = "1">
+        <text>Методы профилактики распространения нетрансмиссивных кишечных инфекций</text>
+		<item flag = "1">борьба с мухами</item>
+		<item flag = "0">борьба с блохами</item>
+		<item flag = "1">борьба с тараканами</item>
+        <item flag = "0">борьба с комарами</item>
+        <item flag = "0">осушение местности</item>
+    </question>
+	<question id = "49" size = "5" type = "1">
+        <text>Способ заражения и передачи вшиного возвратного тифа</text>
+		<item flag = "0">перкутанный</item>
+		<item flag = "1">контаминативный</item>
+		<item flag = "0">воздушно-капельный</item>
+        <item flag = "1">облигатно-трансмиссивный</item>
+        <item flag = "0">факультативно-трансмиссивный</item>
+    </question>
+	<question id = "50" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропонозные заболевания</text>
+		<item flag = "0">чума</item>
+		<item flag = "1">малярия</item>
+		<item flag = "1">вшиный сыпной тиф</item>
+        <item flag = "0">клещевой сыпной тиф</item>
+        <item flag = "1">вшиный возвратный тиф</item>
+    </question>
+	<question id = "51" size = "5" type = "1">
+        <text>Вухерериозом человек заражается при</text>
+		<item flag = "0">укусе мошек рода Simulium</item>
+		<item flag = "1">укусе комаров рода Culex</item>
+		<item flag = "1">укусе комаров рода Aedes</item>
+        <item flag = "0">укусе москитов рода Phlebotomus</item>
+        <item flag = "0">попадании циклопов в организм с водой</item>
+    </question>
+	<question id = "52" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропонозные заболевания</text>
+		<item flag = "1">малярия</item>
+		<item flag = "1">вшиный сыпной тиф</item>
+		<item flag = "0">клещевой сыпной тиф</item>
+        <item flag = "1">вшиный возвратный тиф</item>
+        <item flag = "0">клещевой возвратный тиф</item>
+    </question>
+	<question id = "53" size = "5" type = "1">
+        <text>Москиты - специфические переносчики возбудителей</text>
+		<item flag = "0">чумы</item>
+		<item flag = "0">бартонеллеза</item>
+		<item flag = "1">лейшманиозов</item>
+        <item flag = "1">лихорадки Папатаччи</item>
+        <item flag = "0">японского энцефалита</item>
+    </question>
+	<question id = "54" size = "5" type = "1">
+        <text>Представители отряда Клопы имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "1">вероятные переносчики гепатита В</item>
+        <item flag = "0">переносчики возбудителей сонной болезни</item>
+        <item flag = "1">переносчики болезни Чагаса</item>
+    </question>
+	<question id = "55" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропозоонозные (природно-очаговые) заболевания</text>
+		<item flag = "0">чума</item>
+		<item flag = "0">туляремия</item>
+		<item flag = "1">лейшманиозы</item>
+        <item flag = "1">желтая лихорадка</item>
+        <item flag = "0">таежный энцефалит</item>
+    </question>
+	<question id = "56" size = "5" type = "1">
+        <text>Клещи - эндопаразиты из отряда Acariformes</text>
+		<item flag = "0">Pulex irritans</item>
+		<item flag = "0">Ixodes ricinus</item>
+		<item flag = "1">Sarcoptes scabiei</item>
+        <item flag = "0">Ornitodorus papillipes</item>
+        <item flag = "1">Demodex folliculorum</item>
+    </question>
+	<question id = "57" size = "5" type = "1">
+        <text>Инокулятивный способ заражения, характерный для облигатно-трансмиссивных заболеваний</text>
+		<item flag = "1">лейшманиоза</item>
+		<item flag = "0">болезни Чагаса</item>
+		<item flag = "0">вшиного сыпного тифа</item>
+        <item flag = "1">клещевого сыпного тифа</item>
+        <item flag = "0">вшиного возвратного тифа</item>
+    </question>
+	<question id = "58" size = "5" type = "1">
+        <text>Специфические переносчики гельминтозов</text>
+		<item flag = "1">комары рода Aedes</item>
+		<item flag = "0">вши отряда Anoplura</item>
+		<item flag = "1">комары рода Anopheles</item>
+        <item flag = "0">блохи отряда Aphaniptera</item>
+        <item flag = "1">слепни семейства Tabanidae</item>
+    </question>
+	<question id = "59" size = "5" type = "1">
+        <text>Контаминативный способ заражения характерен для облигатно-трансмиссивных заболеваний</text>
+		<item flag = "0">лейшманиоза</item>
+		<item flag = "1">болезни Чагаса</item>
+		<item flag = "1">вшиного сыпного тифа</item>
+        <item flag = "0">клещевого сыпного тифа</item>
+        <item flag = "1">вшиного возвратного тифа</item>
+    </question>
+	<question id = "60" size = "5" type = "1">
+        <text>Клещи отряда Acariformes - возбудители заболеваний</text>
+		<item flag = "1">чесотки</item>
+		<item flag = "0">педикулеза</item>
+		<item flag = "1">демодекоза</item>
+        <item flag = "0">клещевого сыпного тифа</item>
+        <item flag = "0">клещевого возвратного тифа</item>
+    </question>
+	<question id = "61" size = "5" type = "1">
+        <text>Специфические переносчики возбудителей африканского трипаносомоза</text>
+		<item flag = "1">мухи вида Glossina palpalis</item>
+		<item flag = "0">мошки рода Simulium</item>
+		<item flag = "0">комары рода Anopheles</item>
+        <item flag = "1">мухи вида Glossina morsitans</item>
+        <item flag = "0">москиты рода Phlebotomus</item>
+    </question>
+	<question id = "62" size = "5" type = "1">
+        <text>Pediculus humanus humanus - переносчик возбудителей</text>
+		<item flag = "0">чумы</item>
+		<item flag = "0">скабиоза</item>
+		<item flag = "0">фтириоза</item>
+        <item flag = "1">сыпного тифа</item>
+        <item flag = "1">возвратного тифа</item>
+    </question>
+	<question id = "63" size = "5" type = "1">
+        <text>Путь заражения и способ передачи южноамериканского трипаносомоза</text>
+		<item flag = "0">перкутанный</item>
+		<item flag = "1">контаминативный</item>
+		<item flag = "0">воздушно-капельный</item>
+        <item flag = "1">облигатно-трансмиссивный</item>
+        <item flag = "0">факультативно-трансмиссивный</item>
+    </question> 
+	<question id = "64" size = "5" type = "1">
+        <text>Антропозоонозные облигатно-трансмиссивные заболевания</text>
+		<item flag = "1">лейшманиоз</item>
+		<item flag = "0">вшиный сыпной тиф</item>
+		<item flag = "1">клещевой сыпной тиф</item>
+        <item flag = "0">вшиный возвратный тиф</item>
+        <item flag = "1">клещевой возвратный тиф</item>
+    </question>
+	<question id = "65" size = "5" type = "1">
+        <text>Кожные эндопаразиты человека</text>
+		<item flag = "0">лобковая вошь</item>
+		<item flag = "1">песчаная блоха</item>
+		<item flag = "1">чесоточный зудень</item>
+        <item flag = "1">железница угревая</item>
+        <item flag = "1">личинки клещей-краснотелок</item>
+    </question>
+	<question id = "66" size = "5" type = "1">
+        <text>Специфические переносчики возбудителей сыпного тифа (риккетсий)</text>
+		<item flag = "0">блохи рода Рulex</item>
+		<item flag = "0">клещи рода Ixodes</item>
+		<item flag = "0">клещи семейства Argasidae</item>
+        <item flag = "1">клещ Dermaceutor marginatus</item>
+        <item flag = "1">вши Pediculus humanus capitis</item>
+    </question>
+	<question id = "67" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные антропозоонозные заболевания</text>
+		<item flag = "0">чума</item>
+		<item flag = "0">малярия</item>
+		<item flag = "1">онхоцеркоз</item>
+        <item flag = "1">лейшманиоз</item>
+        <item flag = "0">таёжный энцефалит</item>
+    </question>
+	<question id = "68" size = "5" type = "1">
+        <text>Эндопаразитами человека являются членистоногие</text>
+		<item flag = "0">Phthirus рubis</item>
+		<item flag = "0">Ixodes ricinus</item>
+		<item flag = "1">Sarcoples scabiei</item>
+        <item flag = "1">Tunga penetranc</item>
+        <item flag = "1">Demodex folliculorum</item>
+    </question>
+	<question id = "69" size = "5" type = "1">
+        <text>Антропонозные облигатно-трансмиссивные заболевания</text>
+		<item flag = "1">малярия</item>
+		<item flag = "1">вшиный сыпной тиф</item>
+		<item flag = "0">клещевой сыпной тиф</item>
+        <item flag = "1">вшиный возвратный тиф</item>
+        <item flag = "0">клещевой возвратный тиф</item>
+    </question>
+	<question id = "70" size = "5" type = "1">
+        <text>Значение представителей отряда Блохи</text>
+		<item flag = "1">переносчики чумы</item>
+		<item flag = "1">возбудители тунгилёза</item>
+		<item flag = "1">переносчики туляремии</item>
+        <item flag = "1">временные эктопаразиты</item>
+        <item flag = "0">переносчики возвратного тифа</item>
+    </question>
+	<question id = "71" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные болезни, распространяемые представителями отряда Клопы</text>
+		<item flag = "0">гепатит B</item>
+		<item flag = "0">туляремия</item>
+		<item flag = "0">сыпной тиф</item>
+        <item flag = "0">сонная болезнь</item>
+        <item flag = "1">американский трипаносомоз</item>
+    </question>
+	<question id = "72" size = "5" type = "1">
+        <text>Возбудители педикулёза человека</text>
+		<item flag = "0">блохи</item>
+		<item flag = "1">головная вошь</item>
+		<item flag = "1">платяная вошь</item>
+        <item flag = "0">чесоточный клещ</item>
+        <item flag = "0">железница угревая</item>
+    </question>
+	<question id = "73" size = "5" type = "1">
+        <text>Методы профилактики сонной болезни</text>
+		<item flag = "1">борьба с мухами</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "0">осушение местности</item>
+        <item flag = "0">уничтожение нор грызунов</item>
+        <item flag = "1">выявление и лечение больных</item>
+    </question>
+	<question id = "74" size = "5" type = "1">
+        <text>Значение представителей отряда Вши</text>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "1">возбудители педикулёза</item>
+		<item flag = "1">постоянные эктопаразиты</item>
+        <item flag = "1">переносчики сыпного тифа</item>
+        <item flag = "1">переносчики возвратного тифа</item>
+    </question>
+	<question id = "75" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые клопами</text>
+		<item flag = "0">чума</item>
+		<item flag = "1">гепатит B</item>
+		<item flag = "0">туляремия</item>
+        <item flag = "0">сонная болезнь</item>
+        <item flag = "1">американский трипаносомоз</item>
+    </question>
+	<question id = "76" size = "5" type = "1">
+        <text>Возбудители фтириоза человека</text>
+		<item flag = "0">демодекс</item>
+		<item flag = "0">головная вошь</item>
+		<item flag = "0">песчаная блоха</item>
+        <item flag = "1">лобковая вошь</item>
+        <item flag = "0">личинки вольфартовой мухи</item>
+    </question>
+	<question id = "77" size = "5" type = "1">
+        <text>Методы общественной профилактики чумы</text>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "1">борьба с блохами</item>
+		<item flag = "0">осушение водоёмов</item>
+        <item flag = "1">уборка мусорных куч</item>
+        <item flag = "1">борьба с грызунами (дератизация)</item>
+    </question>
+	<question id = "78" size = "5" type = "1">
+        <text>Значение представителей отряда Таракановые</text>
+		<item flag = "0">эктопаразиты</item>
+		<item flag = "1">механические переносчики цист простейших</item>
+		<item flag = "1">механические переносчики яиц гельминтов</item>
+        <item flag = "0">специфические переносчики возвратного тифа</item>
+        <item flag = "1">механические переносчики бактерий дизентерии</item>
+    </question>
+	<question id = "79" size = "5" type = "1">
+        <text>Специфические переносчики трипаносомозов</text>
+		<item flag = "0">комары</item>
+		<item flag = "1">муха цеце</item>
+		<item flag = "0">вошь лобковая</item>
+        <item flag = "0">блоха крысиная</item>
+        <item flag = "1">триатомовые клопы</item>
+    </question>
+	<question id = "80" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые блохами</text>
+		<item flag = "1">чума</item>
+		<item flag = "0">малярия</item>
+		<item flag = "1">туляремия</item>
+        <item flag = "0">возвратный тиф</item>
+        <item flag = "1">крысиный сыпной тиф</item>
+    </question>
+	<question id = "81" size = "5" type = "1">
+        <text>Методы профилактики эпидемического сыпного тифа</text>
+		<item flag = "0">борьба с мухами</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "0">осушение местности</item>
+        <item flag = "1">борьба с завшивленностью населения</item>
+        <item flag = "1">обеззараживание одежды больных</item>
+    </question>
+	<question id = "82" size = "5" type = "1">
+        <text>Значение представителей семейства Москиты</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">ядовитые животные</item>
+		<item flag = "0">промежуточные хозяева гельминтов</item>
+        <item flag = "1">переносчики трансмиссивных болезней</item>
+        <item flag = "0">механические переносчики кишечных инфекций</item>
+    </question>
+	<question id = "83" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные болезни, распространяемые представителями семейства Мошки</text>
+		<item flag = "0">бругиоз</item>
+		<item flag = "1">онхоцеркоз</item>
+		<item flag = "0">вухерериоз</item>
+        <item flag = "0">сонная болезнь</item>
+        <item flag = "0">японский энцефалит</item>
+    </question>
+	<question id = "84" size = "5" type = "1">
+        <text>Комары рода Culex - специфические переносчики</text>
+		<item flag = "0">малярии</item>
+		<item flag = "1">туляремии</item>
+		<item flag = "1">вухерериоза</item>
+        <item flag = "0">жёлтой лихорадки</item>
+        <item flag = "1">японского энцефалита</item>
+    </question>
+	<question id = "85" size = "5" type = "1">
+        <text>Методы профилактики малярии</text>
+		<item flag = "0">борьба с мухами</item>
+		<item flag = "1">борьба с комарами</item>
+		<item flag = "1">осушение местности</item>
+        <item flag = "0">уборка мусорных куч</item>
+        <item flag = "0">уничтожение нор грызунов</item>
+    </question>
+	<question id = "86" size = "5" type = "1">
+        <text>Медицинское значение представителей семейства Мошки</text>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">переносчики чумы</item>
+        <item flag = "0">переносчики малярии</item>
+        <item flag = "1">переносчики онхоцеркоза</item>
+    </question>
+	<question id = "87" size = "5" type = "1">
+        <text>Факультативно-трансмиссивные болезни, распространяемые представителями семейства Комары</text>
+		<item flag = "0">малярия</item>
+		<item flag = "1">туляремия</item>
+		<item flag = "1">сибирская язва</item>
+        <item flag = "0">таёжный энцефалит</item>
+        <item flag = "0">японский энцефалит</item>
+    </question>
+	<question id = "88" size = "5" type = "1">
+        <text>Москиты - специфические переносчики</text>
+		<item flag = "0">малярии</item>
+		<item flag = "0">бругиоза</item>
+		<item flag = "1">лихорадки папаттачи</item>
+        <item flag = "1">кожного лейшманиоза</item>
+        <item flag = "1">висцерального лейшманиоза</item>
+    </question>
+	<question id = "89" size = "5" type = "1">
+        <text>Методы профилактики онхоцеркозов</text>
+		<item flag = "1">борьба с мошками</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "1">осушение местности</item>
+        <item flag = "0">уничтожение нор грызунов</item>
+        <item flag = "1">выявление и лечение больных</item>
+    </question>
+	<question id = "90" size = "5" type = "1">
+        <text>Медицинское значение представителей семейства Комары</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "1">переносчики малярии</item>
+		<item flag = "1">переносчики туляремии</item>
+        <item flag = "1">переносчики японского энцефалита</item>
+        <item flag = "0">переносчики возвратного тифа</item>
+    </question>
+	<question id = "91" size = "5" type = "1">
+        <text>Облигатно-трансмиссивные болезни, распространяемые москитами</text>
+		<item flag = "0">чума</item>
+		<item flag = "0">туляремия</item>
+		<item flag = "1">лихорадка папаттачи</item>
+        <item flag = "1">кожный лейшманиоз</item>
+        <item flag = "0">американский трипаносомоз</item>
+    </question>
+	<question id = "92" size = "5" type = "1">
+        <text>Мошки являются специфическими переносчиками болезней</text>
+		<item flag = "0">бругиоза</item>
+		<item flag = "0">сонной болезни</item>
+		<item flag = "1">африканского онхоцеркоза</item>
+        <item flag = "1">американского онхоцеркоза</item>
+        <item flag = "0">лихорадки цуцугамуши</item>
+    </question>
+	<question id = "93" size = "5" type = "1">
+        <text>Методы профилактики кожного и висцерального лейшманиозов</text>
+		<item flag = "0">осушение водоёмов</item>
+		<item flag = "1">борьба с москитами</item>
+		<item flag = "0">борьба с комарами</item>
+        <item flag = "1">уничтожение нор грызунов</item>
+        <item flag = "1">уборка сухого и влажного мусора</item>
+    </question>
+	<question id = "94" size = "5" type = "1">
+        <text>Медицинское значение комаров рода Anopheles </text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "1">неспецифические переносчики туляремии</item>
+		<item flag = "1">специфические переносчики бругиоза</item>
+        <item flag = "0">специфические переносчики онхоцеркоза</item>
+        <item flag = "1">специфические переносчики японского энцефалита</item>
+    </question>
+	<question id = "95" size = "5" type = "1">
+        <text>Москиты - специфические переносчики</text>
+		<item flag = "0">лихорадки Денге</item>
+		<item flag = "0">жёлтой лихорадки</item>
+		<item flag = "0">японского энцефалита</item>
+        <item flag = "1">кожного лейшманиоза</item>
+        <item flag = "1">лихорадки папаттачи</item>
+    </question>
+	<question id = "96" size = "5" type = "1">
+        <text>Факультативно-трансмиссивные болезни, распространяемые комарами</text>
+		<item flag = "0">малярия</item>
+		<item flag = "1">туляремия</item>
+		<item flag = "0">возвратный тиф</item>
+        <item flag = "0">крысиный сыпной тиф</item>
+        <item flag = "1">японский энцефалит</item>
+    </question>
+	<question id = "97" size = "5" type = "1">
+        <text>Методы профилактики филяриатозов</text>
+		<item flag = "1">борьба с комарами</item>
+		<item flag = "1">борьба с мошками </item>
+		<item flag = "1">осушение водоёмов</item>
+        <item flag = "0">уничтожение сухого мусора</item>
+        <item flag = "0">обеззараживание одежды больных</item>
+    </question>
+	<question id = "98" size = "5" type = "1">
+        <text>Аргазовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "1">резервуарные хозяева спирохет</item>
+        <item flag = "0">промежуточные хозяева гельминтов</item>
+        <item flag = "1">специфические переносчики возвратного тифа</item>
+    </question>
+	<question id = "99" size = "5" type = "1">
+        <text>Медицинское значение аргазовых клещей</text>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "0">возбудители сыпного тифа</item>
+        <item flag = "1">переносчики возвратного тифа</item>
+        <item flag = "0">переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "100" size = "5" type = "1">
+        <text>Иксодовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">резервуарные хозяева спирохет</item>
+		<item flag = "0">промежуточные хозяева гельминтов</item>
+        <item flag = "1">специфические переносчики сыпного тифа</item>
+        <item flag = "1">специфические переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "101" size = "5" type = "1">
+        <text>Медицинское значение акариформных</text>
+		<item flag = "1">возбудители чесотки</item>
+		<item flag = "1">возбудители демодекоза</item>
+		<item flag = "0">переносчики сыпного тифа</item>
+        <item flag = "0">возбудители возвратного тифа</item>
+        <item flag = "0">переносчики таёжного энцефалита</item>
+    </question>
+	<question id = "102" size = "5" type = "1">
+        <text>Аргазовые клещи имеют медицинское значение как</text>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">переносчики сыпного тифа</item>
+        <item flag = "1">резервуарные хозяева спирохет</item>
+        <item flag = "1">специфические переносчики возвратного тифа</item>
+    </question>
+	<question id = "103" size = "5" type = "1">
+        <text>Медицинское значение иксодовых клещей</text>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "0">переносчики возвратного тифа</item>
+        <item flag = "1">переносчики таёжного энцефалита</item>
+        <item flag = "1">резервуарные хозяева сыпного тифа</item>
+    </question>
+	<question id = "104" size = "5" type = "1">
+        <text>Акариформные клещи имеют медицинское значение как</text>
+		<item flag = "0">эктопаразиты</item>
+		<item flag = "1">эндопаразиты</item>
+		<item flag = "1">возбудители чесотки</item>
+        <item flag = "1">возбудители демодекоза</item>
+        <item flag = "0">резервуарные хозяева спирохет</item>
+    </question>
+	<question id = "105" size = "5" type = "1">
+        <text>Медицинское значение паразитиформных клещей</text>
+		<item flag = "0">возбудители чесотки</item>
+		<item flag = "0">возбудители демодекоза</item>
+		<item flag = "1">возбудители сыпного тифа</item>
+        <item flag = "1">переносчики таёжного энцефалита</item>
+        <item flag = "1">переносчики возвратного тифа</item>
+    </question>
+	<question id = "106" size = "5" type = "1">
+        <text>Медицинское значение представителей класса Насекомые</text>
+		<item flag = "1">эндо- и эктопаразиты</item>
+		<item flag = "1">ядовитые животные</item>
+		<item flag = "1">механические переносчики инфекций</item>
+        <item flag = "1">переносчики трансмиссивных болезней</item>
+        <item flag = "1">промежуточные хозяева гельминтов</item>
+    </question>
+	<question id = "107" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые вшами</text>
+		<item flag = "0">малярия</item>
+		<item flag = "1">сыпной тиф</item>
+		<item flag = "1">возвратный тиф</item>
+        <item flag = "0">японский энцефалит</item>
+        <item flag = "0">весенне-летний энцефалит</item>
+    </question>
+	<question id = "108" size = "5" type = "1">
+        <text>Возбудители миазов человека</text>
+		<item flag = "0">вши</item>
+		<item flag = "0">клопы</item>
+		<item flag = "1">личинки оводов</item>
+        <item flag = "0">чесоточный зудень</item>
+        <item flag = "1">личинки вольфартовой мухи</item>
+    </question>
+	<question id = "109" size = "5" type = "1">
+        <text>Методы профилактики распространения кишечных инфекций</text>
+		<item flag = "1">борьба с мухами</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "1">борьба с тараканами</item>
+        <item flag = "0">борьба с блохами</item>
+        <item flag = "0">осушение местности</item>
+    </question>
+	<question id = "110" size = "5" type = "1">
+        <text>Медицинское значение представителей отряда Блохи</text>
+		<item flag = "1">эндопаразиты</item>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">переносчики возвратного тифа</item>
+        <item flag = "1">переносчики чумы</item>
+        <item flag = "0">переносчики малярии</item>
+    </question>
+	<question id = "111" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые представителями семейства Комары</text>
+		<item flag = "1">малярия</item>
+		<item flag = "1">туляремия</item>
+		<item flag = "0">сыпной тиф</item>
+        <item flag = "1">японский энцефалит</item>
+        <item flag = "0">таёжный энцефалит</item>
+    </question>
+	<question id = "112" size = "5" type = "1">
+        <text>Возбудители педикулёза человека</text>
+		<item flag = "1">вши</item>
+		<item flag = "0">блохи</item>
+		<item flag = "0">клопы</item>
+        <item flag = "0">личинки мух</item>
+        <item flag = "0">чесоточные клещи</item>
+    </question>
+	<question id = "113" size = "5" type = "1">
+        <text>Методы профилактики малярии</text>
+		<item flag = "0">борьба с мухами</item>
+		<item flag = "1">борьба с комарами</item>
+		<item flag = "1">осушение местности</item>
+        <item flag = "1">выявление и лечение больных</item>
+        <item flag = "0">уничтожение нор грызунов</item>
+    </question>
+	<question id = "114" size = "5" type = "1">
+        <text>Медицинское значение представителей отряда Вши</text>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "1">эктопаразиты</item>
+		<item flag = "0">переносчики чумы</item>
+        <item flag = "1">переносчики сыпного тифа</item>
+        <item flag = "1">переносчики возвратного тифа</item>
+    </question>
+	<question id = "115" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые клопами</text>
+		<item flag = "0">чума</item>
+		<item flag = "1">гепатит В</item>
+		<item flag = "0">туляремия</item>
+        <item flag = "0">сонная болезнь</item>
+        <item flag = "1">американский трипаносомоз</item>
+    </question>
+	<question id = "116" size = "5" type = "1">
+        <text>Возбудители фтириоза человека</text>
+		<item flag = "0">чесоточный зудень</item>
+		<item flag = "0">постельный клоп</item>
+		<item flag = "0">головная вошь</item>
+        <item flag = "0">песчаная блоха</item>
+        <item flag = "1">лобковая вошь</item>
+    </question>
+	<question id = "117" size = "5" type = "1">
+        <text>Методы профилактики чумы</text>
+		<item flag = "1">борьба с блохами</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "0">осушение водоёмов</item>
+        <item flag = "1">уборка мусорных куч</item>
+        <item flag = "1">борьба с грызунами (дератизация)</item>
+    </question>
+	<question id = "118" size = "5" type = "1">
+        <text>Медицинское значение представителей отряда Таракановые</text>
+		<item flag = "0">эндопаразиты</item>
+		<item flag = "0">эктопаразиты</item>
+		<item flag = "0">специфические переносчики возвратного тифа</item>
+        <item flag = "1">механические переносчики дизентерии и брюшного тифа</item>
+        <item flag = "1">механические переносчики цист простейших и яиц гельминтов</item>
+    </question>
+	<question id = "119" size = "5" type = "1">
+        <text>Специфические переносчики кожного лейшманиоза</text>
+		<item flag = "0">вши</item>
+		<item flag = "0">мухи</item>
+		<item flag = "0">блохи</item>
+        <item flag = "0">комары</item>
+        <item flag = "1">москиты</item>
+    </question>
+	<question id = "120" size = "5" type = "1">
+        <text>Трансмиссивные болезни, распространяемые вшами</text>
+		<item flag = "0">чума</item>
+		<item flag = "0">малярия</item>
+		<item flag = "0">туляремия</item>
+        <item flag = "1">возвратный тиф</item>
+        <item flag = "0">крысиный сыпной тиф</item>
+    </question>
+	<question id = "121" size = "5" type = "1">
+        <text>Методы профилактики эпидемического сыпного тифа</text>
+		<item flag = "0">борьба с мухами</item>
+		<item flag = "0">борьба с комарами</item>
+		<item flag = "1">борьба с вшивостью населения</item>
+        <item flag = "0">обеззараживание местности</item>
+        <item flag = "1">обеззараживание одежды больных</item>
+    </question>
+	<question id = "122" size = "5" type = "1">
+        <text>Специфические переносчики возвратного тифа</text>
+		<item flag = "1">вши</item>
+		<item flag = "0">блохи</item>
+		<item flag = "0">комары</item>
+        <item flag = "1">аргазовые клещи</item>
+        <item flag = "0">иксодовые клещи</item>
+    </question>
+	<question id = "123" size = "5" type = "1">
+        <text>Мухи - механические переносчики</text>
+		<item flag = "1">амёбиаза</item>
+		<item flag = "0">малярии</item>
+		<item flag = "1">аскаридоза</item>
+        <item flag = "1">лямблиоза</item>
+        <item flag = "0">сыпного тифа</item>
+    </question>
+	<question id = "124" size = "5" type = "1">
+        <text>Тараканы механические переносчики</text>
+		<item flag = "0">тениоза</item>
+		<item flag = "1">лямблиоза</item>
+		<item flag = "1">энтеробиоза</item>
+        <item flag = "0">трипаносомоза</item>
+        <item flag = "0">возвратного тифа</item>
+    </question>
+	<question id = "125" size = "5" type = "1">
+        <text>Защита от укусов насекомых является профилактикой</text>
+		<item flag = "1">малярии</item>
+		<item flag = "1">туляремии</item>
+		<item flag = "0">описторхоза</item>
+        <item flag = "1">лейшманиоза</item>
+        <item flag = "1">трипаносомоза</item>
+    </question>
+	<question id = "126" size = "5" type = "1">
+        <text>Трансмиссивный способ характерен для заражения человека</text>
+		<item flag = "1">чумой</item>
+		<item flag = "0">тениозом</item>
+		<item flag = "1">малярией</item>
+        <item flag = "0">трихинеллёзом</item>
+        <item flag = "1">клещевым сыпным тифом</item>
+    </question>
+	<question id = "127" size = "5" type = "1">
+        <text>Клещи являются специфическими переносчиками</text>
+		<item flag = "0">малярии</item>
+		<item flag = "0">лейшманиоза</item>
+		<item flag = "1">сыпного тифа</item>
+        <item flag = "1">возвратного тифа</item>
+        <item flag = "1">вирусного энцефалита</item>
+    </question>
+	<question id = "128" size = "5" type = "1">
+        <text>Вши являются специфическими переносчиками</text>
+		<item flag = "0">чумы</item>
+		<item flag = "1">сыпного тифа</item>
+		<item flag = "1">возвратного тифа</item>
+        <item flag = "0">жёлтой лихорадки</item>
+        <item flag = "0">вирусного энцефалита</item>
+    </question>
+	<question id = "129" size = "5" type = "1">
+        <text>Трансмиссивный способ характерен для заражения человека</text>
+		<item flag = "1">малярией</item>
+		<item flag = "0">аскаридозом</item>
+		<item flag = "0">энтеробиозом</item>
+        <item flag = "1">лейшманиозом</item>
+        <item flag = "1">вирусным энцефалитом</item>
+    </question>
+	<question id = "130" size = "5" type = "1">
+        <text>Блохи являются специфическими переносчиками</text>
+		<item flag = "1">чумы</item>
+		<item flag = "0">чесотки</item>
+		<item flag = "0">сибирской язвы</item>
+        <item flag = "1">крысиного сыпного тифа</item>
+        <item flag = "0">возвратного тифа</item>
+    </question>
+	<question id = "131" size = "5" type = "1">
+        <text>Вши являются специфическими переносчиками</text>
+		<item flag = "0">чумы</item>
+		<item flag = "0">туляремии</item>
+		<item flag = "0">трихинеллёза</item>
+        <item flag = "1">сыпного тифа</item>
+        <item flag = "1">возвратного тифа</item>
+    </question>
+	<question id = "132" size = "5" type = "1">
+        <text>Защита от укусов комаров является профилактикой</text>
+		<item flag = "1">малярии</item>
+		<item flag = "0">лейшманиоза</item>
+		<item flag = "0">трипаносомоза</item>
+        <item flag = "1">жёлтой лихорадки</item>
+        <item flag = "1">японского энцефалита</item>
+    </question>
+	<question id = "133" size = "5" type = "1">
+        <text>Трансмиссивный способ характерен для заражения человека</text>
+		<item flag = "1">чумой</item>
+		<item flag = "1">малярией</item>
+		<item flag = "0">амёбиазом</item>
+        <item flag = "1">лейшманиозом</item>
+        <item flag = "1">трипаносомозом</item>
+    </question>
+	<question id = "134" size = "5" type = "1">
+        <text>Комары являются специфическими переносчиками при распространении</text>
+		<item flag = "1">малярии</item>
+		<item flag = "1">желтой лихорадки</item>
+		<item flag = "0">фасциолёза</item>
+        <item flag = "0">сыпного тифа</item>
+        <item flag = "1">японского энцефалита</item>
+    </question>
+	<question id = "135" size = "5" type = "1">
+        <text>Клещи являются специфическими переносчиками при распространении</text>
+		<item flag = "0">миаза</item>
+		<item flag = "0">чесотки</item>
+		<item flag = "1">сыпного тифа</item>
+        <item flag = "1">возвратного тифа</item>
+        <item flag = "1">таежного энцефалита</item>
+    </question>
+	<question id = "136" size = "5" type = "1">
+        <text>Борьба с насекомыми является профилактикой</text>
+		<item flag = "1">амёбиаза</item>
+		<item flag = "1">малярии</item>
+		<item flag = "0">фасциолёза</item>
+        <item flag = "1">лейшманиоза</item>
+        <item flag = "1">трипаносомоза</item>
+    </question>
+</quize>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themes>
+    <properties it="themes"></properties>
+    <item test="one">Первый</item>
+    <item test="two">Второй</item>
+	<item test="cells">Второй</item>
+</themes>
+
+<!--
+        <question id = "" size = "5" type = "1">
+            <text></text>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+            <item flag = "0"></item>
+        </question> -->
+		
+		<!--
+	<question id = "" size_x="5" size_y="5" type="2">
+		<text></text>
+		<item>
+			<text>1) </text>
+			<pair>0</pair>
+		</item>
+
+		<child>а) </child>
+
+	</question> 
+	-->
+	

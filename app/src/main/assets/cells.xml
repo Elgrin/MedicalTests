@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size="273" file="cells" name = "Цитология">
+<quize size="283" file="cells" name = "Цитология">
 	<question id="1" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
 		<item flag="1">Обмена веществ</item>
@@ -169,7 +169,7 @@
 		<item flag="0">Осуществляют эктоцитоз</item>
 	</question>
 	<question id="22" size="5" type="1">
-		<text>Функции перифирических белков плазматической мембраны</text>
+		<text>Функции периферических белков плазматической мембраны</text>
 		<item flag="0">Транспортируют воду и гидрофильные молекулы</item>
 		<item flag="1">Являются ферментами</item>
 		<item flag="0">Осуществляют активный транспорт</item>
@@ -925,8 +925,8 @@
 		<text>В сперматогенезе клетки называют сперматидами в период</text>
 		<item flag="0">Размножения</item>
 		<item flag="0">Роста</item>
-		<item flag="0">Созревания (редукционной деление)</item>
-		<item flag="1">Созревания (эквационной деление)</item>
+		<item flag="0">Созревания (редукционное деление)</item>
+		<item flag="1">Созревания (эквационное деление)</item>
 		<item flag="0">Формирования</item>
 	</question>
 	<question id="117" size="5" type="1">
@@ -1210,7 +1210,7 @@
 		<item flag="1">Электростатическими связями</item>
 	</question>
 	<question id="152" size="5" type="1">
-		<text>Аминокислотные остатки в полипептиде последовательно соединены в помощью ... связей</text>
+		<text>Аминокислотные остатки в полипептиде последовательно соединены с помощью ... связей</text>
 		<item flag="0">Водородных</item>
 		<item flag="0">Дисульфидных</item>
 		<item flag="1">Пептидных</item>
@@ -1317,7 +1317,7 @@
 		<text>Лейкопласты - это пластиды</text>
 		<item flag="0">Содержащие зеленый пигмент и находящиеся в клетках листьев и других зеленых органов растений</item>
 		<item flag="0">Содержащие желтые, оранжевые, красные пигменты и находящиеся в клетках цветков и плодов</item>
-		<item flag="1">Не содержащие пигментов и находящиеся в клетках некоторых органов растений(или в клетках растений)</item>
+		<item flag="1">Не содержащие пигментов и находящиеся в клетках некоторых органов растений (или в клетках растений)</item>
 	</question>
 	<question id="166" size="5" type="1">
 		<text>Тонопласт представляет собой</text>
@@ -1341,7 +1341,7 @@
 		<item flag="1">Цитоплазма</item>
 		<item flag="0">Ядро</item>
 		<item flag="1">Мезосомы</item>
-		<item flag="1">Плазмамолемма</item>
+		<item flag="1">Плазмолемма</item>
 		<item flag="1">Клеточная стенка</item>
 		<item flag="0">Митохондрии</item>
 		<item flag="0">Эндоплазмическая сеть</item>
@@ -1357,7 +1357,7 @@
 		<item flag="1">Ядра, окруженного двойной мембраной</item>
 	</question>
 	<question id="170" size="5" type="1">
-		<text>Роцесс хемосинтеза открыл</text>
+		<text>Процесс хемосинтеза открыл</text>
 		<item flag="0">Р. Хилл</item>
 		<item flag="0">М. Кальвин</item>
 		<item flag="0">В. Вернадский</item>
@@ -1441,7 +1441,7 @@
 		<text>В состав клеточной мембраны могут входить все соединения, кроме</text>
 		<item flag="0">Фосфолипидов</item>
 		<item flag="0">Холестерина</item>
-		<item flag="1">Гликозоаминогликанов</item>
+		<item flag="1">Гликозаминогликанов</item>
 		<item flag="0">Белков-ферментов</item>
 		<item flag="0">Белков-переносчиков</item>
 	</question>
@@ -1764,7 +1764,7 @@
 		<text>В профазе митоза происходит</text>
 		<item flag="0">Прикрепление к центромерам хромосом микротрубочек веретена деления и распределение хромосом на экваторе клетки</item>
 		<item flag="1">Укорочение и утолщение ДНК, образование нитей веретена, формирование двух полюсов деления клетки, исчезновение ядерной мембраны</item>
-		<item flag="0">Разделение центромерных районов хроматид каждой хромосомы, движение хроматид к полючам клетки</item>
+		<item flag="0">Разделение центромерных районов хроматид каждой хромосомы, движение хроматид к полюсам клетки</item>
 	</question>
 	<question id="223" size="3" type="1">
 		<text>В процессе цитокинеза происходит</text>
@@ -1801,7 +1801,7 @@
 		<item flag="0">Метафаза</item>
 		<item flag="1">Анафаза</item>
 		<item flag="0">Телофаза</item>
-		<item flag="0">Интерфваза</item>
+		<item flag="0">Интерфаза</item>
 	</question>
 	<question id="228" size="6" type="1">
 		<text>Мейотическое деление происходит в процессе</text>
@@ -1821,7 +1821,7 @@
 		<item flag="1">Эндомитоза</item>
 	</question>
 	<question id="230" size="6" type="1">
-		<text>Расхождение гомологичных хромосм к полюсам клетки происходит в</text>
+		<text>Расхождение гомологичных хромосом к полюсам клетки происходит в</text>
 		<item flag="0">Профазе мейоза</item>
 		<item flag="0">Профазе митоза</item>
 		<item flag="1">Метафазе I мейоза</item>
@@ -1859,7 +1859,7 @@
 		<item flag="0">Метафазе II</item>
 		<item flag="0">Анафазе I</item>
 		<item flag="1">Анафазе II</item>
-		<item flag="0">Теловазе</item>
+		<item flag="0">Телофазе</item>
 	</question>
 	<question id="235" size="4" type="1">
 		<text>Мейотическое деление в процессе гаметогенеза происходит в период</text>
@@ -1927,7 +1927,7 @@
 		<item flag="1">Потомство генетически идентично</item>
 		<item flag="0">Две родительские особи</item>
 		<item flag="1">Основной клеточный механизм - митоз</item>
-		<item flag="0">Характерна генотипическая изменичивость</item>
+		<item flag="0">Характерна генотипическая изменчивость</item>
 		<item flag="0">Образование специализированных клеток - гамет</item>
 	</question>
 	<question id="243" size="12" type="1">
@@ -1962,7 +1962,7 @@
 		<item flag="0">Д. Ивановский</item>
 	</question>
 	<question id="246" size="5" type="1">
-		<text>Партогенетически размножаются</text>
+		<text>Партеногенетически размножаются</text>
 		<item flag="0">Гидры</item>
 		<item flag="0">Бычьи цепни</item>
 		<item flag="0">Дождевые черви</item>
@@ -1974,7 +1974,7 @@
 		<item flag="0">Однозначностью</item>
 		<item flag="0">Вырожденностью</item>
 		<item flag="1">Триплетностью</item>
-		<item flag="0">Коллинсарностью</item>
+		<item flag="0">Коллинеарностью</item>
 		<item flag="0">Линейностью</item>
 	</question>
 	<question id="248" size="5" type="1">
@@ -2060,7 +2060,7 @@
 	<question id="258" size="5" type="1">
 		<text>Функция ДНК в синтезе белка заключается в передаче информации в процессе</text>
 		<item flag="1">Транскрипции</item>
-		<item flag="0">Траснляции</item>
+		<item flag="0">Трансляции</item>
 		<item flag="0">Синтеза т-РНК</item>
 		<item flag="0">Синтеза р-РНК</item>
 		<item flag="0">Рекогниции</item>
@@ -2131,7 +2131,7 @@
 		<item flag="0">Темновой фазы фотосинтеза</item>
 	</question>
 	<question id="267" size="5" type="1">
-		<text>Энергетический этап обмена вещесвт у анаэробных организмов состоит их процессов</text>
+		<text>Энергетический этап обмена веществ у анаэробных организмов состоит их процессов</text>
 		<item flag="1">Гликолиза</item>
 		<item flag="1">Брожения</item>
 		<item flag="0">Цикла Кребса</item>
@@ -2170,76 +2170,560 @@
 		<item flag="0">В аппарате Гольджи</item>
 		<item flag="0">На кристах митохондрий</item>
 	</question>
-
-
-	<!--
-	<question id = "" size = "5" type = "1">
-		<text></text>
-		<item flag = "0"></item>
-		<item flag = "0"></item>
-		<item flag = "0"></item>
-		<item flag = "0"></item>
-		<item flag = "0"></item>
-	</question> -->
-
-	<question id="272" size_x="7" size_y="8" type="2">
-		<text>1) Клеточным органеллам - ______ соответствуют функции - ______</text>
-		<item>2) Рибосомам</item>
-		<item>3) Митохондриям</item>
-		<item>4) Клеточному центру</item>
-		<item>5) Пластидам</item>
-		<item>6) Лизосомам</item>
-		<item>7) Комплексу Гольджи</item>
-		<item>8) Ядру</item>
-		<child pair="2">а) Синтез АТФ</child>
-		<child pair="1">б) Синтез белка</child>
-		<child pair="7">в) Синтез нуклеиновых кислот</child>
-		<child pair="5">г) Расщепление макромолекул</child>
-		<child pair="4">д) Фотосинтез</child>
-		<child pair="3">е) Формирование веретена деления</child>
-		<child pair="6">ж) Формирование лизосом</child>
+	<question id="272" size_x="7" size_y="7" type="2">
+		<text>Клеточным органеллам - ... соответствуют функции - ...</text>
+		<item>
+			<text>1) Рибосомам</text>
+			<pair>0</pair>
+            <pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Митохондриям</text>
+			<pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Клеточному центру</text>
+			<pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Пластидам</text>
+			<pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Лизосомам</text>
+			<pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>6) Комплексу Гольджи</text>
+			<pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>7) Ядру</text>
+			<pair>0</pair>
+            <pair>0</pair>
+            <pair>1</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Синтез АТФ</child>
+		<child>б) Синтез белка</child>
+		<child>в) Синтез нуклеиновых кислот</child>
+		<child>г) Расщепление макромолекул</child>
+		<child>д) Фотосинтез</child>
+		<child>е) Формирование веретена деления</child>
+		<child>ж) Формирование лизосом</child>
 	</question>
 	<question id="273" size_x="5" size_y="5" type="2">
-		<text>Структуры клетки - ________ формируют - _________</text>
-		<item>1) Микротрубочки</item>
-		<item>2) Актиновые и миозиновые филаменты</item>
-		<item>3) Промежуточные филаменты, актиновые микрофиламенты и микротрубочки</item>
-		<item>4) Центриоли</item>
-		<item>5) Мембраны</item>
-		<child pair="4">а) Клеточный центр</child>
-		<child pair="1">б) Нити митотического веретена</child>
-		<child pair="3">в) Цитоскелет</child>
-		<child pair="2">г) Миофибриллы</child>
-		<child pair="5">д) ЭПС</child>
+		<text>Структуры клетки - ... формируют - ...</text>
+		<item>
+			<text>1) Микротрубочки</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Актиновые и миозиновые филаменты</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Промежуточные филаменты, актиновые микрофиламенты и микротрубочки</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Центриоли</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Мембраны</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Клеточный центр</child>
+		<child>б) Нити митотического веретена</child>
+		<child>в) Цитоскелет</child>
+		<child>г) Миофибриллы</child>
+		<child>д) ЭПС</child>
 	</question>
 	<question id="274" size_x="5" size_y="5" type="2">
-        <text>Процесс - ________ происходит - _________</text>
-        <item>1) Анаэробного окисления (гликолиз)</item>
-        <item>2) Аэробного окисления</item>
-        <item>3) Окислительного фосфорилирования</item>
-        <item>4) Синтеза р-РНК и т-РНК</item>
-        <item>5) Полимеризации тубулинов</item>
-        <child pair="3">а) На мембранах крист митохондрий</child>
-        <child pair="5">б) В гиалоплазме</child>
-        <child pair="2">в) В матриксе митохондрий</child>
-        <child pair="4">г) В ядрышках</child>
-        <child pair="5">д) В лизосомах</child>
-    </question>
-	
-	<!--
-	<question id="273" size_x="5" size_y="5" type="2">
-        <text>Структуры клетки - ________ формируют - _________</text>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <child pair="4">а) </child>
-        <child pair="1">б) </child>
-        <child pair="3">в) </child>
-        <child pair="2">г) </child>
-        <child pair="5">д) </child>
-    </question> -->
-	
+		<text>Процесс - ... происходит - ...</text>
+		<item>
+			<text>1) Анаэробного окисления (гликолиз)</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Аэробного окисления</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Окислительного фосфорилирования</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Синтеза р-РНК и т-РНК</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Полимеризации тубулинов</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) На мембранах крист митохондрий</child>
+        <child>б) В гиалоплазме</child>
+        <child>в) В матриксе митохондрий</child>
+        <child>г) В ядрышках</child>
+        <child>д) В лизосомах</child>
+	</question> 
+	<question id="275" size_x="5" size_y="5" type="2">
+		<text>Участки хромосом - ... это - ...</text>
+		<item>
+			<text>1) Кинехоторы</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Ядрышковые организаторы</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Центромеры</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Теломеры</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Спутники хромосом</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Места образования ядрышек в интерфазе</child>
+		<child>б) Места отхождения трубочек веретена деления</child>
+		<child>в) Небольшие участки хромосом, отделенные вторичной перетяжкой</child>
+		<child>г) Концевые участки плечей хромосом</child>
+		<child>д) Первичные перетяжки</child>
+	</question>
+	<question id="276" size_x="5" size_y="5" type="2">
+		<text>Периоды интерфазы - ... основные процессы - ...</text>
+		<item>
+			<text>1) Постмитотический (G1)</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Синтетический (S)</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Премитотический (G2)</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Выход из цикла (G0)</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Дифференцировка (D)</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Снижение метаболизма</child>
+		<child>б) Синтез специфических белков</child>
+		<child>в) Синтез ДНК, ядерных белков</child>
+		<child>г) Синтез белков, рецепторов клетки, РНК</child>
+		<child>д) Синтез АТФ, тубулинов</child>
+	</question> 
+	<question id="277" size_x="5" size_y="5" type="2">
+		<text>Процесс - ... происходит в течение - ...</text>
+		<item>
+			<text>1) Начала образования веретена деления</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Репликации хромосом</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Цитотомии</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Отталкивания хроматид друг от друга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Расхождения хромосом</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Интерфазы</child>
+		<child>б) Профазы митоза</child>
+		<child>в) Метафазы митоза</child>
+		<child>г) Анафазы митоза</child>
+		<child>д) Телофазы митоза</child>
+	</question>
+	<question id="278" size_x="5" size_y="5" type="2">
+		<text>Процесс - ... происходит в - ...</text>
+		<item>
+			<text>1) Удвоения ДНК</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Удвоения числа центриолей</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Синтеза тубулинов</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Расхождения центриолей к полюсам клетки</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Деконденсации хромосом</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Интерфазе</child>
+		<child>б) Профазе</child>
+		<child>в) Метафазе</child>
+		<child>г) Анафазе</child>
+		<child>д) Телофазе</child>
+	</question>
+	<question id="279" size_x="4" size_y="4" type="2">
+		<text>Стадии развития сперматозоидов - ... процессы, происходящие в них - ...</text>
+		<item>
+			<text>1) Созревание</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Формирование</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Рост</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Размножение</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Уменьшение размеров ядра, деспирализация ДНК, сокращение объема цитоплазмы, образование хвоста и акросомы</child>
+		<child>б) Интенсивное митотическое деление</child>
+		<child>в) Интенсивный синтез РНК и белка профазной клетки</child>
+		<child>г) I и II деления мейоза</child>
+	</question>
+	<question id="280" size_x="5" size_y="5" type="2">
+		<text>В процессе - ... наблюдается - ...</text>
+		<item>
+			<text>1) Трансляции</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Репликации</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Транскрипции</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Репарации</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Комплементарности</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Восстановление структуры ДНК</child>
+		<child>б) Способность нуклеотидов связываться водородными связями</child>
+		<child>в) Удвоение молекулы ДНК</child>
+		<child>г) Синтез РНК</child>
+		<child>д) Синтез белка</child>
+	</question> 
+	<question id="281" size_x="2" size_y="5" type="2">
+		<text>Вид деления клеток - ... обеспечивает - ...</text>
+		<item>
+			<text>1) Митоз</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Мейоз</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Сохранение генетического постоянства в соматических клетках</child>
+		<child>б) Создание генетического разнообразия</child>
+		<child>в) Сохранение набора хромосом при половом размножении</child>
+		<child>г) Возможность вегетативного размножения</child>
+		<child>д) Поддержание постоянства хромосом в геноме</child>
+	</question> 
+	<question id="282" size_x="4" size_y="5" type="2">
+		<text>Зона сперматогенеза - ... процессы сперматогенеза - ...</text>
+		<item>
+			<text>1) Рост</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Созревание</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Размножение</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Формирование</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Кроссинговер</child>
+		<child>б) I и II деления мейоза</child>
+		<child>в) Синтез РНК, белков, жиров</child>
+		<child>г) Интенсивные митотические деления</child>
+		<child>д) Уменьшение размеров ядра, уменьшение объема цитоплазмы, образование акросомы и хвоста</child>
+	</question>
+	<question id="283" size_x="4" size_y="5" type="2">
+		<text>Периоды овогенеза - ... процессы овогенеза - ...</text>
+		<item>
+			<text>1) Рост</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Диктиотена</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Созревание</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Размножение</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Синтез РНК, белков и желтка</child>
+		<child>б) Цитоплазмическая сегрегация</child>
+		<child>в) Редукционное и эквационное деление</child>
+		<child>г) Интенсивные митотические деления</child>
+		<child>д) Временное прекращение развития овоцита</child>
+	</question> 
 </quize> 
 

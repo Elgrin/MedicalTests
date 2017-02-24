@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quize size="73" file="ontogenesis" name="Отногенез">
+<quize size="184" file="ontogenesis" name="Онтогенез">
 		<question id = "1" size = "5" type = "1">
             <text>Стадия зародышевого развития морула - это зародыш</text>
             <item flag = "0">С тремя зародышевыми листками</item>
@@ -41,7 +41,7 @@
             <item flag = "0">Имеющий эктодерму</item>
         </question>
 		<question id = "6" size = "5" type = "1">
-            <text>Рання гаструла - это зародыш, имеющий</text>
+            <text>Ранняя гаструла - это зародыш, имеющий</text>
             <item flag = "1">Два зародышевых листка</item>
             <item flag = "0">Три зародышевых листка</item>
             <item flag = "1">Бластопор</item>
@@ -164,7 +164,7 @@
             <text>В олиголецитальных яйцеклетках дробление</text>
             <item flag = "0">Полное неравномерное</item>
             <item flag = "1">Голобластическое</item>
-            <item flag = "1">Полоное равномерное</item>
+            <item flag = "1">Полное равномерное</item>
             <item flag = "0">Неполное равномерное</item>
             <item flag = "0">Поверхностное</item>
         </question>
@@ -273,7 +273,7 @@
             <item flag = "1">Голобластическое</item>
         </question>
 		<question id = "35" size = "5" type = "1">
-            <text>Ти дробления яйцеклетки амфибий</text>
+            <text>Тип дробления яйцеклетки амфибий</text>
             <item flag = "1">Полное</item>
             <item flag = "0">Неполное</item>
             <item flag = "0">Равномерное</item>
@@ -369,7 +369,7 @@
             <item flag = "1">Хрящевая ткань</item>
         </question>
 		<question id = "47" size = "5" type = "1">
-            <text>ИИз мезодермы образуются</text>
+            <text>Из мезодермы образуются</text>
             <item flag = "1">Плевра</item>
             <item flag = "1">Соединительная ткань</item>
             <item flag = "0">Потовые железы</item>
@@ -584,17 +584,1273 @@
             <item flag = "0">Мезенхимы</item>
             <item flag = "0">Ножек сомита</item>
         </question>
-		
-		
-		
-	
-<!--
-        <question id = "" size = "5" type = "1">
-            <text></text>
-            <item flag = "0"></item>
-            <item flag = "0"></item>
-            <item flag = "0"></item>
-            <item flag = "0"></item>
-            <item flag = "0"></item>
-        </question> -->
+		<question id = "74" size = "5" type = "1">
+            <text>Собственно соединительные ткани развиваются из</text>
+            <item flag = "0">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "1">Мезенхимы</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Склеротома</item>
+        </question>
+		<question id = "75" size = "5" type = "1">
+            <text>Хрящевая ткань развивается из</text>
+            <item flag = "1">Склеротома</item>
+            <item flag = "0">Дерматома</item>
+            <item flag = "1">Мезенхимы</item>
+            <item flag = "1">Дорзальной мезодермы</item>
+            <item flag = "0">Вентральной мезодермы</item>
+        </question>
+		<question id = "76" size = "5" type = "1">
+            <text>Костная ткань развивается из</text>
+            <item flag = "1">Мезенхимы</item>
+            <item flag = "1">Дорзальной мезодермы</item>
+            <item flag = "0">Дерматома</item>
+            <item flag = "1">Склеротома</item>
+            <item flag = "0">Вентральной мезодермы</item>
+        </question>
+		<question id = "77" size = "5" type = "1">
+            <text>Кожные и молочные железы образуются из</text>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "0">Энтодермы</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Дерматома</item>
+        </question>
+		<question id = "78" size = "5" type = "1">
+            <text>Волосы и ногти развиваются из</text>
+            <item flag = "0">Дерматома</item>
+            <item flag = "1">Эктодермы</item>
+            <item flag = "0">Склеротома</item>
+            <item flag = "0">Мезодермы</item>
+            <item flag = "0">Сомита</item>
+        </question>
+		<question id = "79" size = "5" type = "1">
+            <text>Первичная кишка образуется в процессе</text>
+            <item flag = "0">Дробления</item>
+            <item flag = "0">Расщепления листков вентральной мезодермы</item>
+            <item flag = "1">Гаструляции</item>
+            <item flag = "0">Дифференцировки дорзальной мезодермы</item>
+            <item flag = "0">Нейруляции</item>
+        </question>
+		<question id = "80" size = "5" type = "1">
+            <text>Вторичная кишка образуется в период</text>
+            <item flag = "0">Гаструляции</item>
+            <item flag = "0">Дробления</item>
+            <item flag = "1">Нейруляции</item>
+            <item flag = "1">Образования осевых органов</item>
+            <item flag = "0">Прогенеза</item>
+        </question>
+		<question id = "81" size = "5" type = "1">
+            <text>Хорда образуется в процессе</text>
+            <item flag = "0">Гаструляции</item>
+            <item flag = "1">Нейруляции</item>
+            <item flag = "0">Дифференцировки дорзальной мезодермы</item>
+            <item flag = "0">Расщепления листков вентральной мезодермы</item>
+            <item flag = "0">Бластуляции</item>
+        </question>
+		<question id = "82" size = "5" type = "1">
+            <text>Целом образуется в период</text>
+            <item flag = "0">Бластуляции</item>
+            <item flag = "0">Гаструляции</item>
+            <item flag = "1">Нейруляции</item>
+            <item flag = "0">Дробления</item>
+            <item flag = "0">Прогенеза</item>
+        </question>
+		<question id = "83" size = "5" type = "1">
+            <text>Провизорные органы человека</text>
+            <item flag = "1">Аллантоис</item>
+            <item flag = "1">Амнион</item>
+            <item flag = "0">Хорда</item>
+            <item flag = "1">Хорион</item>
+            <item flag = "1">Желточный мешок</item>
+        </question>
+		<question id = "84" size = "5" type = "1">
+            <text>Критические периоды эмбриогенеза человека</text>
+            <item flag = "0">Дробление</item>
+            <item flag = "1">Имплантация</item>
+            <item flag = "0">Нейруляция</item>
+            <item flag = "1">Плацентация</item>
+            <item flag = "1">Роды</item>
+        </question>
+		<question id = "85" size = "5" type = "1">
+            <text>Провизорные органы зародышей позвоночных</text>
+            <item flag = "0">Хорда</item>
+            <item flag = "1">Аллантоис</item>
+            <item flag = "1">Сероза</item>
+            <item flag = "0">Гастроцель</item>
+            <item flag = "0">Бластопор</item>
+        </question>
+		<question id = "86" size = "5" type = "1">
+            <text>Провизорные органы зародышей позвоночных</text>
+            <item flag = "0">Хорда</item>
+            <item flag = "1">Амнион</item>
+            <item flag = "1">Желточный мешок</item>
+            <item flag = "0">Нервная трубка</item>
+            <item flag = "0">Первичная кишка</item>
+        </question>
+		<question id = "87" size = "5" type = "1">
+            <text>Функцию мочевого пузыря зародышей позвоночных выполняет</text>
+            <item flag = "0">Желточный мешок</item>
+            <item flag = "0">Хорион</item>
+            <item flag = "1">Аллантоис</item>
+            <item flag = "0">Амнион</item>
+            <item flag = "0">Целом</item>
+        </question>
+		<question id = "88" size = "5" type = "1">
+            <text>Первичные половые клетки у зародышей позвоночных образуются в</text>
+            <item flag = "0">Стенке амниона</item>
+            <item flag = "0">Стенке аллантоиса</item>
+            <item flag = "0">Стенке хориона</item>
+            <item flag = "1">Желточном мешке</item>
+            <item flag = "0">Нефрогонотоме</item>
+        </question>
+		<question id = "89" size = "5" type = "1">
+            <text>Защиту зародыша млекопитающих от антител материнского организма осуществляет</text>
+            <item flag = "0">Стенка амниона</item>
+            <item flag = "0">Стенка аллантоиса</item>
+            <item flag = "0">Стенка хориона</item>
+            <item flag = "0">Желточный мешок</item>
+            <item flag = "1">Плацента</item>
+        </question>
+		<question id = "90" size = "5" type = "1">
+            <text>Структура, в образовании которой принимает участие и материнский организм, и элементы зародыша млекопитающих</text>
+            <item flag = "0">Стенка амниона</item>
+            <item flag = "0">Стенка аллантоиса</item>
+            <item flag = "0">Стенка хориона</item>
+            <item flag = "0">Желточный мешок</item>
+            <item flag = "1">Плацента</item>
+        </question>
+		<question id = "91" size = "5" type = "1">
+            <text>Оболочка, ограничивающая водное пространство зародыша млекопитающих</text>
+            <item flag = "1">Амнион</item>
+            <item flag = "0">Хорион</item>
+            <item flag = "0">Желточный мешок</item>
+            <item flag = "0">Аллантоис</item>
+            <item flag = "0">Сероза</item>
+        </question>
+		<question id = "92" size = "5" type = "1">
+            <text>Критические периоды в эмбриогенезе человека</text>
+            <item flag = "0">Дробление</item>
+            <item flag = "1">Имплантация</item>
+            <item flag = "0">Гаструляция</item>
+            <item flag = "1">Плацентация</item>
+            <item flag = "0">Инвагинация</item>
+        </question>
+		<question id = "93" size = "5" type = "1">
+            <text>Критические периоды в эмбриогенезе человека</text>
+            <item flag = "0">Нейруляция</item>
+            <item flag = "0">Деламинация</item>
+            <item flag = "1">Плацентация</item>
+            <item flag = "0">Эмбриональная индукция</item>
+            <item flag = "1">Роды</item>
+        </question>
+		<question id = "94" size = "5" type = "1">
+            <text>К первичноротым животным относят</text>
+            <item flag = "1">Моллюсков</item>
+            <item flag = "0">Черепах</item>
+            <item flag = "1">Кольчатых червей</item>
+            <item flag = "0">Птиц</item>
+            <item flag = "1">Членистоногих</item>
+        </question>
+		<question id = "95" size = "5" type = "1">
+            <text>Первичноротые животные</text>
+            <item flag = "1">Молочная планария</item>
+            <item flag = "1">Аскарида</item>
+            <item flag = "0">Гадюка</item>
+            <item flag = "0">Землеройка</item>
+            <item flag = "1">Паук-каракурт</item>
+        </question>
+		<question id = "96" size = "5" type = "1">
+            <text>Вторичноротые животные</text>
+            <item flag = "1">Голубь</item>
+            <item flag = "0">Кальмар</item>
+            <item flag = "0">Трубочник</item>
+            <item flag = "1">Волк</item>
+            <item flag = "1">Крылан</item>
+        </question>
+		<question id = "97" size = "5" type = "1">
+            <text>К вторичноротым животным относят</text>
+            <item flag = "0">Кишечнополостных</item>
+            <item flag = "1">Птиц</item>
+            <item flag = "0">Ракообразных</item>
+            <item flag = "1">Парнокопытных</item>
+            <item flag = "1">Ящериц</item>
+        </question>
+		<question id = "98" size = "5" type = "1">
+            <text>Первичнополостные животные</text>
+            <item flag = "1">Круглые черви</item>
+            <item flag = "0">Моллюски</item>
+            <item flag = "0">Хордовые</item>
+            <item flag = "0">Кишечнополостные</item>
+            <item flag = "0">Плоские черви</item>
+        </question>
+		<question id = "99" size = "5" type = "1">
+            <text>К первичнополостным животным относят</text>
+            <item flag = "0">Нереид</item>
+            <item flag = "1">Остриц</item>
+            <item flag = "0">Беззубок</item>
+            <item flag = "1">Аскарид</item>
+            <item flag = "0">Печеночного сосальщика</item>
+        </question>
+		<question id = "100" size = "5" type = "1">
+            <text>Вторичнополостные животные</text>
+            <item flag = "1">Дождевой червь</item>
+            <item flag = "1">Пескожил</item>
+            <item flag = "1">Лягушка</item>
+            <item flag = "0">Пчела</item>
+            <item flag = "0">Трихинелла</item>
+        </question>
+		<question id = "101" size = "5" type = "1">
+            <text>К вторичнополостным животным относят</text>
+            <item flag = "1">Бесчерепных</item>
+            <item flag = "1">Позвоночных</item>
+            <item flag = "1">Брюхоногих</item>
+            <item flag = "0">Круглых червей</item>
+            <item flag = "0">Ленточных червей</item>
+        </question>
+		<question id = "102" size = "5" type = "1">
+            <text>Первичные половые клетки гоноциты возникают в эмбриогенезе человека и млекопитающих</text>
+            <item flag = "1">На ранних стадиях</item>
+            <item flag = "0">В прегаструлярный период</item>
+            <item flag = "0">На стадии нейрулы</item>
+            <item flag = "0">В пубертатный период</item>
+            <item flag = "1">В гаструлярный период</item>
+        </question>
+		<question id = "103" size = "5" type = "1">
+            <text>В эмбриональном периоде у человека и млекопитающих в яичнике развиваются половые клетки</text>
+            <item flag = "1">Овогонии</item>
+            <item flag = "0">Сперматогонии</item>
+            <item flag = "0">Гоноциты</item>
+            <item flag = "0">Овоциты I порядка</item>
+            <item flag = "0">Овоциты II порядка</item>
+        </question>
+		<question id = "104" size = "5" type = "1">
+            <text>Примордиальный фолликул человека и млекопитающих имеет</text>
+            <item flag = "1">Один слой фолликулярных клеток</item>
+            <item flag = "0">Два слоя фолликулярных клеток</item>
+            <item flag = "1">Овоцит I порядка на стадии диплотены</item>
+            <item flag = "0">Овоциты II порядка на стадии овуляции</item>
+            <item flag = "0">Овоциты I порядка на стадии пахитены</item>
+        </question>
+		<question id = "105" size = "5" type = "1">
+            <text>Первичные фолликулы человека и млекопитающих состоят из</text>
+            <item flag = "1">Овоцита I порядка</item>
+            <item flag = "0">Овоцита II порядка</item>
+            <item flag = "0">Одного слоя фолликулярных клеток</item>
+            <item flag = "0">Двух слоев фолликулярных</item>
+            <item flag = "1">Нескольких слоев фолликулярных клеток</item>
+        </question>
+		<question id = "106" size = "5" type = "1">
+            <text>Вторичные фолликулы человека и млекопитающих имеют</text>
+            <item flag = "1">Овоцит I порядка</item>
+            <item flag = "0">Овоцит II порядка</item>
+            <item flag = "1">Фолликулярную полость</item>
+            <item flag = "0">Два слоя фолликулярных клеток</item>
+            <item flag = "1">Несколько слоев фолликулярных клеток</item>
+        </question>
+		<question id = "107" size = "5" type = "1">
+            <text>Зрелый фолликул имеет</text>
+            <item flag = "1">Фолликулярную полость</item>
+            <item flag = "1">Яйценосный бугорок</item>
+            <item flag = "0">Овогоний</item>
+            <item flag = "1">Овоцит I порядка</item>
+            <item flag = "1">Овоцит II порядка на стадии овуляции</item>
+        </question>
+		<question id = "108" size = "5" type = "1">
+            <text>Овуляция - это процесс выхода из яичника</text>
+            <item flag = "0">Овоцита I</item>
+            <item flag = "1">Овоцита II порядка</item>
+            <item flag = "0">Овогония</item>
+            <item flag = "1">Фолликулярной жидкости</item>
+            <item flag = "0">Клеток Сертоли</item>
+        </question>
+		<question id = "109" size = "5" type = "1">
+            <text>Овуляция - это процесс, при котором идет</text>
+            <item flag = "0">Формирование овогония</item>
+            <item flag = "0">Формирование овоцита I порядка</item>
+            <item flag = "1">Формирование овоцита II порядка</item>
+            <item flag = "1">1 деление мейоза</item>
+            <item flag = "0">2 деление мейоза</item>
+        </question>
+		<question id = "110" size = "5" type = "1">
+            <text>Желтое тело млекопитающих и человека образуется</text>
+            <item flag = "0">Из вторичного фолликула</item>
+            <item flag = "0">В процессе овуляции</item>
+            <item flag = "0">Под влиянием фолликулостимулирующего гормона</item>
+            <item flag = "1">Под влиянием лютеинизирующего гормона</item>
+            <item flag = "1">Из третичного фолликула</item>
+        </question>
+		<question id = "111" size = "5" type = "1">
+            <text>Граафов пузырек - это фолликул</text>
+            <item flag = "0">Примордиальный</item>
+            <item flag = "0">Первичный</item>
+            <item flag = "1">Третичный</item>
+            <item flag = "0">Вторичный</item>
+            <item flag = "1">Зрелый</item>
+        </question>
+		<question id = "112" size = "5" type = "1">
+            <text>Второе деление мейоза у человека и млекопитающих наблюдается в период</text>
+            <item flag = "0">Созревания граафова пузырька</item>
+            <item flag = "0">Созревания зрелого пузырька</item>
+            <item flag = "0">Разрыва стенки яичника</item>
+            <item flag = "1">Оплодотворения</item>
+            <item flag = "0">Созревания первичного фолликула</item>
+        </question>
+		<question id = "113" size = "5" type = "1">
+            <text>После оплодотворения у человека и млекопитающих в яичнике</text>
+            <item flag = "1">Желтое тело сохраняется</item>
+            <item flag = "0">Желтое тело дегенерирует</item>
+            <item flag = "0">Усиливается образование фолликулостимулирующего гормона</item>
+            <item flag = "1">Процесс овуляции блокируется</item>
+            <item flag = "0">Стимулируется рост новых фолликулов</item>
+        </question>
+		<question id = "114" size = "5" type = "1">
+            <text>В отсутствие процесса беременности</text>
+            <item flag = "0">Желтое тело сохраняется</item>
+            <item flag = "1">Желтое тело дегенерирует</item>
+            <item flag = "1">Усиливается образование фолликулы гормона</item>
+            <item flag = "0">Процесс овуляции блокируется</item>
+            <item flag = "1">Стимулируется рост новых фолликулов</item>
+        </question>
+		<question id = "115" size = "5" type = "1">
+            <text>Процесс оплодотворения у человека и млекопитающих стимулирует</text>
+            <item flag = "0">1 деление мейоза</item>
+            <item flag = "1">2 деление мейоза</item>
+            <item flag = "1">Функционирование желтого тела</item>
+            <item flag = "0">Формирование белого тела</item>
+            <item flag = "0">Образование хромосом типа ламповых щеток</item>
+        </question>
+		<question id = "116" size = "5" type = "1">
+            <text>Первичные половые клетки у амниот возникают из клеток</text>
+            <item flag = "0">Эктодермы желточного мешка</item>
+            <item flag = "1">Энтодермы желточного мешка</item>
+            <item flag = "0">Мезенхимы</item>
+            <item flag = "0">Мезодермы пупочного канатика</item>
+            <item flag = "0">Интерстициальных</item>
+        </question>
+		<question id = "117" size = "5" type = "1">
+            <text>Первичные половые клетки амниот</text>
+            <item flag = "0">Формируются в гонадах</item>
+            <item flag = "1">Формируются в желточном мешке</item>
+            <item flag = "1">Мигрируют по брыжейке в гонады</item>
+            <item flag = "1">Пролиферируют (делятся) митозом в гонадах</item>
+            <item flag = "1">В гонадах</item>
+        </question>
+		<question id = "118" size = "5" type = "1">
+            <text>В зоне созревания семенных канальцев семенников у человека и млекопитающих формируются</text>
+            <item flag = "0">Гоноциты</item>
+            <item flag = "0">Сперматоциты I порядка</item>
+            <item flag = "1">Сперматоциты II порядка</item>
+            <item flag = "1">Сперматиды</item>
+            <item flag = "0">Сперматозоиды</item>
+        </question>
+		<question id = "119" size = "5" type = "1">
+            <text>В зоне формирования семенных канальцев семенников у человека и млекопитающих формируются</text>
+            <item flag = "0">Гоноциты</item>
+            <item flag = "0">Сперматоциты 1 порядка</item>
+            <item flag = "0">Сперматоциты 2 порядка</item>
+            <item flag = "0">Сперматиды</item>
+            <item flag = "1">Сперматозоиды</item>
+        </question>
+		<question id = "120" size = "5" type = "1">
+            <text>В зоне роста семенных канальцев семенников у человека и млекопитающих формируются</text>
+            <item flag = "0">Гоноциты</item>
+            <item flag = "1">Сперматоциты 1 порядка</item>
+            <item flag = "0">Сперматоциты 2 порядка</item>
+            <item flag = "0">Сперматиды</item>
+            <item flag = "0">Сперматозоиды</item>
+        </question>
+		<question id = "121" size = "5" type = "1">
+            <text>На стадии диктиотены профазы I мейоза идет процесс</text>
+            <item flag = "0">Формирования овогоний</item>
+            <item flag = "0">Формирования сперматогоний</item>
+            <item flag = "1">Амплификации генов</item>
+            <item flag = "1">Образования хромосом типа ламповых щеток</item>
+            <item flag = "0">Формирования овоцитов I порядка</item>
+        </question>
+		<question id = "122" size = "5" type = "1">
+            <text>Овоциты I порядка в яичнике формируются</text>
+            <item flag = "0">Сразу после рождения девочки</item>
+            <item flag = "1">За несколько недель до рождения девочки</item>
+            <item flag = "0">В пубертатный период</item>
+            <item flag = "0">Находятся на стадии профазы I мейоза</item>
+            <item flag = "0">В процессе овуляции</item>
+        </question>
+		<question id = "123" size = "5" type = "1">
+            <text>В процессе прогамного типа детерминации пола определение пола особей наблюдается</text>
+            <item flag = "1">До оплодотворения</item>
+            <item flag = "0">Сразу после оплодотворения</item>
+            <item flag = "1">У кольчатых червей и тлей</item>
+            <item flag = "0">У человека и мух дрозофил</item>
+            <item flag = "0">У насекомых: муравьев, пчел и ос</item>
+        </question>
+		<question id = "124" size = "5" type = "1">
+            <text>В процессе эпигамного типа детерминации пола определение пола особей наблюдается</text>
+            <item flag = "0">До оплодотворения</item>
+            <item flag = "1">После оплодотворения</item>
+            <item flag = "0">У кольчатых червей и тлей</item>
+            <item flag = "0">У человека и мух дрозофил</item>
+            <item flag = "1">У черепах и крокодилов</item>
+        </question>
+		<question id = "125" size = "5" type = "1">
+            <text>В процессе сингамного типа детерминации пола определение пола особей наблюдается</text>
+            <item flag = "0">До оплодотворения</item>
+            <item flag = "1">Сразу после оплодотворения в зиготе</item>
+            <item flag = "0">У кольчатых червей и тлей</item>
+            <item flag = "1">У мух дрозофил и человека</item>
+            <item flag = "0">У насекомых: муравьев, пчел и ос</item>
+        </question>
+		<question id = "126" size = "5" type = "1">
+            <text>В процессе эусингамного типа детерминации пола определение пола особей наблюдается</text>
+            <item flag = "1">В зависимости от количества и качества пищи</item>
+            <item flag = "0">После оплодотворения</item>
+            <item flag = "0">С момента оплодотворения</item>
+            <item flag = "0">У мух дрозофил и человека</item>
+            <item flag = "1">У насекомых: муравьев, пчел и ос</item>
+        </question>
+		<question id = "127" size = "5" type = "1">
+            <text>Гетерогаметный мужской пол у</text>
+            <item flag = "0">Бабочек и рыб</item>
+            <item flag = "1">Человека</item>
+            <item flag = "1">Мух дрозофил</item>
+            <item flag = "1">Водяного клопа Ligoeus</item>
+            <item flag = "0">Рыб, земноводных и птиц</item>
+        </question>
+		<question id = "128" size = "5" type = "1">
+            <text>Гетерогаметный женский пол у</text>
+            <item flag = "1">Некоторых бабочек и рыб</item>
+            <item flag = "1">Некоторых рыб, земноводных и птиц</item>
+            <item flag = "0">Мух дрозофил</item>
+            <item flag = "0">Водяного клопа Ligoeus</item>
+            <item flag = "0">Человека и млекопитающих</item>
+        </question>
+		<question id = "129" size = "5" type = "1">
+            <text>XO у самцов и XX у самок наблюдается у</text>
+            <item flag = "1">Некоторых бабочек и червей</item>
+            <item flag = "0">Человека и млекопитающих</item>
+            <item flag = "0">Мух дрозофил</item>
+            <item flag = "1">Водяного клопа Protenor</item>
+            <item flag = "0">Рыб, земноводных, птиц</item>
+        </question>
+		<question id = "130" size = "5" type = "1">
+            <text>Первичные половые клетки гоноциты у человека и млекопитающих образуются</text>
+            <item flag = "1">В желточном мешке</item>
+            <item flag = "0">Генитальном валике</item>
+            <item flag = "0">Из клеток мезодермы</item>
+            <item flag = "1">Из клеток энтодермы</item>
+            <item flag = "0">Из клеток эктодермы</item>
+        </question>
+		<question id = "131" size = "5" type = "1">
+            <text>Генетическая значимость Y-хромосомы состоит в том, что</text>
+            <item flag = "1">Её гены характеризуются голандрическим типом наследования</item>
+            <item flag = "0">Имеет большие размеры</item>
+            <item flag = "0">Содержит большую часть ДНК генома</item>
+            <item flag = "1">Содержит SRY</item>
+            <item flag = "0">Содержит ген, кодирующий белок половой детерминации особи</item>
+        </question>
+		<question id = "132" size = "5" type = "1">
+            <text>Ген, кодирующий белок половой детерминации у человека</text>
+            <item flag = "0">Имеет экзоны и интроны</item>
+            <item flag = "0">Не содержит интронов</item>
+            <item flag = "0">Постоянно активен</item>
+            <item flag = "1">Активен только во время раннего эмбриогенеза</item>
+            <item flag = "1">Экспрессирован только в клетках Сертоли</item>
+        </question>
+		<question id = "133" size = "5" type = "1">
+            <text>Ген SRY у человека и млекопитающих</text>
+            <item flag = "1">Экспрессирован только в клетках Сертоли</item>
+            <item flag = "0">Не активен во время раннего эмбриогенеза</item>
+            <item flag = "1">Детерминирует половую дифференцировку</item>
+            <item flag = "0">Экспрессирован в гоноцитах</item>
+            <item flag = "0">Экспрессирован в сперматозоидах</item>
+        </question>
+		<question id = "134" size = "5" type = "1">
+            <text>Тотипотентность - это</text>
+            <item flag = "0">Способность клеток развиваться в одном направлении</item>
+            <item flag = "1">Способность клеток развиваться в любом направлении</item>
+            <item flag = "1">Отсутствие в клетках детерминации</item>
+            <item flag = "0">Процесс детерминации клеток</item>
+            <item flag = "0">Неспособность клеток к развитию</item>
+        </question>
+		<question id = "135" size = "5" type = "1">
+            <text>Унипотентность - это</text>
+            <item flag = "1">Способность клеток развиваться в одном направлении</item>
+            <item flag = "0">Способность клеток развиваться в любом направлении</item>
+            <item flag = "1">Отсутствие в клетках детерминации</item>
+            <item flag = "0">Процесс в детерминированных клетках</item>
+            <item flag = "0">Неспособность клеток к развитию</item>
+        </question>
+		<question id = "136" size = "5" type = "1">
+            <text>Стволовые клетки</text>
+            <item flag = "0">Унипотентны</item>
+            <item flag = "1">Тотипотентны</item>
+            <item flag = "0">Детерминированы</item>
+            <item flag = "1">Недетерминированы</item>
+            <item flag = "0">Не способны к развитию</item>
+        </question>
+		<question id = "137" size = "5" type = "1">
+            <text>Амплификация генов - это процесс многократного копирования генов</text>
+            <item flag = "1">и-РНК</item>
+            <item flag = "1">р-РНК</item>
+            <item flag = "1">В ядрах овоцитов I порядка</item>
+            <item flag = "1">В ядрах клеток на стадии профазы I мейоза</item>
+            <item flag = "1">В ядрах клеток на стадии диктиотены</item>
+        </question>
+		<question id = "138" size = "5" type = "1">
+            <text>Хромосомы типа ламповых щеток</text>
+            <item flag = "1">Видны на стадии диктиотены</item>
+            <item flag = "0">Есть в ядрах клеток гаструлы</item>
+            <item flag = "1">Имеют гетеро- и эухроматические клетки</item>
+            <item flag = "0">Образуются в ядрах сперматоцитов I порядка</item>
+            <item flag = "1">Определяют синтез молекул и-РНК, р-РНК впрок</item>
+        </question>
+		<question id = "139" size = "5" type = "1">
+            <text>Причина ранней цитодифференцировки в эмбриогенезе</text>
+            <item flag = "1">Дифференциальная экспрессия генов</item>
+            <item flag = "1">Ооплазматическая сегрегация</item>
+            <item flag = "1">Эмбриональная индукция</item>
+            <item flag = "0">Действие анти-Мюллерова гормона</item>
+            <item flag = "1">Взаимодействие частей зародыша</item>
+        </question>
+		<question id = "140" size = "5" type = "1">
+            <text>Стадия большого роста яйцеклетки включает процессы</text>
+            <item flag = "0">Репликации ДНК</item>
+            <item flag = "1">Накопления желтка</item>
+            <item flag = "1">Синтеза молекул и-РНК впрок</item>
+            <item flag = "1">Активности хромосом типа ламповых щеток</item>
+            <item flag = "1">Ооплазматической сегрегации</item>
+        </question>
+		<question id = "141" size = "5" type = "1">
+            <text>Результатом процесса детерминации являются</text>
+            <item flag = "0">Мутационные процессы в эмбриогенезе</item>
+            <item flag = "0">Критические периоды эмбриогенеза</item>
+            <item flag = "1">Ранняя дифференцировка клеток</item>
+            <item flag = "1">Унипотентность в развитии клеток</item>
+            <item flag = "1">Клеточная канализация</item>
+        </question>
+		<question id = "142" size = "5" type = "1">
+            <text>Процесс эмбриональной индукции открыл</text>
+            <item flag = "0">Г. Дриш</item>
+            <item flag = "0">В. Ру</item>
+            <item flag = "0">О. Гертвиг</item>
+            <item flag = "0">Д. Гёрдон</item>
+            <item flag = "1">Г. Шпеман</item>
+        </question>
+		<question id = "143" size = "5" type = "1">
+            <text>Опыты по детерминации в клетках зародыша проводили</text>
+            <item flag = "1">Г. Дриш</item>
+            <item flag = "1">В. Ру</item>
+            <item flag = "1">О. Гертвиг</item>
+            <item flag = "1">Д. Гёрдон</item>
+            <item flag = "1">Г. Шпеман</item>
+        </question>
+		<question id = "144" size = "5" type = "1">
+            <text>Действие тератогенных факторов может привести к</text>
+            <item flag = "1">Клеточным мутациям</item>
+            <item flag = "1">Порокам развития в эмбриогенезе</item>
+            <item flag = "0">Активизации процесса цитодифференцировки</item>
+            <item flag = "0">Порокам развития в постэмбриогенезе</item>
+            <item flag = "1">Порокам развития в определенные критические периоды эмбриогенеза</item>
+        </question>
+		<question id = "145" size = "5" type = "1">
+            <text>Генетическая регуляция онтогенеза осуществляется в процессе</text>
+            <item flag = "0">Только дерепрессии генной активности</item>
+            <item flag = "0">Только репрессии генной активности</item>
+            <item flag = "1">Последовательной смены репрессии и дерепрессии генной активности</item>
+            <item flag = "0">Действия тератогенов</item>
+            <item flag = "0">Мутационных изменений</item>
+        </question>
+		<question id = "146" size = "5" type = "1">
+            <text>Продукты генов (и-РНК, р-РНК и др.), определяющие развитие зиготы, синтезируются в</text>
+            <item flag = "0">Зиготе</item>
+            <item flag = "1">Овоцитах</item>
+            <item flag = "0">Клетках Сертоли</item>
+            <item flag = "0">Клетках Лейдига</item>
+            <item flag = "0">Клетках слизистой яйцеводов</item>
+        </question>
+		<question id = "147" size = "5" type = "1">
+            <text>Дорепродуктивный период онтогенеза человека характеризуется</text>
+            <item flag = "0">Социальной зрелостью</item>
+            <item flag = "0">Оканчивается образованием всех систем органов</item>
+            <item flag = "0">Способностью воспроизводить потомство</item>
+            <item flag = "0">Наибольшей чувствительностью к различным факторам среды</item>
+            <item flag = "1">Ростом, становлением гормонального статуса и развитием вторичных признаков</item>
+        </question>
+		<question id = "148" size = "5" type = "1">
+            <text>Фактор, не влияющий на сокращение продолжительности жизни</text>
+            <item flag = "0">Алкоголизм</item>
+            <item flag = "0">Постоянные эмоциональные стрессы</item>
+            <item flag = "1">Регулярные физические нагрузки</item>
+            <item flag = "0">Избыточный вес</item>
+            <item flag = "0">Табакокурение</item>
+        </question>
+		<question id = "149" size = "5" type = "1">
+            <text>Формирование устойчивого типа клеток, специализированных к выполнению определенных функций</text>
+            <item flag = "0">Пролиферация</item>
+            <item flag = "1">Цитодифференцировка</item>
+            <item flag = "0">Избирательная сортировка</item>
+            <item flag = "0">Миграция</item>
+            <item flag = "0">Унипотентность</item>
+        </question>
+		<question id = "150" size = "5" type = "1">
+            <text>В критические периоды эмбриогенеза возможно</text>
+            <item flag = "0">Появление мутаций в клетках</item>
+            <item flag = "0">Повышение регуляционной способности клеток</item>
+            <item flag = "0">Снижение клеточной активности и цитодифференцировки</item>
+            <item flag = "0">Наибольшая устойчивость зародыша к действию вредных факторов среды</item>
+            <item flag = "1">Наибольшая чувствительность зародыша к действию вредных факторов среды</item>
+        </question>
+		<question id = "151" size = "5" type = "1">
+            <text>Критический период для отдельных органов зародыша - это процесс</text>
+            <item flag = "1">Роста</item>
+            <item flag = "1">Закладки</item>
+            <item flag = "0">Плацентации</item>
+            <item flag = "0">Имплантации</item>
+            <item flag = "1">Образования специфических структур</item>
+        </question>
+		<question id = "152" size = "5" type = "1">
+            <text>Ранние эмбриональные семенники человека продуцируют гормоны</text>
+            <item flag = "0">Эстрогены</item>
+            <item flag = "0">Прогестерон</item>
+            <item flag = "1">Тестостерон</item>
+            <item flag = "1">Анти-Мюллеров</item>
+            <item flag = "0">Лютенизирующий</item>
+        </question>
+		<question id = "153" size = "5" type = "1">
+            <text>Синтез тестостерона происходит в клетках</text>
+            <item flag = "0">Фолликулов</item>
+            <item flag = "0">Сертоли</item>
+            <item flag = "1">Лейдига</item>
+            <item flag = "0">Яйценосных бугорков</item>
+            <item flag = "0">Гоноцитов семенных канальцев</item>
+        </question>
+		<question id = "154" size = "5" type = "1">
+            <text>Тестостерон активирует развитие</text>
+            <item flag = "0">Первичных половых признаков</item>
+            <item flag = "0">Развитие первичных половых фолликулов</item>
+            <item flag = "0">Вторичных половых признаков по женскому типу</item>
+            <item flag = "1">Вторичных половых признаков по мужскому типу</item>
+            <item flag = "0">Развитие вторичных фолликулов</item>
+        </question>
+		<question id = "155" size = "5" type = "1">
+            <text>Процесс ооплазматической сегрегации</text>
+            <item flag = "1">Проявляется в яйцеклетке</item>
+            <item flag = "0">Наблюдается в клетках Сертоли</item>
+            <item flag = "0">Наблюдается в соматических клетках</item>
+            <item flag = "1">Имеет значение в определение судьбы клеток зародыша</item>
+            <item flag = "1">Характеризуется интенсивным синтезом органических соединений</item>
+        </question>
+		<question id = "156" size = "5" type = "1">
+            <text>Дерепрессия генов в клетках зародыша человека начинается на стадии</text>
+            <item flag = "0">Зиготы</item>
+            <item flag = "0">Дробления</item>
+            <item flag = "0">Бластулы</item>
+            <item flag = "1">Гаструлы</item>
+            <item flag = "0">Гисто- и органогенеза</item>
+        </question>
+		<question id = "157" size = "5" type = "1">
+            <text>Наиболее высокая тотипотентность клеток зародыша человека</text>
+            <item flag = "1">На стадии бластоцилы</item>
+            <item flag = "0">На стадии гаструлы</item>
+            <item flag = "0">На стадии нейрулы</item>
+            <item flag = "0">В периоде гисто- и органогенеза</item>
+            <item flag = "0">Одинаковая на всех стадиях эмбриогенеза</item>
+        </question>
+		<question id = "158" size = "5" type = "1">
+            <text>Способность эмбриональных клеток менять направление развития</text>
+            <item flag = "1">Тотипотентность</item>
+            <item flag = "0">Унипотентность</item>
+            <item flag = "0">Цитодифференцировка</item>
+            <item flag = "0">Детерминация</item>
+            <item flag = "0">Экспрессия</item>
+        </question>
+		<question id = "159" size = "5" type = "1">
+            <text>Развитие однояйцевых близнецов у человека возможно благодаря</text>
+            <item flag = "0">Разной дифференциальной активности генов в бластомерах</item>
+            <item flag = "1">Тотипотентности бластомеров</item>
+            <item flag = "1">Одинаковой массы бластомеров</item>
+            <item flag = "0">Унипотентности бластомеров</item>
+            <item flag = "0">Разной дифференцировки бластомеров</item>
+        </question>
+		<question id = "160" size = "5" type = "1">
+            <text>Канализация развития клеток зародыша связана с приобретением клетками</text>
+            <item flag = "1">Цитодифференцировки</item>
+            <item flag = "0">Тотипотентности и лабильной детерминации</item>
+            <item flag = "0">Тотипотентности и стабильной детерминации</item>
+            <item flag = "1">Унипотентности и стабильной детерминации</item>
+            <item flag = "0">Унипотентности и лабильной детерминации</item>
+        </question>
+		<question id = "161" size = "5" type = "1">
+            <text>Цитодифференцировка в эмбриогенезе на стадии дробления обусловлена</text>
+            <item flag = "0">Наличием в клетках зародыша разных генов</item>
+            <item flag = "0">Дифференциальной активности генов</item>
+            <item flag = "0">Межклеточными контактными взаимодействиями</item>
+            <item flag = "1">Межклеточными дистантными взаимодействиями</item>
+            <item flag = "0">Положением клеток в зародыше</item>
+        </question>
+		<question id = "162" size = "5" type = "1">
+            <text>Процесс старения захватывает уровни структурной организации особи</text>
+            <item flag = "1">Молекулярный</item>
+            <item flag = "1">Субклеточный</item>
+            <item flag = "1">Клеточный</item>
+            <item flag = "1">Тканевый</item>
+            <item flag = "1">Органный</item>
+        </question>
+		<question id = "163" size = "5" type = "1">
+            <text>Признаки старения сердечно-сосудистой системы у человека при правильном образе жизни становятся заметными в возрасте</text>
+            <item flag = "0">до 35 лет</item>
+            <item flag = "1">после 40 лет</item>
+            <item flag = "0">после 45 лет</item>
+            <item flag = "0">50 лет</item>
+            <item flag = "0">60 лет</item>
+        </question>
+		<question id = "164" size = "5" type = "1">
+            <text>Для стареющих нервных клеток типично</text>
+            <item flag = "1">Уменьшение мембранных структур в цитоплазме</item>
+            <item flag = "1">Сокращение объема шероховатой ЭПС</item>
+            <item flag = "1">Увеличение микрофибрилл</item>
+            <item flag = "0">Увеличение количества митохондрий</item>
+            <item flag = "0">Увеличение рибосом</item>
+        </question>
+		<question id = "165" size = "5" type = "1">
+            <text>Для стареющих нервных клеток типично</text>
+            <item flag = "1">Накопление липофусцина</item>
+            <item flag = "0">Увеличение интенсивности синтеза белка</item>
+            <item flag = "1">Снижение доли цитоплазмы</item>
+            <item flag = "0">Увеличение количества медиатора</item>
+            <item flag = "1">Замедление проведения нервного импульса</item>
+        </question>
+		<question id = "166" size = "5" type = "1">
+            <text>Липофусцин в нейроне является</text>
+            <item flag = "0">Балластным белком</item>
+            <item flag = "0">Клеточным гормоном</item>
+            <item flag = "1">Балластным пигментом</item>
+            <item flag = "0">Ферментом в процессе гликолиза</item>
+            <item flag = "0">Ферментом в процессе биосинтеза белка</item>
+        </question>
+		<question id = "167" size = "5" type = "1">
+            <text>Свободные радикалы в клетке способны вызывать</text>
+            <item flag = "1">Разрушение структур клетки</item>
+            <item flag = "0">Восстановление обменных процессов</item>
+            <item flag = "1">Исчезновение определенных типов м-РНК</item>
+            <item flag = "1">Частичное изменение биологической информации</item>
+            <item flag = "0">Увеличение скорости транскрипционной способности ДНК</item>
+        </question>
+		<question id = "168" size = "5" type = "1">
+            <text>В зрелом возрасте у человека снижается количество</text>
+            <item flag = "0">Свободных радикалов</item>
+            <item flag = "1">Молекул р-РНК</item>
+            <item flag = "1">Ферментов</item>
+            <item flag = "1">Негистоновых белков</item>
+            <item flag = "1">Процессов белкового синтеза</item>
+        </question>
+		<question id = "169" size = "5" type = "1">
+            <text>Дифференцировка для многих типов клеток организма означает</text>
+            <item flag = "1">Старение</item>
+            <item flag = "1">Гибель</item>
+            <item flag = "0">Ускорение клеточной пролиферации</item>
+            <item flag = "0">Увеличение митотических делений</item>
+            <item flag = "1">Утрата возможности продолжить митотический цикл</item>
+        </question>
+		<question id = "170" size = "5" type = "1">
+            <text>Наличие генетического контроля над продолжительностью жизни доказывают</text>
+            <item flag = "1">Продолжительность эмбрионального периода</item>
+            <item flag = "1">Возрастная половая зрелость у вида</item>
+            <item flag = "0">Продолжительность жизни у разнояйцевых близнецов</item>
+            <item flag = "1">Наследственные болезни с ранним проявлением признаков старости</item>
+            <item flag = "1">Связь между продолжительностью жизни родителей и потомков</item>
+        </question>
+		<question id = "171" size = "5" type = "1">
+            <text>По данным научных исследований генетическое влияние на скорость старения</text>
+            <item flag = "1">Плейотропное действие гена и снижение действия генов модификаторов</item>
+            <item flag = "0">Плейотропное действие гена и возрастание действия генов модификаторов</item>
+            <item flag = "1">Накопление генных ошибок в соматических клетках</item>
+            <item flag = "1">Наличие генов предрасположенности к хроническим заболеваниям</item>
+            <item flag = "0">Наличие генетической программы старения</item>
+        </question>
+		<question id = "172" size_x="2" size_y="6" type="2">
+			<text>Дробление - ... характерно для эмбриогенеза ...</text>
+			<item>
+				<text>1) Голобластическое</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+			</item>
+			<item>
+				<text>2) Меробластическое</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<child>а) Птиц</child>
+			<child>б) Амфибий</child>
+			<child>в) Рептилий</child>
+			<child>г) Млекопитающих</child>
+			<child>д) Ланцетников</child>
+			<child>е) Иглокожих</child>
+		</question>
+		<question id = "173" size_x="3" size_y="4" type="2">
+			<text>Дробление - ... характерно для эмбриогенеза ...</text>
+			<item>
+				<text>1) Радиальное</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Спиральное</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<item>
+				<text>3) Билатеральное</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<child>а) Аскариды</child>
+			<child>б) Иглокожих</child>
+			<child>в) Хордовых</child>
+			<child>г) Моллюсков</child>
+		</question>
+		<question id = "174" size_x="4" size_y="6" type="2">
+			<text>Яйцеклетка - ... характерна для ...</text>
+			<item>
+				<text>1) Изолецитальная</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Умеренно телолецитальная</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Резко телолецитальная</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<item>
+				<text>4) Центролецитальная</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<child>а) Членистоногих</child>
+			<child>б) Ланцетников</child>
+			<child>в) Иглокожих</child>
+			<child>г) Млекопитающих</child>
+			<child>д) Амфибий</child>
+			<child>е) Птиц</child>
+		</question>
+		<question id = "175" size_x="4" size_y="8" type="2">
+			<text>Дробление - ... характерно для эмбриогенеза ...</text>
+			<item>
+				<text>1) Полное неравномерное</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<item>
+				<text>2) Полное неравномерное</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Дискоидальное</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>4) Поверхностное</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<child>а) Птиц</child>
+			<child>б) Членистоногих</child>
+			<child>в) Амфибий</child>
+			<child>г) Млекопитающих</child>
+			<child>д) Рептилий</child>
+			<child>е) Ланцетников</child>
+			<child>ж) Рыб</child>
+			<child>з) Иглокожих</child>
+		</question>
+		<question id = "176" size_x="2" size_y="5" type="2">
+			<text>Дробление - ... характерно для эмбриогенеза ...</text>
+			<item>
+				<text>1) Синхронное</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<item>
+				<text>2) Асинхронное</text>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<child>а) Птиц</child>
+			<child>б) Млекопитающих</child>
+			<child>в) Ланцетников</child>
+			<child>г) Амфибий</child>
+			<child>д) Иглокожих</child>
+		</question>
+		<question id = "177" size_x="8" size_y="6" type="2">
+			<text>В эмбриогенезе - ... развивается тип бластулы ....</text>
+			<item>
+				<text>1) Птиц</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Млекопитающих</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Ланцетников</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>4) Земноводных</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>5) Членистоногих</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>6) Иглокожих</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>7) Пресмыкающихся</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>8) Кольчатых червей</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Амфибластула</child>
+			<child>б) Перибластула</child>
+			<child>в) Дискобластула</child>
+			<child>г) Бластоциста</child>
+			<child>д) Целобластула</child>
+			<child>е) Стерробластула</child>
+		</question>
+		<question id = "178" size_x="2" size_y="8" type="2">
+			<text>Способ образования мезодермы - ... характерен для ...</text>
+			<item>
+				<text>1) Энтероцельный</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Телобластический</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Дождевого червя</child>
+			<child>б) Ящерицы</child>
+			<child>в) Голубя</child>
+			<child>г) Виноградной улитки</child>
+			<child>д) Крота</child>
+			<child>е) Окуня</child>
+			<child>ж) Тритона</child>
+			<child>з) Молочной планарии</child>
+		</question>
+		<question id = "179" size_x="3" size_y="6" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Эктодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Энтодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Мезодермы</text>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Почки</child>
+			<child>б) Строма половых желез</child>
+			<child>в) Надпочечники</child>
+			<child>г) Эпителий среднего кишечника</child>
+			<child>д) Головной мозг</child>
+			<child>е) Дерма</child>
+		</question>
+		<question id = "180" size_x="3" size_y="4" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Дорзальной мезодермы</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Вентральной мезодермы</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Промежуточной мезодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Позвоночник</child>
+			<child>б) Перикард</child>
+			<child>в) Скелетные мышцы конечностей</child>
+			<child>г) Яйцеводы</child>
+		</question>
+		<question id = "181" size_x="3" size_y="5" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Сомитов</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Нефрогонотома</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Боковой пластинки</text>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Брыжейки</child>
+			<child>б) Кровеносные сосуды</child>
+			<child>в) Мочеточники</child>
+			<child>г) Дерма</child>
+			<child>д) Брюшина</child>
+		</question>
+		<question id = "182" size_x="3" size_y="6" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Эктодермы</text>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Энтодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Мезодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Спинной мозг</child>
+			<child>б) Гипофиз</child>
+			<child>в) Щитовидная железа</child>
+			<child>г) Легкие</child>
+			<child>д) Эпителий трахеи</child>
+			<child>е) Матка</child>
+		</question>
+		<question id = "183" size_x="3" size_y="4" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Эктодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Энтодермы</text>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Мезенхимы</text>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Соединительная ткань</child>
+			<child>б) Поджелудочная железа</child>
+			<child>в) Рецепторный эпителий</child>
+			<child>г) Гладкие мышцы</child>
+		</question>
+		<question id = "184" size_x="3" size_y="5" type="2">
+			<text>Производными - ... являются ...</text>
+			<item>
+				<text>1) Эктодермы</text>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>2) Энтодермы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+				<pair>1</pair>
+				<pair>0</pair>
+			</item>
+			<item>
+				<text>3) Мезенхимы</text>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>0</pair>
+				<pair>1</pair>
+			</item>
+			<child>а) Хрусталик глаза</child>
+			<child>б) Потовые железы</child>
+			<child>в) Эпителий бронхов</child>
+			<child>г) Печень</child>
+			<child>д) Кровеносные сосуды</child>
+		</question>	
 </quize>

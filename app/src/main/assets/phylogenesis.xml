@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="271" file="phylogenesis" name = "Филогенез">
+	<question id = "1" size = "4" type = "1">
+        <text>К центральной нервной системе относят</text>
+        <item flag = "0">черепно-мозговые нервы</item>
+        <item flag = "1">головной мозг</item>
+        <item flag = "0">спинномозговые нервы</item>
+        <item flag = "1">спинной мозг</item>
+    </question>
+	<question id = "2" size = "4" type = "1">
+        <text>К периферической нервной системе</text>
+        <item flag = "1">нервные узлы</item>
+        <item flag = "1">нервные окончания</item>
+        <item flag = "0">спинной мозг</item>
+        <item flag = "1">спинномозговые нервы</item>
+    </question>
+	<question id = "3" size = "4" type = "1">
+        <text>Функции соматической нервной системы</text>
+        <item flag = "1">осуществляет восприятие внешних раздражений</item>
+        <item flag = "1">регулирует обмен веществ</item>
+        <item flag = "1">регулирует работу скелетных мышц</item>
+        <item flag = "0">регулирует функции внутренних органов</item>
+    </question>
+	<question id = "4" size = "4" type = "1">
+        <text>Функции вегетативной нервной системы</text>
+        <item flag = "1">координирует деятельность внутренних органов</item>
+        <item flag = "1">обеспечивает восприятие внешних раздражений</item>
+        <item flag = "0">подконтрольное сознание</item>
+        <item flag = "1">неподконтрольное сознание</item>
+    </question>
+	<question id = "5" size = "4" type = "1">
+        <text>Нервная система у представителей типа Хордовые закладывается на стадии</text>
+        <item flag = "0">гаструляции</item>
+        <item flag = "1">нейруляции</item>
+        <item flag = "0">дробления</item>
+        <item flag = "1">первичного органогенеза</item>
+    </question>
+	<question id = "6" size = "4" type = "1">
+        <text>Нервная трубка образуется из</text>
+        <item flag = "0">энтодермы</item>
+        <item flag = "1">эктодермы</item>
+        <item flag = "0">мезодермы</item>
+        <item flag = "0">нейроэктодермы</item>
+    </question>
+	<question id = "7" size = "4" type = "1">
+        <text>Клеточные механизмы, сопровождающие образование нервной трубки</text>
+        <item flag = "1">дифференцировка</item>
+        <item flag = "0">запрограмированная клеточная гибель</item>
+        <item flag = "1">адгезия</item>
+        <item flag = "1">пролиферация</item>
+    </question>
+	<question id = "8" size = "4" type = "1">
+        <text>Во время нейруляции последовательно идут процессы</text>
+        <item flag = "0">образование нервного желоба, нервной пластинки, смыкание краев нервного желоба</item>
+        <item flag = "0">образование нервного желоба, образование нервной пластинки, продольное смыкание краев нервного желоба</item>
+        <item flag = "1">образование нервной пластинки, образование нервного желоба, продольное смыкание нервного желоба</item>
+        <item flag = "0">продольное смыкание краев нервного желоба, образование нервной пластинки, образование нервного желоба</item>
+    </question>
+	<question id = "9" size = "4" type = "1">
+        <text>Нервная трубка представителей типа Хордовые образуется</text>
+        <item flag = "1">на спинной стороне тела</item>
+        <item flag = "0">на брюшной стороне тела</item>
+        <item flag = "1">над хордой</item>
+        <item flag = "0">под хордой</item>
+    </question>
+	<question id = "10" size = "4" type = "1">
+        <text>Полость нервной трубки</text>
+        <item flag = "0">желудочек</item>
+        <item flag = "0">псевдоцель</item>
+        <item flag = "1">невроцель</item>
+        <item flag = "0">бластоцель</item>
+    </question>
+	<question id = "11" size = "4" type = "1">
+        <text>Нервная трубка не полностью смыкается у представителей класса</text>
+        <item flag = "0">Хрящевые рыбы</item>
+        <item flag = "1">Головохордовые</item>
+        <item flag = "0">Круглоротые</item>
+        <item flag = "0">Костные рыбы</item>
+    </question>
+	<question id = "12" size = "4" type = "1">
+        <text>Цефализация в эволюционном процессе - это образование</text>
+        <item flag = "0">спинного мозга</item>
+        <item flag = "0">спинномозговых нервов</item>
+        <item flag = "0">черепно-мозговых нервов</item>
+        <item flag = "1">головного мозга</item>
+    </question>
+	<question id = "13" size = "4" type = "1">
+        <text>При формировании головного мозга первоначально образуется ... мозговых пузыря (-ей)</text>
+        <item flag = "0">два</item>
+        <item flag = "1">три</item>
+        <item flag = "0">четыре</item>
+        <item flag = "0">пять</item>
+    </question>
+	<question id = "14" size = "4" type = "1">
+        <text>Стадия пяти мозговых пузырей в эмбриогенезе позвоночных формируется делением</text>
+        <item flag = "0">переднего и среднего мозговых пузырей</item>
+        <item flag = "1">переднего и заднего мозговых пузырей</item>
+        <item flag = "0">среднего и заднего мозговых пузырей</item>
+        <item flag = "0">среднего мозгового пузыря</item>
+    </question>
+	<question id = "15" size = "4" type = "1">
+        <text>Головной мозг представителей подтипа позвоночные включает отдела (-ов)</text>
+        <item flag = "0">два</item>
+        <item flag = "0">три</item>
+        <item flag = "0">четыре</item>
+        <item flag = "1">пять</item>
+    </question>
+	<question id = "16" size = "4" type = "1">
+        <text>Из переднего мозгового пузыря у представителей подтипа позвоночные формируются отделы</text>
+        <item flag = "1">конечный</item>
+        <item flag = "0">средний</item>
+        <item flag = "0">мозжечок</item>
+        <item flag = "1">промежуточный</item>
+    </question>
+	<question id = "17" size = "4" type = "1">
+        <text>Гипофиз - это нижний мозговой придаток в области отдела головного мозга</text>
+        <item flag = "0">конечного</item>
+        <item flag = "0">среднего</item>
+        <item flag = "0">мозжечка</item>
+        <item flag = "1">промежуточного</item>
+    </question>
+	<question id = "18" size = "4" type = "1">
+        <text>Эпифиз - это верхний мозговой придаток в области отдела головного мозга</text>
+        <item flag = "0">конечного</item>
+        <item flag = "0">среднего</item>
+        <item flag = "0">мозжечка</item>
+        <item flag = "1">промежуточного</item>
+    </question>
+	<question id = "19" size = "4" type = "1">
+        <text>Из среднего мозгового пузыря у представителей подтипа Позвоночные формируются отделы</text>
+        <item flag = "0">промежуточный</item>
+        <item flag = "0">конечный</item>
+        <item flag = "1">средний</item>
+        <item flag = "0">мозжечок</item>
+    </question>
+	<question id = "20" size = "4" type = "1">
+        <text>Из заднего мозгового пузыря у представителей подтипа Позвоночные формируются отделы</text>
+        <item flag = "0">средний</item>
+        <item flag = "0">промежуточный</item>
+        <item flag = "1">продолговатый</item>
+        <item flag = "1">мозжечок</item>
+    </question>
+	<question id = "21" size = "4" type = "1">
+        <text>Последовательность расположения отделов головного мозга млекопитающих и человека в переднезаднем направлении - конечный,</text>
+        <item flag = "0">средний, задний, промежуточный, продолговатый</item>
+        <item flag = "0">продолговатый, промежуточный, средний, задний</item>
+        <item flag = "1">промежуточный, средний, мозжечок, продолговатый</item>
+        <item flag = "0">средний, промежуточный, продолговатый, задний</item>
+    </question>
+	<question id = "22" size = "4" type = "1">
+        <text>Желудочки головного мозга у млекопитающих находятся в отделах мозга</text>
+        <item flag = "1">конечном</item>
+        <item flag = "1">промежуточном</item>
+        <item flag = "0">среднем</item>
+        <item flag = "0">мозжечке</item>
+    </question>
+	<question id = "23" size = "4" type = "1">
+        <text>Желудочки головного мозга у рыб находятся в отделах</text>
+        <item flag = "0">среднем</item>
+        <item flag = "1">промежуточном</item>
+        <item flag = "0">мозжечке</item>
+        <item flag = "1">продолговатом</item>
+    </question>
+	<question id = "24" size = "4" type = "1">
+        <text>Желудочки головного мозга у земноводных находятся в отделах</text>
+        <item flag = "1">конечном</item>
+        <item flag = "1">промежуточном</item>
+        <item flag = "0">среднем</item>
+        <item flag = "1">продолговатом</item>
+    </question>
+	<question id = "25" size = "4" type = "1">
+        <text>Количество желудочков головного мозга у рыб составляет</text>
+        <item flag = "0">два</item>
+        <item flag = "1">три</item>
+        <item flag = "0">четыре</item>
+        <item flag = "0">пять</item>
+    </question>
+	<question id = "26" size = "4" type = "1">
+        <text>Количество желудочков головного мозга представителей подкласса Плацентарные</text>
+        <item flag = "0">два</item>
+        <item flag = "0">три</item>
+        <item flag = "1">четыре</item>
+        <item flag = "0">пять</item>
+    </question>
+	<question id = "27" size = "4" type = "1">
+        <text>Количество пар черепно-мозговых нервов, отходящих от мозга рыб составляет</text>
+        <item flag = "0">6</item>
+        <item flag = "1">10</item>
+        <item flag = "0">12</item>
+        <item flag = "0">24</item>
+    </question>
+	<question id = "28" size = "4" type = "1">
+        <text>Количество пар черепно-мозговых нервов, отходящих от мозга земноводных</text>
+        <item flag = "1">10</item>
+        <item flag = "0">12</item>
+        <item flag = "0">18</item>
+        <item flag = "0">24</item>
+    </question>
+	<question id = "29" size = "4" type = "1">
+        <text>Количество пар черепно-мозговых нервов, отходящих от мозга пресмыкающихся</text>
+        <item flag = "0">8</item>
+        <item flag = "0">10</item>
+        <item flag = "1">12</item>
+        <item flag = "0">14</item>
+    </question>
+	<question id = "30" size = "4" type = "1">
+        <text>Количество пар черепно-мозговых нервов, отходящих от мозга птиц</text>
+        <item flag = "1">12</item>
+        <item flag = "0">16</item>
+        <item flag = "0">10</item>
+        <item flag = "0">14</item>
+    </question>
+	<question id = "31" size = "4" type = "1">
+        <text>Количество пар черепно-мозговых нервов, отходящих от мозга млекопитающих</text>
+        <item flag = "0">8</item>
+        <item flag = "0">16</item>
+        <item flag = "1">12</item>
+        <item flag = "0">18</item>
+    </question>
+	<question id = "32" size = "4" type = "1">
+        <text>Конечный отдел головного мозга рыб является центром</text>
+        <item flag = "1">обоняния</item>
+        <item flag = "0">зрения</item>
+        <item flag = "0">слуха</item>
+        <item flag = "0">дыхания</item>
+    </question>
+	<question id = "33" size = "4" type = "1">
+        <text>Промежуточный отдел головного мозга позвоночных включает структуры</text>
+        <item flag = "1">гипоталамус</item>
+        <item flag = "0">полосатые тела</item>
+        <item flag = "1">эпифиз</item>
+        <item flag = "1">гипофиз</item>
+    </question>
+	<question id = "34" size = "4" type = "1">
+        <text>Средний отдел головного мозга позвоночных является центром</text>
+        <item flag = "0">кровообращения</item>
+        <item flag = "0">дыхания</item>
+        <item flag = "1">зрения</item>
+        <item flag = "0">равновесия</item>
+    </question>
+	<question id = "35" size = "4" type = "1">
+        <text>Мозжечок у черепных является центром</text>
+        <item flag = "0">обоняния</item>
+        <item flag = "0">зрения</item>
+        <item flag = "1">координации движения</item>
+        <item flag = "0">слуха</item>
+    </question>
+	<question id = "36" size = "4" type = "1">
+        <text>В продолговатом отделе головного мозга позвоночных есть центры</text>
+        <item flag = "0">обоняния</item>
+        <item flag = "1">дыхания</item>
+        <item flag = "1">кровообращения</item>
+        <item flag = "0">зрения</item>
+    </question>
+	<question id = "37" size = "4" type = "1">
+        <text>Для конечного отдела мозга рыб характерно</text>
+        <item flag = "1">отсутствие разделения на полушария</item>
+        <item flag = "0">наличие на поверхности новой коры</item>
+        <item flag = "1">серое вещество представлено полосатым телом и сплошным слоем, выстилающим полость желудочка</item>
+        <item flag = "0">наличие двух желудочков</item>
+    </question>
+	<question id = "38" size = "4" type = "1">
+        <text>Для конечного отдела мозга земноводных характерно</text>
+        <item flag = "0">один желудочек</item>
+        <item flag = "1">два желудочка</item>
+        <item flag = "1">наличие древней и старой коры</item>
+        <item flag = "0">выполнение функции высшего интегрирующего центра</item>
+    </question>
+	<question id = "39" size = "4" type = "1">
+        <text>Высший интегрирующий центр головного мозга у рыб</text>
+        <item flag = "0">древняя кора конечного отдела</item>
+        <item flag = "0">гипоталамус</item>
+        <item flag = "1">средний отдел</item>
+        <item flag = "0">обонятельные доли</item>
+    </question>
+	<question id = "40" size = "4" type = "1">
+        <text>Высший интегрирующий центр головного мозга у земноводных</text>
+        <item flag = "0">мозжечок</item>
+        <item flag = "0">древняя кора конечного отдела</item>
+        <item flag = "0">старая кора конечного отдела</item>
+        <item flag = "1">средний отдел</item>
+    </question>
+	 <question id = "41" size = "4" type = "1">
+        <text>Высший интегрирующий центр головного мозга у рептилий</text>
+        <item flag = "0">медиальные островки коры переднего отдела</item>
+        <item flag = "1">полосатые тела конечного отдела</item>
+        <item flag = "0">латеральные островки коры конечного отдела </item>
+        <item flag = "0">средний отдел</item>
+    </question>
+	<question id = "42" size = "4" type = "1">
+        <text>Высший интегрирующий центр головного мозга у птиц</text>
+        <item flag = "0">средний отдел</item>
+        <item flag = "0">гипокамп</item>
+        <item flag = "1">полосатые тела конечного отдела</item>
+        <item flag = "0">зачатки новой коры</item>
+    </question>
+	<question id = "43" size = "4" type = "1">
+        <text>Высший интегрирующий центр головного мозга у млекопитающих</text>
+        <item flag = "0">полосатые тела конечного отдела</item>
+        <item flag = "1">кора больших полушарий</item>
+        <item flag = "0">средний отдел</item>
+        <item flag = "0">гипокамп</item>
+    </question>
+	<question id = "44" size = "4" type = "1">
+        <text>Для конечного отдела головного мозга пресмыкающихся характерно</text>
+        <item flag = "0">отсутствие разделения на полушария</item>
+        <item flag = "1">выполнение функции высшего интегрирующего центра</item>
+        <item flag = "1">установление связей между гипокампом и гипоталамусом</item>
+        <item flag = "1">старая кора представлена островками латеральными и медиальными</item>
+    </question>
+	<question id = "45" size = "4" type = "1">
+        <text>Для конечного отдела головного мозга млекопитающих характерно</text>
+        <item flag = "0">высший интегрирующий центр - полосатые тела</item>
+        <item flag = "1">высший интегрирующий центр - новая кора</item>
+        <item flag = "1">наличие комиссуры между полушариями</item>
+        <item flag = "1">наличие борозд и извилин на поверхности хоры</item>
+    </question>
+	<question id = "46" size = "4" type = "1">
+        <text>Отличительные особенности ихтиопсидного типа мозга</text>
+        <item flag = "0">наличие коры на поверхности конечного отдела</item>
+        <item flag = "0">наличие одного желудочка в среднем отделе</item>
+        <item flag = "0">высший интегрирующий центр - конечный отдел</item>
+        <item flag = "1">высший интегрирующий центр - средний отдел</item>
+    </question>
+	<question id = "47" size = "4" type = "1">
+        <text>Ихтиопсидный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Млекопитающие</item>
+        <item flag = "0">Пресмыкающиеся</item>
+        <item flag = "1">Хрящевые рыбы</item>
+        <item flag = "0">Птицы</item>
+    </question>
+	<question id = "48" size = "4" type = "1">
+        <text>Ихтиопсидный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Пресмыкающиеся</item>
+        <item flag = "1">Земноводные</item>
+        <item flag = "1">Хрящевые рыбы</item>
+        <item flag = "0">Птицы</item>
+    </question>
+	<question id = "49" size = "4" type = "1">
+        <text>Ихтиопсидный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Птицы</item>
+        <item flag = "1">Земноводные</item>
+        <item flag = "1">Костные рыбы</item>
+        <item flag = "0">Млекопитающие</item>
+    </question>
+	<question id = "50" size = "4" type = "1">
+        <text>Отличительные особенности зауропсидного типа мозга</text>
+        <item flag = "0">высший интегрирующий центр - срединий отдел</item>
+        <item flag = "1">головной мозг включает пять отделов</item>
+        <item flag = "1">высший интегрирующий центр - полосатые тела конечного отдела</item>
+        <item flag = "0">наличие борозд и извилин на поверхности конечного отдела</item>
+    </question>
+	<question id = "51" size = "4" type = "1">
+        <text>Зауропсидный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Земноводные</item>
+        <item flag = "1">Птицы</item>
+        <item flag = "0">Хрящевые рыбы</item>
+        <item flag = "0">Млекопитающие</item>
+    </question>
+	<question id = "52" size = "4" type = "1">
+        <text>Зауропсидный тип мозга характерен для представителей класса</text>
+        <item flag = "1">Пресмыкающиеся</item>
+        <item flag = "0">Костные рыбы</item>
+        <item flag = "0">Земноводные</item>
+        <item flag = "0">Хрящевые рыбы</item>
+    </question>
+	<question id = "53" size = "4" type = "1">
+        <text>Зауропсидный тип мозга характерен для представителей классов</text>
+        <item flag = "0">Млекопитающие</item>
+        <item flag = "0">Земноводные </item>
+        <item flag = "1">Птицы</item>
+        <item flag = "1">Пресмыкающиеся</item>
+    </question>
+	<question id = "54" size = "4" type = "1">
+        <text>Отличительные особенности маммального типа мозга</text>
+        <item flag = "0">отсутствие коры на поверхности полушарий конечного отдела</item>
+        <item flag = "0">наличие одного желудочка в конечном отделе</item>
+        <item flag = "1">высший интегрирующий центр - кора больших полушарий конечного мозга</item>
+        <item flag = "1">наличие комиссуры между полушариями конечного отдела</item>
+    </question>
+	<question id = "55" size = "4" type = "1">
+        <text>Маммальный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Птицы</item>
+        <item flag = "0">Земноводные</item>
+        <item flag = "0">Костные рыбы</item>
+        <item flag = "1">Млекопитающие</item>
+    </question>
+	<question id = "56" size = "4" type = "1">
+        <text>Маммальный тип мозга характерен для представителей класса</text>
+        <item flag = "1">Млекопитающие</item>
+        <item flag = "0">Земноводные</item>
+        <item flag = "0">Хрящевые рыбы</item>
+        <item flag = "0">Круглоротые</item>
+    </question>
+	<question id = "57" size = "4" type = "1">
+        <text>Маммальный тип мозга характерен для представителей класса</text>
+        <item flag = "0">Птицы</item>
+        <item flag = "1">Млекопитающие</item>
+        <item flag = "0">Пресмыкающиеся</item>
+        <item flag = "0">Костные рыбы</item>
+    </question>
+	<question id = "58" size = "4" type = "1">
+        <text>Для головного мозга человека характерно</text>
+        <item flag = "1">наличие новой коры</item>
+        <item flag = "1">функциональная асимметрия мозга</item>
+        <item flag = "1">увеличение размеров полушарий за счёт крыши</item>
+        <item flag = "0">увеличение размеров полушарий за счёт дна</item>
+    </question>
+	<question id = "59" size = "4" type = "1">
+        <text>Функциональная асимметрия головного мозга - это неравнозначность функций</text>
+        <item flag = "0">крыши и дна конечного мозга</item>
+        <item flag = "0">переднего и заднего отделов</item>
+        <item flag = "0">всех отделов</item>
+        <item flag = "1">левого и правого полушарий</item>
+    </question>
+	<question id = "60" size = "4" type = "1">
+        <text>Нервный гребень образуется из</text>
+        <item flag = "0">энтодермы</item>
+        <item flag = "1">эктодермы</item>
+        <item flag = "0">мезодермы</item>
+        <item flag = "0">сомитов</item>
+    </question>
+	<question id = "61" size = "4" type = "1">
+        <text>Производные нервного гребня</text>
+        <item flag = "0">скелетные мышцы</item>
+        <item flag = "1">пигментные клетки кожи</item>
+        <item flag = "1">парасимпатические ганглии</item>
+        <item flag = "0">половая система</item>
+    </question>
+	<question id = "62" size = "4" type = "1">
+        <text>Производные нервного гребня</text>
+        <item flag = "0">кости позвоночника</item>
+        <item flag = "1">мозговое вещество надпочечников</item>
+        <item flag = "0">кора надпочечников</item>
+        <item flag = "1">симпатические нервные узлы</item>
+    </question>
+	<question id = "63" size = "4" type = "1">
+        <text>Производные нервного гребня</text>
+        <item flag = "1">чувствительные спинномозговые ганглии</item>
+        <item flag = "1">жаберные хрящи</item>
+        <item flag = "1">некоторые кроющие кости черепа</item>
+        <item flag = "0">дерма кожи</item>
+    </question>
+	<question id = "64" size = "4" type = "1">
+        <text>Участок головного мозга над желудочками - это</text>
+        <item flag = "0">основание</item>
+        <item flag = "1">крыша</item>
+        <item flag = "1">мантия</item>
+        <item flag = "0">дно</item>
+    </question>
+	<question id = "65" size = "4" type = "1">
+        <text>Участок головного мозга под желудочками - это</text>
+        <item flag = "1">дно</item>
+        <item flag = "0">мантия</item>
+        <item flag = "0">крыша</item>
+        <item flag = "1">основание</item>
+    </question>
+	<question id = "66" size = "4" type = "1">
+        <text>Серое вещество головного мозга представлено</text>
+        <item flag = "0">клетками нейроглии</item>
+        <item flag = "1">телами нервных клеток</item>
+        <item flag = "1">дендритами</item>
+        <item flag = "0">аксонами</item>
+    </question>
+	<question id = "67" size = "4" type = "1">
+        <text>Белое вещество головного мозга представлено</text>
+        <item flag = "1">аксонами</item>
+        <item flag = "0">клетками нейроглии</item>
+        <item flag = "0">телами нейронов</item>
+        <item flag = "0">дендритами</item>
+    </question>
+	<question id = "68" size = "4" type = "1">
+        <text>Мозолистое тело - это</text>
+        <item flag = "0">придаток промежуточного отдела мозга</item>
+        <item flag = "0">центр равновесия</item>
+        <item flag = "1">комиссура между полушариями мозга</item>
+        <item flag = "0">гомолог полосатого тела</item>
+    </question>
+	<question id = "69" size = "4" type = "1">
+        <text>Полосатые тела - это</text>
+        <item flag = "0">комиссура между полушариями конечного отдела мозга</item>
+        <item flag = "1">скопление серого вещества в дне мозга</item>
+        <item flag = "0">скопление белого вещества в дне мозга</item>
+        <item flag = "0">скопление серого вещества в крыше мозга</item>
+    </question>
+	<question id = "70" size = "4" type = "1">
+        <text>Полосатые тела расположены в</text>
+        <item flag = "1">конечном отделе головного мозга</item>
+        <item flag = "0">среднем отделе головного мозга</item>
+        <item flag = "0">мозжечке</item>
+        <item flag = "0">продолговатом отделе головного мозга</item>
+    </question>
+	<question id = "71" size = "4" type = "1">
+        <text>Новая кора - это слой</text>
+        <item flag = "0">слой белого вещества на поверхности конечного мозга</item>
+        <item flag = "1">слой серого вещества на поверхности полушарий конечного мозга</item>
+        <item flag = "0">слой белого вещества в дне конечного мозга</item>
+        <item flag = "0">слой серого вещества в дне конечного мозга</item>
+    </question>
+	<question id = "72" size = "4" type = "1">
+        <text>Наличие новой коры характерно для класса</text>
+        <item flag = "0">Земноводные</item>
+        <item flag = "0">Птицы</item>
+        <item flag = "1">Млекопитающие</item>
+        <item flag = "1">Пресмыкающиеся</item>
+    </question>
+	<question id = "73" size = "4" type = "1">
+        <text>Полосатые тела конечного отдела мозга являются высшим интегрирующим центром у</text>
+        <item flag = "1">пресмыкающихся</item>
+        <item flag = "0">рыб</item>
+        <item flag = "0">земноводных</item>
+        <item flag = "1">птиц</item>
+    </question>
+	<question id = "74" size = "4" type = "1">
+        <text>Гипофиз является нижним придатком отдела головного мозга</text>
+        <item flag = "0">конечного</item>
+        <item flag = "0">среднего</item>
+        <item flag = "1">промежуточного</item>
+        <item flag = "0">заднего</item>
+    </question>
+	<question id = "75" size = "4" type = "1">
+        <text>Эпифиз является верхним придатком отдела головного мозга</text>
+        <item flag = "0">продолговатого</item>
+        <item flag = "0">мозжечка</item>
+        <item flag = "0">среднего</item>
+        <item flag = "1">промежуточного</item>
+    </question>
+	<question id = "76" size = "4" type = "1">
+        <text>Гипокамп - это</text>
+        <item flag = "1">медиальный отросток старой хоры</item>
+        <item flag = "0">структура, связывающая правое и левое полушария</item>
+        <item flag = "0">латеральный отросток старой коры</item>
+        <item flag = "0">гомолог новой коры</item>
+    </question>
+	<question id = "77" size = "4" type = "1">
+        <text>Гипокамп - это центр</text>
+        <item flag = "0">слуха</item>
+        <item flag = "0">дыхания</item>
+        <item flag = "1">обоняния</item>
+        <item flag = "0">кровообращения</item>
+    </question>
+	<question id = "78" size = "4" type = "1">
+        <text>Гипоталамус является структурой отдела головного мозга</text>
+        <item flag = "0">переднего</item>
+        <item flag = "1">промежуточного</item>
+        <item flag = "0">среднего</item>
+        <item flag = "0">заднего</item>
+    </question>
+	<question id = "79" size = "4" type = "1">
+        <text>Четверохолмие - это структура характерная для отдела головного мозга</text>
+        <item flag = "0">продолговатого</item>
+        <item flag = "1">среднего</item>
+        <item flag = "0">промежуточного </item>
+        <item flag = "0">переднего</item>
+    </question>
+	<question id = "80" size = "4" type = "1">
+        <text>Наличие четверохолмия характерно для</text>
+        <item flag = "0">рыб</item>
+        <item flag = "1">птиц</item>
+        <item flag = "1">млекопитающих</item>
+        <item flag = "0">земноводных</item>
+    </question>
+	<question id = "81" size = "4" type = "1">
+        <text>Мозжечок слабо развит у представителей класса</text>
+        <item flag = "0">Млекопитающие</item>
+        <item flag = "0">Костные рыбы</item>
+        <item flag = "1">Земноводные</item>
+        <item flag = "0">Птицы</item>
+    </question>
+	<question id = "82" size = "4" type = "1">
+        <text>Сильвиев водопровод - это канал отдела мозга</text>
+        <item flag = "0">промежуточного</item>
+        <item flag = "1">среднего</item>
+        <item flag = "0">переднего</item>
+        <item flag = "0">продолговатого</item>
+    </question>
+	<question id = "83" size = "4" type = "1">
+        <text>Анэнцефалия – это заболевание, связанное с</text>
+        <item flag = "0">отсутствием мозолистого тела</item>
+        <item flag = "0">отсутствием борозд и извилин на поверхности больших полушарий</item>
+        <item flag = "0">остановкой развития на стадии трёх мозговых пузырей</item>
+        <item flag = "1">отсутствием головного мозга в целом</item>
+    </question>
+	<question id = "84" size = "4" type = "1">
+        <text>Анэнцефалия развивается в процессе эмбриогенеза в связи с</text>
+        <item flag = "1">несмыканием переднего нейропора</item>
+        <item flag = "0">несмыканием нервных валиков</item>
+        <item flag = "0">несмыканием заднего нейропора</item>
+        <item flag = "0">нарушением дифференцировки заднего мозгового пузыря</item>
+    </question>
+	<question id = "85" size = "4" type = "1">
+        <text>Миеломенингоцеле (лат. spina bifida) - эта заболевание, связанное с</text>
+        <item flag = "0">малым количеством извилин в полушариях конечного отела мозга</item>
+        <item flag = "0">нарушением дифференцировки конечного отдела мозга</item>
+        <item flag = "0">частичным отсутствием комиссуры конечного мозга</item>
+        <item flag = "1">кистозной расщелиной позвоночника</item>
+    </question>
+	<question id = "86" size = "4" type = "1">
+        <text>Миеломенингоцеле (лат. spina bifiдa) - это заболевание, связанное с</text>
+        <item flag = "0">нарушением дифференцировки среднего мозгового пузыря</item>
+        <item flag = "1">несмыканием заднего нейропора</item>
+        <item flag = "0">несмыканием переднего нейропора</item>
+        <item flag = "0">остановкой развития на стадии трех мозговых пузырей</item>
+    </question>
+	<question id = "87" size = "4" type = "1">
+        <text>Ателэнцефалия - это заболевание, связанное с</text>
+        <item flag = "0">нарушением дифференцировки нервной трубки на головной и спиной мозг</item>
+        <item flag = "0">отсутствием промежуточного мозга</item>
+        <item flag = "0">несмыканием нервных валиков</item>
+        <item flag = "1">остановкой развития на стадии трёх мозговых пузырей</item>
+    </question>
+	<question id = "88" size = "4" type = "1">
+        <text>Ателэнцефалия - это заболевание, связанное с отсутствием разделения</text>
+        <item flag = "0">только переднего мозгового пузыря</item>
+        <item flag = "0">только заднего мозгового пузыря</item>
+        <item flag = "1">переднего и заднего мозгового пузыря</item>
+        <item flag = "0">среднего мозгового пузыря</item>
+    </question>
+	<question id = "89" size = "4" type = "1">
+        <text>Голопрозэнцефалия - это заболевание, связанное с</text>
+        <item flag = "0">отсутствием мозолистого тела и гипокампа</item>
+        <item flag = "0">недоразвитием коры больших полушарий</item>
+        <item flag = "1">наличием одного желудочка и гладкой поверхности крыши у конечного мозга</item>
+        <item flag = "0">отсутствием мозжечка и продолговатого мозга</item>
+    </question>
+	<question id = "90" size = "4" type = "1">
+        <text>Голопрозэнцефалия - это заболевание, связанное с нарушением</text>
+        <item flag = "0">дифференцировки нервной трубки на головной и спиной мозг</item>
+        <item flag = "1">дифференцировки конечного мозга на два полушария</item>
+        <item flag = "0">смыкания переднего нейропора</item>
+        <item flag = "0">смыкания заднего нейропора</item>
+    </question>
+	<question id = "91" size = "4" type = "1">
+        <text>Алобарная прозэнцефалия - это заболевание, связанное с</text>
+        <item flag = "0">отсутствием конечного мозга</item>
+        <item flag = "0">отсутствием продолговатого мозга</item>
+        <item flag = "0">отсутствием дифференцировки нервной трубки на головной и спиной мозг</item>
+        <item flag = "1">разделение только задней части конечного мозга</item>
+    </question>
+	<question id = "92" size = "4" type = "1">
+        <text>Алобарная прозэнцефалия - это заболевание, связанное с</text>
+        <item flag = "1">незаконченной дифференцировкой конечного мозга на два полушария</item>
+        <item flag = "0">несмыканием нервных валиков в процессе образования нервной трубки</item>
+        <item flag = "0">нарушением дифференцировки заднего мозгового пузыря</item>
+        <item flag = "0">нарушением дифференцировки среднего мозгового пузыря</item>
+    </question>
+	<question id = "93" size = "4" type = "1">
+        <text>Прозэнцефалия - это заболевание, связанное с</text>
+        <item flag = "0">отсутствием продолговатого отдела мозга</item>
+        <item flag = "1">наличием на поверхности конечного мозга продольной борозды с сохранением единой полости внутри</item>
+        <item flag = "0">кистозной расщелиной позвоночника</item>
+        <item flag = "0">остановкой развития мозга на стадии трёх мозговых пузырей</item>
+    </question>
+	<question id = "94" size = "4" type = "1">
+        <text>Прозэнцефалия - заболевание, связанное</text>
+        <item flag = "0">нарушением дифференцировки промежуточного мозга</item>
+        <item flag = "0">нарушением дифференцировки заднего мозгового пузыря</item>
+        <item flag = "0">несмыканием нервных валиков в процессе образования нервной трубки</item>
+        <item flag = "1">нарушением дифференцировки конечного мозга на два полушария</item>
+    </question>
+	<question id = "95" size = "4" type = "1">
+        <text>Агирия - заболевание, связанное с</text>
+        <item flag = "0">отсутствием головного мозга</item>
+        <item flag = "0">отсутствием конечного отдела головного мозга</item>
+        <item flag = "1">отсутствием борозд и извилин на поверхности больших полушарий</item>
+        <item flag = "0">остановкой развития головного мозга на стадии трёх мозговых пузырей</item>
+    </question>
+	<question id = "96" size = "4" type = "1">
+        <text>Олигогирия - заболевание, связанное с</text>
+        <item flag = "0">отсутствием мозолистого тела между полушариями конечного мозга</item>
+        <item flag = "1">малым количеством борозд и извилин на поверхности больших полушарий</item>
+        <item flag = "0">наличие одного желудочка в конечном отделе головного мозга</item>
+        <item flag = "0">отсутствие мозжечка и продолговатого отдела мозга</item>
+    </question>
+	<question id = "97" size = "4" type = "1">
+        <text>Циклопия - заболевание, связанное с</text>
+        <item flag = "0">отсутствием передних отделов мозга</item>
+        <item flag = "0">неразделением больших полушарий </item>
+        <item flag = "0">нарушением дифференцировки коры конечного мозга</item>
+        <item flag = "1">пороком развития глазных бокалов</item>
+    </question>
+	<question id = "98" size = "4" type = "1">
+        <text>Кровеносная система хордовых формируется из</text>
+        <item flag = "1">мезодермы</item>
+        <item flag = "0">энтодермы</item>
+        <item flag = "0">эктодермы</item>
+        <item flag = "0">нет верного ответа</item>
+    </question>
+	<question id = "99" size = "4" type = "1">
+        <text>Для представителей подтипа Позвоночные характерно</text>
+        <item flag = "1">наличие сердца</item>
+        <item flag = "0">отсутствие сердца</item>
+        <item flag = "1">замкнутая кровеносная система</item>
+        <item flag = "0">незамкнутая кровеносная система</item>
+    </question>
+	<question id = "100" size = "4" type = "1">
+        <text>Для кровеносной системы ланцетника характерно</text>
+        <item flag = "1">замкнутая кровеносная система</item>
+        <item flag = "0">незамкнутая кровеносная система</item>
+        <item flag = "1">отсутствие сердца</item>
+        <item flag = "0">наличие сердца</item>
+    </question>
+	<question id = "101" size = "4" type = "1">
+        <text>Функцию сердца у ланцетника выполняет</text>
+        <item flag = "1">брюшная аорта</item>
+        <item flag = "0">приносящие жаберные артерии</item>
+        <item flag = "0">кардинальные вены</item>
+        <item flag = "0">венозный синус</item>
+    </question>
+	<question id = "102" size = "4" type = "1">
+        <text>Брюшная аорта у ланцетника несёт кровь</text>
+        <item flag = "1">венозную</item>
+        <item flag = "0">артериальную</item>
+        <item flag = "1">к переднему концу тела</item>
+        <item flag = "0">к заднему концу тела</item>
+    </question>
+	<question id = "103" size = "4" type = "1">
+        <text>От брюшной аорты у ланцетника отходят приносящие жаберные артерии в количестве ... пар</text>
+        <item flag = "0">10</item>
+        <item flag = "0">60</item>
+        <item flag = "1">150</item>
+        <item flag = "0">200</item>
+    </question>
+	<question id = "104" size = "4" type = "1">
+        <text>В жаберных целях у ланцетника происходит газообмен через стенку</text>
+        <item flag = "1">выносящих жаберных артерий</item>
+        <item flag = "1">приносящих жаберных артерий</item>
+        <item flag = "0">задних жаберных артерий</item>
+        <item flag = "0">брюшной аорты</item>
+    </question>
+	<question id = "105" size = "4" type = "1">
+        <text>Артериальная кровь у ланцетника по выносящим жаберным артериям собирается в</text>
+        <item flag = "1">корни спинной аорты</item>
+        <item flag = "1">сонные артерии</item>
+        <item flag = "0">капилляры</item>
+        <item flag = "0">брюшную аорту</item>
+    </question>
+	<question id = "106" size = "4" type = "1">
+        <text>Сонные артерии ланцетника несут кровь</text>
+        <item flag = "0">венозную</item>
+        <item flag = "1">артериальную</item>
+        <item flag = "1">к переднему концу тела</item>
+        <item flag = "0">к заднему концу тела</item>
+    </question>
+	<question id = "107" size = "4" type = "1">
+        <text>У ланцетника от задней части тела кровь собирается в</text>
+        <item flag = "0">передние кардинальные вены</item>
+        <item flag = "0">синус брюшной аорты</item>
+        <item flag = "0">кювьеровы протоки</item>
+        <item flag = "1">задние кардинальные вены</item>
+    </question>
+	<question id = "108" size = "4" type = "1">
+        <text>У ланцетника от передней части тела кровь собирается в</text>
+        <item flag = "1">передние кардинальные вены</item>
+        <item flag = "0">синус брюшной аорты</item>
+        <item flag = "0">кювьеровы протоки</item>
+        <item flag = "0">задние кардинальные вены</item>
+    </question>
+	<question id = "109" size = "4" type = "1">
+        <text>В синус брюшной аорты у ланцетника открываются</text>
+        <item flag = "1">правый кювьеров проток</item>
+        <item flag = "1">левый кювьеров проток</item>
+        <item flag = "0">передние кардинальные вены</item>
+        <item flag = "1">печёночная вена</item>
+    </question>
+	<question id = "110" size = "4" type = "1">
+        <text>У костных рыб</text>
+        <item flag = "1">один круг кровообращения</item>
+        <item flag = "0">два круга кровообращения</item>
+        <item flag = "1">есть сердце</item>
+        <item flag = "0">нет сердца</item>
+    </question>
+	<question id = "111" size = "4" type = "1">
+        <text>Сердце у рыб</text>
+        <item flag = "0">однокамерное</item>
+        <item flag = "1">двухкамерное</item>
+        <item flag = "0">трёхкамерное</item>
+        <item flag = "0">четырёхкамерное</item>
+    </question>
+	<question id = "112" size = "4" type = "1">
+        <text>Сердце у рыб имеет</text>
+        <item flag = "1">один желудочек</item>
+        <item flag = "1">одно предсердие</item>
+        <item flag = "0">два желудочка</item>
+        <item flag = "0">два предсердия</item>
+    </question>
+	<question id = "113" size = "4" type = "1">
+        <text>В сердце у рыб кровь</text>
+        <item flag = "0">артериальная</item>
+        <item flag = "1">венозная</item>
+        <item flag = "0">венозная и артериальная</item>
+        <item flag = "0">венозная и смешанная</item>
+    </question>
+	<question id = "114" size = "4" type = "1">
+        <text>Сердце рыбы имеет</text>
+        <item flag = "0">венозный синус</item>
+        <item flag = "1">предсердие</item>
+        <item flag = "1">Желудочек</item>
+        <item flag = "0">артериальный конус</item>
+    </question>
+	<question id = "115" size = "4" type = "1">
+        <text>У личинок рыб от сердца отходит аорта (-ты)</text>
+        <item flag = "0">спинная</item>
+        <item flag = "1">брюшная</item>
+        <item flag = "0">левая дуга</item>
+        <item flag = "0">правая дуга</item>
+    </question>
+	<question id = "116" size = "4" type = "1">
+        <text>Брюшная аорта у рыб делится на артериальные (жаберные) дуги в количестве пар (-ы)</text>
+        <item flag = "0">10-11</item>
+        <item flag = "0">14-15</item>
+        <item flag = "1">6-7</item>
+        <item flag = "0">1-2</item>
+    </question>
+	<question id = "117" size = "4" type = "1">
+        <text>4 - 5 пары жаберных дуг у рыб функционируют как</text>
+        <item flag = "1">приносящие жаберные артерии</item>
+        <item flag = "1">выносящие жаберные артерии</item>
+        <item flag = "0">лёгочные артерии</item>
+        <item flag = "0">полые вены</item>
+    </question>
+	<question id = "118" size = "4" type = "1">
+        <text>У рыб из закладок артериальных дуг редуцируются ... пара (-ы)</text>
+        <item flag = "1">первая</item>
+        <item flag = "1">вторая</item>
+        <item flag = "0">первые З</item>
+        <item flag = "0">первые 2</item>
+    </question>
+	<question id = "119" size = "4" type = "1">
+        <text>Артериальный конус ... рыб</text>
+        <item flag = "0">отсутствует у всех</item>
+        <item flag = "0">есть у всех</item>
+        <item flag = "0">отсутствует у хрящевых</item>
+        <item flag = "1">отсутствует у костных</item>
+    </question>
+	<question id = "120" size = "4" type = "1">
+        <text>У рыб от первой выносящей жаберной артерии ответвляются</text>
+        <item flag = "1">сонные артерии</item>
+        <item flag = "1">корни спинной аорты</item>
+        <item flag = "0">лёгочные артерии</item>
+        <item flag = "0">кювьеровы протоки</item>
+    </question>
+	<question id = "121" size = "4" type = "1">
+        <text>Выносящие жаберные артерии у рыб, кроме первой пары, впадают в</text>
+        <item flag = "0">сонные артерии</item>
+        <item flag = "1">корни спинной аорты</item>
+        <item flag = "0">лёгочные артерии</item>
+        <item flag = "0">кювьеровы протоки</item>
+    </question>
+	<question id = "122" size = "4" type = "1">
+        <text>Кровь из почек у рыб собирается в ... кардинальную вену</text>
+        <item flag = "1">правую заднюю</item>
+        <item flag = "0">правую переднюю</item>
+        <item flag = "0">левую переднюю</item>
+        <item flag = "0">левую заднюю</item>
+    </question>
+	<question id = "123" size = "4" type = "1">
+        <text>Кардинальные вены у рыб собираются в</text>
+        <item flag = "0">венозный синус</item>
+        <item flag = "0">воротную вену</item>
+        <item flag = "1">правый кювьеров проток</item>
+        <item flag = "1">левый кювьеров проток</item>
+    </question>
+	<question id = "124" size = "4" type = "1">
+        <text>Кардинальные вены у рыб открываются в</text>
+        <item flag = "0">воротную вену печени</item>
+        <item flag = "0">печеночную вену</item>
+        <item flag = "1">кювьеровы протоки</item>
+        <item flag = "0">венозный синус</item>
+    </question>
+	<question id = "125" size = "4" type = "1">
+        <text>Кровь из печени у рыб собирается в</text>
+        <item flag = "0">воротную вену</item>
+        <item flag = "1">печёночную вену</item>
+        <item flag = "0">венозный синус</item>
+        <item flag = "0">кардинальные вены</item>
+    </question> 
+	<question id = "126" size = "4" type = "1">
+        <text>В венозный синус у рыб впадают</text>
+        <item flag = "1">печёночная вена</item>
+        <item flag = "1">правый кювьеров проток</item>
+        <item flag = "1">левый кювьеров проток</item>
+        <item flag = "0">хвостовая вена</item>
+    </question>
+	<question id = "127" size = "4" type = "1">
+        <text>У взрослых амфибий</text>
+        <item flag = "0">один круг кровообращения</item>
+        <item flag = "0">незамкнутая кровеносная система</item>
+        <item flag = "0">два полных круга кровообращения</item>
+        <item flag = "1">два неполных круга кровообращения</item>
+    </question>
+	<question id = "128" size = "4" type = "1">
+        <text>У личинок амфибий сердце</text>
+        <item flag = "0">отсутствует</item>
+        <item flag = "1">двухкамерное</item>
+        <item flag = "0">трёхкамерное</item>
+        <item flag = "0">четырёхкамерное</item>
+    </question>
+	<question id = "129" size = "4" type = "1">
+        <text>Сердце взрослых амфибий</text>
+        <item flag = "0">однокамерное</item>
+        <item flag = "0">двухкамерное</item>
+        <item flag = "1">трёхкамерное</item>
+        <item flag = "0">четырёхкамерное</item>
+    </question>
+	<question id = "130" size = "4" type = "1">
+        <text>У взрослых амфибий сердце состоит из</text>
+        <item flag = "1">одного желудочка</item>
+        <item flag = "0">двух желудочков</item>
+        <item flag = "0">одного предсердия</item>
+        <item flag = "1">двух предсердий</item>
+    </question>
+	<question id = "131" size = "4" type = "1">
+        <text>Трабекулы - это</text>
+        <item flag = "0">выросты правого предсердия</item>
+        <item flag = "1">выросты правого желудочка</item>
+        <item flag = "0">выросты левого предсердия</item>
+        <item flag = "0">перегородка между предсердиями</item>
+    </question>
+	<question id = "132" size = "4" type = "1">
+        <text>В желудочке амфибий кровь</text>
+        <item flag = "1">в правой части (в основном) венозная</item>
+        <item flag = "0">в левой - венозная</item>
+        <item flag = "1">в центральной - смешанная</item>
+        <item flag = "0">во всех частях смешанная</item>
+    </question>
+	<question id = "133" size = "4" type = "1">
+        <text>Артериальный конус личинок амфибий распадается на ... пар (пары) артериальных дуг</text>
+        <item flag = "0">6</item>
+        <item flag = "1">4</item>
+        <item flag = "0">2</item>
+        <item flag = "0">5</item>
+    </question>
+	<question id = "134" size = "4" type = "1">
+        <text>4 пары артериальных дуг у личинок амфибий формируют</text>
+        <item flag = "1">выносящие жаберные артерии</item>
+        <item flag = "1">приносящие жаберные артерии</item>
+        <item flag = "0">полые вены</item>
+        <item flag = "0">венозную пазуху</item>
+    </question>
+	<question id = "135" size = "4" type = "1">
+        <text>У личинок амфибий третья пара приносящих жаберных артерий формирует</text>
+        <item flag = "0">дуги аорты</item>
+        <item flag = "0">спинные аорты</item>
+        <item flag = "1">сонные артерии</item>
+        <item flag = "0">артериальный проток</item>
+    </question>
+	<question id = "136" size = "4" type = "1">
+        <text>Шестая пара жаберных артерий у амфибий образует</text>
+        <item flag = "0">спинную аорту</item>
+        <item flag = "0">сонные артерии</item>
+        <item flag = "0">артериальный проток</item>
+        <item flag = "1">легочные артерии</item>
+    </question>
+	<question id = "137" size = "4" type = "1">
+        <text>У взрослых амфибий артериальный конус отходит от</text>
+        <item flag = "1">правой части желудочка</item>
+        <item flag = "0">левой части желудочка</item>
+        <item flag = "0">правого предсердия</item>
+        <item flag = "0">левого предсердия</item>
+    </question>
+	<question id = "138" size = "4" type = "1">
+        <text>Артериальный конус у хвостатых амфибий распадается на ... пары (пар) сосудов</text>
+        <item flag = "0">3</item>
+        <item flag = "1">4</item>
+        <item flag = "0">5</item>
+        <item flag = "0">2</item>
+    </question>
+	<question id = "139" size = "4" type = "1">
+        <text>Артериальный конус у бесхвостых амфибий распадается на ... пары (пар) сосудов</text>
+        <item flag = "1">3</item>
+        <item flag = "0">4</item>
+        <item flag = "0">5</item>
+        <item flag = "0">2</item>
+    </question>
+	<question id = "140" size = "4" type = "1">
+        <text>В кожно-лёгочных артериях амфибий кровь</text>
+        <item flag = "0">артериальная</item>
+        <item flag = "1">венозная</item>
+        <item flag = "0">смешанная</item>
+        <item flag = "0">венозная и артериальная</item>
+    </question>
+	<question id = "141" size = "4" type = "1">
+        <text>В дугах аорты амфибий кровь</text>
+        <item flag = "0">артериальная</item>
+        <item flag = "0">венозная</item>
+        <item flag = "1">смешанная</item>
+        <item flag = "0">в правой - артериальная, в левой - венозная</item>
+    </question>
+	<question id = "142" size = "4" type = "1">
+        <text>В общей сонной артерии амфибий кровь</text>
+        <item flag = "1">артериальная</item>
+        <item flag = "0">венозная</item>
+        <item flag = "0">смешанная</item>
+        <item flag = "0">венозная и смешанная</item>
+    </question>
+	<question id = "143" size = "4" type = "1">
+        <text>Венозная кровь у амфибий по полым венам попадает в</text>
+        <item flag = "1">венозный синус</item>
+        <item flag = "0">артериальный конус</item>
+        <item flag = "0">спинную аорту</item>
+        <item flag = "0">боталлов проток</item>
+    </question>
+	<question id = "144" size = "4" type = "1">
+        <text>В кровеносной системе рептилии</text>
+        <item flag = "0">один круг кровообращения</item>
+        <item flag = "1">два неполных круга кровообращения</item>
+        <item flag = "0">два полных круга кровообращения</item>
+        <item flag = "0">сердце 4-х камерное</item>
+    </question>
+	<question id = "145" size = "4" type = "1">
+        <text>Сердце рептилий включает</text>
+        <item flag = "1">один желудочек</item>
+        <item flag = "0">одно предсердие</item>
+        <item flag = "0">два желудочка</item>
+        <item flag = "1">два предсердия</item>
+    </question>
+	<question id = "146" size = "4" type = "1">
+        <text>Полная межжуледочковая перегородка имеется у</text>
+        <item flag = "0">змей</item>
+        <item flag = "0">черепах</item>
+        <item flag = "1">крокодилов</item>
+        <item flag = "0">ящериц</item>
+    </question>
+	<question id = "147" size = "4" type = "1">
+        <text>Из четвертой пары артериальных дуг у рептилий образуется</text>
+        <item flag = "1">левая дуга аорты</item>
+        <item flag = "1">правая дуга аорты</item>
+        <item flag = "0">легочные артерии</item>
+        <item flag = "0">сонные артерии</item>
+    </question>
+	<question id = "148" size = "4" type = "1">
+        <text>От желудочка рептилий отходят</text>
+        <item flag = "1">лёгочный ствол</item>
+        <item flag = "1">правая дуга аорты</item>
+        <item flag = "1">левая дуга аорты</item>
+        <item flag = "0">полые вены</item>
+    </question>
+	<question id = "149" size = "4" type = "1">
+        <text>Сонный проток сохраняется у</text>
+        <item flag = "0">черепах</item>
+        <item flag = "0">крокодилов</item>
+        <item flag = "0">змей</item>
+        <item flag = "1">ящериц</item>
+    </question>
+	<question id = "150" size = "4" type = "1">
+        <text>Наличие артериального протока - особенность кровеносной системы</text>
+        <item flag = "1">черепах</item>
+        <item flag = "0">крокодилов</item>
+        <item flag = "0">змей</item>
+        <item flag = "0">ящериц</item>
+    </question>
+	<question id = "151" size = "4" type = "1">
+        <text>В кровеносной системе птиц</text>
+        <item flag = "0">один круг кровообращения</item>
+        <item flag = "1">два полных круга кровообращения</item>
+        <item flag = "0">два неполных круга кровообращения </item>
+        <item flag = "1">4-х камерное сердце</item>
+    </question>
+	<question id = "152" size = "4" type = "1">
+        <text>У птиц артериальная кровь в</text>
+        <item flag = "0">правом предсердии</item>
+        <item flag = "1">левом предсердии</item>
+        <item flag = "0">правом желудочке</item>
+        <item flag = "1">левом желудочке</item>
+    </question>
+	<question id = "153" size = "4" type = "1">
+        <text>Сосуды, отходящие от сердца у птиц</text>
+        <item flag = "0">брюшная аорта</item>
+        <item flag = "1">лёгочный ствол</item>
+        <item flag = "0">левая дуга аорты </item>
+        <item flag = "1">правая дуга аорты</item>
+    </question>
+	 <question id = "154" size = "4" type = "1">
+        <text>Из третьей пары артериальных дуг у зародышей птиц образуются</text>
+        <item flag = "1">сонные артерии</item>
+        <item flag = "0">левая дуга аорты</item>
+        <item flag = "0">правая дуга аорты</item>
+        <item flag = "0">плечевая артерия</item>
+    </question>
+	<question id = "155" size = "4" type = "1">
+        <text>Из шестой пары артериальных дуг у зародышей птиц образуются</text>
+        <item flag = "0">сонные артерии</item>
+        <item flag = "1">лёгочные артерии</item>
+        <item flag = "0">дуги аорты</item>
+        <item flag = "0">брюшная аорта</item>
+    </question>
+	<question id = "156" size = "4" type = "1">
+        <text>Сосуды малого круга кровообращения у птиц</text>
+        <item flag = "1">лёгочные артерии</item>
+        <item flag = "1">левая лёгочная вена</item>
+        <item flag = "1">правая лёгочная вена</item>
+        <item flag = "0">аорта</item>
+    </question>
+	<question id = "157" size = "4" type = "1">
+        <text>Шейная эктопия сердца - это</text>
+        <item flag = "0">отсутствие сердца</item>
+        <item flag = "0">расположение сердца справа</item>
+        <item flag = "1">расположение сердца вне грудной клетки</item>
+        <item flag = "0">двухкамерное сердце</item>
+    </question>
+	<question id = "158" size = "4" type = "1">
+        <text>Декстрокардия - это изменения в эмбриогенезе, связанное с</text>
+        <item flag = "0">отсутствием сердца</item>
+        <item flag = "1">расположением сердца справа</item>
+        <item flag = "0">расположением сердца вне грудной клетки</item>
+        <item flag = "0">развитием двухкамерного сердца</item>
+    </question>
+	<question id = "159" size = "4" type = "1">
+        <text>Для четырёхкамерного сердца характерно все, кроме</text>
+        <item flag = "0">в правой части сердца - венозная кровь</item>
+        <item flag = "0">сердце состоит из 2 предсердий и 2 желудочков</item>
+        <item flag = "1">неполная межжелудочковая перегородка</item>
+        <item flag = "0">от правого желудочка отходит лёгочный ствол</item>
+    </question>
+	<question id = "160" size = "4" type = "1">
+        <text>У зародышей млекопитающих редуцируются ... пары артериальных дуг</text>
+        <item flag = "1">первая</item>
+        <item flag = "1">вторая</item>
+        <item flag = "0">третья</item>
+        <item flag = "1">пятая</item>
+    </question>
+	<question id = "161" size = "4" type = "1">
+        <text>Из четвертой пары артериальных дуг у млекопитающих образуются</text>
+        <item flag = "0">правая дуга аорты</item>
+        <item flag = "1">левая дуга аорты</item>
+        <item flag = "0">лёгочные артерии</item>
+        <item flag = "0">сонные артерии</item>
+    </question>
+	<question id = "162" size = "4" type = "1">
+        <text>Шестая пара артериальных дуг у млекопитающих преобразуется в</text>
+        <item flag = "0">сонные артерии</item>
+        <item flag = "0">левую дугу аорты</item>
+        <item flag = "0">правую дугу аорты</item>
+        <item flag = "1">лёгочные артерии</item>
+    </question>
+	<question id = "163" size = "4" type = "1">
+        <text>Аортальное кольцо - это изменение в эмбриогенезе, связанное с</text>
+        <item flag = "0">развитием сосудов, окружающих аорту</item>
+        <item flag = "0">персистированием (сохранением) только правой дуги аорты</item>
+        <item flag = "1">сохранением правой и левой дуг аорты</item>
+        <item flag = "0">нарушением расположения сосудов сердца</item>
+    </question>
+	<question id = "164" size = "4" type = "1">
+        <text>Открытый артериальный проток - это проток, связывающий артериальные дуги</text>
+        <item flag = "0">1 и 2</item>
+        <item flag = "0">3 и 4</item>
+        <item flag = "1">4 и 6</item>
+        <item flag = "0">2 и 6</item>
+    </question>
+	<question id = "165" size = "4" type = "1">
+        <text>В результате образования открытого артериального протока</text>
+        <item flag = "1">увеличивается нагрузка на правый желудочек</item>
+        <item flag = "0">увеличивается нагрузка на левый желудочек</item>
+        <item flag = "1">развивается гипертрофия правого желудочка</item>
+        <item flag = "0">развивается гипертрофия левого желудочка</item>
+    </question>
+	<question id = "166" size = "4" type = "1">
+        <text>В результате наличия открытого сонного протока увеличивается кровоток в</text>
+        <item flag = "0">лёгких</item>
+        <item flag = "0">почках</item>
+        <item flag = "1">мозге</item>
+        <item flag = "0">печени</item>
+    </question>
+	<question id = "167" size = "4" type = "1">
+        <text>От левого желудочка у млекопитающих отходит</text>
+        <item flag = "0">правая дуга аорты</item>
+        <item flag = "1">левая дуга аорты</item>
+        <item flag = "0">полая вена</item>
+        <item flag = "0">безымянная артерия</item>
+    </question>
+	<question id = "168" size = "4" type = "1">
+        <text>При выходе из сердца от дуги аорты у млекопитающих отходят</text>
+        <item flag = "1">плечеголовной ствол</item>
+        <item flag = "0">левая безымянная артерия</item>
+        <item flag = "1">левая сонная артерия</item>
+        <item flag = "1">левая подключичная артерия</item>
+    </question>
+	<question id = "169" size = "4" type = "1">
+        <text>Венозная кровь от передней части тела млекопитающих собирается в переднюю полую вену по</text>
+        <item flag = "1">ярёмным венам</item>
+        <item flag = "1">подключичным венам</item>
+        <item flag = "0">безымянным венам</item>
+        <item flag = "0">задней полой вене</item>
+    </question>
+	<question id = "170" size = "4" type = "1">
+        <text>У человека аномалией развития является наличие</text>
+        <item flag = "0">правой верхней полой вены</item>
+        <item flag = "1">левой верхней полой вены</item>
+        <item flag = "0">нижней полой вены</item>
+        <item flag = "0">безымянной вены</item>
+    </question>
+	<question id = "171" size = "4" type = "1">
+        <text>Непарные вены - это рудименты</text>
+        <item flag = "0">жаберных дуг</item>
+        <item flag = "0">полой вены</item>
+        <item flag = "0">передних кардинальных вен</item>
+        <item flag = "1">задних кардинальных вен</item>
+    </question>
+	<question id = "172" size = "4" type = "1">
+        <text>От правого желудочка у человека отходит</text>
+        <item flag = "0">правая лёгочная артерия</item>
+        <item flag = "0">левая лёгочная артерия</item>
+        <item flag = "1">лёгочный ствол</item>
+        <item flag = "0">верхняя полая вена</item>
+    </question>
+	<question id = "173" size = "4" type = "1">
+        <text>У человека в правое предсердие открывается</text>
+        <item flag = "1">передняя полая вена</item>
+        <item flag = "1">задняя полая вена</item>
+        <item flag = "0">дуга аорты</item>
+        <item flag = "0">лёгочный ствол</item>
+    </question>
+	<question id = "174" size = "4" type = "1">
+        <text>Лёгочный ствол у человека делится на ... легочные артерии</text>
+        <item flag = "0">верхнюю</item>
+        <item flag = "0">нижнюю</item>
+        <item flag = "1">правую</item>
+        <item flag = "1">левую</item>
+    </question>
+	<question id = "175" size = "4" type = "1">
+        <text>В левое предсердие у человека открываются (ется)</text>
+        <item flag = "1">лёгочные вены</item>
+        <item flag = "0">нижние полые вены</item>
+        <item flag = "0">аорта</item>
+        <item flag = "0">лёгочный ствол</item>
+    </question>
+	<question id = "176" size = "4" type = "1">
+        <text>Эволюция кровеносной системы позвоночных ведёт к</text>
+        <item flag = "0">уменьшению количества камер сердца</item>
+        <item flag = "1">дифференцировке сосудов</item>
+        <item flag = "1">повышению содержания кислорода в крови</item>
+        <item flag = "1">более интенсивному обмену веществ</item>
+    </question>
+	<question id = "177" size = "4" type = "1">
+        <text>У человека смешивание венозной и артериальной крови возможно при</text>
+        <item flag = "1">сохранении боталлова протока</item>
+        <item flag = "0">персистировании сонного протока</item>
+        <item flag = "1">неразделении артериального ствола на аорту и лёгочный ствол</item>
+        <item flag = "0">редукции левой дуги аорты</item>
+    </question>
+	<question id = "178" size = "4" type = "1">
+        <text>Транспозиция сосудов - это изменения в эмбриогенезе человека, связанное с</text>
+        <item flag = "0">развитием левой и правой дуги аорты</item>
+        <item flag = "0">развитием правой и редукцией левой дуг аорты</item>
+        <item flag = "0">сохранением двух верхних полых вен</item>
+        <item flag = "1">неправильным отхождением аорты и лёгочного ствола от сердца</item>
+    </question>
+	<question id = "179" size = "4" type = "1">
+        <text>Аортальное кольцо у человека образуется, если не редуцируется</text>
+        <item flag = "0">левая артерия 3-й жаберной дуги</item>
+        <item flag = "0">правая артерия 3-й жаберной дуги</item>
+        <item flag = "0">левая артерия 4-й жаберной дуги</item>
+        <item flag = "1">правая артерия 4-й жаберной дуги</item>
+    </question>
+	<question id = "180" size = "4" type = "1">
+        <text>Боталлов проток связывает</text>
+        <item flag = "0">сонную артерию с дугой аорты</item>
+        <item flag = "0">корни спинной аорты</item>
+        <item flag = "0">правую и левую дугу аорты</item>
+        <item flag = "1">лёгочную артерию с дугой аорты</item>
+    </question>
+	<question id = "181" size = "4" type = "1">
+        <text>Сонный проток связывает</text>
+        <item flag = "0">правую и левую дугу аорты</item>
+        <item flag = "0">лёгочную артерию с дугой аорты</item>
+        <item flag = "0">сонную артерию с лёгочной артерией</item>
+        <item flag = "1">сонную артерию с дугой аорты</item>
+    </question>
+	<question id = "182" size = "4" type = "1">
+        <text>Путём разделения артериального ствола у человека образуются</text>
+        <item flag = "1">лёгочный ствол</item>
+        <item flag = "0">полые вены</item>
+        <item flag = "0">безымянные артерии</item>
+        <item flag = "1">левая дуга аорты</item>
+    </question>
+	<question id = "183" size = "4" type = "1">
+        <text>По ярёмным и подключичным венам кровь собирается в</text>
+        <item flag = "1">переднюю полую вену</item>
+        <item flag = "0">задние полые вены</item>
+        <item flag = "0">безымянные вены</item>
+        <item flag = "0">непарные вены</item>
+    </question>
+	<question id = "184" size = "4" type = "1">
+        <text>Ценогенез - это процесс</text>
+        <item flag = "0">изменения времени закладки структуры</item>
+        <item flag = "0">изменения эмбрионального развития, имеющее адаптивное значение у взрослых форм и лежащее в основе дальнейших эволюционных преобразований</item>
+        <item flag = "1">возникновения структур у зародыша, способствующий адаптации его к среде обитания и отсутствующий у взрослых форм</item>
+        <item flag = "0">изменения места закладки структуры</item>
+    </question>
+	<question id = "185" size = "4" type = "1">
+        <text>Филэмбриогенез - это процесс</text>
+        <item flag = "0">изменения времени закладки структуры</item>
+        <item flag = "1">изменения эмбрионального развития, имеющий адаптивное значение у взрослых форм и лежащий в основе дальнейших эволюционных преобразований</item>
+        <item flag = "0">возникновение структур у зародыша, способствующий адаптации его к среде обитания и отсутствующий у взрослых форм</item>
+        <item flag = "0">изменения места закладки структуры</item>
+    </question>
+	<question id = "186" size = "4" type = "1">
+        <text>Гетеротопия - это процесс</text>
+        <item flag = "0">изменения времени закладки структуры</item>
+        <item flag = "0">изменения эмбрионального развития, имеющий адаптивное значение у взрослых форм и лежащий в основе дальнейших эволюционных преобразований</item>
+        <item flag = "0">возникновения структур у зародыша способствующий адаптации его к среде обитания и отсутствующий у взрослых форм</item>
+        <item flag = "1">изменения места закладки структуры</item>
+    </question>
+	<question id = "187" size = "4" type = "1">
+        <text>Гетерохрония - это процесс</text>
+        <item flag = "1">изменения времени закладки структуры</item>
+        <item flag = "0">изменения эмбрионального развития, имеющий адаптивное значение у взрослых форм и лежащий в основе дальнейших эволюционных преобразований</item>
+        <item flag = "0">возникновения структур у зародыша способствующий адаптации его к среде обитания и отсутствующий у взрослых форм</item>
+        <item flag = "0">изменения места закладки структуры</item>
+    </question>
+	<question id = "188" size = "4" type = "1">
+        <text>Формы эволюционного прогресса</text>
+        <item flag = "0">ограниченный</item>
+        <item flag = "1">неограниченный</item>
+        <item flag = "1">морфофизиологический</item>
+        <item flag = "1">биологический</item>
+    </question>
+	<question id = "189" size = "4" type = "1">
+        <text>Неограниченный прогресс - это процесс</text>
+        <item flag = "0">процветания таксона - рост числа особей, расширение ареала, появление новых дочерних групп внутри таксона</item>
+        <item flag = "0">сохранения представителями таксона, своего морфофизиологического состояния, в течение длительного временного периода</item>
+        <item flag = "1">развития от простейших живых существ до человеческого общества как социальной формы движения материи</item>
+        <item flag = "0">стойкого прогрессивного повышения организации особей в эволюции крупного таксона, приводящий к возрастанию независимости от внешней среды</item>
+    </question>
+	<question id = "190" size = "4" type = "1">
+        <text>Морфофизиологический прогресс - это процесс</text>
+        <item flag = "0">процветания таксона - рост числа особей, расширение ареала, появление новых дочерних групп внутри таксона</item>
+        <item flag = "0">сохранения представителями таксона, своего морфофизиологического состояния, в течение длительного временного периода</item>
+        <item flag = "0">развития от простейших живых существ до человеческого общества как социальной формы движения материи</item>
+        <item flag = "1">стойкого прогрессивного повышения организации особей в эволюции крупного таксона, приводящий к возрастанию независимости от внешней среды</item>
+    </question>
+	<question id = "191" size = "4" type = "1">
+        <text>Биологический прогресс - это процесс</text>
+        <item flag = "1">процветания таксона - рост числа особей, расширение ареала, появление новых дочерних групп внутри таксона</item>
+        <item flag = "0">сохранения представителями таксона, своего морфофизиологического состояния, в течение длительного временного периода</item>
+        <item flag = "0">развития от простейших живых существ до человеческого общества как социальной формы движения материи</item>
+        <item flag = "0">стойкого прогрессивного повышения организации особей в эволюции крупного таксона, приводящий к возрастанию независимости от внешней среды</item>
+    </question>
+	<question id = "192" size = "4" type = "1">
+        <text>Усложнение организации, крупные изменения, позволяющие освоить новую адаптивную зону</text>
+        <item flag = "0">идиоадаптации</item>
+        <item flag = "1">ароморфозы</item>
+        <item flag = "0">морфозы</item>
+        <item flag = "0">дегенерации</item>
+    </question>
+	<question id = "193" size = "4" type = "1">
+        <text>Приобретение частных приспособлений к среде обитания без изменения главных черт структурно-функциональной организации</text>
+        <item flag = "1">идиоадаптации</item>
+        <item flag = "0">ароморфозы</item>
+        <item flag = "0">морфозы</item>
+        <item flag = "0">дегенерации</item>
+    </question>
+	<question id = "194" size = "4" type = "1">
+        <text>Упрощение организации и физиологии организмов</text>
+        <item flag = "0">идиоадаптации</item>
+        <item flag = "0">ароморфозы</item>
+        <item flag = "0">морфозы</item>
+        <item flag = "1">дегенерации</item>
+    </question>
+	<question id = "195" size = "4" type = "1">
+        <text>Типы филэмбриогенезов</text>
+        <item flag = "1">архалаксис</item>
+        <item flag = "0">ценогенез</item>
+        <item flag = "1">девиация</item>
+        <item flag = "1">анаболия</item>
+    </question>
+	<question id = "196" size = "4" type = "1">
+        <text>Анаболия - это процесс</text>
+        <item flag = "0">отклонения в программе развития на средних стадиях морфогенеза</item>
+        <item flag = "1">добавления новой дополнительной стадии в морфогенезе по сравнению с предковыми формами</item>
+        <item flag = "0">точного повторения морфогенеза предковых форм</item>
+        <item flag = "0">изменения в морфогенезе структуры на самых ранних этапах развития</item>
+    </question>
+	<question id = "197" size = "4" type = "1">
+        <text>Девиация - это процесс </text>
+        <item flag = "1">отклонения в программе развития на средних стадиях морфогенеза</item>
+        <item flag = "0">добавления новой дополнительной стадии в морфогенезе по сравнению с предковыми формами</item>
+        <item flag = "0">точного повторения морфогенеза предковых форм</item>
+        <item flag = "0">изменения в морфогенезе структуры на самых ранних этапах развития</item>
+    </question>
+	<question id = "198" size = "4" type = "1">
+        <text>Архаллаксис - это процесс</text>
+        <item flag = "0">отклонения в программе развития на средних стадиях морфогенеза</item>
+        <item flag = "0">добавления новой дополнительной стадии в морфогенезе по сравнению с предковыми формами</item>
+        <item flag = "0">точного повторения морфогенеза предковых форм</item>
+        <item flag = "1">изменения в морфогенезе структуры на самых ранних этапах развития</item>
+    </question>
+	<question id = "199" size = "4" type = "1">
+        <text>Субституция - это</text>
+        <item flag = "0">упрощение строения органов</item>
+        <item flag = "0">существование органов только в эмбриональном периоде</item>
+        <item flag = "0">сегментация органа на части с разным функциональным назначением</item>
+        <item flag = "1">редукция ранних закладок, после появления последующих</item>
+    </question>
+	<question id = "200" size = "4" type = "1">
+        <text>Гомологичные органы</text>
+        <item flag = "0">развиваются из разных эмбриональных закладок</item>
+        <item flag = "1">развиваются из одних эмбриональных закладок</item>
+        <item flag = "0">не имеют единого плана строения</item>
+        <item flag = "1">обладают единым планом строения</item>
+    </question>
+	<question id = "201" size = "4" type = "1">
+        <text>Аналогичные органы</text>
+        <item flag = "1">выполняют одинаковые функции</item>
+        <item flag = "0">имеют единый план строения</item>
+        <item flag = "1">не имеют единого плана строения</item>
+        <item flag = "0">развиваются из одних эмбриональных закладок</item>
+    </question>
+	<question id = "202" size = "4" type = "1">
+        <text>Особенности организации представителей типа Хордовые</text>
+        <item flag = "0">отсутствие полости тела</item>
+        <item flag = "0">первичная полость тела</item>
+        <item flag = "1">вторичная полость тела</item>
+        <item flag = "0">смешанная полость тела</item>
+    </question>
+	<question id = "203" size = "4" type = "1">
+        <text>Расположение осевых органов тела в спинно-брюшном направлении у представителей типа Хордовые</text>
+        <item flag = "0">вторичная кишка, хорда, нервная трубка, главный кровеносный сосуд</item>
+        <item flag = "0">хорда, главный кровеносный сосуд, нервная трубка, вторичная кишка</item>
+        <item flag = "1">нервная трубка, хорда, вторичная кишка, главный кровеносный сосуд</item>
+        <item flag = "0">главный кровеносный сосуд, нервная трубка, хорда вторичная кишка</item>
+    </question>
+	<question id = "204" size = "4" type = "1">
+        <text>Осевой орган представителей типа Хордовые</text>
+        <item flag = "0">легкие</item>
+        <item flag = "1">вторичная кишка</item>
+        <item flag = "0">почки</item>
+        <item flag = "0">непарные конечности</item>
+    </question>
+	<question id = "205" size = "4" type = "1">
+        <text>Главные осевые органы представителей типа Хордовые</text>
+        <item flag = "1">хорда</item>
+        <item flag = "0">парные конечности</item>
+        <item flag = "0">печень</item>
+        <item flag = "1">нервная трубка</item>
+    </question>
+	<question id = "206" size = "4" type = "1">
+        <text>Главные осевые органы представителей типа Хордовые</text>
+        <item flag = "0">гонады</item>
+        <item flag = "1">вторичная кишка</item>
+        <item flag = "1">главный кровеносный сосуд</item>
+        <item flag = "0">нервный гребень</item>
+    </question>
+	<question id = "207" size = "4" type = "1">
+        <text>Для представителей типа Хордовые характерно</text>
+        <item flag = "1">наличие внутреннего скелета</item>
+        <item flag = "0">наличие наружного скелета</item>
+        <item flag = "1">расположение сердца на брюшной стороне тела</item>
+        <item flag = "0">расположение сердца на спинной стороне тела</item>
+    </question>
+	<question id = "208" size = "4" type = "1">
+        <text>Для представителей типа Хордовые характерно</text>
+        <item flag = "0">незамкнутая кровеносная система</item>
+        <item flag = "1">замкнутая кровеносная система</item>
+        <item flag = "0">нервная система представлена брюшной нервной цепочкой</item>
+        <item flag = "1">нервная система представлена нервной трубкой с полостью невроцелем</item>
+    </question>
+	<question id = "209" size = "4" type = "1">
+        <text>Для представителей типа Хордовые характерно</text>
+        <item flag = "1">закладка жаберных щелей в эмбриогенезе в переднем отделе пищеварительной трубки</item>
+        <item flag = "0">закладка жаберных щелей в эмбриогенезе в заднем отделе пищеварительной трубки</item>
+        <item flag = "1">органами дыхания являются легкие</item>
+        <item flag = "1">органами дыхания являются жабры</item>
+    </question>
+	<question id = "210" size = "4" type = "1">
+        <text>Для хордовых характерно</text>
+        <item flag = "1">трехслойность</item>
+        <item flag = "0">двухслойность</item>
+        <item flag = "0">первичноротость</item>
+        <item flag = "1">вторичноротость</item>
+    </question>
+	<question id = "211" size = "4" type = "1">
+        <text>Прогрессивную эволюцию позвоночных обеспечили особенности морфофизиологической организации</text>
+        <item flag = "0">образование наружного скелета</item>
+        <item flag = "1">образование хрящевого или костного внутреннего скелета</item>
+        <item flag = "0">появление выделительной системы, состоящей из отдельных клеток</item>
+        <item flag = "0">слияние сегментов в отделы тела</item>
+    </question>
+	<question id = "212" size = "4" type = "1">
+        <text>Прогрессивную эволюцию позвоночных обеспечили особенности морфофизиологической организации</text>
+        <item flag = "1">развитие челюстей, аппарата для захвата и измельчения пищи</item>
+        <item flag = "0">возникновение третьего зародышевого листка-мезодермы, как источника формирования новых органов и систем</item>
+        <item flag = "0">появление задней кишки и заднепроходного отверстия</item>
+        <item flag = "1">прогрессивное развитие головного мозга и органов чувств</item>
+    </question>
+	<question id = "213" size = "4" type = "1">
+        <text>Прогрессивную эволюцию позвоночных обеспечили особенности морфофизиологической организации</text>
+        <item flag = "0">образование первичной полости тела</item>
+        <item flag = "1">возникновение парных конечностей</item>
+        <item flag = "1">появление сердца и дифференцировка кругов кровообращения</item>
+        <item flag = "0">хитиновый покров тела как место прикрепления мышц</item>
+    </question>
+	<question id = "214" size = "4" type = "1">
+        <text>Прогрессивную эволюцию позвоночных обеспечили особенности морфофизиологической организации</text>
+        <item flag = "1">дифференцировка покровов тела на наружный эпителиальный слой и внутренний слой дерму</item>
+        <item flag = "0">образование эффективных органов дыхания жабр или легких - выростов стенки тела или конечностей</item>
+        <item flag = "1">развитие специализированных отделов пищеварительной трубки и дифференцировка пищеварительных желез</item>
+        <item flag = "1">организация элементов выделительной системы в обособленные, сложно устроенные почки</item>
+    </question>
+	<question id = "215" size = "4" type = "1">
+        <text>К типу Хордовые относят подтипы</text>
+        <item flag = "1">полухордовые</item>
+        <item flag = "0">жабернодышащие</item>
+        <item flag = "1">позвоночные</item>
+        <item flag = "1">бесчерепные</item>
+    </question>
+	<question id = "216" size = "4" type = "1">
+        <text>К типу Хордовые относят подтипы</text>
+        <item flag = "0">трахейнодышащие</item>
+        <item flag = "1">личиночнохордовые</item>
+        <item flag = "1">бесчерепные</item>
+        <item flag = "0">жабернодышащие</item>
+    </question>
+	<question id = "217" size = "4" type = "1">
+        <text>К подтипу Бесчерепные относят класс</text>
+        <item flag = "0">хрящевые рыбы</item>
+        <item flag = "0">земноводные</item>
+        <item flag = "1">головохордовые</item>
+        <item flag = "0">пресмыкающиеся</item>
+    </question>
+	<question id = "218" size = "4" type = "1">
+        <text>К подтипу Бесчерепные относят класс</text>
+        <item flag = "0">птицы</item>
+        <item flag = "1">головохордовые</item>
+        <item flag = "0">млекопитающие</item>
+        <item flag = "0">костные рыбы</item>
+    </question>
+	<question id = "219" size = "4" type = "1">
+        <text>К подтипу Позвоночные относят класс</text>
+        <item flag = "1">хрящевые рыбы</item>
+        <item flag = "1">круглоротые</item>
+        <item flag = "0">головохордовые</item>
+        <item flag = "1">земноводные</item>
+    </question>
+	<question id = "220" size = "4" type = "1">
+        <text>К подтипу Позвоночные относят классы</text>
+        <item flag = "1">млекопитающие</item>
+        <item flag = "1">птицы</item>
+        <item flag = "0">сосальщики</item>
+        <item flag = "1">костные рыбы</item>
+    </question>
+	<question id = "221" size = "4" type = "1">
+        <text>К подтипу Позвоночные относят классы</text>
+        <item flag = "1">пресмыкающиеся</item>
+        <item flag = "1">круглоротые</item>
+        <item flag = "0">головохордовые</item>
+        <item flag = "0">головоногие</item>
+    </question>
+	<question id = "222" size = "4" type = "1">
+        <text>К высшим позвоночным относят классы</text>
+        <item flag = "0">земноводные</item>
+        <item flag = "1">пресмыкающиеся</item>
+        <item flag = "0">костные рыбы</item>
+        <item flag = "1">птицы</item>
+    </question>
+	<question id = "223" size = "4" type = "1">
+        <text>К высшим позвоночным относят классы</text>
+        <item flag = "1">млекопитающие</item>
+        <item flag = "0">хрящевые рыбы</item>
+        <item flag = "0">круглоротые</item>
+        <item flag = "0">земноводные</item>
+    </question>
+	<question id = "224" size = "4" type = "1">
+        <text>К высшим позвоночным относят классы</text>
+        <item flag = "1">пресмыкающиеся</item>
+        <item flag = "1">птицы</item>
+        <item flag = "1">млекопитающие</item>
+        <item flag = "0">костные рыбы</item>
+    </question>
+	<question id = "225" size = "4" type = "1">
+        <text>К низшим позвоночным относят классы</text>
+        <item flag = "1">земноводные</item>
+        <item flag = "0">птицы</item>
+        <item flag = "1">круглоротые</item>
+        <item flag = "0">млекопитающие</item>
+    </question>
+	<question id = "226" size = "4" type = "1">
+        <text>К низшим позвоночным относят классы</text>
+        <item flag = "0">пресмыкающиеся</item>
+        <item flag = "1">хрящевые рыбы</item>
+        <item flag = "0">млекопитающие</item>
+        <item flag = "1">костные рыбы</item>
+    </question>
+	<question id = "227" size = "4" type = "1">
+        <text>К низшим позвоночным относят классы</text>
+        <item flag = "1">костные рыбы</item>
+        <item flag = "0">птицы</item>
+        <item flag = "1">земноводные</item>
+        <item flag = "1">круглоротые</item>
+    </question>
+	<question id = "228" size = "4" type = "1">
+        <text>Ближайшими предками млекопитающих являются представители класса</text>
+        <item flag = "0">костные рыбы</item>
+        <item flag = "1">пресмыкающиеся</item>
+        <item flag = "0">птицы</item>
+        <item flag = "0">земноводные</item>
+    </question>
+	<question id = "229" size = "4" type = "1">
+        <text>Ближайшими предками птиц являются представители класса</text>
+        <item flag = "0">круглоротые</item>
+        <item flag = "0">млекопитающие</item>
+        <item flag = "1">пресмыкающиеся</item>
+        <item flag = "0">хрящевые рыбы</item>
+    </question>
+	<question id = "230" size = "4" type = "1">
+        <text>Ближайшими предками пресмыкающихся являются представители класса</text>
+        <item flag = "0">птицы</item>
+        <item flag = "0">млекопитающие</item>
+        <item flag = "0">костные рыбы</item>
+        <item flag = "1">земноводные</item>
+    </question>
+	<question id = "231" size = "4" type = "1">
+        <text>Ближайшими предками земноводных являются представители хордовых</text>
+        <item flag = "0">пресмыкающиеся</item>
+        <item flag = "0">круглоротые</item>
+        <item flag = "1">рыбы</item>
+        <item flag = "0">птицы</item>
+    </question>
+	<question id = "232" size = "4" type = "1">
+        <text>В эмбриогенезе млекопитающих закладка мочеполовой системы формируется из</text>
+        <item flag = "0">энтодермы</item>
+        <item flag = "1">мезодермы</item>
+        <item flag = "0">эктодермы</item>
+        <item flag = "1">ножки сомита</item>
+    </question>
+	<question id = "233" size = "4" type = "1">
+        <text>Органы выделения представителей типа Хордовые</text>
+        <item flag = "0">целомодукты</item>
+        <item flag = "1">почки</item>
+        <item flag = "0">мальпигиевы сосуды</item>
+        <item flag = "1">нефридии</item>
+    </question>
+	<question id = "234" size = "4" type = "1">
+        <text>Прогрессивные направления филогенеза выделительной системы представителей типа хордовые состоят в</text>
+        <item flag = "1">появлении компактного органа выделения - почки</item>
+        <item flag = "1">замене предпочки на первичную, а затем вторичную</item>
+        <item flag = "1">увеличении количества нефронов в почке</item>
+        <item flag = "0">уменьшении количества нефронов в почке</item>
+    </question>
+	<question id = "235" size = "4" type = "1">
+        <text>Прогрессивные направления филогенеза выделительной системы представителей типа Хордовые состоят в</text>
+        <item flag = "1">удлинении канальцев нефрона</item>
+        <item flag = "0">укорочении канальцев нефрона</item>
+        <item flag = "1">дифференцировки канальцев нефрона</item>
+        <item flag = "1">дифференцировки клоаки</item>
+    </question>
+	<question id = "236" size = "4" type = "1">
+        <text>Прогрессивные направления филогенеза выделительной системы представителей</text>
+        <item flag = "0">сохранении воронки нефрона</item>
+        <item flag = "1">редукции воронки нефрона</item>
+        <item flag = "1">появление капсулы Боумена-Шумлянского</item>
+        <item flag = "1">возникновении непосредственной связи кровеносной и выделительной систем</item>
+    </question>
+	<question id = "237" size = "4" type = "1">
+        <text>Структурно функциональная единица почки черепных</text>
+        <item flag = "0">нефростом</item>
+        <item flag = "0">нефрогонотом</item>
+        <item flag = "1">нефрон</item>
+        <item flag = "0">нефридий</item>
+    </question>
+	<question id = "238" size = "4" type = "1">
+        <text>У низших позвоночных в процессе эмбриогенеза закладывается ... поколение (-ия) почек</text>
+        <item flag = "0">1</item>
+        <item flag = "1">2</item>
+        <item flag = "0">3</item>
+        <item flag = "0">4</item>
+    </question>
+	<question id = "239" size = "4" type = "1">
+        <text>У высших позвоночных в процессе эмбриогенеза закладывается ... поколение (-ия) почек</text>
+        <item flag = "0">1</item>
+        <item flag = "0">2</item>
+        <item flag = "1">3</item>
+        <item flag = "0">4</item>
+    </question>
+	<question id = "240" size = "4" type = "1">
+        <text>У анамний в качестве органов выделения функционирует</text>
+        <item flag = "0">метонефрос</item>
+        <item flag = "0">пронефрос</item>
+        <item flag = "0">нефридий</item>
+        <item flag = "1">мезонефрос</item>
+    </question>
+	<question id = "241" size = "4" type = "1">
+        <text>У амниот в качестве органов выделения функционирует</text>
+        <item flag = "0">метанефридий</item>
+        <item flag = "1">метанефрос</item>
+        <item flag = "0">мезонефрос</item>
+        <item flag = "0">пронефрос</item>
+    </question>
+	<question id = "242" size = "4" type = "1">
+        <text>Головная почка имеет нефронов</text>
+        <item flag = "0">от З0 до нескольких сот</item>
+        <item flag = "0">около миллиона</item>
+        <item flag = "0">более 5 миллионов</item>
+        <item flag = "1">2-12</item>
+    </question>
+	<question id = "243" size = "4" type = "1">
+        <text>Туловищная почка имеет ... нефронов</text>
+        <item flag = "0">2-12</item>
+        <item flag = "0">более 2 миллионов</item>
+        <item flag = "1">от З0 до нескольких сот</item>
+        <item flag = "0">около миллиона</item>
+    </question>
+	<question id = "244" size = "4" type = "1">
+        <text>Тазовая почка имеет ... нефронов</text>
+        <item flag = "1">около миллиона</item>
+        <item flag = "0">более 2^x миллионов</item>
+        <item flag = "0">2-12</item>
+        <item flag = "0">от 30 до нескольких сот</item>
+    </question>
+	<question id = "245" size = "4" type = "1">
+        <text>Предпочка полностью развивается и функционирует у</text>
+        <item flag = "1">личинок рыб</item>
+        <item flag = "1">некоторых круглоротых</item>
+        <item flag = "1">личинок амфибий</item>
+        <item flag = "0">головохордовых</item>
+    </question>
+	<question id = "246" size = "4" type = "1">
+        <text>Первичная почка полностью развивается и функционирует у</text>
+        <item flag = "1">рыб</item>
+        <item flag = "0">пресмыкающихся</item>
+        <item flag = "1">земноводных</item>
+        <item flag = "0">птиц</item>
+    </question>
+	<question id = "247" size = "4" type = "1">
+        <text>Вторичная почка полностью развивается и функционирует у</text>
+        <item flag = "1">пресмыкающихся</item>
+        <item flag = "1">млекопитающих</item>
+        <item flag = "1">птиц</item>
+        <item flag = "0">земноводных</item>
+    </question>
+	<question id = "248" size = "4" type = "1">
+        <text>Органы выделения у представителей класса Головохордовые</text>
+        <item flag = "0">почки</item>
+        <item flag = "0">мальпигиевы сосуды</item>
+        <item flag = "1">нефридии</item>
+        <item flag = "0">целомодукты</item>
+    </question>
+	<question id = "249" size = "4" type = "1">
+        <text>Общие особенности для туловищной и головной почек</text>
+        <item flag = "1">наличие нефростома</item>
+        <item flag = "0">одинаковое количество нефронов</item>
+        <item flag = "1">непосредственная связь с целомом</item>
+        <item flag = "0">наличие капсулы боумена</item>
+    </question>
+	<question id = "250" size = "4" type = "1">
+        <text>Общие особенности для туловищной и тазовой почек</text>
+        <item flag = "0">наличие нефростома</item>
+        <item flag = "1">непосредственная связь с кровеносной системой</item>
+        <item flag = "0">наличие петли Генле</item>
+        <item flag = "1">наличие капсулы боумена</item>
+    </question>
+	<question id = "251" size = "4" type = "1">
+        <text>Нефрон предпочки состоит из</text>
+        <item flag = "1">нефростома</item>
+        <item flag = "0">сосудистого клубочка</item>
+        <item flag = "1">выделительного канальца</item>
+        <item flag = "0">проксимального и дистального извитых канальцев</item>
+    </question>
+	<question id = "252" size = "4" type = "1">
+        <text>Нефрон туловищной почки состоит из</text>
+        <item flag = "1">капсулы боумена у продвинутых анамний</item>
+        <item flag = "1">сосудистого клубочка</item>
+        <item flag = "0">нефростома</item>
+        <item flag = "0">прямого выделительного канальца</item>
+    </question>
+	 <question id = "253" size = "4" type = "1">
+        <text>Для нефрона тазовой почки рептилий характерным является отсутствие</text>
+        <item flag = "1">нефростома</item>
+        <item flag = "0">почечного тельца</item>
+        <item flag = "1">петли Генле</item>
+        <item flag = "0">проксимального извитого канальца</item>
+    </question>
+	<question id = "254" size = "4" type = "1">
+        <text>Для нефрона тазовой почки птиц характерно</text>
+        <item flag = "0">наличие нефростома</item>
+        <item flag = "1">наличие петли Генле</item>
+        <item flag = "0">отсутствие петли Генле</item>
+        <item flag = "1">отсутствие нефростома</item>
+    </question>
+	<question id = "255" size = "4" type = "1">
+        <text>Для нефрона тазовой почки млекопитающих характерно</text>
+        <item flag = "1">наличие капсулы боумена</item>
+        <item flag = "0">наличие нефростома</item>
+        <item flag = "0">отсутствие петли Генле</item>
+        <item flag = "1">наличие проксимального и дистального извитых канальцев</item>
+    </question>
+	<question id = "256" size = "4" type = "1">
+        <text>Парамезонефральный канал у самцов амфибий в постэмбриональном периоде</text>
+        <item flag = "0">выводит мочу и половые клетки</item>
+        <item flag = "0">выводит только продукты диссимиляции</item>
+        <item flag = "0">выводит только половые клетки</item>
+        <item flag = "1">редуцируется</item>
+    </question>
+	<question id = "257" size = "4" type = "1">
+        <text>Парамезонефральный канал у самок рептилий в постэмбриональном периоде</text>
+        <item flag = "0">редуцируются</item>
+        <item flag = "0">выводит мочу и яйцеклетки</item>
+        <item flag = "0">выводит продукты диссимиляции</item>
+        <item flag = "1">выводит половые продукты</item>
+    </question>
+	<question id = "258" size = "4" type = "1">
+        <text>Мезонефральный проток у самцов анамний в постэмбриональном периоде</text>
+        <item flag = "0">теряет функциональное значение</item>
+        <item flag = "0">преобразуется в эпидидимис</item>
+        <item flag = "0">выводит только половые клетки</item>
+        <item flag = "1">выводит мочу и половые клетки</item>
+    </question>
+	<question id = "259" size = "4" type = "1">
+        <text>Мочеточник первичной почки у самок амфибий в постэмбриональном периоде</text>
+        <item flag = "0">преобразуется в яйцевод</item>
+        <item flag = "0">редуцируется</item>
+        <item flag = "0">выводит мочу и яйцеклетки</item>
+        <item flag = "1">выводит продукты диссимиляции</item>
+    </question>
+	<question id = "260" size = "4" type = "1">
+        <text>За счет закладок выделительной системы у самцов анамний формируются</text>
+        <item flag = "0">семявыносящие канальцы</item>
+        <item flag = "0">семяпроводы</item>
+        <item flag = "1">мочеполовые протоки</item>
+        <item flag = "0">придатки семенника</item>
+    </question>
+	<question id = "261" size = "4" type = "1">
+        <text>Мочеполовой проток у самцов анамний формируется из</text>
+        <item flag = "0">парамезонефрального канала</item>
+        <item flag = "0">мочеточника метанефроса</item>
+        <item flag = "0">канальцев пронефраса</item>
+        <item flag = "1">мезонефрального канала</item>
+    </question>
+	<question id = "262" size = "4" type = "1">
+        <text>Яйцевод у самок анамний формируется из</text>
+        <item flag = "0">мезонефрального канала</item>
+        <item flag = "0">канальцев нефронов метонефроса</item>
+        <item flag = "0">канальцев нефронов пронефроса</item>
+        <item flag = "1">парамезонефрального канала</item>
+    </question>
+	<question id = "263" size = "4" type = "1">
+        <text>Мезонефральный проток у самцов амниот в постэмбриональном периоде</text>
+        <item flag = "0">не функционирует</item>
+        <item flag = "0">преобразуется в эпидидимис</item>
+        <item flag = "0">выводит только продукты диссимиляции</item>
+        <item flag = "1">выводит только половые клетки</item>
+    </question>
+	 <question id = "264" size = "4" type = "1">
+        <text>За счет закладок выделительной системы у самок амниот формируется</text>
+        <item flag = "1">яйцевод</item>
+        <item flag = "1">матка</item>
+        <item flag = "1">влагалище</item>
+        <item flag = "0">яичник</item>
+    </question>
+	<question id = "265" size = "4" type = "1">
+        <text>Из канальцев первичной почки у мужчин формируется</text>
+        <item flag = "0">семяпровод</item>
+        <item flag = "0">мужская маточка</item>
+        <item flag = "0">семенник</item>
+        <item flag = "1">придаток семенника</item>
+    </question>
+	<question id = "266" size = "4" type = "1">
+        <text>У эмбриона человека закладывается</text>
+        <item flag = "1">предпочка</item>
+        <item flag = "1">первичная почка</item>
+        <item flag = "1">вторичная почка</item>
+        <item flag = "0">метанефридии</item>
+    </question>
+	<question id = "267" size_x="3" size_y="5" type="2">
+		<text>Тип мозга - ..., интегрируюший отдел мозга - ...</text>
+		<item>
+			<text>1) ихтиопсидный</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) заурапсидный</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) маммальный</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) дно конечного мозга</child>
+		<child>б) срединий мозг</child>
+		<child>в) продолговатый мозг</child>
+		<child>г) крыша конечного мозга</child>
+		<child>д) мозолистое тело</child>
+	</question>
+	<question id = "268" size_x="5" size_y="5" type="2">
+		<text>Класс позвоночных - ..., интегрирующий отдел мозга - ...</text>
+		<item>
+			<text>1) рыбы</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) амфибии</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) рептилии</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) птицы</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) млекопитающие</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) задний</child>
+		<child>б) средний</child>
+		<child>в) промежуточный</child>
+		<child>г) крыша конечного</child>
+		<child>д) дно конечного</child>
+	</question>
+	<question id = "269" size_x="3" size_y="5" type="2">
+		<text>Мозговой пузырь - ..., отдел мозга - ...</text>
+		<item>
+			<text>1) передний</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) средний</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) задний</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) мозжечок</child>
+		<child>б) продолговатый</child>
+		<child>в) средний</child>
+		<child>г) промежуточный</child>
+		<child>д) большие полушария</child>
+	</question>
+	<question id = "270" size_x="5" size_y="5" type="2">
+		<text>Структура мозга рептилии - ..., функция - ...</text>
+		<item>
+			<text>1) полосатые тела конечного мозга</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) медиальный островок старой коры</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) латеральный островок старой коры</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) средний мозг</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>д) мозжечок</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) интегрирующий центр нервной деятельности</child>
+		<child>б) высший центр обоняния</child>
+		<child>в) не функционален</child>
+		<child>г) зрительный центр</child>
+		<child>д) центр координации движения</child>
+	</question>
+	<question id = "271" size_x="5" size_y="5" type="2">
+		<text>Структура мозга человека - ..., функция - ...</text>
+		<item>
+			<text>1) гипокамп</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) мозжечок</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) медиальный островок древней коры</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) правое полушарие мозга</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) левое полушарие конечного мозга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) образное мышление</child>
+		<child>б) координация движений</child>
+		<child>в) высший центр обоняния</child>
+		<child>г) абстрактное мышление</child>
+		<child>д) не функционален</child>
+	</question>
+</quize>

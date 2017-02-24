@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subjects>
     <properties it="subjects"></properties>
+	<item next="test">Тест</item>
     <item next="">Анатомия</item>
     <item next="biothemes">Биология</item>
     <item next="">Биохимия</item>

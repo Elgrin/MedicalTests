@@ -4,12 +4,13 @@
     <item test="cells">Цитология</item>
     <item test="genes">Генетика</item>
     <item test="ontogenesis">Онтогенез</item>
-    <item test="">Протозоология</item>
-    <item test="">Гельминтология</item>
-    <item test="">Арахноэнтомология</item>
-    <item test="">Филогенез</item>
-    <item test="">Эволюционное учение</item>
-    <item test="">Антропогенез+Экология</item>
+    <item test="protozoology">Протозоология</item>
+    <item test="helminthology">Гельминтология</item>
+    <item test="arachnoentomology">Арахноэнтомология</item>
+    <item test="phylogenesis">Филогенез</item>
+    <item test="evolution">Эволюционное учение</item>
+    <item test="anthropogenesis">Антропогенез</item>
+	<item test="ecology">Экология</item>
 </themes>
 
 	

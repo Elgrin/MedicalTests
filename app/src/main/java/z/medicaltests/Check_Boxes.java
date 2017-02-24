@@ -18,9 +18,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -56,14 +53,22 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
     }
 
 
-    public double Count() {
-
+    public int Count() {
+        for(int i = 0; i < Options.length; i++) {
+            if(Boxes[i].isChecked() != Flags[i]) {
+                return 0;
+            }
+        }
+        return 1;
+        /*
         double RighAnswer = 0;
         int Counter = 0;
         int Rights = 0;
         int All = 0;
         int Uncounter = 0;
         View view = getView();
+
+
         for (int i = 0; i < Options.length; i++) {
 
             if (Flags[i]) Rights++;
@@ -81,12 +86,15 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
         }
 
+
+
+        if(Rights == 0) Rights = 1;
         double w = (Counter * 100) / Rights;
         if (All == 0) All = 1;
-        double m = (Uncounter * 100) / All;
+        double m = (Uncounter * 100) / Rights;
         //Log.v(TAG, Double.toString(Counter) + "   " + Double.toString(Uncounter));
         //Log.v(TAG, Double.toString(Rights) + "   " + Double.toString(All));
-        //Log.v(TAG, Double.toString(w) + "   " + Double.toString(m));
+        Log.v(TAG, Double.toString(w) + "   " + Double.toString(m));
 
         w -= m;
         if (w <= 50) {
@@ -106,8 +114,10 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
         if(w > 50.0) {
             return (RighAnswer = w/100);
-        }
-*/
+        }*/
+
+
+
     }
 
     public double Paint() {

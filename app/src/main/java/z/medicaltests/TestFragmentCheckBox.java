@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -49,7 +50,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
     protected int Number;
     protected TestStructure Questions[];
-    protected double RightAnswers;
+    protected int RightAnswers;
     protected boolean Show;
     static protected boolean Colors;
     private Check_Boxes fragment;
@@ -96,6 +97,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                             intent.putExtra(Intent.EXTRA_SUBJECT,
                                     getResources().
                                             getString(R.string.header));
+                            intent.putExtra(Intent.EXTRA_TEXT, "Найдена ошибка" + "\n\nНомер вопроса: " + Number + ". Тема: " + Name + ". Путь: " + Path + "\n\nВаши комментарии:\n");
                             startActivity(intent);
 
                             /*
@@ -199,7 +201,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                                             boolean Show,
                                             TestStructure Questions[],
                                             int Number,
-                                            double RighAnswers,
+                                            int RighAnswers,
                                             int Max,
                                             int Mode,
                                             int[] MistakesIndexesArray,
@@ -223,7 +225,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                            int Number,
                            boolean Show,
                            boolean Colors,
-                           double RightAnswers,
+                           int RightAnswers,
                            int Max,
                            int Mode,
                            int[] MistakesIndexesArray,
@@ -256,7 +258,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         if (savedInstanceState != null) {
 
             Number = savedInstanceState.getInt("number");
-            RightAnswers = savedInstanceState.getDouble("rightAnswer");
+            RightAnswers = savedInstanceState.getInt("rightAnswer");
             Show = savedInstanceState.getBoolean("show");
             Colors = savedInstanceState.getBoolean("color");
             Max = savedInstanceState.getInt("max");
@@ -350,8 +352,9 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
-        if (Colors || Mode == 1)
+        if (Colors)
             menu.getItem(1).setVisible(false);
+        //если надо отключить отображение сохранения в режиме экзамена
         else
             menu.getItem(1).setVisible(true);
 
@@ -418,6 +421,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         TextView textView = (TextView) view.findViewById(R.id.exercise_text);
         textView.setText(Questions[Number - 1].getText());
+        textView.setGravity(Gravity.CENTER_HORIZONTAL);
 
         TextView textView_2 = (TextView) view.findViewById(R.id.exercise_number);
         textView_2.setText("Вопрос " + Integer.toString(Number) + " из " + Integer.toString(Max));
@@ -427,9 +431,9 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     }
 
 
-    public void mistakesArray(double digit) {
+    public void mistakesArray(int digit) {
 
-        if(digit!=(double) 1) {
+        if(digit!= 1) {
             //int i = MistakesIndexesArray.length;
 
             //MistakesIndexesArray[i-1] = Number-1;
@@ -442,6 +446,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             MistakesIndexesArray = t;
             int i = MistakesIndexesArray.length;
             MistakesIndexesArray[i-1] = Number-1;
+            Log.v(TAG, Integer.toString(Number-1));
         }
 
     }
@@ -462,13 +467,13 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                     else {
 
                         if (Questions[Number - 1].getType() == 1) {
-                            double right = fragment.Count();
+                            int right = fragment.Count();
                             RightAnswers += fragment.Count();
                             mistakesArray(right);
                         }
                         if (Questions[Number - 1].getType() == 2) {
                             fragmentMultiple = Frag_Multiple;
-                            double right = fragmentMultiple.Count();
+                            int right = fragmentMultiple.Count();
                             RightAnswers += right;
                             mistakesArray(right);
                         }
@@ -491,13 +496,13 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         }
         else {
             if (Questions[Number - 1].getType() == 1) {
-                double right = fragment.Count();
-                RightAnswers += fragment.Count();
+                int right = fragment.Count();
+                RightAnswers += right;
                 mistakesArray(right);
             }
             if (Questions[Number - 1].getType() == 2) {
                 fragmentMultiple = Frag_Multiple;
-                double right = fragmentMultiple.Count();
+                int right = fragmentMultiple.Count();
                 RightAnswers += right;
                 mistakesArray(right);
             }
@@ -534,7 +539,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             Log.v(TAG, "Paint");
         }
         if (Questions[Number - 1].getType() == 2) {
-            Colors=true;
+            Colors = true;
 
             fragmentMultiple = Frag_Multiple;
             getActivity().invalidateOptionsMenu();
@@ -616,7 +621,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 NameElementShow.appendChild(doc.createTextNode(Boolean.toString(Show)));
                 Log.v(TAG, "3");
                 Element NameElementRightAnswers = doc.createElement("answers");
-                NameElementRightAnswers.appendChild(doc.createTextNode(Double.toString(RightAnswers)));
+                NameElementRightAnswers.appendChild(doc.createTextNode(Integer.toString(RightAnswers)));
                 Log.v(TAG, "4");
                 Element NameElementMaxSize = doc.createElement("max");
                 NameElementMaxSize.appendChild(doc.createTextNode(Integer.toString(Max)));
@@ -736,7 +741,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         //setRetainInstance(true);
 
         savedInstanceState.putInt("number", Number);
-        savedInstanceState.putDouble("rightAnswer", RightAnswers);
+        savedInstanceState.putInt("rightAnswer", RightAnswers);
         savedInstanceState.putBoolean("show", Show);
         savedInstanceState.putBoolean("color", Colors);
         savedInstanceState.putInt("max", Max);

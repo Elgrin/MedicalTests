@@ -1,0 +1,3670 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="399" file="protozoology" name = "Протозоология">
+	<question id = "1" size = "5" type = "1">
+            <text>Представители класса Sporozoa</text>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "1">Toxoplasma gondii</item>
+            <item flag = "0">Balantidium coli</item>
+    </question>
+	<question id = "2" size = "5" type = "1">
+            <text>Представители класса Infuzoria</text>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Toxoplasma gondii</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "1">Balantidium coli</item>
+    </question>
+	<question id = "3" size = "4" type = "1">
+            <text>Возбудитель трёхдневной малярии</text>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+    </question>
+	<question id = "4" size = "4" type = "1">
+            <text>Возбудитель четырехдневной малярии</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium malaria</item>
+    </question>
+	<question id = "5" size = "4" type = "1">
+            <text>Возбудитель тропической малярии</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+    </question>
+	<question id = "6" size = "4" type = "1">
+            <text>Возбудитель малярии типа трехдневной</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "1">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+    </question>
+	<question id = "7" size = "5" type = "1">
+            <text>Повсеместно распространены протозойные инфекции</text>
+            <item flag = "1">Лямблиоз</item>
+            <item flag = "0">Трипаносомоз</item>
+            <item flag = "1">Балантидиаз</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Лейшманиоз</item>
+    </question>
+	<question id = "8" size = "5" type = "1">
+            <text>Для трехдневной малярии характерны</text>
+            <item flag = "1">Паразитоносительство</item>
+            <item flag = "1">Эритроцитальная стадия</item>
+            <item flag = "0">Между приступами 72 часа</item>
+            <item flag = "1">Между приступами 78 часов</item>
+            <item flag = "1">Возможность развития рецидивов</item>
+    </question>
+	<question id = "9" size = "5" type = "1">
+            <text>Малярийный плазмодий в организме человека паразитирует в клетках</text>
+            <item flag = "0">Мозга</item>
+            <item flag = "1">Печени</item>
+            <item flag = "0">Тонкого кишечника</item>
+            <item flag = "1">Крови</item>
+            <item flag = "0">Спинномозговой жидкости</item>
+    </question>
+	<question id = "10" size = "5" type = "1">
+            <text>Toxoplasma gondii в организме человека локализуется в клетках</text>
+            <item flag = "1">Головного мозга</item>
+            <item flag = "1">Сердечных и скелетных мышц</item>
+            <item flag = "1">Лимфоузлов</item>
+            <item flag = "1">Тканей глазного яблока</item>
+            <item flag = "1">Печени</item>
+    </question>
+	<question id = "11" size = "5" type = "1">
+            <text>В крови человека паразитируют</text>
+            <item flag = "1">Plasmodium malaria</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "0">Balantidium coli</item>
+    </question>
+	<question id = "12" size = "5" type = "1">
+            <text>Простейшие, обитающие в толстом кишечнике человека</text>
+            <item flag = "1">Entamoeba coli</item>
+            <item flag = "1">Entamoeba histolytica</item>
+            <item flag = "1">Balantidium coli</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+    </question>
+	<question id = "13" size = "5" type = "1">
+            <text>Особенности простейших класса Sporozoa</text>
+            <item flag = "1">Отсутствие у зрелых форм органоидов движения</item>
+            <item flag = "1">Жизненный цикл с чередованием полового и бесполого размножения</item>
+            <item flag = "0">Ядерный аппарат состоит из макро- и микронуклеуса</item>
+            <item flag = "0">Наличие ундулирующей мембраны</item>
+            <item flag = "1">Внутриклеточные паразиты</item>
+    </question>
+	<question id = "14" size = "5" type = "1">
+            <text>Особенности простейших класса Infuzoria</text>
+            <item flag = "0">Органоиды движения - жгутики</item>
+            <item flag = "1">Органоиды движения - реснички</item>
+            <item flag = "0">Наличие ундулирующей мембраны</item>
+            <item flag = "1">Наличие микронуклеуса и макронуклеуса</item>
+            <item flag = "1">Тело покрыто пелликулой</item>
+    </question>
+	<question id = "15" size = "5" type = "1">
+            <text>В стадии развития малярийного плазмодия ооциста</text>
+            <item flag = "1">Округлая, покрытая капсулой</item>
+            <item flag = "0">Удлиненная, без капсулы</item>
+            <item flag = "1">Неподвижная</item>
+            <item flag = "0">Подвижная</item>
+            <item flag = "0">Внутри содержит мерозоиты</item>
+    </question>
+	<question id = "16" size = "5" type = "1">
+            <text>Несколько кольцевидных трофозоитов в эритроците человека можно увидеть при диагностике</text>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "1">Крови тропической формы малярии</item>
+    </question>
+	<question id = "17" size = "5" type = "1">
+            <text>В эритроцитной стадии развития малярийного плазмодия взрослые трофозоиты</text>
+            <item flag = "1">Занимают весь эритроцит</item>
+            <item flag = "0">Имеют вакуоль</item>
+            <item flag = "1">Имеют пигментные гранулы в цитоплазме</item>
+            <item flag = "0">Занимают половину эритроцита</item>
+            <item flag = "1">Не имеют вакуоли</item>
+    </question>
+	<question id = "18" size = "5" type = "1">
+            <text>В стадии развития малярийного плазмодия оокинета</text>
+            <item flag = "1">Удлиненная</item>
+            <item flag = "0">Шаровидная</item>
+            <item flag = "1">Способна двигаться</item>
+            <item flag = "0">Неподвижная</item>
+            <item flag = "0">Находится в слюнных железах комара</item>
+    </question>
+	<question id = "19" size = "5" type = "1">
+            <text>На стадии юного трофозоита псевдоподии можно увидеть при диагностике</text>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Крови больного четырехдневной малярии</item>
+    </question>
+	<question id = "20" size = "5" type = "1">
+            <text>Лентовидная форма на стадии полувзрослого и взрослого трофозоита характерна при диагностике</text>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium malaria</item>
+            <item flag = "0">Крови больного трехдневной малярии</item>
+    </question>
+	<question id = "21" size = "5" type = "1">
+            <text>На стадии полувзрослого трофозоита псевдоподии резко выражены в клетках</text>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Эритроцитов больного четырехдневной малярии</item>
+    </question>
+	<question id = "22" size = "5" type = "1">
+            <text>Скопление токсоплазм под клеточной мембраной клетки хозяина называют</text>
+            <item flag = "0">Цистой</item>
+            <item flag = "1">Псевдоцистой</item>
+            <item flag = "0">Ооцистой</item>
+            <item flag = "0">Оокинетой</item>
+            <item flag = "0">Спороцистой</item>
+    </question>
+	<question id = "23" size = "5" type = "1">
+            <text>Эндозоиты (тахизоиты) Toxoplasma gondii имеют</text>
+            <item flag = "1">Форму полумесяца</item>
+            <item flag = "1">Роптрии</item>
+            <item flag = "0">Аксостиль</item>
+            <item flag = "0">Жгутик</item>
+            <item flag = "1">Коноид</item>
+    </question>
+	<question id = "24" size = "5" type = "1">
+            <text>Для проникновения и фиксации в клетках хозяина эндозоит использует</text>
+            <item flag = "1">Коноид</item>
+            <item flag = "0">Цитостом</item>
+            <item flag = "0">Выросты мембраны</item>
+            <item flag = "0">Выросты пелликулы</item>
+            <item flag = "1">Роптрии</item>
+    </question>
+	<question id = "25" size = "5" type = "1">
+            <text>Зрелые ооцисты Toxoplasma gondii имеют</text>
+            <item flag = "1">Округлую форму с двуслойной оболочкой</item>
+            <item flag = "0">4 спороцисты с 2 спорозоитами в каждой</item>
+            <item flag = "1">2 спороцисты с 4 спорозоитами в каждой</item>
+            <item flag = "0">Вытянутую форму</item>
+            <item flag = "0">4 спорозоита, спороцист нет</item>
+    </question>
+	<question id = "26" size = "5" type = "1">
+            <text>Коноид есть у простейших</text>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Toxoplasma gondii</item>
+            <item flag = "0">Balantidium coli</item>
+    </question>
+	<question id = "27" size = "5" type = "1">
+            <text>Циста Balantidium coli имеет</text>
+            <item flag = "1">Макронуклеус</item>
+            <item flag = "1">Микронуклеус</item>
+            <item flag = "0">Сократительную вакуоль</item>
+            <item flag = "0">Реснички</item>
+            <item flag = "0">Жгутики</item>
+    </question>
+	<question id = "28" size = "5" type = "1">
+            <text>Вегетативная форма - трофозоит Balantidium coli имеет</text>
+            <item flag = "1">Макронуклеус</item>
+            <item flag = "1">Реснички</item>
+            <item flag = "1">Цитостом</item>
+            <item flag = "1">Пищеварительные вакуоли</item>
+            <item flag = "0">Роптрии</item>
+    </question>
+	<question id = "29" size = "5" type = "1">
+            <text>Органеллам движения у Balantidium coli являются</text>
+            <item flag = "0">Цитостом</item>
+            <item flag = "0">Макронуклеус</item>
+            <item flag = "0">Коноид</item>
+            <item flag = "1">Реснички</item>
+            <item flag = "0">Жгутики</item>
+    </question>
+	<question id = "30" size = "5" type = "1">
+            <text>Жизненный цикл споровиков включает следующие виды размножения</text>
+            <item flag = "1">Бесполое</item>
+            <item flag = "1">Половое</item>
+            <item flag = "1">Шизогонию</item>
+            <item flag = "1">Спорогонию</item>
+            <item flag = "1">Гаметогонию</item>
+    </question>
+	<question id = "31" size = "5" type = "1">
+            <text>Внутриклеточные стадии развития характерны для</text>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "1">Toxoplasma gondii</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+            <item flag = "0">Balantidium coli</item>
+            <item flag = "1">Plasmodium ovale</item>
+    </question>
+	<question id = "32" size = "5" type = "1">
+            <text>Способами размножения малярийных плазмодиев являются</text>
+            <item flag = "1">Тканевая шизогония</item>
+            <item flag = "1">Эритроцитальная шизогония</item>
+            <item flag = "1">Спорогония</item>
+            <item flag = "1">Гаметогония</item>
+            <item flag = "0">Бинарное поперечное деление</item>
+    </question>
+	<question id = "33" size = "5" type = "1">
+            <text>Дефинитивным хозяином Plasmodium ovale является</text>
+            <item flag = "0">Человек</item>
+            <item flag = "0">Комар пода Aedes</item>
+            <item flag = "0">Комар рода Culex</item>
+            <item flag = "1">Комар рода Anopheles</item>
+            <item flag = "0">Москит рода Phlebotomus</item>
+    </question>
+	<question id = "34" size = "5" type = "1">
+            <text>В клетке развития малярийного плазмодия в окончательном хозяине паразит проходит следующие стадии</text>
+            <item flag = "0">Тканевую шизогонию</item>
+            <item flag = "1">Гаметогонию</item>
+            <item flag = "0">Эритроцитальную шизогонию</item>
+            <item flag = "1">Спорогонию</item>
+            <item flag = "0">Бинарное поперечное деление</item>
+    </question>
+	<question id = "35" size = "5" type = "1">
+            <text>В организме дефинитивного хозяина гаметогония происходит в</text>
+            <item flag = "0">Кишечнике</item>
+            <item flag = "1">Желудке</item>
+            <item flag = "0">Печени</item>
+            <item flag = "0">Крови</item>
+            <item flag = "0">Слюнных желез</item>
+    </question>
+	<question id = "36" size = "5" type = "1">
+            <text>В организме дефинитивного хозяина спорогония плазмодия происходит в клетках</text>
+            <item flag = "0">Кишечника</item>
+            <item flag = "1">Стенки желудка</item>
+            <item flag = "0">Печени</item>
+            <item flag = "0">Крови</item>
+            <item flag = "0">Слюнных желез</item>
+    </question>
+	<question id = "37" size = "5" type = "1">
+            <text>Для малярийного плазмодия в теле комара Anopheles существуют все формы развития кроме</text>
+            <item flag = "1">Мерозоитов</item>
+            <item flag = "0">Макрогамет</item>
+            <item flag = "0">Оокинет</item>
+            <item flag = "0">Ооцист</item>
+            <item flag = "0">Спорозоитов</item>
+    </question>
+	<question id = "38" size = "5" type = "1">
+            <text>В цикле развития плазмодия в организме промежуточного хозяина можно выделить следующие стадии</text>
+            <item flag = "1">Тканевую шизогонию</item>
+            <item flag = "1">Эритроцитальную шизогонию</item>
+            <item flag = "0">Конъюгацию</item>
+            <item flag = "0">Спорогонию</item>
+            <item flag = "0">Эндодиогению</item>
+    </question>
+	<question id = "39" size = "5" type = "1">
+            <text>Стадиями жизненного цикла малярийного плазмодия в организме человека являются</text>
+            <item flag = "1">Мерозоиты</item>
+            <item flag = "1">Шизонты</item>
+            <item flag = "1">Гаметоциты</item>
+            <item flag = "0">Оокинеты</item>
+            <item flag = "0">Микро- и макрогаметы</item>
+    </question>
+	<question id = "40" size = "5" type = "1">
+            <text>Тканевая шизогония малярийных плазмодиев у человека происходит в клетках</text>
+            <item flag = "0">Мозга</item>
+            <item flag = "0">Кишечника</item>
+            <item flag = "0">Крови - эритроцитах</item>
+            <item flag = "1">Печени</item>
+            <item flag = "0">Спинномозговой жидкости</item>
+    </question>
+	<question id = "41" size = "5" type = "1">
+            <text>Стадиями жизненного цикла малярийного плазмодия в клетках печени человека являются</text>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "1">Трофозоиты</item>
+            <item flag = "1">Шизонты</item>
+            <item flag = "1">Мерозоиты</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "42" size = "5" type = "1">
+            <text>Тканевая шизогония (скрытый период) у Plasmodium falciparum в клетках печени человека длится</text>
+            <item flag = "0">8 суток</item>
+            <item flag = "0">30 суток</item>
+            <item flag = "0">12 суток</item>
+            <item flag = "1">6 суток</item>
+            <item flag = "0">1-2 дня</item>
+    </question>
+	<question id = "43" size = "4" type = "1">
+            <text>Тканевая шизогония (скрытый период) у Plasmodium vivax в клетках печени человека длится</text>
+            <item flag = "1">от 8 суток</item>
+            <item flag = "0">30 суток</item>
+            <item flag = "0">от 12 суток</item>
+            <item flag = "0">от 6 суток</item>
+    </question>
+	<question id = "44" size = "5" type = "1">
+            <text>Тканевая шизогония (скрытый период) у Plasmodium ovale в клетках печени человека длится</text>
+            <item flag = "0">1-2 дня</item>
+            <item flag = "0">15 суток</item>
+            <item flag = "0">12 суток</item>
+            <item flag = "0">6 суток</item>
+            <item flag = "1">9 суток</item>
+    </question>
+	<question id = "45" size = "5" type = "1">
+            <text>Тканевая шизогония у Plasmodium malaria в клетках печени человека длится</text>
+            <item flag = "0">8 суток</item>
+            <item flag = "1">15 суток</item>
+            <item flag = "0">12 суток</item>
+            <item flag = "0">6 суток</item>
+            <item flag = "0">Отсутствует</item>
+    </question>
+	<question id = "46" size = "5" type = "1">
+            <text>Для Plasmodium falciparum в клетках печени человека существуют стадии развития</text>
+            <item flag = "0">Гипнозоиты</item>
+            <item flag = "1">Тканевые трофозоиты</item>
+            <item flag = "1">Тканевые мерозоиты</item>
+            <item flag = "0">Зрелые гаметоциты</item>
+            <item flag = "0">Зрелые гаметы</item>
+    </question>
+	<question id = "47" size = "5" type = "1">
+            <text>Для Plasmodium malaria в клетках печение человека существуют формы развития</text>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "1">Тканевые трофозоиты</item>
+            <item flag = "1">Шизонты</item>
+            <item flag = "1">Тканевые мерозоиты</item>
+            <item flag = "0">Гипнозоиты</item>
+    </question>
+	<question id = "48" size = "5" type = "1">
+            <text>Для Plasmodium ovale в клетках печени человека существуют формы развития</text>
+            <item flag = "1">Гипнозоиты</item>
+            <item flag = "1">Тканевые трофозоиты</item>
+            <item flag = "1">Шизонты</item>
+            <item flag = "1">Тканевые мерозоиты</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "49" size = "5" type = "1">
+            <text>Отдаленные рецидивы малярии (от нескольких месяцев до 2-х лет после первичных приступов) возможны при</text>
+            <item flag = "1">Трехдневной малярии</item>
+            <item flag = "0">Тропической малярии</item>
+            <item flag = "1">Малярии в овале</item>
+            <item flag = "1">Выходе в кровь гипнозоитов</item>
+            <item flag = "0">Выходе в кровь гаметоцитов</item>
+    </question>
+	<question id = "50" size = "5" type = "1">
+            <text>Стадиями жизненного цикла малярийного плазмодия в эритроцитах крови человека являются</text>
+            <item flag = "1">Гаметоциты</item>
+            <item flag = "1">Шизонты</item>
+            <item flag = "1">Мерозоиты</item>
+            <item flag = "0">Тканевые трофозоиты</item>
+            <item flag = "1">Трофозоиты</item>
+    </question>
+	<question id = "51" size = "5" type = "1">
+            <text>Эритроцитальная шизогония Plasmodium malaria проходит в организме</text>
+            <item flag = "0">Комара рода Anopheles</item>
+            <item flag = "0">Комара рода Culex</item>
+            <item flag = "0">Москита</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Комара рода Aedes</item>
+    </question>
+	<question id = "52" size = "5" type = "1">
+            <text>48 часовая эритроцитальная шизогония характерна для</text>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "1">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Плазмодия, вызывающего четырехдневную малярию</item>
+    </question>
+	<question id = "53" size = "5" type = "1">
+            <text>72 часовая эритроцитальная шизогония характерна для</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium malaria</item>
+            <item flag = "1">Плазмодия, вызывающего четырехдневную малярию</item>
+    </question>
+	<question id = "54" size = "5" type = "1">
+            <text>Для плазмодиев в эритроцитальной шизогонии существуют стадии развития</text>
+            <item flag = "1">Кольцевидный трофозоит</item>
+            <item flag = "1">Юный трофозоит</item>
+            <item flag = "1">Взрослый трофозоит</item>
+            <item flag = "1">Незрелые шизонты</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "55" size = "5" type = "1">
+            <text>При трехдневной малярии в зрелом шизонте образуется следующее количество мерозоитов</text>
+            <item flag = "0">4-12</item>
+            <item flag = "0">6-12</item>
+            <item flag = "0">12-24</item>
+            <item flag = "1">12-18</item>
+            <item flag = "0">2-8</item>
+    </question>
+	<question id = "56" size = "5" type = "1">
+            <text>При четырехдневной малярии в зрелом шизонте образуется следующее количество мерозоитов</text>
+            <item flag = "0">4-12</item>
+            <item flag = "1">6-12</item>
+            <item flag = "0">12-24</item>
+            <item flag = "0">12-18</item>
+            <item flag = "0">2-8</item>
+    </question>
+	<question id = "57" size = "5" type = "1">
+            <text>При тропической малярии в зрелом шизонте образуется следующее количество мерозоитов</text>
+            <item flag = "0">4-12</item>
+            <item flag = "0">6-12</item>
+            <item flag = "1">12-24</item>
+            <item flag = "0">12-18</item>
+            <item flag = "0">2-8</item>
+    </question>
+	<question id = "58" size = "5" type = "1">
+            <text>При овале-малярии в зрелом шизонте образуется следующее количество мерозоитов</text>
+            <item flag = "1">4-12</item>
+            <item flag = "0">6-12</item>
+            <item flag = "0">12-24</item>
+            <item flag = "0">12-18</item>
+            <item flag = "0">2-8</item>
+    </question>
+	<question id = "59" size = "5" type = "1">
+            <text>В жизненном цикле Toxoplasma gondii известны типы размножения</text>
+            <item flag = "1">Шизогония</item>
+            <item flag = "1">Эндодиогения</item>
+            <item flag = "0">Конъюгация</item>
+            <item flag = "1">Спорогония</item>
+            <item flag = "0">Бинарное поперечное деление</item>
+    </question>
+	<question id = "60" size = "5" type = "1">
+            <text>Дефинитивные хозяева Toxoplasma gondii</text>
+            <item flag = "0">Насекомые</item>
+            <item flag = "0">Человек</item>
+            <item flag = "0">Птицы</item>
+            <item flag = "1">Представители семейства кошачьих</item>
+            <item flag = "0">Комары</item>
+    </question>
+	<question id = "61" size = "5" type = "1">
+            <text>Промежуточные хозяева Toxoplasma gondii</text>
+            <item flag = "0">Человек</item>
+            <item flag = "0">Кошачьи</item>
+            <item flag = "0">Грызуны</item>
+            <item flag = "0">Птицы</item>
+            <item flag = "1">Лягушки</item>
+    </question>
+	<question id = "62" size = "5" type = "1">
+            <text>В жизненном цикле токсоплазмы представители семейства кошачьих являются хозяевами</text>
+            <item flag = "0">Только окончательными</item>
+            <item flag = "1">Окончательными и промежуточными</item>
+            <item flag = "0">Только промежуточными в случае заражения псевдоцистами</item>
+            <item flag = "0">Только промежуточными в случае заражения цистами</item>
+            <item flag = "0">Только окончательными в случае заражения от грызунов</item>
+    </question>
+	<question id = "63" size = "5" type = "1">
+            <text>В организме человека токсоплазма размножается</text>
+            <item flag = "0">Гаметогонией</item>
+            <item flag = "0">Шизогонией</item>
+            <item flag = "1">Эндодиогенией</item>
+            <item flag = "0">Спорогонией</item>
+            <item flag = "1">Бесполым размножением</item>
+    </question>
+	<question id = "64" size = "5" type = "1">
+            <text>В организме человека известны формы развития токсоплазмы</text>
+            <item flag = "1">Цисты с брадизоитами</item>
+            <item flag = "1">Псевдоцисты с тахизоитами</item>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "0">Мерозоиты</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "65" size = "5" type = "1">
+            <text>В организме кошки токсоплазмы размножаются</text>
+            <item flag = "1">Гаметогонией</item>
+            <item flag = "1">Шизогонией</item>
+            <item flag = "1">Спорогонией</item>
+            <item flag = "1">Эндодиогенией</item>
+            <item flag = "1">Бесполым путем</item>
+    </question>
+	<question id = "66" size = "5" type = "1">
+            <text>Половое размножение Toxoplasma gondii идет у дефинитивного хозяина в клетках</text>
+            <item flag = "0">Головного мозга</item>
+            <item flag = "0">Крови</item>
+            <item flag = "0">Печени</item>
+            <item flag = "1">Кишечника</item>
+            <item flag = "0">Мышц</item>
+    </question>
+	<question id = "67" size = "5" type = "1">
+            <text>Эндодиогения токсоплазмы происходит в клетках</text>
+            <item flag = "1">Кишечника кошки</item>
+            <item flag = "1">Тканей кошки</item>
+            <item flag = "1">Тканей человека</item>
+            <item flag = "1">Кишечника человека</item>
+            <item flag = "0">Клетках крови человека</item>
+    </question>
+	<question id = "68" size = "5" type = "1">
+            <text>Образование зрелой ооцисты токсоплазмы происходит во (в)</text>
+            <item flag = "1">Внешней среде</item>
+            <item flag = "0">Кишечнике кошки</item>
+            <item flag = "0">Кишечнике человека</item>
+            <item flag = "0">Тканях человека</item>
+            <item flag = "0">Слюнных железах насекомого</item>
+    </question>
+	<question id = "69" size = "5" type = "1">
+            <text>Спорогония токсоплазмы происходит в</text>
+            <item flag = "1">Ооцисте</item>
+            <item flag = "0">Оокинете</item>
+            <item flag = "0">Псевдоцисте</item>
+            <item flag = "0">Тканевой цисте</item>
+            <item flag = "0">Шизонте</item>
+    </question>
+	<question id = "70" size = "5" type = "1">
+            <text>В жизненном цикле балантидия известны типы размножения</text>
+            <item flag = "0">Почкование</item>
+            <item flag = "1">Поперечное деление</item>
+            <item flag = "0">Продольное деление</item>
+            <item flag = "1">Конъюгация</item>
+            <item flag = "0">Спорогония</item>
+    </question>
+	<question id = "71" size = "5" type = "1">
+            <text>Для Balantidium coli известны формы развития</text>
+            <item flag = "1">Циста</item>
+            <item flag = "0">Псевдоциста</item>
+            <item flag = "1">Трофозоит</item>
+            <item flag = "0">Шизонт</item>
+            <item flag = "0">Мерозоит</item>
+    </question>
+	<question id = "72" size = "5" type = "1">
+            <text>Наибольший круг хозяев поражает</text>
+            <item flag = "1">Toxoplasma gondii</item>
+            <item flag = "0">Balantidium coli</item>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Entamoeba histolytica</item>
+    </question>
+	<question id = "73" size = "5" type = "1">
+            <text>Способ заражения человека малярией</text>
+            <item flag = "1">Трансмиссивный</item>
+            <item flag = "1">Трансплацентарный</item>
+            <item flag = "1">Гемотрансфузионный</item>
+            <item flag = "0">При использовании необеззараженных медицинских инструментов</item>
+            <item flag = "0">Контаминативный</item>
+    </question>
+	<question id = "74" size = "5" type = "1">
+            <text>Основной путь заражения человека малярией</text>
+            <item flag = "1">Через укус комаров</item>
+            <item flag = "0">При половом контакте</item>
+            <item flag = "0">При переливании крови</item>
+            <item flag = "0">При употреблении немытых овощей</item>
+            <item flag = "0">От матери к плоду</item>
+    </question>
+	<question id = "75" size = "5" type = "1">
+            <text>Способы заражения человека токсоплазмозом</text>
+            <item flag = "1">Фекально-оральный</item>
+            <item flag = "1">Трансплацентарный</item>
+            <item flag = "1">Гемотрансфузионный</item>
+            <item flag = "1">Алиментарный</item>
+            <item flag = "0">Контаминативный</item>
+    </question>
+	<question id = "76" size = "5" type = "1">
+            <text>Основной путь проникновения токсоплазмы в организм хозяина</text>
+            <item flag = "0">Перкутанный</item>
+            <item flag = "1">Пероральный</item>
+            <item flag = "0">Трансплацентарный</item>
+            <item flag = "0">Половой</item>
+            <item flag = "0">Гемотрансфузионный</item>
+    </question>
+	<question id = "77" size = "5" type = "1">
+            <text>Токсоплазмы в организм реципиента могут быть занесены трансплантантами</text>
+            <item flag = "1">Сердцем</item>
+            <item flag = "1">Почками</item>
+            <item flag = "1">Печенью</item>
+            <item flag = "1">Легкими</item>
+            <item flag = "1">Поджелудочной железой</item>
+    </question>
+	<question id = "78" size = "5" type = "1">
+            <text>Человек заражается токсоплазмозом при</text>
+            <item flag = "1">Употреблении сырого мяса</item>
+            <item flag = "1">Контакте с зараженной кошкой</item>
+            <item flag = "1">Употреблении немытых овощей</item>
+            <item flag = "0">Контакте с зараженными грызунами</item>
+            <item flag = "1">Переливании крови</item>
+    </question>
+	<question id = "79" size = "5" type = "1">
+            <text>Способ заражения человека балантидиазом</text>
+            <item flag = "0">Трансмиссивный</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Половой</item>
+            <item flag = "1">Пероральный</item>
+            <item flag = "0">Перкутанный</item>
+    </question>
+	<question id = "80" size = "5" type = "1">
+            <text>Трансмиссивно человек заражается</text>
+            <item flag = "1">Трипаносомозом</item>
+            <item flag = "0">Амебиазом</item>
+            <item flag = "1">Малярией</item>
+            <item flag = "0">Балантидиазом</item>
+            <item flag = "0">Токсоплазмозом</item>
+    </question>
+	<question id = "81" size = "5" type = "1">
+            <text>Облигатно-трансмиссивными заболеваниями являются</text>
+            <item flag = "1">Малярия</item>
+            <item flag = "1">Лейшманиозы</item>
+            <item flag = "0">Токсоплазмоз</item>
+            <item flag = "0">Балантидиаз</item>
+            <item flag = "1">Трипаносомоз</item>
+    </question>
+	<question id = "82" size = "5" type = "1">
+            <text>Простейшие, обитающие в клетках тканей хозяина и передающиеся трансмиссивно</text>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "0">Entamoeba gingivalis</item>
+    </question>
+	<question id = "83" size = "5" type = "1">
+            <text>Алиментарно человека заражается</text>
+            <item flag = "1">Токсоплазмозом</item>
+            <item flag = "0">Балантидиазом</item>
+            <item flag = "0">Малярией</item>
+            <item flag = "0">Лейшманиозом</item>
+            <item flag = "0">Трипаносомозом</item>
+    </question>
+	<question id = "84" size = "5" type = "1">
+            <text>Перорально человек заражается</text>
+            <item flag = "1">Амебиазом</item>
+            <item flag = "1">Лямблиозом</item>
+            <item flag = "1">Токсоплазмозом</item>
+            <item flag = "1">Балантидиазом</item>
+            <item flag = "0">Малярией</item>
+    </question>
+	<question id = "85" size = "5" type = "1">
+            <text>Гемотрансфузионно человек может заразиться</text>
+            <item flag = "0">Лямблиозом</item>
+            <item flag = "1">Малярией</item>
+            <item flag = "1">Висцеральным лейшманиозом</item>
+            <item flag = "1">Токсоплазмозом</item>
+            <item flag = "0">Балантидиазом</item>
+    </question>
+	<question id = "86" size = "5" type = "1">
+            <text>Трансплацентарно человек может заразиться</text>
+            <item flag = "0">Трихомониазом</item>
+            <item flag = "0">Лейшманиозом</item>
+            <item flag = "0">Балантидиазом</item>
+            <item flag = "1">Токсоплазмозом</item>
+            <item flag = "1">Малярией</item>
+    </question>
+	<question id = "87" size = "5" type = "1">
+            <text>Источником заражения малярией служат</text>
+            <item flag = "0">Комар рода Culex</item>
+            <item flag = "1">Больной человек на 9-10 день заболевания</item>
+            <item flag = "0">Комар рода Anopheles</item>
+            <item flag = "0">Больной человека в первые дни заражения</item>
+            <item flag = "1">Паразиноноситель</item>
+    </question>
+	<question id = "88" size = "5" type = "1">
+            <text>Основными источниками заражения человека токсоплазмозом являются инвазированные</text>
+            <item flag = "0">Птицы</item>
+            <item flag = "0">Люди</item>
+            <item flag = "0">Собаки</item>
+            <item flag = "1">Кошки</item>
+            <item flag = "0">Коровы</item>
+    </question>
+	<question id = "89" size = "5" type = "1">
+            <text>Основными источниками заражения балантидиазом являются</text>
+            <item flag = "1">Цистоносители</item>
+            <item flag = "1">Домашние и дикие свиньи</item>
+            <item flag = "1">Больные люди</item>
+            <item flag = "0">Кошки и собаки</item>
+            <item flag = "0">Крысы</item>
+    </question>
+	<question id = "90" size = "5" type = "1">
+            <text>Природно-очаговое заболевание, вызванное представителями класса Sporozoa</text>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "0">Кокцидоз</item>
+            <item flag = "0">Малярия</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Балантидиаз</item>
+    </question>
+	<question id = "91" size = "5" type = "1">
+            <text>Природно-очаговыми заболеваниями не являются</text>
+            <item flag = "1">Амебиаз</item>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "1">Тропическая малярия</item>
+            <item flag = "0">Трипаносомоз</item>
+            <item flag = "1">Лямблиоз</item>
+    </question>
+	<question id = "92" size = "5" type = "1">
+            <text>Антропонозные нетрансмиссивные заболевания</text>
+            <item flag = "1">Лямблиоз</item>
+            <item flag = "0">Малярия</item>
+            <item flag = "1">Амебиаза</item>
+            <item flag = "0">Токсоплазмоз</item>
+            <item flag = "0">Балантидиаз</item>
+    </question>
+	<question id = "93" size = "5" type = "1">
+            <text>Антропозоонозные нетрансмиссивные заболевания</text>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "0">Малярия</item>
+            <item flag = "1">Балантидиаз</item>
+    </question>
+	<question id = "94" size = "5" type = "1">
+            <text>Антропонозное заболевание, вызванное представителями класса Sporozoa</text>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "0">Токсоплазмоз</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "1">Малярия</item>
+            <item flag = "0">Балантидиаз</item>
+    </question>
+	<question id = "95" size = "5" type = "1">
+            <text>Антропозоонозные трансмиссивные заболевания</text>
+            <item flag = "0">Токсоплазмоз</item>
+            <item flag = "1">Лейшманиоз</item>
+            <item flag = "0">Балантидиаз</item>
+            <item flag = "1">Трипаносомоз</item>
+            <item flag = "0">Малярия</item>
+    </question>
+	<question id = "96" size = "5" type = "1">
+            <text>Антропозоонозное заболевание, вызванное представителем класса Infuzoria</text>
+            <item flag = "0">Токсоплазмоз</item>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "0">Малярия</item>
+            <item flag = "1">Балантидиаз</item>
+            <item flag = "0">Амебиаз</item>
+    </question>
+	<question id = "97" size = "5" type = "1">
+            <text>Антропозоонозное заболевание, вызванное представителем класса Sporozoa</text>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "0">Малярия</item>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Балантидиаз</item>
+    </question>
+	<question id = "98" size = "5" type = "1">
+            <text>Патогенные для человека формы в классе Sporozoa</text>
+            <item flag = "1">Псевдоцисты (эндозоиты)</item>
+            <item flag = "1">Истинные цисты (цистозоиты)</item>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "1">Мерозоиты</item>
+    </question>
+	<question id = "99" size = "5" type = "1">
+            <text>Патогенная для человека форма в классе Infuzoria</text>
+            <item flag = "0">Ооциста</item>
+            <item flag = "1">Вегетативная форма (трофозоит)</item>
+            <item flag = "0">Спорозоит</item>
+            <item flag = "0">Циста</item>
+            <item flag = "0">Мерозоит</item>
+    </question>
+	<question id = "100" size = "5" type = "1">
+            <text>Инвазионные стадии для переносчика в цикле развития малярийного плазмодия</text>
+            <item flag = "0">Тканевые трофозоиты</item>
+            <item flag = "0">Зрелые гаметы</item>
+            <item flag = "1">Гаметоциты</item>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "0">Шизонты</item>
+    </question>
+	<question id = "101" size = "5" type = "1">
+            <text>Инвазионные стадии для человека в цикле развития малярийного плазмодия</text>
+            <item flag = "0">Тканевые трофозоиты</item>
+            <item flag = "0">Зрелые гаметоциты</item>
+            <item flag = "0">Тканевые мерозоиты</item>
+            <item flag = "1">Спорозоиты</item>
+            <item flag = "0">Ооцисты</item>
+    </question>
+	<question id = "102" size = "5" type = "1">
+            <text>Инвазионными стадиями для человека в цикле развития Toxoplasma gondii при трансплацентарном способе заражения являются</text>
+            <item flag = "0">Гаметоциты</item>
+            <item flag = "1">Эндозоиты</item>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "0">Цистозоиты</item>
+            <item flag = "0">Мерозоиты</item>
+    </question>
+	<question id = "103" size = "5" type = "1">
+            <text>Инвазионными стадиями для человека в цикле развития Toxoplasma gondii при алиментарном способе заражения являются</text>
+            <item flag = "1">Псевдоцисты (эндозоиты)</item>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "1">Истинные цисты (цистозоиты)</item>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "104" size = "5" type = "1">
+            <text>Инвазионными стадиями для человека в цикле развития Toxoplasma gondii при геооральном способе заражения являются</text>
+            <item flag = "0">Псевдоцисты с тахизоитами</item>
+            <item flag = "0">Истинные цисты с брадизоитами</item>
+            <item flag = "0">Мерозоиты</item>
+            <item flag = "1">Зрелые ооцисты со спорозоитами</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "105" size = "5" type = "1">
+            <text>Фактором передачи ооцист токсоплазм являются</text>
+            <item flag = "0">Аэрозоли в воздухе</item>
+            <item flag = "1">Контаминированная возбудителем почва</item>
+            <item flag = "0">Мясо зараженных животных</item>
+            <item flag = "0">Экскременты зараженного человека</item>
+            <item flag = "1">Экскременты зараженных кошачьих</item>
+    </question>
+	<question id = "106" size = "5" type = "1">
+            <text>Фактором передачи тканевых цист токсоплазм является</text>
+            <item flag = "1">Мясо зараженных животных</item>
+            <item flag = "0">Кровь зараженных животных</item>
+            <item flag = "0">Контаминированная возбудителем почва</item>
+            <item flag = "0">Грязные руки</item>
+            <item flag = "0">Кровососущие насекомые</item>
+    </question>
+	<question id = "107" size = "5" type = "1">
+            <text>В почве могут быть обнаружены стадии развития токсоплазм</text>
+            <item flag = "0">Тахизоиты</item>
+            <item flag = "0">Брадизоиты</item>
+            <item flag = "0">Цисты</item>
+            <item flag = "1">Ооцисты</item>
+            <item flag = "0">Псевдоцисты</item>
+    </question>
+	<question id = "108" size = "5" type = "1">
+            <text>Инвазионными формами Balantidium coli для человека являются</text>
+            <item flag = "0">Четырехъядерные цисты</item>
+            <item flag = "1">Вегетативные формы</item>
+            <item flag = "1">Цисты</item>
+            <item flag = "0">Промастиготы</item>
+            <item flag = "0">Ооцисты</item>
+    </question>
+	<question id = "109" size = "5" type = "1">
+            <text>Особенности клинического проявления малярии</text>
+            <item flag = "0">Понос и частая рвота</item>
+            <item flag = "1">Периодические приступы лихорадки</item>
+            <item flag = "0">Образование кожных язв</item>
+            <item flag = "1">Увеличение печени, селезенки</item>
+            <item flag = "1">Анемия</item>
+    </question>
+	<question id = "110" size = "5" type = "1">
+            <text>Малярию со злокачественным и летальным исходом может вызвать</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "111" size = "5" type = "1">
+            <text>Лихорадка при малярии связана с</text>
+            <item flag = "0">Выходом мерозоитов из клеток печени</item>
+            <item flag = "1">Выходом мерозоитов из эритроцитов</item>
+            <item flag = "0">Шизогонией</item>
+            <item flag = "0">Спорогонией</item>
+            <item flag = "0">Гаметогонией</item>
+    </question>
+	<question id = "112" size = "5" type = "1">
+            <text>Вид малярийного плазмодия, представляющий наибольшую клиническую значимость для стран Европы, включая Россию</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "113" size = "5" type = "1">
+            <text>Плазмодии, способные сохранять паразитемию на минимальном уровне и вызывать у человека паразитоносительство</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "114" size = "5" type = "1">
+            <text>У человека синхронные пароксизмы температуры с интервалом 48 часов вызывают</text>
+            <item flag = "1">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "1">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "115" size = "4" type = "1">
+            <text>У человека синхронные пароксизмы температуры с интервалом 72 часа вызывает</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium malaria</item>
+    </question>
+	<question id = "116" size = "5" type = "1">
+            <text>У человека постоянную лихорадку или лихорадку с отсутствием правильно чередующихся пароксизмов вызывает</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "117" size = "4" type = "1">
+            <text>Инкубационный период малярии у человека связан с процессом тканевой шизогонии в</text>
+            <item flag = "0">Селезенке</item>
+            <item flag = "1">Печени</item>
+            <item flag = "0">Эритроцитах</item>
+            <item flag = "0">Лимфе</item>
+    </question>
+	<question id = "118" size = "5" type = "1">
+            <text>Генетически невосприимчивы к заражению Plasmodium vivax</text>
+            <item flag = "1">Некоторые коренные жители Западной Африки</item>
+            <item flag = "0">Арабы</item>
+            <item flag = "0">Коренные жители Юго-Восточной Азии</item>
+            <item flag = "0">Коренные жители Юго-Западной Азии</item>
+            <item flag = "0">Россияне</item>
+    </question>
+	<question id = "119" size = "5" type = "1">
+            <text>Невосприимчивость человека к малярии связана с</text>
+            <item flag = "1">Отсутствием у коренных жителей Западной Африки в мембране эритроцитов антигенов системы Daffu</item>
+            <item flag = "1">Носителем аллеля HbS, определяющего синтез атипичного гемоглобина</item>
+            <item flag = "1">Носительством аномального гемоглобина при α, β-талассемии</item>
+            <item flag = "1">Пассивным иммунитетом у новорожденных, полученным от матерей</item>
+            <item flag = "1">Носительством аномального гемоглобина при серповидно-клеточной анемии</item>
+    </question>
+	<question id = "120" size = "5" type = "1">
+            <text>Особенности клинического проявления токсоплазмоза связаны с</text>
+            <item flag = "1">Поражением центральной нервной системы</item>
+            <item flag = "1">Поражением глаз</item>
+            <item flag = "1">Увеличением лимфоузлов</item>
+            <item flag = "0">Бессимптомным паразитоносительством</item>
+            <item flag = "0">Постоянной лихорадкой</item>
+    </question>
+	<question id = "121" size = "5" type = "1">
+            <text>Токсоплазменная инфекция особенно опасна для</text>
+            <item flag = "1">Лиц со сниженным иммунитетом</item>
+            <item flag = "1">Плода (при трансплацентарной передаче возбудителя)</item>
+            <item flag = "0">Для лиц с нормальным иммунитетом</item>
+            <item flag = "1">Больных СПИДом</item>
+            <item flag = "0">Больных гриппом</item>
+    </question>
+	<question id = "122" size = "5" type = "1">
+            <text>Группой риска в отношении заражения токсоплазмозом являются беременные женщины</text>
+            <item flag = "1">Неинфицированные токсоплазмами до беременности</item>
+            <item flag = "0">Инфицированные токсоплазмами до беременности</item>
+            <item flag = "0">Родившие ребенка с врожденным токсоплазмозом ранее</item>
+            <item flag = "0">Резус отрицательные</item>
+            <item flag = "0">Резус положительные</item>
+    </question>
+	<question id = "123" size = "5" type = "1">
+            <text>Заражение токсоплазмозом во время беременности опасно потому, что токсоплазмы могут вызвать</text>
+            <item flag = "1">Гибель плода</item>
+            <item flag = "0">Гибель матери</item>
+            <item flag = "1">Мутации</item>
+            <item flag = "1">Вызвать развитие гидроцефалии у плода</item>
+            <item flag = "1">Вызвать аномалии развития у плода</item>
+    </question>
+	<question id = "124" size = "5" type = "1">
+            <text>Все положения о врожденном токсоплазмозе верны, кроме</text>
+            <item flag = "0">Возможны тяжелые поражения мозга у плода</item>
+            <item flag = "0">Группа риска в отношении врожденного токсоплазмоза - неинфицированные до беременности женщины</item>
+            <item flag = "1">Женщины, заразившиеся токсоплазмой до беременности, могут передать токсоплазму плоду</item>
+            <item flag = "0">Гибель инфицированных детей на первом году жизни </item>
+            <item flag = "0">Возможны поражения конечностей плода</item>
+    </question>
+	<question id = "125" size = "5" type = "1">
+            <text>Balantidium coli оказывает патогенное действие на организм человека</text>
+            <item flag = "0">Увеличение селезенки</item>
+            <item flag = "1">Кровавый понос</item>
+            <item flag = "0">Увеличение печени</item>
+            <item flag = "1">Изъязвления кишечника</item>
+            <item flag = "0">Язвы на коже</item>
+    </question>
+	<question id = "126" size = "5" type = "1">
+            <text>Особенности клинического проявления балантидиаза</text>
+            <item flag = "0">Воспаление легких</item>
+            <item flag = "1">Язвенное поражение толстого кишечника</item>
+            <item flag = "0">Воспаление мозга</item>
+            <item flag = "1">Бессимптомное носительство</item>
+            <item flag = "0">Периодические приступы лихорадки</item>
+    </question>
+	<question id = "127" size = "5" type = "1">
+            <text>Для лабораторной диагностики малярии используют методы</text>
+            <item flag = "1">Микроскопическое исследование мазка крови</item>
+            <item flag = "1">Микроскопическое исследование толстой капли крови</item>
+            <item flag = "1">Иммунологические реакции</item>
+            <item flag = "0">Заражение лабораторных животных</item>
+            <item flag = "0">Биопсия печени</item>
+    </question>
+	<question id = "128" size = "5" type = "1">
+            <text>При исследовании мазка крови, окрашенного по Романовскому-Гимза в пораженных эритроцитах, обнаруживаются стадии малярийного плазмодия</text>
+            <item flag = "1">Кольцевидный трофозоит</item>
+            <item flag = "0">Оокинета</item>
+            <item flag = "1">Взрослый трофозоит</item>
+            <item flag = "1">Шизонт</item>
+            <item flag = "0">Микрогаметы</item>
+    </question>
+	<question id = "129" size = "5" type = "1">
+            <text>Кровь для исследования на малярию у больного рекомендовано брать</text>
+            <item flag = "1">В период приступа</item>
+            <item flag = "0">Между приступами</item>
+            <item flag = "1">Сразу после окончания приступа</item>
+            <item flag = "0">В любое время суток</item>
+            <item flag = "0">Ночью</item>
+    </question>
+	<question id = "130" size = "5" type = "1">
+            <text>Наиболее высокая численность паразитов в организме человека характерна для</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Balantidium coli</item>
+    </question>
+	<question id = "131" size = "5" type = "1">
+            <text>При окраске мазка крови больного малярией по Романовскому-Гимза</text>
+            <item flag = "1">Цитоплазма паразита голубая</item>
+            <item flag = "1">Ядро паразита рубиновое</item>
+            <item flag = "1">Вакуоль паразита не окрашивается</item>
+            <item flag = "1">Цитоплазма эритроцита не окрашивается</item>
+            <item flag = "0">Мембрана паразита синяя</item>
+    </question>
+	<question id = "132" size = "5" type = "1">
+            <text>При исследовании мазка периферической крови, окрашенного по Романовскому-Гимза, в эритроцитах обнаружен паразит амебовидной формы с хорошо выраженными ложноножками - это</text>
+            <item flag = "1">Шизонт Plasmodium vivax</item>
+            <item flag = "0">Шизонт Plasmodium falciparum</item>
+            <item flag = "0">Гамонт Plasmodium ovale</item>
+            <item flag = "0">Шизонт Plasmodium ovale</item>
+            <item flag = "0">Мерозоит Plasmodium ovale</item>
+    </question>
+	<question id = "133" size = "5" type = "1">
+            <text>При исследовании мазка периферической крови, окрашенного по Романовскому-Гимза, в эритроците обнаружено несколько мелких, занимающих его 1/6 часть кольцевидных паразитов</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "0">Plasmodium malaria</item>
+            <item flag = "0">Sarcocystis hominis</item>
+    </question>
+	<question id = "134" size = "5" type = "1">
+            <text>При исследовании мазка крови, окрашенного по Романовскому-Гимза в эритроцитах обнаружены лентовидные формы</text>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "0">Plasmodium falciparum</item>
+            <item flag = "0">Plasmodium ovale</item>
+            <item flag = "1">Plasmodium malaria</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+    </question>
+	<question id = "135" size = "5" type = "1">
+            <text>При микроскопическом исследовании мазка крови, окрашенного по Романовскому-Гимза, у больного могут быть выявлены возбудители</text>
+            <item flag = "1">Малярии</item>
+            <item flag = "0">Лейшманиоза</item>
+            <item flag = "0">Токсоплазмоза</item>
+            <item flag = "1">Африканского трипаносомоза</item>
+            <item flag = "0">Амебиаза</item>
+    </question>
+	<question id = "136" size = "5" type = "1">
+            <text>Методы диагностики токсоплазмоза</text>
+            <item flag = "1">Биологические пробы</item>
+            <item flag = "1">Исследование пунктатов спинномозговой жидкости</item>
+            <item flag = "1">Биопсия лимфоузлов</item>
+            <item flag = "1">Биопсия тканей плаценты</item>
+            <item flag = "0">Исследование толстой капли крови</item>
+    </question>
+	<question id = "137" size = "5" type = "1">
+            <text>При гистологическом исследовании тканей лимфатического узла у больного обнаружены внутриклеточные организмы полулунной формы. Поставьте предположительный диагноз</text>
+            <item flag = "0">Трехдневная малярия</item>
+            <item flag = "0">Четырехдневная малярия</item>
+            <item flag = "0">Тропическая малярия</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Балантидиаз</item>
+    </question>
+	<question id = "138" size = "5" type = "1">
+            <text>Методы диагностики балантидиаза</text>
+            <item flag = "0">Биопсия лимфоузлов</item>
+            <item flag = "0">Исследование мазка крови</item>
+            <item flag = "0">Исследование мазка дуоденального содержимого</item>
+            <item flag = "1">Исследование мазка фекалий</item>
+            <item flag = "0">Биопсия грудины</item>
+    </question>
+	<question id = "139" size = "5" type = "1">
+            <text>Для лабораторной диагностики балантидиаза проводят микроскопию мазка</text>
+            <item flag = "0">Мокроты</item>
+            <item flag = "0">Крови</item>
+            <item flag = "1">Фекалий</item>
+            <item flag = "0">Мочи</item>
+            <item flag = "0">Пунктата кожных язв</item>
+    </question>
+	<question id = "140" size = "5" type = "1">
+            <text>В мазке фекалий больного балантидиазом обнаруживают</text>
+            <item flag = "1">Цисты</item>
+            <item flag = "1">Трофозоиты</item>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "0">Мерозоиты</item>
+            <item flag = "0">Псевдоцисты</item>
+    </question>
+	<question id = "141" size = "5" type = "1">
+            <text>В мазке фекалий обнаружены вегетативные формы ресничного простейшего с палочковидным ядром; предположительный диагноз</text>
+            <item flag = "0">Кишечный трихомониаз</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "1">Балантидиаз</item>
+            <item flag = "0">Лейшманиоз</item>
+    </question>
+	<question id = "142" size = "5" type = "1">
+            <text>Меры профилактики малярии</text>
+            <item flag = "1">Борьба с переносчиками</item>
+            <item flag = "0">Мытье фруктов и овощей</item>
+            <item flag = "1">Применение индивидуальных средств защиты</item>
+            <item flag = "0">Соблюдение правил личной гигиены</item>
+            <item flag = "1">Лечение больных и паразитоносителей</item>
+    </question>
+	<question id = "143" size = "3" type = "1">
+            <text>Цель химиопрофилактики малярии - это профилактика</text>
+            <item flag = "0">Заражения</item>
+            <item flag = "1">Малярийного приступа</item>
+            <item flag = "1">Тяжелых осложнений</item>
+    </question>
+	<question id = "144" size = "5" type = "1">
+            <text>Меры профилактики токсоплазмоза </text>
+            <item flag = "1">Ветеринарный надзор за домашними кошками </item>
+            <item flag = "1">Мытье рук после контакта с сырым мясом </item>
+            <item flag = "1">Мытье фруктов и овощей</item>
+            <item flag = "1">Не дегустировать сырой фарш</item>
+            <item flag = "0">Защита от укусов клопов</item>
+    </question>
+	<question id = "145" size = "5" type = "1">
+            <text>Меры, гарантирующие предупреждение заражения человека токсоплазмой от домашней кошки</text>
+            <item flag = "1">Обследовать кошку в ветеринарной лечебнице и убедиться, что она не инфицирована</item>
+            <item flag = "1">Ежедневно удалять кошачьи экскременты</item>
+            <item flag = "1">Не кормить кошку сырыми мясными продуктами</item>
+            <item flag = "1">Не выпускать кошку из дома</item>
+            <item flag = "1">Пролечить инфицированную кошку </item>
+    </question>
+	<question id = "146" size = "5" type = "1">
+            <text>Меры профилактики балантидиаза</text>
+            <item flag = "0">Борьба с переносчиками </item>
+            <item flag = "1">Мытье рук, овощей и фруктов</item>
+            <item flag = "0">Вакцинация людей</item>
+            <item flag = "1">Кипячение воды</item>
+            <item flag = "0">Тщательная кулинарная обработка свинины</item>
+    </question>
+	<question id = "147" size = "5" type = "1">
+            <text>Борьба с кровососущими переносчиками является мерой профилактики</text>
+            <item flag = "0">Амебиаза</item>
+            <item flag = "1">Трипаносомоза</item>
+            <item flag = "1">Малярии</item>
+            <item flag = "0">Токсоплазмоза</item>
+            <item flag = "0">Балантидиаза</item>
+    </question>
+	<question id = "148" size = "5" type = "1">
+            <text>Кипячение воды, мытье фруктов и овощей являются мерами профилактики</text>
+            <item flag = "1">Амебиаза</item>
+            <item flag = "0">Малярии</item>
+            <item flag = "1">Лямблиоза</item>
+            <item flag = "1">Балантидиаза</item>
+            <item flag = "0">Лейшманиоза</item>
+    </question>
+	<question id = "149" size = "5" type = "1">
+            <text>Вакцинация (прививка живой культуры) является мерой профилактики</text>
+            <item flag = "1">Лейшманиоза</item>
+            <item flag = "0">Амебиаза</item>
+            <item flag = "1">Малярии</item>
+            <item flag = "0">Балантидиаза</item>
+            <item flag = "0">Лямблиоза</item>
+    </question>
+	<question id = "150" size = "5" type = "1">
+            <text>Ветеринарный надзор за домашними кошками является мерой профилактики</text>
+            <item flag = "0">Амебиаза</item>
+            <item flag = "0">Кишечного трихомониаза</item>
+            <item flag = "0">Балантидиаза</item>
+            <item flag = "1">Токсоплазмоза</item>
+            <item flag = "0">Малярии</item>
+    </question>
+	<question id = "151" size = "5" type = "1">
+            <text>Борьба с комарами является мерой профилактики</text>
+            <item flag = "1">Трехдневной малярии</item>
+            <item flag = "1">Четырехдневной малярии</item>
+            <item flag = "1">Тропической малярии</item>
+            <item flag = "1">Малярии овале</item>
+            <item flag = "0">Кожного лейшманиоза</item>
+    </question>
+	<question id = "152" size = "5" type = "1">
+            <text>Запрет на дегустацию сырого фарша является мерой профилактики</text>
+            <item flag = "0">Лейшманиоза</item>
+            <item flag = "0">Малярии</item>
+            <item flag = "0">Трипаносомоза</item>
+            <item flag = "1">Токсоплазмоза</item>
+            <item flag = "0">Балантидиаза</item>
+    </question>
+	<question id = "153" size = "5" type = "1">
+            <text>Простейшие, вызывающие кожное заболевание </text>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "0">Leichmania donovani</item>
+            <item flag = "0">Trichomonas hominis</item>
+    </question>
+	<question id = "154" size = "5" type = "1">
+            <text>Более одного жгутика имеют</text>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Trichomonas urogenitalis</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+    </question>
+	<question id = "155" size = "5" type = "1">
+            <text>Трансмиссивные заболевания</text>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "1">Трипаносомоз</item>
+            <item flag = "0">Трихомониаз</item>
+            <item flag = "1">Слизистый лейшманиоз</item>
+            <item flag = "1">Болезнь Чагаса</item>
+    </question>
+	<question id = "156" size = "5" type = "1">
+            <text>Возможная локализация Trypanosoma gambiense в организме</text>
+            <item flag = "1">Кровь</item>
+            <item flag = "0">Кожа</item>
+            <item flag = "1">Лимфатические узлы</item>
+            <item flag = "1">Спинномозговая жидкость</item>
+            <item flag = "1">Головной мозг</item>
+    </question>
+	<question id = "157" size = "5" type = "1">
+            <text>Свободноживущие простейшие</text>
+            <item flag = "0">Entamoeba gingivalis</item>
+            <item flag = "1">Acanthamoeba castellani</item>
+            <item flag = "0">Entamoeba coli</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Naegleria fowleri</item>
+    </question>
+	<question id = "158" size = "5" type = "1">
+            <text>Природно-очаговые заболевания</text>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "1">Кожный лейшманиоз</item>
+            <item flag = "0">Трихомониаз</item>
+            <item flag = "1">Болезнь Чагаса</item>
+            <item flag = "1">Сонная болезнь</item>
+    </question>
+	<question id = "159" size = "5" type = "1">
+            <text>Простейшие, передающиеся человеку инокулятивно</text>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Naegleria fowleri</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Leichmania donovani</item>
+            <item flag = "0">Trichomonas urogenitalis</item>
+    </question>
+	<question id = "160" size = "5" type = "1">
+            <text>Локализация Lamblia intestinalis в организме человека</text>
+            <item flag = "0">Печень</item>
+            <item flag = "0">Желудок</item>
+            <item flag = "1">Двенадцатиперстная кишка</item>
+            <item flag = "0">Толстый кишечник</item>
+            <item flag = "1">Тонкий кишечник</item>
+    </question>
+	<question id = "161" size = "5" type = "1">
+            <text>Простейшие, обитающие в крови человека на первой стадии развития болезни</text>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "0">Leichmania mexicana</item>
+            <item flag = "1">Trypanosoma rhodesiense</item>
+    </question>
+	<question id = "162" size = "5" type = "1">
+            <text>Простейшие, способные к образованию цист</text>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Leichmania mexicana</item>
+            <item flag = "0">Trypanosoma rhodesiense</item>
+    </question>
+	<question id = "163" size = "5" type = "1">
+            <text>Жгутиковые простейшие</text>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Entamoeba coli</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "1">Trichomonas hominis</item>
+    </question>
+	<question id = "164" size = "5" type = "1">
+            <text>Локализация Leichmania donovani в организме человека</text>
+            <item flag = "1">Печень</item>
+            <item flag = "1">Подкожная жировая клетчатка</item>
+            <item flag = "1">Лимфатические узлы</item>
+            <item flag = "0">Спинномозговая жидкость</item>
+            <item flag = "1">Костный мозг</item>
+    </question>
+	<question id = "165" size = "5" type = "1">
+            <text>Простейшие - паразиты желудочно-кишечного тракта</text>
+            <item flag = "1">Entamoeba gingivalis</item>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Entamoeba histolytica</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Trichomonas hominis</item>
+    </question>
+	<question id = "166" size = "5" type = "1">
+            <text>Простейшие с ундулирующей мембраной</text>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trichomonas urogenitalis</item>
+    </question>
+	<question id = "167" size = "5" type = "1">
+            <text>Простейшие, заражающие человека без участия переносчика</text>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Acanthamoeba castellani</item>
+            <item flag = "1">Entamoeba coli</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "1">Lamblia intestinalis</item>
+    </question>
+	<question id = "168" size = "5" type = "1">
+            <text>Возможная локализация Entamoeba histolytica в организме человека</text>
+            <item flag = "1">Печень</item>
+            <item flag = "0">Желудок</item>
+            <item flag = "0">Двенадцатиперстная кишка</item>
+            <item flag = "1">Толстый кишечник</item>
+            <item flag = "1">Мозг</item>
+    </question>
+	<question id = "169" size = "5" type = "1">
+            <text>Простейшие - паразиты желудочно-кишечного тракта человека</text>
+            <item flag = "1">Balantidium coli</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Leichmania donovani</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "0">Toxoplasma gondii</item>
+    </question>
+	<question id = "170" size = "5" type = "1">
+            <text>Внутриклеточные паразиты человека</text>
+            <item flag = "0">Balantidium coli</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Leichmania donovani</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+            <item flag = "1">Toxoplasma gondii</item>
+    </question>
+	<question id = "171" size = "5" type = "1">
+            <text>Морфологические особенности Toxoplasma gondii - наличие</text>
+            <item flag = "1">Коноида</item>
+            <item flag = "0">Цитостома</item>
+            <item flag = "1">Роптрий</item>
+            <item flag = "0">Ресничек</item>
+            <item flag = "0">Бобовидного ядра</item>
+    </question>
+	<question id = "172" size = "5" type = "1">
+            <text>Стадии развития Toxoplasma gondii в желудочно-кишечном тракте кошки</text>
+            <item flag = "1">Незрелые ооцисты</item>
+            <item flag = "0">Псевдоцисты</item>
+            <item flag = "1">Спорозоиты</item>
+            <item flag = "0">Эндозоиты</item>
+            <item flag = "1">Ооцисты</item>
+    </question>
+	<question id = "173" size = "5" type = "1">
+            <text>Методы диагностики токсоплазмоза у больного человека</text>
+            <item flag = "1">Гистологическое исследование тканей больного</item>
+            <item flag = "0">Анализ фекалий</item>
+            <item flag = "0">Исследование мазка крови</item>
+            <item flag = "1">Иммунологические исследования сыворотки крови</item>
+            <item flag = "0">Зондирование 12-перстной кишки</item>
+    </question>
+	<question id = "174" size = "5" type = "1">
+            <text>Стадии развития малярийного плазмодия, образующиеся в организме комара</text>
+            <item flag = "0">Гаметоциты</item>
+            <item flag = "0">Мерозоиты</item>
+            <item flag = "1">Оокинета</item>
+            <item flag = "1">Гаметы</item>
+            <item flag = "0">Шизонты</item>
+    </question>
+	<question id = "175" size = "5" type = "1">
+            <text>Инвазионная стадия развития малярийного плазмодия для человека</text>
+            <item flag = "1">Спорозоит</item>
+            <item flag = "0">Спороциста</item>
+            <item flag = "0">Гаметоциты</item>
+            <item flag = "0">Шизонты</item>
+            <item flag = "0">Зрелая ооциста</item>
+    </question>
+	<question id = "176" size = "5" type = "1">
+            <text>Инвазионная стадия развития Toxoplasma gondii для человека</text>
+            <item flag = "1">Спорозоит</item>
+            <item flag = "1">Спороциста</item>
+            <item flag = "0">Гаметоциты</item>
+            <item flag = "0">Шизонты</item>
+            <item flag = "1">Зрелая ооциста</item>
+    </question>
+	<question id = "177" size = "5" type = "1">
+            <text>Простейшие - паразитирующие в крови человека на первой стадии развития</text>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Toxoplasma gondii</item>
+            <item flag = "0">Naegleria fowleri</item>
+            <item flag = "0">Plasmodium ovale</item>
+    </question>
+	<question id = "178" size = "5" type = "1">
+            <text>Природно-очаговые заболевания</text>
+            <item flag = "0">Малярия трехдневная</item>
+            <item flag = "1">Токсоплазмоз</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "1">Кожно-слизистый лейшманиоз</item>
+    </question>
+	<question id = "179" size = "5" type = "1">
+            <text>Возможные симптомы малярии</text>
+            <item flag = "1">Поражение мозга</item>
+            <item flag = "1">Поражение печени</item>
+            <item flag = "1">Поражение селезенки</item>
+            <item flag = "1">Анемия</item>
+            <item flag = "1">Почечная недостаточность</item>
+    </question>
+	<question id = "180" size = "5" type = "1">
+            <text>Стадии малярийного плазмодия, образующиеся в организме комара</text>
+            <item flag = "1">Ооциста</item>
+            <item flag = "0">Мерозоиты</item>
+            <item flag = "1">Оокинета</item>
+            <item flag = "1">Гаметы</item>
+            <item flag = "0">Гаметоциты</item>
+    </question>
+	<question id = "181" size = "5" type = "1">
+            <text>Способы размножения малярийных плазмодиев</text>
+            <item flag = "1">Шизогония</item>
+            <item flag = "1">Спорогония</item>
+            <item flag = "1">Копуляция</item>
+            <item flag = "0">Эндодиогения</item>
+            <item flag = "0">Эндополигения</item>
+    </question>
+	<question id = "182" size = "5" type = "1">
+            <text>Способы размножения Toxoplasma gondii</text>
+            <item flag = "0">Шизогония</item>
+            <item flag = "1">Спорогония</item>
+            <item flag = "1">Копуляция</item>
+            <item flag = "1">Эндодиогения</item>
+            <item flag = "1">Эндополигения</item>
+    </question>
+	<question id = "183" size = "5" type = "1">
+            <text>Промежуточный хозяин Plasmodium falciparum</text>
+            <item flag = "1">Человек</item>
+            <item flag = "0">Триатомовый клоп</item>
+            <item flag = "0">Москит</item>
+            <item flag = "0">Комар рода Anopheles</item>
+            <item flag = "0">Комар рода Culex</item>
+    </question>
+	<question id = "184" size = "5" type = "1">
+            <text>Способ заражения человека токсоплазмозом</text>
+            <item flag = "0">Инокулятивный</item>
+            <item flag = "1">Фекально-оральный</item>
+            <item flag = "1">Алиментарный</item>
+            <item flag = "0">Контаминативный</item>
+            <item flag = "1">Трансплацентарный</item>
+    </question>
+	<question id = "185" size = "5" type = "1">
+            <text>Стадии малярийного плазмодия, образующиеся в организме человека</text>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "1">Трофозоиты</item>
+            <item flag = "0">Ооциста</item>
+            <item flag = "1">Мерозоиты</item>
+            <item flag = "1">Гаметоциты</item>
+    </question>
+	<question id = "186" size = "5" type = "1">
+            <text>В тканях человека больного токсоплазмозом паразитируют</text>
+            <item flag = "0">Ооцисты</item>
+            <item flag = "1">Псевдоцисты</item>
+            <item flag = "0">Спорозоиты</item>
+            <item flag = "1">Эндозоиты</item>
+            <item flag = "0">Спороцисты</item>
+    </question>
+	<question id = "187" size = "5" type = "1">
+            <text>Простейшие, заражающие человека через переносчика</text>
+            <item flag = "0">Balantidium coli</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Leichmania donovani</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+            <item flag = "0">Toxoplasma gondii</item>
+    </question>
+	<question id = "188" size = "5" type = "1">
+            <text>Простейшие, заражающие человека без переносчика</text>
+            <item flag = "1">Balantidium coli</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Leichmania donovani</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "1">Toxoplasma gondii</item>
+    </question>
+	<question id = "189" size = "5" type = "1">
+            <text>Лихорадка при малярии связана с выходом</text>
+            <item flag = "0">Cпорозоитов из спороцисты</item>
+            <item flag = "0">Гаметоцитов из эритроцитов</item>
+            <item flag = "0">Спорозоитов из эритроцитов</item>
+            <item flag = "0">Шизонтов из клеток печени</item>
+            <item flag = "1">Мерозоитов из эритроцитов</item>
+    </question>
+	<question id = "190" size = "5" type = "1">
+            <text>Морфологическими особенностями балантидиев является наличие</text>
+            <item flag = "0">Роптрий и коноида</item>
+            <item flag = "1">Цитостома и цитофаринкса</item>
+            <item flag = "1">Бобовидного макронуклеуса</item>
+            <item flag = "1">Ресничек</item>
+            <item flag = "1">Сократительной вакуоли</item>
+    </question>
+	<question id = "191" size = "5" type = "1">
+            <text>Бесполое размножение - эндодиогения токсоплазмы происходит в</text>
+            <item flag = "0">Полости кишечника кошки</item>
+            <item flag = "1">Клетках эпителия кишечника кошки</item>
+            <item flag = "1">В клетках мозга кошки</item>
+            <item flag = "0">Полости кишечника человека</item>
+            <item flag = "1">Тканях человека</item>
+    </question>
+	<question id = "192" size = "5" type = "1">
+            <text>Возбудители болезней человека с острым злокачественным течением</text>
+            <item flag = "0">Toxoplasma gondii</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "1">Trypanosoma rhodesiense</item>
+            <item flag = "0">Plasmodium vivax</item>
+            <item flag = "1">Plasmodium falciparum</item>
+    </question>
+	<question id = "193" size = "5" type = "1">
+            <text>Приступы малярии у больного человека совпадают с</text>
+            <item flag = "0">Тканевой шизогонией</item>
+            <item flag = "0">Выходом мерозоитов из клеток печени</item>
+            <item flag = "1">Выходом мерозоитов из эритроцитов</item>
+            <item flag = "0">Образованием и циркулированием гаметоцитов в плазме</item>
+            <item flag = "0">Образованием шизонтов в клетках печени и крови</item>
+    </question>
+	<question id = "194" size = "5" type = "1">
+            <text>Непатогенные кишечные амебы</text>
+            <item flag = "1">Entamoeba coli</item>
+            <item flag = "1">Entamoeba hartmani</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "1">Endolimax nana</item>
+            <item flag = "1">Entamoeba butshli</item>
+    </question>
+	<question id = "195" size = "5" type = "1">
+            <text>Возбудитель кишечного и внекишечного амебиаза</text>
+            <item flag = "0">Entamoeba coli</item>
+            <item flag = "0">Entamoeba hartmani</item>
+            <item flag = "1">Entamoeba histolytica</item>
+            <item flag = "0">Endolimax nana</item>
+            <item flag = "0">Acanthamoeba castellani</item>
+    </question>
+	<question id = "196" size = "5" type = "1">
+            <text>Факультативные возбудители амебного менингоэнцефалита</text>
+            <item flag = "1">Acanthamoeba castellani</item>
+            <item flag = "0">Entamoeba hartmani</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "1">Naegleria fowleri</item>
+            <item flag = "0">Entamoeba coli</item>
+    </question>
+	<question id = "197" size = "5" type = "1">
+            <text>Возбудители мочеполового трихомониаза - Trichomonas ...</text>
+            <item flag = "0">hominis</item>
+            <item flag = "1">urogenitalis</item>
+            <item flag = "1">vaginalis</item>
+            <item flag = "0">elongate</item>
+            <item flag = "0">tenax</item>
+    </question>
+	<question id = "198" size = "5" type = "1">
+            <text>Возбудители кишечного трихомониаза - Trichomonas ...</text>
+            <item flag = "1">hominis</item>
+            <item flag = "0">anteris</item>
+            <item flag = "1">intestinalis</item>
+            <item flag = "0">elongate</item>
+            <item flag = "0">tenax</item>
+    </question>
+	<question id = "199" size = "5" type = "1">
+            <text>Простейшие, паразитирующие в ротовой полости человека</text>
+            <item flag = "1">Entamoeba gingivalis</item>
+            <item flag = "0">Trichomonas elongate</item>
+            <item flag = "1">Entamoeba histolytica</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "0">Entamoeba coli</item>
+    </question>
+	<question id = "200" size = "5" type = "1">
+            <text>Возбудители кожного лейшманиоза - Leichmania ...</text>
+            <item flag = "0">donovani</item>
+            <item flag = "0">mexicana</item>
+            <item flag = "0">brasiliensis</item>
+            <item flag = "1">tropica major</item>
+            <item flag = "1">tropica minor</item>
+    </question>
+	<question id = "201" size = "5" type = "1">
+            <text>Возбудитель висцерального лейшманиоза - Leichmania ...</text>
+            <item flag = "1">donovani</item>
+            <item flag = "0">mexicana</item>
+            <item flag = "0">brasiliensis</item>
+            <item flag = "0">tropica major</item>
+            <item flag = "0">tropica minor</item>
+    </question>
+	<question id = "202" size = "5" type = "1">
+            <text>Возбудитель кожно-слизистого лейшманиоза - Leichmania ...</text>
+            <item flag = "0">donovani</item>
+            <item flag = "0">mexicana</item>
+            <item flag = "1">brasiliensis</item>
+            <item flag = "0">tropica major</item>
+            <item flag = "0">tropica minor</item>
+    </question>
+	<question id = "203" size = "5" type = "1">
+            <text>Возбудитель американского трипаносомоза - Trypanosoma ...</text>
+            <item flag = "1">cruzi</item>
+            <item flag = "0">brucei gambiense</item>
+            <item flag = "0">brucei rhodesiense</item>
+            <item flag = "0">equiperdum</item>
+            <item flag = "0">evansi</item>
+    </question>
+	<question id = "204" size = "5" type = "1">
+            <text>Возбудители африканского трипаносомоза - Trypanosoma ... </text>
+            <item flag = "0">cruzi</item>
+            <item flag = "1">brucei gambiense</item>
+            <item flag = "1">brucei rhodesiense</item>
+            <item flag = "0">equiperdum</item>
+            <item flag = "0">evansi</item>
+    </question>
+	<question id = "205" size = "5" type = "1">
+            <text>Повсеместно распространены протозойные инфекции</text>
+            <item flag = "1">Лямблиоз</item>
+            <item flag = "0">Трипаносомозы</item>
+            <item flag = "1">Трихомониазы</item>
+            <item flag = "1">Амебиаз</item>
+            <item flag = "0">Лейшманиозы</item>
+    </question>
+	<question id = "206" size = "4" type = "1">
+            <text>Амебная дизентерия встречается</text>
+            <item flag = "0">Повсеместно</item>
+            <item flag = "1">Преимущественно в тропиках и субтропиках</item>
+            <item flag = "0">Только в странах с умеренным климатом</item>
+            <item flag = "0">Только в странах Средиземноморья</item>
+    </question>
+	<question id = "207" size = "5" type = "1">
+            <text>Носительство Entamoeba histolytica встречается</text>
+            <item flag = "1">Повсеместно</item>
+            <item flag = "0">Преимущественно в тропиках и субтропиках</item>
+            <item flag = "0">Преимущественно в странах с умеренным климатом</item>
+            <item flag = "0">Преимущественно в странах Средиземноморья</item>
+            <item flag = "0">Только в Австралии</item>
+    </question>	
+	<question id = "208" size = "5" type = "1">
+            <text>Кожный лейшманиоз встречается в странах</text>
+            <item flag = "1">Северной Африки</item>
+            <item flag = "1">Центральной и Южной Азии</item>
+            <item flag = "1">Туркмении и Узбекистане</item>
+            <item flag = "1">Южной Европы</item>
+            <item flag = "0">Только с тропическим климатом</item>
+    </question>
+	<question id = "209" size = "5" type = "1">
+            <text>Висцеральный лейшманиоз встречается</text>
+            <item flag = "1">В Индии</item>
+            <item flag = "1">В странах Средиземноморья</item>
+            <item flag = "1">В Азербайджане и Казахстане</item>
+            <item flag = "0">Повсеместно</item>
+            <item flag = "0">В России</item>
+    </question>
+	<question id = "210" size = "5" type = "1">
+            <text>Болезнь Чагаса распространена</text>
+            <item flag = "0">Повсеместно</item>
+            <item flag = "1">В Южной и Центральной Америке</item>
+            <item flag = "0">В Центральной Африке</item>
+            <item flag = "0">В странах Средиземноморья</item>
+            <item flag = "0">В Северной Африке</item>
+    </question>
+	<question id = "211" size = "5" type = "1">
+            <text>Сонная болезнь распространена в странах</text>
+            <item flag = "1">Тропической Африки</item>
+            <item flag = "0">В Южной и Центральной Америки</item>
+            <item flag = "0">Средиземноморья</item>
+            <item flag = "0">Ближнего Востока</item>
+            <item flag = "0">Закавказья</item>
+    </question>
+	<question id = "212" size = "5" type = "1">
+            <text>Entamoeba histolytica локализуется в организме человека в</text>
+            <item flag = "0">Тонком кишечнике</item>
+            <item flag = "1">Толстом кишечнике</item>
+            <item flag = "0">Поджелудочной железе</item>
+            <item flag = "1">Печени</item>
+            <item flag = "1">Легких</item>
+    </question>
+	<question id = "213" size = "5" type = "1">
+            <text>Lamblia intestinalis в организме человека локализуется в</text>
+            <item flag = "1">Тонком кишечнике</item>
+            <item flag = "0">Крови</item>
+            <item flag = "0">Желчных протоках печени</item>
+            <item flag = "0">Лимфе</item>
+            <item flag = "0">Толстом кишечнике</item>
+    </question>
+	<question id = "214" size = "5" type = "1">
+            <text>Trichomonas vaginalis локализуется в организме человека в</text>
+            <item flag = "0">Лимфе</item>
+            <item flag = "0">Крови</item>
+            <item flag = "0">Тонком кишечнике</item>
+            <item flag = "1">Мочеполовой системе</item>
+            <item flag = "0">Только в половой системе</item>
+    </question>
+	<question id = "215" size = "5" type = "1">
+            <text>Trichomonas hominis локализуется в организме человека в</text>
+            <item flag = "0">Тонком кишечнике</item>
+            <item flag = "0">Крови</item>
+            <item flag = "1">Толстом кишечнике</item>
+            <item flag = "0">Мочеполовых путях</item>
+            <item flag = "0">Ротовой полости</item>
+    </question>
+	<question id = "216" size = "5" type = "1">
+            <text>В толстом кишечнике человека локализуются</text>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "1">Entamoeba coli</item>
+            <item flag = "0">Leichmania tropica major</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "1">Entamoeba histolytica</item>
+    </question>
+	 <question id = "217" size = "5" type = "1">
+            <text>В тонком кишечнике человека паразитируют</text>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "0">Trichomonas vaginalis</item>
+            <item flag = "0">Leichmania tropica major</item>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "0">Entamoeba histolytica</item>
+    </question>
+	<question id = "218" size = "5" type = "1">
+            <text>В мочеполовой системе человека паразитируют</text>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Balantidium coli</item>
+    </question>
+	<question id = "219" size = "5" type = "1">
+            <text>В ротовой полости человека локализуются</text>
+            <item flag = "1">Entamoeba gingivalis</item>
+            <item flag = "0">Entamoeba coli</item>
+            <item flag = "1">Trichomonas tenax</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "0">Leichmania tropica major</item>
+    </question>
+	<question id = "220" size = "5" type = "1">
+            <text>Локализация возбудителя в организме человека при африканском трипаносомозе на ранней стадии болезни</text>
+            <item flag = "1">Плазма крови</item>
+            <item flag = "0">Спинномозговая жидкость</item>
+            <item flag = "1">Лимфатическая система</item>
+            <item flag = "0">Печень</item>
+            <item flag = "0">Ретикулоэндотелиальная система </item>
+    </question>
+	<question id = "221" size = "5" type = "1">
+            <text>Локализация возбудителя в организме человека при африканском трипаносомозе на терминальной стадии болезни</text>
+            <item flag = "1">Печень</item>
+            <item flag = "1">Спинномозговая жидкость</item>
+            <item flag = "1">Большие полушария мозга</item>
+            <item flag = "1">Костный мозг</item>
+            <item flag = "0">Клетки кожи</item>
+    </question>
+	<question id = "222" size = "5" type = "1">
+            <text>Локализация возбудителя в организме человека при болезни Боровского</text>
+            <item flag = "1">Лимфатические пути</item>
+            <item flag = "0">Кровь</item>
+            <item flag = "0">Слизистая носоглотки</item>
+            <item flag = "1">Клетки дермы</item>
+            <item flag = "1">Макрофаги кожи</item>
+    </question>
+	<question id = "223" size = "5" type = "1">
+            <text>Локализация возбудителя в организме человека при кожно-слизистом лейшманиозе</text>
+            <item flag = "1">Клетки кожи</item>
+            <item flag = "1">Слизистые оболочки половых органов</item>
+            <item flag = "1">Слизистые оболочки носоглотки</item>
+            <item flag = "1">Слизистые оболочки дыхательных путей</item>
+            <item flag = "0">Эритроциты</item>
+    </question>
+	<question id = "224" size = "5" type = "1">
+            <text>Локализация возбудителя в организме человека при висцеральном лейшманиозе</text>
+            <item flag = "1">Лимфоузлы</item>
+            <item flag = "1">Костный мозг</item>
+            <item flag = "0">Только в печени и селезенке</item>
+            <item flag = "1">Макрофаги кожи</item>
+            <item flag = "1">Желудочно-кишечный тракт</item>
+    </question>
+	<question id = "225" size = "5" type = "1">
+            <text>Возбудитель болезни Чагаса в организме человека локализуются</text>
+            <item flag = "1">В гладкой мускулатуре</item>
+            <item flag = "0">Только в поперечнополосатой мускулатуре</item>
+            <item flag = "1">В сердце</item>
+            <item flag = "0">Только в крови</item>
+            <item flag = "1">В лимфатической системе</item>
+    </question>
+	<question id = "226" size = "5" type = "1">
+            <text>Во время активной стадии жизненного цикла паразитических простейших обозначают терминами</text>
+            <item flag = "0">Протозоит</item>
+            <item flag = "1">Трофозоит</item>
+            <item flag = "1">Вегетативная форма</item>
+            <item flag = "0">Циста</item>
+            <item flag = "0">Патогенное простейшее</item>
+    </question>
+	 <question id = "227" size = "5" type = "1">
+            <text>Пелликула простейших является производной</text>
+            <item flag = "0">Эндоплазмы</item>
+            <item flag = "1">Эктоплазмы</item>
+            <item flag = "0">Протоплазмы</item>
+            <item flag = "0">Цитоплазмы</item>
+            <item flag = "0">Тонопласта</item>
+    </question>
+	<question id = "228" size = "5" type = "1">
+            <text>Питание паразитических простейших может осуществляться</text>
+            <item flag = "1">Фагоцитозом</item>
+            <item flag = "1">Пиноцитозом</item>
+            <item flag = "1">Осмотически</item>
+            <item flag = "0">С помощью сократительных вакуолей</item>
+            <item flag = "1">С помощью пищеварительных вакуолей</item>
+    </question>
+	<question id = "229" size = "5" type = "1">
+            <text>Органеллами движения простейших являются</text>
+            <item flag = "1">Жгутики</item>
+            <item flag = "1">Реснички</item>
+            <item flag = "1">Псевдоподии</item>
+            <item flag = "1">Ундулирующая мембрана</item>
+            <item flag = "0">Микротрихии</item>
+    </question>
+	<question id = "230" size = "5" type = "1">
+            <text>Особенности простейших класса Flagellata — наличие</text>
+            <item flag = "0">Микронуклеуса и макронуклеуса</item>
+            <item flag = "0">Псевдоподий</item>
+            <item flag = "0">Ресничек</item>
+            <item flag = "1">Жгутиков</item>
+            <item flag = "1">Блефаропласта (базального тельца)</item>
+    </question>
+	<question id = "231" size = "5" type = "1">
+            <text>1Особенности простейших класса Sarcodina</text>
+            <item flag = "1">Способность образовывать псевдоподии</item>
+            <item flag = "1">Псевдоподии служат для движения</item>
+            <item flag = "1">Псевдоподии служат для захвата пищи</item>
+            <item flag = "0">Наличие пелликулы</item>
+            <item flag = "0">Наличие кинетопласта</item>
+    </question>
+	<question id = "232" size = "5" type = "1">
+            <text>Циста простейших - это</text>
+            <item flag = "1">Резистентная стадия, сохраняющая организм во внешней среде</item>
+            <item flag = "0">Форма размножения</item>
+            <item flag = "1">Инвазионная стадия</item>
+            <item flag = "0">Активная стадия жизненного цикла</item>
+            <item flag = "0">Внутриклеточная стадия</item>
+    </question>
+	<question id = "233" size = "5" type = "1">
+            <text>Инцистирование отсутствует в цикле развития у</text>
+            <item flag = "0">Balantidium coli</item>
+            <item flag = "0">Entamoeba histolytica</item>
+            <item flag = "0">Naegleria fowleri</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question>
+	<question id = "234" size = "5" type = "1">
+            <text>Цисты Entamoeba histolytica характеризуются</text>
+            <item flag = "1">Размером 8 - 15 мкм</item>
+            <item flag = "1">Количеством ядер от 1 до 4</item>
+            <item flag = "1">Точечной центрально расположенной в ядре кариосомой</item>
+            <item flag = "1">Хроматоидными телами с закругленными концами</item>
+            <item flag = "0">Наличием псевдоподий</item>
+    </question>
+	<question id = "235" size = "5" type = "1">
+            <text>Цисты Entamoeba coli имеют</text>
+            <item flag = "1">Ядра с эксцентрично расположенной кариосомой</item>
+            <item flag = "0">Сократительную вакуоль</item>
+            <item flag = "1">От 2 до 8 ядер</item>
+            <item flag = "0">Псевдоподии</item>
+            <item flag = "0">Фрагменты эритроцитов в цитоплазме</item>
+    </question>
+	<question id = "236" size = "5" type = "1">
+            <text>Признаки большой вегетативной формы (forma magna) Entamoeba histolytica</text>
+            <item flag = "0">Наличие четырех ядер</item>
+            <item flag = "1">Наличие одного ядра</item>
+            <item flag = "1">Наличие фрагментов эритроцитов в пищеварительных вакуолях</item>
+            <item flag = "0">Поступательное движение выражено слабо</item>
+            <item flag = "1">Активное поступательное движение</item>
+    </question>
+	<question id = "237" size = "5" type = "1">
+            <text>Признаки мелкой вегетативной формы (forma minuta) Entamoeba histolytica</text>
+            <item flag = "1">Непатогенная</item>
+            <item flag = "0">Патогенная</item>
+            <item flag = "1">В пищеварительных вакуолях имеет бактерии</item>
+            <item flag = "0">В пищеварительных вакуолях имеет фрагменты эритроцитов</item>
+            <item flag = "0">Активно поступательно движется</item>
+    </question>
+	<question id = "238" size = "5" type = "1">
+            <text>Зрелые цисты Lamblia intestinalis имеют</text>
+            <item flag = "1">Овальную форму</item>
+            <item flag = "1">Жгутиковый аппарат</item>
+            <item flag = "0">Два ядра</item>
+            <item flag = "1">Четыре ядра</item>
+            <item flag = "0">Ресничный аппарат</item>
+    </question>
+	<question id = "239" size = "5" type = "1">
+            <text>К морфологическим признакам трофозоитов Lamblia intestinalis относят</text>
+            <item flag = "1">Тело грушевидной формы</item>
+            <item flag = "1">Все органоиды парные</item>
+            <item flag = "1">Имеют четыре пары жгутиков</item>
+            <item flag = "1">Наличие аксостиля</item>
+            <item flag = "1">Наличие парабазальных тел</item>
+    </question>
+	<question id = "240" size = "5" type = "1">
+            <text>Вегетативная форма Trichomonas hominis имеет</text>
+            <item flag = "0">Ундулирующую мембрану на 1/2 длины тела</item>
+            <item flag = "0">Два ядра</item>
+            <item flag = "1">Аксостиль</item>
+            <item flag = "0">Два свободных жгутика</item>
+            <item flag = "1">Ундулирующую мембрану во всю длину тела</item>
+    </question>
+	 <question id = "241" size = "5" type = "1">
+            <text>Вегетативная форма Trichomonas vaginalis имеет</text>
+            <item flag = "1">Ундулирующую мембрану на 1/2 длины тела</item>
+            <item flag = "0">Два ядра</item>
+            <item flag = "1">Одно ядро</item>
+            <item flag = "0">Пять свободных жгутиков</item>
+            <item flag = "0">Ундулирующую мембрану во всю длину тела</item>
+    </question>
+	 <question id = "242" size = "5" type = "1">
+            <text>Органелла движения лейшмании</text>
+            <item flag = "0">Аксостиль</item>
+            <item flag = "0">Ундулирующая мембрана</item>
+            <item flag = "0">Цитостом</item>
+            <item flag = "1">Жгутик</item>
+            <item flag = "0">Псевдоподия</item>
+    </question>
+	<question id = "243" size = "5" type = "1">
+            <text>Органеллами движения трипаносом является (-ются)</text>
+            <item flag = "0">Цитостом</item>
+            <item flag = "1">Ундулирующая мембрана</item>
+            <item flag = "0">Аксостиль</item>
+            <item flag = "1">Жгутик</item>
+            <item flag = "0">Псевдоподии</item>
+    </question>
+	<question id = "244" size = "5" type = "1">
+            <text>Органеллами движения лямблий является (-ются)</text>
+            <item flag = "0">Цитостом</item>
+            <item flag = "0">Ундулирующая мембрана</item>
+            <item flag = "0">Реснички</item>
+            <item flag = "1">Жгутики</item>
+            <item flag = "0">Псевдоподии</item>
+    </question>
+	<question id = "245" size = "5" type = "1">
+            <text>Одножгутиковые простейшие, обитающие в крови человека</text>
+            <item flag = "0">Leichmania donovani</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Leichmania tropica</item>
+    </question>
+	<question id = "246" size = "5" type = "1">
+            <text>Многожгутиковыми простейшими являются</text>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "0">Leichmania donovani</item>
+    </question>
+	<question id = "247" size = "5" type = "1">
+            <text>Жгутиковые имеющие кинетопласт</text>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "1">Trypanosoma cruzi</item>
+    </question> 
+	<question id = "248" size = "5" type = "1">
+            <text>Присасывательный диск имеется у простейших</text>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "0">Trypanosoma brucei rhodesiense</item>
+            <item flag = "0">Trypanosoma brucei gambiense</item>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "0">Trichomonas hominis</item>
+    </question> 
+	<question id = "249" size = "5" type = "1">
+            <text>Цитостом есть у простейших</text>
+            <item flag = "0">Trypanosoma brucei gambiense</item>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "0">Trypanosoma cruzi</item>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "0">Entamoeba histolytica</item>
+    </question>
+	<question id = "250" size = "5" type = "1">
+            <text>Аксостиль есть у простейших</text>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "1">Trichomonas elongate</item>
+            <item flag = "0">Leichmania tropica</item>
+    </question>
+	<question id = "251" size = "5" type = "1">
+            <text>Ундулирующая мембрана имеется у простейших</text>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question> 
+	<question id = "252" size = "5" type = "1">
+            <text>Многожгутиковые простейшие, имеющие ундулирующую мембрану и аксостиль</text>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question> 
+	<question id = "253" size = "5" type = "1">
+            <text>Ундулирующая мембрана достигает только середины тела у простейших</text>
+            <item flag = "0">Трипомастиготной стадии Trypanosoma cruzi</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Эпимастиготной стадии Trypanosoma brucei gambiense</item>
+            <item flag = "1">Trichomonas vaginalis</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question>
+	<question id = "254" size = "5" type = "1">
+            <text>Метациклическая трипомастигота Trypanosoma brucei gambiense у переносчика имеет</text>
+            <item flag = "1">Веретеновидную форму</item>
+            <item flag = "1">Ядро в центре</item>
+            <item flag = "1">Ундулирующую мембрану</item>
+            <item flag = "1">Жгутик</item>
+            <item flag = "0">Аксостиль</item>
+    </question>
+	<question id = "255" size = "5" type = "1">
+            <text>Критидиальная форма (эпимастигота) Trypanosoma brucei gambiense в теле переносчика имеет</text>
+            <item flag = "1">Веретеновидную форму</item>
+            <item flag = "1">Ядро в центре</item>
+            <item flag = "1">Короткую ундулирующую мембрану</item>
+            <item flag = "1">Жгутик со свободным концом</item>
+            <item flag = "1">Кинетопласт в передней части тела</item>
+    </question>
+	<question id = "256" size = "5" type = "1">
+            <text>Трипаносомная форма (трипомастигота) Trypanosoma brucei gambiense у человека имеет</text>
+            <item flag = "1">Веретеновидную форму</item>
+            <item flag = "0">Короткий жгутик</item>
+            <item flag = "1">Кинетопласт в задней части тела</item>
+            <item flag = "0">Короткую ундулирующую мембрану</item>
+            <item flag = "0">Два ядра</item>
+    </question>
+	<question id = "257" size = "5" type = "1">
+            <text>Лейшманиальные формы (амастиготы) Trypanosoma cruzi в теле человека имеют </text>
+            <item flag = "0">Жгутик со свободным концом</item>
+            <item flag = "0">Веретеновидную форму</item>
+            <item flag = "0">Ядро на периферии</item>
+            <item flag = "1">Кинетопласт</item>
+            <item flag = "0">Ундулирующую мембрану</item>
+    </question>
+	<question id = "258" size = "5" type = "1">
+            <text>Лептомонадная форма (промастигота) Leichmania tropica в теле москита имеет</text>
+            <item flag = "1">Кинетопласт в передней части тела</item>
+            <item flag = "0">Рудиментарный жгутик</item>
+            <item flag = "0">Овальную форму</item>
+            <item flag = "0">Ядро в передней части тела</item>
+            <item flag = "0">Ундулирующую мембрану</item>
+    </question>
+	<question id = "259" size = "5" type = "1">
+            <text>Лейшманиальная форма (амастигота) Leichmania tropica в организме человека имеет</text>
+            <item flag = "1">Овальную форму</item>
+            <item flag = "1">Жгутик, который не выходит за пределы тела</item>
+            <item flag = "1">Ядро в центре</item>
+            <item flag = "0">Форму полумесяца</item>
+            <item flag = "0">Жгутик со свободным концом</item>
+    </question>
+	 <question id = "260" size = "5" type = "1">
+            <text>Формы жизненного цикла возбудителей кожного и висцерального лейшманиозов</text>
+            <item flag = "1">Амастигота</item>
+            <item flag = "1">Промастигота</item>
+            <item flag = "0">Трипомастигота</item>
+            <item flag = "0">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "261" size = "5" type = "1">
+            <text>Формы жизненного цикла возбудителей африканского трипаносомоза</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "1">Трипомастигота</item>
+            <item flag = "1">Эпимастигота</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "262" size = "5" type = "1">
+            <text>Формы жизненного цикла возбудителя американского трипаносомоза</text>
+            <item flag = "1">Амастигота</item>
+            <item flag = "0">Циста</item>
+            <item flag = "1">Трипомастигота</item>
+            <item flag = "1">Эпимастигота</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "263" size = "5" type = "1">
+            <text>Лейшманиальная форма (амастигота) в цикле развития Leichmania tropica обнаруживается в клетках тела</text>
+            <item flag = "0">Броненосцев</item>
+            <item flag = "1">Сусликов и хомяков</item>
+            <item flag = "1">Крыс</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Москитов</item>
+    </question>
+	<question id = "264" size = "5" type = "1">
+            <text>Лейшманиальная форма (амастигота) в цикле развития Leichmania brasiliensis обнаруживается в клетках тела</text>
+            <item flag = "1">Грызунов</item>
+            <item flag = "1">Обезьян</item>
+            <item flag = "1">Собак</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Клопов</item>
+    </question>
+	<question id = "265" size = "5" type = "1">
+            <text>Лейшманиальная форма (амастигота) в цикле развития Leichmania donovani обнаруживается в клетках тела</text>
+            <item flag = "1">Грызунов</item>
+            <item flag = "1">Лисиц</item>
+            <item flag = "1">Человека</item>
+            <item flag = "1">Собак и шакалов</item>
+            <item flag = "0">Москитов</item>
+    </question>
+	<question id = "266" size = "5" type = "1">
+            <text>Лептомонадная форма (промастигота) в цикле развития лейшманий обнаруживается в теле</text>
+            <item flag = "0">Человека</item>
+            <item flag = "0">Собак</item>
+            <item flag = "0">Грызунов</item>
+            <item flag = "1">Москитов рода Phlebotomus</item>
+            <item flag = "0">Клопов рода Triatoma</item>
+    </question>
+	<question id = "267" size = "5" type = "1">
+            <text>Метациклическая форма (трипомастигота) в цикле развития Trypanosoma cruzi обнаруживается в теле</text>
+            <item flag = "0">Человека</item>
+            <item flag = "0">Броненосца</item>
+            <item flag = "0">Грызунов</item>
+            <item flag = "1">Триатомовых клопов</item>
+            <item flag = "1">Поцелуйных клопов</item>
+    </question>
+	<question id = "268" size = "5" type = "1">
+            <text>Метациклическая форма (трипомастигота) в цикле развития Trypanosoma brucei gambiense и rhodesiense обнаруживается в теле</text>
+            <item flag = "0">Антилоп</item>
+            <item flag = "0">Свиней</item>
+            <item flag = "0">Человека</item>
+            <item flag = "1">Мухи цеце</item>
+            <item flag = "0">Триатомовых клопов</item>
+    </question>
+	<question id = "269" size = "5" type = "1">
+            <text>Трипаносомная форма (трипомастигота) Trypanosoma brucei gambiense обнаруживаются у</text>
+            <item flag = "0">Антилоп</item>
+            <item flag = "0">Мухи цеце</item>
+            <item flag = "1">Свиней</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Триатомовых клопов</item>
+    </question>
+	<question id = "270" size = "5" type = "1">
+            <text>Трипаносомная форма (трипомастигота) в цикле развития Trypanosoma brucei rhodesiense обнаруживается в теле</text>
+            <item flag = "1">Антилоп</item>
+            <item flag = "0">Мухи цеце</item>
+            <item flag = "1">Крупного рогатого скота</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Триатомовых клопов</item>
+    </question>
+	<question id = "271" size = "5" type = "1">
+            <text>Трипаносомная форма (трипомастигота) в цикле развития Trypanosoma cruzi обнаруживается у</text>
+            <item flag = "1">Кошек и собак</item>
+            <item flag = "1">Грызунов</item>
+            <item flag = "1">Броненосцев и опоссумов</item>
+            <item flag = "1">Человека</item>
+            <item flag = "0">Мухи цеце</item>
+    </question>
+	<question id = "272" size = "5" type = "1">
+            <text>В организме мухи цеце обнаруживаются формы возбудителя африканского трипаносомоза</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "0">Циста</item>
+            <item flag = "1">Эпимастигота</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "273" size = "5" type = "1">
+            <text>В организме больного человека обнаруживаются формы возбудителя африканского трипаносомоза</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "1">Трипомастигота</item>
+            <item flag = "0">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "274" size = "5" type = "1">
+            <text>В организме триатомовых клопов обнаруживаются формы возбудителя американского трипаносомоза</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "0">Циста</item>
+            <item flag = "0">Трофозоит</item>
+            <item flag = "1">Эпимастигота</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "275" size = "5" type = "1">
+            <text>В организме больного человека обнаруживаются формы возбудителя американского трипаносомоза</text>
+            <item flag = "1">Амастигота</item>
+            <item flag = "0">Трофозоит</item>
+            <item flag = "1">Трипомастигота</item>
+            <item flag = "1">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "276" size = "5" type = "1">
+            <text>В организме москитов обнаруживается форма возбудителей кожного и висцерального лейшманиозов</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "1">Промастигота</item>
+            <item flag = "0">Трипомастигота</item>
+            <item flag = "0">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "277" size = "5" type = "1">
+            <text>В организме больного человека и животных обнаруживается форма возбудителей кожного и висцерального лейшманиозов</text>
+            <item flag = "1">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "0">Трипомастигота</item>
+            <item flag = "0">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "278" size = "5" type = "1">
+            <text>Основная внутриклеточная стадия паразита, способная к делению в организме человека, животных, инфицированных Trypanosoma cruzi</text>
+            <item flag = "1">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "0">Трипомастигота</item>
+            <item flag = "0">Трофозоит</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	 <question id = "279" size = "5" type = "1">
+            <text>Стадия паразита, способная к делению в организме человека больного сонной болезнью</text>
+            <item flag = "0">Амастигота</item>
+            <item flag = "0">Промастигота</item>
+            <item flag = "1">Трипомастигота</item>
+            <item flag = "0">Эпимастигота</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "280" size = "5" type = "1">
+            <text>Амебиазом можно заразиться при</text>
+            <item flag = "1">Непосредственном контакте с носителем через грязные руки</item>
+            <item flag = "1">Употреблении в пищу некипяченой воды</item>
+            <item flag = "1">Употреблении в пищу немытых фруктов, овощей</item>
+            <item flag = "0">Половом контакте с больным</item>
+            <item flag = "0">Попадание на ранки кожи загрязненной воды</item>
+    </question>
+	<question id = "281" size = "5" type = "1">
+            <text>Способ заражения человека амебиазом</text>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Инокулятивный</item>
+            <item flag = "0">Перкутанный</item>
+            <item flag = "1">Геооральный</item>
+            <item flag = "0">Контаминативный</item>
+    </question>
+	<question id = "282" size = "5" type = "1">
+            <text>Заражение акантамебиазом возможно при</text>
+            <item flag = "1">Использовании загрязненных контактных глазных линз</item>
+            <item flag = "0">Половом контакте с больным</item>
+            <item flag = "1">Попадании на ранки кожи загрязненной воды</item>
+            <item flag = "0">Употреблении в пищу немытых фруктов и овощей</item>
+            <item flag = "0">При купании в бассейнах</item>
+    </question>
+	<question id = "283" size = "5" type = "1">
+            <text>Заражение неглериозом возможно при</text>
+            <item flag = "1">Купании в бассейнах</item>
+            <item flag = "1">Попадании в носовую полость загрязненной воды</item>
+            <item flag = "1">Попадании на ранки кожи загрязненной воды</item>
+            <item flag = "1">Купании в открытых теплых водоемах</item>
+            <item flag = "0">Половом контакте с больным</item>
+    </question>
+	<question id = "284" size = "5" type = "1">
+            <text>Способы заражения человека лямблиозом</text>
+            <item flag = "0">Трансмиссивный</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Контактно-бытовой</item>
+            <item flag = "1">Геооральный</item>
+            <item flag = "0">Перкутанный</item>
+    </question>
+	<question id = "285" size = "5" type = "1">
+            <text>Заражение лямблиозом возможно при</text>
+            <item flag = "1">Употреблении в пищу некипяченой воды</item>
+            <item flag = "0">Половом контакте с больным</item>
+            <item flag = "0">Попадание на ранки кожи загрязненной воды</item>
+            <item flag = "1">Употреблении в пищу немытых фруктов и овощей</item>
+            <item flag = "1">Купании в естественных водоемах и бассейнах</item>
+    </question>
+	<question id = "286" size = "5" type = "1">
+            <text>Способ заражения человека Trichomonas hominis</text>
+            <item flag = "0">Трансмиссивный</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Перкутанный</item>
+            <item flag = "1">Геооральный</item>
+            <item flag = "0">Трансплацентарный</item>
+    </question>
+	<question id = "287" size = "5" type = "1">
+            <text>Способ заражения человека Trichomonas vaginalis</text>
+            <item flag = "1">Половой</item>
+            <item flag = "0">Пероральный</item>
+            <item flag = "1">Контактно-бытовой</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Трансплацентарный</item>
+    </question>
+	<question id = "288" size = "5" type = "1">
+            <text>Заражение урогенитальным трихомониазом возможно при</text>
+            <item flag = "1">Пользовании чужими предметами личной гигиены</item>
+            <item flag = "0">Пользовании общей постелью</item>
+            <item flag = "0">Купании в естественных водоемах и бассейнах</item>
+            <item flag = "1">Половом контакте с больным</item>
+            <item flag = "0">Питье некипяченой воды</item>
+    </question>
+	<question id = "289" size = "5" type = "1">
+            <text>Возбудитель кожного лейшманиоза проникает в организм человека при</text>
+            <item flag = "1">Укусе москитов</item>
+            <item flag = "0">Попадание на ранки кожи загрязненной воды</item>
+            <item flag = "0">Укусе комаров</item>
+            <item flag = "0">Пользовании общей постелью</item>
+            <item flag = "0">Непосредственном контакте с больным</item>
+    </question>
+	<question id = "290" size = "5" type = "1">
+            <text>Способ заражения человека кожно-слизистым лейшманиозом</text>
+            <item flag = "0">Контактно-бытовой</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Геооральный</item>
+            <item flag = "0">Трансмиссивный (контаминация)</item>
+            <item flag = "1">Трансмиссивный (инокуляция)</item>
+    </question>
+	<question id = "291" size = "5" type = "1">
+            <text>Способ заражения человека кожным лейшманиозом</text>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Геооральный</item>
+            <item flag = "0">Контактно-бытовой</item>
+            <item flag = "1">Трансмиссивный (инокуляция)</item>
+            <item flag = "0">Трансмиссивный (контаминация)</item>
+    </question>
+	<question id = "292" size = "5" type = "1">
+            <text>Способ заражения человека висцеральным лейшманиозом</text>
+            <item flag = "0">Геооральный</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "1">Трансмиссивный (инокуляция)</item>
+            <item flag = "0">Трансмиссивный (контаминация)</item>
+            <item flag = "0">Контактно-бытовой</item>
+    </question>
+	<question id = "293" size = "5" type = "1">
+            <text>Возбудитель американского трипаносомоза (болезни Чагаса) может проникать в организм человека</text>
+            <item flag = "1">При гемотрансфузиях</item>
+            <item flag = "1">Трансплацентарно</item>
+            <item flag = "1">Алиментарно (через молоко больной матери)</item>
+            <item flag = "1">При попадании фекалий триатомового клопа на ранки кожи</item>
+            <item flag = "0">Геоорально</item>
+    </question>
+	<question id = "294" size = "5" type = "1">
+            <text>Возбудитель африканского трипаносомоза (сонной болезни) может проникать в организм человека при</text>
+            <item flag = "1">Гемотрансфузиях</item>
+            <item flag = "0">Попадании фекалий триатомового клопа на ранки кожи</item>
+            <item flag = "0">Непосредственном контакте с больным</item>
+            <item flag = "1">Укусе мухи цеце</item>
+            <item flag = "0">Половом контакте с больным</item>
+    </question>
+	<question id = "295" size = "5" type = "1">
+            <text>Основной способ заражения человека американским трипаносомозом</text>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Геооральный</item>
+            <item flag = "0">Контактно-бытовой</item>
+            <item flag = "0">Трансмиссивный (инокуляция)</item>
+            <item flag = "1">Трансмиссивный (контаминация)</item>
+    </question>
+	<question id = "296" size = "5" type = "1">
+            <text>Способ заражения человека африканским трипаносомозом</text>
+            <item flag = "0">Алиментарный</item>
+            <item flag = "0">Воздушно-капельный</item>
+            <item flag = "0">Контактно-бытовой</item>
+            <item flag = "1">Трансмиссивный (инокуляция)</item>
+            <item flag = "0">Трансмиссивный (контаминация)</item>
+    </question>
+	<question id = "297" size = "5" type = "1">
+            <text>Трансмиссивно человек заражается</text>
+            <item flag = "0">Амебиазом</item>
+            <item flag = "1">Висцеральным лейшманиозом</item>
+            <item flag = "1">Кожно-слизистым лейшманиозом</item>
+            <item flag = "0">Лямблиозом</item>
+            <item flag = "1">Американским трипаносомозом</item>
+    </question>
+	<question id = "298" size = "5" type = "1">
+            <text>Геоорально человек заражается</text>
+            <item flag = "0">Трипаносомозом</item>
+            <item flag = "1">Амебиазом</item>
+            <item flag = "0">Лейшманиозом</item>
+            <item flag = "1">Лямблиозом</item>
+            <item flag = "1">Кишечным трихомониазом</item>
+    </question>
+	<question id = "299" size = "5" type = "1">
+            <text>Жгутиковые простейшие, являющиеся возбудителями облигатно-трансмиссивных заболеваний человека</text>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "1">Trypanosoma gambiense</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Leichmania tropica</item>
+            <item flag = "0">Entamoeba histolytica</item>
+    </question>
+	<question id = "300" size = "5" type = "1">
+            <text>Паразитические простейшие, заражающие человека без участия специфического переносчика</text>
+            <item flag = "1">Lamblia intestinalis</item>
+            <item flag = "0">Trypanosoma gambiense</item>
+            <item flag = "1">Trichomonas hominis</item>
+            <item flag = "0">Leichmania tropica</item>
+            <item flag = "1">Entamoeba histolytica</item>
+    </question>
+	<question id = "301" size = "5" type = "1">
+            <text>Переносчики возбудителя кожного лейшманиоза</text>
+            <item flag = "0">Комары рода Culex</item>
+            <item flag = "0">Мухи цеце Glossina palpalis</item>
+            <item flag = "0">Комары рода Anopheles</item>
+            <item flag = "1">Москиты рода Phlebotomus</item>
+            <item flag = "0">Комары рода Aedes</item>
+    </question>
+	<question id = "302" size = "5" type = "1">
+            <text>Переносчики возбудителя кожно-слизистого лейшманиоза</text>
+            <item flag = "1">Москиты рода Phlebotomus</item>
+            <item flag = "0">Клопы рода Triatoma</item>
+            <item flag = "0">Комары рода Anopheles</item>
+            <item flag = "0">Комары рода Culex</item>
+            <item flag = "0">Мухи цеце Glossina palpalis</item>
+    </question>
+	<question id = "303" size = "5" type = "1">
+            <text>Переносчики возбудителя африканского трипаносомоза</text>
+            <item flag = "0">Клопы рода Triatoma</item>
+            <item flag = "0">Вольфартова муха Wohlfartia magnifica</item>
+            <item flag = "0">Москиты рода Phlebotomus</item>
+            <item flag = "1">Мухи цеце Glossina palpalis</item>
+            <item flag = "0">Комары рода Anopheles</item>
+    </question>
+	<question id = "304" size = "5" type = "1">
+            <text>Переносчики возбудителя висцерального лейшманиоза</text>
+            <item flag = "0">Постельные клопы Cimex lectularius</item>
+            <item flag = "0">Комары рода Culex</item>
+            <item flag = "1">Москиты рода Phlebotomus</item>
+            <item flag = "0">Клопы рода Triatoma</item>
+            <item flag = "0">Комары рода Anopheles</item>
+    </question>
+	<question id = "305" size = "5" type = "1">
+            <text>Переносчики возбудителя американского трипаносомоза</text>
+            <item flag = "0">Вольфартова муха Wohlfartia magnifica</item>
+            <item flag = "0">Постельный клоп Cimec lectularius</item>
+            <item flag = "0">Мухи цеце Glossina palpalis</item>
+            <item flag = "1">Клопы рода Triatoma</item>
+            <item flag = "0">Комары рода Culex</item>
+    </question>
+	<question id = "306" size = "5" type = "1">
+            <text>Инвазионная форма Entamoeba histolytica для человека</text>
+            <item flag = "0">Тканевая</item>
+            <item flag = "0">Мелкая вегетативная forma minuta</item>
+            <item flag = "0">Большая вегетативная forma magna</item>
+            <item flag = "1">Циста с 4 ядрами</item>
+            <item flag = "0">Циста с 8 ядрами</item>
+    </question>
+	<question id = "307" size = "4" type = "1">
+            <text>Инвазионная форма Lamblia intestinalis для человека </text>
+            <item flag = "0">Вегетативная форма (2 ядра, 8 жгутиков)</item>
+            <item flag = "0">Трофозоит (2 ядра, 4 жгутика)</item>
+            <item flag = "1">Циста (2 ядра)</item>
+            <item flag = "1">Циста (4 ядра)</item>
+    </question>
+	<question id = "308" size = "5" type = "1">
+            <text>Инвазионная форма Trichomonas vaginalis для человека трофозоит</text>
+            <item flag = "0">С 2 ядрами, жгутиками и цитостомом</item>
+            <item flag = "0">Без ядра, без жгутиков, с цитостомом</item>
+            <item flag = "0">С 4 ядрами, жгутиками, без цитостома</item>
+            <item flag = "1">С 1 ядром, жгутиками, без цитостома</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "309" size = "5" type = "1">
+            <text>Инвазионная форма Trichomonas hominis для человека</text>
+            <item flag = "0">Вегетативная форма с 4 ядрами, аксостилем, без цитостома</item>
+            <item flag = "0">Вегетативная форма с 1 ядром, аксостилем, без цитостома</item>
+            <item flag = "0">Вегетативная форма с 4 ядрами, аксостилем, цитостомом</item>
+            <item flag = "0">Циста</item>
+            <item flag = "1">вегетативная форма с 1 ядром, аксостилем, цитостомом</item>
+    </question>
+	<question id = "310" size = "5" type = "1">
+            <text>Инвазионная форма для человека в жизненном цикле Leichmania tropica</text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "1">Лептомонадная (промастигота)</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "311" size = "5" type = "1">
+            <text>Инвазионная форма для человека в жизненном цикле Leichmania brasiliensis</text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "1">Лептомонадная (промастигота)</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "312" size = "5" type = "1">
+            <text>Инвазионная форма для человека в жизненном цикле Leichmania donovani</text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "1">Лептомонадная (промастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "313" size = "5" type = "1">
+            <text>Инвазионная форма для переносчика в жизненном цикле Leichmania donovani</text>
+            <item flag = "0">Лептомонадная (промастигота)</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "1">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "314" size = "5" type = "1">
+            <text>Инвазионная форма для переносчика в жизненном цикле Leichmania brasiliensis</text>
+            <item flag = "1">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "0">Лептомонадная (промастигота)</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "315" size = "5" type = "1">
+            <text>Инвазионная форма для человека в жизненном цикле Trypanosoma brucei rhodesiense</text>
+            <item flag = "0">Трипаносомная трипомастигота</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+            <item flag = "0">Лептомонадная (промастигота)</item>
+    </question>
+	<question id = "316" size = "5" type = "1">
+            <text>Инвазионная форма для человека в жизненном цикле Trypanosoma cruzi</text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Трипаносомная трипомастигота</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+            <item flag = "0">Лептомонадная (промастигота)</item>
+    </question>
+	<question id = "317" size = "5" type = "1">
+            <text>В жизненном цикле Trypanosoma brucei gambiense инвазионная форма для человека</text>
+            <item flag = "0">Трипаносомная трипомастигота</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Циста</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+    </question>
+	<question id = "318" size = "5" type = "1">
+            <text>Инвазионная форма для переносчика в жизненном цикле Trypanosoma cruzi</text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "1">Трипаносомная трипомастигота</item>
+            <item flag = "0">Циста</item>
+    </question>
+	<question id = "319" size = "5" type = "1">
+            <text>Инвазионная форма для переносчиков в жизненном цикле Trypanosoma brucei gambiense </text>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "0">Метациклическая трипомастигота</item>
+            <item flag = "0">Критидиальная (эпимастигота)</item>
+            <item flag = "1">Трипаносомная трипомастигота</item>
+            <item flag = "0">Лептомонадная (промастигота)</item>
+    </question>
+	<question id = "320" size = "5" type = "1">
+            <text>Инвазионные стадии жгутиковых простейших для человека</text>
+            <item flag = "1">Лептомонадная (промастигота)</item>
+            <item flag = "0">Лейшманиальная (амастигота)</item>
+            <item flag = "1">Метациклическая трипомастигота</item>
+            <item flag = "0">Трипаносомная трипомастигота</item>
+            <item flag = "1">Циста</item>
+    </question>
+	<question id = "321" size = "5" type = "1">
+            <text></text>
+            <item flag = "0">Кошки</item>
+            <item flag = "0">Больной человек в острой стадии болезни</item>
+            <item flag = "0">Крысы и мыши</item>
+            <item flag = "1">Цистоносители</item>
+            <item flag = "0">Свиньи</item>
+    </question>
+	<question id = "322" size = "5" type = "1">
+            <text>Источник заражения человека акантамебиазом и неглериозом</text>
+            <item flag = "1">Контаминированная амебами вода</item>
+            <item flag = "1">Контаминированная амебами почва</item>
+            <item flag = "0">Грызуны</item>
+            <item flag = "0">Цистоносители</item>
+            <item flag = "0">Зараженная пища</item>
+    </question>
+	<question id = "323" size = "5" type = "1">
+            <text>Основной источник заражения человека лямблиозом</text>
+            <item flag = "1">Больной человек</item>
+            <item flag = "0">Крысы</item>
+            <item flag = "1">Цистоносители</item>
+            <item flag = "0">Кошки</item>
+            <item flag = "0">Рогатый скот</item>
+    </question>
+	<question id = "324" size = "5" type = "1">
+            <text>Источник заражения человека урогенитальным трихомониазом</text>
+            <item flag = "0">Крысы</item>
+            <item flag = "1">Трихомонадоноситель</item>
+            <item flag = "0">Кошки</item>
+            <item flag = "1">Больной человек</item>
+            <item flag = "0">Цистоноситель</item>
+    </question>
+	<question id = "325" size = "5" type = "1">
+            <text>Основной источник заражения человека Leichmania tropica minor</text>
+            <item flag = "0">Суслики</item>
+            <item flag = "0">Хомяки</item>
+            <item flag = "0">Крысы</item>
+            <item flag = "1">Больной человек</item>
+            <item flag = "0">Свиньи</item>
+    </question>
+	<question id = "326" size = "5" type = "1">
+            <text>Основной источник заражения человека остронекротизирующим кожным лейшманиозом</text>
+            <item flag = "0">Мухи цеце</item>
+            <item flag = "1">Грызуны</item>
+            <item flag = "0">Носороги</item>
+            <item flag = "0">Больной человек</item>
+            <item flag = "0">Свиньи</item>
+    </question>
+	<question id = "327" size = "5" type = "1">
+            <text>Резервуар Leichmania brasiliensis</text>
+            <item flag = "1">Собаки</item>
+            <item flag = "1">Обезьяны</item>
+            <item flag = "1">Дикие грызуны</item>
+            <item flag = "1">Сумчатые млекопитающие</item>
+            <item flag = "0">Клопы</item>
+    </question>
+	<question id = "328" size = "5" type = "1">
+            <text>Основной источник заражения человека индийским висцеральным лейшманиозом</text>
+            <item flag = "0">Собаки</item>
+            <item flag = "0">Шакалы</item>
+            <item flag = "0">Лисы</item>
+            <item flag = "1">Больной человек</item>
+            <item flag = "0">Москиты</item>
+    </question>
+	<question id = "329" size = "5" type = "1">
+            <text>Основной природный резервуар возбудителя средиземноморского висцерального лейшманиоза</text>
+            <item flag = "1">Бродячие собаки</item>
+            <item flag = "0">Антилопы</item>
+            <item flag = "0">Свиньи</item>
+            <item flag = "0">Больной человек</item>
+            <item flag = "0">Москиты</item>
+    </question>
+	<question id = "330" size = "5" type = "1">
+            <text>Основной резервуар Trypanosoma brucei rhodesiense</text>
+            <item flag = "0">Человек</item>
+            <item flag = "1">Антилопы</item>
+            <item flag = "0">Собаки</item>
+            <item flag = "0">Мухи цеце Glossina palpalis</item>
+            <item flag = "0">Поцелуйные клопы</item>
+    </question>
+	<question id = "331" size = "5" type = "1">
+            <text>Основной резервуар Trypanosoma brucei gambiense</text>
+            <item flag = "0">Собаки</item>
+            <item flag = "0">Козы и овцы</item>
+            <item flag = "0">Грызуны</item>
+            <item flag = "0">Мухи цеце Glossina palpalis</item>
+            <item flag = "1">Человек</item>
+    </question>
+	<question id = "332" size = "5" type = "1">
+            <text>Резервуар Trypanosoma cruzi</text>
+            <item flag = "1">Броненосцы</item>
+            <item flag = "1">Опоссумы</item>
+            <item flag = "1">Грызуны</item>
+            <item flag = "1">Человек</item>
+            <item flag = "0">Муха цеце</item>
+    </question>
+	<question id = "333" size = "5" type = "1">
+            <text>Антропонозное заболевание, вызванное представителем класса Sarcodina</text>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "0">Трипаносомоз</item>
+            <item flag = "0">Трихомониаз</item>
+            <item flag = "1">Амебиаз</item>
+            <item flag = "0">Лейшманиоз</item>
+    </question>
+	<question id = "334" size = "5" type = "1">
+            <text>Антропозоонозное заболевание, вызванное представителем класса Flagellata</text>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "0">Индийский висцеральный лейшманиоз</item>
+            <item flag = "0">Трихомониаз</item>
+            <item flag = "1">Американский трипаносомоз</item>
+            <item flag = "0">Поздно изъязвляющийся кожный лейшманиоз</item>
+    </question>
+	<question id = "335" size = "5" type = "1">
+            <text>К антропонозным кишечным инфекциям относят</text>
+            <item flag = "1">Амебиаз</item>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "0">Болезнь Чагаса</item>
+            <item flag = "0">Сонную болезнь</item>
+            <item flag = "1">Лямблиоз</item>
+    </question>
+	<question id = "336" size = "5" type = "1">
+            <text>К антропонозным трансмиссивным инфекциям относят</text>
+            <item flag = "1">Кожный лейшманиоз городского типа</item>
+            <item flag = "0">Кожный лейшманиоз сельского типа</item>
+            <item flag = "1">Индийский висцеральный лейшманиоз</item>
+            <item flag = "0">Средиземноморский висцеральный лейшманиоз</item>
+            <item flag = "0">Амебиаз</item>
+    </question>
+	<question id = "337" size = "5" type = "1">
+            <text>К антропозоонозным трансмиссивным инвазиям относят</text>
+            <item flag = "1">Кожный лейшманиоз сельского типа</item>
+            <item flag = "0">Кожный лейшманиоз городского типа</item>
+            <item flag = "0">Неглериоз</item>
+            <item flag = "1">Африканский трипаносомоз (родезийская форма)</item>
+            <item flag = "1">Американский трипаносомоз</item>
+    </question>
+	<question id = "338" size = "5" type = "1">
+            <text>К природно-очаговым антропозоонозным заболеванием человека относят</text>
+            <item flag = "1">Кожный лейшманиоз сельского типа</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "1">Африканский трипаносомоз (родезийская форма)</item>
+            <item flag = "0">Африканский трипаносомоз (гамбийская форма)</item>
+            <item flag = "1">Американский трипаносомоз</item>
+    </question>
+	<question id = "339" size = "5" type = "1">
+            <text>Трипаносомозы являются болезнями преимущественно жителей</text>
+            <item flag = "0">Городов</item>
+            <item flag = "1">Новых пригородов</item>
+            <item flag = "1">Сельской местности</item>
+            <item flag = "0">Распространены повсеместно</item>
+            <item flag = "0">Тайги</item>
+    </question>
+	<question id = "340" size = "5" type = "1">
+            <text>Особенности проявления амебиаза</text>
+            <item flag = "1">Боли в животе</item>
+            <item flag = "1">Кровоточащие язвы в стенках кишечника</item>
+            <item flag = "1">Кровавый понос</item>
+            <item flag = "1">Бессимптомное носительство</item>
+            <item flag = "0">Сильный кашель</item>
+    </question>
+	<question id = "341" size = "5" type = "1">
+            <text>Патогенез при амебиазе связан с поражением клеток</text>
+            <item flag = "0">Костного мозга</item>
+            <item flag = "1">Толстого кишечника</item>
+            <item flag = "0">Тонкого кишечника</item>
+            <item flag = "1">Печени</item>
+            <item flag = "0">Крови</item>
+    </question>
+	<question id = "342" size = "5" type = "1">
+            <text>Абсцессы в печени и других органах могут возникать в результате заноса туда гематогенным путем из кишечных язв</text>
+            <item flag = "0">Lamblia intestinalis</item>
+            <item flag = "0">Trichomonas hominis</item>
+            <item flag = "1">Entamoeba histolytica</item>
+            <item flag = "0">Entamoeba coli</item>
+            <item flag = "0">Naegleria fowleri</item>
+    </question>
+	<question id = "343" size = "5" type = "1">
+            <text>Особенности клинического проявления лямблиоза</text>
+            <item flag = "0">Кровавый понос</item>
+            <item flag = "1">Бессимптомное течение заболевания</item>
+            <item flag = "0">Лихорадка</item>
+            <item flag = "1">Воспалительные процессы тонкого кишечника (12-перстной кишки)</item>
+            <item flag = "1">Учащенный стул без примеси крови</item>
+    </question>
+	<question id = "344" size = "5" type = "1">
+            <text>Особенности клинического проявления урогенитального трихомониаза</text>
+            <item flag = "0">Язвы на половых органах</item>
+            <item flag = "1">Трихомонадоносительство</item>
+            <item flag = "0">Лихорадка</item>
+            <item flag = "1">Воспалительные процессы и зуд в половых путях</item>
+            <item flag = "0">Кожный зуд</item>
+    </question>
+	<question id = "345" size = "5" type = "1">
+            <text>При кожном лейшманиозе патогенез связан с преимущественным поражением</text>
+            <item flag = "0">Центральной нервной системы</item>
+            <item flag = "0">Гепатоцитов (клеток печени)</item>
+            <item flag = "0">Эритроцитов</item>
+            <item flag = "1">Макрофагов кожи</item>
+            <item flag = "0">Клеток костного мозга</item>
+    </question>
+	<question id = "346" size = "5" type = "1">
+            <text>При висцеральном лейшманиозе патогенез связан с преимущественным поражением</text>
+            <item flag = "0">Центральной нервной системы</item>
+            <item flag = "0">Эритроцитов</item>
+            <item flag = "1">Селезенки</item>
+            <item flag = "1">Печени</item>
+            <item flag = "1">Клеток костного мозга</item>
+    </question>
+	<question id = "347" size = "5" type = "1">
+            <text>Признаки заражения Leichmania tropica major</text>
+            <item flag = "0">Сухие язвы на коксе</item>
+            <item flag = "1">Мокнущие язвы с обильным серозно-гнойным содержимым</item>
+            <item flag = "1">Период рубцевания - 2 - 6 месяцев</item>
+            <item flag = "0">Язвы чаще на лице</item>
+            <item flag = "0">Развитие процесса медленное</item>
+    </question>
+	<question id = "348" size = "5" type = "1">
+            <text>Антропонозный кожный лейшманиоз характеризуется</text>
+            <item flag = "1">Хроническим течением инфекции</item>
+            <item flag = "0">Острым течение инфекции</item>
+            <item flag = "0">Коротким инкубационным периодом</item>
+            <item flag = "1">Поздним изъязвлением</item>
+            <item flag = "0">Наличием язв с обильным отделяемым</item>
+    </question>
+	<question id = "349" size = "5" type = "1">
+            <text>При висцеральном лейшманиозе у больных наблюдается</text>
+            <item flag = "1">Лихорадка</item>
+            <item flag = "1">Увеличение печени</item>
+            <item flag = "1">Анемия</item>
+            <item flag = "1">Увеличение селезенки</item>
+            <item flag = "0">Желудочное кровотечение</item>
+    </question>
+	<question id = "350" size = "5" type = "1">
+            <text>Особенности проявления сонной болезни родезийского типа</text>
+            <item flag = "1">Раннее поражение центральной нервной системы</item>
+            <item flag = "0">Интенсивность паразитемии низкая</item>
+            <item flag = "1">Протекает остро, без лечения - с летальным исходом</item>
+            <item flag = "0">Хроническое заболевание, продолжающееся до нескольких лет</item>
+            <item flag = "1">Интенсивность паразитемии высокая</item>
+    </question>
+	<question id = "351" size = "5" type = "1">
+            <text>У человека наиболее быстро прогрессирует</text>
+            <item flag = "0">Гамбийская форма сонной болезни</item>
+            <item flag = "1">Родезийская форма сонной болезни</item>
+            <item flag = "0">Болезнь Чагаса</item>
+            <item flag = "0">Американский трипаносомоз</item>
+            <item flag = "0">Африканский трипаносомоз</item>
+    </question>
+	<question id = "352" size = "5" type = "1">
+            <text>Особенности проявления сонной болезни гамбийского типа</text>
+            <item flag = "0">Раннее поражение центральной нервной системы</item>
+            <item flag = "1">Интенсивность паразитемии низкая</item>
+            <item flag = "0">Протекает остро, без лечения - с летальным исходом</item>
+            <item flag = "1">Хроническое заболевание, продолжающееся до нескольких лет</item>
+            <item flag = "0">Интенсивность паразитемии высокая</item>
+    </question>
+	<question id = "353" size = "5" type = "1">
+            <text>При африканском трипаносомозе патогенез связан с преимущественным поражением</text>
+            <item flag = "1">Лимфатических узлов, печени, селезенки</item>
+            <item flag = "0">Желудочно-кишечного тракта</item>
+            <item flag = "0">Мочеполовой системы</item>
+            <item flag = "1">Центральной нервной системы</item>
+            <item flag = "0">Суставов</item>
+    </question>
+	<question id = "354" size = "5" type = "1">
+            <text>При африканском трипаносомозе у пациента наблюдаются</text>
+            <item flag = "1">Лихорадка, озноб</item>
+            <item flag = "1">Выраженная сонливость</item>
+            <item flag = "1">Увеличение печени, селезенки</item>
+            <item flag = "1">Нейропсихические нарушения</item>
+            <item flag = "0">Поражение суставов</item>
+    </question>
+	<question id = "355" size = "5" type = "1">
+            <text>Патогенез при американском трипаносомозе связан с паразитированием и размножением возбудителя преимущественно в</text>
+            <item flag = "1">Лимфе</item>
+            <item flag = "1">Сердце</item>
+            <item flag = "1">Макрофагах кожи</item>
+            <item flag = "1">Крови</item>
+            <item flag = "0">Почках</item>
+    </question>
+	<question id = "356" size = "5" type = "1">
+            <text>При американском трипаносомозе у пациента наблюдаются</text>
+            <item flag = "0">Выраженная сонливость</item>
+            <item flag = "1">Миокардит</item>
+            <item flag = "1">Коньюктивит, одутловатость лица</item>
+            <item flag = "0">Трипаносомный шанкр</item>
+            <item flag = "0">Высокий диурез</item>
+    </question>
+	<question id = "357" size = "5" type = "1">
+            <text>Методы диагностики кишечного амебиаза</text>
+            <item flag = "0">Обнаружение в мазке фекалий Entamoeba histolytica forma minuta</item>
+            <item flag = "1">Иммунологический</item>
+            <item flag = "1">Культуральный</item>
+            <item flag = "0">Биопсия костного мозга</item>
+            <item flag = "1">Обнаружение в мазке фекалий Entamoeba histolytica forma magna</item>
+    </question>
+	<question id = "358" size = "5" type = "1">
+            <text>Методы диагностики внекишечного амебиаза</text>
+            <item flag = "0">Копрологический</item>
+            <item flag = "0">Дуоденальное зондирование</item>
+            <item flag = "0">Заражение лабораторных животных</item>
+            <item flag = "1">Иммунологический</item>
+            <item flag = "0">Ксенодиагностика</item>
+    </question>
+	<question id = "359" size = "5" type = "1">
+            <text>В острой стадии амебиаза (Entamoeba histolytica) с фекалиями больного выделяются</text>
+            <item flag = "0">Малые вегетативные формы</item>
+            <item flag = "1">Большие вегетативные формы</item>
+            <item flag = "0">Зрелые цисты</item>
+            <item flag = "0">Незрелые цисты</item>
+            <item flag = "0">Ооцисты</item>
+    </question>
+	<question id = "360" size = "5" type = "1">
+            <text>В период выздоровления с фекалиями больного кишечным амебиазом чаще выделяются</text>
+            <item flag = "1">Малые вегетативные формы Entamoeba histolytica</item>
+            <item flag = "0">Большие вегетативные формы Entamoeba histolytica</item>
+            <item flag = "1">Зрелые цисты Entamoeba histolytica</item>
+            <item flag = "1">Незрелые цисты Entamoeba histolytica</item>
+            <item flag = "0">Ооцисты</item>
+    </question>
+	<question id = "361" size = "5" type = "1">
+            <text>Методы паразитологической диагностики лямблиоза</text>
+            <item flag = "0">Ксенодиагностика</item>
+            <item flag = "1">Исследование мазков содержимого 12-ти перстной кишки (дуоденальное зондирование)</item>
+            <item flag = "0">Исследование мазков пункта спинномозговой жидкости</item>
+            <item flag = "1">Микроскопия мазков фекалий</item>
+            <item flag = "0">Пунктата печени</item>
+    </question>
+	<question id = "362" size = "5" type = "1">
+            <text>Метод диагностики кишечного трихомониаза</text>
+            <item flag = "0">Биопсия пораженных тканей</item>
+            <item flag = "0">Дуоденальное зондирование</item>
+            <item flag = "0">Исследование крови</item>
+            <item flag = "1">Исследование мазков фекалий</item>
+            <item flag = "0">Ксенодиагностика</item>
+    </question>
+	<question id = "363" size = "5" type = "1">
+            <text>Метод диагностики урогенитального трихомониаза</text>
+            <item flag = "0">Биопсия пораженных тканей</item>
+            <item flag = "0">Исследование мазка крови</item>
+            <item flag = "0">Дуоденальное зондирование</item>
+            <item flag = "1">Исследование мазков из половых органов</item>
+            <item flag = "0">Заражение лабораторных животных</item>
+    </question>
+	<question id = "364" size = "5" type = "1">
+            <text>Методы диагностики кожного лейшманиоза</text>
+            <item flag = "1">Культуральный</item>
+            <item flag = "0">Микроскопия мазков фекалий</item>
+            <item flag = "0">Обнаружение паразитов в мазке крови, окрашенного по Романовскому-Гимза</item>
+            <item flag = "1">Исследование мазков содержимого из кожных язв</item>
+            <item flag = "0">Ксенодиагностика</item>
+    </question>
+	<question id = "365" size = "5" type = "1">
+            <text>Методы диагностики кожно-слизистого лейшманиоза</text>
+            <item flag = "1">Микроскопия мазков отделяемого язв</item>
+            <item flag = "1">Биопсия пораженных тканей</item>
+            <item flag = "1">Заражение лабораторных животных</item>
+            <item flag = "0">Ксенодиагностика</item>
+            <item flag = "0">Микроскопия мазков фекалий</item>
+    </question>
+	<question id = "366" size = "5" type = "1">
+            <text>Лабораторная диагностика при висцеральном лейшманиозе</text>
+            <item flag = "0">Дуоденальное зондирование</item>
+            <item flag = "0">Исследование мазков крови, окрашенных по Романовскому-Гимза</item>
+            <item flag = "0">Исследование мазков из кожных язв</item>
+            <item flag = "1">Исследование мазков пунктата из костного мозга</item>
+            <item flag = "1">Иммунология</item>
+    </question>
+	<question id = "367" size = "5" type = "1">
+            <text>Методы диагностики американского трипаносомоза</text>
+            <item flag = "0">Заражение лабораторных животных</item>
+            <item flag = "0">Серологические реакции</item>
+            <item flag = "0">Обнаружение трипаносом в мазке крови, окрашенного по Романовскому-Гимза</item>
+            <item flag = "0">Ксенодиагностика</item>
+            <item flag = "1">Исследование мазков кожных язв</item>
+    </question>
+	<question id = "368" size = "5" type = "1">
+            <text>Методы диагностики африканского трипаносомоза</text>
+            <item flag = "1">Исследование пунктатов спинномозговой жидкости</item>
+            <item flag = "1">Серологические реакции</item>
+            <item flag = "0">Копрологический</item>
+            <item flag = "0">Ксенодиагностика</item>
+            <item flag = "1">Обнаружение трипаносом в мазке крови, окрашенного по Романовскому-Гимза</item>
+    </question>
+	<question id = "369" size = "5" type = "1">
+            <text>При анализе выделений из мочеполовых путей обнаружены многожгутиковые простейшие. Предположительный диагноз</text>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "0">Амебиаз</item>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "1">Трихомониаз</item>
+            <item flag = "0">Акантамебиаз</item>
+    </question>
+	<question id = "370" size = "5" type = "1">
+            <text>При обнаружении одножгутиковых простейших в плазме крови можно поставить диагноз</text>
+            <item flag = "0">Лейшманиоз</item>
+            <item flag = "0">Трихомониаз</item>
+            <item flag = "0">Лямблиоз</item>
+            <item flag = "1">Трипаносомоз</item>
+            <item flag = "0">Амебиаз</item>
+    </question>
+	<question id = "371" size = "5" type = "1">
+            <text>При исследовании костного мозга обнаружены безжгутиковые формы простейших</text>
+            <item flag = "0">Leichmania tropica major</item>
+            <item flag = "0">Leichmania tropica minor</item>
+            <item flag = "0">Leichmania brasiliensis</item>
+            <item flag = "1">Leichmania donovani</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question>
+	<question id = "372" size = "5" type = "1">
+            <text>При исследовании кожных язв могут быть обнаружены безжгутиковые простейшие</text>
+            <item flag = "1">Leichmania tropica minor</item>
+            <item flag = "1">Leichmania brasiliensis</item>
+            <item flag = "1">Leichmania tropica major</item>
+            <item flag = "0">Leichmania donovani</item>
+            <item flag = "0">Lamblia intestinalis</item>
+    </question>
+	<question id = "373" size = "5" type = "1">
+            <text>Меры профилактики амебиаза</text>
+            <item flag = "1">Борьба с механическими переносчиками (мухи, тараканы)</item>
+            <item flag = "1">Соблюдение правил личной гигиены</item>
+            <item flag = "1">Охрана воды, пищевых продуктов от загрязнения фекалиями</item>
+            <item flag = "1">Выявление цистоносителей</item>
+            <item flag = "0">Термическая обработка мяса</item>
+    </question>
+	 <question id = "374" size = "5" type = "1">
+            <text>Меры профилактики лямблиоза</text>
+            <item flag = "1">Мытье рук, фруктов и овощей</item>
+            <item flag = "1">Кипячение воды</item>
+            <item flag = "0">Хлорирование воды</item>
+            <item flag = "0">Вакцинация людей</item>
+            <item flag = "0">Защита от укуса клопов</item>
+    </question>
+	<question id = "375" size = "5" type = "1">
+            <text>Меры профилактики кишечного трихомониаза</text>
+            <item flag = "0">Уничтожение резервуара инвазии</item>
+            <item flag = "1">Соблюдение личной гигиены</item>
+            <item flag = "1">Выявление больных и их лечение</item>
+            <item flag = "1">Охрана воды и почвы от загрязнения фекалиями</item>
+            <item flag = "0">Выявление цистоносителей</item>
+    </question>
+	<question id = "376" size = "5" type = "1">
+            <text>Меры профилактики урогенитального трихомониаза</text>
+            <item flag = "0">Борьба с механическими переносчиками (мухи, тараканы)</item>
+            <item flag = "0">Мытье рук и овощей</item>
+            <item flag = "1">Активное выявление больных и их лечение</item>
+            <item flag = "0">Выявление цистоносителей</item>
+            <item flag = "1">Соблюдение правил личной гигиены при половых контактах</item>
+    </question>
+	<question id = "377" size = "5" type = "1">
+            <text>Меры профилактики висцерального лейшманиоза</text>
+            <item flag = "1">Борьба с москитами</item>
+            <item flag = "0">Выявление цистоносителей</item>
+            <item flag = "1">Активное выявление больных и их лечение</item>
+            <item flag = "0">Борьба с комарами</item>
+            <item flag = "0">Соблюдение правил личной гигиены</item>
+    </question>
+	<question id = "378" size = "5" type = "1">
+            <text>Меры профилактики кожно-слизистого лейшманиоза</text>
+            <item flag = "0">Не пользоваться чужим бельем</item>
+            <item flag = "1">Уничтожение резервуара инфекции</item>
+            <item flag = "1">Вакцинация (прививка живой культуры)</item>
+            <item flag = "0">Борьба с комарами</item>
+            <item flag = "0">Соблюдение правил личной гигиены при половых контактах</item>
+    </question>
+	 <question id = "379" size = "5" type = "1">
+            <text>Меры профилактики кожного лейшманиоза</text>
+            <item flag = "1">Уничтожение резервуара инфекции</item>
+            <item flag = "1">Вакцинация (прививка живой культуры)</item>
+            <item flag = "0">Соблюдение правил личной гигиены</item>
+            <item flag = "0">Уничтожение места выплода комаров</item>
+            <item flag = "0">Не пользоваться чужим бельем</item>
+    </question>
+	<question id = "380" size = "5" type = "1">
+            <text>Меры профилактики сонной болезни</text>
+            <item flag = "1">Предохранение от укусов мух цеце</item>
+            <item flag = "0">Выявление цистоносителей</item>
+            <item flag = "1">Введение лекарственных препаратов здоровым людям в очагах заражения</item>
+            <item flag = "0">Защита от нападения москитов</item>
+            <item flag = "0">Соблюдение правил личной гигиены</item>
+    </question>
+	<question id = "381" size = "5" type = "1">
+            <text>Меры профилактики болезни Чагаса</text>
+            <item flag = "0">Предохранение от укусов мух цеце</item>
+            <item flag = "1">Предохранение от укусов триатомовых клопов</item>
+            <item flag = "0">Выявление цистоносителей</item>
+            <item flag = "0">Профилактика лекарственными препаратами в очагах заражения</item>
+            <item flag = "1">Скрининг донорской крови</item>
+    </question>
+	<question id = "382" size = "5" type = "1">
+            <text>Выявление цистоносителей является мерой профилактики</text>
+            <item flag = "0">Кишечного трихомониаза</item>
+            <item flag = "1">Амебиаза</item>
+            <item flag = "0">Урогенитального трихомониаза</item>
+            <item flag = "1">Лямблиоза</item>
+            <item flag = "0">Лейшманиоза</item>
+    </question>
+	<question id = "383" size = "5" type = "1">
+            <text>Защита от нападения москитов является мерой профилактики</text>
+            <item flag = "0">Трихомониаза</item>
+            <item flag = "1">Висцерального лейшманиоза</item>
+            <item flag = "0">Американского трипаносомоза</item>
+            <item flag = "1">Кожно-слизистого лейшманиоза</item>
+            <item flag = "0">Акантамебного кератита</item>
+    </question>
+	 <question id = "384" size = "5" type = "1">
+            <text>Борьба со специфическими переносчиками является мерой профилактики</text>
+            <item flag = "1">Лейшманиоза</item>
+            <item flag = "1">Болезни Чагаса (американского трипаносомоза)</item>
+            <item flag = "1">Сонной болезни (африканского трипаносомоза)</item>
+            <item flag = "0">Амебиаза</item>
+            <item flag = "0">Лямблиоза</item>
+    </question>
+	 <question id = "385" size = "5" type = "1">
+            <text>Борьба с механическими переносчиками (мухи, тараканы) является мерой профилактики</text>
+            <item flag = "0">Урогенитального трихомониаза</item>
+            <item flag = "0">Кишечного трихомониаза</item>
+            <item flag = "0">Лейшманиоза</item>
+            <item flag = "1">Амебиаза</item>
+            <item flag = "0">Болезни Чагаса</item>
+    </question>
+	 <question id = "386" size = "5" type = "1">
+            <text>Защита от нападения мух цеце является мерой профилактики </text>
+            <item flag = "0">Амебиаза</item>
+            <item flag = "0">Американского трипаносомоза</item>
+            <item flag = "0">Лямблиоза</item>
+            <item flag = "1">Африканского трипаносомоза</item>
+            <item flag = "0">Кишечного трихомониаза</item>
+    </question>
+	 <question id = "387" size = "5" type = "1">
+            <text>Защита от нападения триатомовых клопов является мерой профилактики</text>
+            <item flag = "0">Кожно-слизистого лейшманиоза</item>
+            <item flag = "0">Африканского трипаносомоза</item>
+            <item flag = "0">Висцерального лейшманиоза</item>
+            <item flag = "1">Американского трипаносомоза</item>
+            <item flag = "1">Болезни Чагаса</item>
+    </question>
+	<question id = "388" size_x="5" size_y="5" type="2">
+		<text>Паразиты - ..., особенности их эпидемологии -</text>
+		<item>
+			<text>1) Leichmania tropica</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Trypanosoma cruzi</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Toxoplasma gondii</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Entamoeba histolytica</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Plasmodium ovale</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Вызывают облигатно-трансмиссивные заболевания </child>
+		<child>б) Передаются через питьевую воду</child>
+		<child>в) Передаются контаминативно</child>
+		<child>г) Передаются инокулятивно</child>
+		<child>д) Передаются при контакте с животными</child>
+	</question>
+	<question id = "389" size_x="5" size_y="5" type="2">
+		<text>При анализе мазков - ... могут быть выделены - ...</text>
+		<item>
+			<text>1) Фекалий</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Крови</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Костного мозга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Содержимого кожных язв</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Дуоденального содержимого</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Trypanosoma gambiense</child>
+		<child>б) Entamoeba coli</child>
+		<child>в) Lamblia intestinalis</child>
+		<child>г) Trypanosoma cruzi</child>
+		<child>д) Leichmania tropica</child>
+	</question>
+	<question id = "390" size_x="5" size_y="5" type="2">
+		<text>Мерами профилактики - ... являются - ...</text>
+		<item>
+			<text>1) Кожного лейшманиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Амебиаза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Лямблиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Висцерального лейшманиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Сонной болезни</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Кипячение воды, мытье фруктов</child>
+		<child>б) Уничтожение мух цеце</child>
+		<child>в) Защита от москитов</child>
+		<child>г) Выявление цистоносителей</child>
+		<child>д) Защита от комаров</child>
+	</question>
+	<question id = "391" size_x="5" size_y="5" type="2">
+		<text>При анализе мазков - ... могут быть выявлены - ...</text>
+		<item>
+			<text>1) Фекалий</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Крови</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Костного мозга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Содержимого кожных язв</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Дуоденального содержимого</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Trypanosoma rhodesiense</child>
+		<child>б) Entamoeba histolytica</child>
+		<child>в) Lamblia intestinalis</child>
+		<child>г) Leichmania tropica</child>
+		<child>д) Leichmania donovani</child>
+	</question>
+	<question id = "392" size_x="5" size_y="5" type="2">
+		<text>Мерами профилактики - ... являются - ...</text>
+		<item>
+			<text>1) Кожного лейшманиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Амебиаза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Лямблиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Висцерального лейшманиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Болезни Чагаса</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Борьба со специфическими переносчиками</child>
+		<child>б) Защита от триатомовых клопов</child>
+		<child>в) Защита от москитов</child>
+		<child>г) Выявление цистоносителей</child>
+		<child>д) Очистка воды</child>
+	</question>
+	<question id = "393" size_x="5" size_y="5" type="2">
+		<text>При анализе мазков - ... могут быть выделены - ...</text>
+		<item>
+			<text>1) Фекалий</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Крови</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Костного мозга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Содержимого кожных язв</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Дуоденального содержимого</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Lamblia intestinalis</child>
+		<child>б) Entamoeba coli</child>
+		<child>в) Trichomonas hominis</child>
+		<child>г) Leichmania tropica</child>
+		<child>д) Leichmania donovani</child>
+	</question> 
+	<question id = "394" size_x="5" size_y="5" type="2">
+		<text></text>
+		<item>
+			<text>1) Кожного лейшманиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Менингоэцефалита</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Лямблиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Висцерального лейшманиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Сонной болезни</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Кипячение воды, мытье фруктов</child>
+		<child>б) Осторожность при купании в бассейнах</child>
+		<child>в) Борьба со специфическими переносчиками</child>
+		<child>г) Выявление цистоносителей</child>
+		<child>д) Очистка воды</child>
+	</question> 
+	<question id = "395" size_x="5" size_y="5" type="2">
+		<text>При анализе мазков - ... могут быть выделены - ...</text>
+		<item>
+			<text>1) Фекалий</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Крови</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Костного мозга</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Содержимого кожных язв</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Дуоденального содержимого</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Leichmania donovani</child>
+		<child>б) Trichomonas hominis</child>
+		<child>в) Lamblia intestinalis</child>
+		<child>г) Trypanosoma rhodesiense</child>
+		<child>д) Leichmania tropica</child>
+	</question>
+	<question id = "396" size_x="5" size_y="5" type="2">
+		<text>Мерами профилактики - ... являются (-ется)</text>
+		<item>
+			<text>1) Сонной болезни</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Болезни Чагаса</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Кожного лейшманиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Висцерального лейшманиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Лямблиоза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Уничтожение специфических переносчиков</child>
+		<child>б) Уничтожение мух цеце</child>
+		<child>в) Защита от москитов</child>
+		<child>г) Выявление цистоносителей</child>
+		<child>д) Очистка воды</child>
+	</question> 
+	<question id = "397" size_x="5" size_y="5" type="2">
+		<text>Мерами профилактики - ... являются - ...</text>
+		<item>
+			<text>1) Балантидиаза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Токсоплазмоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Лямблиоза</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Трихомониаза</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Малярии</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Мытье рук, овощей и т.д</child>
+		<child>б) Уничтожение переносчиков</child>
+		<child>в) Осторожность при общении с животными</child>
+		<child>г) Предохранение при половых контактах</child>
+		<child>д) Очистка питьевой воды</child>
+	</question> 
+	<question id = "398" size_x="5" size_y="5" type="2">
+		<text>Паразит - ..., способы заражения - ....</text>
+		<item>
+			<text>1) Leichmania donovani</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Trypanosoma cruzi</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Toxoplasma gondii</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Acanthamoeba castellani</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Balantidium coli</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Контаминативный</child>
+		<child>б) Фекально-оральный</child>
+		<child>в) Инокулятивный</child>
+		<child>г) Алиментарный</child>
+		<child>д) Контактно-бытовой</child>
+	</question>
+	<question id = "399" size_x="5" size_y="6" type="2">
+		<text>Для диагностики паразита - ... проводят исследование - ...</text>
+		<item>
+			<text>1) Leichmania donovani</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Trichomonas hominis</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Toxoplasma gondii</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Trypanosoma rhodesiense</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Leichmania tropica</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Иммунологической сыворотки крови</child>
+		<child>б) Мазка содержимого кожных язв</child>
+		<child>в) Маза фекалий</child>
+		<child>г) Мазка крови</child>
+		<child>д) Мазка спинномозговой жидкости</child>
+		<child>ж) Пунктатов костного мозга</child>
+	</question>
+</quize>

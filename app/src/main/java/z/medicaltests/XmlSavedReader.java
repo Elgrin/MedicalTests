@@ -17,7 +17,7 @@ class SavedBundle {
     private String Path;
     private int Number;
     private boolean Show;
-    private double RightAnswers;
+    private int RightAnswers;
     private int maxSize;
     private String Name;
     private int ID;
@@ -28,7 +28,7 @@ class SavedBundle {
     void setPath(String Path) {this.Path = Path;}
     void setNumber(int Number) {this.Number = Number;}
     void setShow(boolean Show) {this.Show = Show;}
-    void setRightAnswers(double RightAnswers) {this.RightAnswers = RightAnswers;}
+    void setRightAnswers(int RightAnswers) {this.RightAnswers = RightAnswers;}
     void setMaxSize(int maxSize) {this.maxSize = maxSize;}
     public void setName(String Name) {this.Name = Name;}
     void setID(int ID){this.ID=ID;}
@@ -39,7 +39,7 @@ class SavedBundle {
     String getPath() {return Path;}
     int getNumber() {return Number;}
     boolean getShow() {return Show;}
-    double getRightAnswers() {return RightAnswers;}
+    int getRightAnswers() {return RightAnswers;}
     int getMaxSize() {return maxSize;}
     public String getName() {return Name;}
     int getID(){return ID;}
@@ -121,7 +121,7 @@ class SavedBundle {
                                 //continue;
                             }
                             if (j == 3) {
-                                bundle[Iterator].setRightAnswers(Double.parseDouble(nNode_Second.getTextContent()));
+                                bundle[Iterator].setRightAnswers(Integer.parseInt(nNode_Second.getTextContent()));
                                 Log.v(TAG, "Right " + nNode_Second.getTextContent());
                                 //continue;
                             }

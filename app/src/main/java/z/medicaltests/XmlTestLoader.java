@@ -67,10 +67,14 @@ class XmlTestLoader {
             NodeList nList = doc.getElementsByTagName("question");
 
             main:
-            for (int i = 0; i < nList.getLength(); i++) {
+            // i < SIZE?
+            for (int i = 0; i < mass.length; i++) {
 
-                if (AbstractSize == mass.length) break;
-                Node nNode = nList.item(i);
+                //Вернуть в случае ошибок
+                //if (AbstractSize == mass.length) break;
+                //Вернуть в случае ошибок
+                //Node nNode = nList.item(i);
+                Node nNode = nList.item(mass[i]-1);
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) nNode;
@@ -79,6 +83,8 @@ class XmlTestLoader {
                     int id = Integer.parseInt(ID);
                     boolean flag = false;
 
+                    //Вернуть в случае ошибок
+                    /*
                     //Log.v(TAG, "ОШИБКА " + Integer.toString(mass.length));
                     for (int j = 0; j < mass.length; j++) {
 
@@ -91,8 +97,8 @@ class XmlTestLoader {
                         if (flag) break;
                     }
 
-                    if (!flag) continue;
-
+                    //if (!flag) continue;
+                    */
 
                     String TYPE = element.getAttribute("type");
                     int type = Integer.parseInt(TYPE);

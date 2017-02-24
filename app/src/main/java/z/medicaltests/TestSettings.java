@@ -99,7 +99,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         }
         else {
             CheckBox checkBox = (CheckBox) view.findViewById(R.id.Show_mistakes);
-            checkBox.setVisibility(View.GONE);
+            //checkBox.setVisibility(View.GONE);
         }
 
 

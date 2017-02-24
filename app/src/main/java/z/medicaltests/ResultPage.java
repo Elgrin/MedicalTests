@@ -21,7 +21,7 @@ import android.widget.TextView;
 public class ResultPage extends Fragment implements View.OnClickListener {
 
 
-    private double Result;
+    private int Result;
     private int All;
     private ResultPageListener listener;
     private TestStructure[] Questions;
@@ -91,7 +91,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     }
 
     //Name, Path, Questions, 1, Show, false, 0, Max, Mode
-    public void setMessage(double Result, int All, TestStructure Questions[],
+    public void setMessage(int Result, int All, TestStructure Questions[],
                            String Name,
                            String Path,
                            boolean Show,
@@ -115,7 +115,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
         if (savedInstanceState != null) {
             All = savedInstanceState.getInt("all");
-            Result = savedInstanceState.getDouble("result");
+            Result = savedInstanceState.getInt("result");
 
             Show = savedInstanceState.getBoolean("show");
             Max = savedInstanceState.getInt("max");
@@ -154,9 +154,9 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         View view = getView();
         TextView textView = (TextView) view.findViewById(R.id.result_text);
         textView.setText("Получено баллов: "
-                + Double.toString(Result)
+                + Integer.toString(Result)
                 + " из "
-                + Double.toString(All));
+                + Integer.toString(All));
 
         Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
         Button again = (Button) view.findViewById(R.id.again_page_button);
@@ -206,7 +206,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
 
         outState.putInt("all", All);
-        outState.putDouble("result", Result);
+        outState.putInt("result", Result);
         outState.putBoolean("show", Show);
         outState.putInt("max", Max);
         outState.putString("path", Path);

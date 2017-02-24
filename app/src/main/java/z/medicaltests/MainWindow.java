@@ -51,7 +51,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max, Mode, MistakesIndexesArray, AbsoluteSize);
+        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max, Mode, null, AbsoluteSize);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -104,6 +104,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         }
 
+        for (int i = 0; i < mass.length; i++) {
+            Log.v("RAND", Integer.toString(mass[i]));
+        }
+
+        /*
         for (int i = 0; i < Size; i++) {
 
             int min = mass[i];
@@ -122,7 +127,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 mass[i] = mass[min_i];
                 mass[min_i] = tmp;
             }
-        }
+        }*/
 
         return mass;
     }
@@ -165,7 +170,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     public void onButtonCheckBoxCommitListener(String Name, String Path, boolean Show,
                                                TestStructure Questions[],
                                                int Number,
-                                               double RighAnswers,
+                                               int RighAnswers,
                                                int Max,
                                                int Mode,
                                                int[] MistakesIndexesArray,
@@ -211,14 +216,17 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     @Override
     public void onButtonCommitListener(boolean Show, int Size_all, int Size_exam, String File, int Mode) {
 
-
         int mass[];
-        if (Size_all == Size_exam) {
+
+
+        if (Mode == 0) {
             mass = Randomize(Size_exam);
             //text.append(" " + Integer.toString(Size_all) + " ");
         } else {
             mass = Randomize(Size_exam, Size_all);
         }
+
+        //mass=Randomize(Size_exam, Size_all);
 
          /*
          text.setText("");

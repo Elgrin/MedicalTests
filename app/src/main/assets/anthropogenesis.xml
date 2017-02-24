@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="70" file="anthropogenesis" name = "Антропогенез">
+	<question id = "1" size = "5" type = "1">
+        <text>Главный критерий человека</text>
+        <item flag = "1">прямохождение</item>
+        <item flag = "0">трудовая деятельность</item>
+        <item flag = "0">бинокулярное зрение</item>
+        <item flag = "0">подвижные предплечья</item>
+		<item flag = "0">небольшой объем лицевого черепа</item>
+    </question>
+	<question id = "2" size = "5" type = "1">
+        <text>В процессе становления человека произошли эволюционные преобразования головного мозга, кроме</text>
+        <item flag = "0">увеличения объема больших полушарий</item>
+        <item flag = "0">увеличения зоны абстрактного мышления</item>
+        <item flag = "0">укрупнение размеров мозолистого тела</item>
+        <item flag = "0">появление центров речи (Брока и Вернике)</item>
+		<item flag = "1">уменьшение размеров лобных и теменно-височных долей</item>
+    </question>
+	<question id = "3" size = "5" type = "1">
+        <text>Главное эволюционное изменение австралопитековых, приблизившее их к человеку</text>
+        <item flag = "0">поредение волосяного покрова тела</item>
+        <item flag = "1">переход к прямохождению</item>
+        <item flag = "0">увеличение размеров тела</item>
+        <item flag = "0">увеличение объема мозгового черепа</item>
+		<item flag = "0">всеядность</item>
+    </question> 
+	<question id = "4" size = "5" type = "1">
+        <text>Морфогенетическая предпосылка гоминизации приматов (антропоморфоз)</text>
+        <item flag = "0">ногти на пальцах</item>
+        <item flag = "1">конечности хватательного типа</item>
+        <item flag = "0">внутриутробное развитие плода</item>
+        <item flag = "0">хорошо развитый висцеральный аппарат</item>
+		<item flag = "0">волосяной покров</item>
+    </question> 
+	<question id = "5" size = "5" type = "1">
+        <text>В эволюции гоминид первым и существами, перешедшими к прямохождению, были</text>
+        <item flag = "0">питекантропы</item>
+        <item flag = "0">синантропы</item>
+        <item flag = "1">австралопитеки</item>
+        <item flag = "0">неандертальцы</item>
+		<item flag = "0">кроманьонцы</item>
+    </question> 
+	<question id = "6" size = "5" type = "1">
+        <text>Метод антропологии, устанавливающий абсолютный возраст ископаемого материала</text>
+        <item flag = "0">биомолекулярный</item>
+        <item flag = "0">гибридизации ДНК</item>
+        <item flag = "0">цитогенетический</item>
+        <item flag = "1">радиометрический</item>
+		<item flag = "0">краниометрия</item>
+    </question> 
+	<question id = "7" size = "5" type = "1">
+        <text>Генетическое родство и время расхождения филогенетического ствола гоминид устанавливается методом</text>
+        <item flag = "0">коллагеновым</item>
+        <item flag = "0">радиометрическим</item>
+        <item flag = "0">биомолекулярным</item>
+        <item flag = "1">краниометрией</item>
+		<item flag = "0">цитогенетическим</item>
+    </question> 
+	<question id = "8" size = "4" type = "1">
+        <text>Скачок в антропогенезе, связанный с возникновением орудийной деятельности человека, характеризует переход от</text>
+        <item flag = "0">проантропов к хабилисам</item>
+        <item flag = "1">хабилисов к архантропам</item>
+        <item flag = "0">архантропов к палеонтропам</item>
+        <item flag = "0">палеонтропов к неоантропам</item>
+    </question> 
+	<question id = "9" size = "5" type = "1">
+        <text>Прародина современного человека (неоантропа), согласно современной "миграционной" гипотезе - это</text>
+        <item flag = "1">Восточная Африка</item>
+        <item flag = "0">Австралия</item>
+        <item flag = "0">Передняя Азия</item>
+        <item flag = "0">Южная Америка</item>
+		<item flag = "0">Средиземноморье</item>
+    </question> 
+	<question id = "10" size = "4" type = "1">
+        <text>Скачок в антропогенезе, связанный с возникновением абстрактного мышления и речи, характеризует период жизни</text>
+        <item flag = "0">проантропов</item>
+        <item flag = "0">архантропов</item>
+        <item flag = "1">палеонтропов</item>
+        <item flag = "0">неоантропов</item>
+    </question> 
+	<question id = "11" size = "5" type = "1">
+        <text>Стабилизация первобытного общества способствовал отбор по</text>
+        <item flag = "0">агрессивности</item>
+        <item flag = "0">каннибализму</item>
+        <item flag = "1">альтруизму</item>
+        <item flag = "0">индифферентным (безразличным) отношениям</item>
+		<item flag = "0">охотничьей разобщенности</item>
+    </question> 
+	<question id = "12" size = "5" type = "1">
+        <text>Следствием прямохождения у человека может быть</text>
+        <item flag = "0">кариес</item>
+        <item flag = "1">варикозное расширение вен</item>
+        <item flag = "0">врожденный вывих бедра</item>
+        <item flag = "0">расщелина твердого нёба</item>
+		<item flag = "0">уменьшение размеров таза</item>
+    </question> 
+	<question id = "13" size = "5" type = "1">
+        <text>Внутривидовой полиморфизм в популяциях современного человека обусловлен действием отбора</text>
+        <item flag = "0">движущего</item>
+        <item flag = "0">стабилизирующего</item>
+        <item flag = "1">дизруптивного (рассеивающего)</item>
+        <item flag = "0">искусственного</item>
+		<item flag = "0">полового</item>
+    </question> 
+	<question id = "14" size = "5" type = "1">
+        <text>Репродуктивная изоляция малочисленных популяций человека способствует</text>
+        <item flag = "1">повышению частоты мутаций</item>
+        <item flag = "0">их гомозиготности</item>
+        <item flag = "0">увеличению генетического разнообразия</item>
+        <item flag = "0">повышению жизнеспособности популяции</item>
+		<item flag = "0">увеличению потоков генов</item>
+    </question>
+	<question id = "15" size = "5" type = "1">
+        <text>В наследственном полиморфизме человека наибольшую часть составляют признаки</text>
+        <item flag = "0">больших рас</item>
+        <item flag = "0">малых рас</item>
+        <item flag = "0">этнические</item>
+        <item flag = "1">индивидуальные</item>
+		<item flag = "0">национальные</item>
+    </question>
+	<question id = "16" size = "5" type = "1">
+        <text>Генетический анализ выяснил, что расы человека - это</text>
+        <item flag = "0">отдельные виды</item>
+        <item flag = "0">подвиды</item>
+        <item flag = "0">отряды</item>
+        <item flag = "0">популяции</item>
+		<item flag = "1">этносы</item>
+    </question>
+	<question id = "17" size = "5" type = "1">
+        <text>Давление естественного отбора наиболее представлено в процессе</text>
+        <item flag = "0">гаметогенеза</item>
+        <item flag = "0">оплодотворения</item>
+        <item flag = "0">осеменения</item>
+        <item flag = "1">эмбриогенеза</item>
+		<item flag = "0">постзмбриогенеза</item>
+    </question>
+	<question id = "18" size = "5" type = "1">
+        <text>Социальный фактор расообразования</text>
+        <item flag = "0">мутационный процесс</item>
+        <item flag = "0">естественный отбор</item>
+        <item flag = "0">волны жизни</item>
+        <item flag = "1">культурные, национальные, религиозные барьеры</item>
+		<item flag = "0">генетическая изоляция</item>
+    </question>
+	<question id = "19" size = "5" type = "1">
+        <text>Биологический фактор расообразования с</text>
+        <item flag = "0">система брачных отношений</item>
+        <item flag = "1">мутационный процесс</item>
+        <item flag = "0">трудовая деятельность</item>
+        <item flag = "0">культурные барьеры</item>
+		<item flag = "0">языковые барьеры</item>
+    </question>
+	<question id = "20" size = "5" type = "1">
+        <text>В популяциях современного человека поддержание морфофизиологических признаков в пределах видовой нормы реакции осуществляет отбор</text>
+        <item flag = "0">движущий</item>
+        <item flag = "1">стабилизирующий</item>
+        <item flag = "0">дизруптивный</item>
+        <item flag = "0">искусственный</item>
+		<item flag = "0">половой</item>
+    </question>
+	 <question id = "21" size = "5" type = "1">
+        <text>Прогрессивные черты приматов, связанные с перемещением в трехмерном пространстве</text>
+        <item flag = "0">усиленная тактильная чувствительность</item>
+        <item flag = "1">бинокулярное зрение</item>
+        <item flag = "1">развитие мозжечка</item>
+        <item flag = "0">выраженная социальность</item>
+		<item flag = "0">инстинкт подражания</item>
+    </question>
+	<question id = "22" size = "4" type = "1">
+        <text>В антропогенезе переадаптации, необходимые для возникновения человека при благоприятных условиях - это</text>
+        <item flag = "0">палеоморфозы</item>
+        <item flag = "1">антропоморфозы</item>
+        <item flag = "0">археоморфозы</item>
+        <item flag = "0">безвредные мутации</item>
+    </question>
+	<question id = "23" size = "6" type = "1">
+        <text>Антропоморфозы отряда приматов</text>
+        <item flag = "0">четырехкамерное сердце</item>
+        <item flag = "1">выраженная социальность</item>
+        <item flag = "1">древесный образ жизни</item>
+        <item flag = "1">бинокулярное зрение</item>
+		<item flag = "1">инстинкт подражания</item>
+		<item flag = "0">низкая плодовитость</item>
+    </question>
+	<question id = "24" size = "4" type = "1">
+        <text>При помощи биомолекулярного метода может быть определена степень родства видов имеющих</text>
+        <item flag = "0">большое количество сходных вредных мутаций</item>
+        <item flag = "1">большое количество сходных нейтральных мутаций</item>
+        <item flag = "0">общего предка 30 тыс. лет назад, при этом продолжительность жизни представителя одного вида - 15 лет, а другого - 25 лет</item>
+        <item flag = "1">одинаковую продолжительность жизни</item>
+    </question>
+	<question id = "25" size = "4" type = "1">
+        <text>Масса мозга Auslralopithecus africanus составляла</text>
+        <item flag = "0">300-400 г</item>
+        <item flag = "1">450-550 г</item>
+        <item flag = "0">500-600 г</item>
+        <item flag = "0">550-650 г</item>
+    </question>
+	<question id = "26" size = "4" type = "1">
+        <text>Общая масса тела Austra1opithecus africanus составляла</text>
+        <item flag = "0">15-25 кг</item>
+        <item flag = "0">20-40 кг</item>
+        <item flag = "1">25-65 кг</item>
+        <item flag = "0">50-75 кг</item>
+    </question> 
+	<question id = "27" size = "5" type = "1">
+        <text>Возраст находок Australopithecus africanus составляет</text>
+        <item flag = "0">6-4,8 млн. лет</item>
+        <item flag = "0">4,8-3 млн. лет</item>
+        <item flag = "1">3-1 млн. лет</item>
+        <item flag = "0">25-15 тыс. лет</item>
+		<item flag = "0">10-5 тыс. лет</item>
+    </question>
+	<question id = "28" size = "5" type = "1">
+        <text>Останки Australopithecus afarensis были обнаружены в </text>
+        <item flag = "1">Эфиопии</item>
+        <item flag = "1">Танзания</item>
+        <item flag = "0">Болгарии</item>
+        <item flag = "1">Кении</item>
+		<item flag = "0">Греции</item>
+    </question>
+	<question id = "29" size = "4" type = "1">
+        <text>Объем мозга Australopithecus afarensis составляла</text>
+        <item flag = "0">540-700 см^3</item>
+        <item flag = "0">300-420 см^3</item>
+        <item flag = "1">З80-450 см^3</item>
+        <item flag = "0">490-620 см^3</item>
+    </question>
+	<question id = "30" size = "4" type = "1">
+        <text>Возраст находок Homo habilis составляет</text>
+        <item flag = "0">4-2,8 млн. лет</item>
+        <item flag = "1">2-1,7 млн. лет</item>
+        <item flag = "0">3-1 млн. лет</item>
+        <item flag = "0">25-15 тыс. лет</item>
+    </question>
+	<question id = "31" size = "5" type = "1">
+        <text>Останки Homo habilis были обнаружены в</text>
+        <item flag = "0">Эфиопии</item>
+        <item flag = "1">Танзании</item>
+        <item flag = "0">Болгарии</item>
+        <item flag = "0">Кении</item>
+		<item flag = "0">Греции</item>
+    </question>
+	<question id = "32" size = "4" type = "1">
+        <text>Объем мозга Homo habilis составляет</text>
+        <item flag = "1">540-700 см^3</item>
+        <item flag = "0">300-420 см^3</item>
+        <item flag = "0">380-450 см^3</item>
+        <item flag = "0">490-620 см^3</item>
+    </question>
+	<question id = "33" size = "4" type = "1">
+        <text>Развитие двух речевых центров как условие для возникновения членораздельной речи впервые происходит у</text>
+        <item flag = "0">Australopithecus afarensis</item>
+        <item flag = "1">Homo habilis</item>
+        <item flag = "0">Auslralopithecus africanus</item>
+        <item flag = "0">Homo erectus</item>
+    </question>
+	<question id = "34" size = "4" type = "1">
+        <text></text>
+        <item flag = "0">Australopithecus afarensis</item>
+        <item flag = "0">Homo habilis</item>
+        <item flag = "1">Australopitecus africanus</item>
+        <item flag = "0">Homo erectus</item>
+    </question>
+	<question id = "35" size = "4" type = "1">
+        <text>Ранние формы трудовой деятельности, орудия труда со следами целенаправленной обработки, завершение морфологических перестроек, связанных с прямохождением - отличительная особенность</text>
+        <item flag = "0">Australopithecus afarensis</item>
+        <item flag = "1">Homo habilis</item>
+        <item flag = "0">Australopitecus africanus</item>
+        <item flag = "0">Homo erectus</item>
+    </question>
+	<question id = "36" size = "4" type = "1">
+        <text>Предком Homo habilis является</text>
+        <item flag = "1">Australopithecus afarensis</item>
+        <item flag = "0">Australopithecus robustus</item>
+        <item flag = "0">Australopithecus africanus</item>
+        <item flag = "0">Homo erectus</item>
+    </question>
+	<question id = "37" size = "4" type = "1">
+        <text>Материальная культура и ярко выраженная социальность - отличительная особенность</text>
+        <item flag = "0">Australopithecus afarensis</item>
+        <item flag = "0">Homo habilis</item>
+        <item flag = "0">Australopithecus africanus</item>
+        <item flag = "1">Homo erectus</item>
+    </question>
+	<question id = "38" size = "4" type = "1">
+        <text>Вид, расселившийся на территории Евразии</text>
+        <item flag = "0">Australopithecus africanus</item>
+        <item flag = "0">Homo habilis</item>
+        <item flag = "1">Homo erectus</item>
+        <item flag = "0">Australopithecus afarensis</item>
+    </question>
+	<question id = "39" size = "4" type = "1">
+        <text>Минимальная масса мозга в граммах, при которой возможно существование речи составляет</text>
+        <item flag = "0">350</item>
+        <item flag = "0">550</item>
+        <item flag = "1">750</item>
+        <item flag = "0">950</item>
+    </question>
+	<question id = "40" size = "4" type = "1">
+        <text>Масса мозга Homo erectus составляет</text>
+        <item flag = "0">650-800 г</item>
+        <item flag = "0">1000-1300 г</item>
+        <item flag = "0">950-1100 г</item>
+        <item flag = "1">800- 1000 г</item>
+    </question>
+	<question id = "41" size = "5" type = "1">
+        <text>Homo erectus обитали в</text>
+        <item flag = "1">Европе</item>
+        <item flag = "1">Африке</item>
+        <item flag = "0">Южной Америке</item>
+        <item flag = "0">Северной Америке</item>
+		<item flag = "1">Азии</item>
+    </question>
+	<question id = "42" size = "5" type = "1">
+        <text>Наиболее древние останки H.s sapiens датируются</text>
+        <item flag = "0">200 тыс. лет</item>
+        <item flag = "1">100 тыс. лет</item>
+        <item flag = "0">65-60 тыс. лет</item>
+        <item flag = "0">35-25 тыс. лет</item>
+		<item flag = "0">10-15 тыс. лет</item>
+    </question>
+	<question id = "43" size = "5" type = "1">
+        <text>Наиболее поздние останки H.s neanderthalensis датируются</text>
+        <item flag = "0">400 тыс. лет</item>
+        <item flag = "0">200 тыс. лет</item>
+        <item flag = "0">100 тыс. лет</item>
+        <item flag = "0">60 тыс. лет</item>
+		<item flag = "1">35-25 тыс. лет</item>
+    </question>
+	<question id = "44" size = "5" type = "1">
+        <text>Окончательное формирование человека современного физического типа датируется</text>
+        <item flag = "0">400 тыс. лет</item>
+        <item flag = "0">200 тыс. лет</item>
+        <item flag = "0">100 тыс. лет</item>
+        <item flag = "0">60 тыс. лет</item>
+		<item flag = "1">30-25 тыс. лет</item>
+    </question>
+	<question id = "45" size = "5" type = "1">
+        <text>Принадлежность к одной из больших рас для описанного человека: светлая кожа, волнистые волосы, узкий выступающий нос, тонкие губы, развитый волосяной покров на лице и теле</text>
+        <item flag = "1">европеоидная</item>
+        <item flag = "0">негроидная</item>
+        <item flag = "0">монголоидная</item>
+        <item flag = "0">австралийские аборигены</item>
+		<item flag = "0">не поддается однозначному определению</item>
+    </question>
+	<question id = "46" size = "5" type = "1">
+        <text>Принадлежность к одной из больших рас для описанного человека: смуглая кожа, прямые жесткие волосы, косой разрез глаз</text>
+        <item flag = "0">европеоидная</item>
+        <item flag = "0">негроидная</item>
+        <item flag = "1">монголоидная</item>
+        <item flag = "0">австралийские аборигены</item>
+		<item flag = "0">не поддается однозначному определению</item>
+    </question>
+	<question id = "47" size = "5" type = "1">
+        <text>Принадлежность к одной из больших рас для описанного человека: темная кожа, курчавые волосы, толстые губы, слегка выступающий нос</text>
+        <item flag = "0">европеоидная</item>
+        <item flag = "1">негроидная</item>
+        <item flag = "0">монголоидная</item>
+        <item flag = "0">австралийские аборигены</item>
+		<item flag = "0">не поддается однозначному определению</item>
+    </question>
+	<question id = "48" size = "5" type = "1">
+        <text>Принадлежность к одной из больших рас для описанного человека: темная кожа, курчавые волосы, тонкие губы, слегка выступающий нос, эпикант</text>
+        <item flag = "0">европеоидная</item>
+        <item flag = "0">негроидная</item>
+        <item flag = "0">монголоидная</item>
+        <item flag = "1">австралийский абориген</item>
+		<item flag = "0">не поддастся однозначному определению</item>
+    </question>
+	<question id = "49" size = "4" type = "1">
+        <text>Наличие эпиканта характерно для расы</text>
+        <item flag = "0">негроидной</item>
+        <item flag = "1">монголоидной</item>
+        <item flag = "0">европеоидной</item>
+        <item flag = "0">австралийских аборигенов</item>
+    </question>
+	<question id = "50" size = "5" type = "1">
+        <text>Схема расовой классификации изображается в виде круга при классификации малых рас</text>
+        <item flag = "1">без учета их происхождения</item>
+        <item flag = "0">с учетом их происхождения</item>
+        <item flag = "0">на основе популяционной концепции</item>
+        <item flag = "0">не используется</item>
+		<item flag = "0">с учетом метисации</item>
+    </question>
+	<question id = "51" size = "5" type = "1">
+        <text>Схема расовой классификации изображается в виде эволюционного древа при классификации малых рас</text>
+        <item flag = "0">без учета их происхождения</item>
+        <item flag = "1">с учетом их происхождения</item>
+        <item flag = "0">на основе популяционной концепции </item>
+        <item flag = "0">не используется</item>
+		<item flag = "0">с учетом метисации</item>
+    </question>
+	<question id = "52" size = "4" type = "1">
+        <text>Попытка расположить расы на разных уровнях эволюционного древа - основной недостаток классификации малых рас</text>
+        <item flag = "0">без учета их происхождения</item>
+        <item flag = "1">с учетом их происхождения</item>
+        <item flag = "0">на основе популяционной концепции</item>
+        <item flag = "0">без учета метисации</item>
+    </question>
+	<question id = "53" size = "5" type = "1">
+        <text>Аборигенным населением Америки являются представители расы</text>
+        <item flag = "0">негроидной</item>
+        <item flag = "1">монголоидной</item>
+        <item flag = "0">европеоидной</item>
+        <item flag = "0">американской</item>
+		<item flag = "0">с отсутствием признаков</item>
+    </question>
+	<question id = "54" size = "5" type = "1">
+        <text>Доля популяционных различий на уровне больших рас в общем объеме генетического полиморфизма человека составляет ... (классификация малых рас на основе популяционной концепции)</text>
+        <item flag = "0">1%</item>
+        <item flag = "1">8%</item>
+        <item flag = "0">36%</item>
+        <item flag = "0">51%</item>
+		<item flag = "0">78%</item>
+    </question>
+	<question id = "55" size = "4" type = "1">
+        <text>Доля популяционных различий на уровне малых рас в общем объеме генетического полиморфизма человека составляет ... (классификация малых рас на основе популяционной концепции)</text>
+        <item flag = "0">84%</item>
+        <item flag = "0">8%</item>
+        <item flag = "0">5%</item>
+        <item flag = "1">3%</item>
+    </question>
+	<question id = "56" size = "4" type = "1">
+        <text>Доля популяционных различии на уровне индивидуумов в общем объеме генетического полиморфизма человека составляет ... (классификация мальв рас на основе популяционной концепции)</text>
+        <item flag = "0">3%</item>
+        <item flag = "0">8%</item>
+        <item flag = "0">5%</item>
+        <item flag = "1">84%</item>
+    </question>
+	<question id = "57" size = "4" type = "1">
+        <text>На формирование адаптивного типа оказали влияние следующие факторы: холодный климат и преимущественно животная пища. Это ... адаптивный тип</text>
+        <item flag = "0">тропический</item>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "1">арктический</item>
+        <item flag = "0">горный</item>
+    </question>
+	<question id = "58" size = "4" type = "1">
+        <text>На формирование адаптивного типа оказали влияние следующие факторы: жаркий влажный климат, преобладание растительных белков над животными. Это ... адаптивный тип</text>
+        <item flag = "1">тропический</item>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "0">горный</item>
+    </question>
+	<question id = "59" size = "4" type = "1">
+        <text>На формирование адаптивного типа оказали влияние следующие факторы: неравномерное распределение районов, отличающихся по количеству тепла и влаги, богатству живого мира. Это ... адаптивный тип</text>
+        <item flag = "0">тропический</item>
+        <item flag = "1">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "0">горный</item>
+    </question>
+	<question id = "60" size = "4" type = "1">
+        <text>На формирование адаптивного типа оказали влияние следующие факторы: гипоксия. холод, однообразие пищи. Это ... адаптивный тип</text>
+        <item flag = "0">тропический</item>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "1">горный</item>
+    </question>
+	<question id = "61" size = "4" type = "1">
+        <text>Основными признаками адаптивного типа являются: удлиненная форма тела, сниженная мышечная масса, интенсивное потоотделение. Это ... адаптивный тип</text>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "1">тропический</item>
+        <item flag = "0">горный</item>
+    </question>
+	<question id = "62" size = "4" type = "1">
+        <text>Основными признаками адаптивного типа являются: большие размеры грудной клетки, высокий уровень гемоглобина, сильное развитие костно-мускульного компонента. Это ... адаптивный тип</text>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "1">арктический</item>
+        <item flag = "0">тропический</item>
+        <item flag = "0">горный</item>
+    </question>
+	<question id = "63" size = "4" type = "1">
+        <text>Основными признаками адаптивного типа являются: повышенный уровень обмена, удлинение трубчатых костей скелета, увеличение количества эритроцитов. Это ... адаптивный тип</text>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "0">тропический</item>
+        <item flag = "1">горный</item>
+    </question>
+	<question id = "64" size = "5" type = "1">
+        <text>Самым молодым является адаптивный тип</text>
+        <item flag = "0">тропический</item>
+        <item flag = "0">умеренного пояса</item>
+        <item flag = "0">арктический</item>
+        <item flag = "1">горный</item>
+		<item flag = "0">пустынный</item>
+    </question>
+	<question id = "65" size = "4" type = "1">
+        <text>Обладателями признаков адаптивного типа умеренных широт могут быть представители больших рас</text>
+        <item flag = "1">монголоидной</item>
+        <item flag = "1">европеоидной</item>
+        <item flag = "0">негроидной</item>
+        <item flag = "0">американской</item>
+    </question>
+	<question id = "66" size = "4" type = "1">
+        <text>Обладатели признаков арктического адаптивного типа могут быть представители больших рас</text>
+        <item flag = "1">монголоидной</item>
+        <item flag = "0">европеоидной</item>
+        <item flag = "0">негроидной</item>
+        <item flag = "0">американской</item>
+    </question>
+	<question id = "67" size = "4" type = "1">
+        <text>Обладатели признаков тропического адаптивного типа могут быть представители больших рас</text>
+        <item flag = "1">монголоидной</item>
+        <item flag = "1">европеоидной</item>
+        <item flag = "1">негроидной</item>
+        <item flag = "0">американской</item>
+    </question>
+	<question id = "68" size_x="3" size_y="5" type="2">
+		<text></text>
+		<item>
+			<text>1) Homo habilis</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Homo erectus</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Homo sapiens</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) презинджантропа</child>
+		<child>б) питекантропа и синантропа</child>
+		<child>в) кроманьонского человека</child>
+		<child>г) неандертальского человека</child>
+		<child>д) гейдельбергского человека</child>
+	</question>
+	<question id = "69" size = "5" type = "1">
+        <text>Расположите в хронологическом порядке этапы эволюции человека 1) эволюция рода Homo до вида H. sapiens 2) биологическая эволюция вида Н. sapiens 3) древнейшие стадии гоминизации 4) социальная эволюция вида Н. sapiens 5) происхождение рода Homo</text>
+        <item flag = "0">3 5 1 4 2</item>
+        <item flag = "0">3 5 2 1 4</item>
+        <item flag = "1">3 5 1 2 4</item>
+        <item flag = "0">5 1 2 3 4</item>
+		<item flag = "0">5 3 1 2 4</item>
+    </question>
+	<question id = "70" size_x="3" size_y="3" type="2">
+		<text>Этапы эволюции человека - ..., методы их исследования - ...</text>
+		<item>
+			<text>1) происхождение рода Homo</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) эволюция рода Homo до вида H. sapiens</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) эволюция рода Homo до вида H. sapiens</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) популяционно-статистический метод</child>
+		<child>б) палеонтология</child>
+		<child>в) археология</child>
+	</question> 
+</quize>

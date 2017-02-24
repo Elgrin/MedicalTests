@@ -16,9 +16,6 @@ import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -42,11 +39,21 @@ public class MultipleChoicesFragment extends Fragment {
     }
 
 
-    public double Count() {
+    public int Count() {
 
+        for(int i = 0; i < Checked.length; i++) {
+            if(Question.getRelations()[i]!=Checked[i]) {
+                return 0;
+            }
+        }
+        return 1;
+        /*
         double Rights = 0;
-        int small_Right = 0;
+        double small_Right = 0;
         int counter = 0;
+        int iterator = 0;
+        int Uncounter = 0;
+        int All = 0;
 
         View view = getView();
         for(int i = 0; i < Checked.length; i++) {
@@ -55,14 +62,31 @@ public class MultipleChoicesFragment extends Fragment {
             checkBox.setEnabled(false);
             counter++;
 
-            if(Checked[i]==Question.getRelations()[i]) {
+            if(Question.getRelations()[i]) {
+                iterator++;
+            }
+            if(Checked[i]) {
+                All++;
+            }
+
+            if(Checked[i] && Question.getRelations()[i]) {
                 small_Right++;
+            }
+            if(Checked[i] && !Question.getRelations()[i]) {
+                Uncounter++;
             }
 
             Log.v("CCC_CCC", " i = " + i + " counter =" + counter);
 
-            if(counter == 4) {
-                double w = (double) ((small_Right*100)/Question.getChildren().length);
+            if(counter == Question.getChildren().length) {
+
+
+                if(iterator == 0) iterator = 1;
+                double w = (small_Right * 100) / iterator;
+                if (All == 0) All = 1;
+                double m = (Uncounter * 100) / iterator;
+
+                w -= m;
                 if (w <= 50) {
                     Rights+=0;
                 } else {
@@ -71,15 +95,30 @@ public class MultipleChoicesFragment extends Fragment {
                             setScale(2, RoundingMode.UP).doubleValue();
                 }
 
+
+                /*
+                double w = ((small_Right*100)/iterator);
+                if (w <= 50) {
+                    Rights+=0;
+                } else {
+                    Rights += new
+                            BigDecimal(w / 100).
+                            setScale(2, RoundingMode.UP).doubleValue();
+                }*/
+
+        /*
                 Log.v("CCC", " counter = " + counter + " small_Right = " + small_Right + " Rights = " + Rights + " w = " + w);
                 counter = 0;
                 small_Right = 0;
+                iterator = 0;
+                Uncounter = 0;
+                All = 0;
             }
 
         }
 
         double Result;
-        double w  = (double) ((Rights*100)/Question.getChildren().length);
+        double w  = ((Rights*100)/Question.getParents().length);
 
         if (w <= 50) {
             Result = 0;
@@ -87,9 +126,11 @@ public class MultipleChoicesFragment extends Fragment {
             Result = new
                     BigDecimal(w / 100).
                     setScale(2, RoundingMode.UP).doubleValue();
-        }
 
-        return Result;
+                */
+        //}
+
+        //return Result;
 
         /*
         int Rights = 0;
@@ -141,14 +182,18 @@ public class MultipleChoicesFragment extends Fragment {
             CheckBox checkBox = (CheckBox) view.findViewById(i);
             checkBox.setEnabled(false);
 
-            if(Checked[i]==Question.getRelations()[i]) {
+            if(Checked[i] && Question.getRelations()[i]) {
                 checkBox.setBackgroundColor(Color.GREEN);
             }
             else {
-                checkBox.setBackgroundColor(Color.RED);
-            }
 
+                if(!Checked[i] && Question.getRelations()[i] ||
+                        Checked[i] && !Question.getRelations()[i]) {
+                    checkBox.setBackgroundColor(Color.RED);
+                }
+            }
         }
+    }
 
         /*
         View view = getView();
@@ -177,8 +222,6 @@ public class MultipleChoicesFragment extends Fragment {
             }
         }
         */
-
-    }
 
     public void SetMessage(TestStructure Question){
         this.Question=Question;
@@ -279,6 +322,7 @@ public class MultipleChoicesFragment extends Fragment {
                 for(int j = 0; j < Question.getChildren().length; j++, counter++) {
                     variants[counter].setText(Question.getChildren()[j]);
                     variants[counter].setTextSize(20);
+                    variants[counter].setGravity(Gravity.FILL_HORIZONTAL);
                     variants[counter].setChecked(Checked[counter]);
                     variants[counter].setId(counter);
 

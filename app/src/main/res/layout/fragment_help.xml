@@ -4,10 +4,91 @@
     android:layout_height="match_parent"
     tools:context="z.medicaltests.HelpFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Здесь будет гайд по работе с программой" />
+        android:paddingStart="10dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="10dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• После выбора предмета и темы теста будет произведён переход к выбору режима"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• В режиме *Все вопросы* можно выбирать, показывать ли после ответа правильный вариант. В  этом режиме представлены все вопросы по выбранной теме"
+                android:layout_marginTop="5dp"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• В *Режиме экзамена* можно выбрать, какое количество из имеющихся вопросов по выбранной теме будет представлено в тесте"
+                android:layout_marginTop="5dp"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• Доступ к дополнительным функциям осуществляется через кнопки в правом верхнем углу вашего устройства"
+                android:layout_marginTop="5dp"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• Во время прохождения теста можно начать тест заново; сохранить текущую позицию в тесте, чтобы завершить его позже; отправить разработчику письмо об ошибке (если есть опечатки, или Вы не согласны с правильностью ответа)"
+                android:layout_marginTop="5dp"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="• В окне закладок можно удалить либо все закладки, либо выбранные. Для загрузки теста необходимо выбрать его и нажать кнопку загрузки"
+                android:layout_marginTop="5dp"
+                android:gravity="fill_horizontal"
+                android:background="@drawable/rounded"
+                android:paddingStart="15dip"
+                android:paddingEnd="4dip"
+                android:paddingTop="15dip"
+                android:paddingBottom="15dip"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="50" file="evolution" name = "Эволюционное учение">
+    <question id = "1" size = "5" type = "1">
+        <text>Воззрения трансформистов</text>
+        <item flag = "0">природа развивается исторически в направлениях: адаптации и усложнения</item>
+        <item flag = "0">природа неизменна</item>
+        <item flag = "1">природа изменяется (развивается от простого к сложному под действием среды)</item>
+        <item flag = "1">виды изменчивы</item>
+		<item flag = "1">природу и законы её развития создал творец</item>
+    </question>
+	<question id = "2" size = "5" type = "1">
+        <text>Элементарная единица микроэволюции</text>
+        <item flag = "0">особь</item>
+        <item flag = "1">популяция</item>
+        <item flag = "0">вид</item>
+        <item flag = "0">подвид</item>
+		<item flag = "0">биоценоз</item>
+    </question>
+	<question id = "3" size = "5" type = "1">
+        <text>Закон Харди-Вайнберга применим к популяциям</text>
+        <item flag = "1">с большой численностью</item>
+        <item flag = "0">с малой численностью</item>
+        <item flag = "0">с процессами естественного отбора</item>
+        <item flag = "1">без процессов естественного отбора</item>
+		<item flag = "0">насыщенными мутациями</item>
+    </question>
+	<question id = "4" size = "5" type = "1">
+        <text>Генетический полиморфизм природных популяций может быть</text>
+        <item flag = "0">гомозиготным</item>
+        <item flag = "1">гетерозиготным</item>
+        <item flag = "1">балансированным</item>
+        <item flag = "1">адаптационным</item>
+		<item flag = "0">дезадаптационным</item>
+    </question>
+	<question id = "5" size = "5" type = "1">
+        <text>Основными движениями к Биологическому прогрессу А.Н. Северцов считал процессы</text>
+        <item flag = "1">аллогенеза</item>
+        <item flag = "0">арогенеза</item>
+        <item flag = "0">ценогенеза</item>
+        <item flag = "1">идиодаптации</item>
+		<item flag = "0">дегенерации</item>
+    </question>
+	 <question id = "6" size = "5" type = "1">
+        <text>Образованию нескольких разных групп от одной предковой способствуют формы эволюции</text>
+        <item flag = "0">монофилитическая эволюция</item>
+        <item flag = "0">филетическая эволюция</item>
+        <item flag = "0">конвергентная эволюция</item>
+        <item flag = "1">дивергентная эволюция</item>
+		<item flag = "1">параллелизм</item>
+    </question>
+	<question id = "7" size = "5" type = "1">
+        <text>Элементарный эволюционный фактор, основной в формировании генетического груза</text>
+        <item flag = "0">естественный отбор</item>
+        <item flag = "0">изоляция</item>
+        <item flag = "1">мутационный процесс</item>
+        <item flag = "0">популяционные волны</item>
+		<item flag = "0">борьба за существование</item>
+    </question>
+	<question id = "8" size = "5" type = "1">
+        <text>Элементарное эволюционное явление</text>
+        <item flag = "0">сохранение стабильного генофонда популяции</item>
+        <item flag = "0">ненаправленные отбором изменения генофонда популяции</item>
+        <item flag = "1">направленный отбором сдвиг генофонда популяции в сторону какого-либо гена</item>
+        <item flag = "0">сдвиг генофонда популяции случайный</item>
+		<item flag = "0">колебание частоты генов в генофонде в пределах 1%</item>
+    </question>
+	<question id = "9" size = "5" type = "1">
+        <text>Воззрения современных эволюционистов</text>
+        <item flag = "0">виды неизменны</item>
+        <item flag = "1">виды изменчивы</item>
+        <item flag = "1">живая природа развивается от простого к сложному под действием среды</item>
+        <item flag = "0">природа развивается по законам, созданным творцом</item>
+		<item flag = "1">природа развивается исторически, в направлениях адаптаций и усложнения</item>
+    </question>
+	<question id = "10" size = "5" type = "1">
+        <text>«Эффект родоначальника» служит примером</text>
+        <item flag = "0">мутации</item>
+        <item flag = "0">действия естественного отбора</item>
+        <item flag = "1">действия дрейфа генов</item>
+        <item flag = "0">действия контротбора</item>
+		<item flag = "0">борьбы за существование</item>
+    </question>
+	<question id = "11" size = "5" type = "1">
+        <text>Ч. Дарвин считал первичным материалом для естественного отбора изменчивость</text>
+        <item flag = "0">определенную</item>
+        <item flag = "0">коррелятивную</item>
+        <item flag = "1">неопределенную</item>
+        <item flag = "0">компенсационную</item>
+		<item flag = "1">изменчивость при скрещивании</item>
+    </question>
+	<question id = "12" size = "5" type = "1">
+        <text>Чередование разных направлений эволюции к Биологическому прогрессу по А.Н. Северцову</text>
+        <item flag = "0">идиоадаптации - дегенерации - ароморфозы</item>
+        <item flag = "1">ароморфозы - идиоадаптации - дегенерации</item>
+        <item flag = "1">арогенезы возникают значительно реже, чем аллогенезы</item>
+        <item flag = "1">ароморфозы способствуют появлению идиоадаптации</item>
+		<item flag = "0">аллогенезы возникают значительно реже, чем арогенезы</item>
+    </question>
+	<question id = "13" size = "5" type = "1">
+        <text>Сущность естественного отбора характеризуют положения</text>
+        <item flag = "0">выживание наиболее сильных</item>
+        <item flag = "1">элиминация наименее приспособленных</item>
+        <item flag = "0">элиминация наиболее слабых</item>
+        <item flag = "0">преимущество при размножении у сильных</item>
+		<item flag = "1">преимущество при размножении у приспособленных</item>
+    </question>
+	<question id = "14" size = "5" type = "1">
+        <text>В популяциях при резко меняющихся условиях среды могут осуществляться типы отбора</text>
+        <item flag = "0">стабилизирующий</item>
+        <item flag = "1">движущий</item>
+        <item flag = "1">дизруптивный</item>
+        <item flag = "0">бессознательный</item>
+		<item flag = "0">методический</item>
+    </question>
+	<question id = "15" size = "5" type = "1">
+        <text>При аллопатрическом видообразовании первична изоляция</text>
+        <item flag = "0">генетическая</item>
+        <item flag = "1">пространственная</item>
+        <item flag = "0">пространственная</item>
+        <item flag = "0">экологическая</item>
+		<item flag = "0">биологическая</item>
+    </question>
+	<question id = "16" size = "5" type = "1">
+        <text>Негативным неизбежным следствием генетического полиморфизма служит явление</text>
+        <item flag = "0">изоляция</item>
+        <item flag = "0">видообразование</item>
+        <item flag = "1">генетический груз</item>
+        <item flag = "0">дрейф генов</item>
+		<item flag = "0">изменение генофонда популяции</item>
+    </question>
+	<question id = "17" size = "5" type = "1">
+        <text>Основополагающий критерий вида</text>
+        <item flag = "0">морфологический</item>
+        <item flag = "0">физиологический</item>
+        <item flag = "0">биохимический</item>
+        <item flag = "1">генетический</item>
+		<item flag = "0">географический</item>
+    </question>
+	<question id = "18" size = "5" type = "1">
+        <text>К биологическому регрессу организмов ведет</text>
+        <item flag = "0">географическое распространение группы</item>
+        <item flag = "1">отсутствие географического распространения группы</item>
+        <item flag = "1">уменьшение числа систематических групп</item>
+        <item flag = "0">увеличение морфофизиологического прогресса</item>
+		<item flag = "0">распад вида на подвиды</item>
+    </question>
+	<question id = "19" size = "5" type = "1">
+        <text>Аллогенез, как тип эволюции групп организмов приводит к возникновению</text>
+        <item flag = "0">ароморфозов</item>
+        <item flag = "0">ценогенезов</item>
+        <item flag = "1">идиоадаптаций</item>
+        <item flag = "1">отдельных видов, родов</item>
+		<item flag = "0">отдельных классов, типов</item>
+    </question>
+	<question id = "20" size = "5" type = "1">
+        <text>Формы искусственного отбора</text>
+        <item flag = "0">движущий</item>
+        <item flag = "0">стабилизирующий</item>
+        <item flag = "1">бессознательный</item>
+        <item flag = "0">дизруптивный</item>
+		<item flag = "1">методический</item>
+    </question>
+	<question id = "21" size = "5" type = "1">
+        <text>Изолятами называют популяции людей численностью ... человек</text>
+        <item flag = "0">5000</item>
+        <item flag = "0">от 1500 до 4000</item>
+        <item flag = "1">до 1500</item>
+        <item flag = "0">свыше 4000</item>
+		<item flag = "0">от 15000 до 40000</item>
+    </question>
+	<question id = "22" size = "5" type = "1">
+        <text>Явление, при котором в генофонде популяции частота даже очень редкого аллеля случайно может стать значительной</text>
+        <item flag = "0">изоляция</item>
+        <item flag = "1">дрейф генов</item>
+        <item flag = "0">генетический груз</item>
+        <item flag = "0">контротбор</item>
+		<item flag = "0">мутационный процесс</item>
+    </question>
+	<question id = "23" size = "5" type = "1">
+        <text>В процессе микроэволюции направляющим является эволюционный фактор</text>
+        <item flag = "0">мутационный процесс</item>
+        <item flag = "0">изоляция</item>
+        <item flag = "0">дрейф генов</item>
+        <item flag = "1">естественный отбор</item>
+		<item flag = "0">численность популяции</item>
+    </question>
+	<question id = "24" size = "5" type = "1">
+        <text>При симпатрическом видообразовании первична изоляция</text>
+        <item flag = "1">генетическая</item>
+        <item flag = "0">пространственная</item>
+        <item flag = "0">физиологическая</item>
+        <item flag = "0">экологическая</item>
+		<item flag = "0">биологическая</item>
+    </question>
+	<question id = "25" size = "5" type = "1">
+        <text>Неродственные группы организмов со сходными морфологическими признаками возникают при</text>
+        <item flag = "0">филитической эволюции</item>
+        <item flag = "0">монофилитической эволюции</item>
+        <item flag = "0">дивергентной эволюции</item>
+        <item flag = "1">конвергентной эволюции</item>
+		<item flag = "1">параллелизме</item>
+    </question>
+	<question id = "26" size = "5" type = "1">
+        <text>Морфофизиологическим прогрессом являются</text>
+        <item flag = "1">ароморфозы</item>
+        <item flag = "0">идиоадаптации</item>
+        <item flag = "0">увеличение численности вида</item>
+        <item flag = "0">уменьшение численности вида</item>
+		<item flag = "1">изменение строения и физиологии</item>
+    </question>
+	<question id = "27" size = "5" type = "1">
+        <text>При наличии какого из перечисленных факторов не может осуществляться механизм, поддерживающий в генофонде популяции равновесие генных частот</text>
+        <item flag = "0">популяция бесконечно велика по численности</item>
+        <item flag = "0">популяция относительно изолирована от других популяций того же вида </item>
+        <item flag = "1">мутационный процесс идет на достаточно высоком уровне</item>
+        <item flag = "0">структура генотипов не влияет на жизнеспособность и плодовитость особей</item>
+		<item flag = "1">популяция мала по численности</item>
+    </question>
+	<question id = "28" size = "5" type = "1">
+        <text>Демами называют популяции людей численностью ... человек</text>
+        <item flag = "0">5000</item>
+        <item flag = "1">1500-4000</item>
+        <item flag = "0">до 1500</item>
+        <item flag = "0">свыше 4000</item>
+		<item flag = "0">15000-40000</item>
+    </question>
+	<question id = "29" size = "5" type = "1">
+        <text>При неменяющихся условиях среды в популяциях осуществляется вид отбора</text>
+        <item flag = "0">движущий</item>
+        <item flag = "1">стабилизирующий</item>
+        <item flag = "0">дизруптивный</item>
+        <item flag = "0">дивергентный</item>
+		<item flag = "0">все перечисленные</item>
+    </question> 
+	<question id = "30" size = "5" type = "1">
+        <text>Непосредственного влияния на репродуктивный (биотический) потенциал не оказывает фактор</text>
+        <item flag = "0">число потомков при каждом размножении</item>
+        <item flag = "0">возраст самки при первом размножении</item>
+        <item flag = "0">продолжительность фертильного периода у самки</item>
+        <item flag = "1">плотность популяции</item>
+		<item flag = "0">сопротивление среды</item>
+    </question>
+	<question id = "31" size = "4" type = "1">
+        <text>Наиболее напряженной формой борьбы за существование Ч. Дарвин считал</text>
+        <item flag = "1">внутривидовую</item>
+        <item flag = "0">межвидовую</item>
+        <item flag = "0">конкуренцию</item>
+        <item flag = "0">борьбу с неблагоприятными факторами среды</item>
+    </question>
+	<question id = "32" size = "5" type = "1">
+        <text>Показатели биологического прогресса у организмов</text>
+        <item flag = "1">возрастание приспособленности к окружающей среде</item>
+        <item flag = "0">уменьшение приспособленности к окружающей среде</item>
+        <item flag = "1">расширение ареала вида</item>
+        <item flag = "0">сужение ареала обитания</item>
+		<item flag = "1">приспособительные изменения строения и физиологии</item>
+    </question>
+	<question id = "33" size = "5" type = "1">
+        <text>Арогенез, как тип эволюции групп организмов, приводит к появлению</text>
+        <item flag = "0">алломорфозов</item>
+        <item flag = "1">ароморфозов</item>
+        <item flag = "0">прокариотического типа клеточной организации</item>
+        <item flag = "1">эукариотического типа клеточной организации</item>
+		<item flag = "0">неклеточного типа организмов</item>
+    </question>
+	<question id = "34" size_x="9" size_y="5" type="2">
+		<text>Научное положение - ...</text>
+		<item>
+			<text>1) колебании численности популяции - фактор эволюции</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) эволюционирующая единица - вид</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) эволюционирующая единица - популяция</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) эволюционирующая единица - особь</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) природу создал творец</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>6) живая природа неизменна</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>7) естественный отбор - движущий фактор эволюции</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>8) природа меняется после катастроф</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>9) упражнение органа приводит к его развитию и наследуется</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Ч. Дарвина</child>
+		<child>б) С. Четверикова</child>
+		<child>в) К. Линнея</child>
+		<child>г) Ж. Кювье</child>
+		<child>д) Ж. Ламарка</child>
+	</question>
+	<question id = "35" size_x="3" size_y="3" type="2">
+		<text>Процесс образования -... - это - ...</text>
+		<item>
+			<text>1) видов</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) отрядов и семейств</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) классов и типов</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) микроэволюция</child>
+		<child>б) макроэволюция</child>
+		<child>в) мегаэволюция</child>
+	</question> 
+	<question id = "36" size_x="5" size_y="5" type="2">
+		<text>... - это ...</text>
+		<item>
+			<text>1) Элементарный эволюционный материал</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Элементарное эволюционное явление</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Элементарный фактор эволюции</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Направляющий фактор эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Экологическая характеристика популяции</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) численность популяции</child>
+		<child>б) мутационный процесс</child>
+		<child>в) естественный отбор, меняющий генофонд популяции</child>
+		<child>г) стойкий сдвиг генофонда популяции, направленный естественным отбором</child>
+		<child>д) мутантные организмы</child>
+	</question>
+	<question id = "37" size_x="3" size_y="3" type="2">
+		<text>... связаны с изменениями эмбриогенеза, обусловленными ...</text>
+		<item>
+			<text>1) Гетерохронии</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Гетеротопии</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Ценогенезы</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) приспособлениями зародыша к среде обитания</child>
+		<child>б) сдвигом процессов эмбрионального развития в пространстве</child>
+		<child>в) сдвигом процессов эмбрионального развития во времени</child>
+	</question> 
+	<question id = "38" size_x="9" size_y="5" type="2">
+		<text>Научное положение - ... научная теория - ...</text>
+		<item>
+			<text>1) единица эволюции - вид</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) единица эволюции - особь</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) единица эволюции - популяция</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) абсолютная целесообразность в природе</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) относительная целесообразность в природе</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>6) природа неизменна</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>7) природа изменчива</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>8) движущий естественный отбор - фактор эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>9) изоляция - фактор эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) креационизм</child>
+		<child>б) Ч. Дарвина</child>
+		<child>в) Ж. Ламарка</child>
+		<child>г) С. Четвериков</child>
+		<child>д) трансформизм</child>
+	</question> 
+	<question id = "39" size_x="5" size_y="5" type="2">
+		<text>... - это ...</text>
+		<item>
+			<text>1) Генетическая изоляция</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Приспособленность</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Стабилизирующий отбор</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Дизруптивный отбор</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) движущий отбор </text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) процесс, где популяция является полем действия, отдельные особи - объектами действия, а конкретные признаки - точками приложения отбора</child>
+		<child>б) несовместимость гамет, гибель зигот непосредственно после оплодотворения, стерильность или малая жизнеспособность гибридов</child>
+		<child>в) произведение жизнеспособности особи в данной среде, которая обусловливает большую или меньшую вероятность достижения репродуктивного возраста на репродуктивную способность особи</child>
+		<child>г) устранение из репродуктивных процессов фенотипа, уклоняющихся от сложившейся адаптивной «нормы». Приводит к преимущественному размножению типичных организмов</child>
+		<child>д) сохранение нескольких разных фенотипов с разной приспособленностью, действует против особей со средним или промежуточным значением признаков</child>
+	</question> 
+	<question id = "40" size_x="4" size_y="4" type="2">
+		<text>... - это процесс (-сы)</text>
+		<item>
+			<text>1) Рекапитуляция</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Палингенезы</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Филэмбриогенезы</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Ценогенезы</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) сохранения признаков у зародыша, повторяющие признаки предков</child>
+		<child>б) образования приспособлений у зародыша, не сохраняющиеся во взрослом состоянии</child>
+		<child>в) повторения структур органов взрослых предков в онтогенезе потомков</child>
+		<child>г) изменений эмбриогенеза, отражающиеся на строении взрослых форм и имеющие эволюционное значение</child>
+	</question> 
+	<question id = "41" size_x="4" size_y="4" type="2">
+		<text>Ученый (-ые)- ... создали - ...</text>
+		<item>
+			<text>1) К. Бэр</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Ф. Мюллер - Э. Геккель</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) А.Н. Северцев</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Г. Харди и В. Вайнберг</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) биогенетический закон</child>
+		<child>б) закон зародышевого сходства позвоночных</child>
+		<child>в) закон генетического равновесия в популяциях</child>
+		<child>г) закон чередования разных направлений</child>
+	</question> 
+	<question id = "42" size_x="6" size_y="3" type="2">
+		<text>Ученый - ... представитель научного направления - ...</text>
+		<item>
+			<text>1) Ж. Ламарк</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Бюффон</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Кювье</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Сент-Иллер</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) К. Линней</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>6) Четвериков</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) креационизма</child>
+		<child>б) трансформизма</child>
+		<child>в) эволюционизма</child>
+	</question>
+	<question id = "43" size_x="4" size_y="4" type="2">
+		<text>Определение или процесс - ... представляет - ...</text>
+		<item>
+			<text>1) Дем</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Последствия дрейфа генов в популяциях человека</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Изолят</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Функция естественного отбора</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) сохранение адаптивных фенотипов особей в популяциях</child>
+		<child>б) популяцию численностью 1500 - 4000 человек</child>
+		<child>в) неравномерное распределение некоторых наследственных заболеваний по группам населения земного шара</child>
+		<child>г) популяцию численностью до 1500 человек</child>
+	</question> 
+	<question id = "44" size_x="3" size_y="3" type="2">
+		<text>Примером филэмбриогенеза - ... является появление - ...</text>
+		<item>
+			<text>1) анаболия</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) девиация</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) архаллаксис</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) перьев у птиц</child>
+		<child>б) чешуи у рептилий</child>
+		<child>в) волос у млекопитающих</child>
+	</question> 
+	<question id = "45" size_x="10" size_y="3" type="2">
+		<text>Положение - ... относят к - ...</text>
+		<item>
+			<text>1) видообразование - результат борьбы за существование</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) факторы среды изменяют особи и изменения наследуются </text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) изоляция - обязательное условие видообразования</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) мутации - поставщики материала для эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) естественный отбор - движущий фактор эволюции</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>6) неупражнение органов приводит к их исчезновению</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>7) эволюционирующая единица - вид</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>8) численность популяции влияет на видообразование</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>9) организмы стремятся усовершенствоваться и перейти на более высокий уровень</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>10) наследственность и изменчивость важные факторы эволюции</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) эволюционной теории Ж. Ламарка</child>
+		<child>б) эволюционной теории Ч. Дарвина</child>
+		<child>в) современной эволюционной теории</child>
+	</question>
+	<question id = "46" size_x="5" size_y="5" type="2">
+		<text>... являются (-ется) - ...</text>
+		<item>
+			<text>1) Полем естественного отбора</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Объектом действия естественного отбора</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Точкой приложения естественного отбора</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Необходимой предпосылкой естественного отбора</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Эффективностью естественного отбора</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) конкретные признаки</child>
+		<child>б) выживание более жизнеспособных особей</child>
+		<child>в) отдельные особи </child>
+		<child>г) популяции</child>
+		<child>д) борьба за существование</child>
+	</question>
+	<question id = "47" size_x="4" size_y="4" type="2">
+		<text>Закон - ... формулировка - ...</text>
+		<item>
+			<text>1) биогенетический</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) зародышевого сходства</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) генетического равновесия в популяциях</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) чередования разных направлений эволюции </text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) в генофонде идеальной популяции частота аллелей не изменяется в поколениях</child>
+		<child>б) в начале филогенеза типы развивались путем ароморфозов, затем идет период идиоадаптации</child>
+		<child>в) черты, общие для большой группы родственных животных, появляются у зародышей раньше частных признаков</child>
+		<child>г) онтогенез - есть краткое. повторение филогенеза</child>
+	</question>
+	<question id = "48" size_x="9" size_y="5" type="2">
+		<text>Научное положение - ... принадлежит - ...</text>
+		<item>
+			<text>1) виды неизменны</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) виды изменчивы</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) эволюционирует особь</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) эволюционирует вид</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) животные построены по единому плану</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>6) природу создал творец</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>7) естественный отбор, направляет ход эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>8) стремление к совершенствованию - фактор эволюции</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>9) природа меняется после катастроф</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) К. Линнею</child>
+		<child>б) Ж. Кювье</child>
+		<child>в) Ж. Ламарку</child>
+		<child>г) Ч. Дарвину</child>
+		<child>д) Сент - Иллеру </child>
+	</question>
+	<question id = "49" size_x="5" size_y="5" type="2">
+		<text>Определение - ... характеризуется как - ...</text>
+		<item>
+			<text>1) Географическая изоляция</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Движущий отбор</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Аллопатрический путь видообразования</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Дрейф генов</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Генетический груз </text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) величина, на которую приспособленность реальной популяции отличается от приспособленности идеальной популяции из "лучших" генотипов возможных при данном генофонде</child>
+		<child>б) пространственное разобщение популяций благодаря особенностям ландшафта в пределах ареала вида</child>
+		<child>в) прогрессивное изменение фенотипа в определенном направлении, что проявляется в сдвиге средних значений отбираемых признаков в сторону их усиления или ослабления</child>
+		<child>г) сохранение нескольких разных фенотипов у популяций одного вида с разной приспособленностью</child>
+		<child>д) утрата или фиксация аллелей в гомозиготном состоянии у многих членов популяции вне связи с адаптивной ценностью</child>
+	</question>
+	<question id = "50" size_x="3" size_y="3" type="2">
+		<text>Филэмбриогенез - ... характеризуется как - ...</text>
+		<item>
+			<text>1) анаболия</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) девиация</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) архаллаксис</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) изменение эмбриогенеза в середине этого процесса</child>
+		<child>б) отклонение от обычного хода развития в начале эмбриогенеза</child>
+		<child>в) включение дополнительной стадии развития в конце эмбриогенеза</child>
+	</question> 
+</quize>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="1" file="two" name = "Первый">
+	<question id="1" size_x="3" size_y="7" type="2">
+		<text>Текст вопроса</text>
+		<item>
+			<text>1) Рибосомам</text>
+			<pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>1) Рибосомам</text>
+			<pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>1) Рибосомам</text>
+			<pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Синтез АТФ</child>
+		<child>б) Синтез белка</child>
+		<child>в) Синтез нуклеиновых кислот</child>
+		<child>г) Расщепление макромолекул</child>
+		<child>д) Фотосинтез</child>
+		<child>е) Формирование веретена деления</child>
+		<child>ж) Формирование лизосом</child>
+	</question>
+</quize>
