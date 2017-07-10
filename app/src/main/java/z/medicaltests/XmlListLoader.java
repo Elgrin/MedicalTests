@@ -43,12 +43,14 @@ import javax.xml.parsers.DocumentBuilderFactory;
             Files = new String[nList.getLength()];
             Test = new String[nList.getLength()];
             //Test[0] = it;
-
+            Log.v(TAG, "Here");
             for(int i = 0; i< nList.getLength(); i++) {
                 Node nNode = nList.item(i);
+                Log.v(TAG, Integer.toString(i));
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Names[i] = nNode.getTextContent();
                     Element element = (Element) nNode;
+                    Log.v(TAG, Names[i]);
 
                      if(it.equals("subjects")) {
                         Files[i] = element.getAttribute("next");

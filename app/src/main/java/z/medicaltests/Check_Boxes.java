@@ -305,10 +305,12 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
             checkBoxes[i].setOnCheckedChangeListener(this);
 
 
-            v[i].setMinimumHeight(1);
+            //v[i].setMinimumHeight(1);
             v[i].setBackgroundColor(Color.GRAY);
             layout.addView(checkBoxes[i]);
-            layout.addView(v[i]);
+            //layout.addView(v[i]);
+            //view.addView(hr, new ViewGroup.LayoutParams( ViewGroup.LayoutParams.FILL_PARENT, 1));
+            layout.addView(v[i], new ViewGroup.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT ,1));
             Log.v(TAG, Options[i]);
         }
 

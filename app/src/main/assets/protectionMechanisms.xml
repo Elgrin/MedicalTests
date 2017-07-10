@@ -1,0 +1,82 @@
+<quize file="protectionMechanisms" name="Защитные механизмы психики" size="10">
+<question id="1" size="5" type="1">
+<text>ВОЗВРАЩЕНИЕ В СОСТОЯНИИ СТРЕССА К РАННИМ ИЛИ БОЛЕЕ НЕЗРЕЛЫМ ПАТТЕРНАМ ПОВЕДЕНИЯ, НАЗЫВАЕТСЯ:</text>
+<item flag="1">регрессией</item>
+<item flag="0">вытеснением</item>
+<item flag="0">проекцией</item>
+<item flag="0">замещением</item>
+<item flag="0">сублимацией</item>
+</question>
+<question id="2" size="5" type="1">
+<text>ЗАЩИТНЫЕ МЕХАНИЗМЫ СПОСОБСТВУЮТ СОХРАНЕНИЮ ЦЕЛОСТНОСТИ:</text>
+<item flag="0">психики вцелом</item>
+<item flag="1">эго</item>
+<item flag="0">ид</item>
+<item flag="0">супер-эго</item>
+<item flag="0">супер-пупер эго</item>
+</question>
+<question id="3" size="5" type="1">
+<text>ИГНОРИРОВАНИЕ БОЛЕЗНЕННОЙ РЕАЛЬНОСТИ, ОТВЛЕЧЕНИЕ ОТБОЛЕЗНЕННЫХ ИДЕЙ И ЧУВСТ, НАЗЫВАЕТСЯ:</text>
+<item flag="0">отрицание</item>
+<item flag="0">регрессия</item>
+<item flag="1">интеллектуализация</item>
+<item flag="0">компенсация</item>
+<item flag="0">сублимация</item>
+</question>
+<question id="4" size="5" type="1">
+<text>ИСКЛЮЧЕНИЕ ИЗ СОЗНАНИЯ СОБЫТИЙ И ЯВЛЕНИЙ, ВЫЗЫВАЮЩИХ ТРЕВОГУ, НАЗЫВАЕТСЯ:</text>
+<item flag="1">вытеснением</item>
+<item flag="0">отрицанием</item>
+<item flag="0">проекцией</item>
+<item flag="0">сублимацией</item>
+<item flag="0">забыванием</item>
+</question>
+<question id="5" size="5" type="1">
+<text>КАКОГО МЕХАНИЗМА ПСИХОЛОГИЧЕСКОЙ ЗАЩИТЫ НЕ СУЩЕСТВУЕТ?</text>
+<item flag="0">интеллектуализация</item>
+<item flag="1">самоактуализация</item>
+<item flag="0">регрессия</item>
+<item flag="0">сублимация</item>
+<item flag="0">соматизация</item>
+</question>
+<question id="6" size="5" type="1">
+<text>КТО ИЗ ПРЕДСТАВИТЕЛЕЙ ПСИХОАНАЛИЗА ВПЕРВЫЕ ВВЕЛ ТЕРМИН МЕХАНИЗМЫ ПСИХОЛОГИЧЕСКОЙ ЗАЩИТЫ?</text>
+<item flag="0">Анна Фрейд</item>
+<item flag="0">Альфред Адлер</item>
+<item flag="1">Зигмунд Фрейд</item>
+<item flag="0">Карл Густав Юнг</item>
+<item flag="0">Эрик Берн</item>
+</question>
+<question id="7" size="5" type="1">
+<text>МЕХАНИЗМЫ ПСИХОЛОГИЧЕСКОЙ ЗАЩИТЫ ДЕЙСТВУЮТ:</text>
+<item flag="1">на бессознательном уровне</item>
+<item flag="0">на уровне сознания</item>
+<item flag="0">на уровне сверхсознания</item>
+<item flag="0">при измененном сознании</item>
+<item flag="0">при нарушении сознания</item>
+</question>
+<question id="8" size="5" type="1">
+<text>ОТРИЦАТЕЛЬНОЕ ПРОЯВЛЕНИЕ ЗАЩИТНЫХ МЕХАНИЗМОВ ВЫРАЖАЕТСЯВ:</text>
+<item flag="0">возникновении психосоматических заболеваний</item>
+<item flag="1">в искажении восприятия окружающего мира</item>
+<item flag="0">в агрессивном поведении</item>
+<item flag="0">в дезадаптации личности</item>
+<item flag="0">не выражается ни в чем</item>
+</question>
+<question id="9" size="5" type="1">
+<text>ПРОЦЕСС, В РЕЗУЛЬТАТЕ КОТОРОГО ВНУТРЕННЕЕ ОШИБОЧНО ВОСПРИНИМАЕТСЯ КАК ПРОИСХОДЯЩЕЕ ВОВНЕ, НОСИТ НАЗВАНИЕ:</text>
+<item flag="0">идентификация с агрессором</item>
+<item flag="0">формирование реакции</item>
+<item flag="0">перемещение</item>
+<item flag="1">проекция</item>
+<item flag="0">соматизация</item>
+</question>
+<question id="10" size="5" type="1">
+<text>СМЕНА ОБЪКТА ЧУВСТВ, ПЕРЕНОС ПСИХИЧЕСКОЙ ЭНЕРГИИ С ОПАСНОГО ОБЪЕКТА НА БЕЗОПАСНЫЙ НАЗЫВАЕТСЯ:</text>
+<item flag="1">замещение</item>
+<item flag="0">вытеснение</item>
+<item flag="0">сублимация</item>
+<item flag="0">соматизация</item>
+<item flag="0">рационализация</item>
+</question>
+</quize>

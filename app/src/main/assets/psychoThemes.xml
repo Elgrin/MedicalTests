@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themes>
+    <properties it="themes"></properties>
+    <item test="psychoSubject">Предмет психологии</item>
+	<item test="personality">Личность и индивидульность</item>
+	<item test="behaviourStudying">Уровни поведения. Научение</item>
+	<item test="motivationBehaviour">Деятельность. Мотивация поведения</item>
+	<item test="processes">Познавательные процессы</item>
+	<item test="emotionalProcesses">Эмоциональные процессы</item>
+	<item test="protectionMechanisms">Защитные механизмы психики</item>
+	<item test="socialPsychology">Психология общения</item>
+	<item test="groupPsychology">Психология групп</item>
+	<item test="pedagogy">Педагогика</item>
+</themes>

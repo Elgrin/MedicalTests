@@ -2,17 +2,18 @@
 <subjects>
     <properties it="subjects"></properties>
 	<item next="test">Тест</item>
-    <item next="">Анатомия</item>
+    <item next="anatomythemes">Анатомия</item>
     <item next="biothemes">Биология</item>
-    <item next="">Биохимия</item>
-    <item next="">Гистология</item>
+    <item next="biochimiathemes">Биохимия</item>
+    <item next="psychoThemes">Психология и педагогика</item>
+    <!--<item next="">Гистология</item>
     <item next="">Патологическая анатомия</item>
     <item next="">Патологическая физиология</item>
     <item next="">Психиатрия</item>
     <item next="">Факультетская хирургия</item>
     <item next="">Факультетская терапия</item>
     <item next="">Фармакология</item>
-    <item next="">Физиология</item>
+    <item next="">Физиология</item>-->
 </subjects>
 
 	

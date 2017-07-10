@@ -1,0 +1,82 @@
+<quize file="motivationBehaviour" name="Деятельность. Мотивация поведения" size="10">
+<question id="1" size="5" type="1">
+<text>В МАКРОСТРУКТУРУ ДЕЯТЕЛЬНОСТИ НЕ ВХОДИТ:</text>
+<item flag="0">потребности</item>
+<item flag="0">мотивы</item>
+<item flag="0">цели</item>
+<item flag="0">действия</item>
+<item flag="1">состояние сознания</item>
+</question>
+<question id="2" size="5" type="1">
+<text>В СТРУКТУРУ ПСИХИЧЕСКОЙ ДЕЯТЕЛЬНОСТИ СОГЛАСНО ОТЕЧЕСТВЕННОЙ НАУЧНОЙ ШКОЛЫ НЕ ВХОДИТ:</text>
+<item flag="0">мотивация</item>
+<item flag="0">цель</item>
+<item flag="0">действие</item>
+<item flag="0">операции</item>
+<item flag="1">интропсихическая защита</item>
+</question>
+<question id="3" size="5" type="1">
+<text>ВЫБЕРИТЕ ИЗ НИЖЕПРИВЕДЕННЫХ ОПРЕДЕЛЕНИЙ ОПРЕДЕЛЕНИЕ ПОТРЕБНОСТИ:</text>
+<item flag="1">состояние нужды в чем-либо</item>
+<item flag="0">побуждение к деятельности, вызванное той или иной потребностью</item>
+<item flag="0">прообраз желаемого результата</item>
+<item flag="0">побуждение кдеятельности, связанное с удовлетворением потребности субъекта и определяющее направление его деятельности</item>
+<item flag="0">техническая сторона выполнения действия</item>
+</question>
+<question id="4" size="5" type="1">
+<text>МОТИВАЦИЯ - ЭТО:</text>
+<item flag="0">денежное вознаграждение</item>
+<item flag="1">совокупность побуждающих факторов</item>
+<item flag="0">совокупность физиологических потребностей</item>
+<item flag="0">действия, приводящие к реализации цели</item>
+<item flag="0">осознание результата деятельности</item>
+</question>
+<question id="5" size="5" type="1">
+<text>МОТИВЫ В СООТВЕТСТВИИ С ОТЕЧЕСТВЕННОЙ ПСИХОЛОГИЧЕСКОЙ ТЕОРИЕЙ ДЕЯТЕЛЬНОСТИ:</text>
+<item flag="0">всегда осознаются</item>
+<item flag="1">не всегда осознаются</item>
+<item flag="0">активизируют деятельность</item>
+<item flag="0">могут передаваться по наследству</item>
+<item flag="0">направляют действия</item>
+</question>
+<question id="6" size="5" type="1">
+<text>ОСОЗНАВАЕМЫЙ РЕЗУЛЬТАТ, НА ДОСТИЖЕНИЕ КОТОРОГО НАПРАВЛЕНО ПОВЕДЕНИЕ, НАЗЫВАЕТСЯ:</text>
+<item flag="0">потребностью</item>
+<item flag="0">мотивом</item>
+<item flag="0">задачей</item>
+<item flag="1">целью</item>
+<item flag="0">действием</item>
+</question>
+<question id="7" size="5" type="1">
+<text>ПО А.Н.ЛЕОНТЬЕВУ, ЭЛЕМЕНТОМ СТРУКТУРЫ ДЕЯТЕЛЬНОСТИ ВЫСТУПАЮТ:</text>
+<item flag="0">поведение</item>
+<item flag="0">жест, мимика</item>
+<item flag="1">действие</item>
+<item flag="0">активность</item>
+<item flag="0">эмоции</item>
+</question>
+<question id="8" size="5" type="1">
+<text>ПРЕДМЕТ ПОТРЕБНОСТИ, НАПРАВЛЯЮЩИЙ ДЕЯТЕЛЬНОСТЬ, НОСИТ НАЗВАНИЕ:</text>
+<item flag="0">стимул</item>
+<item flag="1">мотив</item>
+<item flag="0">цель</item>
+<item flag="0">действие</item>
+<item flag="0">направленность</item>
+</question>
+<question id="9" size="5" type="1">
+<text>ПРОЦЕСС, НАПРАВЛЕННЫЙ НА ДОСТИЖЕНИЕ ЦЕЛИ, НАЗЫВАЕТСЯ:</text>
+<item flag="0">операцией</item>
+<item flag="1">действием</item>
+<item flag="0">мотивом</item>
+<item flag="0">умением</item>
+<item flag="0">потребностью</item>
+</question>
+<question id="10" size="5" type="1">
+<text>ПСИХОЛОГОМ, КОТОРЫЙ ИЗУЧАЛ ИЕРАРХИЮ ПОТРЕБНОСТЕЙ, И НА ОСНОВЕ ИССЛЕДОВАНИЙ КОТОРОГО СОЗДАНА «ПИРАМИДАПОТРЕБНОСТЕЙ БЫЛ:</text>
+<item flag="0">А.Бандура</item>
+<item flag="0">А. Бин</item>
+<item flag="1">А. Маслоу</item>
+<item flag="0">Г.Олпорт</item>
+<item flag="0">Хеопс</item>
+</question>
+</quize>

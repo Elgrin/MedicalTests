@@ -223,7 +223,9 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
             mass = Randomize(Size_exam);
             //text.append(" " + Integer.toString(Size_all) + " ");
         } else {
+            //ИЗМЕНИТЬ ПРИ СДАЧЕ - уже
             mass = Randomize(Size_exam, Size_all);
+            //mass = Randomize(Size_exam);
         }
 
         //mass=Randomize(Size_exam, Size_all);
@@ -317,6 +319,9 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         if(Test[0] !=null){
             if(!(Test[(int)id].equals(""))){
+
+                /*ИЗМЕНИТЬ!*.*/
+
                 ButtonMenu fragment;
                 fragment = new ButtonMenu();
                 fragment.setMessage((Test[(int) id]),
@@ -327,6 +332,13 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
+
+                /*
+                String File = (Test[(int) id]);
+                XmlTestLoader loader = new XmlTestLoader(File, getAssets());
+                int Size = loader.getSize();
+                onButtonClickExamMode(Size, File);*/
+
             }
             else {
                 toastMessage("Доступно только в платной версии!");

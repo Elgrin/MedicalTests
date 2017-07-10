@@ -290,7 +290,7 @@
 	<question id = "42" size = "4" type = "1">
         <text>Высший интегрирующий центр головного мозга у птиц</text>
         <item flag = "0">средний отдел</item>
-        <item flag = "0">гипокамп</item>
+        <item flag = "0">гиппокамп</item>
         <item flag = "1">полосатые тела конечного отдела</item>
         <item flag = "0">зачатки новой коры</item>
     </question>
@@ -299,7 +299,7 @@
         <item flag = "0">полосатые тела конечного отдела</item>
         <item flag = "1">кора больших полушарий</item>
         <item flag = "0">средний отдел</item>
-        <item flag = "0">гипокамп</item>
+        <item flag = "0">гиппокамп</item>
     </question>
 	<question id = "44" size = "4" type = "1">
         <text>Для конечного отдела головного мозга пресмыкающихся характерно</text>
@@ -2025,7 +2025,7 @@
 	<question id = "271" size_x="5" size_y="5" type="2">
 		<text>Структура мозга человека - ..., функция - ...</text>
 		<item>
-			<text>1) гипокамп</text>
+			<text>1) гиппокамп</text>
 			<pair>0</pair>
 			<pair>0</pair>
 			<pair>1</pair>

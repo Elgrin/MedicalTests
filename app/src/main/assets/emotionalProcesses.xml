@@ -1,0 +1,83 @@
+<quize file="emotionalProcesses" name="Эмоциональные процессы" size="10">
+<question id="1" size="5" type="1">
+<text>В РЕЗУЛЬТАТЕ ОБОБЩЕНИЯ ЭМОЦИЙ ВОЗНИКАЕТ:</text>
+<item flag="0">стресс</item>
+<item flag="1">чувство</item>
+<item flag="0">фрустрация</item>
+<item flag="0">аффект</item>
+<item flag="0">страх</item>
+</question>
+<question id="2" size="5" type="1">
+<text>ДЛЯ ЧЕЛОВЕКА В СОСТОЯНИИ ДИСТРЕССА НЕХАРАКТЕРНЫ:</text>
+<item flag="0">ошибки в восприятии</item>
+<item flag="0">сужение объема внимания</item>
+<item flag="1">отсутствие безусловных рефлексов</item>
+<item flag="0">сужение объема памяти</item>
+<item flag="0">снижение результативности деятельности</item>
+</question>
+<question id="3" size="5" type="1">
+<text>К ОСОБЕННОСТЯМ НАСТРОЕНИЯ ОТНОСЯТ:</text>
+<item flag="1">слабая интенсивность</item>
+<item flag="0">кратковременность</item>
+<item flag="0">ясность, отчетливость переживания</item>
+<item flag="0">отсутствие влияния на мысли и действия</item>
+<item flag="0">ситуационный характер</item>
+</question>
+<question id="4" size="5" type="1">
+<text>КРАЙНЯЯ НЕУДОВЛЕТВОРЕННОСТЬ, БЛОКАДА СТРЕМЛЕНИЯ, ВЫЗЫВАЮЩАЯ СТОЙКОЕ ОТРИЦАТЕЛЬНОЕ ЭМОЦИОНАЛЬНОЕ ПЕРЕЖИВАНИЕ, СОПРОВОЖДАЮЩЕЕСЯ ДЕЗОРГАНИЗАЦИЕЙ СОЗНАНИЯ И ДЕЯТЕЛЬНОСТИ, НАЗЫВАЕТСЯ:</text>
+<item flag="0">стрессом</item>
+<item flag="0">аффектом</item>
+<item flag="0">стыдом</item>
+<item flag="0">удивлением</item>
+<item flag="1">фрустрацией</item>
+</question>
+<question id="5" size="6" type="1">
+<text>НА ОСНОВАНИИ ФИЗИОЛОГИЧЕСКИХ ИЗМЕНЕНИЙ (ЧАСТОТЫ ПУЛЬСА, КРОВЯНОГО ДАВЛЕНИЯ) МОЖНО СДЕЛАТЬ ВЫВОД О:</text>
+<item flag="0">причине эмоциональной реакции</item>
+<item flag="0">качественных характеристиках эмоционального переживания</item>
+<item flag="1">силе эмоционального переживания</item>
+<item flag="0">особенностях изменений когнитивных процессов</item>
+<item flag="0">происхождении эмоции (является ли она врожденной или социогенно</item>
+<item flag="0"/>
+</question>
+<question id="6" size="5" type="1">
+<text>РАДОСТЬ, УДИВЛЕНИЕ, СТЫД – ПРИМЕРЫ:</text>
+<item flag="0">чувств</item>
+<item flag="1">собственно эмоций</item>
+<item flag="0">настроений</item>
+<item flag="0">аффектов</item>
+<item flag="0">форм поведения</item>
+</question>
+<question id="7" size="5" type="1">
+<text>СИЛЬНОЕ И СТОЙКОЕ ЭМОЦИОНАЛЬНОЕ СОСТОЯНИЕ, ЗАХВАТЫВАЮЩЕЕ ЧЕЛОВЕКА И ВЛАДЕЮЩЕЕ ИМ, НАЗЫВАЕТСЯ:</text>
+<item flag="0">настроением</item>
+<item flag="0">чувством</item>
+<item flag="0">аффектом</item>
+<item flag="1">страстью</item>
+<item flag="0">инстинктом</item>
+</question>
+<question id="8" size="5" type="1">
+<text>ФОРМАМИ ЭМОЦИОНАЛЬНЫХ СОСТОЯНИЙЯВЛЯЮТСЯ ВСЕ, КРОМЕ:</text>
+<item flag="0">эмоций</item>
+<item flag="0">чувств</item>
+<item flag="0">аффектов</item>
+<item flag="0">настроения</item>
+<item flag="1">желаний</item>
+</question>
+<question id="9" size="5" type="1">
+<text>ЭМОЦИИ ЛИЧНОСТИ НЕСКАЗЫВАЮТСЯ НА:</text>
+<item flag="0">функционирования тела</item>
+<item flag="0">переживаниях</item>
+<item flag="0">поведении</item>
+<item flag="1">уровне интеллекта</item>
+<item flag="0">когнитивных процессах</item>
+</question>
+<question id="10" size="5" type="1">
+<text>ЭМОЦИОНАЛЬНОЕ СОСТОЯНИЕ, ХАРАКТЕРИЗУЮЩЕЕСЯ ДЛИТЕЛЬНОСТЬЮ И ОКРАШИВАЮЩЕЕ ВСЕ ПОВЕДЕНИЕ ЧЕЛОВЕКА, НАЗЫВАЕТСЯ:</text>
+<item flag="0">аффектом</item>
+<item flag="0">чувством</item>
+<item flag="0">страстью</item>
+<item flag="0">волей</item>
+<item flag="1">настроением</item>
+</question>
+</quize>
