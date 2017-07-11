@@ -20,6 +20,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.Random;
 
 
@@ -426,7 +429,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 }
         );
 
+        //Блок рекламы
 
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     protected void Alert(String Error) {

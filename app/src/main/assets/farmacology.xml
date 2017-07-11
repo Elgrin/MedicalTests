@@ -1,0 +1,2283 @@
+<quize file="farmacology" name="Фармакология" size="332">
+<question id="1" size="5" type="1">
+<text>Понятие «фармакокинетика» включает:</text>
+<item flag="1">Всасывание</item>
+<item flag="1">Распределение</item>
+<item flag="1">Биотрансформацию</item>
+<item flag="0">Фармакологические эффекты</item>
+<item flag="1">Выведение из организма</item>
+</question>
+<question id="2" size="5" type="1">
+<text>Понятие «фармакодинамика» включает:</text>
+<item flag="0">Всасывание</item>
+<item flag="1">Локализацию и механизмы действия</item>
+<item flag="0">Биотрансформацию</item>
+<item flag="1">Фармакологические эффекты</item>
+<item flag="0">Выведение из организма</item>
+</question>
+<question id="3" size="5" type="1">
+<text>Энтеральные пути введения лекарственных средств:</text>
+<item flag="0">В вену</item>
+<item flag="1">Сублингвально (под язык)</item>
+<item flag="0">Под кожу</item>
+<item flag="1">Ректально</item>
+<item flag="1">Внутрь</item>
+</question>
+<question id="4" size="6" type="1">
+<text>Парентеральные пути введения лекарственных средств:</text>
+<item flag="0">Внутрь</item>
+<item flag="1">Под кожу</item>
+<item flag="1">В вену</item>
+<item flag="1">Ингаляционно</item>
+<item flag="1">В мышцу</item>
+<item flag="0">Сублингвально (под язык)</item>
+</question>
+<question id="5" size="4" type="1">
+<text>Всасывание большинства лекарственных веществ из желудочно-кишечного тракта происходит преимущественно за счет:</text>
+<item flag="1">Пассивной диффузии</item>
+<item flag="0">Фильтрации</item>
+<item flag="0">Пиноцита</item>
+<item flag="0">Активного транспорта</item>
+</question>
+<question id="6" size="4" type="1">
+<text>Два основных механизма всасывания лекарственных веществ при подкожном и внутримышечном введении:</text>
+<item flag="1">Фильтрация через межклеточные промежутки</item>
+<item flag="0">Пиноцитоз</item>
+<item flag="0">Активный транспорт</item>
+<item flag="1">Пассивная диффузия</item>
+</question>
+<question id="7" size="2" type="1">
+<text>В неизмененном виде из организма выделяются:</text>
+<item flag="1">Гидрофильные полярные вещества</item>
+<item flag="0">Липофильные неполярные вещества</item>
+</question>
+<question id="8" size="2" type="1">
+<text>В неизмененном виде из организма выделяются:</text>
+<item flag="1">Гидрофильные полярные вещества</item>
+<item flag="0">Липофильные неполярные вещества</item>
+</question>
+<question id="9" size="2" type="1">
+<text>Метаболизм лекарственных веществ в организме приводит к:</text>
+<item flag="1">Повышению степени ионизации лекарственных веществ</item>
+<item flag="0">Снижению степени ионизации лекарственного вещества</item>
+</question>
+<question id="10" size="4" type="1">
+<text>Метаболиты по сравнению с исходными веществами:</text>
+<item flag="1">Ионизированы в большей степени</item>
+<item flag="0">Ионизированы в меньшей степеи</item>
+<item flag="1">Как правило, менее активны</item>
+<item flag="1">Как правило, менее токсичны</item>
+</question>
+<question id="11" size="4" type="1">
+<text>При сублингвальном введении лекарственные вещества:</text>
+<item flag="0">Попадают в общий кровоток, проходя через печеночный барьер</item>
+<item flag="1">Попадают в общий кровоток, минуя печеночный барьер</item>
+<item flag="1">Как правило, быстро вызывают эффект</item>
+<item flag="0">Как правило, медленно вызывают эффект</item>
+</question>
+<question id="12" size="3" type="1">
+<text>Биодоступность – это величина, которая показывает,какая часть введенного вещества:</text>
+<item flag="1">Попадает в системный кровоток</item>
+<item flag="0">Всасывается из желудочно-кишечного тракта</item>
+<item flag="0">Попадает в орган-мишень</item>
+</question>
+<question id="13" size="3" type="1">
+<text>Период полуэлиминации (t</text>
+<item flag="0">Из организма выводится 50% вещества</item>
+<item flag="1">Концентрация неизмененного вещества в плазме крови снижается на 50%</item>
+<item flag="0">Метаболизируется 50% вещества</item>
+</question>
+<question id="14" size="5" type="1">
+<text>Основные мишени для действия лекарстеных веществ:</text>
+<item flag="1">Специфические рецепторы</item>
+<item flag="0">Фосфолипиды клеточных мембран</item>
+<item flag="1">Ферменты</item>
+<item flag="1">Ионные каналы</item>
+<item flag="1">Транспортные белки</item>
+</question>
+<question id="15" size="4" type="1">
+<text>Агонисты рецепторов:</text>
+<item flag="1">Имеют аффинитет к рецепторам</item>
+<item flag="1">Обладают внутренней активностью</item>
+<item flag="1">Могут конкурировать с антагонистами за рецептор</item>
+<item flag="0">Не вызывают эффект при связывании с рецепторами</item>
+</question>
+<question id="16" size="3" type="1">
+<text>Вещества, которые при взаимодействии со специфическими рецепторами вызывают максимальный эффект, называют:</text>
+<item flag="1">Полными агонистами</item>
+<item flag="0">Частичными агонистами</item>
+<item flag="0">Антагонистами</item>
+</question>
+<question id="17" size="3" type="1">
+<text>Антагонисты рецепторов:</text>
+<item flag="1">Связываются с рецепторами, не вызывая эффекта</item>
+<item flag="0">Не способны связываться рецепторами</item>
+<item flag="1">Препятствуют действию агонистов</item>
+</question>
+<question id="18" size="4" type="1">
+<text>При повторном введении лекарственных средств могут развиватьться следующие явления:</text>
+<item flag="1">Лекарственная зависимость</item>
+<item flag="0">Потенцирование</item>
+<item flag="1">Кумуляция</item>
+<item flag="1">Привыкание</item>
+</question>
+<question id="19" size="3" type="1">
+<text>Привыкание (толерантность) к лекарственному веществу это:</text>
+<item flag="0">Непреодолимое стремление к повторному применению вещества</item>
+<item flag="1">Снижение эффекта при повторном применении</item>
+<item flag="0">Усиление эффекта при повторном применении</item>
+</question>
+<question id="20" size="3" type="1">
+<text>Накопление в организме лекарственного вещества при его повторных введениях называется:</text>
+<item flag="0">Привыкание</item>
+<item flag="1">Материальная кумуляция</item>
+<item flag="0">Функциональная кумуляция</item>
+</question>
+<question id="21" size="4" type="1">
+<text>Непреодолимое стремление к повторным приемам лекарственного вещества характерно для:</text>
+<item flag="0">Привыкания</item>
+<item flag="0">Кумуляции</item>
+<item flag="1">Лекарственной зависимости</item>
+<item flag="0">Идиосинкразии</item>
+</question>
+<question id="22" size="5" type="1">
+<text>Комбинированное применение лекарственного вещества может приводить к:</text>
+<item flag="0">Привыканию</item>
+<item flag="0">Лекарственной зависимости</item>
+<item flag="1">Потенцированию</item>
+<item flag="1">Суммированию эффектов</item>
+<item flag="1">Антагонизму</item>
+</question>
+<question id="23" size="4" type="1">
+<text>М-холиномиметик:</text>
+<item flag="1">Пилокарпин</item>
+<item flag="0">Атропин</item>
+<item flag="0">Неостигмин (прозерин)</item>
+<item flag="0">Галантамин</item>
+</question>
+<question id="24" size="5" type="1">
+<text>М-холиномиметики:</text>
+<item flag="1">Стимулируют м-холинорецепторы</item>
+<item flag="0">Блокируют м-холинорецепторы</item>
+<item flag="0">Ингибируют фермент ацетилхолинэстеразу</item>
+<item flag="0">Блокируют м-холинорецепторы</item>
+<item flag="0">Ингибируют фермент ацетилхолинэстеразу</item>
+</question>
+<question id="25" size="3" type="1">
+<text>М-холиномиметики вызывают эффекты активации:</text>
+<item flag="1">Парасимпатической иннервации</item>
+<item flag="0">Симпатической иннервации</item>
+<item flag="0">Одновременно парасимпатической и симпатической иннервации</item>
+</question>
+<question id="26" size="6" type="1">
+<text>При действии на глаз м-холиномиметиков развиваются:</text>
+<item flag="0">Расширение зрачка (мидриаз)</item>
+<item flag="1">Сужение зрачка (миоз)</item>
+<item flag="1">Снижение внутриглазного давления</item>
+<item flag="0">Повышение внутриглазного давления</item>
+<item flag="0">Паралич аккомодации</item>
+<item flag="1">Спазм аккомодации</item>
+</question>
+<question id="27" size="4" type="1">
+<text>М-холиномиметики повышают:</text>
+<item flag="1">Тонус и перистальтику кишечника</item>
+<item flag="1">Тонус мочевого пузыря</item>
+<item flag="1">Тонус бронхов</item>
+<item flag="0">Частоту сердечных сокращений</item>
+</question>
+<question id="28" size="5" type="1">
+<text>М-холиномиметики снижают:</text>
+<item flag="1">Внутриглазное давление</item>
+<item flag="0">Тонус и перистальтику кишечника</item>
+<item flag="0">Тонус мочевого пузыря</item>
+<item flag="0">Тонус бронхов</item>
+<item flag="1">Частоту сердечных сокращений</item>
+</question>
+<question id="29" size="4" type="1">
+<text>Антихолинэстеразные средства:</text>
+<item flag="0">Пилокарпин</item>
+<item flag="1">Неостигмин (прозерин)</item>
+<item flag="1">Галантамин</item>
+<item flag="0">Атропин</item>
+</question>
+<question id="30" size="3" type="1">
+<text>Неостигмин (прозерин):</text>
+<item flag="0">Агонист холинорецепторов</item>
+<item flag="0">Антагонист холинорецепторов</item>
+<item flag="1">Ингибитор ацетилхолинэстеразы</item>
+</question>
+<question id="31" size="5" type="1">
+<text>Антихолинэстеразные средства:</text>
+<item flag="0">Снижают частоту сердечных сокращений</item>
+<item flag="1">Повышают тонус и моторику кишечника</item>
+<item flag="1">Повышают тонус мочевого пузыря</item>
+<item flag="0">Снижают секрецию экзокринных желез</item>
+<item flag="1">Снижают артериальное давление</item>
+</question>
+<question id="32" size="3" type="1">
+<text>Антихолинэстеразные средства нервно-мышечную передачу:</text>
+<item flag="1">Повышают</item>
+<item flag="0">Уменьшают</item>
+<item flag="0">Не изменяют</item>
+</question>
+<question id="33" size="4" type="1">
+<text>Показания к применению антихолинэстеразных средств (прозерина, галантамина):</text>
+<item flag="1">Атония кишечника</item>
+<item flag="1">Атония мочевого пузыря</item>
+<item flag="1">Миастения</item>
+<item flag="0">Стенокардия</item>
+</question>
+<question id="34" size="4" type="1">
+<text>М-холиноблокаторы:</text>
+<item flag="1">Скополамин</item>
+<item flag="1">Атропин</item>
+<item flag="0">Неостигмин (прозерин)</item>
+<item flag="1">Ипратропий</item>
+</question>
+<question id="35" size="3" type="1">
+<text>Атропин:</text>
+<item flag="0">Курареподобное средство</item>
+<item flag="1">М-холиноблокатор</item>
+<item flag="0">Ганглиоблокатор</item>
+</question>
+<question id="36" size="3" type="1">
+<text>Тубокурарин:</text>
+<item flag="0">М-холиноблокатор</item>
+<item flag="0">Ганглиоблокатор</item>
+<item flag="1">Курареподобное средство</item>
+</question>
+<question id="37" size="4" type="1">
+<text>М-холиноблокаторы:</text>
+<item flag="1">Вызывают паралич аккомодации</item>
+<item flag="0">Вызывают спазм аккомодации</item>
+<item flag="1">Расширяют зрачок (мидриаз) и повышают внутриглазное давление</item>
+<item flag="0">Суживают зрачок (миоз) и снижают внутриглазное давление</item>
+</question>
+<question id="38" size="5" type="1">
+<text>М-холиноблокаторы повышают:</text>
+<item flag="1">Частоту сердечных сокращений</item>
+<item flag="1">Внутриглазное давление</item>
+<item flag="0">Тонус и перистальтику кишечника</item>
+<item flag="0">Секрецию экзокринных желез</item>
+<item flag="0">Не изменяют</item>
+</question>
+<question id="39" size="5" type="1">
+<text>М-холиноблокаторы снижают:</text>
+<item flag="1">Тонус ресничной мышцы</item>
+<item flag="1">Тонус бронхов</item>
+<item flag="1">Тонус мочевого пузыря</item>
+<item flag="0">Тонус скелетных мышц</item>
+<item flag="0">Артериальное давление</item>
+</question>
+<question id="40" size="4" type="1">
+<text>М-холиноблокаторы не изменяют:</text>
+<item flag="0">Секрецию экзокринных желез</item>
+<item flag="0">Частоту сердечных сокращений</item>
+<item flag="1">Тонус скелетных мышц</item>
+<item flag="0">Аккомодацию</item>
+</question>
+<question id="41" size="4" type="1">
+<text>Атропин:</text>
+<item flag="0">Уменьшает частоту сердечных сокращений</item>
+<item flag="1">Повышает частоту сердечных сокращений</item>
+<item flag="1">Облегчает атриовентрикулярную проводимость</item>
+<item flag="0">Ухудшает атриовентрикулярную проводимость</item>
+</question>
+<question id="42" size="6" type="1">
+<text>Атропин вызывает:</text>
+<item flag="1">Тахикардию</item>
+<item flag="0">Брадикардию</item>
+<item flag="1">Ослабление перистальтики кишечника</item>
+<item flag="0">Усиление перистальтики кишечника</item>
+<item flag="1">Расширение бронхов</item>
+<item flag="0">Бронхоспазм</item>
+</question>
+<question id="43" size="4" type="1">
+<text>Основные эффекты м-холиноблокаторов:</text>
+<item flag="0">Повышение тонуса и перистальтики кишечника</item>
+<item flag="1">Снижение тонуса и перистальтики кишечника</item>
+<item flag="0">Повышение секреции пищеварительных желез</item>
+<item flag="1">Снижение тонуса гладких мышц желудка</item>
+</question>
+<question id="44" size="5" type="1">
+<text>Показания к применению атропина:</text>
+<item flag="0">Артериальная гипертензия</item>
+<item flag="1">Бронхоспазм</item>
+<item flag="1">Колики (спазмы гладкой мускулатуры)</item>
+<item flag="0">Атония мочевого пузыря</item>
+<item flag="1">Атриовентрикулярная блокада</item>
+</question>
+<question id="45" size="4" type="1">
+<text>М-холиноблокатор, применяемый только при бронхоспазме:</text>
+<item flag="0">Атропин</item>
+<item flag="1">Ипратропий</item>
+<item flag="0">Скополамин</item>
+<item flag="0">Пирензепин</item>
+</question>
+<question id="46" size="4" type="1">
+<text>М-холиноблокаторы применяют:</text>
+<item flag="0">Для снижения внутриглазного давления</item>
+<item flag="0">Для лечения конъюнктивита</item>
+<item flag="1">Для расширения зрачка и осмотра глазного дна</item>
+<item flag="1">При подборе очков</item>
+</question>
+<question id="47" size="4" type="1">
+<text>Побочные эффекты атропина:</text>
+<item flag="1">Сухость во рту</item>
+<item flag="0">Бронхоспазм</item>
+<item flag="1">Запоры</item>
+<item flag="1">Тахикардия</item>
+</question>
+<question id="48" size="4" type="1">
+<text>М-холиноблокаторы противопоказаны при:</text>
+<item flag="0">Бронхиальной астме</item>
+<item flag="1">Глаукоме</item>
+<item flag="0">Гиперацидном гастрите</item>
+<item flag="1">Доброкачественной гиперплазии предстательной железы</item>
+</question>
+<question id="49" size="4" type="1">
+<text>Для расслабления скелетных мышц во время хирургических операций применяют:</text>
+<item flag="1">Курареподобные средства</item>
+<item flag="0">Ганглиоблокаторы</item>
+<item flag="0">М-холиноблокаторы</item>
+<item flag="0">М-холиномиметики</item>
+</question>
+<question id="50" size="5" type="1">
+<text>Альфа, бета-адреномиметики:</text>
+<item flag="0">Сальбутамол</item>
+<item flag="0">Фенилэфрин (мезатон)</item>
+<item flag="0">Добутамин</item>
+<item flag="1">Адреналин</item>
+<item flag="0">Пропранолол (анаприлин)</item>
+</question>
+<question id="51" size="5" type="1">
+<text>Альфа</text>
+<item flag="0">Адреналин</item>
+<item flag="0">Норадреналин</item>
+<item flag="0">Сальбутамол</item>
+<item flag="1">Фенилэфрин (мезатон)</item>
+<item flag="0">Ксилометазолин (галазолин)</item>
+</question>
+<question id="52" size="5" type="1">
+<text>Альфа</text>
+<item flag="0">Фенилэфрин (мезатон)</item>
+<item flag="0">Адреналин</item>
+<item flag="1">Ксилометазолин (галазолин)</item>
+<item flag="0">Сальбутамол</item>
+<item flag="0">Добутамин</item>
+</question>
+<question id="53" size="5" type="1">
+<text>Бета</text>
+<item flag="0">Фенилэфрин (мезатон)</item>
+<item flag="1">Сальбутамол</item>
+<item flag="1">Фенотерол</item>
+<item flag="0">Адреналин</item>
+<item flag="0">Добутамин</item>
+</question>
+<question id="54" size="4" type="1">
+<text>Сальбутамол и фенотерол:</text>
+<item flag="1">Бета2-адреномиметики</item>
+<item flag="0">Бета1-адреномиметики</item>
+<item flag="0">Бета1, бета2-адреномиметики</item>
+<item flag="0">Альфа, бета-адреномиметики</item>
+</question>
+<question id="55" size="3" type="1">
+<text>Адреномиметики:</text>
+<item flag="1">Стимулируют адренорецепторы</item>
+<item flag="0">Угнетают нейрональный захват норадреналина</item>
+<item flag="0">Нарушают распад норадреналина</item>
+</question>
+<question id="56" size="3" type="1">
+<text>Альфа</text>
+<item flag="1">Суживают сосуды и повышают артериальное давление</item>
+<item flag="0">Расширяют сосуды и снижают артериальное давление</item>
+<item flag="0">Не влияют на артериальное давление</item>
+</question>
+<question id="57" size="6" type="1">
+<text>Адреналин:</text>
+<item flag="1">Повышает частоту сердечных сокращений</item>
+<item flag="0">Уменьшает частоту сердечных сокращений</item>
+<item flag="1">Облегчает атриовентрикулярную проводимость</item>
+<item flag="0">Затрудняет атриовентрикулярную проводимость</item>
+<item flag="1">Повышает силу сердечных сокращений</item>
+<item flag="0">Уменьшает силу сердечных сокращений</item>
+</question>
+<question id="58" size="3" type="1">
+<text>Под влиянием адреналина тонус бронхов:</text>
+<item flag="0">Увеличивается</item>
+<item flag="1">Уменьшается</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="59" size="3" type="1">
+<text>Бета</text>
+<item flag="0">Повышают</item>
+<item flag="1">Уменьшают</item>
+<item flag="0">Не изменяют</item>
+</question>
+<question id="60" size="3" type="1">
+<text>Бета</text>
+<item flag="1">Понижают</item>
+<item flag="0">Повышают</item>
+<item flag="0">Не влияют</item>
+</question>
+<question id="61" size="4" type="1">
+<text>Адреномиметики, оказывающие бронхолитическое действие:</text>
+<item flag="0">Фенилэфрин (мезатон)</item>
+<item flag="1">Сальбутамол</item>
+<item flag="1">Фенотерол</item>
+<item flag="1">Адреналин</item>
+</question>
+<question id="62" size="4" type="1">
+<text>Адреналин применяют:</text>
+<item flag="1">При анафилактическом шоке</item>
+<item flag="1">При остановке сердца</item>
+<item flag="0">При экстрасистолии</item>
+<item flag="1">В сочетании с местными анестетиками</item>
+</question>
+<question id="63" size="3" type="1">
+<text>Адреналин вводят непосредственно в сердце при:</text>
+<item flag="0">Атриовентрикулярном блоке</item>
+<item flag="1">Остановке сердца</item>
+<item flag="0">Брадикардии</item>
+</question>
+<question id="64" size="3" type="1">
+<text>Фенилэфрина (мезатон) применяют:</text>
+<item flag="0">При остановке сердца</item>
+<item flag="0">Для купирования бронхоспазма</item>
+<item flag="1">Для повышения артериального давления</item>
+</question>
+<question id="65" size="4" type="1">
+<text>Сальбутамол и фенотерол применяют:</text>
+<item flag="0">При остановке сердца</item>
+<item flag="1">Для ослабления сократительной активности миометрия</item>
+<item flag="1">Для расширения бронхов</item>
+<item flag="0">При насморке (рините)</item>
+</question>
+<question id="66" size="3" type="1">
+<text>Бронхолитические средства:</text>
+<item flag="1">Бета2-адреномиметики</item>
+<item flag="0">Альфа1-адреномиметики</item>
+<item flag="0">Альфа2-адреномиметики</item>
+</question>
+<question id="67" size="4" type="1">
+<text>Бета</text>
+<item flag="0">Бронхоспазме</item>
+<item flag="0">Насморке (рините)</item>
+<item flag="1">Сердечной недостаточности</item>
+<item flag="0">Тахиаритмиях</item>
+</question>
+<question id="68" size="3" type="1">
+<text>Адреномиметик, применяемый в сочетании с местными анестетиками:</text>
+<item flag="0">Добутамин</item>
+<item flag="1">Адреналин</item>
+<item flag="0">Ксилометазолин (галазолин)</item>
+</question>
+<question id="69" size="5" type="1">
+<text>Пути введения адреналина:</text>
+<item flag="0">Ингаляционно</item>
+<item flag="1">В вену</item>
+<item flag="1">Под кожу</item>
+<item flag="1">В мышцу</item>
+<item flag="0">Внутрь</item>
+</question>
+<question id="70" size="5" type="1">
+<text>Побочные эффекты адреналина:</text>
+<item flag="0">Гипогликемия</item>
+<item flag="0">Брадикардия</item>
+<item flag="1">Тахикардия</item>
+<item flag="1">Аритмии</item>
+<item flag="0">Атриовентрикулярный блок</item>
+</question>
+<question id="71" size="4" type="1">
+<text>Альфа</text>
+<item flag="0">Пропранолол (анаприлин)</item>
+<item flag="1">Празозин</item>
+<item flag="0">Атенолол</item>
+<item flag="0">Фенилэфрин (мезатон)</item>
+</question>
+<question id="72" size="4" type="1">
+<text>Бета-адреноблокаторы:</text>
+<item flag="0">Празозин</item>
+<item flag="0">Сальбутамол</item>
+<item flag="1">Пропранолол (анаприлин)</item>
+<item flag="1">Атенолол</item>
+</question>
+<question id="73" size="4" type="1">
+<text>Пропранолол (анаприлин):</text>
+<item flag="0">Альфа1-адреноблокатор</item>
+<item flag="0">Симпатолитик</item>
+<item flag="1">Бета1, бета2-адреноблокатор</item>
+<item flag="0">Бета1-адреноблокатор</item>
+</question>
+<question id="74" size="4" type="1">
+<text>Атенолол и метопролол:</text>
+<item flag="0">Альфа, бета-адреноблокаторы</item>
+<item flag="0">Бета1, бета2-адреноблокаторы</item>
+<item flag="1">Бета1-адреноблокаторы</item>
+<item flag="0">Альфа1-адреноблокаторы</item>
+</question>
+<question id="75" size="4" type="1">
+<text>Резерпин:</text>
+<item flag="0">Бета1-адреноблокатор</item>
+<item flag="1">Симпатолитик</item>
+<item flag="0">Альфа1-адреноблокатор</item>
+<item flag="0">Бета1, бета2-адреноблокатор</item>
+</question>
+<question id="76" size="3" type="1">
+<text>Празозин:</text>
+<item flag="1">Расширяет сосуды и снижает артериальное давление</item>
+<item flag="0">Суживает сосуды и повышает артериальное давление</item>
+<item flag="0">Снижает частоту сердечных сокращений</item>
+</question>
+<question id="77" size="4" type="1">
+<text>Бета-адреноблокаторы:</text>
+<item flag="1">Уменьшают силу сердечных сокращений</item>
+<item flag="1">Уменьшают частоту сердечных сокращений</item>
+<item flag="1">Затрудняют атриовентрикулярную проводимость</item>
+<item flag="0">Увеличивают секрецию ренина</item>
+</question>
+<question id="78" size="5" type="1">
+<text>Пропранолол (анаприлин) снижает:</text>
+<item flag="1">Силу и частоту сердечных сокращений</item>
+<item flag="0">Тонус бронхов</item>
+<item flag="0">Сократительную активность миометрия</item>
+<item flag="1">Секрецию ренина</item>
+<item flag="1">Внутриглазное давление</item>
+</question>
+<question id="79" size="4" type="1">
+<text>Бета-адреноблокаторы:</text>
+<item flag="1">Снижают артериальное давление</item>
+<item flag="1">Снижают потребность миокарда в кислороде</item>
+<item flag="1">Повышают тонус бронхов</item>
+<item flag="0">Повышают содержание глюкозы в плазме крови</item>
+</question>
+<question id="80" size="3" type="1">
+<text>Бета-адреноблокаторы снижают потребность миокарда в кислороде,потому что:</text>
+<item flag="1">Снижают силу и частоту сердечных сокращений</item>
+<item flag="0">Снижают преднагрузку на сердце</item>
+<item flag="0">Угнетают метаболические процессы в миокарде</item>
+</question>
+<question id="81" size="3" type="1">
+<text>При закапывании в глаз раствора бета-адреноблокатора (тимолол) внутриглазное давление:</text>
+<item flag="0">Повышается</item>
+<item flag="1">Понижается</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="82" size="3" type="1">
+<text>Атенолол в терапевтических дозах блокирует:</text>
+<item flag="0">Бета1- и бета2-адренорецепторы</item>
+<item flag="1">Преимущественно бета1-адренорецепторы</item>
+<item flag="0">Преимущественно бета2-адренорецепторы</item>
+</question>
+<question id="83" size="3" type="1">
+<text>Празозин блокирует:</text>
+<item flag="0">В равной степени альфа- и бета-адренорецепторы</item>
+<item flag="1">Преимущественно альфа1-адренорецепторы</item>
+<item flag="0">Преимущественно бета1-адренорецепторынти</item>
+</question>
+<question id="84" size="4" type="1">
+<text>Терапевтические эффекты бета-адреноблокаторов:</text>
+<item flag="1">Антиангинальный</item>
+<item flag="0">Бронхолитический</item>
+<item flag="1">Противоаритмический</item>
+<item flag="1">Гипотензивный</item>
+</question>
+<question id="85" size="5" type="1">
+<text>Бета-адреноблокаторы применяют при:</text>
+<item flag="1">Артериальной гипертензии</item>
+<item flag="1">Стенокардии</item>
+<item flag="1">Тахиаритмиях и экстрасистолии</item>
+<item flag="0">Бронхоспазме</item>
+<item flag="1">Глаукоме</item>
+</question>
+<question id="86" size="4" type="1">
+<text>Празозин применяют при:</text>
+<item flag="0">Сердечных аритмиях</item>
+<item flag="0">Стенокардии</item>
+<item flag="1">Доброкачественной гиперплазии предстательной железы</item>
+<item flag="1">Артериальной гипертензии</item>
+</question>
+<question id="87" size="3" type="1">
+<text>Показание к применению симпатолитика резерпина:</text>
+<item flag="1">Артериальная гипертензия</item>
+<item flag="0">Стенокардия</item>
+<item flag="0">Сердечные аритмии</item>
+</question>
+<question id="88" size="5" type="1">
+<text>Побочные эффекты пропранолола (анаприлина):</text>
+<item flag="1">Атриовентрикулярная блокада</item>
+<item flag="1">Повышение тонуса бронхов</item>
+<item flag="1">Брадикардия</item>
+<item flag="0">Ортостатическая гипотензия</item>
+<item flag="1">Синдром отмены</item>
+</question>
+<question id="89" size="4" type="1">
+<text>Атенолол в отличие от анаприлина мало изменяет:</text>
+<item flag="1">Тонус бронхов</item>
+<item flag="0">Атриовентрикулярную проводимость</item>
+<item flag="0">Частоту сердечных сокращений</item>
+<item flag="0">Силу сердечных сокращений</item>
+</question>
+<question id="90" size="3" type="1">
+<text>Бронхоспазм – побочный эффект:</text>
+<item flag="0">Бета1-адреноблокаторов</item>
+<item flag="1">Бета1, бета2-адреноблокаторов</item>
+<item flag="0">Альфа1-адреноблокаторов</item>
+</question>
+<question id="91" size="3" type="1">
+<text>Резерпин:</text>
+<item flag="0">Стимулирует центральную нервную систему</item>
+<item flag="1">Угнетает центральную нервную систему</item>
+<item flag="0">Практически не оказывает центрального действия</item>
+</question>
+<question id="92" size="4" type="1">
+<text>Средства для ингаляционного наркоза:</text>
+<item flag="1">Фторотан</item>
+<item flag="1">Азота закись</item>
+<item flag="0">Кетамин</item>
+<item flag="0">Тиопентал-натрий</item>
+</question>
+<question id="93" size="4" type="1">
+<text>Газообразное вещество для ингаляционного наркоза:</text>
+<item flag="1">Азота закись</item>
+<item flag="0">Фторотан</item>
+<item flag="0">Кетамин</item>
+<item flag="0">Пропофол</item>
+</question>
+<question id="94" size="4" type="1">
+<text>Средства для неингаляционного наркоза:</text>
+<item flag="0">Азота закись</item>
+<item flag="1">Тиопентал-натрий</item>
+<item flag="1">Кетамин</item>
+<item flag="0">Фторотан</item>
+</question>
+<question id="95" size="4" type="1">
+<text>Средство для наркоза, вводится внутривенно, действует</text>
+<item flag="0">Фторотан</item>
+<item flag="0">Пропофол</item>
+<item flag="0">Тиопентал-натрий</item>
+<item flag="1">Кетамин</item>
+</question>
+<question id="96" size="4" type="1">
+<text>Диазепам:</text>
+<item flag="0">Агонист гамка-рецепторов</item>
+<item flag="1">Агонист бензодиазепиновых рецепторов</item>
+<item flag="0">Антагонист бензодиазепиновых рецепторов</item>
+<item flag="0">Активатор хлорных каналов</item>
+</question>
+<question id="97" size="4" type="1">
+<text>Диазепам и феназепам:</text>
+<item flag="1">Агонисты бензодиазепиновых рецепторов</item>
+<item flag="1">Вызывают снотворный эффект</item>
+<item flag="1">Усиливают гамк-ергические процессы в мозге</item>
+<item flag="0">Ослабляют гамк-ергические процессы в мозге</item>
+</question>
+<question id="98" size="3" type="1">
+<text>Агонисты бензодиазепиновых рецепторов:</text>
+<item flag="1">Усиливат гамк-ергические процессы в цнс</item>
+<item flag="0">Угнетают гамк-ергические процессы в цнс</item>
+<item flag="0">Усиливают серотонинергические процессы в цнс</item>
+</question>
+<question id="99" size="5" type="1">
+<text>Эффекты диазепама:</text>
+<item flag="1">Анксиолитический</item>
+<item flag="1">Седативный</item>
+<item flag="1">Снотворный</item>
+<item flag="1">Противосудорожный</item>
+<item flag="0">Противопаркинсонический</item>
+</question>
+<question id="100" size="4" type="1">
+<text>Анксиолитическое действие – это способность вещества:</text>
+<item flag="0">Увеличивать устойчивость мозга к гипоксии</item>
+<item flag="1">Устранять страх и тревогу</item>
+<item flag="0">Устранять бред и галлюцинации</item>
+<item flag="0">Вызывать седативное действие</item>
+</question>
+<question id="101" size="5" type="1">
+<text>Снотворные средства из группы бензодиазепинов:</text>
+<item flag="0">Золпидем</item>
+<item flag="1">Феназепам</item>
+<item flag="1">Этаминал-натрий</item>
+<item flag="0">Диазепам</item>
+<item flag="1">Нитразепам</item>
+</question>
+<question id="102" size="4" type="1">
+<text>Снотворное средство – “небензодиазепиновый” агонист бензодиазепиновых рецепторов:</text>
+<item flag="0">Диазепам</item>
+<item flag="0">Феназепам</item>
+<item flag="0">Флумазенил</item>
+<item flag="1">Золпидем</item>
+</question>
+<question id="103" size="3" type="1">
+<text>Продолжительность фазы “быстрого” сна барбитураты:</text>
+<item flag="0">Удлиняют</item>
+<item flag="1">Укорачивают</item>
+<item flag="0">Не изменяют</item>
+</question>
+<question id="104" size="3" type="1">
+<text>Снотворные средстваиз группы бензодиазепинов укорачивают фазу “быстрого” сна:</text>
+<item flag="1">Слабее, чем барбитураты</item>
+<item flag="0">Сильнее, чем барбитураты</item>
+<item flag="0">Так же, как барбитураты</item>
+</question>
+<question id="105" size="4" type="1">
+<text>Отметить опиоидные анальгетики – агонисты опиоидных рецепторов:</text>
+<item flag="1">Морфин</item>
+<item flag="1">Фентанил</item>
+<item flag="0">Налтрексон</item>
+<item flag="0">Налоксон</item>
+</question>
+<question id="106" size="4" type="1">
+<text>Опиоидные анальгетики из группы агонистов-антагонистов и частичных агонистов опиоидных рецепторов:</text>
+<item flag="0">Морфин</item>
+<item flag="1">Бупренорфин</item>
+<item flag="0">Фентанил</item>
+<item flag="1">Буторфанол</item>
+</question>
+<question id="107" size="3" type="1">
+<text>Морфин:</text>
+<item flag="0">Блокирует опиоидные рецепторы</item>
+<item flag="1">Стимулирует опиоидные рецепторы</item>
+<item flag="0">Блокирует nmda-рецепторы</item>
+</question>
+<question id="108" size="3" type="1">
+<text>Опиоидные анальгетики:</text>
+<item flag="1">Нарушают межнейронную передачу болевых импульсов в цнс</item>
+<item flag="0">Угнетают нисходящие тормозные влияния</item>
+<item flag="1">Изменяют субъективно-эмоциональную оценку боли</item>
+</question>
+<question id="109" size="5" type="1">
+<text>Морфин вызывает:</text>
+<item flag="1">Анальгезию</item>
+<item flag="1">Эйфорию</item>
+<item flag="1">Угнетение дыхания</item>
+<item flag="1">Противокашлевой эффект</item>
+<item flag="0">Противовоспалительный эффект</item>
+</question>
+<question id="110" size="4" type="1">
+<text>Морфин вызывает:</text>
+<item flag="1">Лекарственную зависимость</item>
+<item flag="1">Привыкание</item>
+<item flag="0">Стимуляцию дыхания</item>
+<item flag="0">Понос</item>
+</question>
+<question id="111" size="3" type="1">
+<text>Величина зрачков под влиянием морфина (в терапевтических дозах):</text>
+<item flag="1">Уменьшается (сужение)</item>
+<item flag="0">Увеличивается (расширение)</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="112" size="5" type="1">
+<text>Морфин при действии на желудочно-кишечный тракт:</text>
+<item flag="1">Повышает тонус сфинктеров</item>
+<item flag="1">Замедляет продвижение содержимого по кишечнику</item>
+<item flag="0">Ускоряет продвижение содержимого по кишечнику</item>
+<item flag="1">Вызывет запор</item>
+<item flag="0">Вызывает понос</item>
+</question>
+<question id="113" size="3" type="1">
+<text>Фентанил по анальгетической активности:</text>
+<item flag="1">Превосходит морфин</item>
+<item flag="0">Уступает морфину</item>
+<item flag="0">Соответствует морфину</item>
+</question>
+<question id="114" size="4" type="1">
+<text>Наиболее выраженно угнетает дыхание:</text>
+<item flag="0">Морфин</item>
+<item flag="1">Фентанил</item>
+<item flag="0">Буторфанол</item>
+<item flag="0">Промедол</item>
+</question>
+<question id="115" size="4" type="1">
+<text>Опиоидный анальгетик короткого действия (</text>
+<item flag="0">Морфин</item>
+<item flag="0">Промедол</item>
+<item flag="0">Буторфанол</item>
+<item flag="1">Фентанил</item>
+</question>
+<question id="116" size="4" type="1">
+<text>Агонисты-антагонисты и частичные агонисты опиоидных рецепторов по сравнению с полными агонистами мю-рецепторов:</text>
+<item flag="0">Более эффективны</item>
+<item flag="1">В меньшей степени угнетают дыхание</item>
+<item flag="1">Могут вызывать дисфорию</item>
+<item flag="1">Имеют меньший наркогенный потенциал</item>
+</question>
+<question id="117" size="4" type="1">
+<text>Показания к применению опиоидных анальгетиков:</text>
+<item flag="1">Сильные боли при травмах, ожогах</item>
+<item flag="1">Боли при злокачественных опухолях</item>
+<item flag="1">Боли при инфаркте миокарда</item>
+<item flag="0">Головная боль</item>
+</question>
+<question id="118" size="4" type="1">
+<text>Для предупреждения болевого шока применяют следующие анальгетики:</text>
+<item flag="0">Парацетамол</item>
+<item flag="1">Морфин</item>
+<item flag="1">Фентанил</item>
+<item flag="1">Промедол</item>
+</question>
+<question id="119" size="4" type="1">
+<text>Анальгетики, применяемые для купирования боли при инфаркте миокарда:</text>
+<item flag="1">Фентанил</item>
+<item flag="1">Промедол</item>
+<item flag="0">Парацетамол</item>
+<item flag="1">Морфин</item>
+</question>
+<question id="120" size="3" type="1">
+<text>Анальгетик, применяемый в сочетании с дроперидолом для нейролептанальгезии:</text>
+<item flag="0">Промедол</item>
+<item flag="1">Фентанил</item>
+<item flag="0">Морфин</item>
+</question>
+<question id="121" size="3" type="1">
+<text>При сочетании фентанила с дроперидолом для нейролептанальгезии:</text>
+<item flag="1">Усиливается анальгетическое действие фентанила</item>
+<item flag="1">Развивается эмоциональная индиферрентность</item>
+<item flag="0">Удлиняется действие препаратов</item>
+</question>
+<question id="122" size="3" type="1">
+<text>При применении опиоидных анальгетиков могут возникать:</text>
+<item flag="0">Кумуляция</item>
+<item flag="1">Лекарственная зависимость</item>
+<item flag="1">Привыкание</item>
+</question>
+<question id="123" size="3" type="1">
+<text>Для острого отравления морфином характерны:</text>
+<item flag="1">Коматозное состояние</item>
+<item flag="0">Возбуждение</item>
+<item flag="1">Угнетение дыхания</item>
+</question>
+<question id="124" size="3" type="1">
+<text>Антагонист опиоидных анальгетиков:</text>
+<item flag="1">Налоксон</item>
+<item flag="0">Атропин</item>
+<item flag="0">Анаприлин</item>
+</question>
+<question id="125" size="4" type="1">
+<text>Препарат, блокирующий все подтипы опиоидных рецепторов, применяется в качестве антагониста при передозировке опиоидных анальгетиков:</text>
+<item flag="0">Морфин</item>
+<item flag="0">Фентанил</item>
+<item flag="0">Парацетамол</item>
+<item flag="1">Налоксон</item>
+</question>
+<question id="126" size="5" type="1">
+<text>Неопиоидные вещества центрального действия с анальгетической активностью:</text>
+<item flag="1">Карбамазепин</item>
+<item flag="1">Амитриптилин</item>
+<item flag="1">Парацетамол</item>
+<item flag="0">Диазепам</item>
+<item flag="1">Клонидин (клофелин)</item>
+</question>
+<question id="127" size="5" type="1">
+<text>Карбамазепин:</text>
+<item flag="1">Блокатор натриевых каналов мембран нейронов</item>
+<item flag="1">Применяется при невралгиях</item>
+<item flag="1">Применяется при эпилепсии</item>
+<item flag="0">Угнетает дыхание</item>
+<item flag="0">Вызывает лекарственную зависимость</item>
+</question>
+<question id="128" size="4" type="1">
+<text>Парацетамол:</text>
+<item flag="1">Неопиоидный анальгетик центрального действия</item>
+<item flag="1">Ингибитор циклооксигеназы</item>
+<item flag="0">Блокатор натриевых каналов</item>
+<item flag="0">Агонист опиоидных рецепторов</item>
+</question>
+<question id="129" size="4" type="1">
+<text>Парацетамол вызывает:</text>
+<item flag="1">Анальгетическое действие</item>
+<item flag="1">Жаропонижающее действие</item>
+<item flag="0">Противовоспалительное действие</item>
+<item flag="0">Антиагрегантное действие</item>
+</question>
+<question id="130" size="3" type="1">
+<text>Гепатотоксическое действие парацетамола развивается при:</text>
+<item flag="1">Передозировке парацетамола</item>
+<item flag="1">Индукции микросомальных ферментов печени</item>
+<item flag="0">Ингибировании микросомальных ферментов печени</item>
+</question>
+<question id="131" size="4" type="1">
+<text>Анальгетик со смешанным механизмом действия (опиоидный + неопиоидный)</text>
+<item flag="0">Морфин</item>
+<item flag="0">Парацетамол</item>
+<item flag="0">Фентанил</item>
+<item flag="1">Трамадол</item>
+</question>
+<question id="132" size="5" type="1">
+<text>Неопиоидный анальгетик центрального действия, ингибирует фермент циклооксигеназу, вызывает жаропонижающий эффект, не оказывает противовоспалительного действия:</text>
+<item flag="0">Трамадол</item>
+<item flag="0">Морфин</item>
+<item flag="0">Фентанил</item>
+<item flag="0">Карбамазепин</item>
+<item flag="1">Парацетамол</item>
+</question>
+<question id="133" size="7" type="1">
+<text>Противоэпилептическое средства:</text>
+<item flag="1">Этосуксимид</item>
+<item flag="1">Фенобарбитал</item>
+<item flag="1">Диазепам</item>
+<item flag="1">Фенитоин (дифенин)</item>
+<item flag="1">Натрия вальпроат</item>
+<item flag="0">Леводопа</item>
+<item flag="1">Карбамазепин</item>
+</question>
+<question id="134" size="4" type="1">
+<text>Механизм противопаркинсонического действия леводопы:</text>
+<item flag="0">Блокирует м-холинорецепторы в цнс</item>
+<item flag="1">Является предшественником дофамина</item>
+<item flag="0">Прямо стимулирует дофаминовые рецепторы в цнс</item>
+<item flag="0">Ингибирует мао</item>
+</question>
+<question id="135" size="4" type="1">
+<text>Для уменьшения побочных эффектов леводопы используют:</text>
+<item flag="0">Циклодол</item>
+<item flag="1">Карбидопу</item>
+<item flag="0">Мидантан</item>
+<item flag="0">Бромокриптин</item>
+</question>
+<question id="136" size="3" type="1">
+<text>Противопаркинсоническое средство, является предшественником дофамина, обычно применяется с карбидопой:</text>
+<item flag="0">Бромокриптин</item>
+<item flag="0">Циклодол</item>
+<item flag="1">Леводопа</item>
+</question>
+<question id="137" size="3" type="1">
+<text>Противопаркинсоническое средство, блокирующее центральные холинорецепторы:леводопа</text>
+<item flag="1">Циклодол</item>
+<item flag="0">Бромокриптин</item>
+<item flag="0">Карбидопа</item>
+</question>
+<question id="138" size="5" type="1">
+<text>При паркинсонизме, вызванном применением антипсихотических средств,используют:</text>
+<item flag="0">Леводопу</item>
+<item flag="1">Циклодол</item>
+<item flag="0">Бромокриптин</item>
+<item flag="0">Карбидопа</item>
+<item flag="0">Селегелин</item>
+</question>
+<question id="139" size="4" type="1">
+<text>Хрорпромазин (аминазин) и галоперидол:</text>
+<item flag="0">Антидепрессанты</item>
+<item flag="0">Анксиолитики</item>
+<item flag="0">Ноотропные средства</item>
+<item flag="1">Антипсихотические средства</item>
+</question>
+<question id="140" size="5" type="1">
+<text>Типичные антипсихотичесие средства:</text>
+<item flag="1">Устраняют бред и галлюцинации</item>
+<item flag="0">Оказывают анальгетическое действие</item>
+<item flag="1">Могут вызвать лекарственный паркинсонизм</item>
+<item flag="1">Оказывают противорвотное действие</item>
+<item flag="0">Вызывают психостимулирующее действие</item>
+</question>
+<question id="141" size="5" type="1">
+<text>Антипсихотические средства в результате блокады дофаминовых рецепторов в цнс вызывают:</text>
+<item flag="1">Антипсихотическое действие</item>
+<item flag="0">Антидепрессивное действие</item>
+<item flag="1">Противорвотное действие</item>
+<item flag="0">Снижение секреции пролактина</item>
+<item flag="1">Экстрапирамидные расстройства</item>
+</question>
+<question id="142" size="2" type="1">
+<text>Атипичные антипсихотические средства, в отличие от типичных:</text>
+<item flag="0">Не оказывают седативное действие</item>
+<item flag="1">Реже вызывают экстрапирамидные расстройства вызывают антидепрессивный эффект</item>
+</question>
+<question id="143" size="5" type="1">
+<text>Амитриптилин:</text>
+<item flag="1">Антидепрессант</item>
+<item flag="0">Анксиолитик</item>
+<item flag="0">Ноотропное средство</item>
+<item flag="0">Антипсихотическое средство</item>
+<item flag="1">Неопиоидный анальгетик центрального действия</item>
+</question>
+<question id="144" size="4" type="1">
+<text>Флуоксетин:</text>
+<item flag="0">Анксиолитик</item>
+<item flag="1">Антидепрессант</item>
+<item flag="0">Ноотропное средство</item>
+<item flag="0">Антипсихотическое средство</item>
+</question>
+<question id="145" size="4" type="1">
+<text>Антидепрессивное действие амитриптилина связано:</text>
+<item flag="0">С блокадой холинергических синапсов в цнс</item>
+<item flag="1">Со стимуляцией адренергических синапсов в цнс</item>
+<item flag="1">Со стимуляцией серотонинергических синапсов в цнс</item>
+<item flag="0">Со стимуляцией опиоидных рецепторов в цнс</item>
+</question>
+<question id="146" size="4" type="1">
+<text>Флуоксетин:</text>
+<item flag="1">Антидепрессант</item>
+<item flag="0">Ингибитор обратного нейронального захвата норадреналина и серотонина</item>
+<item flag="1">Избирательный ингибитор обратного нейронального захвата серотонина</item>
+<item flag="0">Вызывает седативное действие</item>
+</question>
+<question id="147" size="4" type="1">
+<text>Общие свойства амитриптилина и флуоксетина:</text>
+<item flag="1">Угнетают обратный нейрональный захват серотонина</item>
+<item flag="0">Угнетают обратный нейрональный захват норадреналина</item>
+<item flag="1">Вызывают антидепрессивное действие</item>
+<item flag="0">Вызывают седативное действие</item>
+</question>
+<question id="148" size="4" type="1">
+<text>Кофеин:</text>
+<item flag="0">Антидепрессант</item>
+<item flag="1">Психостимулятор</item>
+<item flag="0">Ноотропное средство</item>
+<item flag="0">Антипсихотическое средство</item>
+</question>
+<question id="149" size="4" type="1">
+<text>Кофеин:</text>
+<item flag="0">Увеличивает устойчивость тканей мозга к гипоксии</item>
+<item flag="1">Временно повышает умственную и физическую работоспособность</item>
+<item flag="1">Стимулирует дыхательный и сосудодвигательный центры продолговатого мозга</item>
+<item flag="0">Антидепрессант</item>
+</question>
+<question id="150" size="5" type="1">
+<text>Пирацетам:</text>
+<item flag="0">Антидепрессант</item>
+<item flag="0">Анксиолитик</item>
+<item flag="1">Ноотропное средство</item>
+<item flag="0">Антипсихотическое средство</item>
+<item flag="0">Анальгетик</item>
+</question>
+<question id="151" size="5" type="1">
+<text>Ноотропные средства:</text>
+<item flag="1">Увеличивают устойчивость тканей мозга к гипоксии</item>
+<item flag="1">Повышают способность к обучению и память при их нарушении</item>
+<item flag="1">Эффективны при длительном применении</item>
+<item flag="0">Действие развивается быстро</item>
+<item flag="1">Эффективны только при органической патологии головного мозга</item>
+</question>
+<question id="152" size="4" type="1">
+<text>Препараты валерианы:</text>
+<item flag="0">Антидепрессанты</item>
+<item flag="1">Седативные средства</item>
+<item flag="0">Ноотропные средства</item>
+<item flag="0">Антипсихотические средства</item>
+</question>
+<question id="153" size="4" type="1">
+<text>Бронхолитическое средство – спазмолитик миотропного действия:</text>
+<item flag="0">Сальбутамол</item>
+<item flag="0">Фенотерол</item>
+<item flag="0">Ипратропий</item>
+<item flag="1">Теофиллин</item>
+</question>
+<question id="154" size="3" type="1">
+<text>Тонус бронхов под влиянием теофилина:</text>
+<item flag="0">Повышается</item>
+<item flag="1">Снижается</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="155" size="3" type="1">
+<text>Механизм бронхолитического действия тефиллина:</text>
+<item flag="0">Стимулирует бета2-адренорецепторы</item>
+<item flag="0">Блокирует м-холинорецепторы</item>
+<item flag="1">Непосредственно расслабляет гладкую мускулатуру</item>
+</question>
+<question id="156" size="4" type="1">
+<text>Бронхолитическое средство из группы м-холиноблокаторов:</text>
+<item flag="0">Сальбутамол</item>
+<item flag="0">Теофилин</item>
+<item flag="0">Фенотерол</item>
+<item flag="1">Ипратропий</item>
+</question>
+<question id="157" size="3" type="1">
+<text>Механизм бронхолитического действия ипратропия:</text>
+<item flag="0">Стимулирует бета2-адренорецепторы</item>
+<item flag="1">Блокирует м-холинорецепторы</item>
+<item flag="0">Непосредственно расслабляет гладкую мускулатуру</item>
+</question>
+<question id="158" size="4" type="1">
+<text>Бронхолитические средства – бета</text>
+<item flag="1">Сальбутамол</item>
+<item flag="1">Фенотерол</item>
+<item flag="0">Ипратропий</item>
+<item flag="0">Теофиллин</item>
+</question>
+<question id="159" size="3" type="1">
+<text>Механизм бронхолитического действия сальбутамола:</text>
+<item flag="1">Стимулирует бета2-адренорецепторы</item>
+<item flag="0">Блокирует м-холинорецепторы</item>
+<item flag="0">Непосредственно расслабляет гладкую мускулатуру</item>
+</question>
+<question id="160" size="3" type="1">
+<text>Противоаллергическое средство, стабилизирует мембраны тучных клеток,препятствует выделению из них медиаторов аллергии (гистамина),применяется для предупреждения приступов бронхиальной астмы:</text>
+<item flag="0">Сальбутамол</item>
+<item flag="1">Кромолин-натрий</item>
+<item flag="0">Дифенгидрамин (димедрол)</item>
+</question>
+<question id="161" size="4" type="1">
+<text>Беклометазон:</text>
+<item flag="1">Глюкокортикоидное средство</item>
+<item flag="1">Применяется ингаляционно</item>
+<item flag="0">Имеет высокую системную биодоступность при ингаляционном введении</item>
+<item flag="1">Вызывает противовоспалительное действие</item>
+</question>
+<question id="162" size="3" type="1">
+<text>Кодеин:</text>
+<item flag="0">Бронхолитическое средство</item>
+<item flag="1">Противокашлевое средство</item>
+<item flag="0">Отхаркивающее средство</item>
+</question>
+<question id="163" size="5" type="1">
+<text>Кодеин:</text>
+<item flag="1">Агонист опиоидных рецепторов</item>
+<item flag="1">Угнетает центр кашлевого рефлекса</item>
+<item flag="1">Вызывает анальгетическое действие</item>
+<item flag="0">Может вызвать бессонницу</item>
+<item flag="1">Может вызвать лекарственую зависимость</item>
+</question>
+<question id="164" size="4" type="1">
+<text>Либексин:</text>
+<item flag="0">Бронхолитическое средство</item>
+<item flag="0">Противокашлевое средство центрального действия</item>
+<item flag="1">Противокашлевое средство периферического действия</item>
+<item flag="0">Отхаркивающее средство</item>
+</question>
+<question id="165" size="3" type="1">
+<text>Бромгексин:</text>
+<item flag="1">Отхаркивающее средство</item>
+<item flag="0">Бронхолитическое средство</item>
+<item flag="0">Противокашлевое средство</item>
+</question>
+<question id="166" size="4" type="1">
+<text>Кардиотонические средства гликозидной структуры:</text>
+<item flag="1">Дигоксин</item>
+<item flag="0">Добутамин</item>
+<item flag="1">Строфантин</item>
+<item flag="1">Дигитоксин</item>
+</question>
+<question id="167" size="5" type="1">
+<text>Кардиотонические средства негликозидной структуры:</text>
+<item flag="0">Дигоксин</item>
+<item flag="1">Добутамин</item>
+<item flag="0">Строфантин</item>
+<item flag="1">Дофамин</item>
+<item flag="0">Дигитоксин</item>
+</question>
+<question id="168" size="4" type="1">
+<text>Сердечные гликозиды:</text>
+<item flag="0">Уменьшают силу и частоту сердечных сокращений</item>
+<item flag="0">Увеличивают силу и частоту сердечных сокращений</item>
+<item flag="1">Увеличивают силу и уменьшают частоту сердечных сокращений</item>
+<item flag="0">Уменьшают силу и увеличивают частоту сердечных сокращений</item>
+</question>
+<question id="169" size="4" type="1">
+<text>Сердечные гликозиды:</text>
+<item flag="1">Ингибируют na+,k+-атф-азу кардиомиоцитов</item>
+<item flag="1">Усиливают влияния блуждающего нерва на сердце</item>
+<item flag="0">Усиливают влияния симпатической иннервации на сердце</item>
+<item flag="0">Повышают чувствительность тропонина с к кальцию</item>
+</question>
+<question id="170" size="3" type="1">
+<text>Под влиянием сердечных гликозидов атриовентрикулярная проводимость в сердце:</text>
+<item flag="1">Замедляется</item>
+<item flag="0">Увеличивается</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="171" size="4" type="1">
+<text>Сердечные гликозиды в клетках миокарда увеличивают концентрацию ионов:</text>
+<item flag="0">Калия</item>
+<item flag="1">Натрия</item>
+<item flag="1">Кальция</item>
+<item flag="0">Магния</item>
+</question>
+<question id="172" size="3" type="1">
+<text>Под влиянием сердечных гликозидов содержание ионов кальция в клетках миокарда:</text>
+<item flag="0">Уменьшается</item>
+<item flag="1">Увеличивается</item>
+<item flag="0">Не изменяется</item>
+</question>
+<question id="173" size="4" type="1">
+<text>Сердечные гликозиды применяются при:</text>
+<item flag="0">Стенокардии</item>
+<item flag="1">Застойной сердечной недостаточности</item>
+<item flag="1">Наджелудочковых тахиаритмиях</item>
+<item flag="0">Брадиаритмиях</item>
+</question>
+<question id="174" size="4" type="1">
+<text>При интоксикации сердечными гликозидами развиваются:</text>
+<item flag="1">Брадикардия</item>
+<item flag="1">Атриовентрикулярный блок</item>
+<item flag="0">Ослабление сократимости миокарда</item>
+<item flag="1">Экстрасистолия</item>
+</question>
+<question id="175" size="3" type="1">
+<text>Токсическое действие сердечных гликозидов на сердце усиливается при:</text>
+<item flag="1">Гипокалиемии</item>
+<item flag="1">Гиперкальциемии</item>
+<item flag="0">При сочетании с препаратами калия и магния</item>
+</question>
+<question id="176" size="5" type="1">
+<text>При тахиаритмиях и экстрасистолиях применяют:</text>
+<item flag="1">Блокаторы натриевых каналов</item>
+<item flag="1">Бета-адреноблокаторы</item>
+<item flag="0">М-холиноблокаторы</item>
+<item flag="1">Блокаторы калиевых каналов</item>
+<item flag="1">Блокаторы кальциевых каналов</item>
+</question>
+<question id="177" size="5" type="1">
+<text>При брадиаритмиях и блокадах проводящей системы сердца применяют:</text>
+<item flag="0">Бета-адреноблокаторы</item>
+<item flag="1">М-холиноблокаторы</item>
+<item flag="0">Блокаторы натриевых каналов</item>
+<item flag="0">Сердечные гликозиды</item>
+<item flag="1">Блокаторы кальциевых каналов</item>
+</question>
+<question id="178" size="4" type="1">
+<text>Противоаритмические средства – блокаторы натриевых каналов подгруппы ia:</text>
+<item flag="1">Новокаинамид</item>
+<item flag="0">Лидокаин</item>
+<item flag="1">Хинидин</item>
+<item flag="0">Пропафенон</item>
+</question>
+<question id="179" size="4" type="1">
+<text>Противоаритмические средства – блокаторы натриевых каналов подгруппы ia:</text>
+<item flag="1">Снижают автоматизм волокон пуркинье</item>
+<item flag="1">Замедляют проводимость в волокнах пуркинье</item>
+<item flag="0">Снижают эффективный рефрактерный период волокон_ пуркинье</item>
+<item flag="1">Снижают сократимость миокарда</item>
+</question>
+<question id="180" size="4" type="1">
+<text>Противоаритмические средства – блокаторы натриевых каналов подгруппы iв:</text>
+<item flag="0">Новокаинамид</item>
+<item flag="1">Лидокаин</item>
+<item flag="0">Хинидин</item>
+<item flag="1">Фенитоин (дифенин)</item>
+</question>
+<question id="181" size="4" type="1">
+<text>Противоаритмические средства – блокаторы натриевых каналов подгруппы iв:</text>
+<item flag="1">Снижают автоматизм волокон пуркинье</item>
+<item flag="0">Снижают сократимость миокарда</item>
+<item flag="1">Мало влияют на прводимость в волокнах пуркинье хинидин</item>
+<item flag="1">Эффективны только при желудочковых аритмиях</item>
+</question>
+<question id="182" size="4" type="1">
+<text>Противоаритмические средства – блокаторы натриевых каналов подгруппы iс:</text>
+<item flag="1">Снижают автоматизм волокон пуркинье</item>
+<item flag="1">Выраженно снижают проводимость в волокнах пуркинье</item>
+<item flag="0">Применяются при наджелудочковых и желудочковых аритмиях</item>
+<item flag="1">Относительно часто оказывают аритмогенное действие</item>
+</question>
+<question id="183" size="4" type="1">
+<text>Бета-адреноблокаторы:</text>
+<item flag="1">Снижают автоматизм волокон пуркинье</item>
+<item flag="1">Снижают автоматизм синусного узла</item>
+<item flag="1">Замедляют атриовентрикулярную проводимость</item>
+<item flag="0">Усиливают сократимость миокарда</item>
+</question>
+<question id="184" size="4" type="1">
+<text>Противоаритмическое средство – блокатор кальциевых каналов:</text>
+<item flag="0">Амиодарон</item>
+<item flag="1">Верапамил</item>
+<item flag="0">Лидокаин</item>
+<item flag="0">Хинидин</item>
+</question>
+<question id="185" size="5" type="1">
+<text>Противоаритмическое средство из групы блокаторов кальциевых каналов:</text>
+<item flag="0">Снижают автоматизм волокон пуркинье</item>
+<item flag="1">Снижают автоматизм синусного узла</item>
+<item flag="1">Снижают автоматизм атриовентрикулярного узла</item>
+<item flag="1">Замедляют атриовентрикулярной проводимости</item>
+<item flag="1">Снижают сократимость миокарда</item>
+</question>
+<question id="186" size="4" type="1">
+<text>Противоаритмическое средство из группы блокаторов калиевых каналов:</text>
+<item flag="0">Лидокаин</item>
+<item flag="1">Амиодарон</item>
+<item flag="0">Хинидин</item>
+<item flag="0">Верапамил</item>
+</question>
+<question id="187" size="4" type="1">
+<text>Противоаритмические средства из группы блокаторов калиевых каналов:</text>
+<item flag="1">Замедляют реполяризацию волокон пуркинье</item>
+<item flag="1">Замедляют атриовентрикулярную проводимость</item>
+<item flag="0">Эффективны только при наджелудочковых тахиаритмиях</item>
+<item flag="1">Эффективны при тахиаритмиях любой локализации</item>
+</question>
+<question id="188" size="5" type="1">
+<text>Противоаритмические средства, эффективные только при наджелудочковых тахиаритмиях:</text>
+<item flag="0">Амиодарон</item>
+<item flag="0">Хинидин</item>
+<item flag="1">Верапамил</item>
+<item flag="0">Лидокаин</item>
+<item flag="1">Дигоксин</item>
+</question>
+<question id="189" size="5" type="1">
+<text>Противоаритмические средства, эффективные при наджелудочковых и желудочковых тахиаритмиях:</text>
+<item flag="1">Амиодарон</item>
+<item flag="0">Дигоксин</item>
+<item flag="0">Лидокаин</item>
+<item flag="1">Хинидин</item>
+<item flag="0">Верапамил</item>
+</question>
+<question id="190" size="5" type="1">
+<text>Противоаритмические средства, применяемые только при желудочковых тахиаритмиях:</text>
+<item flag="0">Амиодарон</item>
+<item flag="1">Лидокаин</item>
+<item flag="1">Пропафенон</item>
+<item flag="0">Хинидин</item>
+<item flag="0">Верапамил</item>
+</question>
+<question id="191" size="4" type="1">
+<text>Антиангинальные средства, снижающие потребность миокарда в кислороде и увеличивающие доставку кислорода к миокарду:</text>
+<item flag="1">Органические нитраты</item>
+<item flag="0">Бета-адреноблокаторы</item>
+<item flag="1">Блокаторы кальциевых каналов</item>
+<item flag="0">Спазмолитики миотропного действия</item>
+</question>
+<question id="192" size="4" type="1">
+<text>Антиангинальные средства, снижающие потребность миокарда в кислороде и увеличивающие доставку кислорода к миокарду:</text>
+<item flag="1">Верапамил</item>
+<item flag="1">Нитроглицерин</item>
+<item flag="0">Дипиридамол</item>
+<item flag="0">Атенолол</item>
+</question>
+<question id="193" size="5" type="1">
+<text>Нитроглицерин:</text>
+<item flag="1">Уменьшает потребность миокарда в кислороде</item>
+<item flag="1">Увеличивает доставку кислорода к миокарду</item>
+<item flag="0">Кардиопротектор</item>
+<item flag="1">Вызывает вазодилатацию</item>
+<item flag="1">Вызывает рефлектрорную тахикардию</item>
+</question>
+<question id="194" size="3" type="1">
+<text>Нитроглицерин уменьшает потребность сердца в кислороде потому, что:</text>
+<item flag="1">Уменьшает преднагрузку на сердце</item>
+<item flag="1">Уменьшает постнагрузку на сердце</item>
+<item flag="0">Уменьшает частоту сердечных сокращений</item>
+</question>
+<question id="195" size="3" type="1">
+<text>Нитроглицерин увеличивает доставку кислорода к миокарду, потому что:</text>
+<item flag="1">Расширяет преимущественно крупные коронарные_ сосуды и коллатерали</item>
+<item flag="0">Мелкие коронарные сосуды</item>
+<item flag="1">Снижает диастолическое напряжение желудочков</item>
+</question>
+<question id="196" size="3" type="1">
+<text>Препараты нитроглицерина применяют для:</text>
+<item flag="0">Купирования боли при инфаркте миокарда</item>
+<item flag="1">Купирования приступов стенокардии</item>
+<item flag="1">Предупреждения приступов стенокардии</item>
+</question>
+<question id="197" size="3" type="1">
+<text>Для купирования приступа стенокардии препараты нитроглицерина (таблетки, капсулы, аэрозоль) применяют:</text>
+<item flag="0">Внутрь</item>
+<item flag="1">Под язык</item>
+<item flag="0">Трансбуккально (за щеку)</item>
+</question>
+<question id="198" size="4" type="1">
+<text>После введения под язык действие нитроглицерина:</text>
+<item flag="1">Начинается через 2-3 минуты</item>
+<item flag="0">Начинается через 30 минут</item>
+<item flag="1">Продолжается до 30 минут</item>
+<item flag="0">Продолжается до 4 часов</item>
+</question>
+<question id="199" size="4" type="1">
+<text>В основном для предупреждения приступов стенокардии применяют следующие органические нитраты:</text>
+<item flag="0">Таблетки нитроглицерина для сублингвального применения</item>
+<item flag="1">Таблетки «сустак»</item>
+<item flag="1">Мазь нитроглицерина</item>
+<item flag="1">Изосорбида динитрат (нитросорбид)</item>
+</question>
+<question id="200" size="3" type="1">
+<text>Изосорбида динитрат (нитросорбид) применяют главным образом для:</text>
+<item flag="1">Предупреждения приступов стенокардии</item>
+<item flag="0">Купирования приступов стенокардии</item>
+<item flag="0">Купирования боли при инфаркте миокарда</item>
+</question>
+<question id="201" size="4" type="1">
+<text>Антиангинальное средства, применяющиеся для купирования приступов стенокардии:</text>
+<item flag="0">Пропранолол (анаприлин)</item>
+<item flag="1">Нитроглицерин</item>
+<item flag="0">Триметазидин</item>
+<item flag="0">Дипиридамол</item>
+</question>
+<question id="202" size="5" type="1">
+<text>Под язык применяют:</text>
+<item flag="0">Таблетки «сустак»</item>
+<item flag="0">Триметазидин</item>
+<item flag="1">Нитроглицерин</item>
+<item flag="0">Дипиридамол</item>
+<item flag="0">Атенолол</item>
+</question>
+<question id="203" size="3" type="1">
+<text>Нитроглицерин вызывает ортостатическую гипотензию, потому что вызывает:</text>
+<item flag="0">Расширение периферических артерий</item>
+<item flag="1">Расширение периферических вен</item>
+<item flag="0">Расширение артерий головного мозга</item>
+</question>
+<question id="204" size="5" type="1">
+<text>Побочные эффекты нитроглицерина:</text>
+<item flag="1">Головная боль</item>
+<item flag="1">Головокружение, обморок</item>
+<item flag="0">Брадикардия</item>
+<item flag="1">Рефлекторная тахикардия</item>
+<item flag="0">Повышение артериального давления</item>
+</question>
+<question id="205" size="4" type="1">
+<text>Для купирования боли при инфаркте миокарда применяют:</text>
+<item flag="1">Опиоидные анальгетики</item>
+<item flag="0">Нитроглицерин</item>
+<item flag="1">Таламонал (фентанил + дроперидол)</item>
+<item flag="1">Азота закись</item>
+</question>
+<question id="206" size="4" type="1">
+<text>Антиангинальное средство из группы кардиопротекторов:</text>
+<item flag="0">Валидол</item>
+<item flag="1">Триметазидин</item>
+<item flag="0">Изосорбида динитрат (нитросорбид)</item>
+<item flag="0">Амлодипин</item>
+</question>
+<question id="207" size="4" type="1">
+<text>Верапамил:</text>
+<item flag="0">Снижает преднагрузку на сердце</item>
+<item flag="1">Снижает силу и частоту сердечных сокращений</item>
+<item flag="1">Снижает потребность миокарда в кислороде</item>
+<item flag="0">Применяется для купирования приступа стенокардии</item>
+</question>
+<question id="208" size="4" type="1">
+<text>Нифедипин и амлодипин:</text>
+<item flag="1">Блокаторы кальциевых каналов</item>
+<item flag="1">Снижают постнагрузку на сердце</item>
+<item flag="1">Улучшают коронарный кровоток</item>
+<item flag="0">Вызывают брадикардию</item>
+</question>
+<question id="209" size="5" type="1">
+<text>Общие свойства верапамила и амлодипина:</text>
+<item flag="1">Блокируют кальциевые каналы</item>
+<item flag="0">Вызывают тахикардию</item>
+<item flag="1">Улучшают коронарный кровоток</item>
+<item flag="1">Применяются при стенокардии</item>
+<item flag="0">Применяются при наджелудочковых тахиаритмиях</item>
+</question>
+<question id="210" size="5" type="1">
+<text>Гипотензивное средство центрального действия:</text>
+<item flag="0">Празозин</item>
+<item flag="1">Клонидин (клофелин)</item>
+<item flag="0">Эналаприл</item>
+<item flag="0">Пропранолол (анаприлин)</item>
+<item flag="0">Резерпин</item>
+</question>
+<question id="211" size="5" type="1">
+<text>Гипотензивные средства, угнетающие активность ренин-ангиотензиновой системы:</text>
+<item flag="0">Нифедипин</item>
+<item flag="1">Эналаприл</item>
+<item flag="1">Лозартан</item>
+<item flag="0">Натрия нитропруссид</item>
+<item flag="0">Верапамил</item>
+</question>
+<question id="212" size="4" type="1">
+<text>Эналаприл:</text>
+<item flag="1">Ингибирует ангиотензинпревращающий фермент</item>
+<item flag="0">Ингибирует ренин</item>
+<item flag="0">Уменьшает секрецию ренина</item>
+<item flag="0">Блокирует ангиотензиновые рецепторы</item>
+</question>
+<question id="213" size="5" type="1">
+<text>Ингибиторы ангиотензинпревращающего фермента:</text>
+<item flag="1">Применяют при артериальной гипертензии</item>
+<item flag="0">Применяют при тахиаритмиях</item>
+<item flag="1">Применяют при застойной сердечной недостаточности</item>
+<item flag="1">Могут вызвать гиперкалиемию</item>
+<item flag="1">Вызывают сухой кашель</item>
+</question>
+<question id="214" size="3" type="1">
+<text>Ингибиторы ангиотензинпревращающего фермента не следует комбинировать с:</text>
+<item flag="1">Калий, магний - сберегающими диуретиками</item>
+<item flag="0">Петлевыми диуретиками</item>
+<item flag="0">Тиазидными диуретиками</item>
+</question>
+<question id="215" size="4" type="1">
+<text>Лозартан:</text>
+<item flag="0">Уменьшает секрецию ренина</item>
+<item flag="0">Ингибирует ангиотензинпревращающий фермент</item>
+<item flag="1">Блокирует ангиотензиновые рецепторы</item>
+<item flag="0">Блокирует бета-адренорецепторы</item>
+</question>
+<question id="216" size="5" type="1">
+<text>Блокаторы ангиотензиновых рецепторов:</text>
+<item flag="1">Применяют при артериальной гипертензии</item>
+<item flag="1">Применяют при застойной сердечной недостаточности</item>
+<item flag="0">Применяют при стенокардии</item>
+<item flag="1">Могут вызвать гиперкалиемию</item>
+<item flag="0">Вызывают сухой кашель</item>
+</question>
+<question id="217" size="4" type="1">
+<text>Гипотензивное средство- блокатор кальциевых каналов:</text>
+<item flag="0">Резерпин</item>
+<item flag="0">Анаприлин</item>
+<item flag="1">Фенигидин</item>
+<item flag="0">Лозартан</item>
+</question>
+<question id="218" size="3" type="1">
+<text>Нифедипин и амлодипин расширяют артериальные сосуды за счет:</text>
+<item flag="0">Блокады ангиотензиновых рецепторов</item>
+<item flag="0">Блокады альфа1-адренорецепторов</item>
+<item flag="1">Блокады кальциевых каналов</item>
+</question>
+<question id="219" size="4" type="1">
+<text>Эффекты нифедипина и амлодипина:</text>
+<item flag="1">Гипотензивный</item>
+<item flag="1">Антиангинальный</item>
+<item flag="0">Противоаритмический</item>
+<item flag="0">Кардиотонический</item>
+</question>
+<question id="220" size="4" type="1">
+<text>Натрия нитропруссид:</text>
+<item flag="0">Блокатор кальциевых каналов</item>
+<item flag="0">Активатор калиевых каналов</item>
+<item flag="0">Блокатор ангиотензиновых рецепторов</item>
+<item flag="1">Донатор окиси азота</item>
+</question>
+<question id="221" size="3" type="1">
+<text>Празозин расширяет сосуды за счет:</text>
+<item flag="0">Блокады ангиотензиновых рецепторов</item>
+<item flag="1">Блокады альфа1-адренорецепторов</item>
+<item flag="0">Блокады кальциевых каналов</item>
+</question>
+<question id="222" size="5" type="1">
+<text>Диуретическое средство – антагонист альдостерона:</text>
+<item flag="0">Гидрохлоротиазид (дихлотиазид)</item>
+<item flag="0">Индапамид</item>
+<item flag="0">Фуросемид</item>
+<item flag="0">Маннит</item>
+<item flag="1">Спиронолактон</item>
+</question>
+<question id="223" size="5" type="1">
+<text>Осмотический диуретик:</text>
+<item flag="0">Гидрохлоротиазид (дихлотиазид)</item>
+<item flag="0">Индапамид</item>
+<item flag="0">Фуросемид</item>
+<item flag="1">Маннит</item>
+<item flag="0">Спиронолактон</item>
+</question>
+<question id="224" size="4" type="1">
+<text>Для фуросемида характерно:</text>
+<item flag="1">Быстрое развитие эффекта</item>
+<item flag="0">Медленное развитие эффекта</item>
+<item flag="1">Высокая эффективность</item>
+<item flag="0">Низкая эффективность</item>
+</question>
+<question id="225" size="4" type="1">
+<text>При внутривенном введении фуросемида:</text>
+<item flag="1">Латентный период действия - з-4 минуты</item>
+<item flag="0">Латентный период действия - около 60 минут</item>
+<item flag="1">Продолжительность действия - 1-2 часа</item>
+<item flag="0">Продолжительность действия - 4-6 часов</item>
+</question>
+<question id="226" size="3" type="1">
+<text>Дихлотиазид:</text>
+<item flag="0">Высокоэффективный диуретик</item>
+<item flag="1">Диуретик средней эффективности</item>
+<item flag="0">Низкоэффективный диуретик</item>
+</question>
+<question id="227" size="4" type="1">
+<text>Диуретик, применяемый при отеке легких:</text>
+<item flag="0">Дихлотиазид</item>
+<item flag="1">Фуросемид</item>
+<item flag="0">Спиронолактон</item>
+<item flag="0">Клопамид</item>
+</question>
+<question id="228" size="4" type="1">
+<text>Диуретики, вызывающие гипокалиемию и гипомагниемию:</text>
+<item flag="1">Дихлотиазид</item>
+<item flag="1">Фуросемид</item>
+<item flag="0">Спиронолактон</item>
+<item flag="0">Триамтерен</item>
+</question>
+<question id="229" size="3" type="1">
+<text>Средства, снижающие секрецию желез желудка:</text>
+<item flag="0">Настойка полыни</item>
+<item flag="1">Омепразол</item>
+<item flag="1">Ранитидин</item>
+</question>
+<question id="230" size="4" type="1">
+<text>Антацидные средства:</text>
+<item flag="0">Омепразол</item>
+<item flag="0">Ранитидин</item>
+<item flag="1">Натрия гидрокарбонат</item>
+<item flag="1">Алюминия гидроокись</item>
+</question>
+<question id="231" size="4" type="1">
+<text>Ингибирует н+,к+-атф-азу (протоновый насос) париетальных клеток желудка:</text>
+<item flag="0">Ранитидин</item>
+<item flag="0">Натрия гидрокарбонат</item>
+<item flag="0">Атропин</item>
+<item flag="1">Омепразол</item>
+</question>
+<question id="232" size="3" type="1">
+<text>Механизм снижения желудочной секреции под влиянием омепразола:</text>
+<item flag="0">Блокирует гистаминовые н2-рецепторы</item>
+<item flag="0">Блокирует м-холинорецепторы</item>
+<item flag="1">Ингибирует н+,к+-атф-азу (протоновый насосос)</item>
+</question>
+<question id="233" size="3" type="1">
+<text>Механизм снижения желудочной секреции под влиянием ранитидина:</text>
+<item flag="1">Блокирует гистаминовые н2-рецепторы</item>
+<item flag="0">Блокирует м-холинорецепторы</item>
+<item flag="0">Ингибирует н+,к+-атф-азу (протоновый насосос)</item>
+</question>
+<question id="234" size="3" type="1">
+<text>Механизм снижения желудочной секреции под влиянием пирензепина:</text>
+<item flag="0">Блокирует гистаминовые н2-рецепторы</item>
+<item flag="1">Блокирует м1-холинорецепторы</item>
+<item flag="0">Ингибирует н+,к+-атф-азу (протоновый насосос)</item>
+</question>
+<question id="235" size="4" type="1">
+<text>Нейтрализуют хлористоводородную кислоту в просвете желудка:</text>
+<item flag="0">Блокаторы гистаминовых н2-рецепторов</item>
+<item flag="1">Антацидные средства</item>
+<item flag="0">Блокаторы м1-холинорецепторов</item>
+<item flag="0">Ингибиторы н+,к+-атф-азы</item>
+</question>
+<question id="236" size="3" type="1">
+<text>Омепразол:</text>
+<item flag="1">Противоязвенное средство</item>
+<item flag="0">Слабительное средство</item>
+<item flag="0">Желчегонное средство</item>
+</question>
+<question id="237" size="3" type="1">
+<text>Показание к применению ранитидина:</text>
+<item flag="0">Запоры</item>
+<item flag="1">Язвенная болезнь желудка и двенадцатиперстной кишки</item>
+<item flag="0">Морская и воздушная болезнь</item>
+</question>
+<question id="238" size="3" type="1">
+<text>Показание к прменению пирензепина:</text>
+<item flag="1">Язвенная болезнь желудка и двенадцатиперстной кишки</item>
+<item flag="0">Кишечная колика</item>
+<item flag="0">Для уменьшения аппетита</item>
+</question>
+<question id="239" size="5" type="1">
+<text>Слабительные средства:</text>
+<item flag="1">Масло касторовое</item>
+<item flag="1">Изафенин</item>
+<item flag="0">Омепразол</item>
+<item flag="0">Ранитидин</item>
+<item flag="1">Препараты ревеня, крушины</item>
+</question>
+<question id="240" size="4" type="1">
+<text>Слабительные средства, действующие преимущественно на толстый кишечник:</text>
+<item flag="0">Масло касторовое</item>
+<item flag="1">Изафенин</item>
+<item flag="1">Препараты ревеня</item>
+<item flag="1">Препараты крушины</item>
+</question>
+<question id="241" size="3" type="1">
+<text>Средства, уменьшающие моторику кишечника, из группы спазмолитиков миотропного действия:</text>
+<item flag="1">Папаверин</item>
+<item flag="0">Атропин</item>
+<item flag="1">Дротаверин (но-шпа)</item>
+</question>
+<question id="242" size="4" type="1">
+<text>По влиянию на систему крови кислота ацетилсалициловая :</text>
+<item flag="0">Антикоагулянт прямого действия</item>
+<item flag="0">Антикоагулянт непрямого действия</item>
+<item flag="1">Антиагрегант</item>
+<item flag="0">Фибринолитическое средство</item>
+</question>
+<question id="243" size="3" type="1">
+<text>Механизм антиагрегантного действия кислоты ацетилсалициловой:</text>
+<item flag="0">Блокирует пуриновые рецепторы тромбоцитов</item>
+<item flag="0">Блокирует гликопротеиновые рецепторы тромбоцитов</item>
+<item flag="1">Ингибирует циклооксигеназу и нарушает синтез тромбоксана</item>
+</question>
+<question id="244" size="3" type="1">
+<text>Антиагрегантное средство, ингибирующее циклооксигеназу и нарушающее синтез тромбоксана:</text>
+<item flag="0">Дипиридамол</item>
+<item flag="1">Кислота ацетилсалициловая</item>
+<item flag="0">Тиклопидин</item>
+</question>
+<question id="245" size="4" type="1">
+<text>Гепарин:</text>
+<item flag="1">Антикоагулянт прямого действия</item>
+<item flag="0">Антикоагулянт непрямого действия</item>
+<item flag="0">Антиагрегант</item>
+<item flag="0">Фибринолитическое средство</item>
+</question>
+<question id="246" size="4" type="1">
+<text>Неодикумарин и варфарин:</text>
+<item flag="0">Антикоагулянты прямого действия</item>
+<item flag="1">Антикоагулянты непрямого действия</item>
+<item flag="0">Антиагреганты</item>
+<item flag="0">Фибринолитические средства</item>
+</question>
+<question id="247" size="4" type="1">
+<text>Ко-фактор антитромбина iii, нарушает переход протромбина в тромбин, ингибирует тромбин:</text>
+<item flag="0">Кислота ацетилсалициловая</item>
+<item flag="1">Гепарин</item>
+<item flag="0">Неодикумарин</item>
+<item flag="0">Стрептокиназа</item>
+</question>
+<question id="248" size="3" type="1">
+<text>Антикоагулянты непрямого действия:</text>
+<item flag="1">Нарушают синтез протромбина в печени</item>
+<item flag="0">Нарушают в крови переход протромбина в тромбин</item>
+<item flag="0">Инактивируют в крови тромбин</item>
+</question>
+<question id="249" size="3" type="1">
+<text>Фибринолитическое средство:</text>
+<item flag="1">Стрептокиназа</item>
+<item flag="0">Гепарин</item>
+<item flag="0">Кислота ацетилсалициловая</item>
+</question>
+<question id="250" size="3" type="1">
+<text>Для растворения свежих тромбов применяют:</text>
+<item flag="0">Антикоагулянты прямого действия</item>
+<item flag="0">Антикоагулянты непрямого действия</item>
+<item flag="1">Фибринолитические средства</item>
+</question>
+<question id="251" size="3" type="1">
+<text>Основной препарат для лечения пернициозной (злокачественной) анемии:</text>
+<item flag="0">Железа закисного сульфат</item>
+<item flag="0">Ферковен</item>
+<item flag="1">Цианокобаламин (витамин в12)</item>
+</question>
+<question id="252" size="5" type="1">
+<text>Препарат гормона задней доли гипофиза:</text>
+<item flag="0">Кортикотропин</item>
+<item flag="0">Лактин</item>
+<item flag="1">Окситоцин</item>
+<item flag="0">Трийотиронин</item>
+<item flag="0">Соматотропин</item>
+</question>
+<question id="253" size="3" type="1">
+<text>Гормональный препарат для стимуляции родовой деятельности:</text>
+<item flag="0">Преднизолон</item>
+<item flag="1">Окситоцин</item>
+<item flag="0">Лактин</item>
+</question>
+<question id="254" size="4" type="1">
+<text>Средство заместительной тепапии при сахарном диабете:</text>
+<item flag="1">Инсулин</item>
+<item flag="0">Акарбоза</item>
+<item flag="0">Глибенкламид</item>
+<item flag="0">Метформин</item>
+</question>
+<question id="255" size="3" type="1">
+<text>Противодиабетическое средство, стимулирующее высвобождение эндогенного инсулина (производное сульфонилмочевины):</text>
+<item flag="0">Инсулин</item>
+<item flag="1">Глибенкламид</item>
+<item flag="0">Акарбоза</item>
+</question>
+<question id="256" size="3" type="1">
+<text>Противодиабетический препарат, понижает уровень глюкозы в крови, действует</text>
+<item flag="0">Глибенкламид</item>
+<item flag="0">Акарбоза</item>
+<item flag="1">Инсулин</item>
+</question>
+<question id="257" size="5" type="1">
+<text>Препараты глюкокортикоидов:</text>
+<item flag="1">Беклометазон</item>
+<item flag="1">Гидрокортизон</item>
+<item flag="0">Дезоксикортикостерон</item>
+<item flag="1">Преднизолон</item>
+<item flag="1">Флуметазон</item>
+</question>
+<question id="258" size="5" type="1">
+<text>Препараты глюкокортикоидов, применяемые только местно:</text>
+<item flag="1">Флуметазон</item>
+<item flag="0">Преднизолон</item>
+<item flag="0">Гидрокортизон</item>
+<item flag="1">Беклометазон</item>
+<item flag="0">Дезоксикортикостерон</item>
+</question>
+<question id="259" size="5" type="1">
+<text>Фармакологические эффекты глюкокортикоидов:</text>
+<item flag="1">Противовоспалительный</item>
+<item flag="0">Иммуностимулирующий</item>
+<item flag="1">Противоаллергический</item>
+<item flag="1">Противошоковый</item>
+<item flag="1">Иммунодепрессивный</item>
+</question>
+<question id="260" size="3" type="1">
+<text>Вызывают атрофию коры надпочечников, остеопороз, снижение иммунитета, изъязвление слизистой жкт:</text>
+<item flag="0">Минералокортикоиды</item>
+<item flag="1">Глюкокортикоиды</item>
+<item flag="0">Анаболические стероиды</item>
+</question>
+<question id="261" size="3" type="1">
+<text>Усиливают синтез белка, стимулируют процессы регенерации, ускоряют кальцификацию костей, увеличивают массу скелетных мышц:</text>
+<item flag="0">Глюкокортикоиды</item>
+<item flag="1">Анаболические стероиды</item>
+<item flag="0">Минералокортикоиды</item>
+</question>
+<question id="262" size="5" type="1">
+<text>Нестероидные противовоспалительные средства:</text>
+<item flag="0">Парацетамол</item>
+<item flag="1">Ибупрофен</item>
+<item flag="1">Диклофенак натрий</item>
+<item flag="0">Флуметазон</item>
+<item flag="1">Кислота ацетилсалициловая</item>
+</question>
+<question id="263" size="4" type="1">
+<text>Эффекты нестероидных противовоспалительных средств:</text>
+<item flag="1">Противовоспалительный</item>
+<item flag="1">Анальгетический</item>
+<item flag="1">Жаропонижающий</item>
+<item flag="0">Противоаллергический</item>
+</question>
+<question id="264" size="3" type="1">
+<text>Механизм противовоспалительного действия нестероидных противовоспалительных средств:</text>
+<item flag="0">Стабилизируют мембраны тучных клеток</item>
+<item flag="1">Ингибируют циклооксигеназу и нарушают синтез простагландинов</item>
+<item flag="0">Прямо подавляют клеточные механизмы воспаления</item>
+</question>
+<question id="265" size="5" type="1">
+<text>Противогистаминные средства:</text>
+<item flag="1">Лоратадин</item>
+<item flag="1">Димедрол</item>
+<item flag="1">Диазолин</item>
+<item flag="0">Ибупрофен</item>
+<item flag="0">Кромолин-натрий</item>
+</question>
+<question id="266" size="5" type="1">
+<text>Бета-лактамные антибиотики:</text>
+<item flag="1">Монобактамы</item>
+<item flag="0">Макролиды</item>
+<item flag="1">Пенициллины</item>
+<item flag="1">Карбапенемы</item>
+<item flag="1">Цефалоспорины</item>
+</question>
+<question id="267" size="4" type="1">
+<text>Бета-лактамные антибиотики нарушают:</text>
+<item flag="1">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="0">Синтез белка на рибосомах</item>
+</question>
+<question id="268" size="4" type="1">
+<text>Аминогликозиды нарушают:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="1">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="1">Синтез белка на рибосомах</item>
+</question>
+<question id="269" size="4" type="1">
+<text>Макролиды нарушают:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="1">Синтез белка на рибосомах</item>
+</question>
+<question id="270" size="4" type="1">
+<text>Гликопептиды нарушают:</text>
+<item flag="1">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="0">Синтез белка на рибосомах</item>
+</question>
+<question id="271" size="4" type="1">
+<text>Полимиксины нарушают:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="1">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="0">Синтез белка на рибосомах</item>
+</question>
+<question id="272" size="4" type="1">
+<text>Макролиды и азалиды нарушают:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="1">Синтез белка на рибосомах</item>
+</question>
+<question id="273" size="4" type="1">
+<text>Тетрациклины нарушают:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="0">Синтез рнк</item>
+<item flag="1">Синтез белка на рибосомах</item>
+</question>
+<question id="274" size="4" type="1">
+<text>Рифампицин нарушает:</text>
+<item flag="0">Синтез клеточной стенки бактерий</item>
+<item flag="0">Проницаемость цитоплазматической мембраны бактерий</item>
+<item flag="1">Синтез рнк</item>
+<item flag="0">Синтез белка на рибосомах</item>
+</question>
+<question id="275" size="4" type="1">
+<text>Антибиотики широкого спектра действия:</text>
+<item flag="0">Биосинтетические пенициллины</item>
+<item flag="1">Тетрациклины</item>
+<item flag="1">Аминогликозиды</item>
+<item flag="0">Полимиксины</item>
+</question>
+<question id="276" size="4" type="1">
+<text>Антибиотики широкого спектра действия:</text>
+<item flag="1">Цефалоспорины</item>
+<item flag="1">Карбапенемы</item>
+<item flag="0">Гликопептиды</item>
+<item flag="0">Биосинтетические пенициллины</item>
+</question>
+<question id="277" size="5" type="1">
+<text>Группа антибиотиков, действующих преимущественно на грамотрицательную флору:</text>
+<item flag="0">Биосинтетические пенициллины</item>
+<item flag="0">Тетрациклины</item>
+<item flag="0">Макролиды</item>
+<item flag="0">Аминогликозиды</item>
+<item flag="1">Полимиксины</item>
+</question>
+<question id="278" size="4" type="1">
+<text>Биосинтетические пенициллины:</text>
+<item flag="1">Бензилпенициллина натриевая соль</item>
+<item flag="0">Оксациллин</item>
+<item flag="0">Ампициллин</item>
+<item flag="1">Бициллин-5</item>
+</question>
+<question id="279" size="3" type="1">
+<text>Бензилпенициллина натриевая соль:</text>
+<item flag="0">Полусинтетический пенициллин</item>
+<item flag="1">Биосинтетический пенициллин</item>
+<item flag="0">Обладает широким спектром действия</item>
+</question>
+<question id="280" size="4" type="1">
+<text>Препараты бензилпенициллина:</text>
+<item flag="1">Не устойчивы в кислой среде</item>
+<item flag="0">Устойчивы в кислой среде</item>
+<item flag="1">Не устойчивы к пенициллиназе (бета-лактамазе грамположительных бактерий)</item>
+<item flag="0">Устойчивы к пенициллиназе</item>
+</question>
+<question id="281" size="3" type="1">
+<text>Длительность действия бензилпенициллина натриевой соли:</text>
+<item flag="0">Около 4 недель</item>
+<item flag="0">12-24 часа</item>
+<item flag="1">3-4 часа</item>
+</question>
+<question id="282" size="3" type="1">
+<text>Длительность действия бензилпенициллина калиевой соли:</text>
+<item flag="0">Около 4 недель</item>
+<item flag="0">12-24 часа</item>
+<item flag="1">3-4 часа</item>
+</question>
+<question id="283" size="3" type="1">
+<text>Длительность действия бициллина-</text>
+<item flag="1">Около 4 недель</item>
+<item flag="0">12-24 часа</item>
+<item flag="0">3-4 часа</item>
+</question>
+<question id="284" size="3" type="1">
+<text>Бензилпенициллина натриевая соль:</text>
+<item flag="1">Действует преимущественно на грамположительную флору</item>
+<item flag="0">Действует преимущественно на грамотрицательную флору</item>
+<item flag="0">Обладает широким спектром действия</item>
+</question>
+<question id="285" size="3" type="1">
+<text>Бициллин-</text>
+<item flag="0">Действует преимущественно на грамотрицательную флору</item>
+<item flag="0">Обладает широким спектром действия</item>
+<item flag="1">Действует преимущественно на грамположительную флору</item>
+</question>
+<question id="286" size="3" type="1">
+<text>Препарат из группы пенициллинов, действует преимущественно на грамположительную флору, не устойчив к пенициллиназе (бета-лактамазе грамположительных бактерий), не устойчив в кислой среде, продолжительность действия</text>
+<item flag="0">Оксациллин</item>
+<item flag="0">Ампициллин</item>
+<item flag="1">Бензилпенициллина натриевая соль</item>
+</question>
+<question id="287" size="4" type="1">
+<text>Препарат из группы пенициллинов, действует преимущественно на грамположительную флору, не устойчив к пенициллиназе (бета-лактамазе грамположительных бактерий), не устойчив в кислой среде, продолжительность действия около</text>
+<item flag="0">Оксациллин</item>
+<item flag="0">Ампициллин</item>
+<item flag="0">Бензилпенициллина натриевая соль</item>
+<item flag="1">Бициллин-5</item>
+</question>
+<question id="288" size="4" type="1">
+<text>Полусинтетические пенициллины широкого спектра действия:</text>
+<item flag="0">Оксацилли</item>
+<item flag="1">Ампициллин</item>
+<item flag="1">Амоксициллин</item>
+<item flag="1">Азлоциллин</item>
+</question>
+<question id="289" size="2" type="1">
+<text>Полусинтетические пенициллины широкого спектра действия:</text>
+<item flag="1">Не устойчивы к пенициллиназе (бета-лактамазе грамположительных бактерий)</item>
+<item flag="0">Устойчивы к пенициллиназе (бета-лактамазе грамположительных бактерий)</item>
+</question>
+<question id="290" size="4" type="1">
+<text>Полусинтетический пенициллин, устойчив к пенициллиназе (бета-лактамазе грамположительных бактерий), устойчив в кислой среде действует преимущественно на грамположительную флору:</text>
+<item flag="1">Оксациллин</item>
+<item flag="0">Ампициллин</item>
+<item flag="0">Бензилпенициллина натриевая соль</item>
+<item flag="0">Бициллин-5</item>
+</question>
+<question id="291" size="4" type="1">
+<text>Оксациллин:</text>
+<item flag="0">Не устойчив к пенициллиназе (бета-лактамаза грамположительных бактерий)</item>
+<item flag="1">Устойчив к пенициллиназе (бета-лактамаза грамположительных бактерий)</item>
+<item flag="0">Не устойчив в кислой среде</item>
+<item flag="1">Устойчив в кислой среде</item>
+</question>
+<question id="292" size="3" type="1">
+<text>Антибиотик группы пенициллинов, устойчивый в кислой среде:</text>
+<item flag="0">Бензилпенициллина натриевая соль</item>
+<item flag="0">Бициллин-5</item>
+<item flag="1">Оксациллин</item>
+</question>
+<question id="293" size="3" type="1">
+<text>Антибиотик группы пенициллинов, устойчивый к действию пенициллиназы (бета-лактамазы грамположительных бактерий)</text>
+<item flag="0">Бензилпенициллина натриевая соль</item>
+<item flag="1">Оксациллин</item>
+<item flag="0">Бициллин-5</item>
+</question>
+<question id="294" size="3" type="1">
+<text>Цефалоспорины:</text>
+<item flag="1">Относятся к бета-лактамным антибиотикам</item>
+<item flag="0">Действуют преимущественно на грамположительную флору</item>
+<item flag="1">Обладают широким спектром действия</item>
+</question>
+<question id="295" size="5" type="1">
+<text>Карбапенемы:</text>
+<item flag="0">Гентамицин</item>
+<item flag="1">Меропенем</item>
+<item flag="0">Эритромицин</item>
+<item flag="0">Полимиксин м</item>
+<item flag="1">Имипенем</item>
+</question>
+<question id="296" size="3" type="1">
+<text>Карбапенемы:</text>
+<item flag="1">Относятся к бета-лактамным антибиотикам</item>
+<item flag="1">Обладают широким спектром действия</item>
+<item flag="0">Действуют преимущественно на грамотрицательную флору</item>
+</question>
+<question id="297" size="3" type="1">
+<text>Ванкомицин:</text>
+<item flag="1">Относится к гликопептидам</item>
+<item flag="1">Действует преимущественно на грамположительную флору</item>
+<item flag="0">Обладает широким спектром действия</item>
+</question>
+<question id="298" size="4" type="1">
+<text>Макролиды:</text>
+<item flag="0">Ванкомицин</item>
+<item flag="1">Эритромицин</item>
+<item flag="1">Кларитромицин</item>
+<item flag="0">Доксициклин</item>
+</question>
+<question id="299" size="4" type="1">
+<text>Эритромицин:</text>
+<item flag="1">Макролид</item>
+<item flag="0">Аминогликозид</item>
+<item flag="0">Полимиксин</item>
+<item flag="0">Цефалоспорин</item>
+</question>
+<question id="300" size="3" type="1">
+<text>Макролиды:</text>
+<item flag="1">Нарушают синтез белка на рибосомах</item>
+<item flag="1">Действуют бактериостатически</item>
+<item flag="0">Нарушают проницаемость цитоплазматической мембраны бактерий</item>
+</question>
+<question id="301" size="5" type="1">
+<text>Антибиотик из группы азалидов:</text>
+<item flag="0">Кларитромицин</item>
+<item flag="0">Ампициллин</item>
+<item flag="0">Ванкомицин</item>
+<item flag="1">Азитромицин</item>
+<item flag="0">Неомицин</item>
+</question>
+<question id="302" size="4" type="1">
+<text>Доксициклин:</text>
+<item flag="0">Полусинтетический пенициллин</item>
+<item flag="0">Макролид</item>
+<item flag="0">Линкозамид</item>
+<item flag="1">Тетрациклин</item>
+</question>
+<question id="303" size="3" type="1">
+<text>Тетрациклины:</text>
+<item flag="1">Обладают широким спектром антимикробного действия</item>
+<item flag="1">Нарушают синтез белка на рибосомах</item>
+<item flag="0">Действуют бактерицидно</item>
+</question>
+<question id="304" size="4" type="1">
+<text>Антибиотики-аминогликозиды:</text>
+<item flag="1">Стрептомицин</item>
+<item flag="1">Гентамицин</item>
+<item flag="0">Ампициллин</item>
+<item flag="1">Амикацин</item>
+</question>
+<question id="305" size="3" type="1">
+<text>Антибиотики-аминогликозиды:</text>
+<item flag="0">Действуют преимущественно на грамположительную флору</item>
+<item flag="1">Обладают широким спектром антимикробного действия</item>
+<item flag="1">Действуют бактерицидно</item>
+</question>
+<question id="306" size="4" type="1">
+<text>Стрептомицин:</text>
+<item flag="1">Антибиотик группы аминогликозидов</item>
+<item flag="0">Антибиотик группы макролидов</item>
+<item flag="1">Обладает широким спектром противомикробного действия</item>
+<item flag="1">Активен в отношении микобактерии туберкулеза</item>
+</question>
+<question id="307" size="4" type="1">
+<text>Гентамицин:</text>
+<item flag="0">Антибиотик группы азалидов</item>
+<item flag="1">Антибиотик группы аминогликозидов</item>
+<item flag="1">Обладает широким спектром противомикробного действия</item>
+<item flag="1">Активен в отношении синегнойной палочки</item>
+</question>
+<question id="308" size="4" type="1">
+<text>Гепатотоксическое действие характерно для:</text>
+<item flag="0">Аминогликозидов</item>
+<item flag="0">Цефалоспоринов</item>
+<item flag="1">Тетрациклинов</item>
+<item flag="0">Биосинтетических пенициллинов</item>
+</question>
+<question id="309" size="5" type="1">
+<text>Угнетение кроветворения характерно для:</text>
+<item flag="0">Аминогликозидов</item>
+<item flag="0">Макролидов</item>
+<item flag="0">Тетрациклинов</item>
+<item flag="0">Пенициллинов</item>
+<item flag="1">Левомицетина</item>
+</question>
+<question id="310" size="4" type="1">
+<text>Нефротоксическое и ототоксическое действие оказывают:</text>
+<item flag="0">Пенициллины</item>
+<item flag="0">Монобактамы</item>
+<item flag="1">Аминогликозиды</item>
+<item flag="0">Тетрациклины</item>
+</question>
+<question id="311" size="4" type="1">
+<text>Антибиотики-аминогликозиды могут оказывать:</text>
+<item flag="0">Гепатотоксическое действие</item>
+<item flag="0">Угнетение кроветворения</item>
+<item flag="1">Нефротоксическое действие</item>
+<item flag="1">Ототоксическое действие</item>
+</question>
+<question id="312" size="3" type="1">
+<text>Тетрациклины могут оказывать:</text>
+<item flag="0">Нефротоксическое действие</item>
+<item flag="0">Ототоксическое действие</item>
+<item flag="1">Гепатотоксическое действие</item>
+</question>
+<question id="313" size="4" type="1">
+<text>Противомикробные средства - производные фторхинолона:</text>
+<item flag="0">Фуразолидон</item>
+<item flag="1">Ципрофлоксацин</item>
+<item flag="1">Моксифлоксацин</item>
+<item flag="0">Нитроксолин</item>
+</question>
+<question id="314" size="5" type="1">
+<text>Ципрофлоксацин:</text>
+<item flag="0">Нарушает синтез белка на рибосомах</item>
+<item flag="1">Широкого спектра действия</item>
+<item flag="1">Нарушает синтез и структуру днк</item>
+<item flag="1">Действует бактерицидно</item>
+<item flag="1">Эффективен в отношении синегнойной палочки, микобактерий туберкулеза</item>
+</question>
+<question id="315" size="5" type="1">
+<text>Моксифлоксацин:</text>
+<item flag="0">Нарушает синтез клеточной стенки бактерий</item>
+<item flag="1">Широкого спектра действия</item>
+<item flag="1">Нарушает синтез и структуру днк</item>
+<item flag="0">Действует бактериостатически</item>
+<item flag="1">Эффективен в отношении хламидий, анаэробов</item>
+</question>
+<question id="316" size="3" type="1">
+<text>Эффект сульфаниламидов становится бактерицидным при комбинации с:</text>
+<item flag="1">Триметопримом</item>
+<item flag="0">Метронидазолом</item>
+<item flag="0">Фуразолидоном</item>
+</question>
+<question id="317" size="3" type="1">
+<text>Сульфаниламиды:</text>
+<item flag="1">Являются антагонистами паараминобензойной кислоты в процессе синтеза фолиевой кислоты</item>
+<item flag="1">Угнетают активность дигидроптероатсинтетазы</item>
+<item flag="0">Угнетают активность дигидрофолатредуктазы</item>
+</question>
+<question id="318" size="3" type="1">
+<text>Сульфаниламиды для резорбтивного действия, хорошо всасывющиеся из желудочно-кишечного тракта:</text>
+<item flag="0">Фталазол</item>
+<item flag="1">Сульфадиметоксин</item>
+<item flag="0">Сульфацил-натрий</item>
+</question>
+<question id="319" size="3" type="1">
+<text>Сульфаниламид для местного применения:</text>
+<item flag="0">Фталазол</item>
+<item flag="0">Сульфадиметоксин</item>
+<item flag="1">Сульфацил-натрий</item>
+</question>
+<question id="320" size="3" type="1">
+<text>Кристаллурия - характерный побочный эффект:</text>
+<item flag="0">Нитроимидазолов</item>
+<item flag="0">Нитрофуранов</item>
+<item flag="1">Сульфаниламидов</item>
+</question>
+<question id="321" size="5" type="1">
+<text>Наиболее эффективные противотуберкулезные средства:</text>
+<item flag="0">Пиразинамид</item>
+<item flag="0">Этамбутол</item>
+<item flag="1">Изониазид</item>
+<item flag="0">Стрептомицин</item>
+<item flag="1">Рифампицин</item>
+</question>
+<question id="322" size="5" type="1">
+<text>Рифампицин:</text>
+<item flag="1">Наиболее эффективное противотуберкулезное средство</item>
+<item flag="1">Нарушает синтез рнк</item>
+<item flag="1">Антибиотик</item>
+<item flag="1">Препарат широкого спектра действия</item>
+<item flag="0">Синтетическое средство</item>
+</question>
+<question id="323" size="5" type="1">
+<text>Изониазид:</text>
+<item flag="1">Наиболее эффективное противотуберкулезное средство</item>
+<item flag="1">Нарушает синтез миколевых кислот</item>
+<item flag="0">Антибиотик</item>
+<item flag="0">Препарат широкого спектра действия</item>
+<item flag="1">Синтетическое средство</item>
+</question>
+<question id="324" size="3" type="1">
+<text>Зидовудин эффективен при:</text>
+<item flag="0">Гриппе</item>
+<item flag="1">Вич-инфекции</item>
+<item flag="0">Герпес-вирусных инфекциях</item>
+</question>
+<question id="325" size="3" type="1">
+<text>Механизм действия зидовудина:</text>
+<item flag="0">Ингибирует белок м2 и препятствует депротеинизации вируса</item>
+<item flag="0">Нарушает синтез днк и размножение вирусного генома</item>
+<item flag="1">Ингибирует обратную транскриптазу</item>
+</question>
+<question id="326" size="3" type="1">
+<text>Ацикловир эффективен при:</text>
+<item flag="0">Гриппе</item>
+<item flag="1">Герпес-вирусных инфекциях</item>
+<item flag="0">Вич-инфекции</item>
+</question>
+<question id="327" size="3" type="1">
+<text>Механизм действия ацикловира:</text>
+<item flag="0">Ингибирует нейраминидазу и препятствует распространению вируса</item>
+<item flag="1">Нарушает синтез днк и размножение вирусного генома</item>
+<item flag="0">Ингибирует обратную транскриптазу</item>
+</question>
+<question id="328" size="4" type="1">
+<text>Амиксин применяют:</text>
+<item flag="1">Для профилактики и лечения гриппа (вирус типа а и</item>
+<item flag="0"/>
+<item flag="0">При вич-инфекции</item>
+<item flag="0">При герпес-вирусных инфекциях</item>
+</question>
+<question id="329" size="3" type="1">
+<text>Флуконазол применяют в основном при:</text>
+<item flag="1">Системных микозах</item>
+<item flag="0">Дерматомикозах</item>
+<item flag="1">Кандидамикозах</item>
+</question>
+<question id="330" size="3" type="1">
+<text>Механизм действие флуконазола:</text>
+<item flag="1">Нарушает синтез эргостерола клеточной мембраны грибов</item>
+<item flag="0">Нарушает синтез белка на рибосомах</item>
+<item flag="0">Нарушает синтез нуклеиновых кислот</item>
+</question>
+<question id="331" size="3" type="1">
+<text>Тербинафин применяют при:</text>
+<item flag="0">Системных микозах</item>
+<item flag="1">Дерматомикозах</item>
+<item flag="0">Поверхностном кандидозе</item>
+</question>
+<question id="332" size="3" type="1">
+<text>Гризеофульвин применяют при:</text>
+<item flag="0">Системных микозах</item>
+<item flag="1">Дерматомикозах</item>
+<item flag="0">Кандидамикозах</item>
+</question>
+</quize>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subjects>
     <properties it="subjects"></properties>
-	<item next="test">Тест</item>
+	<!--<item next="test">Тест</item>-->
     <item next="anatomythemes">Анатомия</item>
     <item next="biothemes">Биология</item>
     <item next="biochimiathemes">Биохимия</item>
     <item next="psychoThemes">Психология и педагогика</item>
-    <!--<item next="">Гистология</item>
-    <item next="">Патологическая анатомия</item>
+    <item next="gistologyThemes">Гистология</item>
+	<item next="farmacologyThemes">Фармакология</item>
+    <!--<item next="">Патологическая анатомия</item>
     <item next="">Патологическая физиология</item>
     <item next="">Психиатрия</item>
     <item next="">Факультетская хирургия</item>

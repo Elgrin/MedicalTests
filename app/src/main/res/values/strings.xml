@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Мед. тесты</string>
+    <string name="app_name">Мед. тесты (ПМГМУ)</string>
     <string name="lessons">Предметы</string>
     <string name="statisctics">Статистика</string>
     <string-array name="menu">
@@ -16,7 +16,7 @@
     <string name="action_delete_all">Удалить все</string>
     <string name="action_delete_chosen">Удалить выбранные</string>
     <string name="action_mail_chosen">Сообщить об ошибке</string>
-    <string name="banner_id">ca-app-pub-4783454866533768/8497938330</string>
+    <string name="banner_id">ca-app-pub-4783454866533768/8434709134</string>
 
     <string name="subjects">subjects</string>
     <string name="subjects_text">Выберите предмет для теста:</string>
@@ -53,8 +53,8 @@
 
     <string name="alert_header">Сообщение:</string>
     <string name="alert_dialogue_again_header">Начать тест заново?</string>
-    <string name="alert_dialogue_save_header">Сохранить тест и выйти в главное меню?</string>
-    <string name="alert_dialogue_bug_report">Перейти к отправке разработчику сообщения об ошибке?</string>
+    <string name="alert_dialogue_save_header">Сохранить тест?</string>
+    <string name="alert_dialogue_bug_report">Отправить разработчику сообщение об ошибке?</string>
 
     <string name="alert_dialogue_delete_all">Удалить все сохранения?</string>
     <string name="alert_dialogue_delete_chosen">Удалить выбранные сохранения?</string>

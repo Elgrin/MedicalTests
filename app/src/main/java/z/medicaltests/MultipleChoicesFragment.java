@@ -183,13 +183,13 @@ public class MultipleChoicesFragment extends Fragment {
             checkBox.setEnabled(false);
 
             if(Checked[i] && Question.getRelations()[i]) {
-                checkBox.setBackgroundColor(Color.GREEN);
+                checkBox.setTextColor(Color.GREEN);
             }
             else {
 
                 if(!Checked[i] && Question.getRelations()[i] ||
                         Checked[i] && !Question.getRelations()[i]) {
-                    checkBox.setBackgroundColor(Color.RED);
+                    checkBox.setTextColor(Color.RED);
                 }
             }
         }
