@@ -1,4 +1,4 @@
-<quize file="biochimia" name="Биохимия" size="516">
+<quize file="biochimia" name="Биохимия" size="517">
 <question id="1" size="5" type="1">
 <text>Фетальный гемоглобин (НвF):</text>
 <item flag="0">Обладает низким сродством к О2</item>
@@ -3670,12 +3670,6 @@
 <item flag="1">Глу </item>
 <item flag="0">Лей </item>
 <item flag="0">Иле</item>
-<item flag="0">окислоты используются в организме для:</item>
-<item flag="1">Синтеза глюкозы </item>
-<item flag="1">Восполнения затрат метаболитов общего пути катаболизма</item>
-<item flag="0">Синтеза биогенных аминов </item>
-<item flag="1">Синтеза кетоновых тел </item>
-<item flag="1">Синтеза аминокислот</item>
 </question>
 <question id="460" size="5" type="1">
 <text>Кетогенными аминокислотами являются:</text>
@@ -4132,5 +4126,13 @@
 <item flag="1">Уменьшение экскреции кальция почками </item>
 <item flag="0">Увеличение секреции кальцитонина </item>
 <item flag="0">Задержку фосфатов почками</item>
+</question>
+<question id="517" size="5" type="1">
+<text>a-Кетокислоты используются в организме для:</text>
+<item flag="1">Синтеза глюкозы </item>
+<item flag="1">Восполнения затрат метаболитов общего пути катаболизма</item>
+<item flag="0">Синтеза биогенных аминов </item>
+<item flag="1">Синтеза кетоновых тел </item>
+<item flag="1">Синтеза аминокислот</item>
 </question>
 </quize>

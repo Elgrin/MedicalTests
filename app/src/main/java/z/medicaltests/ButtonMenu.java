@@ -120,7 +120,6 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        super.onSaveInstanceState(outState);
         outState.putString("file", File);
         outState.putInt("size_int", Size);
         outState.putString("text", Text);

@@ -4,12 +4,15 @@ package z.medicaltests;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -141,6 +144,19 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     ft.replace(R.id.content_frame, fragment, "fragment");
                     //ft.disallowAddToBackStack();
+
+                    try {
+                        FragmentManager fragMan = getFragmentManager();
+                        Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                        if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                            for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                getFragmentManager().popBackStack();
+                            }
+                        }
+                    }
+                    catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                     ft.addToBackStack(null);
                     ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                     ft.commit();
@@ -156,6 +172,11 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
     }
 
     private void toastMessage(String message, final int mode) {
+
+        DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        }
 
         final AlertDialog.Builder ad;
         ad = new AlertDialog.Builder(getActivity());
@@ -213,6 +234,19 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                             FragmentTransaction ft = getFragmentManager().beginTransaction();
                             ft.replace(R.id.content_frame, fragment, "fragment");
                             //ft.disallowAddToBackStack();
+
+                            try {
+                                FragmentManager fragMan = getFragmentManager();
+                                Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                                if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                                    for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                        getFragmentManager().popBackStack();
+                                    }
+                                }
+                            }
+                            catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                             ft.addToBackStack(null);
                             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                             ft.commit();
@@ -362,11 +396,12 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                 ": " + savedBundle[i].getNumber() + " вопрос из "
                         + savedBundle[i].getMaxSize();
                 if(savedBundle[i].getShow()) {
-                    Strokes[i] += "\n" + "Правильные показываются";
+                    Strokes[i] += "\n" + "Правильные показываются. ";
                 }
                 else {
-                    Strokes[i] += "\n" + "Правильные не показываются";
+                    Strokes[i] += "\n" + "Правильные не показываются. ";
                 }
+
                 condition = true;
             }
         }
@@ -382,6 +417,10 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
     public void onStart() {
         super.onStart();
 
+        if(Strokes == null) {
+            Log.v("Strokes", "haha");
+            condition = false;
+        }
         View view = getView();
         if(view!=null) {
 
@@ -621,6 +660,8 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
+
+        super.onSaveInstanceState(savedInstanceState);
 
         savedInstanceState.putStringArray("strokes", Strokes);
         savedInstanceState.putBoolean("condition", condition);

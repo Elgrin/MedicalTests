@@ -248,11 +248,10 @@ public class MultipleChoicesFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (savedInstanceState != null) {
             parentsNumbers = savedInstanceState.getStringArray("parentsNumbers");
-            //Relations = savedInstanceState.getIntArray("relations");
-            Checked = savedInstanceState.getBooleanArray("Checked");
             Relations_ID = savedInstanceState.getIntArray("relations_id");
             Answers_ID = savedInstanceState.getIntArray("answers_id");
-
+            //Relations = savedInstanceState.getIntArray("relations");
+            Checked = savedInstanceState.getBooleanArray("Checked");
             MultipleParcerable question;
             question = savedInstanceState.getParcelable("question");
             Question = question.getTestStruscture();

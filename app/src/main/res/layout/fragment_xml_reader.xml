@@ -18,7 +18,8 @@
             android:textSize="20sp"
             android:textColor="@android:color/black"
             android:id="@+id/text_frag"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:visibility="gone"/>
 
         <ListView
             android:layout_below="@id/text_frag"

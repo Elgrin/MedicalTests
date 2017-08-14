@@ -255,6 +255,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         View[] v = new View[Question.getOptions().length];
 
         for (int i = 0; i < Question.getOptions().length; i++) {
+            Log.v("COUNT", getActivity().getClass().toString());
             checkBoxes[i] = new CheckBox(getActivity());
             v[i] = new View(getActivity());
         }

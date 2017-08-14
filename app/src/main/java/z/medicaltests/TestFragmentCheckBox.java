@@ -4,6 +4,7 @@ package z.medicaltests;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -12,8 +13,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -46,7 +50,7 @@ import static android.content.Context.MODE_APPEND;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TestFragmentCheckBox extends Fragment implements View.OnClickListener {
+public class TestFragmentCheckBox extends Fragment implements View.OnClickListener{
 
     protected int Number;
     protected TestStructure Questions[];
@@ -66,9 +70,15 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
     private static final String TAG = "TestFragmentCheckBox";
     private TestFragmentBarListener barListener;
+    private onBackClickListener backClickListener;
 
 
     private void toastMessage(String message, final int mode) {
+
+        DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        }
 
         AlertDialog.Builder ad;
         ad = new AlertDialog.Builder(getActivity());
@@ -81,6 +91,20 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         ad.setPositiveButton("Да", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int arg1) {
                 if(mode == 0) {
+
+                    try {
+                        FragmentManager fragMan = getFragmentManager();
+                        Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                        if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                            for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                getFragmentManager().popBackStack();
+                            }
+                            Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
+                        }
+                    }
+                    catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                     barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, MistakesIndexesArray,
                             AbsoluteSize);
                 }
@@ -112,6 +136,24 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                             Intent chosenIntent = Intent.createChooser(intent, chooserTitle);
                             startActivity(chosenIntent);*/
                         }
+                        else {
+                            if(mode == 3) {
+                                try {
+                                    FragmentManager fragMan = getFragmentManager();
+                                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                            getFragmentManager().popBackStack();
+                                        }
+                                        Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
+                                    }
+                                }
+                                catch (Exception e) {Log.v("Error", "Error in popstack");}
+                                onClickSave();
+                                backClickListener.onBackClick();
+                            }
+                        }
                     }
                 }
 
@@ -133,6 +175,10 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         public void BarDrawer(String Name, String Path, TestStructure Questions[],boolean Show, int Max, int Mode,
                               int[] MistakesIndexesArray,
                               int AbsoluteSize);
+    }
+
+    interface onBackClickListener {
+        public void onBackClick();
     }
 
     public static boolean getColor() {
@@ -395,10 +441,39 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         final View view = inflater.inflate(R.layout.fragment_test_fragment_check_box, container, false);
 
         Button Next = (Button) view.findViewById(R.id.button_next);
+        Log.v("COUNT", this.getClass().toString());
         Next.setOnClickListener(this);
 
         Button Save = (Button) view.findViewById(R.id.button_save);
         Save.setOnClickListener(this);
+
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+
+        view.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                Log.i("TAG", "keyCode: " + keyCode);
+                if(keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_UP)  {
+                    Log.i("TAG", "onKey Back listener is working!!!");
+                    Log.v("COUNT", Integer.toString(getFragmentManager().getBackStackEntryCount()));
+
+                    DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
+                    if (drawer.isDrawerOpen(GravityCompat.START)) {
+                        drawer.closeDrawer(GravityCompat.START);
+                    }
+                    else {
+                        toastMessage(getResources().
+                                getString(R.string.alert_dialogue_save_out), 3);
+                        Log.v("COUNT", Integer.toString(getFragmentManager().getBackStackEntryCount()));
+                    }
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        });
+
 
         return view;
     }
@@ -511,6 +586,20 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         switch (view.getId()) {
 
             case R.id.button_next: {
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                    Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 if (listener != null) {
                     listener.onButtonCheckBoxCommitListener(Name, Path, Show, Questions,
                             Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray,
@@ -773,6 +862,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         super.onAttach(context);
         this.listener = (TestFragmentCheckBox.TestFragmentCheckBoxListener) context;
         this.barListener = (TestFragmentBarListener) context;
+        this.backClickListener = (onBackClickListener) context;
         //Log.v(TAG, "Activity");
     }
 
@@ -788,10 +878,10 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     public void onDetach() {
         super.onDetach();
         listener = null;
-
         barListener.BarDrawerTrue(false);
         barListener = null;
-
+        backClickListener = null;
+        Log.v("WAWA", "Detach");
     }
 
 
@@ -802,13 +892,14 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         //getFragmentManager().popBackStack();
 
         super.onStop();
+        Log.v("WAWA", "Stop");
     }
 
     @Override
     public void onDestroy() {
         // clear back stack
         super.onDestroy();
-
+        Log.v("WAWA", "Destroy");
         //getFragmentManager().popBackStack();
         /*
         int backStackCount = getFragmentManager().getBackStackEntryCount();

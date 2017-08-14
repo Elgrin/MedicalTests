@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.util.Log;
@@ -20,6 +21,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
@@ -31,7 +33,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         TestSettings.TestSettingsListener,
         TestFragmentCheckBox.TestFragmentCheckBoxListener,
         ResultPage.ResultPageListener,
-        TestFragmentCheckBox.TestFragmentBarListener{
+        TestFragmentCheckBox.TestFragmentBarListener,
+        TestFragmentCheckBox.onBackClickListener {
 
     //Переменные для заполнения выдвижной панели
 
@@ -40,7 +43,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     private DrawerLayout drawerLayout;
     private static final String TAG = "MAIN";
     private boolean MenuFlag = false;
-
     private String[] titles;
     private int currentPosition = 0;
 
@@ -49,6 +51,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         invalidateOptionsMenu();
     }
 
+    @Override
+    public void onBackClick() {
+        getFragmentManager().popBackStack();
+        selectedItem(0);
+    }
     public void BarDrawer(String Name, String Path, TestStructure Questions[],
                           boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize) {
 
@@ -59,6 +66,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
         //ft.disallowAddToBackStack();
+
+        try {
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                    getFragmentManager().popBackStack();
+                }
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
@@ -162,6 +182,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         ///Временно вынесено сюда
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
+
+        try {
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                    getFragmentManager().popBackStack();
+                };
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
@@ -192,7 +225,22 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                     MistakesIndexesArray);
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
+            FragmentManager f = getFragmentManager();
+            f.popBackStack();
             ft.replace(R.id.content_frame, fragment, "fragment");
+
+            try {
+                FragmentManager fragMan = getFragmentManager();
+                Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                    for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                        getFragmentManager().popBackStack();
+                    }
+                }
+            }
+            catch (Exception e) {Log.v("Error", "Error in popstack");}
+
             ft.addToBackStack(null);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
@@ -209,6 +257,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
             //ft.disallowAddToBackStack();
+
+            try {
+                FragmentManager fragMan = getFragmentManager();
+                Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                    for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                        getFragmentManager().popBackStack();
+                    }
+                }
+            }
+            catch (Exception e) {Log.v("Error", "Error in popstack");}
+
             ft.addToBackStack(null);
             ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             ft.commit();
@@ -254,6 +315,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
+
+        try {
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                    getFragmentManager().popBackStack();
+                }
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+
         //ft.disallowAddToBackStack();
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
@@ -273,6 +347,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
+
+        try {
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                    getFragmentManager().popBackStack();
+                };
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
@@ -294,6 +381,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
+
+        try {
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                    getFragmentManager().popBackStack();
+                }
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+
         ft.addToBackStack(null);
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
@@ -311,6 +411,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -332,6 +445,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -354,22 +480,24 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         setContentView(R.layout.activity_main_window);
 
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
 
         //Заполнение панели строковыми знаечниями
         titles = getResources().getStringArray(R.array.menu);
 
         drawerList = (ListView) findViewById(R.id.drawer);
+
         drawerList.setAdapter(new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_activated_1,
                 titles));
 
 
         drawerList.setOnItemClickListener(new DrawerItemClickListener());
+
 
         //При первом запуске выбор первого фрагмента
         if (savedInstanceState == null) {
@@ -400,6 +528,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         drawerLayout.addDrawerListener(drawerToggle);
 
+
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
 
@@ -414,10 +543,17 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                     public void onBackStackChanged() {
                         FragmentManager fragMan = getFragmentManager();
                         Fragment fragment = fragMan.findFragmentByTag("fragment");
-                        if (fragment instanceof XmlReader) {
-                            currentPosition = 0;
+
+                        if (fragment instanceof AboutFragment) {
+                            currentPosition = 3;
                         }
-                        if (fragment instanceof TestFragmentCheckBox) {
+                        else if (fragment instanceof HelpFragment) {
+                            currentPosition = 2;
+                        }
+                        else if (fragment instanceof SavedTests) {
+                            currentPosition = 1;
+                        }
+                        else {
                             currentPosition = 0;
                         }
 
@@ -431,9 +567,23 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         //Блок рекламы
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        final AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                super.onAdLoaded();
+                mAdView.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                super.onAdFailedToLoad(errorCode);
+                mAdView.setVisibility(View.GONE);
+            }
+        });
     }
 
     protected void Alert(String Error) {
@@ -487,20 +637,51 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     @Override
     public void onBackPressed() {
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
 
-        FragmentManager fragMan = getFragmentManager();
-        Fragment fragment = fragMan.findFragmentByTag("fragment");
+            FragmentManager fragMan = getFragmentManager();
+            Fragment fragment = fragMan.findFragmentByTag("fragment");
 
-        Log.v("COUNT", Integer.toString(fragMan.getBackStackEntryCount()));
-
+            Log.v("COUNT", fragment.getClass().toString());
+            Log.v("COUNT", Integer.toString(getFragmentManager().getBackStackEntryCount()));
+            if (fragment.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                Log.v("COUNT", "Haha");
+            }
+        /*
         if (fragment instanceof TestFragmentCheckBox
                 || fragment instanceof Check_Boxes
                 || fragment instanceof ResultPage
-                || fragMan.getBackStackEntryCount() == 1) {
+                //|| fragMan.getBackStackEntryCount() == 1)
+        ) {
             //Alert("z");
+            // super.onBackPressed();
         }
         else {
-            super.onBackPressed();
+            if(fragMan.getBackStackEntryCount() <= 1) {
+                finish();
+            }
+                else
+                    super.onBackPressed();
+        }*/
+
+            //FrameLayout frameLayout = (FrameLayout) findViewById(R.id.content_frame);
+            //frameLayout.removeAllViews();
+
+            if (fragMan.getBackStackEntryCount() <= 1) {
+                if (fragment.getClass().toString().equals("class z.medicaltests.XmlReader")) {
+                    finish();
+                } else {
+                    getFragmentManager().popBackStack();
+                    selectedItem(0);
+                }
+                Log.v("COUNT", "YES");
+            } else {
+                super.onBackPressed();
+                Log.v("COUNT", "No");
+            }
         }
     }
 
@@ -535,7 +716,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     private void selectedItem(int position) {
         currentPosition = position;
-
         switch (position) {
 
             case 1: {
@@ -548,6 +728,18 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -556,11 +748,24 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 break;
             }
             case 2: {
-                //О приложении
+                //Справка
                 //fragment =
                 HelpFragment fragment = new HelpFragment();
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -574,6 +779,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 AboutFragment fragment = new AboutFragment();
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -581,7 +799,6 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 break;
             }
             default: {
-
                 XmlReader fragment;
                 fragment = new XmlReader();
 
@@ -591,6 +808,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 ///Временно вынесено сюда
                 FragmentTransaction ft = getFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
+
+                try {
+                    FragmentManager fragMan = getFragmentManager();
+                    Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                            getFragmentManager().popBackStack();
+                        }
+                    }
+                }
+                catch (Exception e) {Log.v("Error", "Error in popstack");}
+
                 ft.addToBackStack(null);
                 ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 ft.commit();
@@ -609,6 +839,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt("position", currentPosition);
+        Log.v(TAG, "as");
     }
 
 
@@ -620,10 +851,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        /*
+
         if (drawerToggle.onOptionsItemSelected(item)) {
             return true;
-        }*/
+        }
+
         return drawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
