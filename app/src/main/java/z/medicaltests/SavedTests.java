@@ -357,11 +357,16 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                                 ": " + savedBundle[i].getNumber() + " вопрос из "
                                 + savedBundle[i].getMaxSize();
                         if(savedBundle[i].getShow()) {
-                            Strokes[i] += "\n" + "Правильные показываются";
+                            Strokes[i] += "" + ". Правильные показываются";
                         }
                         else {
-                            Strokes[i] += "\n" + "Правильные не показываются";
+                            Strokes[i] += "" + ". Правильные не показываются";
                         }
+
+                        /*
+                        Strokes[i] +="" + "Верно отвечено " + savedBundle[i].getRightAnswers()
+                                + " из " + (savedBundle[i].getNumber() -1) + ".";
+                                */
                         condition = true;
                     }
                 }
@@ -396,11 +401,14 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                 ": " + savedBundle[i].getNumber() + " вопрос из "
                         + savedBundle[i].getMaxSize();
                 if(savedBundle[i].getShow()) {
-                    Strokes[i] += "\n" + "Правильные показываются. ";
+                    Strokes[i] += "" + ". Правильные показываются. ";
                 }
                 else {
-                    Strokes[i] += "\n" + "Правильные не показываются. ";
+                    Strokes[i] += "" + ". Правильные не показываются. ";
                 }
+                /*
+                Strokes[i] +="" + "Верно отвечено " + savedBundle[i].getRightAnswers()
+                        + " из " + (savedBundle[i].getNumber() -1) + ".";*/
 
                 condition = true;
             }
@@ -426,6 +434,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
 
             if(condition) {
+
                 ListView listView = (ListView) view.findViewById(R.id.list_saved);
 
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),

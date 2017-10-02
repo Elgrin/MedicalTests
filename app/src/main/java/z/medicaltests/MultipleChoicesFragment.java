@@ -23,9 +23,6 @@ import android.widget.TextView;
 public class MultipleChoicesFragment extends Fragment {
 
     protected TestStructure Question;
-    private String Parents[];
-    private String Children[];
-    private int Relations[];
     private boolean Checked[];
 
     private int Relations_ID[];
@@ -418,7 +415,6 @@ public class MultipleChoicesFragment extends Fragment {
             if (TestFragmentCheckBox.getColor()) {
                 Paint();
             }
-            TestFragmentCheckBox.SaveMultiple(this);
         }
 
     }

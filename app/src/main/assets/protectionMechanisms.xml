@@ -17,9 +17,9 @@
 </question>
 <question id="3" size="5" type="1">
 <text>ИГНОРИРОВАНИЕ БОЛЕЗНЕННОЙ РЕАЛЬНОСТИ, ОТВЛЕЧЕНИЕ ОТБОЛЕЗНЕННЫХ ИДЕЙ И ЧУВСТ, НАЗЫВАЕТСЯ:</text>
-<item flag="0">отрицание</item>
+<item flag="1">отрицание</item>
 <item flag="0">регрессия</item>
-<item flag="1">интеллектуализация</item>
+<item flag="0">интеллектуализация</item>
 <item flag="0">компенсация</item>
 <item flag="0">сублимация</item>
 </question>
