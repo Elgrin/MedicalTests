@@ -5,8 +5,6 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -125,9 +123,12 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             MistakesIndexesArray = savedInstanceState.getIntArray("MistakesIndexesArray");
             AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
 
+            /*
             ResultFragmentPacerable question;
             question = savedInstanceState.getParcelable("questions");
-            Questions = question.getTestStruscture();
+            Questions = question.getTestStruscture();*/
+
+            Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
         }
 
         final View view = inflater.inflate(R.layout.fragment_result_page, container, false);
@@ -214,11 +215,15 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         outState.putIntArray("MistakesIndexesArray", MistakesIndexesArray);
         outState.putInt("AbsoluteSize", AbsoluteSize);
 
+        /*
         ResultFragmentPacerable question = new ResultFragmentPacerable();
         question.setTestStruscture(Questions);
         outState.putParcelable("questions", question);
+        */
+        outState.putParcelableArray("questions", Questions);
     }
 
+    /*
     public class ResultFragmentPacerable implements Parcelable {
         private TestStructure Questions[];
         private int mData;
@@ -259,5 +264,6 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         }
 
     }
+    */
 
 }

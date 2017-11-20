@@ -6,8 +6,6 @@ import android.app.Fragment;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -211,14 +209,17 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
             Options = savedInstanceState.getStringArray("options");
             Flags = savedInstanceState.getBooleanArray("flags");
 
+            /*
             CheckBoxesParcerable question;
             question = savedInstanceState.getParcelable("question");
             Question = question.getTestStruscture();
 
             CheckBoxesParcerable boxes;
             boxes = savedInstanceState.getParcelable("boxes");
+            */
             //Boxes = boxes.getCheckBoxes();
 
+            Question = savedInstanceState.getParcelable("question");
             Checked = savedInstanceState.getBooleanArray("checked");
             BackGroundColor = savedInstanceState.getIntArray("backgroundcolor");
 
@@ -293,6 +294,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         //TestFragmentCheckBox.Save(this);
     }
 
+    /*
     public class CheckBoxesParcerable implements Parcelable {
         private TestStructure Questions;
         private int mData;
@@ -332,6 +334,7 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         }
 
     }
+    */
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
@@ -341,10 +344,12 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         savedInstanceState.putStringArray("options", Options);
         savedInstanceState.putBooleanArray("flags", Flags);
 
+        /*
         CheckBoxesParcerable question = new CheckBoxesParcerable();
         question.setTestStruscture(Question);
-
         savedInstanceState.putParcelable("question", question);
+*/
+        savedInstanceState.putParcelable("question", Question);
         savedInstanceState.putBooleanArray("checked", Checked);
         savedInstanceState.putIntArray("backgroundcolor", BackGroundColor);
 

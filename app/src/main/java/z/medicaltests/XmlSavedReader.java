@@ -1,6 +1,8 @@
 package z.medicaltests;
 
 import android.content.Context;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.util.Log;
 
 import org.w3c.dom.Document;
@@ -13,7 +15,7 @@ import java.io.InputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-class SavedBundle {
+class SavedBundle implements Parcelable {
     private String Path;
     private int Number;
     private boolean Show;
@@ -25,6 +27,7 @@ class SavedBundle {
     private int[] Mistakes;
     private int AbsoluteSize;
 
+    SavedBundle() {}
     void setPath(String Path) {this.Path = Path;}
     void setNumber(int Number) {this.Number = Number;}
     void setShow(boolean Show) {this.Show = Show;}
@@ -46,6 +49,50 @@ class SavedBundle {
     int[] getMassive() {return Massive;}
     int[] getMistakes() {return Mistakes;}
     int getAbsoluteSize() {return  AbsoluteSize;}
+
+    /**
+     * Implementing Parcelable
+     */
+
+    public int describeContents() {
+        return 0;
+    }
+
+    private SavedBundle(Parcel in) {
+        Path = in.readString();
+        Number = in.readInt();
+        Show = in.readByte() != 0;
+        RightAnswers = in.readInt();
+        maxSize = in.readInt();
+        Name = in.readString();
+        ID = in.readInt();
+        in.readIntArray(Massive);
+        in.readIntArray(Mistakes);
+        AbsoluteSize = in.readInt();
+    }
+
+    public void writeToParcel(Parcel out, int flags) {
+        out.writeString(Path);
+        out.writeInt(Number);
+        out.writeByte((byte) (Show ? 1 : 0));
+        out.writeInt(RightAnswers);
+        out.writeInt(maxSize);
+        out.writeString(Name);
+        out.writeInt(ID);
+        out.writeIntArray(Massive);
+        out.writeIntArray(Mistakes);
+        out.writeInt(AbsoluteSize);
+    }
+
+    public final Parcelable.Creator<SavedBundle> CREATOR = new Parcelable.Creator<SavedBundle>() {
+        public SavedBundle createFromParcel(Parcel in) {
+            return new SavedBundle(in);
+        }
+        public SavedBundle[] newArray(int size) {
+            return new SavedBundle[size];
+        }
+
+    };
 }
 
  class XmlSavedReader {

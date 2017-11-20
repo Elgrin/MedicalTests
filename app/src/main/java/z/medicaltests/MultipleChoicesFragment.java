@@ -4,8 +4,6 @@ package z.medicaltests;
 import android.app.Fragment;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -249,9 +247,12 @@ public class MultipleChoicesFragment extends Fragment {
             Answers_ID = savedInstanceState.getIntArray("answers_id");
             //Relations = savedInstanceState.getIntArray("relations");
             Checked = savedInstanceState.getBooleanArray("Checked");
+
+            /*
             MultipleParcerable question;
             question = savedInstanceState.getParcelable("question");
-            Question = question.getTestStruscture();
+            Question = question.getTestStruscture();*/
+            Question = savedInstanceState.getParcelable("question");
 
         }
     }
@@ -419,7 +420,7 @@ public class MultipleChoicesFragment extends Fragment {
 
     }
 
-
+/*
     public class MultipleParcerable implements Parcelable {
         private TestStructure Questions;
         private int mData;
@@ -459,6 +460,7 @@ public class MultipleChoicesFragment extends Fragment {
         }
 
     }
+    */
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
@@ -471,9 +473,12 @@ public class MultipleChoicesFragment extends Fragment {
         savedInstanceState.putIntArray("answers_id", Answers_ID);
         savedInstanceState.putBooleanArray("Checked", Checked);
 
+        /*
         MultipleParcerable boxes = new MultipleParcerable();
         boxes.setTestStruscture(Question);
         savedInstanceState.putParcelable("question", boxes);
+        */
+        savedInstanceState.putParcelable("question", Question);
     }
 
 }

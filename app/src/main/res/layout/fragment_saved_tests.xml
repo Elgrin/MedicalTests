@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context="z.medicaltests.SavedTests"
-    android:id="@+id/main_saved">
+    android:id="@+id/main_saved"
+    android:padding="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,12 +17,20 @@
                 android:id="@+id/ww"
                 android:textSize="24sp"
                 android:layout_gravity="center"/>
+            <!--
             <ListView
                 android:layout_height="0dp"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/list_saved">
             </ListView>
+            -->
+            <ListView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/list_saved"/>
+
 
             <Button
                 android:layout_width="wrap_content"

@@ -9,8 +9,6 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
@@ -81,6 +79,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
         View view = getView();
         ListView listView = (ListView) view.findViewById(R.id.list_saved);
+
         savedBundle = null;
         Strokes = null;
         listView.setAdapter(null);
@@ -437,8 +436,10 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
                 ListView listView = (ListView) view.findViewById(R.id.list_saved);
 
+
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
-                        android.R.layout.simple_list_item_multiple_choice,
+                        //android.R.layout.simple_list_item_multiple_choice,
+                        R.layout.list_source,
                         Strokes);
 
 
@@ -530,9 +531,12 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
             condition = savedInstanceState.getBoolean("condition");
             isChecked = savedInstanceState.getBooleanArray("isChecked");
 
+            /*
             SavedTests.SavedTestParcerable list;
             list = savedInstanceState.getParcelable("question");
             savedBundle = list.getSavedBundle();
+            */
+            savedBundle = (SavedBundle[]) savedInstanceState.getParcelableArray("question");
         }
     }
 
@@ -627,7 +631,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
     }
 
-
+/*
     public class SavedTestParcerable implements Parcelable {
         private SavedBundle savedBundle[];
         private int mData;
@@ -666,6 +670,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
             return savedBundle;
         }
     }
+    */
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
@@ -676,8 +681,11 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         savedInstanceState.putBoolean("condition", condition);
         savedInstanceState.putBooleanArray("isChecked", isChecked);
 
+        /*
         SavedTests.SavedTestParcerable question = new SavedTests.SavedTestParcerable();
         question.setSavedBundle(savedBundle);
         savedInstanceState.putParcelable("question", question);
+        */
+        savedInstanceState.putParcelableArray("question", savedBundle);
     }
 }

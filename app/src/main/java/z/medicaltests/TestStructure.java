@@ -1,31 +1,33 @@
 package z.medicaltests;
+import android.os.Parcel;
+import android.os.Parcelable;
 
+abstract class TestStructure implements Parcelable {
 
-abstract class TestStructure {
-    private String s[];
-    private boolean f[];
-    private int Type;
-    private boolean R[];
+    TestStructure() {}
 
     public String getText() {
-        return "";
+        return null;
     }
     public int getType() {
-        return Type;
+        return -1;
     }
     public String[] getOptions() {
-        return s;
+        return null;
     }
-    public boolean[] getFlags() {
-        return f;
-    }
-    public String[] getParents(){return s;}
-    public String[] getChildren(){return s;}
-    public boolean[] getRelations(){return R;}
+    public boolean[] getFlags() {return null;}
+    public String[] getParents(){return null;}
+    public String[] getChildren(){return null;}
+    public boolean[] getRelations(){return null;}
     public TestStructure getThis(){return this;}
     public int getID() {
+        return -1;
+    }
+
+    public int describeContents() {
         return 0;
     }
+
 }
 
 class TestCheckBox extends TestStructure {
@@ -35,6 +37,7 @@ class TestCheckBox extends TestStructure {
     private boolean Flags[];
     private int ID;
 
+    TestCheckBox() {}
     public String getText() {
         return Text;
     }
@@ -64,8 +67,32 @@ class TestCheckBox extends TestStructure {
     public void setFlags(boolean Flags[]) {
         this.Flags = Flags;
     }
-    void setID(int ID) {this.ID = ID;
+    void setID(int ID) {this.ID = ID;}
+
+    protected TestCheckBox(Parcel in) {
+        Text = in.readString();
+        Type = in.readInt();
+        in.readStringArray(Options);
+        in.readBooleanArray(Flags);
+        ID = in.readInt();
     }
+    public void writeToParcel(Parcel out, int flags) {
+        out.writeString(Text);
+        out.writeInt(Type);
+        out.writeStringArray(Options);
+        out.writeBooleanArray(Flags);
+        out.writeInt(ID);
+    }
+
+    public final Parcelable.Creator<TestCheckBox> CREATOR = new Parcelable.Creator<TestCheckBox>() {
+        public TestCheckBox createFromParcel(Parcel in) {
+            return new TestCheckBox(in);
+        }
+        public TestCheckBox[] newArray(int size) {
+            return new TestCheckBox[size];
+        }
+
+    };
 }
 
 class MultipleChoices extends TestStructure{
@@ -76,6 +103,7 @@ class MultipleChoices extends TestStructure{
     private boolean Relations[];
     private int ID;
 
+    MultipleChoices() {}
     public String getText() {return Text;}
     public int getType(){return Type;}
     public String[] getParents(){return Parents;}
@@ -92,4 +120,31 @@ class MultipleChoices extends TestStructure{
     void setChildren(String Children[]){this.Children=Children;}
     void setRelations(boolean Relations[]){this.Relations=Relations;}
     void setID(int ID) {this.ID  = ID;}
+
+    protected MultipleChoices(Parcel in) {
+        Text = in.readString();
+        Type = in.readInt();
+        in.readStringArray(Parents);
+        in.readStringArray(Children);
+        in.readBooleanArray(Relations);
+        ID = in.readInt();
+    }
+    public void writeToParcel(Parcel out, int flags) {
+        out.writeString(Text);
+        out.writeInt(Type);
+        out.writeStringArray(Parents);
+        out.writeStringArray(Children);
+        out.writeBooleanArray(Relations);
+        out.writeInt(ID);
+    }
+
+    public final Parcelable.Creator<MultipleChoices> CREATOR = new Parcelable.Creator<MultipleChoices>() {
+        public MultipleChoices createFromParcel(Parcel in) {
+            return new MultipleChoices(in);
+        }
+        public MultipleChoices[] newArray(int size) {
+            return new MultipleChoices[size];
+        }
+
+    };
 }

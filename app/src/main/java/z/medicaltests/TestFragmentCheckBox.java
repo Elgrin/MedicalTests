@@ -11,8 +11,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcel;
-import android.os.Parcelable;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
@@ -186,6 +184,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     }
 
 
+    /*
     public class TestFragmentPacerable implements Parcelable {
         private TestStructure Questions[];
         private int mData;
@@ -224,6 +223,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             return Questions;
         }
     }
+    */
 
     private TestFragmentCheckBox.TestFragmentCheckBoxListener listener;
 
@@ -300,10 +300,12 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             MistakesIndexesArray = savedInstanceState.getIntArray("mistakesIndexesArray");
             AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
 
+            /*
             TestFragmentPacerable question;
-            question = savedInstanceState.getParcelable("questions");
+            question = savedInstanceState.getParcelable("question");
             Questions = question.getTestStruscture();
-
+            */
+            Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
             /*
             TestFragmentPacerable fragment_box;
             fragment_box = savedInstanceState.getParcelable("fragment");
@@ -860,9 +862,12 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         savedInstanceState.putInt("AbsoluteSize", AbsoluteSize);
 
 
+        /*
         TestFragmentPacerable question = new TestFragmentPacerable();
         question.setTestStruscture(Questions);
         savedInstanceState.putParcelable("questions", question);
+        */
+        savedInstanceState.putParcelableArray("questions", Questions);
 
 
         /*
