@@ -372,7 +372,8 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                 catch (Exception e) {condition = false;}
 
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
-                        android.R.layout.simple_list_item_multiple_choice,
+                        //android.R.layout.simple_list_item_multiple_choice,
+                        R.layout.list_source,
                         Strokes);
 
                 listView.setAdapter(adapter);

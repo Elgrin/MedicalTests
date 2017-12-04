@@ -24,6 +24,7 @@ import android.widget.ListView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.Random;
 
@@ -38,16 +39,19 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     //Переменные для заполнения выдвижной панели
 
+
+    private FirebaseAnalytics mFirebaseAnalytics;
+
     private ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
     private DrawerLayout drawerLayout;
     private static final String TAG = "MAIN";
-    private boolean MenuFlag = false;
+    //private boolean MenuFlag = false;
     private String[] titles;
     private int currentPosition = 0;
 
     public void BarDrawerTrue(boolean MenuFlag) {
-        this.MenuFlag = MenuFlag;
+        //this.MenuFlag = MenuFlag;
         invalidateOptionsMenu();
     }
 
@@ -479,7 +483,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
         setContentView(R.layout.activity_main_window);
 
 
