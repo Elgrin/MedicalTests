@@ -1,0 +1,235 @@
+<quize file="abort5" name="Физиологическое акушерство" size="30">
+<question id="1" size="5" type="1">
+<text>Связь материнского организма и плода осуществляется, в основном, через</text>
+<item flag="1">плаценту</item>
+<item flag="0">барорецепторы стенки матки</item>
+<item flag="0">водные оболочки плода</item>
+<item flag="0">децидуальную оболочку матки</item>
+<item flag="0">все перечисленное</item>
+</question>
+<question id="2" size="5" type="1">
+<text>Становление фетоплацентарной системы, как правило, заканчивается</text>
+<item flag="1">к 16-й неделе беременности</item>
+<item flag="0">к 20-й неделе беременности</item>
+<item flag="0">к 24-й неделе беременности</item>
+<item flag="0">к 28-й неделе беременности</item>
+<item flag="0">к 32-й неделе беременности</item>
+</question>
+<question id="3" size="4" type="1">
+<text>Ранняя функция цитотрофобласта, в основном, состоит</text>
+<item flag="1">в гистиотрофном питании зародыша</item>
+<item flag="0">в продукции гормонов ХГ (хорионического гонадотропина) и ПЛ (плацентарного лактогена)</item>
+<item flag="0">в продукции экстрогенов и прогестерона</item>
+<item flag="0">во всем перечисленном</item>
+</question>
+<question id="4" size="5" type="1">
+<text>Первичные ворсинки хориона образуются чаще всего</text>
+<item flag="0">на 1-й неделе беременности</item>
+<item flag="1">на 2-й неделе беременности</item>
+<item flag="0">на 3-й неделе беременности</item>
+<item flag="0">на 4-й неделе беременности</item>
+<item flag="0">на 5-й неделе беременности</item>
+</question>
+<question id="5" size="5" type="1">
+<text>Вторичные ворсинки хориона, как правило, образуются</text>
+<item flag="0">на 1-й неделе беременности</item>
+<item flag="1">на 2-й неделе беременности</item>
+<item flag="0">на 3-й неделе беременности</item>
+<item flag="0">на 4-й неделе беременности</item>
+<item flag="0">на 5-й неделе беременности</item>
+</question>
+<question id="6" size="5" type="1">
+<text>Третичные ворсинки хориона, как правило, образуются</text>
+<item flag="0">на 1-й неделе беременности</item>
+<item flag="0">на 2-й неделе беременности</item>
+<item flag="1">на 3-й неделе беременности</item>
+<item flag="0">на 4-й неделе беременности</item>
+<item flag="0">на 5-й неделе беременности</item>
+</question>
+<question id="7" size="4" type="1">
+<text>При нарушении маточно-плацентарного кровотока в первом триместре беременности, как правило, развивается</text>
+<item flag="1">первичная плацентарная недостаточность</item>
+<item flag="0">ранний токсикоз беременных</item>
+<item flag="0">гипертония беременных</item>
+<item flag="0">все перечисленное</item>
+</question>
+<question id="8" size="5" type="1">
+<text>Основными функциями плаценты являются</text>
+<item flag="0">дыхательная</item>
+<item flag="0">питательная</item>
+<item flag="0">выделительная</item>
+<item flag="0">гормональная</item>
+<item flag="1">все перечисленные</item>
+</question>
+<question id="9" size="5" type="1">
+<text>Окончательно доказано, что зрелая плацента продуцирует следующие гормоны</text>
+<item flag="0">адренокортикостероидные (АКТР)</item>
+<item flag="0">тиреотропные (ТТГ)</item>
+<item flag="0">адренотропные</item>
+<item flag="0">все перечисленные</item>
+<item flag="1">никакие из перечисленных</item>
+</question>
+<question id="10" size="5" type="1">
+<text>Эмбриопатией называются заболевания</text>
+<item flag="1">возникшее на стадии развития эмбриона, до завершения эмбриогенеза</item>
+<item flag="0">возникшие в первом триместре беременности</item>
+<item flag="0">внутриутробные пороки развития плода</item>
+<item flag="0">все перечисленные</item>
+<item flag="0">никакие из перечисленных</item>
+</question>
+<question id="11" size="5" type="1">
+<text>Следующая после имплантации стадия дифференцировки трофобласта - это образование</text>
+<item flag="1">первичных ворсин хориона</item>
+<item flag="0">морулы</item>
+<item flag="0">бластоцисты</item>
+<item flag="0">всего перечисленного</item>
+<item flag="0">ничего из перечисленного</item>
+</question>
+<question id="12" size="5" type="1">
+<text>Обмен газами (О2 и СО2) между матерью и плодом осуществляется путем</text>
+<item flag="1">простой диффузии</item>
+<item flag="0">фагоцитоза</item>
+<item flag="0">избирательной абсорбции</item>
+<item flag="0">пиноцитоза</item>
+<item flag="0">всего перечисленного</item>
+</question>
+<question id="13" size="5" type="1">
+<text>Первый триместр беременности называется периодом а) органогенеза, б) плацентации, в) плодовым</text>
+<item flag="0">правильно а)</item>
+<item flag="0">правильно б)</item>
+<item flag="0">правильно в)</item>
+<item flag="1">правильно а) и б)</item>
+<item flag="0">правильно б) и в)</item>
+</question>
+<question id="14" size="5" type="1">
+<text>Эмбриогенез заканчивается</text>
+<item flag="0">на 4-й неделе развития плода</item>
+<item flag="0">на 6-й неделе развития плода</item>
+<item flag="1">на 8-й неделе развития плода</item>
+<item flag="0">на 10-й неделе развития плода</item>
+<item flag="0">на 12-й неделе развития плода</item>
+</question>
+<question id="15" size="5" type="1">
+<text>Плацентация начинается</text>
+<item flag="0">с 3-й недели развития зародыша</item>
+<item flag="0">когда сосуды врастают в ворсинки хориона</item>
+<item flag="0">когда вторичные ворсинки превращаются в третичные</item>
+<item flag="1">верно все перечисленное</item>
+<item flag="0">неверно все перечисленное</item>
+</question>
+<question id="16" size="5" type="1">
+<text>При беременности водный обмен осуществляется между</text>
+<item flag="0">плодом и околоплодными водами</item>
+<item flag="0">матерью и плодом</item>
+<item flag="0">матерью и амниотической жидкостью</item>
+<item flag="1">всем перечисленным</item>
+<item flag="0">ничем из перечисленного</item>
+</question>
+<question id="17" size="5" type="1">
+<text>Большая часть материнской артериальной крови проникает в межворсинчатое пространство через</text>
+<item flag="0">плацентарные перегородки</item>
+<item flag="1">спиральные артерии</item>
+<item flag="0">магистральные сосуды матки</item>
+<item flag="0">все перечисленное</item>
+<item flag="0">ничего из перечисленного</item>
+</question>
+<question id="18" size="4" type="1">
+<text>В системе органов дыхания у беременной женщины наблюдается</text>
+<item flag="0">гипервентиляция</item>
+<item flag="0">снижение парциального давления СО2 крови</item>
+<item flag="0">снижение артерио-венозной разницы в содержании О2 и СО2</item>
+<item flag="1">все перечисленное</item>
+</question>
+<question id="19" size="5" type="1">
+<text>При нормальной беременности наблюдаются следующие изменения гемодинамики</text>
+<item flag="0">возрастает объем циркулирующей крови (ОЦК) на 40-50%</item>
+<item flag="0">увеличивается объем циркулирующих эритроцитов (ОЦЭ) на 30-40%</item>
+<item flag="0">отмечается гидремия</item>
+<item flag="1">все перечисленные</item>
+<item flag="0">ничего из перечисленного</item>
+</question>
+<question id="20" size="5" type="1">
+<text>Во время нормальной беременности наблюдаются следующие изменения в углеводном обмене</text>
+<item flag="0">тенденция к глюкозурии</item>
+<item flag="0">усиление клубочковой фильтрации сахара</item>
+<item flag="0">снижение чувствительности к инсулину</item>
+<item flag="1">все перечисленные</item>
+<item flag="0">ничего из перечисленного</item>
+</question>
+<question id="21" size="5" type="1">
+<text>Во время нормальной беременности происходят следующие изменения в липидном обмене</text>
+<item flag="1">нарастает содержание липидов в плазме крови</item>
+<item flag="0">снижается уровень неэфирных жирных кислот</item>
+<item flag="0">снижается содержание липидов в эритроцитах</item>
+<item flag="0">все перечисленные</item>
+<item flag="0">ничего из перечисленного</item>
+</question>
+<question id="22" size="4" type="1">
+<text>Длина плода в 9 см соответствует сроку беременности</text>
+<item flag="1">3 мес</item>
+<item flag="0">4 мес</item>
+<item flag="0">5 мес</item>
+<item flag="0">6 мес</item>
+</question>
+<question id="23" size="5" type="1">
+<text>Длина плода 16 см соответствует сроку беременности</text>
+<item flag="0">3 мес</item>
+<item flag="1">4 мес</item>
+<item flag="0">5 мес</item>
+<item flag="0">6 мес</item>
+<item flag="0">7 мес</item>
+</question>
+<question id="24" size="5" type="1">
+<text>Длина плода 25 см соответствует сроку беременности</text>
+<item flag="0">3 мес</item>
+<item flag="0">4 мес</item>
+<item flag="1">5 мес</item>
+<item flag="0">6 мес</item>
+<item flag="0">7 мес</item>
+</question>
+<question id="25" size="4" type="1">
+<text>Длина плода, начиная с 24 недель, высчитывается путем умножения числа месяцев</text>
+<item flag="1">на 5</item>
+<item flag="0">на 4</item>
+<item flag="0">на 3</item>
+<item flag="0">на 2</item>
+</question>
+<question id="26" size="4" type="1">
+<text>В 24 недели гестационного возраста длина плода равна</text>
+<item flag="1">30 см</item>
+<item flag="0">24 см</item>
+<item flag="0">18 см</item>
+<item flag="0">12 см</item>
+</question>
+<question id="27" size="4" type="1">
+<text>В 28 недель гестационного возраста длина плода равна</text>
+<item flag="1">35 см</item>
+<item flag="0">30 см</item>
+<item flag="0">24 см</item>
+<item flag="0">18 см</item>
+</question>
+<question id="28" size="5" type="1">
+<text>В 32 недели гестационного возраста длина плода равна</text>
+<item flag="0">45 см</item>
+<item flag="0">43 см</item>
+<item flag="1">40 см</item>
+<item flag="0">35 см</item>
+<item flag="0">30 см</item>
+</question>
+<question id="29" size="5" type="1">
+<text>В 36 недель гестационного возраста длина плода равна</text>
+<item flag="0">48 см</item>
+<item flag="1">45 см</item>
+<item flag="0">43 см</item>
+<item flag="0">40 см</item>
+<item flag="0">35 см</item>
+</question>
+<question id="30" size="5" type="1">
+<text>В 40 недель беременности в среднем длина плода, как правило, составляет</text>
+<item flag="0">55 см</item>
+<item flag="0">53 см</item>
+<item flag="1">50 см</item>
+<item flag="0">45 см</item>
+<item flag="0">40 см</item>
+</question>
+</quize>

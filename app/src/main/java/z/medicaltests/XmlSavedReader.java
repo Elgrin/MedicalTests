@@ -66,8 +66,10 @@ class SavedBundle implements Parcelable {
         maxSize = in.readInt();
         Name = in.readString();
         ID = in.readInt();
-        in.readIntArray(Massive);
-        in.readIntArray(Mistakes);
+        Massive = in.createIntArray();
+        Mistakes = in.createIntArray();
+        //in.readIntArray(Massive);
+        //in.readIntArray(Mistakes);
         AbsoluteSize = in.readInt();
     }
 
@@ -84,7 +86,7 @@ class SavedBundle implements Parcelable {
         out.writeInt(AbsoluteSize);
     }
 
-    public final Parcelable.Creator<SavedBundle> CREATOR = new Parcelable.Creator<SavedBundle>() {
+    public static final Parcelable.Creator<SavedBundle> CREATOR = new Parcelable.Creator<SavedBundle>() {
         public SavedBundle createFromParcel(Parcel in) {
             return new SavedBundle(in);
         }

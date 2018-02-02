@@ -9,6 +9,7 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
@@ -537,7 +538,14 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
             list = savedInstanceState.getParcelable("question");
             savedBundle = list.getSavedBundle();
             */
-            savedBundle = (SavedBundle[]) savedInstanceState.getParcelableArray("question");
+            //savedBundle = (SavedBundle[]) savedInstanceState.getParcelableArray("question");
+
+            Parcelable[] allParcelables = savedInstanceState.getParcelableArray("question");
+            savedBundle = new SavedBundle[allParcelables.length];
+
+            for (int i = 0 ; i < allParcelables.length; i++) {
+                savedBundle[i] = (SavedBundle)allParcelables[i];
+            }
         }
     }
 

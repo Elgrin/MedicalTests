@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "139382424465",
+    "firebase_url": "https://admob-app-id-7021205136.firebaseio.com",
+    "project_id": "admob-app-id-7021205136",
+    "storage_bucket": "admob-app-id-7021205136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139382424465:android:6f84a203e5a7767d",
+        "android_client_info": {
+          "package_name": "z.medicaltests"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139382424465-0j9vm6f5t9t57rf433d62m6r2ukh4dip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXqRfE2VH8LLhUp5KeH_qF2sYYW-AHsVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

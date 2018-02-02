@@ -1,0 +1,1201 @@
+<quize file="h11" name="Хирургическая патология печени" size="150">
+<question id="1" size="5" type="1">
+<text>Число сегментов печени:</text>
+<item flag="0">4</item>
+<item flag="0">5</item>
+<item flag="0">6</item>
+<item flag="0">7</item>
+<item flag="1">8</item>
+</question>
+<question id="2" size="5" type="1">
+<text>Печень покрывает капсула:</text>
+<item flag="0">Пирогова</item>
+<item flag="1">Глиссона</item>
+<item flag="0">Гиппократа</item>
+<item flag="0">Цельса</item>
+<item flag="0">Гарвея</item>
+</question>
+<question id="3" size="5" type="1">
+<text>Оптимальный способ диагностики абсцессов печени:</text>
+<item flag="1">КТ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">радиоизотопное исследование</item>
+<item flag="0">целиакография</item>
+</question>
+<question id="4" size="5" type="1">
+<text>Пути проникновения микрофлоры, вызывающей абсцедирование, в ткань печени (один ответ лишний):</text>
+<item flag="0">билиарный</item>
+<item flag="1">лимфогенный</item>
+<item flag="0">венозный</item>
+<item flag="0">артериальный</item>
+<item flag="0">контактный</item>
+</question>
+<question id="5" size="5" type="1">
+<text>Наиболее часто встречающиеся доброкачественные опухоли печени:</text>
+<item flag="1">гемангиомы</item>
+<item flag="0">фибромы</item>
+<item flag="0">гепатомы</item>
+<item flag="0">гамартомы</item>
+<item flag="0">холангиогепатомы</item>
+</question>
+<question id="6" size="5" type="1">
+<text>Наиболее частое осложнение гемангиом печени:</text>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">механическая желтуха</item>
+<item flag="1">внутрибрюшное кровотечение</item>
+<item flag="0">перитонит</item>
+</question>
+<question id="7" size="5" type="1">
+<text>В дифференциальной диагностике метастатического и первичного рака печени наибольшее значение имеют:</text>
+<item flag="1">данные биопсии опухоли</item>
+<item flag="0">данные УЗИ печени</item>
+<item flag="0">данные КТ печени</item>
+<item flag="0">данные ЯМРТ печени</item>
+<item flag="0">данные ангиографии печени</item>
+</question>
+<question id="8" size="5" type="1">
+<text>Заболеваемость раком печени в России:</text>
+<item flag="0">1 на 100000 населения</item>
+<item flag="1">5 на 100000 населения</item>
+<item flag="0">10 на 100000 населения</item>
+<item flag="0">15 на 100000 населения</item>
+<item flag="0">20 на 100000 населения</item>
+</question>
+<question id="9" size="5" type="1">
+<text>Виды резекции печени при опухолях (один ответ лишний):</text>
+<item flag="0">краевая  резекция</item>
+<item flag="0">сегментарная резекция</item>
+<item flag="0">лобэктомия</item>
+<item flag="0">гемигепатэктомия</item>
+<item flag="1">субтотальная резекция</item>
+</question>
+<question id="10" size="5" type="1">
+<text>К истинным кистам печени относятся (один ответ лишний):</text>
+<item flag="0">++ посттравматические кисты</item>
+<item flag="0">поликистоз печени</item>
+<item flag="0">дермоидные кисты</item>
+<item flag="0">ретенционные кисты</item>
+<item flag="0">цистаденомы</item>
+</question>
+<question id="11" size="5" type="1">
+<text>Масса печени, регенерирующая после обширных резекций:</text>
+<item flag="0">5-10%</item>
+<item flag="0">15-25%</item>
+<item flag="1">60-75%</item>
+<item flag="0">30-40%</item>
+<item flag="0">45-55%</item>
+</question>
+<question id="12" size="5" type="1">
+<text>Наименее информативный инструментальный метод обследования печени:</text>
+<item flag="0">УЗИ</item>
+<item flag="0">КТ</item>
+<item flag="0">ЯМРТ</item>
+<item flag="0">ангиография</item>
+<item flag="1">лапароскопия</item>
+</question>
+<question id="13" size="5" type="1">
+<text>Методы хирургического лечения абсцесса печени (один ответ лишний):</text>
+<item flag="0">иссечение абсцесса</item>
+<item flag="0">чрезкожное наружное дренирование под контролем УЗИ</item>
+<item flag="0">++ лапаротомия, дренирование абсцесса</item>
+<item flag="0">торакотомия, дренирование абсцесса</item>
+<item flag="0">резекция печени с унесением абсцесса</item>
+</question>
+<question id="14" size="5" type="1">
+<text>В диагностике паразитарных абсцессов печени ведущее значение имеет:</text>
+<item flag="1">серологическое исследование крови</item>
+<item flag="0">УЗИ</item>
+<item flag="0">КТ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+</question>
+<question id="15" size="5" type="1">
+<text>Показания к оперативному лечению гемангиом печени (один ответ лишний):</text>
+<item flag="1">печеночная недостаточность</item>
+<item flag="0">большие размеры</item>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">внутрибрюшное кровотечение</item>
+</question>
+<question id="16" size="5" type="1">
+<text>Оптимальный способ лечения гемангиомы печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="0">лапароскопическая фенестрация</item>
+<item flag="0">++ резекция печени</item>
+</question>
+<question id="17" size="5" type="1">
+<text>Регионы, где рак печени имеет наибольшее распространение:</text>
+<item flag="0">Австралия</item>
+<item flag="0">Европа</item>
+<item flag="0">Северная Америка</item>
+<item flag="0">Южная Америка</item>
+<item flag="1">Африка, Юго-восточная Азия</item>
+</question>
+<question id="18" size="5" type="1">
+<text>Имплантационные метастазы рака печени (один ответ лишний):</text>
+<item flag="1">в легкие</item>
+<item flag="0">в стенку тонкой кишки</item>
+<item flag="0">в стенку ободочной кишки</item>
+<item flag="0">в стенку желудка</item>
+<item flag="0">в париетальную брюшину</item>
+</question>
+<question id="19" size="5" type="1">
+<text>Формы портальной гипертензии (один ответ лишний):</text>
+<item flag="0">предпеченочная</item>
+<item flag="1">субпеченочная</item>
+<item flag="0">внутрипеченочная</item>
+<item flag="0">надпеченочная</item>
+<item flag="0">смешанная</item>
+</question>
+<question id="20" size="5" type="1">
+<text>Внутрипеченочная форма портальной гипертензии наиболее часто обусловлена:</text>
+<item flag="1">циррозом печени</item>
+<item flag="0">синдромом Бадда-Киари</item>
+<item flag="0">трансформацией и атрезией воротной вены</item>
+<item flag="0">тромбозом  воротной вены</item>
+<item flag="0">сдавлением воротной вены</item>
+</question>
+<question id="21" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по билиарному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="1">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">язвенный колит</item>
+<item flag="0">пенетрирующая язва 12-п. кишки</item>
+</question>
+<question id="22" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по венозному пути:</text>
+<item flag="1">деструктивный аппендицит</item>
+<item flag="0">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">гепатит</item>
+<item flag="0">пенетрирующая язва 12-п. кишки</item>
+</question>
+<question id="23" size="5" type="1">
+<text>Клиничесая картина ранней стадии эхинококкоза печени:</text>
+<item flag="0">боль в правом подреберье</item>
+<item flag="0">чувство тяжести в правом подреберье</item>
+<item flag="0">увеличение печени</item>
+<item flag="1">бессимптомное течение</item>
+<item flag="0">гипертермия</item>
+</question>
+<question id="24" size="5" type="1">
+<text>Наиболее достоверный лабораторный тест на эхинококкоз:</text>
+<item flag="0">реакция агглютинации с латексом</item>
+<item flag="0">++ иммуноферментный анализ</item>
+<item flag="0">реакция Каццони</item>
+<item flag="0">реакция преципитации</item>
+<item flag="0">проба Бойдена</item>
+</question>
+<question id="25" size="5" type="1">
+<text>Предраковые заболевания печени (один ответ лишний):</text>
+<item flag="0">гепатит С</item>
+<item flag="1">абсцесс печени</item>
+<item flag="0">гепатит В</item>
+<item flag="0">цирроз печени</item>
+<item flag="0">описторхоз</item>
+</question>
+<question id="26" size="5" type="1">
+<text>Осложнения рака печени (один ответ лишний):</text>
+<item flag="1">менингит</item>
+<item flag="0">разрыв опухолевого узла с кровотечением в брюшную полость</item>
+<item flag="0">распад опухоли с ее инфицированием</item>
+<item flag="0">асцит</item>
+<item flag="0">гнойный холангит</item>
+</question>
+<question id="27" size="5" type="1">
+<text>Гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в надпочечники</item>
+<item flag="0">в легкие</item>
+<item flag="0">в почки</item>
+<item flag="1">в гепатодуоденальную связку</item>
+<item flag="0">в кости</item>
+</question>
+<question id="28" size="5" type="1">
+<text>Лимфогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">парааортальные</item>
+<item flag="0">панкреатодуоденальные</item>
+<item flag="0">гепатодуоденальной связки</item>
+<item flag="0">медиастинальные</item>
+<item flag="1">церебральные</item>
+</question>
+<question id="29" size="5" type="1">
+<text>Признаки портальной гипертензии (один ответ лишний):</text>
+<item flag="0">спленомегалия</item>
+<item flag="0">расширение вен пищевода и кардии желудка</item>
+<item flag="0">расширение вен передней брюшной стенки в виде "головы медузы"</item>
+<item flag="0">асцит</item>
+<item flag="1">дилатация холедоха</item>
+</question>
+<question id="30" size="5" type="1">
+<text>Осложнения цирроза печени (один ответ лишний):</text>
+<item flag="0">кровотечение из расширенных вен пищевода</item>
+<item flag="0">печеночная недостаточность</item>
+<item flag="0">печено-почечная недостаточность</item>
+<item flag="0">спленомегалия</item>
+<item flag="1">диабет</item>
+</question>
+<question id="31" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по контактному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="0">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">гепатит</item>
+<item flag="1">деструктивный холецистит</item>
+</question>
+<question id="32" size="5" type="1">
+<text>Основными симптомами абсцессов печени являются (один ответ лишний):</text>
+<item flag="0">гектическая лихорадка</item>
+<item flag="0">желтуха</item>
+<item flag="1">метеоризм</item>
+<item flag="0">проливные поты</item>
+<item flag="0">боль в правом подреберье</item>
+</question>
+<question id="33" size="5" type="1">
+<text>Осложнение эхинококкоза печени (один ответ лишний):</text>
+<item flag="0">механическая желтуха</item>
+<item flag="0">обсеменение брюшной полости</item>
+<item flag="1">гемолитическая желтуха</item>
+<item flag="0">перитонит</item>
+<item flag="0">нагноение кисты</item>
+</question>
+<question id="34" size="5" type="1">
+<text>Оптимальный способ лечения небольшой одиночной эхинококковой кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая эхинококкэктомия</item>
+<item flag="0">химиотерапия</item>
+</question>
+<question id="35" size="5" type="1">
+<text>Методы лечения рака печени (один ответ лишний):</text>
+<item flag="0">резекция печени</item>
+<item flag="0">химиотерапия</item>
+<item flag="1">энуклеация опухоли</item>
+<item flag="0">лучевая терапия</item>
+<item flag="0">гемигепатэктомия</item>
+</question>
+<question id="36" size="5" type="1">
+<text>Причины развития печеночной недостаточности (один ответ лишний):</text>
+<item flag="0">гепатиты</item>
+<item flag="0">цирроз печени</item>
+<item flag="1">непаразитарная киста</item>
+<item flag="0">механическая желтуха</item>
+<item flag="0">терминальная стадия гнойного перитонита</item>
+</question>
+<question id="37" size="5" type="1">
+<text>Солитарная опухоль до 2см без инвазии сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="1">Т1</item>
+<item flag="0">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="38" size="5" type="1">
+<text>Солитарная опухоль до 2см с инвазией сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="1">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="39" size="5" type="1">
+<text>Методы хирургического лечения портальной гипертензии (один ответ лишний):</text>
+<item flag="0">наложение мезентерикокавального анастомоза</item>
+<item flag="0">оменторенопексия</item>
+<item flag="0">оментогепатопексия</item>
+<item flag="1">перевязка селезеночной вены</item>
+<item flag="0">наложение прямого портокавального анастомоза</item>
+</question>
+<question id="40" size="5" type="1">
+<text>Способы остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">использование зонда Блэкмора</item>
+<item flag="0">хирургические методы</item>
+<item flag="0">эндоскопические методы</item>
+<item flag="0">применение гемостатической терапии</item>
+<item flag="1">применение гепатопротекторов</item>
+</question>
+<question id="41" size="5" type="1">
+<text>Рентгенологические признаки абсцесса печени (один ответ лишний):</text>
+<item flag="0">высокое стояние правого купола диафрагмы</item>
+<item flag="0">ограничение подвижности правого купола диафрагмы</item>
+<item flag="1">чаши Клойбера</item>
+<item flag="0">в проекции печени уровень жидкости с газом над ним</item>
+<item flag="0">сочувственный выпот в правой плевральной полости</item>
+</question>
+<question id="42" size="5" type="1">
+<text>Наиболее информативный способ диагностики абсцессов печени:</text>
+<item flag="1">ЯМРТ</item>
+<item flag="0">УЗИ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование</item>
+<item flag="0">лапароскопия</item>
+</question>
+<question id="43" size="5" type="1">
+<text>Радикальный метод лечения альвеококкоза печени:</text>
+<item flag="0">наружное дренирование полости распада</item>
+<item flag="1">резекция печени</item>
+<item flag="0">внутреннее дренирование полости распада</item>
+<item flag="0">химиотерапия</item>
+<item flag="0">марсупиализация</item>
+</question>
+<question id="44" size="5" type="1">
+<text>Оптимальный способ лечения непаразитарной кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая фенестрация</item>
+<item flag="0">резекция печени</item>
+</question>
+<question id="45" size="5" type="1">
+<text>Главное в диагностике первично-множественного рака печени:</text>
+<item flag="1">исключение рака других органов</item>
+<item flag="0">данные УЗИ печени</item>
+<item flag="0">данные КТ печени</item>
+<item flag="0">данные ЯМРТ печени</item>
+<item flag="0">данные ангиографии печени</item>
+</question>
+<question id="46" size="5" type="1">
+<text>Макроскопические формы рака печени (один ответ лишний):</text>
+<item flag="1">массивная</item>
+<item flag="0">узловая</item>
+<item flag="0">диффузная</item>
+<item flag="0">опухоль на ножке</item>
+<item flag="0">гепатоцеллюлярная</item>
+</question>
+<question id="47" size="5" type="1">
+<text>Опухоль более 5см по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="0">Т2</item>
+<item flag="1">Т3</item>
+</question>
+<question id="48" size="5" type="1">
+<text>Отдаленные гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в головной мозг</item>
+<item flag="0">в кости черепа</item>
+<item flag="0">в позвоночник</item>
+<item flag="0">в длинные трубчатые кости</item>
+<item flag="1">в поперечно-ободочную кишку</item>
+</question>
+<question id="49" size="5" type="1">
+<text>Способы эндоскопической остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">введение флебосклерозирующих препаратов в просвет вены</item>
+<item flag="0">введение флебосклерозирующих препаратов паравенозно</item>
+<item flag="1">прошивание вен</item>
+<item flag="0">орошение ваготилом</item>
+<item flag="0">лигирование вен</item>
+</question>
+<question id="50" size="5" type="1">
+<text>Методы хирургического лечения кровотечений из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">чрезжелудочная перевязка расширенных вен пищевода и кардии</item>
+<item flag="0">пересечение и сшивание пищевода с помощью хирургических аппаратов</item>
+<item flag="0">проксимальная резекция желудка и абдоминального отдела пищевода</item>
+<item flag="0">наложение сосудистого прямого портокавального анастомоза</item>
+<item flag="1">гастрэктомия</item>
+</question>
+<question id="51" size="5" type="1">
+<text>Число сегментов печени:</text>
+<item flag="0">4</item>
+<item flag="0">5</item>
+<item flag="0">6</item>
+<item flag="0">7</item>
+<item flag="1">8</item>
+</question>
+<question id="52" size="5" type="1">
+<text>Основными симптомами абсцессов печени являются (один ответ лишний):</text>
+<item flag="0">гектическая лихорадка</item>
+<item flag="0">желтуха</item>
+<item flag="1">метеоризм</item>
+<item flag="0">проливные поты</item>
+<item flag="0">боль в правом подреберье</item>
+</question>
+<question id="53" size="5" type="1">
+<text>Методы хирургического лечения абсцесса печени (один ответ лишний):</text>
+<item flag="0">иссечение абсцесса</item>
+<item flag="1">чрезкожное наружное дренирование под контролем УЗИ</item>
+<item flag="0">лапаротомия, дренирование абсцесса</item>
+<item flag="0">торакотомия, дренирование абсцесса</item>
+<item flag="0">резекция печени с унесением абсцесса</item>
+</question>
+<question id="54" size="5" type="1">
+<text>Оптимальный способ лечения непаразитарной кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая фенестрация</item>
+<item flag="0">резекция печени</item>
+</question>
+<question id="55" size="5" type="1">
+<text>Наиболее часто встречающиеся доброкачественные опухоли печени:</text>
+<item flag="1">гемангиомы</item>
+<item flag="0">фибромы</item>
+<item flag="0">гепатомы</item>
+<item flag="0">гамартомы</item>
+<item flag="0">холангиогепатомы</item>
+</question>
+<question id="56" size="5" type="1">
+<text>Предраковые заболевания печени (один ответ лишний):</text>
+<item flag="0">гепатит С</item>
+<item flag="1">абсцесс печени</item>
+<item flag="0">гепатит В</item>
+<item flag="0">цирроз печени</item>
+<item flag="0">описторхоз</item>
+</question>
+<question id="57" size="5" type="1">
+<text>Регионы, где рак печени имеет наибольшее распространение:</text>
+<item flag="0">Австралия</item>
+<item flag="0">Европа</item>
+<item flag="0">Северная Америка</item>
+<item flag="0">Южная Америка</item>
+<item flag="1">Африка, Юго-восточная Азия</item>
+</question>
+<question id="58" size="5" type="1">
+<text>Солитарная опухоль до 2см без инвазии сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="1">Т1</item>
+<item flag="0">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="59" size="5" type="1">
+<text>Признаки портальной гипертензии (один ответ лишний):</text>
+<item flag="0">спленомегалия</item>
+<item flag="0">расширение вен пищевода и кардии желудка</item>
+<item flag="0">расширение вен передней брюшной стенки в виде "головы медузы"</item>
+<item flag="0">асцит</item>
+<item flag="1">дилатация холедоха</item>
+</question>
+<question id="60" size="5" type="1">
+<text>Способы эндоскопической остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">введение флебосклерозирующих препаратов в просвет вены</item>
+<item flag="0">введение флебосклерозирующих препаратов паравенозно</item>
+<item flag="1">прошивание вен</item>
+<item flag="0">орошение ваготилом</item>
+<item flag="0">лигирование вен</item>
+</question>
+<question id="61" size="5" type="1">
+<text>Наименее информативный инструментальный метод обследования печени:</text>
+<item flag="0">УЗИ</item>
+<item flag="0">КТ</item>
+<item flag="0">ЯМРТ</item>
+<item flag="0">ангиография</item>
+<item flag="1">лапароскопия</item>
+</question>
+<question id="62" size="5" type="1">
+<text>Основными симптомами абсцессов печени являются (один ответ лишний):</text>
+<item flag="0">гектическая лихорадка</item>
+<item flag="0">желтуха</item>
+<item flag="1">метеоризм</item>
+<item flag="0">проливные поты</item>
+<item flag="0">боль в правом подреберье</item>
+</question>
+<question id="63" size="5" type="1">
+<text>Наиболее достоверный лабораторный тест на эхинококкоз:</text>
+<item flag="0">реакция агглютинации с латексом</item>
+<item flag="1">иммуноферментный анализ</item>
+<item flag="0">реакция Каццони</item>
+<item flag="0">реакция преципитации</item>
+<item flag="0">проба Бойдена</item>
+</question>
+<question id="64" size="5" type="1">
+<text>Оптимальный способ лечения непаразитарной кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая фенестрация</item>
+<item flag="0">резекция печени</item>
+</question>
+<question id="65" size="5" type="1">
+<text>Наиболее часто встречающиеся доброкачественные опухоли печени:</text>
+<item flag="1">гемангиомы</item>
+<item flag="0">фибромы</item>
+<item flag="0">гепатомы</item>
+<item flag="0">гамартомы</item>
+<item flag="0">холангиогепатомы</item>
+</question>
+<question id="66" size="5" type="1">
+<text>Причины развития печеночной недостаточности (один ответ лишний):</text>
+<item flag="0">гепатиты</item>
+<item flag="0">цирроз печени</item>
+<item flag="1">непаразитарная киста</item>
+<item flag="0">механическая желтуха</item>
+<item flag="0">терминальная стадия гнойного перитонита</item>
+</question>
+<question id="67" size="5" type="1">
+<text>Регионы, где рак печени имеет наибольшее распространение:</text>
+<item flag="0">Австралия</item>
+<item flag="0">Европа</item>
+<item flag="0">Северная Америка</item>
+<item flag="0">Южная Америка</item>
+<item flag="1">Африка, Юго-восточная Азия</item>
+</question>
+<question id="68" size="5" type="1">
+<text>Отдаленные гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в головной мозг</item>
+<item flag="0">в кости черепа</item>
+<item flag="0">в позвоночник</item>
+<item flag="0">в длинные трубчатые кости</item>
+<item flag="1">в поперечно-ободочную кишку</item>
+</question>
+<question id="69" size="5" type="1">
+<text>Виды резекции печени при опухолях (один ответ лишний):</text>
+<item flag="0">краевая  резекция</item>
+<item flag="0">сегментарная резекция</item>
+<item flag="0">лобэктомия</item>
+<item flag="0">гемигепатэктомия</item>
+<item flag="1">субтотальная резекция</item>
+</question>
+<question id="70" size="5" type="1">
+<text>Признаки портальной гипертензии (один ответ лишний):</text>
+<item flag="0">спленомегалия</item>
+<item flag="0">расширение вен пищевода и кардии желудка</item>
+<item flag="0">расширение вен передней брюшной стенки в виде "головы медузы"</item>
+<item flag="0">асцит</item>
+<item flag="1">дилатация холедоха</item>
+</question>
+<question id="71" size="5" type="1">
+<text>Оптимальный способ диагностики абсцессов печени:</text>
+<item flag="1">КТ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">радиоизотопное исследование</item>
+<item flag="0">целиакография</item>
+</question>
+<question id="72" size="5" type="1">
+<text>Пути проникновения микрофлоры, вызывающей абсцедирование, в ткань печени (один ответ лишний):</text>
+<item flag="0">билиарный</item>
+<item flag="1">лимфогенный</item>
+<item flag="0">венозный</item>
+<item flag="0">артериальный</item>
+<item flag="0">контактный</item>
+</question>
+<question id="73" size="5" type="1">
+<text>Показания к оперативному лечению гемангиом печени (один ответ лишний):</text>
+<item flag="1">печеночная недостаточность</item>
+<item flag="0">большие размеры</item>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">внутрибрюшное кровотечение</item>
+</question>
+<question id="74" size="5" type="1">
+<text>Оптимальный способ лечения гемангиомы печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="0">лапароскопическая фенестрация</item>
+<item flag="1">резекция печени</item>
+</question>
+<question id="75" size="5" type="1">
+<text>Заболеваемость раком печени в России:</text>
+<item flag="0">1 на 100000 населения</item>
+<item flag="1">5 на 100000 населения</item>
+<item flag="0">10 на 100000 населения</item>
+<item flag="0">15 на 100000 населения</item>
+<item flag="0">20 на 100000 населения</item>
+</question>
+<question id="76" size="5" type="1">
+<text>Гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в надпочечники</item>
+<item flag="0">в легкие</item>
+<item flag="0">в почки</item>
+<item flag="1">в гепатодуоденальную связку</item>
+<item flag="0">в кости</item>
+</question>
+<question id="77" size="5" type="1">
+<text>Лимфогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">парааортальные</item>
+<item flag="0">панкреатодуоденальные</item>
+<item flag="0">гепатодуоденальной связки</item>
+<item flag="0">медиастинальные</item>
+<item flag="1">церебральные</item>
+</question>
+<question id="78" size="5" type="1">
+<text>Внутрипеченочная форма портальной гипертензии наиболее часто обусловлена:</text>
+<item flag="1">циррозом печени</item>
+<item flag="0">синдромом Бадда-Киари</item>
+<item flag="0">трансформацией и атрезией воротной вены</item>
+<item flag="0">тромбозом  воротной вены</item>
+<item flag="0">сдавлением воротной вены</item>
+</question>
+<question id="79" size="5" type="1">
+<text>Методы хирургического лечения портальной гипертензии (один ответ лишний):</text>
+<item flag="0">наложение мезентерикокавального анастомоза</item>
+<item flag="0">оменторенопексия</item>
+<item flag="0">оментогепатопексия</item>
+<item flag="1">перевязка селезеночной вены</item>
+<item flag="0">наложение прямого портокавального анастомоза</item>
+</question>
+<question id="80" size="5" type="1">
+<text>Способы остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">использование зонда Блэкмора</item>
+<item flag="0">хирургические методы</item>
+<item flag="0">эндоскопические методы</item>
+<item flag="0">применение гемостатической терапии</item>
+<item flag="1">применение гепатопротекторов</item>
+</question>
+<question id="81" size="5" type="1">
+<text>Печень покрывает капсула:</text>
+<item flag="0">Пирогова</item>
+<item flag="1">Глиссона</item>
+<item flag="0">Гиппократа</item>
+<item flag="0">Цельса</item>
+<item flag="0">Гарвея</item>
+</question>
+<question id="82" size="5" type="1">
+<text>Наиболее информативный способ диагностики абсцессов печени:</text>
+<item flag="1">ЯМРТ</item>
+<item flag="0">УЗИ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование</item>
+<item flag="0">лапароскопия</item>
+</question>
+<question id="83" size="5" type="1">
+<text>В диагностике паразитарных абсцессов печени ведущее значение имеет:</text>
+<item flag="1">серологическое исследование крови</item>
+<item flag="0">УЗИ</item>
+<item flag="0">КТ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+</question>
+<question id="84" size="5" type="1">
+<text>Оптимальный способ лечения непаразитарной кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="0">++ лапароскопическая фенестрация</item>
+<item flag="0">резекция печени</item>
+</question>
+<question id="85" size="5" type="1">
+<text>Наиболее частое осложнение гемангиом печени:</text>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">механическая желтуха</item>
+<item flag="1">внутрибрюшное кровотечение</item>
+<item flag="0">перитонит</item>
+</question>
+<question id="86" size="5" type="1">
+<text>Имплантационные метастазы рака печени (один ответ лишний):</text>
+<item flag="1">в легкие</item>
+<item flag="0">в стенку тонкой кишки</item>
+<item flag="0">в стенку ободочной кишки</item>
+<item flag="0">в стенку желудка</item>
+<item flag="0">в париетальную брюшину</item>
+</question>
+<question id="87" size="5" type="1">
+<text>Солитарная опухоль до 2см с инвазией сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="1">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="88" size="5" type="1">
+<text>К истинным кистам печени относятся (один ответ лишний):</text>
+<item flag="1">посттравматические кисты</item>
+<item flag="0">поликистоз печени</item>
+<item flag="0">дермоидные кисты</item>
+<item flag="0">ретенционные кисты</item>
+<item flag="0">цистаденомы</item>
+</question>
+<question id="89" size="5" type="1">
+<text>Осложнения цирроза печени (один ответ лишний):</text>
+<item flag="0">кровотечение из расширенных вен пищевода</item>
+<item flag="0">печеночная недостаточность</item>
+<item flag="0">печено-почечная недостаточность</item>
+<item flag="0">спленомегалия</item>
+<item flag="1">диабет</item>
+</question>
+<question id="90" size="5" type="1">
+<text>Методы хирургического лечения кровотечений из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">чрезжелудочная перевязка расширенных вен пищевода и кардии</item>
+<item flag="0">пересечение и сшивание пищевода с помощью хирургических аппаратов</item>
+<item flag="0">проксимальная резекция желудка и абдоминального отдела пищевода</item>
+<item flag="0">наложение сосудистого прямого портокавального анастомоза</item>
+<item flag="1">гастрэктомия</item>
+</question>
+<question id="91" size="5" type="1">
+<text>Масса печени, регенерирующая после обширных резекций:</text>
+<item flag="0">5-10%</item>
+<item flag="0">15-25%</item>
+<item flag="1">60-75%</item>
+<item flag="0">30-40%</item>
+<item flag="0">45-55%</item>
+</question>
+<question id="92" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по билиарному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="1">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">язвенный колит</item>
+<item flag="0">пенетрирующая язва 12-п. кишки</item>
+</question>
+<question id="93" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по контактному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="0">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">гепатит</item>
+<item flag="1">деструктивный холецистит</item>
+</question>
+<question id="94" size="5" type="1">
+<text>Рентгенологические признаки абсцесса печени (один ответ лишний):</text>
+<item flag="0">высокое стояние правого купола диафрагмы</item>
+<item flag="0">ограничение подвижности правого купола диафрагмы</item>
+<item flag="1">чаши Клойбера</item>
+<item flag="0">в проекции печени уровень жидкости с газом над ним</item>
+<item flag="0">сочувственный выпот в правой плевральной полости</item>
+</question>
+<question id="95" size="5" type="1">
+<text>Клиничесая картина ранней стадии эхинококкоза печени:</text>
+<item flag="0">боль в правом подреберье</item>
+<item flag="0">чувство тяжести в правом подреберье</item>
+<item flag="0">увеличение печени</item>
+<item flag="1">бессимптомное течение</item>
+<item flag="0">гипертермия</item>
+</question>
+<question id="96" size="5" type="1">
+<text>Осложнение эхинококкоза печени (один ответ лишний):</text>
+<item flag="0">механическая желтуха</item>
+<item flag="0">обсеменение брюшной полости</item>
+<item flag="1">гемолитическая желтуха</item>
+<item flag="0">перитонит</item>
+<item flag="0">нагноение кисты</item>
+</question>
+<question id="97" size="5" type="1">
+<text>Радикальный метод лечения альвеококкоза печени:</text>
+<item flag="0">наружное дренирование полости распада</item>
+<item flag="1">резекция печени</item>
+<item flag="0">внутреннее дренирование полости распада</item>
+<item flag="0">химиотерапия</item>
+<item flag="0">марсупиализация</item>
+</question>
+<question id="98" size="5" type="1">
+<text>Методы лечения рака печени (один ответ лишний):</text>
+<item flag="0">резекция печени</item>
+<item flag="0">химиотерапия</item>
+<item flag="1">энуклеация опухоли</item>
+<item flag="0">лучевая терапия</item>
+<item flag="0">гемигепатэктомия</item>
+</question>
+<question id="99" size="5" type="1">
+<text>Главное в диагностике первично-множественного рака печени:</text>
+<item flag="1">исключение рака других органов</item>
+<item flag="0">данные УЗИ печени</item>
+<item flag="0">данные КТ печени</item>
+<item flag="0">данные ЯМРТ печени</item>
+<item flag="0">данные ангиографии печени</item>
+</question>
+<question id="100" size="5" type="1">
+<text>Опухоль более 5см по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="0">Т2</item>
+<item flag="1">Т3</item>
+</question>
+<question id="101" size="5" type="1">
+<text>Рентгенологические признаки абсцесса печени (один ответ лишний):</text>
+<item flag="0">высокое стояние правого купола диафрагмы</item>
+<item flag="0">ограничение подвижности правого купола диафрагмы</item>
+<item flag="1">чаши Клойбера</item>
+<item flag="0">в проекции печени уровень жидкости с газом над ним</item>
+<item flag="0">сочувственный выпот в правой плевральной полости</item>
+</question>
+<question id="102" size="5" type="1">
+<text>Пути проникновения микрофлоры, вызывающей абсцедирование, в ткань печени (один ответ лишний):</text>
+<item flag="0">билиарный</item>
+<item flag="1">лимфогенный</item>
+<item flag="0">венозный</item>
+<item flag="0">артериальный</item>
+<item flag="0">контактный</item>
+</question>
+<question id="103" size="5" type="1">
+<text>Осложнение эхинококкоза печени (один ответ лишний):</text>
+<item flag="0">механическая желтуха</item>
+<item flag="0">обсеменение брюшной полости</item>
+<item flag="1">гемолитическая желтуха</item>
+<item flag="0">перитонит</item>
+<item flag="0">нагноение кисты</item>
+</question>
+<question id="104" size="5" type="1">
+<text>Предраковые заболевания печени (один ответ лишний):</text>
+<item flag="0">гепатит С</item>
+<item flag="1">абсцесс печени</item>
+<item flag="0">гепатит В</item>
+<item flag="0">цирроз печени</item>
+<item flag="0">описторхоз</item>
+</question>
+<question id="105" size="5" type="1">
+<text>Главное в диагностике первично-множественного рака печени:</text>
+<item flag="1">исключение рака других органов</item>
+<item flag="0">данные УЗИ печени</item>
+<item flag="0">данные КТ печени</item>
+<item flag="0">данные ЯМРТ печени</item>
+<item flag="0">данные ангиографии печени</item>
+</question>
+<question id="106" size="5" type="1">
+<text>Регионы, где рак печени имеет наибольшее распространение:</text>
+<item flag="0">Австралия</item>
+<item flag="0">Европа</item>
+<item flag="0">Северная Америка</item>
+<item flag="0">Южная Америка</item>
+<item flag="1">Африка, Юго-восточная Азия</item>
+</question>
+<question id="107" size="5" type="1">
+<text>Солитарная опухоль до 2см без инвазии сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="1">Т1</item>
+<item flag="0">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="108" size="5" type="1">
+<text>Отдаленные гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в головной мозг</item>
+<item flag="0">в кости черепа</item>
+<item flag="0">в позвоночник</item>
+<item flag="0">в длинные трубчатые кости</item>
+<item flag="1">в поперечно-ободочную кишку</item>
+</question>
+<question id="109" size="5" type="1">
+<text>Виды резекции печени при опухолях (один ответ лишний):</text>
+<item flag="0">краевая  резекция</item>
+<item flag="0">сегментарная резекция</item>
+<item flag="0">лобэктомия</item>
+<item flag="0">гемигепатэктомия</item>
+<item flag="1">субтотальная резекция</item>
+</question>
+<question id="110" size="5" type="1">
+<text>Признаки портальной гипертензии (один ответ лишний):</text>
+<item flag="0">спленомегалия</item>
+<item flag="0">расширение вен пищевода и кардии желудка</item>
+<item flag="0">расширение вен передней брюшной стенки в виде "головы медузы"</item>
+<item flag="0">асцит</item>
+<item flag="1">дилатация холедоха</item>
+</question>
+<question id="111" size="5" type="1">
+<text>Основными симптомами абсцессов печени являются (один ответ лишний):</text>
+<item flag="0">гектическая лихорадка</item>
+<item flag="0">желтуха</item>
+<item flag="1">метеоризм</item>
+<item flag="0">проливные поты</item>
+<item flag="0">боль в правом подреберье</item>
+</question>
+<question id="112" size="5" type="1">
+<text>Наиболее достоверный лабораторный тест на эхинококкоз:</text>
+<item flag="0">реакция агглютинации с латексом</item>
+<item flag="1">иммуноферментный анализ</item>
+<item flag="0">реакция Каццони</item>
+<item flag="0">реакция преципитации</item>
+<item flag="0">проба Бойдена</item>
+</question>
+<question id="113" size="5" type="1">
+<text>Оптимальный способ лечения непаразитарной кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая фенестрация</item>
+<item flag="0">резекция печени</item>
+</question>
+<question id="114" size="5" type="1">
+<text>Оптимальный способ лечения гемангиомы печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="0">лапароскопическая фенестрация</item>
+<item flag="1">резекция печени</item>
+</question>
+<question id="115" size="5" type="1">
+<text>Причины развития печеночной недостаточности (один ответ лишний):</text>
+<item flag="0">гепатиты</item>
+<item flag="0">цирроз печени</item>
+<item flag="1">непаразитарная киста</item>
+<item flag="0">механическая желтуха</item>
+<item flag="0">терминальная стадия гнойного перитонита</item>
+</question>
+<question id="116" size="5" type="1">
+<text>Заболеваемость раком печени в России:</text>
+<item flag="0">1 на 100000 населения</item>
+<item flag="1">5 на 100000 населения</item>
+<item flag="0">10 на 100000 населения</item>
+<item flag="0">15 на 100000 населения</item>
+<item flag="0">20 на 100000 населения</item>
+</question>
+<question id="117" size="5" type="1">
+<text>Лимфогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">парааортальные</item>
+<item flag="0">панкреатодуоденальные</item>
+<item flag="0">гепатодуоденальной связки</item>
+<item flag="0">медиастинальные</item>
+<item flag="1">церебральные</item>
+</question>
+<question id="118" size="5" type="1">
+<text>Отдаленные гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в головной мозг</item>
+<item flag="0">в кости черепа</item>
+<item flag="0">в позвоночник</item>
+<item flag="0">в длинные трубчатые кости</item>
+<item flag="1">в поперечно-ободочную кишку</item>
+</question>
+<question id="119" size="5" type="1">
+<text>Внутрипеченочная форма портальной гипертензии наиболее часто обусловлена:</text>
+<item flag="1">циррозом печени</item>
+<item flag="0">синдромом Бадда-Киари</item>
+<item flag="0">трансформацией и атрезией воротной вены</item>
+<item flag="0">тромбозом  воротной вены</item>
+<item flag="0">сдавлением воротной вены</item>
+</question>
+<question id="120" size="5" type="1">
+<text>Способы эндоскопической остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">введение флебосклерозирующих препаратов в просвет вены</item>
+<item flag="0">введение флебосклерозирующих препаратов паравенозно</item>
+<item flag="1">прошивание вен</item>
+<item flag="0">орошение ваготилом</item>
+<item flag="0">лигирование вен</item>
+</question>
+<question id="121" size="5" type="1">
+<text>Число сегментов печени:</text>
+<item flag="0">4</item>
+<item flag="0">5</item>
+<item flag="0">6</item>
+<item flag="0">7</item>
+<item flag="1">8</item>
+</question>
+<question id="122" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по билиарному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="1">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">язвенный колит</item>
+<item flag="0">пенетрирующая язва 12-п. кишки</item>
+</question>
+<question id="123" size="5" type="1">
+<text>Наиболее информативный способ диагностики абсцессов печени:</text>
+<item flag="1">ЯМРТ</item>
+<item flag="0">УЗИ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование</item>
+<item flag="0">лапароскопия</item>
+</question>
+<question id="124" size="5" type="1">
+<text>Методы хирургического лечения абсцесса печени (один ответ лишний):</text>
+<item flag="0">иссечение абсцесса</item>
+<item flag="1">чрезкожное наружное дренирование под контролем УЗИ</item>
+<item flag="0">лапаротомия, дренирование абсцесса</item>
+<item flag="0">торакотомия, дренирование абсцесса</item>
+<item flag="0">резекция печени с унесением абсцесса</item>
+</question>
+<question id="125" size="5" type="1">
+<text>Наиболее часто встречающиеся доброкачественные опухоли печени:</text>
+<item flag="1">гемангиомы</item>
+<item flag="0">фибромы</item>
+<item flag="0">гепатомы</item>
+<item flag="0">гамартомы</item>
+<item flag="0">холангиогепатомы</item>
+</question>
+<question id="126" size="5" type="1">
+<text>Макроскопические формы рака печени (один ответ лишний):</text>
+<item flag="1">массивная</item>
+<item flag="0">узловая</item>
+<item flag="0">диффузная</item>
+<item flag="0">опухоль на ножке</item>
+<item flag="0">гепатоцеллюлярная</item>
+</question>
+<question id="127" size="5" type="1">
+<text>Солитарная опухоль до 2см с инвазией сосудов по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="1">Т2</item>
+<item flag="0">Т3</item>
+</question>
+<question id="128" size="5" type="1">
+<text>Осложнения цирроза печени (один ответ лишний):</text>
+<item flag="0">кровотечение из расширенных вен пищевода</item>
+<item flag="0">печеночная недостаточность</item>
+<item flag="0">печено-почечная недостаточность</item>
+<item flag="0">спленомегалия</item>
+<item flag="1">диабет</item>
+</question>
+<question id="129" size="5" type="1">
+<text>Способы остановки кровотечения из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">использование зонда Блэкмора</item>
+<item flag="0">хирургические методы</item>
+<item flag="0">эндоскопические методы</item>
+<item flag="0">применение гемостатической терапии</item>
+<item flag="1">применение гепатопротекторов</item>
+</question>
+<question id="130" size="5" type="1">
+<text>Методы хирургического лечения кровотечений из варикозно-расширенных вен пищевода (один ответ лишний):</text>
+<item flag="0">чрезжелудочная перевязка расширенных вен пищевода и кардии</item>
+<item flag="0">пересечение и сшивание пищевода с помощью хирургических аппаратов</item>
+<item flag="0">проксимальная резекция желудка и абдоминального отдела пищевода</item>
+<item flag="0">наложение сосудистого прямого портокавального анастомоза</item>
+<item flag="1">гастрэктомия</item>
+</question>
+<question id="131" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по венозному пути:</text>
+<item flag="1">деструктивный аппендицит</item>
+<item flag="0">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">гепатит</item>
+<item flag="0">пенетрирующая язва 12-п. кишки</item>
+</question>
+<question id="132" size="5" type="1">
+<text>В диагностике паразитарных абсцессов печени ведущее значение имеет:</text>
+<item flag="1">серологическое исследование крови</item>
+<item flag="0">УЗИ</item>
+<item flag="0">КТ</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+</question>
+<question id="133" size="5" type="1">
+<text>Оптимальный способ лечения небольшой одиночной эхинококковой кисты печени:</text>
+<item flag="0">марсупиализация</item>
+<item flag="0">наружное дренирование</item>
+<item flag="0">внутреннее дренирование</item>
+<item flag="1">лапароскопическая эхинококкэктомия</item>
+<item flag="0">химиотерапия</item>
+</question>
+<question id="134" size="5" type="1">
+<text>Радикальный метод лечения альвеококкоза печени:</text>
+<item flag="0">наружное дренирование полости распада</item>
+<item flag="1">резекция печени</item>
+<item flag="0">внутреннее дренирование полости распада</item>
+<item flag="0">химиотерапия</item>
+<item flag="0">марсупиализация</item>
+</question>
+<question id="135" size="5" type="1">
+<text>Наиболее частое осложнение гемангиом печени:</text>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">механическая желтуха</item>
+<item flag="1">внутрибрюшное кровотечение</item>
+<item flag="0">перитонит</item>
+</question>
+<question id="136" size="5" type="1">
+<text>Осложнения рака печени (один ответ лишний):</text>
+<item flag="1">менингит</item>
+<item flag="0">разрыв опухолевого узла с кровотечением в брюшную полость</item>
+<item flag="0">распад опухоли с ее инфицированием</item>
+<item flag="0">асцит</item>
+<item flag="0">гнойный холангит</item>
+</question>
+<question id="137" size="5" type="1">
+<text>Имплантационные метастазы рака печени (один ответ лишний):</text>
+<item flag="1">в легкие</item>
+<item flag="0">в стенку тонкой кишки</item>
+<item flag="0">в стенку ободочной кишки</item>
+<item flag="0">в стенку желудка</item>
+<item flag="0">в париетальную брюшину</item>
+</question>
+<question id="138" size="5" type="1">
+<text>Опухоль более 5см по классификации TNM обозначается как:</text>
+<item flag="0">T4</item>
+<item flag="0">Т0</item>
+<item flag="0">Т1</item>
+<item flag="0">Т2</item>
+<item flag="1">Т3</item>
+</question>
+<question id="139" size="5" type="1">
+<text>К истинным кистам печени относятся (один ответ лишний):</text>
+<item flag="1">посттравматические кисты</item>
+<item flag="0">поликистоз печени</item>
+<item flag="0">дермоидные кисты</item>
+<item flag="0">ретенционные кисты</item>
+<item flag="0">цистаденомы</item>
+</question>
+<question id="140" size="5" type="1">
+<text>Методы хирургического лечения портальной гипертензии (один ответ лишний):</text>
+<item flag="0">наложение мезентерикокавального анастомоза</item>
+<item flag="0">оменторенопексия</item>
+<item flag="0">оментогепатопексия</item>
+<item flag="1">перевязка селезеночной вены</item>
+<item flag="0">наложение прямого портокавального анастомоза</item>
+</question>
+<question id="141" size="5" type="1">
+<text>Печень покрывает капсула:</text>
+<item flag="0">Пирогова</item>
+<item flag="1">Глиссона</item>
+<item flag="0">Гиппократа</item>
+<item flag="0">Цельса</item>
+<item flag="0">Гарвея</item>
+</question>
+<question id="142" size="5" type="1">
+<text>Масса печени, регенерирующая после обширных резекций:</text>
+<item flag="0">5-10%</item>
+<item flag="0">15-25%</item>
+<item flag="1">60-75%</item>
+<item flag="0">30-40%</item>
+<item flag="0">45-55%</item>
+</question>
+<question id="143" size="5" type="1">
+<text>Заболевание, ведущее к образованию абсцессов печени, связанное с проникновением инфекции по контактному пути:</text>
+<item flag="0">деструктивный аппендицит</item>
+<item flag="0">холангит</item>
+<item flag="0">сепсис</item>
+<item flag="0">гепатит</item>
+<item flag="1">деструктивный холецистит</item>
+</question>
+<question id="144" size="5" type="1">
+<text>Оптимальный способ диагностики абсцессов печени:</text>
+<item flag="1">КТ</item>
+<item flag="0">рентгенологическое исследование печени</item>
+<item flag="0">ЭРПХГ</item>
+<item flag="0">радиоизотопное исследование</item>
+<item flag="0">целиакография</item>
+</question>
+<question id="145" size="5" type="1">
+<text>Клиничесая картина ранней стадии эхинококкоза печени:</text>
+<item flag="0">боль в правом подреберье</item>
+<item flag="0">чувство тяжести в правом подреберье</item>
+<item flag="0">увеличение печени</item>
+<item flag="1">бессимптомное течение</item>
+<item flag="0">гипертермия</item>
+</question>
+<question id="146" size="5" type="1">
+<text>Показания к оперативному лечению гемангиом печени (один ответ лишний):</text>
+<item flag="1">печеночная недостаточность</item>
+<item flag="0">большие размеры</item>
+<item flag="0">нагноение</item>
+<item flag="0">малигнизация</item>
+<item flag="0">внутрибрюшное кровотечение</item>
+</question>
+<question id="147" size="5" type="1">
+<text>Методы лечения рака печени (один ответ лишний):</text>
+<item flag="0">резекция печени</item>
+<item flag="0">химиотерапия</item>
+<item flag="1">энуклеация опухоли</item>
+<item flag="0">лучевая терапия</item>
+<item flag="0">гемигепатэктомия</item>
+</question>
+<question id="148" size="5" type="1">
+<text>В дифференциальной диагностике метастатического и первичного рака печени наибольшее значение имеют:</text>
+<item flag="1">данные биопсии опухоли</item>
+<item flag="0">данные УЗИ печени</item>
+<item flag="0">данные КТ печени</item>
+<item flag="0">данные ЯМРТ печени</item>
+<item flag="0">данные ангиографии печени</item>
+</question>
+<question id="149" size="5" type="1">
+<text>Гематогенные метастазы рака печени (один ответ лишний):</text>
+<item flag="0">в надпочечники</item>
+<item flag="0">в легкие</item>
+<item flag="0">в почки</item>
+<item flag="1">в гепатодуоденальную связку</item>
+<item flag="0">в кости</item>
+</question>
+<question id="150" size="4" type="1">
+<text>Формы портальной гипертензии (один ответ лишний):</text>
+<item flag="0">предпеченочная</item>
+<item flag="1">субпеченочная</item>
+<item flag="0">внутрипеченочная</item>
+<item flag="0">надпеченочная</item>
+</question>
+</quize>

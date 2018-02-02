@@ -72,8 +72,10 @@ class TestCheckBox extends TestStructure {
     protected TestCheckBox(Parcel in) {
         Text = in.readString();
         Type = in.readInt();
-        in.readStringArray(Options);
-        in.readBooleanArray(Flags);
+        Options = in.createStringArray();
+        //in.readStringArray(Options);
+        //in.readBooleanArray(Flags);
+        Flags = in.createBooleanArray();
         ID = in.readInt();
     }
     public void writeToParcel(Parcel out, int flags) {
@@ -84,7 +86,7 @@ class TestCheckBox extends TestStructure {
         out.writeInt(ID);
     }
 
-    public final Parcelable.Creator<TestCheckBox> CREATOR = new Parcelable.Creator<TestCheckBox>() {
+    public static final Parcelable.Creator<TestCheckBox> CREATOR = new Parcelable.Creator<TestCheckBox>() {
         public TestCheckBox createFromParcel(Parcel in) {
             return new TestCheckBox(in);
         }
@@ -124,9 +126,12 @@ class MultipleChoices extends TestStructure{
     protected MultipleChoices(Parcel in) {
         Text = in.readString();
         Type = in.readInt();
-        in.readStringArray(Parents);
-        in.readStringArray(Children);
-        in.readBooleanArray(Relations);
+        Parents = in.createStringArray();
+        Children = in.createStringArray();
+        Relations = in.createBooleanArray();
+        //in.readStringArray(Parents);
+        //in.readStringArray(Children);
+        //in.readBooleanArray(Relations);
         ID = in.readInt();
     }
     public void writeToParcel(Parcel out, int flags) {
@@ -138,7 +143,7 @@ class MultipleChoices extends TestStructure{
         out.writeInt(ID);
     }
 
-    public final Parcelable.Creator<MultipleChoices> CREATOR = new Parcelable.Creator<MultipleChoices>() {
+    public static final Parcelable.Creator<MultipleChoices> CREATOR = new Parcelable.Creator<MultipleChoices>() {
         public MultipleChoices createFromParcel(Parcel in) {
             return new MultipleChoices(in);
         }

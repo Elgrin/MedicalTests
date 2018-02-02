@@ -11,6 +11,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
@@ -305,7 +306,21 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             question = savedInstanceState.getParcelable("question");
             Questions = question.getTestStruscture();
             */
-            Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
+
+            //Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
+
+            Parcelable[] allParcelables = savedInstanceState.getParcelableArray("questions");
+            Questions = new TestStructure[allParcelables.length];
+
+            for (int i = 0 ; i < allParcelables.length; i++) {
+                Questions[i] = (TestStructure)allParcelables[i];
+            }
+
+            /*
+              Author[] authorsT = in.createTypedArray(Author.CREATOR);
+              //Author[] authorsT = (Author[]) in.readParcelableArray(Author.class.getClassLoader());
+             */
+
             /*
             TestFragmentPacerable fragment_box;
             fragment_box = savedInstanceState.getParcelable("fragment");
@@ -668,7 +683,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         //getActivity().deleteFile(filePath);
 
         View view = getView();
-        Button Save = (Button) view.findViewById(R.id.button_save);
+        //Button Save = (Button) view.findViewById(R.id.button_save);
 
         String massive[] = getActivity().fileList();
         for(int i = 0; i < massive.length; i++) {

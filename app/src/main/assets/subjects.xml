@@ -8,6 +8,8 @@
     <item next="psychoThemes">Психология и педагогика</item>
     <item next="gistologyThemes">Гистология</item>
 	<item next="farmacologyThemes">Фармакология</item>
+	<item next="aborts">Акушерство и гинекология</item>
+	<item next="surgeryThemes">Хирургия</item>
     <!--<item next="">Патологическая анатомия</item>
     <item next="">Патологическая физиология</item>
     <item next="">Психиатрия</item>

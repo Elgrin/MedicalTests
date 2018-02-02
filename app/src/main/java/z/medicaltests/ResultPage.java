@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -128,7 +129,14 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             question = savedInstanceState.getParcelable("questions");
             Questions = question.getTestStruscture();*/
 
-            Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
+            //Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
+
+            Parcelable[] allParcelables = savedInstanceState.getParcelableArray("questions");
+            Questions = new TestStructure[allParcelables.length];
+
+            for (int i = 0 ; i < allParcelables.length; i++) {
+                Questions[i] = (TestStructure)allParcelables[i];
+            }
         }
 
         final View view = inflater.inflate(R.layout.fragment_result_page, container, false);
