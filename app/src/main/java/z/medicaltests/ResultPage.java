@@ -168,7 +168,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
                 + Integer.toString(All));
 
         Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
-        Button again = (Button) view.findViewById(R.id.again_page_button);
+        //Button again = (Button) view.findViewById(R.id.again_page_button);
         Button main = (Button) view.findViewById(R.id.main_page_button);
         main.setVisibility(View.GONE);
 

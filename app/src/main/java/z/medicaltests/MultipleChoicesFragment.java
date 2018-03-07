@@ -177,14 +177,17 @@ public class MultipleChoicesFragment extends Fragment {
             CheckBox checkBox = (CheckBox) view.findViewById(i);
             checkBox.setEnabled(false);
 
-            if(Checked[i] && Question.getRelations()[i]) {
+            if (Question.getRelations()[i]) {
                 checkBox.setTextColor(Color.GREEN);
+            }
+            if(Checked[i] && Question.getRelations()[i]) {
+                //checkBox.setTextColor(Color.GREEN);
             }
             else {
 
                 if(!Checked[i] && Question.getRelations()[i] ||
                         Checked[i] && !Question.getRelations()[i]) {
-                    checkBox.setTextColor(Color.RED);
+                    //checkBox.setTextColor(Color.RED);
                 }
             }
         }

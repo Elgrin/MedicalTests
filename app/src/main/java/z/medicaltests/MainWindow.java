@@ -575,6 +575,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         //Блок рекламы
 
+
         final AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);

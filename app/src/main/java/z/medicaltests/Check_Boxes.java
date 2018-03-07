@@ -135,19 +135,22 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
             Log.v("NETTT", checkBox.isChecked() + "  " + Checked[i]);
 
-            if (Checked[i] && Flags[i]) {
+            if ( Flags[i]) {
                 checkBox.setTextColor(Color.GREEN);
+            }
+            if (Checked[i] && Flags[i]) {
+                //checkBox.setTextColor(Color.GREEN);
                 Log.v("NETTT", "GR");
                 Counter++;
             }
 
             if (Checked[i] && !Flags[i]) {
-                checkBox.setTextColor(Color.RED);
+                //checkBox.setTextColor(Color.RED);
                 Log.v("NETTT", "R");
             }
 
             if (!Checked[i] && Flags[i]) {
-                checkBox.setTextColor(Color.RED);
+                //checkBox.setTextColor(Color.RED);
                 Log.v("NETTT", "R");
             }
 
