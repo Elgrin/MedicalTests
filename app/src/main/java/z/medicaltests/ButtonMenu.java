@@ -24,7 +24,7 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
     protected String Text ="";
 
     static  interface  ButtonMenuListener {
-        void onButtonClickAllQuestions(int Size, String File);
+        void onButtonClickAllQuestions(int Size, String Filez);
         void  onButtonClickExamMode(int Size, String File);
     }
 

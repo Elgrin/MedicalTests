@@ -12,29 +12,29 @@
         android:paddingEnd="10dp"
         android:scrollbars="none">
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
+            android:orientation="vertical"
+            android:background="@drawable/rounded">
+            <!--<TextView
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="• После выбора предмета и темы теста будет произведён переход к выбору режима"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"
-                android:paddingBottom="15dip"/>
+                android:paddingBottom="15dip"/>-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• В режиме *Все вопросы* представлены все вопросы по данной теме, так же вы можете выбрать показывать верный ответ сразу или только после тестирования."
+                android:text="• В режиме *Все вопросы* представлены все вопросы по данной теме, так же вы можете включить отображение верных вариантов ответа (будут подсвечиваться зеленым цветом)."
                 android:layout_marginTop="5dp"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"
@@ -46,7 +46,6 @@
                 android:text="• В *Режиме экзамена* можно выбрать определенное количество вопросов по данной теме из всех имеющихся."
                 android:layout_marginTop="5dp"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"
@@ -58,7 +57,6 @@
                 android:text="• Доступ к дополнительным функциям осуществляется через кнопки в правом верхнем углу вашего устройства"
                 android:layout_marginTop="5dp"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"
@@ -67,10 +65,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• Во время прохождения теста вы можете:\r\n 1) начать тест заново; \r\n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\r\n 3) отправить разработчику письмо об ошибке (при наличии опечаток, или если вы не согласны с правильностью ответа)"
+                android:text="• Во время прохождения теста вы можете:\n 1) начать тест заново; \n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\n 3) отправить разработчику письмо об ошибке (при наличии опечаток, или если вы не согласны с правильностью ответа)"
                 android:layout_marginTop="5dp"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"
@@ -82,7 +79,6 @@
                 android:text="• В окне закладок можно удалить либо все закладки, либо выбранные. Для загрузки теста необходимо выбрать его и нажать кнопку загрузки"
                 android:layout_marginTop="5dp"
                 android:gravity="fill_horizontal"
-                android:background="@drawable/rounded"
                 android:paddingStart="15dip"
                 android:paddingEnd="4dip"
                 android:paddingTop="15dip"

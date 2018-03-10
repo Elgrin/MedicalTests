@@ -3,6 +3,7 @@
     <properties it="themes"></properties>
     <item test="one">Первый</item>
     <item test="two">Второй</item>
+	<item test="three">Третий</item>
 </themes>
 
 <!--

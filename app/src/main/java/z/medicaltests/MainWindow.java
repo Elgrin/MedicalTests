@@ -50,6 +50,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     private String[] titles;
     private int currentPosition = 0;
 
+
     public void BarDrawerTrue(boolean MenuFlag) {
         //this.MenuFlag = MenuFlag;
         invalidateOptionsMenu();
@@ -60,12 +61,18 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         getFragmentManager().popBackStack();
         selectedItem(0);
     }
-    public void BarDrawer(String Name, String Path, TestStructure Questions[],
-                          boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize) {
+    public void BarDrawer(String Name, String Path, TestStructure Questions,
+                          boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize, int Mass[]) {
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Max, Mode, null, AbsoluteSize);
+
+        XmlTestLoader loader = new XmlTestLoader(Path, getAssets(), Mass[0]);
+        TestStructure Question = loader.getTestStructure();
+
+        fragment.SetMessage(Name, Path,
+                Question,
+                1, Show, false, 0, Max, Mode, null, AbsoluteSize, Mass);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -207,26 +214,26 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
 
     @Override
-    public void onButtonCheckBoxCommitListener(String Name, String Path, boolean Show,
-                                               TestStructure Questions[],
+    public void onButtonCommitListener(String Name, String Path, boolean Show,
+                                               TestStructure Question,
                                                int Number,
                                                int RighAnswers,
                                                int Max,
                                                int Mode,
                                                int[] MistakesIndexesArray,
-                                               int AbsoluteSize) {
+                                               int AbsoluteSize, int Mass[]) {
 
         if ((Max + 1) == (Number)) {
 
             ResultPage fragment;
             fragment = new ResultPage();
-            fragment.setMessage(RighAnswers, Max, Questions,
+            fragment.setMessage(RighAnswers, Max,
                     Name,
                     Path,
                     Show,
                     Max,
                     Mode,
-                    MistakesIndexesArray);
+                    MistakesIndexesArray, Mass, AbsoluteSize);
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             FragmentManager f = getFragmentManager();
@@ -254,9 +261,14 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
             TestFragmentCheckBox fragment;
             fragment = new TestFragmentCheckBox();
-            fragment.SetMessage(Name, Path, Questions, Number, Show, false, RighAnswers, Max, Mode,
+
+            XmlTestLoader loader = new XmlTestLoader(Path, getAssets(), Mass[Number-1]);
+            TestStructure Question_1 = loader.getTestStructure();
+            fragment.SetMessage(Name, Path,
+                    Question_1,
+                    Number, Show, false, RighAnswers, Max, Mode,
                     MistakesIndexesArray,
-                    AbsoluteSize);
+                    AbsoluteSize, Mass);
 
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
@@ -282,7 +294,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     }
 
     @Override
-    public void onButtonCommitListener(boolean Show, int Size_all, int Size_exam, String File, int Mode) {
+    public void onButtonSettingsCommitListener(boolean Show, int Size_all, int Size_exam, String File, int Mode) {
 
         int mass[];
 
@@ -305,17 +317,16 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         }*/
 
 
-        XmlTestLoader loader = new XmlTestLoader(File, getAssets(), mass);
-
-
-        TestStructure Questions[] = loader.getTestStructure();
-        String Path = loader.getPath();
-        String Name = loader.getName();
-        Log.v("Path", Path);
-
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
-        fragment.SetMessage(Name, Path, Questions, 1, Show, false, 0, Size_exam, Mode, null, Size_exam);
+
+        XmlTestLoader loader = new XmlTestLoader(File, getAssets(), mass[0]);
+        TestStructure Question = loader.getTestStructure();
+        String Path = loader.getPath();
+        String Name = loader.getName();
+        fragment.SetMessage(Name, Path,
+                Question,
+                1, Show, false, 0, Size_exam, Mode, null, Size_exam, mass);
 
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");

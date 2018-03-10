@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="320" file="helminthology1" name = "Гельминтология">
+	<question id = "251" size = "5" type = "1">
+            <text>Половозрелая стадия Trichinella spiralis у человека локализуется в</text>
+            <item flag = "0">Коже</item>
+            <item flag = "0">Протоках печени</item>
+            <item flag = "0">Ножках диафрагмы</item>
+            <item flag = "0">Межреберных мышцах</item>
+            <item flag = "1">Просвете тонкого кишечника</item>
+    </question>
+	<question id = "252" size = "5" type = "1">
+            <text>Личиночная стадия Strongyloides stercoralis у человека локализуется в</text>
+            <item flag = "0">Мозге</item>
+            <item flag = "1">Бронхиолах</item>
+            <item flag = "0">Тонком кишечнике</item>
+            <item flag = "1">Альвеолах легких</item>
+            <item flag = "0">Межреберных мышцах</item>
+    </question>
+	<question id = "253" size = "5" type = "1">
+            <text>В цикле развития Strongyloides stercoralis половозрелая стадия локализуется у человека в</text>
+            <item flag = "0">Мозге</item>
+            <item flag = "0">Трахее</item>
+            <item flag = "0">Бронхиолах</item>
+            <item flag = "0">Альвеолах легких</item>
+            <item flag = "1">Тонком кишечнике</item>
+    </question>
+	<question id = "254" size = "5" type = "1">
+            <text>Личиночные стадии угрицы кишечной</text>
+            <item flag = "0">Финна</item>
+            <item flag = "0">Редия</item>
+            <item flag = "0">Церкарий</item>
+            <item flag = "1">Рабдитовидная личинка</item>
+            <item flag = "1">Филярисвидная личинка</item>
+    </question>
+	<question id = "255" size = "5" type = "1">
+            <text>Синдром larva migrans вызывают личинки</text>
+            <item flag = "1">Ascaris lumbricoides</item>
+            <item flag = "1">Toxocara canis</item>
+            <item flag = "0">Fasciola hepatica</item>
+            <item flag = "0">Disrocoelium lanceatum</item>
+            <item flag = "0">Necator americanus</item>
+    </question>
+	<question id = "256" size = "5" type = "1">
+            <text>Половозрелая самка ришты имеет размеры в длину</text>
+            <item flag = "0">2-4 м</item>
+            <item flag = "0">2-5 см</item>
+            <item flag = "0">1-2 мм</item>
+            <item flag = "1">30-120 см</item>
+            <item flag = "0">200-300 см</item>
+    </question>
+	<question id = "257" size = "5" type = "1">
+            <text>Самец ришты на заднем конце тела имеет ... спикулу (-лы)</text>
+            <item flag = "0">1</item>
+            <item flag = "1">2</item>
+            <item flag = "0">3</item>
+            <item flag = "0">4</item>
+            <item flag = "0">5</item>
+    </question>
+	<question id = "258" size = "5" type = "1">
+            <text>У самцов трихинеллы хвостовой конец имеет</text>
+            <item flag = "0">Вздутие</item>
+            <item flag = "0">Спикулу</item>
+            <item flag = "0">2 спикулы</item>
+            <item flag = "0">1 пару сосочков</item>
+            <item flag = "1">2 пары сосочков</item>
+    </question>
+	<question id = "259" size = "5" type = "1">
+            <text>Яйцо печеночного сосальщика имеет</text>
+            <item flag = "1">Овальную форму</item>
+            <item flag = "1">Желтую или желто-бурую окраску</item>
+            <item flag = "1">На одном из полюсов крышечку</item>
+            <item flag = "1">На одном из полюсов утолщенную скорлупу</item>
+            <item flag = "0">На одном из полюсов шип</item>
+    </question>
+	<question id = "260" size = "5" type = "1">
+            <text>Яйцо Schistosoma mansoni имеет</text>
+            <item flag = "1">Шип</item>
+            <item flag = "0">Двойную оболочку</item>
+            <item flag = "0">Крышечку на полюсе</item>
+            <item flag = "0">Зелено-бурую окраску</item>
+            <item flag = "0">Две крышечки на полюсе</item>
+    </question>
+	<question id = "261" size = "5" type = "1">
+            <text>Яйцо ланцетовидного сосальщика имеет</text>
+            <item flag = "0">На одном из полюсов шип</item>
+            <item flag = "1">Темно-коричневую окраску</item>
+            <item flag = "1">Удлиненно-овальную форму</item>
+            <item flag = "1">На одном из полюсов расширение</item>
+            <item flag = "1">На одном из полюсов маленькую крышечку</item>
+    </question>
+	<question id = "262" size = "5" type = "1">
+            <text>Яйцо кошачьего сосальщика имеет</text>
+            <item flag = "1">Бледно-желтую окраску</item>
+            <item flag = "0">Шип на переднем полюсе</item>
+            <item flag = "1">Утолщение заднего полюса</item>
+            <item flag = "1">Крышечку на переднем полюсе</item>
+            <item flag = "1">Тонкую двухконтурную оболочку</item>
+    </question>
+	<question id = "263" size = "5" type = "1">
+            <text>Яйца тениид (свиного и бычьего цепня) имеют</text>
+            <item flag = "1">Шаровидную форму</item>
+            <item flag = "1">Желтоватую окраску</item>
+            <item flag = "0">Шип на переднем полюсе</item>
+            <item flag = "1">Наружную и внутреннюю оболочки</item>
+            <item flag = "1">Под оболочкой онкосферу с 6 крючьями</item>
+    </question>
+	<question id = "264" size = "5" type = "1">
+            <text>Яйцо широкого лентеца имеет</text>
+            <item flag = "1">Овальную форму</item>
+            <item flag = "0">Шип на одном полюсе</item>
+            <item flag = "1">Крышечку на одном полюсе</item>
+            <item flag = "1">Желтовато-коричневую окраску</item>
+            <item flag = "1">Тонкую двухконтурную оболочку</item>
+    </question>
+	<question id = "265" size = "5" type = "1">
+            <text>Яйцо карликового цепня имеет</text>
+            <item flag = "1">Округлую форму</item>
+            <item flag = "0">Шип на одном полюсе</item>
+            <item flag = "1">Две прозрачные оболочки</item>
+            <item flag = "1">Между оболочками филаменты</item>
+            <item flag = "1">Внутри онкосферу с 6 крючьями</item>
+    </question>
+	<question id = "266" size = "5" type = "1">
+            <text>Яйцо власоглава имеет</text>
+            <item flag = "0">Бурую окраску</item>
+            <item flag = "0">Шип на одном полюсе</item>
+            <item flag = "1">Пробочки на полюсах</item>
+            <item flag = "1">Форму бочонка или лимона</item>
+            <item flag = "1">Двухконтурную бесцветную оболочку</item>
+    </question>
+	<question id = "267" size = "5" type = "1">
+            <text>Яйцо аскариды имеет</text>
+            <item flag = "1">Округлую форму</item>
+            <item flag = "0">Шип на одном полюсе</item>
+            <item flag = "1">Желто-коричневую окраску</item>
+            <item flag = "1">Внутри шаровидный зародыш</item>
+            <item flag = "1">3 оболочки: бугристую, блестящую, волокнистую</item>
+    </question>
+	<question id = "268" size = "5" type = "1">
+            <text>Яйцо острицы имеет</text>
+            <item flag = "0">Шип сбоку</item>
+            <item flag = "0">Темную окраску</item>
+            <item flag = "1">Бесцветную окраску</item>
+            <item flag = "1">Асимметричное строение</item>
+            <item flag = "1">Двухконтурную оболочку</item>
+    </question>
+	<question id = "269" size = "5" type = "1">
+            <text>Дракункулезом человека заражается при</text>
+            <item flag = "0">Укусе мошек</item>
+            <item flag = "0">Укусе слепней</item>
+            <item flag = "0">Укусе комаров</item>
+            <item flag = "1">Попадании в организм циклопов с водой</item>
+            <item flag = "0">Употреблении плохо обработанной свинины</item>
+    </question>
+	<question id = "270" size = "5" type = "1">
+            <text>При попадании циклопов с некипяченой водой человека заражается</text>
+            <item flag = "0">Лоаозом</item>
+            <item flag = "0">Бругиозом</item>
+            <item flag = "0">Вухерериозом</item>
+            <item flag = "0">Онхоцеркозом</item>
+            <item flag = "1">Дракункулезом</item>
+    </question>
+	<question id = "271" size = "5" type = "1">
+            <text>Живорождение характерно для</text>
+            <item flag = "1">Ришты</item>
+            <item flag = "1">Бругии</item>
+            <item flag = "0">Аскариды</item>
+            <item flag = "1">Онхоцерка</item>
+            <item flag = "1">Вухерерии</item>
+    </question>
+	<question id = "272" size = "5" type = "1">
+            <text>Инвазионной формой дракункулеза для человека являются</text>
+            <item flag = "0">Личинки в теле рыбы</item>
+            <item flag = "1">Личинки в теле циклопа</item>
+            <item flag = "0">Микрофилярии в теле слепня</item>
+            <item flag = "0">Микрофилярии в теле мошки</item>
+            <item flag = "0">Микрофилярии хоботка комара</item>
+    </question>
+	<question id = "273" size = "5" type = "1">
+            <text>Окончательные хозяева ришты</text>
+            <item flag = "0">Птица</item>
+            <item flag = "1">Собака</item>
+            <item flag = "1">Кошка</item>
+            <item flag = "1">Человек</item>
+            <item flag = "1">Обезьяна</item>
+    </question>
+	<question id = "274" size = "5" type = "1">
+            <text>Промежуточные хозяева ришты</text>
+            <item flag = "0">Слепни рода Chrysops</item>
+            <item flag = "1">Рачки рода Cyclops</item>
+            <item flag = "0">Комары рода Aedes</item>
+            <item flag = "0">Комары рода Culex</item>
+            <item flag = "0">Комары рода Anopheles</item>
+    </question>
+	<question id = "275" size = "5" type = "1">
+            <text>Локализация Dracunculus medinensis в организме человека</text>
+            <item flag = "0">Мозг</item>
+            <item flag = "0">Кровь</item>
+            <item flag = "0">Лимфа</item>
+            <item flag = "0">Кишечник</item>
+            <item flag = "1">Подкожно-жировая клетчатка</item>
+    </question>
+	<question id = "276" size = "5" type = "1">
+            <text>В подкожно-жировой клетчатке человека паразитируют</text>
+            <item flag = "1">Loa loa</item>
+            <item flag = "0">Brugia malai</item>
+            <item flag = "0">Onchocerca volvulus</item>
+            <item flag = "0">Wuchereria bancrofti</item>
+            <item flag = "1">Dracunculus medinensis</item>
+    </question>
+	<question id = "277" size = "5" type = "1">
+            <text>Патогенные действия при дракункулезе для человека</text>
+            <item flag = "1">Артриты</item>
+            <item flag = "0">Высокая температура</item>
+            <item flag = "1">Тошнота, рвота, диарея</item>
+            <item flag = "1">Зуд и кожные высыпания</item>
+            <item flag = "1">Абсцессы, флегмоны, гангрены</item>
+    </question>
+	<question id = "278" size = "5" type = "1">
+            <text>Кожные высыпания, артриты, гангрены у человека - основные симптомы</text>
+            <item flag = "0">Лаоаза</item>
+            <item flag = "0">Бругиоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "0">Вухерериоза</item>
+            <item flag = "1">Дракункулеза</item>
+    </question>
+	<question id = "279" size = "5" type = "1">
+            <text>Методы дигностики дракункулеза</text>
+            <item flag = "0">Анализ мочи</item>
+            <item flag = "0">Анализ фекалий</item>
+            <item flag = "1">Рентгенологический</item>
+            <item flag = "1">Внутрикожная проба</item>
+            <item flag = "0">Дуоденальное зондирование</item>
+    </question>
+	<question id = "280" size = "5" type = "1">
+            <text>Меры профилактики дракункулеза</text>
+            <item flag = "1">Не пить сырую воду</item>
+            <item flag = "1">Охрана питьевой воды от загрязнений</item>
+            <item flag = "0">Защита от укусов слепней</item>
+            <item flag = "0">Защита от укусов комаров</item>
+            <item flag = "1">Мероприятия по уничтожению циклопов</item>
+    </question>
+	<question id = "281" size = "5" type = "1">
+            <text>Мероприятия по уничтожению циклопов являются мерами профилактики</text>
+            <item flag = "0">Лаоаза</item>
+            <item flag = "0">Бругиоза</item>
+            <item flag = "0">Вухерериоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "1">Дракункулеза</item>
+    </question>
+	<question id = "282" size = "5" type = "1">
+            <text>Вухерериозом человека заражается при</text>
+            <item flag = "0">Укусе мошек Simulium</item>
+            <item flag = "0">Укусе слепней рода Chrysops</item>
+            <item flag = "0">Укусе москитов рода Phlebotomus</item>
+            <item flag = "0">Попадании циклопов в организм с водой</item>
+            <item flag = "1">Укусе комаров родов Culex, Anopheles, Aedes</item>
+    </question>
+	<question id = "283" size = "5" type = "1">
+            <text>При укусе комаров родов Culex, Anopheles человека заражается</text>
+            <item flag = "0">Лоаозом</item>
+            <item flag = "1">Вухерериозом</item>
+            <item flag = "0">Онхоцеркозом</item>
+            <item flag = "0">Дракункулезом</item>
+            <item flag = "0">Трихинеллезом</item>
+    </question>
+	<question id = "284" size = "5" type = "1">
+            <text>Биогельминтами являются</text>
+            <item flag = "1">Бругия</item>
+            <item flag = "1">Ришта</item>
+            <item flag = "1">Онхоцерка</item>
+            <item flag = "1">Вухерерия</item>
+            <item flag = "0">Аскарида</item>
+    </question>
+	<question id = "285" size = "5" type = "1">
+            <text>Антропозоонозные, природно-очаговые заболевания</text>
+            <item flag = "0">Лоаоз</item>
+            <item flag = "1">Бругиоз</item>
+            <item flag = "1">Вухерериоз</item>
+            <item flag = "0">Онхоцеркоз</item>
+            <item flag = "1">Дракункулез</item>
+    </question>
+	<question id = "286" size = "5" type = "1">
+            <text>Микрофилярии в хоботке комара - инвазионная форма для заболеваний человека</text>
+            <item flag = "0">Лоаозом</item>
+            <item flag = "1">Вухерериозом</item>
+            <item flag = "0">Онхоцеркозом</item>
+            <item flag = "0">Трихинеллезом</item>
+            <item flag = "0">Дракункулезом</item>
+    </question>
+	<question id = "287" size = "5" type = "1">
+            <text>Окончательные хозяева вухерерии</text>
+            <item flag = "0">Комар</item>
+            <item flag = "1">Собака</item>
+            <item flag = "1">Человек</item>
+            <item flag = "0">Слепень</item>
+            <item flag = "1">Обезьяна</item>
+    </question>
+	<question id = "288" size = "5" type = "1">
+            <text>Патогенный действия при вухерериозе для человека</text>
+            <item flag = "0">Зуд</item>
+            <item flag = "0">Тошнота, рвота</item>
+            <item flag = "0">Язвы на коже лица</item>
+            <item flag = "0">Высокая температура</item>
+            <item flag = "1">Нарушение лимфооттока нижних конечностей и половых органов</item>
+    </question>
+	<question id = "289" size = "5" type = "1">
+            <text>Локализация личинок Wuchereria bancrofti в организме человека</text>
+            <item flag = "0">Мозг</item>
+            <item flag = "0">Печень</item>
+            <item flag = "1">Кровеносные сосуды</item>
+            <item flag = "0">Тонкий и толстый кишечник</item>
+            <item flag = "0">Подкожно-жировая клетчатка</item>
+    </question>
+	<question id = "290" size = "5" type = "1">
+            <text>Нарушение лимфооттока нижних конечностей и половых органов у человека - основные симптомы</text>
+            <item flag = "0">Лоаоза</item>
+            <item flag = "1">Вухерериоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "0">Трихинеллеза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "291" size = "5" type = "1">
+            <text>Методы диагностики вухерериоза - анализ мазка</text>
+            <item flag = "0">Мочи</item>
+            <item flag = "0">Фекалий</item>
+            <item flag = "0">Мокроты</item>
+            <item flag = "0">Дуоденального зондирования</item>
+            <item flag = "1">Крови, забранной ночью (толстая капля)</item>
+    </question>
+	<question id = "292" size = "5" type = "1">
+            <text>Анализ крови (толстая капля) проводят для диагностики</text>
+            <item flag = "1">Лоаоза</item>
+            <item flag = "1">Бругиоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "1">Вухерериоза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "293" size = "5" type = "1">
+            <text>Меры профилактики вухерериоза</text>
+            <item flag = "0">Не пить сырую воду</item>
+            <item flag = "1">Охрана питьевой воды от загрязнений</item>
+            <item flag = "0">Защита от укусов слепней</item>
+            <item flag = "1">Защита от укусов комаров</item>
+            <item flag = "1">Мероприятия, препятствующие распространению комаров</item>
+    </question>
+	<question id = "294" size = "5" type = "1">
+            <text>Лоаозом человека заражается при</text>
+            <item flag = "0">Укусе мошек Simulium</item>
+            <item flag = "1">Укусе слепней рода Chrysops</item>
+            <item flag = "0">Укусе москитов Phlebotomus</item>
+            <item flag = "0">Укусе комаров родов Culex, Anopheles</item>
+            <item flag = "0">Попадании циклопов в организм с водой</item>
+    </question>
+	<question id = "295" size = "5" type = "1">
+            <text>При укусе слепней рода Chrysops человека заражается</text>
+            <item flag = "1">Лоаозом</item>
+            <item flag = "0">Бругиозом</item>
+            <item flag = "0">Вухерериозом</item>
+            <item flag = "0">Онхоцеркозом</item>
+            <item flag = "0">Дракункулезом</item>
+    </question>
+	<question id = "296" size = "5" type = "1">
+            <text>Антропонозными заболеваниями являются</text>
+            <item flag = "1">Лоаоз</item>
+            <item flag = "0">Бругиоз</item>
+            <item flag = "1">Онхоцеркоз</item>
+            <item flag = "0">Вухерериоз</item>
+            <item flag = "0">Дракункулез</item>
+    </question>
+	<question id = "297" size = "5" type = "1">
+            <text>Микрофилярии в теле слепня - инвазионная форма для заболевания человека</text>
+            <item flag = "1">Лоаозом</item>
+            <item flag = "0">Бругиозом</item>
+            <item flag = "0">Вухерериозом</item>
+            <item flag = "0">Онхоцеркозом</item>
+            <item flag = "0">Дракункулезом</item>
+    </question>
+	<question id = "298" size = "5" type = "1">
+            <text>Окончательный хозяин Лоа лоа</text>
+            <item flag = "0">Мошка</item>
+            <item flag = "0">Комар</item>
+            <item flag = "0">Циклоп</item>
+            <item flag = "1">Человек</item>
+            <item flag = "0">Слепень</item>
+    </question>
+	<question id = "299" size = "5" type = "1">
+            <text>Локализация Loa loa в организме человека</text>
+            <item flag = "0">Кишечник</item>
+            <item flag = "0">Кровеносные сосуды</item>
+            <item flag = "0">Лимфатические узлы</item>
+            <item flag = "1">Конъюнктива и склера глаза</item>
+            <item flag = "1">Подкожная клетчатка</item>
+    </question>
+	<question id = "300" size = "5" type = "1">
+            <text>Патогенные действия при лоаозе для человека</text>
+            <item flag = "1">Лихорадка</item>
+            <item flag = "1">Боли в суставах</item>
+            <item flag = "0">Язвы на коже лица</item>
+            <item flag = "1">Зуд и жжение в тканях</item>
+            <item flag = "1">Конъюнктивит с опуханием век</item>
+    </question>
+	<question id = "301" size = "5" type = "1">
+            <text>Зуд и жжение в тканях, конъюнктивит у человека - основные симптомы</text>
+            <item flag = "1">Лоаоза</item>
+            <item flag = "0">Бругиоза</item>
+            <item flag = "0">Вухерериоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "302" size = "5" type = "1">
+            <text>Методы диагностики лоаоза</text>
+            <item flag = "0">Анализ мочи</item>
+            <item flag = "0">Анализ фекалий</item>
+            <item flag = "0">Иммунологические реакции</item>
+            <item flag = "0">Дуоденальное зондирование</item>
+            <item flag = "1">Анализ крови днем (толстая капля)</item>
+    </question>
+	<question id = "303" size = "5" type = "1">
+            <text>Защита от укусов слепней является мерой профилактики</text>
+            <item flag = "1">Лоаоза</item>
+            <item flag = "0">Бругиоза</item>
+            <item flag = "0">Вухерериоза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "304" size = "5" type = "1">
+            <text>Онхоцеркозом человека заражается при</text>
+            <item flag = "1">Укусе мошек рода Simulium</item>
+            <item flag = "0">Укусе слепней рода Chrysops</item>
+            <item flag = "0">Укусе москитов рода Phlebotomus</item>
+            <item flag = "0">Укусе комаров родов Culex, Anopheles</item>
+            <item flag = "0">Попадании циклопов в организм с водой</item>
+    </question>
+	<question id = "305" size = "5" type = "1">
+            <text>При укусе мошек рода Simulium человека заражается</text>
+            <item flag = "0">Лоаозом</item>
+            <item flag = "0">Бругиозом</item>
+            <item flag = "0">Вухерериозом</item>
+            <item flag = "1">Онхоцеркозом</item>
+            <item flag = "0">Дракункулезом</item>
+    </question>
+	<question id = "306" size = "5" type = "1">
+            <text>Инвазионной формой онхоцеркоза для человека являются</text>
+            <item flag = "0">Личинки в теле рыбы</item>
+            <item flag = "0">Личинки в теле циклопа</item>
+            <item flag = "1">Микрофилярии в теле мошки</item>
+            <item flag = "0">Микрофилярии в теле слепня</item>
+            <item flag = "0">Микрофилярии хоботка комара</item>
+    </question>
+	<question id = "307" size = "5" type = "1">
+            <text>Микрофилярии в теле мошки - инвазионная форма для заболевания человека</text>
+            <item flag = "0">Лоаозом</item>
+            <item flag = "0">Бругиозом</item>
+            <item flag = "0">Вухерериозом</item>
+            <item flag = "1">Онхоцеркозом</item>
+            <item flag = "0">Дракункулезом</item>
+    </question>
+	<question id = "308" size = "5" type = "1">
+            <text>Промежуточные хозяева онхоцерков</text>
+            <item flag = "0">Слепней рода Chrysops</item>
+            <item flag = "1">Мошки рода Simulium</item>
+            <item flag = "0">Комары рода Culex</item>
+            <item flag = "0">Рачки рода Cyclops</item>
+            <item flag = "0">Комары рода Aedes</item>
+    </question>
+	<question id = "309" size = "5" type = "1">
+            <text>Окончательный хозяин онкоцерков</text>
+            <item flag = "1">Человек</item>
+            <item flag = "0">Комар</item>
+            <item flag = "0">Слепень</item>
+            <item flag = "0">Циклоп</item>
+            <item flag = "0">Мошка</item>
+    </question>
+	<question id = "310" size = "5" type = "1">
+            <text>Локализация половозрелой особи Onchocerca volvulus в организме человека</text>
+            <item flag = "0">Кишечник</item>
+            <item flag = "0">Спинномозговая жидкость</item>
+            <item flag = "1">Узлы подмышечной области</item>
+            <item flag = "1">Область ребер и позвоночника</item>
+            <item flag = "1">Область коленного и бедренного суставов</item>
+    </question>
+	<question id = "311" size = "5" type = "1">
+            <text>Локализация личинок Onchocerca volvulus в организме человека</text>
+            <item flag = "0">Мозг</item>
+            <item flag = "0">Легкие</item>
+            <item flag = "0">Кишечник</item>
+            <item flag = "1">Органы зрения</item>
+            <item flag = "0">Печеночные протоки</item>
+    </question>
+	<question id = "312" size = "5" type = "1">
+            <text>Патогенные действия при онхоцеркозе для человека</text>
+            <item flag = "1">Лихорадка</item>
+            <item flag = "1">Язвы на коже</item>
+            <item flag = "0">Тошнота, рвота</item>
+            <item flag = "1">Боли в суставах</item>
+            <item flag = "1">Слепота, нарушение функций нервной системы</item>
+    </question>
+	<question id = "313" size = "5" type = "1">
+            <text>Язвы на коже, боли в суставах, нарушение функций нервной системы у человека - основные симптомы</text>
+            <item flag = "0">Лоаоза</item>
+            <item flag = "0">Бругиоза</item>
+            <item flag = "0">Вухерериоза</item>
+            <item flag = "1">Онхоцеркоза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "314" size = "5" type = "1">
+            <text>Методы диагностики онхоцеркоза</text>
+            <item flag = "0">Анализ крови</item>
+            <item flag = "0">Анализ мочи</item>
+            <item flag = "0">Анализ фекалий</item>
+            <item flag = "1">Офтальмоскопия</item>
+            <item flag = "1">Биопсия кожных узлов</item>
+    </question>
+	<question id = "315" size = "5" type = "1">
+            <text>Меры профилактики онхоцеркоза</text>
+            <item flag = "0">Не пить сырую воду</item>
+            <item flag = "1">Выявление и лечение больных</item>
+            <item flag = "1">Защита от укусов мошек</item>
+            <item flag = "0">Соблюдение личной гигиены</item>
+            <item flag = "1">Мероприятия, направленные на уничтожение мошек</item>
+    </question>
+	<question id = "316" size = "5" type = "1">
+            <text>Бругиозом человека заражается при</text>
+            <item flag = "0">Укусе мошек рода Simulium</item>
+            <item flag = "1">Укусе комаров рода Mansoni</item>
+            <item flag = "0">Укусе слепней рода Chrysops</item>
+            <item flag = "0">Укусе москитов рода Phlebotomus</item>
+            <item flag = "0">Попадани циклопов в организм с водой</item>
+    </question>
+	<question id = "317" size = "5" type = "1">
+            <text>Окончательный хозяин бругии</text>
+            <item flag = "0">Мошка</item>
+            <item flag = "0">Комар</item>
+            <item flag = "0">Циклоп</item>
+            <item flag = "0">Слепень</item>
+            <item flag = "1">Человек</item>
+    </question>
+	<question id = "318" size = "5" type = "1">
+            <text>Патогенные действия при бругиозе для человека</text>
+            <item flag = "0">Зуд</item>
+            <item flag = "0">Тошнота, рвота</item>
+            <item flag = "0">Язвы на коже лица</item>
+            <item flag = "0">Высокая температура</item>
+            <item flag = "1">Нарушение лимфооттока нижних конечностей и половых органов</item>
+    </question>
+	<question id = "319" size = "5" type = "1">
+            <text>Защита от укусов комаров является профилактикой</text>
+            <item flag = "0">Лоаоза</item>
+            <item flag = "1">Бругиоза</item>
+            <item flag = "0">Трихинеллеза</item>
+            <item flag = "0">Онхоцеркоза</item>
+            <item flag = "0">Дракункулеза</item>
+    </question>
+	<question id = "320" size = "5" type = "1">
+            <text>Меры профилактики бругиоза</text>
+            <item flag = "0">Не пить сырую воду</item>
+            <item flag = "0">Охрана питьевой воды от загрязнений</item>
+            <item flag = "0">Защита от укусов слепней</item>
+            <item flag = "1">Защита от укусов комаров</item>
+            <item flag = "1">Мероприятия, препятствующие распространению комаров</item>
+    </question>
+</quize>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<quize size="6" file="three" name = "Первый">
+	<question id="1" size="5" type="1">
+		<text>Живые системы отличаются от неживых систем наличием</text>
+		<item flag="1">Первый+</item>
+		<item flag="0">Второй</item>
+		<item flag="0">Третий</item>
+		<item flag="0">Четвертый</item>
+		<item flag="0">Пятый</item>
+	</question>
+	<question id="2" size="5" type="1">
+		<text>Живые системы отличаются от неживых систем наличием</text>
+		<item flag="1">Первый+</item>
+		<item flag="0">Второй</item>
+		<item flag="0">Третий</item>
+		<item flag="0">Четвертый</item>
+		<item flag="0">Пятый</item>
+	</question>
+</quize>

@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quize size="652" file="genes2" name = "Генетика">
+	<question id = "501" size = "5" type = "1">
+            <text>Мутагенный фактор</text>
+            <item flag = "0">Вещество изменяющее фенотип</item>
+            <item flag = "1">Какое-либо воздействие приводящее к возникновению мутации</item>
+            <item flag = "0">Фактор, изменяющий норму реакции</item>
+            <item flag = "1">Какое-либо воздействие приводящее к изменению структуры наследственного материала</item>
+            <item flag = "0">Факторы, изменяющие экспрессивность признака</item>
+    </question>
+	<question id = "502" size = "5" type = "1">
+            <text>Факторы, относящиеся к химическим мутагенам</text>
+            <item flag = "0">Толидамид</item>
+            <item flag = "1">Встраиваемые вирусы</item>
+            <item flag = "1">Колхицин</item>
+            <item flag = "0">Невстраиваемые вирусы</item>
+            <item flag = "1">Жесткое облучение</item>
+    </question>
+	<question id = "503" size = "5" type = "1">
+            <text>Факторы, относящиеся к биологическим мутагенам</text>
+            <item flag = "0">Толидамид</item>
+            <item flag = "0">Колхицин</item>
+            <item flag = "1">Встраиваемые вирусы</item>
+            <item flag = "0">Антибиотики</item>
+            <item flag = "1">Вирус герпеса</item>
+    </question>
+	<question id = "504" size = "5" type = "1">
+            <text>Факторы, относящиеся к физическим мутагенам</text>
+            <item flag = "0">Естественный радиационный фон</item>
+            <item flag = "1">УФ-облучение</item>
+            <item flag = "1">Жесткое облучение (высокие дозы)</item>
+            <item flag = "0">Громкая музыка</item>
+            <item flag = "0">Низкая температура</item>
+    </question>
+	<question id = "505" size = "5" type = "1">
+            <text>Лекарственные препараты, применяемые во время беременности, выполняют роль</text>
+            <item flag = "0">Биологических мутагенов</item>
+            <item flag = "1">Химических мутагенов</item>
+            <item flag = "0">Физических мутагенов</item>
+            <item flag = "1">Веществ, вызывающих морфозы</item>
+            <item flag = "0">Адаптеров</item>
+    </question>
+	<question id = "506" size = "5" type = "1">
+            <text>Применение человеком мутагенных факторов с целью получения мутаций</text>
+            <item flag = "0">Спонтанный мутагенез</item>
+            <item flag = "1">Индуицируемый мутагенез</item>
+            <item flag = "0">Естественный мутагенез</item>
+            <item flag = "0">Селекция</item>
+            <item flag = "1">Экспериментальный мутагенез</item>
+    </question>
+	<question id = "507" size = "5" type = "1">
+            <text>Возникновение природных мутаций в ходе развития жизни на Земле</text>
+            <item flag = "0">Индуицируемый мутагенез</item>
+            <item flag = "0">Экспериментальный мутагенез</item>
+            <item flag = "1">Спонтанный мутагенез</item>
+            <item flag = "0">Движущий отбор</item>
+            <item flag = "0">Стабилизирующий отбор</item>
+    </question>
+	<question id = "508" size = "5" type = "1">
+            <text>Пирсинг относят к модификационной изменчивости, поскольку</text>
+            <item flag = "0">Затрагивает только соматические клетки</item>
+            <item flag = "0">Не изменяет генетический материал половых клеток</item>
+            <item flag = "0">Относится к модификациям</item>
+            <item flag = "1">Обратимый</item>
+            <item flag = "1">Временный</item>
+    </question>
+	<question id = "509" size = "5" type = "1">
+            <text>Татуировки относят к модификационной изменчивости, поскольку</text>
+            <item flag = "0">затрагивает только соматические клетки</item>
+            <item flag = "0">Изменяют наследственный материал</item>
+            <item flag = "0">Случайны</item>
+            <item flag = "1">Не наследуются</item>
+            <item flag = "0">Обратимые</item>
+    </question>
+	<question id = "510" size = "5" type = "1">
+            <text>Пирсинг - это изменчивость</text>
+            <item flag = "0">Комбинативная</item>
+            <item flag = "0">Генотипическая</item>
+            <item flag = "1">Модификационная</item>
+            <item flag = "0">Генеративная</item>
+            <item flag = "0">Мутационная</item>
+    </question>
+	<question id = "511" size = "5" type = "1">
+            <text>Биологические мутагенный факторы</text>
+            <item flag = "0">Йод</item>
+            <item flag = "1">Вирусы</item>
+            <item flag = "1">Токсины животных</item>
+            <item flag = "0">Инфракрасные лучи</item>
+            <item flag = "0">Ультрафиолетовые лучи</item>
+    </question>
+	<question id = "512" size = "5" type = "1">
+            <text>Супермутагенные факторы вызывают</text>
+            <item flag = "0">Тяжелые заболевания</item>
+            <item flag = "0">Мутации необязательно</item>
+            <item flag = "0">Полиплоидии</item>
+            <item flag = "0">100% гибель организмов</item>
+            <item flag = "1">Мутацию в 100% случаев</item>
+    </question>
+	<question id = "513" size = "5" type = "1">
+            <text>Геномные мутации изменяют</text>
+            <item flag = "0">Структуру гена</item>
+            <item flag = "1">Число хромосом кратное геному</item>
+            <item flag = "1">Число хромосом некратное геному</item>
+            <item flag = "0">Структуру хромосом</item>
+            <item flag = "0">Структуру ДНК</item>
+    </question>
+	<question id = "514" size = "5" type = "1">
+            <text>Заболевания, относящиеся к геномным мутациям</text>
+            <item flag = "0">Гемофилия</item>
+            <item flag = "1">Синдром Дауна</item>
+            <item flag = "0">Синдром Морфана</item>
+            <item flag = "0">Синдром Морриса</item>
+            <item flag = "1">Синдром Клайнфельтера</item>
+    </question>
+	<question id = "515" size = "5" type = "1">
+            <text>Трисомия - увеличение числа</text>
+            <item flag = "0">Хромосом до 3 n</item>
+            <item flag = "1">Хромосом в наборе 2 n на одну хромосому</item>
+            <item flag = "0">Хромосом в наборе 2 n на одну пару</item>
+            <item flag = "1">Доз гена в одной хромосоме до трех копий</item>
+            <item flag = "0">Хромосом, за счет объединения гаплоидного и диплоидного геномов</item>
+    </question>
+	<question id = "516" size = "5" type = "1">
+            <text>Мутации, обусловленные нарушением расхождения хромосом в мейозе</text>
+            <item flag = "1">Полиплоидии</item>
+            <item flag = "0">Генные</item>
+            <item flag = "1">Анеуплоидии</item>
+            <item flag = "0">Хромосомные перестройки</item>
+            <item flag = "1">Геномные</item>
+    </question>
+	<question id = "517" size = "5" type = "1">
+            <text>Моносомия - это мутация по типу</text>
+            <item flag = "0">Полиплоидии</item>
+            <item flag = "1">Уменьшения количества доз генов в паре хромосом до одной хромосомы</item>
+            <item flag = "0">Уменьшения числа хромосом в диплоидном наборе на одну пару гомологичных хромосом</item>
+            <item flag = "1">Уменьшение числа хромосом в диплоидном наборе на одну хромосому из пары</item>
+            <item flag = "0">Изменение набора хромосом с диплоидного до гаплоидного</item>
+    </question>
+	<question id = "518" size = "5" type = "1">
+            <text>Нуллисомия - это мутация по типу</text>
+            <item flag = "0">Полиплоидии</item>
+            <item flag = "1">Уменьшения числа хромосом в диплоидном наборе на одну пару гомологичных хромосом</item>
+            <item flag = "0">Уменьшение числа хромосом в диплоидном наборе на одну хромосому</item>
+            <item flag = "0">Уменьшение числа хромосом в диплоидном наборе на две хромосомы из разных пар</item>
+            <item flag = "0">Анеуплоидии</item>
+    </question>
+	<question id = "519" size = "5" type = "1">
+            <text>Полиплоидию относят к ... мутации</text>
+            <item flag = "0">Генной</item>
+            <item flag = "1">Геномной</item>
+            <item flag = "0">Хромосомной</item>
+            <item flag = "0">Анеуплоидии</item>
+            <item flag = "0">Точковой</item>
+    </question>
+	<question id = "520" size = "5" type = "1">
+            <text>Примерами анеуплоидий являются синдромы</text>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "0">Морфана</item>
+            <item flag = "0">Морриса</item>
+            <item flag = "1">Патау</item>
+            <item flag = "1">Клайнфельтера</item>
+    </question>
+	<question id = "521" size = "5" type = "1">
+            <text>Примерами анеуплоидий по половым хромосомам являются синдромы</text>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "1">Шерешевского-Тернера</item>
+            <item flag = "0">Дауна</item>
+            <item flag = "1">Клайнфельтера</item>
+    </question>
+	<question id = "522" size = "5" type = "1">
+            <text>Примерами анеуплоидий по аутосомам являются синдромы</text>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "1">Дауна</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+            <item flag = "1">Патау</item>
+    </question>
+	<question id = "523" size = "5" type = "1">
+            <text>Анеуплоидия - это</text>
+            <item flag = "0">Дупликации или делеции в хромосомах</item>
+            <item flag = "1">Утрата одной или нескольких хромосом в кариотипе</item>
+            <item flag = "1">Увеличение числа хромосом некратное гаплоидному набору</item>
+            <item flag = "1">Уменьшение числа хромосом некратное гаплоидному набору</item>
+            <item flag = "0">Увеличение числа хромосом в кариотипе, кратное гаплоидному набору</item>
+    </question>
+	<question id = "524" size = "5" type = "1">
+            <text>Летальные нарушения кариотипа</text>
+            <item flag = "0">Моносомии по X-хромосоме</item>
+            <item flag = "1">Моносомии по аутосомам</item>
+            <item flag = "0">Трисомии по половым хромосомам</item>
+            <item flag = "0">Трисомии по аутосомам</item>
+            <item flag = "1">Моносомии по Y-хромосоме</item>
+    </question>
+	<question id = "525" size = "5" type = "1">
+            <text>Причины мозаичности анеуплоидий</text>
+            <item flag = "1">Нерасхождение гомологичных хромосом в митозе</item>
+            <item flag = "0">Нерасхождение гомологичных хромосом в мейозе</item>
+            <item flag = "1">Нерасхождение гомологичных хромосом при дроблении</item>
+            <item flag = "1">Воздействие мутагенных факторов во время беременности</item>
+            <item flag = "1">Нерасхождение гомологичных хромосом при гисто- и органогенезе</item>
+    </question>
+	<question id = "526" size = "5" type = "1">
+            <text>Нуллисомия - это</text>
+            <item flag = "0">Утрата одной хромосомы из пары</item>
+            <item flag = "1">Летальность</item>
+            <item flag = "0">Жизнеспособность</item>
+            <item flag = "1">Утрата гомологичной пары хромосом</item>
+            <item flag = "1">Утрата двух половых хромосом</item>
+    </question>
+	<question id = "527" size = "5" type = "1">
+            <text>Мутации, обусловленные нарушением расхождения хромосом в мейозе</text>
+            <item flag = "1">Полиплоидия</item>
+            <item flag = "0">Генные</item>
+            <item flag = "1">Анеуплоидия</item>
+            <item flag = "0">Хромосомные аберрации</item>
+            <item flag = "0">Инверсия</item>
+    </question>
+	<question id = "528" size = "5" type = "1">
+            <text>Черты геномных мутации - это изменение</text>
+            <item flag = "1">Числа хромосом кратное гаплоидному набору</item>
+            <item flag = "0">Структуры гена</item>
+            <item flag = "1">Числа хромосом некратное гаплоидному набору</item>
+            <item flag = "0">Структуры ДНК</item>
+            <item flag = "0">Структуры хромосом</item>
+    </question>
+	<question id = "529" size = "5" type = "1">
+            <text>Моносомия</text>
+            <item flag = "0">Уменьшение хромосомного набора соматических клеток наполовину</item>
+            <item flag = "1">Уменьшение числа хромосом в диплоидном наборе на одну хромосому из пары</item>
+            <item flag = "0">Уменьшение числа хромосом в диплоидном наборе на одну пару гомологичных хромосом</item>
+            <item flag = "0">Уменьшение числа хромосом в гаплоидном наборе на одну пару гомологичных хромосом</item>
+            <item flag = "0">Нехватка участка хромосомы</item>
+    </question>
+	<question id = "530" size = "5" type = "1">
+            <text>Полиплоидия - это</text>
+            <item flag = "0">Генная мутация</item>
+            <item flag = "1">Геномная мутация</item>
+            <item flag = "0">Хромосомная перестройка</item>
+            <item flag = "0">Дупликация</item>
+            <item flag = "0">Транслокация</item>
+    </question>
+	<question id = "531" size = "5" type = "1">
+            <text>К геномным мутациям относят</text>
+            <item flag = "1">Синдром Дауна</item>
+            <item flag = "0">Гемофилия</item>
+            <item flag = "1">Синдром Шерешевского-Тернера</item>
+            <item flag = "0">Синдром Морфана</item>
+            <item flag = "0">Синдром Морриса</item>
+    </question>
+	<question id = "532" size = "5" type = "1">
+            <text>Трисомия - это увеличение числа хромосом в</text>
+            <item flag = "0">Кариотипе 3n кратное гаплоидному набору</item>
+            <item flag = "0">Наборе 2n на одну пару гомологичных хромосом</item>
+            <item flag = "0">Кариотипе равно 3n</item>
+            <item flag = "1">Наборе 2n на одну хромосому</item>
+            <item flag = "0">Наборе n на одну пару хромосом</item>
+    </question>
+	<question id = "533" size = "5" type = "1">
+            <text>Нуллисомия - это уменьшение числа хромосом в</text>
+            <item flag = "0">Кариотипе, кратное гаплоидному набору</item>
+            <item flag = "1">Наборе 2n на одну пару гомологичных хромосом</item>
+            <item flag = "0">Наборе 2n на одну хромосому</item>
+            <item flag = "0">Наборе 2n на две хромосомы из разных пар</item>
+            <item flag = "0">Наборе n на две хромосомы из разных пар</item>
+    </question>
+	<question id = "534" size = "5" type = "1">
+            <text>Количественно несбалансированные мутации</text>
+            <item flag = "1">Делеция</item>
+            <item flag = "1">Дупликация</item>
+            <item flag = "0">Инсерция</item>
+            <item flag = "0">Инверсия</item>
+            <item flag = "1">Дефишенси</item>
+    </question>
+	<question id = "535" size = "5" type = "1">
+            <text>Количественно сбалансированные мутации</text>
+            <item flag = "1">Инверсия</item>
+            <item flag = "0">Дупликация</item>
+            <item flag = "1">Транслокация</item>
+            <item flag = "0">Делеция</item>
+            <item flag = "0">Инсерция</item>
+	</question>
+	<question id = "536" size = "5" type = "1">
+            <text>Дефишенси - это мутации по типу</text>
+            <item flag = "0">Переноса участка с одной хромосомы на другую</item>
+            <item flag = "0">Удвоение участка хромосомы</item>
+            <item flag = "1">Потери концевого участка хромосомы</item>
+            <item flag = "0">Разрыва и переворота участка хромосомы</item>
+            <item flag = "1">Хромосомной мутации</item>
+	</question>
+	<question id = "537" size = "5" type = "1">
+            <text>Дупликация</text>
+            <item flag = "0">Перенос участка хромосомы на другую хромосому</item>
+            <item flag = "1">Удвоение участка хромосомы</item>
+            <item flag = "0">Потеря концевого участка хромосомы</item>
+            <item flag = "1">Хромосомная мутация</item>
+            <item flag = "0">Анеуплоидия</item>
+	</question>
+	<question id = "538" size = "5" type = "1">
+            <text>Инверсия</text>
+            <item flag = "0">Потеря участка хромосомы</item>
+            <item flag = "0">Удвоение участка хромосомы</item>
+            <item flag = "0">Потеря концевого участка хромосомы</item>
+            <item flag = "1">Разрыв и поворот участка хромосомы</item>
+            <item flag = "1">Хромосомная мутация</item>
+	</question>
+	<question id = "539" size = "5" type = "1">
+            <text>Транслокация</text>
+            <item flag = "1">Хромосомная мутация</item>
+            <item flag = "0">Удвоение участка хромосомы</item>
+            <item flag = "0">Потеря участка хромосомы</item>
+            <item flag = "0">Разрыв и поворот участка хромосомы</item>
+            <item flag = "1">Перенос участка хромосомы с одной на другую хромосому</item>
+    </question>
+	<question id = "540" size = "5" type = "1">
+            <text>Делеция</text>
+            <item flag = "1">Внутрихромосомная мутация</item>
+            <item flag = "1">Потеря участка хромосомы</item>
+            <item flag = "0">Перенос участка хромосомы с одной на другую хромосому</item>
+            <item flag = "0">Удвоение участка хромосомы</item>
+            <item flag = "0">Разрыв и поворот участка хромосомы</item>
+    </question>
+	<question id = "541" size = "5" type = "1">
+            <text>Синдром Кошачьего крика</text>
+            <item flag = "0">Удвоение участка хромосомы</item>
+            <item flag = "0">Межхромосомная мутация</item>
+            <item flag = "0">Анеуплоидия</item>
+            <item flag = "1">Дефишенси</item>
+            <item flag = "1">Потеря участка короткого плеча 5 хромосомы</item>
+    </question>
+	<question id = "542" size = "5" type = "1">
+            <text>Мутация Bar (уменьшение числа фасеток глаза у плодовой мушки)</text>
+            <item flag = "0">Межхромосомная мутация</item>
+            <item flag = "0">Полиплоидия</item>
+            <item flag = "0">Делеция</item>
+            <item flag = "1">Дупликация</item>
+            <item flag = "0">Транслокация</item>
+    </question>
+	<question id = "543" size = "5" type = "1">
+            <text>Робертсоновская мутация</text>
+            <item flag = "0">Транспозиция</item>
+            <item flag = "0">Внутрихромосомная мутация</item>
+            <item flag = "0">Синдром Морриса</item>
+            <item flag = "1">Перенос акроцентрической хромосомы на другую хромосому и объединение их с потерей коротких плеч</item>
+            <item flag = "0">Трансверсия</item>
+    </question>
+	<question id = "544" size = "5" type = "1">
+            <text>Транслокации бывают</text>
+            <item flag = "0">Концевыми</item>
+            <item flag = "0">Компенсированными</item>
+            <item flag = "1">Реципрокными</item>
+            <item flag = "1">Нереципрокными</item>
+            <item flag = "1">Робертсоновскими</item>
+    </question>
+	<question id = "545" size = "5" type = "1">
+            <text>К хромосомным аберрациям относят</text>
+            <item flag = "0">Триплоидии</item>
+            <item flag = "0">Моносомии</item>
+            <item flag = "0">Трисомии</item>
+            <item flag = "1">Инверсии</item>
+            <item flag = "1">Делеции</item>
+    </question>
+	<question id = "546" size = "5" type = "1">
+            <text>Носители Робертсоновской транслокации</text>
+            <item flag = "1">Клинически здоровы</item>
+            <item flag = "1">Имеют кариотип из 45 хромосом</item>
+            <item flag = "0">Имеют кариотип из 46 хромосом</item>
+            <item flag = "0">Имеют признаки болезни Дауна</item>
+            <item flag = "1">Имеют риск рождения ребенка с синдромом Дауна</item>
+    </question>
+	<question id = "547" size = "5" type = "1">
+            <text>Не нарушают сбалансированность генома</text>
+            <item flag = "0">Трисомии</item>
+            <item flag = "1">Моносомии</item>
+            <item flag = "1">Инверсии</item>
+            <item flag = "0">Реципрокные транслокации</item>
+            <item flag = "1">Полиплоидии</item>
+    </question>
+	<question id = "548" size = "5" type = "1">
+            <text>Типы количественно несбалансированных хромосомных аберраций</text>
+            <item flag = "1">Делеция</item>
+            <item flag = "0">Инверсия</item>
+            <item flag = "1">Дупликация</item>
+            <item flag = "0">Транслокация</item>
+            <item flag = "0">Полиплоидия</item>
+    </question>
+	<question id = "549" size = "5" type = "1">
+            <text>Типы количественно сбалансированных мутаций</text>
+            <item flag = "1">Инверсия</item>
+            <item flag = "1">Транслокация</item>
+            <item flag = "1">Полиплоидия</item>
+            <item flag = "0">Делеция</item>
+            <item flag = "0">Дупликация</item>
+    </question>
+	<question id = "550" size = "5" type = "1">
+            <text>Транзиция</text>
+            <item flag = "0">Перемещение гена по хромосоме</item>
+            <item flag = "0">Удвоение нуклеотида</item>
+            <item flag = "0">Замена пуринового нуклеотида на пиримидиновый</item>
+            <item flag = "1">Замена пуринового нуклеотида на пуриновый</item>
+            <item flag = "0">Потеря нуклеотида</item>
+    </question>
+	<question id = "551" size = "5" type = "1">
+            <text>Трансверсия</text>
+            <item flag = "0">Перемещение гена по хромосоме</item>
+            <item flag = "0">Удвоение нуклеотида</item>
+            <item flag = "1">Замена пуринового нуклеотида на пиримидиновый</item>
+            <item flag = "0">Замена пиримидинового нуклеотида на пиримидиновый</item>
+            <item flag = "0">Потеря нуклеотида</item>
+    </question>
+	<question id = "552" size = "5" type = "1">
+            <text>Мутации, которые можно отнести к группе замены оснований</text>
+            <item flag = "0">Транспозиция</item>
+            <item flag = "0">Транслокация</item>
+            <item flag = "1">Трансдукция</item>
+            <item flag = "1">Трансверсия</item>
+            <item flag = "0">Транзиция</item>
+    </question>
+	<question id = "553" size = "5" type = "1">
+            <text>Инверсия на генном уровне</text>
+            <item flag = "0">Удвоение нуклеотида</item>
+            <item flag = "0">Потеря нуклеотида</item>
+            <item flag = "0">Замена нуклеотида</item>
+            <item flag = "1">Разрыв и поворот нуклеотидной последовательности</item>
+            <item flag = "0">Вставка нуклеотида</item>
+    </question>
+	<question id = "554" size = "5" type = "1">
+            <text>Делеция на генном уровне</text>
+            <item flag = "0">Удвоение нуклеотида</item>
+            <item flag = "1">Потеря нуклеотида</item>
+            <item flag = "0">Замена нуклеотида</item>
+            <item flag = "0">Вставка нуклеотида</item>
+            <item flag = "0">Разрыв и поворот нуклеотидной последовательности</item>
+    </question>
+	<question id = "555" size = "5" type = "1">
+            <text>Дупликации на генном уровне</text>
+            <item flag = "1">Удвоение нуклеотида</item>
+            <item flag = "0">Потеря нуклеотида</item>
+            <item flag = "0">Замена нуклеотида</item>
+            <item flag = "0">Вставка нуклеотида</item>
+            <item flag = "0">Разрыв и поворот нуклеотидной последовательности</item>
+    </question>
+	<question id = "556" size = "5" type = "1">
+            <text>Миссенс-мутация</text>
+            <item flag = "1">Приводит к изменению пептида</item>
+            <item flag = "0">Не изменяет пептидную последовательность</item>
+            <item flag = "0">Приводит к потере информации о белке</item>
+            <item flag = "0">Удваивает информацию о белке</item>
+            <item flag = "0">Блокирует информацию о белке</item>
+    </question>
+	<question id = "557" size = "5" type = "1">
+            <text>Нонсенс-мутация</text>
+            <item flag = "0">Приводит к изменению пептида</item>
+            <item flag = "0">Не изменяет пептидную последовательность</item>
+            <item flag = "0">Приводит к потере информации о белке</item>
+            <item flag = "0">Удваивает информацию о белке</item>
+            <item flag = "1">Блокирует информацию о белке</item>
+    </question>
+	<question id = "558" size = "5" type = "1">
+            <text>Мутации, приводящие к сдвигу рамки считывания</text>
+            <item flag = "0">Инверсия</item>
+            <item flag = "0">Замена</item>
+            <item flag = "1">Дупликация</item>
+            <item flag = "1">Вставка</item>
+            <item flag = "1">Делеция</item>
+    </question>
+	<question id = "559" size = "5" type = "1">
+            <text>Мутации, приводящие к сдвигу рамки считывания</text>
+            <item flag = "0">Трансверсия</item>
+            <item flag = "0">Транзиция</item>
+            <item flag = "1">Вставка</item>
+            <item flag = "1">Делеция</item>
+            <item flag = "0">Инверсия</item>
+    </question>
+	<question id = "560" size = "5" type = "1">
+            <text>Наименьшая единица мутационной изменчивости</text>
+            <item flag = "0">Мутант</item>
+            <item flag = "0">Мутаген</item>
+            <item flag = "0">Рекон</item>
+            <item flag = "1">Мутон</item>
+            <item flag = "0">Репликон</item>
+    </question>
+	<question id = "561" size = "5" type = "1">
+            <text>Генные мутации - это изменение</text>
+            <item flag = "1">Структуры молекулы ДНК</item>
+            <item flag = "0">Структуры хромосом</item>
+            <item flag = "1">Структуры гена</item>
+            <item flag = "0">Числа хромосом некратное гаплоидному набору</item>
+            <item flag = "0">Числа хромосом кратное гаплоидному набору</item>
+    </question>
+	<question id = "562" size = "5" type = "1">
+            <text>Причиной сдвига рамки считывания служит</text>
+            <item flag = "1">Выпадение нуклеотида</item>
+            <item flag = "0">Замена нуклеотида</item>
+            <item flag = "1">Новая нуклеотидная вставка</item>
+            <item flag = "0">Замена триплета</item>
+            <item flag = "0">Инверсия триплета</item>
+    </question>
+	<question id = "563" size = "5" type = "1">
+            <text>Наиболее часто экстракопируются гены</text>
+            <item flag = "1">Кодирующие р-РНК</item>
+            <item flag = "1">Кодирующие т-РНК</item>
+            <item flag = "1">Кодирующие гистоны</item>
+            <item flag = "0">Гены регуляторы</item>
+            <item flag = "0">Промоторы</item>
+    </question>
+	<question id = "564" size = "5" type = "1">
+            <text>Экспрессивность - это</text>
+            <item flag = "0">Проявляемость гена в фенотипе</item>
+            <item flag = "1">Степень проявления гена</item>
+            <item flag = "0">Качественная характеристика гена</item>
+            <item flag = "1">Количественная характеристика гена</item>
+            <item flag = "0">Способность гена мутировать</item>
+    </question>
+	<question id = "565" size = "5" type = "1">
+            <text>Пенетрантность - это</text>
+            <item flag = "1">Проявляемость гена в фенотипе</item>
+            <item flag = "0">Степень проявления гена</item>
+            <item flag = "1">Качественная характеристика гена</item>
+            <item flag = "0">Количественная характеристика гена</item>
+            <item flag = "0">Способность гена мутировать</item>
+    </question>
+	<question id = "566" size = "5" type = "1">
+            <text>Естественные антимутационные механизмы</text>
+            <item flag = "0">Универсальность генетического кода</item>
+            <item flag = "1">Вырожденность генетического кода</item>
+            <item flag = "1">Репарация</item>
+            <item flag = "1">Увеличение копий гена</item>
+            <item flag = "0">Специфичность гена</item>
+    </question>
+	<question id = "567" size = "5" type = "1">
+            <text>Естественные антимутационные механизмы</text>
+            <item flag = "0">Колинеарность генетического кода</item>
+            <item flag = "1">Вырожденность генетического кода</item>
+            <item flag = "0">Непрерывность генетического кода</item>
+            <item flag = "1">Увеличение копий гена</item>
+            <item flag = "0">Специфичность гена</item>
+    </question>
+	<question id = "568" size = "5" type = "1">
+            <text>Точная репарация поврежденного участка ДНК обеспечивается наличием</text>
+            <item flag = "0">Света</item>
+            <item flag = "1">Сохранившейся цепи ДНК</item>
+            <item flag = "0">Последовательности аминокислот в белке</item>
+            <item flag = "1">и-РНК</item>
+            <item flag = "0">Принципа комплементарности</item>
+    </question>
+	<question id = "569" size = "5" type = "1">
+            <text>Пенетрантность 30% означает</text>
+            <item flag = "0">Признак ярко выражен в фенотипе особи</item>
+            <item flag = "0">Слабое проявление признака в фенотипе особи</item>
+            <item flag = "1">Проявление признака в фенотипе у 30% особей популяции</item>
+            <item flag = "0">Признак проявился в фенотипе особи на 30%</item>
+            <item flag = "0">Признак не проявился в фенотипе у 30% особей популяции</item>
+    </question>
+	<question id = "570" size = "5" type = "1">
+            <text>Экспрессивность</text>
+            <item flag = "0">Процент людей, имеющих признак в фенотипе</item>
+            <item flag = "1">Слабое проявление признака в фенотипе особи</item>
+            <item flag = "1">Сильное проявление признака в фенотипе особи</item>
+            <item flag = "0">Процент людей, у которых признак в фенотипе не проявился</item>
+            <item flag = "0">Вырожденность генетического кода</item>
+    </question>
+	<question id = "571" size = "5" type = "1">
+            <text>Репарация</text>
+            <item flag = "0">Удвоение ДНК</item>
+            <item flag = "0">Увеличение количества копий гена в ДНК</item>
+            <item flag = "0">Увеличение числа нитей ДНК</item>
+            <item flag = "1">Ликвидация и восстановление поврежденных участков ДНК</item>
+            <item flag = "0">Увеличение числа гетерохроматических участков ДНК</item>
+    </question>
+	<question id = "572" size = "5" type = "1">
+            <text>Политения</text>
+            <item flag = "0">Увеличение числа генов в ДНК</item>
+            <item flag = "1">Увеличение числа нитей ДНК</item>
+            <item flag = "0">Увеличение числа хромосом</item>
+            <item flag = "0">Образование множества гетерохроматических участков</item>
+            <item flag = "0">Репарация ДНК</item>
+    </question>
+	<question id = "573" size = "5" type = "1">
+            <text>Политенные хромосомы</text>
+            <item flag = "1">Длинные</item>
+            <item flag = "1">Многонитчатые</item>
+            <item flag = "0">Полностью неактивные</item>
+            <item flag = "1">Толстые</item>
+            <item flag = "1">Находятся в клетках слюнных желез некоторых насекомых</item>
+    </question>
+	<question id = "574" size = "5" type = "1">
+            <text>Свойства гена в генотипе, характеризующие его способность реализовываться в фенотипе</text>
+            <item flag = "0">Стабильность</item>
+            <item flag = "1">Пенетрантность</item>
+            <item flag = "0">Экспрессивность</item>
+            <item flag = "0">Специфичность</item>
+            <item flag = "0">Делимость</item>
+    </question>
+	<question id = "575" size = "5" type = "1">
+            <text>Свойство гена в генотипе, объясняющее различную степень проявления признака в фенотипе</text>
+            <item flag = "0">Делимость</item>
+            <item flag = "0">Стабильность</item>
+            <item flag = "0">Специфичность</item>
+            <item flag = "1">Экспрессивность</item>
+            <item flag = "0">Пенетрантность</item>
+    </question>
+	<question id = "576" size = "5" type = "1">
+            <text>Естественные антимутантные барьеры</text>
+            <item flag = "1">Триплетность генетического кода</item>
+            <item flag = "1">Экстракопии генов</item>
+            <item flag = "1">Вырожденность генетического кода</item>
+            <item flag = "0">Колинеарность генетического кода</item>
+            <item flag = "0">Наличие аллелей мутаторов</item>
+    </question>
+	<question id = "577" size = "5" type = "1">
+            <text>Используется наиболее часто и устраняет тиминовые димеры (T=T) сразу же после их образования поде действием УФ тип репарации</text>
+            <item flag = "0">Эксцизионная</item>
+            <item flag = "0">Темновая</item>
+            <item flag = "0">Пострепликативная</item>
+            <item flag = "1">Световая</item>
+            <item flag = "0">Дорепликативная</item>
+    </question>
+	<question id = "578" size = "5" type = "1">
+            <text>При 100% пенетрантности ген в фенотипе у всех особей популяции</text>
+            <item flag = "1">Проявляется</item>
+            <item flag = "0">Не проявляется</item>
+            <item flag = "0">Проявляется неполностью</item>
+            <item flag = "1">Проявляется с разной экспрессивностью</item>
+            <item flag = "0">Проявляется с одинаковой экспрессивностью</item>
+    </question>
+	<question id = "579" size = "5" type = "1">
+            <text>Экспрессивность гена указывает на его</text>
+            <item flag = "0">Возможность проявления в фенотипе</item>
+            <item flag = "1">Степень проявления в фенотипе</item>
+            <item flag = "0">Взаимодействие с аллельным геном</item>
+            <item flag = "0">Полную самостоятельность</item>
+            <item flag = "1">Взаимодействие с неаллельными генами</item>
+    </question>
+	<question id = "580" size = "5" type = "1">
+            <text>Пенетрантность гена</text>
+            <item flag = "1">Возможность проявления в фенотипе</item>
+            <item flag = "0">Степень проявления в фенотипе</item>
+            <item flag = "1">Взаимодействие с аллельным геном</item>
+            <item flag = "0">Полную самостоятельность</item>
+            <item flag = "0">Взаимодействие с неаллельными генами</item>
+    </question>
+	<question id = "581" size = "5" type = "1">
+            <text>Увеличение числа хромосом по группе Д характерно для человека при синдроме</text>
+            <item flag = "0">Дауна</item>
+            <item flag = "1">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+    </question>
+	<question id = "582" size = "5" type = "1">
+            <text>Увеличение числа хромосом при группе Е характерно для людей при синдроме</text>
+            <item flag = "0">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+    </question>
+	<question id = "583" size = "5" type = "1">
+            <text>Увеличение числа хромосом при группе G характерно для людей при синдромах</text>
+            <item flag = "1">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "1">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+    </question>
+	<question id = "584" size = "5" type = "1">
+            <text>Увеличение числа хромосом при группе G характерно для людей при синдромах</text>
+            <item flag = "1">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "1">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+    </question>
+	<question id = "585" size = "5" type = "1">
+            <text>Уменьшение числа хромосом по группе G характерно для человека при синдроме</text>
+            <item flag = "0">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "1">Шерешевского-Тернера</item>
+    </question>
+	<question id = "586" size = "5" type = "1">
+            <text>Кариотип из 45 хромосом характерен для человека при синдроме</text>
+            <item flag = "0">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "1">Шерешевского-Тернера</item>
+    </question>
+	<question id = "587" size = "5" type = "1">
+            <text>Кариотип из 47 хромосом характерен для человека при синдромах</text>
+            <item flag = "1">Дауна</item>
+            <item flag = "1">Патау</item>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "1">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+    </question>
+	<question id = "588" size = "5" type = "1">
+            <text>При синдроме Дауна изменяется число хромосом группы</text>
+            <item flag = "1">G</item>
+            <item flag = "0">C</item>
+            <item flag = "0">E</item>
+            <item flag = "0">F</item>
+            <item flag = "0">D</item>
+	</question>
+	<question id = "589" size = "5" type = "1">
+            <text>При синдроме Эдвардса изменяется число хромосом группы</text>
+            <item flag = "0">G</item>
+            <item flag = "0">C</item>
+            <item flag = "1">E</item>
+            <item flag = "0">F</item>
+            <item flag = "0">D</item>
+	</question>
+	<question id = "590" size = "5" type = "1">
+            <text>При синдроме Патау изменяется число хромосом группы</text>
+            <item flag = "0">G</item>
+            <item flag = "0">C</item>
+            <item flag = "0">E</item>
+            <item flag = "0">F</item>
+            <item flag = "1">D</item>
+	</question>
+	<question id = "591" size = "5" type = "1">
+            <text>Два тельца Барра обнаруживаются при синдроме</text>
+            <item flag = "0">Дауна</item>
+            <item flag = "0">Патау</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "1">Трисомия по 23 паре</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+	</question>
+	<question id = "592" size = "5" type = "1">
+            <text>Одно тельце Барра обнаруживается у женщин при синдроме</text>
+            <item flag = "1">Дауна</item>
+            <item flag = "1">Патау</item>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "0">Трисомия по 23 паре</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+	</question>
+	<question id = "593" size = "5" type = "1">
+            <text>Тельце Барра не обнаруживается при синдроме</text>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "1">Патау у мужчин</item>
+            <item flag = "0">Эдвардса у женщин</item>
+            <item flag = "0">Трисомия по 23 паре</item>
+            <item flag = "1">Шерешевского-Тернера</item>
+	</question>
+	<question id = "594" size = "5" type = "1">
+            <text>Тельце Барра не обнаруживается при синдроме трисомии по</text>
+            <item flag = "0">23 паре</item>
+            <item flag = "1">21 паре у женщин</item>
+            <item flag = "0">18 паре у женщин</item>
+            <item flag = "1">12 паре у мужчин</item>
+            <item flag = "1">21 паре у мужчин</item>
+	</question>
+	<question id = "595" size = "5" type = "1">
+            <text>Одно тельце Барра обнаруживается у женщин при синдроме</text>
+            <item flag = "0">Трисомия по 23 паре</item>
+            <item flag = "0">Моносомия по 23 паре</item>
+            <item flag = "1">Трисомия по 18 паре у женщин</item>
+            <item flag = "0">Трисомия по 13 паре у мужчин</item>
+            <item flag = "0">Трисомия по 21 паре у мужчин</item>
+	</question>
+	<question id = "596" size = "5" type = "1">
+            <text>Два тельца Барра обнаруживаются при синдроме</text>
+            <item flag = "1">Трисомия по 23 паре</item>
+            <item flag = "0">Моносомия по 23 паре</item>
+            <item flag = "0">Трисомия по 18 паре у женщин</item>
+            <item flag = "0">Трисомия по 12 паре у мужчин</item>
+            <item flag = "0">Трисомия по 21 паре у мужчин</item>
+	</question>
+	<question id = "597" size = "5" type = "1">
+            <text>К мультифакториальным болезням относят</text>
+            <item flag = "0">Гемофилию</item>
+            <item flag = "1">Эпилепсию</item>
+            <item flag = "0">Фенилкетонурию</item>
+            <item flag = "1">Бронхиальную астму</item>
+            <item flag = "0">Серповидную анемию</item>
+	</question>
+	<question id = "598" size = "5" type = "1">
+            <text>Формулы кариотипа человека при синдроме Дауна</text>
+            <item flag = "0">47, XX, 13+</item>
+            <item flag = "0">45, XO</item>
+            <item flag = "1">47, XY, 21+</item>
+            <item flag = "1">46, XX, 15t (21/15)</item>
+            <item flag = "0">47, XXX</item>
+	</question>
+	<question id = "599" size = "5" type = "1">
+            <text>Метод точной диагностики хромосомных болезней</text>
+            <item flag = "0">Генеалогический</item>
+            <item flag = "0">Клинический</item>
+            <item flag = "0">Биохимический</item>
+            <item flag = "0">Дерматоглифика</item>
+            <item flag = "1">Цитогенетический</item>
+	</question>
+	<question id = "600" size = "5" type = "1">
+            <text>Амниоцентез проводят</text>
+            <item flag = "0">Для постнатальной диагностики</item>
+            <item flag = "1">Для пренатальной диагностики</item>
+            <item flag = "0">на 7-8 неделе беременности</item>
+            <item flag = "1">на 12-18 неделе беременности</item>
+            <item flag = "0">В пубертатном возрасте</item>
+	</question>
+	<question id = "601" size = "5" type = "1">
+            <text>Пробанд</text>
+            <item flag = "1">Больной, обратившийся к врачу-гетенику</item>
+            <item flag = "0">Человек, для которого составляют родословную</item>
+            <item flag = "1">Ребенок пациента медико-генетической консультации</item>
+            <item flag = "0">Больной родственник человека, обратившегося к врачу-гетенику</item>
+            <item flag = "0">Здоровый человек, пришедший в медико-генетическую консультацию</item>
+	</question>
+	<question id = "602" size = "5" type = "1">
+            <text>Основоположник клинической генетики в России</text>
+            <item flag = "0">Н. К. Кольцов</item>
+            <item flag = "0">Н. П. Дубинин</item>
+            <item flag = "1">С. Н. Давиденков</item>
+            <item flag = "0">Н. В. Тимофеев-Ресовский</item>
+            <item flag = "0">А. С. Серебровский</item>
+	</question>
+	<question id = "603" size = "5" type = "1">
+            <text>Сибсы</text>
+            <item flag = "1">Братья и сестры</item>
+            <item flag = "0">Муж и жена</item>
+            <item flag = "0">Родителя пробанда</item>
+            <item flag = "0">Все родственники пробанда</item>
+            <item flag = "1">Дети родительской пары</item>
+	</question>
+	<question id = "604" size = "5" type = "1">
+            <text>Формулы кариотипа при синдроме Клайнфельтера</text>
+            <item flag = "0">47, XXX</item>
+            <item flag = "1">47, XXY</item>
+            <item flag = "1">48, XXYY</item>
+            <item flag = "0">47, XYY</item>
+            <item flag = "0">45XO</item>
+	</question>
+	<question id = "605" size = "5" type = "1">
+            <text>Цитогенетический метод является решающим для диагностики</text>
+            <item flag = "0">Моногенных болезней</item>
+            <item flag = "1">Хромосомных болезней</item>
+            <item flag = "0">Мультифакториальных болезней</item>
+            <item flag = "1">Геномных мутаций</item>
+            <item flag = "0">Врожденных пороков развития</item>
+	</question>
+	<question id = "606" size = "5" type = "1">
+            <text>Митохондриальное наследование</text>
+            <item flag = "1">Болеют и мужчины, и женщины</item>
+            <item flag = "0">Болеют только женщины</item>
+            <item flag = "1">Передается только от матери</item>
+            <item flag = "1">Все дети больных отцов здоровы</item>
+            <item flag = "0">От матери получают заболевание 50% потомков</item>
+	</question>
+	<question id = "607" size = "5" type = "1">
+            <text>Для цитогенетического метода используют</text>
+            <item flag = "0">Культуру половых клеток</item>
+            <item flag = "1">Культуру лейкоцитов</item>
+            <item flag = "1">Культуру эпителия плода</item>
+            <item flag = "1">Обработку колхицином</item>
+            <item flag = "1">Обработку гипотоническим раствором</item>
+	</question>
+	<question id = "608" size = "5" type = "1">
+            <text>Формула кариотипа при синдроме Эдвардса</text>
+            <item flag = "0">45, XO</item>
+            <item flag = "0">47, XXY</item>
+            <item flag = "1">47, XX, 18+</item>
+            <item flag = "0">47, XY, 13+</item>
+            <item flag = "0">47, XX, 21+</item>
+	</question>
+	<question id = "609" size = "5" type = "1">
+            <text>Риск рождения ребенка с синдромом Дауна возрастает в</text>
+            <item flag = "0">15-20 лет</item>
+            <item flag = "0">20-25 лет</item>
+            <item flag = "0">25-30 лет</item>
+            <item flag = "0">30-35 лет</item>
+            <item flag = "1">35-40 лет</item>
+	</question>
+	<question id = "610" size = "5" type = "1">
+            <text>Симптомы фенилкетонурии</text>
+            <item flag = "1">Наличие кетонов в моче</item>
+            <item flag = "1">Гипопигментация волос и кожи</item>
+            <item flag = "0">Снижение фенилаланина в клетках</item>
+            <item flag = "1">Отставание в психомоторном развитии</item>
+            <item flag = "1">Повышение фенилпировиноградной кислоты в крови</item>
+	</question>
+	<question id = "611" size = "5" type = "1">
+            <text>Серповидноклеточная анемия распространена в Африке, потому что там</text>
+            <item flag = "0">Повышенное атмосферное давление</item>
+            <item flag = "0">Тропический климат</item>
+            <item flag = "0">Пониженное атмосферное давление</item>
+            <item flag = "0">Часты близкородственные браки</item>
+            <item flag = "1">Распространена тропическая малярия</item>
+	</question>
+	<question id = "612" size = "5" type = "1">
+            <text>Диагностические признаки синдрома Морфана</text>
+            <item flag = "1">Гиперподвижность суставов</item>
+            <item flag = "1">Подвывих хрусталика</item>
+            <item flag = "0">Гипопигментация</item>
+            <item flag = "0">Отставание в психомоторном развитии</item>
+            <item flag = "1">Удлиненные фаланги пальцев</item>
+	</question>
+	<question id = "613" size = "5" type = "1">
+            <text>Синдром Шерешевского-Тернера характеризуется</text>
+            <item flag = "1">Умственным отставанием</item>
+            <item flag = "0">47 хромосомами в кариотипе</item>
+            <item flag = "1">Отсутствием тельца Барра в ядрах клеток</item>
+            <item flag = "1">Низким ростом</item>
+            <item flag = "1">Моносомией X </item>
+	</question>
+	<question id = "614" size = "5" type = "1">
+            <text>Пренатально проводят цитогенетическое исследование для выявления</text>
+            <item flag = "1">Робертоновской транслокации у матери</item>
+            <item flag = "0">Гемофилии в родословной</item>
+            <item flag = "1">Болезней в возрасте матери 40 лет</item>
+            <item flag = "0">Болезней в кровнородственном браке</item>
+            <item flag = "1">Робертоновской транслокации у отца</item>
+	</question>
+	<question id = "615" size = "5" type = "1">
+            <text>Формула кариотипа при синдроме кошачьего крика</text>
+            <item flag = "0">45, XO</item>
+            <item flag = "0">46, XX, 9-</item>
+            <item flag = "1">46, XY, 5-</item>
+            <item flag = "1">46, XX, 5-</item>
+            <item flag = "0">47, XXY</item>
+	</question>
+	<question id = "616" size = "5" type = "1">
+            <text>Дерматоглифика - это метод</text>
+            <item flag = "1">Определяющий ладонный рисунок</item>
+            <item flag = "1">Определяющий рисунок подошвы ног</item>
+            <item flag = "0">Помогающий в диагностике генных болезней</item>
+            <item flag = "0">Выявляющий носителей хромосомных болезней</item>
+            <item flag = "1">Помогающий в диагностике хромосомных болезней</item>
+	</question>
+	<question id = "617" size = "5" type = "1">
+            <text>Уточнить число хромосомных наборов количественно и морфологию отдельных хромосом для диагностики хромосомных болезней можно методом</text>
+            <item flag = "0">Популяционно-статистическим</item>
+            <item flag = "0">Генеалогическим</item>
+            <item flag = "0">Биохимическим</item>
+            <item flag = "1">Цитогенетическим</item>
+            <item flag = "0">Дерматоглифики</item>
+	</question>
+	<question id = "618" size = "5" type = "1">
+            <text>Особенности кариотипа при синдроме Клайнфельтера</text>
+            <item flag = "0">47, XXX</item>
+            <item flag = "0">45, XO</item>
+            <item flag = "0">47, трисомия по 21 паре аутосом</item>
+            <item flag = "0">47, трисомия по 18 паре аутосом</item>
+            <item flag = "1">47, XXY</item>
+	</question>
+	<question id = "619" size = "5" type = "1">
+            <text>Распределение полового хроматина при трисомии по X-хромосоме</text>
+            <item flag = "0">1 тельце Барра</item>
+            <item flag = "0">Тельце Барра отсутствует</item>
+            <item flag = "0">3 тельца Барра</item>
+            <item flag = "1">2 тельца Барра</item>
+            <item flag = "0">Тельце Барра определяется в 50% клеток</item>
+	</question>
+	<question id = "620" size = "5" type = "1">
+            <text>В генеалогической схеме женщина носительница заболевания, сцепленного с X-хромосомой обозначается символом</text>
+            <item flag = "0">Квадрат</item>
+            <item flag = "0">Круг</item>
+            <item flag = "0">Заштрихованный квадрат</item>
+            <item flag = "0">Заштрихованный круг</item>
+            <item flag = "1">Круг с точкой в центре</item>
+	</question>
+	<question id = "621" size = "5" type = "1">
+            <text>Нарушение расхождения хромосом приводит к мозаичности хромосомной болезни во время</text>
+            <item flag = "1">Эмбриогенеза</item>
+            <item flag = "0">Сперматогенеза</item>
+            <item flag = "1">Митоза</item>
+            <item flag = "0">Овогенеза</item>
+            <item flag = "0">Мейоза</item>
+	</question>
+	<question id = "622" size = "5" type = "1">
+            <text>Произвести оценку соотносительной роли наследственности и среды в развитии признака можно с помощью метода</text>
+            <item flag = "0">Цитогенетического</item>
+            <item flag = "1">Близнецового</item>
+            <item flag = "0">Генетики соматических клеток</item>
+            <item flag = "0">Биохимического</item>
+            <item flag = "0">Дерматоглифики</item>
+	</question>
+	<question id = "623" size = "5" type = "1">
+            <text>Моносомия X из перечисленных заболеваний - это синдром</text>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "0">Дауна</item>
+            <item flag = "0">Эдвардса</item>
+            <item flag = "1">Шерешевского-Тернера</item>
+            <item flag = "0">Патау</item>
+	</question>
+	<question id = "624" size = "5" type = "1">
+            <text>Особенности кариотипа при болезни Дауна</text>
+            <item flag = "0">47 хромосом, XXY</item>
+            <item flag = "0">47 хромосом, XXX</item>
+            <item flag = "0">45 хромосом, XO</item>
+            <item flag = "1">47 хромосом, трисомия по 21 паре аутосом</item>
+            <item flag = "0">47 хромосом, трисомия по 18 паре аутосом</item>
+	</question>
+	<question id = "625" size = "5" type = "1">
+            <text>На генеалогической схеме символ, обозначающий родственный брак</text>
+            <item flag = "0">Одна связующая черта</item>
+            <item flag = "1">Две связующие черты</item>
+            <item flag = "0">Пунктирная линия</item>
+            <item flag = "0">Стрелка</item>
+            <item flag = "0">Точка внутри квадрата или круга</item>
+	</question>
+	<question id = "626" size = "5" type = "1">
+            <text>Амниоцентез проводится для</text>
+            <item flag = "1">Пренатальной диагностики</item>
+            <item flag = "0">Лечебной цели</item>
+            <item flag = "1">Выявления нарушений в кариотипе</item>
+            <item flag = "0">Постнатальной диагностики</item>
+            <item flag = "0">Выявления генных заболеваний</item>
+	</question>
+	<question id = "627" size = "5" type = "1">
+            <text>Диагностировать гетерозиготное носительство нежелательного аллеля при условиях, что аллель проявляет свойство кодоминантности можно методом</text>
+            <item flag = "0">Онтогенетическим</item>
+            <item flag = "1">Биохимическим</item>
+            <item flag = "0">Популяционно-статистическим</item>
+            <item flag = "0">Близнецовым</item>
+            <item flag = "0">Дерматоглифики</item>
+	</question>
+	<question id = "628" size = "5" type = "1">
+            <text>Распределение полового хроматина при синдроме Шерешевского-Тернера</text>
+            <item flag = "0">2 тельца Барра</item>
+            <item flag = "0">1 тельце Барра</item>
+            <item flag = "0">3 тельца Барра</item>
+            <item flag = "1">Тельце Барра отсутствует</item>
+            <item flag = "0">2 тельца Барра у 50% клеток</item>
+	</question>
+	<question id = "629" size = "5" type = "1">
+            <text>Аутосомная трисомия - синдром Патау - это нарушение хромосом в группе</text>
+            <item flag = "0">C</item>
+            <item flag = "0">E</item>
+            <item flag = "0">A</item>
+            <item flag = "1">D</item>
+            <item flag = "0">B</item>
+	</question>
+	<question id = "630" size = "5" type = "1">
+            <text>Генеалогический метод изучения наследственности предполагает</text>
+            <item flag = "1">Составление родословной</item>
+            <item flag = "0">Анализ фотокариограммы</item>
+            <item flag = "1">Анализ родословной</item>
+            <item flag = "0">Изучение кариотипа больного</item>
+            <item flag = "0">Амниоцентез</item>
+	</question>
+	<question id = "631" size = "5" type = "1">
+            <text>Геномные хромосомные мутации выявляют методом</text>
+            <item flag = "0">Биохимическим</item>
+            <item flag = "1">Цитогенетическим</item>
+            <item flag = "0">Популяционно-статистическим</item>
+            <item flag = "0">Генеалогическим</item>
+            <item flag = "0">Дерматоглифики</item>
+	</question>
+	<question id = "632" size = "5" type = "1">
+            <text>Особенности кариотипа при синдроме Эдвардса</text>
+            <item flag = "0">47, XXY</item>
+            <item flag = "0">47, трисомия по 21 паре аутосом</item>
+            <item flag = "0">45, XO</item>
+            <item flag = "0">47, трисомия по 13-15 парам аутосом</item>
+            <item flag = "1">47, трисомия по 18 паре аутосом</item>
+	</question>
+	<question id = "633" size = "5" type = "1">
+            <text>Хромосомные аномалии, относящиеся к аутосомным трисомиям - это синдромы</text>
+            <item flag = "1">Эдвардса</item>
+            <item flag = "1">Дауна</item>
+            <item flag = "1">Патау</item>
+            <item flag = "0">Клайнфельтера</item>
+            <item flag = "0">Шерешевского-Тернера</item>
+	</question>
+	<question id = "634" size = "5" type = "1">
+            <text>Биохимический метод исследования - это</text>
+            <item flag = "0">Изучение кариотипа</item>
+            <item flag = "0">Составление родословных</item>
+            <item flag = "0">Амниоцентез</item>
+            <item flag = "1">Выявление с помощью химических реактивов заболевания или гетерозиготного носителя</item>
+            <item flag = "0">Дифференцированная окраска хромосом</item>
+	</question>
+	<question id = "635" size = "5" type = "1">
+            <text>Анализ сцепления и локализации генов в хромосоме можно произвести методами</text>
+            <item flag = "1">Генетики соматических клеток</item>
+            <item flag = "0">Биохимическим</item>
+            <item flag = "1">Соматической гибридизации клеток</item>
+            <item flag = "0">Близнецовым</item>
+            <item flag = "0">Дерматоглифики</item>
+	</question>
+	<question id = "636" size = "5" type = "1">
+            <text>Кариотип при синдроме Патау</text>
+            <item flag = "0">47, XXY</item>
+            <item flag = "0">47, XXX</item>
+            <item flag = "0">47, трисомия по 18 паре аутосом</item>
+            <item flag = "0">47, трисомия по 21 паре аутосом</item>
+            <item flag = "1">47, трисомия по 13 паре аутосом</item>
+	</question>
+	<question id = "637" size = "5" type = "1">
+            <text>Метод для пренатальной диагностики наследственных болезней</text>
+            <item flag = "0">Генеалогический</item>
+            <item flag = "1">Ультразвукового сканирования (ультрафонография) и амниоцентеза</item>
+            <item flag = "0">Близнецовый</item>
+            <item flag = "0">Популяционно-статистический</item>
+            <item flag = "0">Дерматоглифика</item>
+	</question>
+	<question id = "638" size = "5" type = "1">
+            <text>Распределение полового хроматина у женщины с синдромом Дауна</text>
+            <item flag = "0">2 тельца Барра</item>
+            <item flag = "1">1 тельце Барра</item>
+            <item flag = "0">Тельце Барра отсутствует</item>
+            <item flag = "0">3 тельца Барра</item>
+            <item flag = "0">Тельце Барра выявляется в 50% клеток</item>
+	</question>
+	<question id = "639" size = "5" type = "1">
+            <text>Конкордантность клеток - это</text>
+            <item flag = "1">Одинаковое развитие признаков у монозиготных близнецов</item>
+            <item flag = "0">Различия в развитии признаков у монозиготных близнецов</item>
+            <item flag = "0">Одинаковое развитие признаков у дизиготных близнецов</item>
+            <item flag = "0">Различия в развитии признаков у дизиготных близнецов</item>
+            <item flag = "1">различия в развитии признаков у моно- и дизиготных близнецов</item>
+	</question>
+	<question id = "640" size_x="2" size_y="5" type="2">
+		<text>Преимущественное распространение в странах ... групп крови и причина</text>
+		<item>
+			<text>1) Европы</text>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>2) Азии</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) I</child>
+		<child>б) II</child>
+		<child>в) IV</child>
+		<child>г) Эпидемия чумы в средние века</child>
+		<child>д) Эпидемия оспы в средние века</child>
+	</question>
+    <question id = "641" size_x="4" size_y="4" type="2">
+        <text>Соотнесите фенотип с генотипом, учитывая "Бомбейский феномен"</text>
+        <item>
+			<text>1) IOIOXX</text>
+			<pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+		</item>
+        <item>
+            <text>2) IaIaxx</text>
+            <pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+        </item>
+        <item>
+            <text>3) IaIbXx</text>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>1</pair>
+        </item>
+        <item>
+            <text>4) IbIbxx</text>
+            <pair>1</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+            <pair>0</pair>
+        </item>
+        <child>а) I группа</child>
+        <child>б) II группа</child>
+        <child>в) III группа</child>
+        <child>г) IV группа</child>
+    </question>
+	<question id = "642" size_x="3" size_y="3" type="2">
+		<text>Генотипы ... число, вариантов гамет ...</text>
+		<item>
+			<text>1) AaBb (не сцеплены)</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) AaBb  (неполное сцепление A и B)</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) AaBB (полностью сцеплены A и B)</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) 2</child>
+		<child>б) 4</child>
+		<child>в) 8</child>
+	</question> 
+	<question id = "643" size_x="4" size_y="6" type="2">
+		<text>Особенности наследования пола ... у ...</text>
+		<item>
+			<text>1) Гаплоидный мужской пол</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Гомогаметный женский пол</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Гомогаметный мужской пол</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Соотношение количества X-хромосомы к аутосомам</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Пчелы</child>
+		<child>б) Курицы</child>
+		<child>в) Человека</child>
+		<child>г) Дрозофилы</child>
+		<child>д) Кузнечика</child>
+		<child>ж) Клопов рода Protenor</child>
+	</question>
+	<question id = "644" size_x="5" size_y="5" type="2">
+		<text>Структурная организация молекулы ДНК ... по форме</text>
+		<item>
+			<text>1) B-форма</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Z-форма</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Первичная структура</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Вторичная структура</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Третичная структура</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Трехмерная спираль</child>
+		<child>б) Полинуклеотидная спираль</child>
+		<child>в) Левозакрученная спираль</child>
+		<child>г) Правозакрученная спираль</child>
+		<child>д) Две антипараллельные цепи</child>
+	</question> 
+	<question id = "645" size_x="5" size_y="5" type="2">
+		<text>Свойство генетического кода - ..., значение - ...</text>
+		<item>
+			<text>1) Специфичность</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Вырожденность</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Колинеарность</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Неперекрываемость</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Однонаправленность считывания</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) От 5` к 3` концу</child>
+		<child>б) Генетический код кодирует определенную аминокислоту</child>
+		<child>в) Одной аминокислоте соответствует более чем один кодон</child>
+		<child>г) Последовательность оснований в ДНК совпадает с порядком аминокислот в полипептиде</child>
+		<child>д) Нуклеотид может быть часть лишь одного - трёх буквенного слова</child>
+	</question> 
+	<question id = "646" size_x="5" size_y="5" type="2">
+		<text>Вид репарации ДНК - ..., её механизм - ...</text>
+		<item>
+			<text>1) Эксцизионная</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Фотореактивная</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Дорепликативная</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) SOS-репарации</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>5) Пострепликативная</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Рекомбинация</child>
+		<child>б) Действие видимого света</child>
+		<child>в) Действие УФ-излучения</child>
+		<child>г) По типу выщепления-замещения</child>
+		<child>д) Точность восстановления первичной структуры ДНК невысока</child>
+	</question>
+	<question id = "647" size_x="5" size_y="5" type="2">
+		<text>Стадии биосинтеза белка - ..., протекающие процессы - ...</text>
+		<item>
+			<text>1) Рекогниция</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Процессинг</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>3) Трансляция</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Конформация</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Транскрипции</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Образование про-м-РНК</child>
+		<child>б) Узнавание т-РНК своей аминокислоты</child>
+		<child>в) Образование первичной структуры белка</child>
+		<child>г) Образование окончательной молекулы белка</child>
+		<child>д) Преобразование про-м-РНК в зрелую м-РНК</child>
+	</question> 
+	<question id = "648" size = "5" type = "1">
+            <text>Этапы регуляции по типу индукции у прокариот: 1) поступление индуктора в цитоплазму, 2) образование конечного белкового продукта, 3) образование комплекса индуктор-репрессор, 4) считывание информации со структурных генов, 5) освобождение гена оператора о связи с репрессором</text>
+            <item flag = "0">2 -> 3 -> 1 -> 5 -> 4</item>
+            <item flag = "0">5 -> 1 -> 3 -> 4 -> 2</item>
+            <item flag = "0">2 -> 4 -> 3 -> 5 -> 1</item>
+            <item flag = "0">1 -> 5 -> 4 -> 1 -> 2</item>
+            <item flag = "1">1 -> 5 -> 3 -> 4 -> 2</item>
+    </question>
+	<question id = "649" size_x="2" size_y="5" type="2">
+		<text>Виды изменчивости - ..., их характеристика - ...</text>
+		<item>
+			<text>1) Мутация</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Модификация</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Массовая</child>
+		<child>б) Внезапная</child>
+		<child>в) Обратимая</child>
+		<child>г) Индивидуальная</child>
+		<child>д) Адекватная фактору</child>
+	</question>
+	<question id = "650" size_x="5" size_y="5" type="2">
+		<text>Хромосомная патология - ..., число хромосом в кариотипе человека - ...</text>
+		<item>
+			<text>1) Трисомия</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Моносомия</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Триплоидия</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>4) Нуллисомия</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Тетраплоидия</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) 45 (2n-1)</child>
+		<child>б) 47 (2n+1)</child>
+		<child>в) 44 (2n-2)</child>
+		<child>г) 92 (4n)</child>
+		<child>д) 69 (3n)</child>
+	</question>
+	<question id = "651" size_x="6" size_y="6" type="2">
+		<text>Клеточным органеллам - ______ соответствуют функции - ______</text>
+		<item>
+			<text>1) Делеция</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Инверсия</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>3) Дефишенси</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>4) Дупликация</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>5) Транслокация</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<item>
+			<text>6) Робертоновская транслокация</text>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+			<pair>0</pair>
+		</item>
+		<child>а) Удвоение участка</child>
+		<child>б) Утрата участка в любом месте</child>
+		<child>в) Образование одной хромосомы из двух</child>
+		<child>г) Поворот участка на 180 градусов</child>
+		<child>д) Утрата участка на конце хромосомы</child>
+		<child>е) Обмен участками между хромосомами</child>
+	</question>
+	<question id = "652" size_x="2" size_y="4" type="2">
+		<text>Вид генной мутации - ..., её причина - замена - ...</text>
+		<item>
+			<text>1) Транзиция</text>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+		</item>
+		<item>
+			<text>2) Трансверсия</text>
+			<pair>0</pair>
+			<pair>1</pair>
+			<pair>0</pair>
+			<pair>1</pair>
+		</item>
+		<child>а) Пурина на пурин</child>
+		<child>б) Пиримидина на пурин</child>
+		<child>в) Пиримидина на пиримидин</child>
+		<child>г) Пурина на пиримидин</child>
+	</question> 
+</quize>

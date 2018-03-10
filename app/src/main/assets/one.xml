@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <quize size="5" file="one" name = "Первый">
-	<question id="1" size="10" type="1">
+	<question id="1" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
 		<item flag="1">Первый+</item>
-		<item flag="1">Второй+</item>
-		<item flag="1">Третий+</item>
-		<item flag="0">Четвертый</item>
-		<item flag="0">Пятый</item>
-		<item flag="1">Первый+</item>
-		<item flag="1">Второй+</item>
-		<item flag="1">Третий+</item>
+		<item flag="0">Второй</item>
+		<item flag="0">Третий</item>
 		<item flag="0">Четвертый</item>
 		<item flag="0">Пятый</item>
 	</question>
 	<question id="2" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
-		<item flag="1">Первый+</item>
+		<item flag="0">Первый</item>
 		<item flag="1">Второй+</item>
 		<item flag="0">Третий</item>
 		<item flag="0">Четвертый</item>
@@ -25,16 +20,16 @@
 		<text>Живые системы отличаются от неживых систем наличием</text>
 		<item flag="0">Первый</item>
 		<item flag="0">Второй</item>
-		<item flag="0">Третий</item>
+		<item flag="1">Третий+</item>
 		<item flag="0">Четвертый</item>
 		<item flag="0">Пятый</item>
 	</question>
 	<question id="4" size="5" type="1">
 		<text>Живые системы отличаются от неживых систем наличием</text>
-		<item flag="1">Первый+</item>
+		<item flag="0">Первый</item>
 		<item flag="0">Второй</item>
 		<item flag="0">Третий</item>
-		<item flag="0">Четвертый</item>
+		<item flag="1">Четвертый+</item>
 		<item flag="0">Пятый</item>
 	</question>
     <question id="5" size="5" type="1">

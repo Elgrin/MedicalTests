@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +22,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     private int Result;
     private int All;
     private ResultPageListener listener;
-    private TestStructure[] Questions;
+    private TestStructure Question;
     private int Max;
     private String Path;
     private String Name;
@@ -31,6 +30,7 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     protected boolean Show;
     private int[] MistakesIndexesArray;
     private int AbsoluteSize;
+    private int Mass[];
 
     private TestFragmentCheckBox.TestFragmentBarListener barListener;
 
@@ -51,36 +51,32 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             }
             case R.id.mistakes_page_button: {
 
-                TestStructure newQuestions[] = new TestStructure[MistakesIndexesArray.length];
+                int newMass[] = new int[MistakesIndexesArray.length] ;
 
                 for(int i = 0; i < MistakesIndexesArray.length; i++) {
-                    newQuestions[i] = Questions[MistakesIndexesArray[i]];
+                    newMass[i] = MistakesIndexesArray[i]+1;
+                    Log.v("Baba", Integer.toString(newMass[i]));
                 }
-                Questions = newQuestions;
-                Max = Questions.length;
-                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null, AbsoluteSize);
+
+
+                Mass = newMass;
+                int iter []= {Mass[0]};
+                Max = Mass.length;
+
+                XmlTestLoader loader = new XmlTestLoader(Path, getActivity().getAssets(), Mass[0]);
+                TestStructure Question = loader.getTestStructure();
+
+                Log.v("Baba", Integer.toString(AbsoluteSize)  +" " + Path + " " + Mass[0]);
+                barListener.BarDrawer(Name, Path, Question, Show, Max, Mode, null, AbsoluteSize, Mass);
 
                 break;
             }
             case R.id.again_page_button: {
-                barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode, null, AbsoluteSize);
+                barListener.BarDrawer(Name, Path, Question, Show, Max, Mode, null, AbsoluteSize, Mass);
                 break;
             }
 
-            case R.id.main_page_button: {
 
-                int mass[] = new int[AbsoluteSize];
-                for (int i = 0; i < AbsoluteSize; i++) {
-                    mass[i] = i + 1;
-                }
-                XmlTestLoader loader = new XmlTestLoader(Path, getActivity().getAssets(), mass);
-                Log.v("Baba", Integer.toString(AbsoluteSize)  +" " + Path);
-
-                TestStructure Questions[] = loader.getTestStructure();
-
-                barListener.BarDrawer(Name, Path, Questions, Show, AbsoluteSize, Mode, null, AbsoluteSize);
-                break;
-            }
         }
 
     }
@@ -90,22 +86,25 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     }
 
     //Name, Path, Questions, 1, Show, false, 0, Max, Mode
-    public void setMessage(int Result, int All, TestStructure Questions[],
+    public void setMessage(int Result, int All,
                            String Name,
                            String Path,
                            boolean Show,
                            int Max,
                            int Mode,
-                           int[] MistakesIndexesArray) {
+                           int[] MistakesIndexesArray,
+                           int[] Mass,
+                           int AbsoluteSize) {
         this.All = All;
         this.Result = Result;
-        this.Questions = Questions;
         this.Name = Name;
         this.Path = Path;
         this.Show = Show;
         this.Max = Max;
         this.Mode = Mode;
         this.MistakesIndexesArray = MistakesIndexesArray;
+        this.Mass = Mass;
+        this.AbsoluteSize = AbsoluteSize;
     }
 
     @Override
@@ -123,20 +122,9 @@ public class ResultPage extends Fragment implements View.OnClickListener {
             Mode = savedInstanceState.getInt("mode");
             MistakesIndexesArray = savedInstanceState.getIntArray("MistakesIndexesArray");
             AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
+            Mass = savedInstanceState.getIntArray("mass");
 
-            /*
-            ResultFragmentPacerable question;
-            question = savedInstanceState.getParcelable("questions");
-            Questions = question.getTestStruscture();*/
 
-            //Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
-
-            Parcelable[] allParcelables = savedInstanceState.getParcelableArray("questions");
-            Questions = new TestStructure[allParcelables.length];
-
-            for (int i = 0 ; i < allParcelables.length; i++) {
-                Questions[i] = (TestStructure)allParcelables[i];
-            }
         }
 
         final View view = inflater.inflate(R.layout.fragment_result_page, container, false);
@@ -168,18 +156,14 @@ public class ResultPage extends Fragment implements View.OnClickListener {
                 + Integer.toString(All));
 
         Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
-        //Button again = (Button) view.findViewById(R.id.again_page_button);
+
         Button main = (Button) view.findViewById(R.id.main_page_button);
         main.setVisibility(View.GONE);
 
-        if(MistakesIndexesArray.length==0)  {
+        if(MistakesIndexesArray == null)  {
             mistakes.setVisibility(View.GONE);
         }
-        if(Max == AbsoluteSize) {
-            //again.setVisibility(View.GONE);
 
-
-        }
     }
 
     @Override
@@ -222,56 +206,8 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         outState.putInt("mode", Mode);
         outState.putIntArray("MistakesIndexesArray", MistakesIndexesArray);
         outState.putInt("AbsoluteSize", AbsoluteSize);
-
-        /*
-        ResultFragmentPacerable question = new ResultFragmentPacerable();
-        question.setTestStruscture(Questions);
-        outState.putParcelable("questions", question);
-        */
-        outState.putParcelableArray("questions", Questions);
-    }
-
-    /*
-    public class ResultFragmentPacerable implements Parcelable {
-        private TestStructure Questions[];
-        private int mData;
-
-        public int describeContents() {
-            return 0;
-        }
-
-        public void writeToParcel(Parcel out, int flags) {
-            out.writeInt(mData);
-        }
-
-        public final Parcelable.Creator<ResultFragmentPacerable> CREATOR
-                = new Parcelable.Creator<ResultFragmentPacerable>() {
-            public ResultFragmentPacerable createFromParcel(Parcel in) {
-                return new ResultFragmentPacerable(in);
-            }
-
-            public ResultFragmentPacerable[] newArray(int size) {
-                return new ResultFragmentPacerable[size];
-            }
-        };
-
-        private ResultFragmentPacerable(Parcel in) {
-            mData = in.readInt();
-        }
-
-        private ResultFragmentPacerable() {
-        }
-
-        void setTestStruscture(TestStructure Questions[]) {
-            this.Questions = Questions;
-        }
-
-
-        TestStructure[] getTestStruscture() {
-            return Questions;
-        }
+        outState.putIntArray("mass", Mass);
 
     }
-    */
 
 }

@@ -18,10 +18,12 @@ class XmlTestLoader {
     private String FileName;
     private int iSize;
     private String size;
-    private TestStructure Questions[];
+    //private TestStructure Questions[];
+    private TestStructure Questions;
     private static final String TAG = "TestLoader";
     private String Path;
     private String Name;
+
 
     XmlTestLoader(String fileName, AssetManager assetManager) {
         FileName = fileName;
@@ -41,17 +43,31 @@ class XmlTestLoader {
 
         }
         catch (Exception e){
-            Log.v(TAG, "Error while loading...");}
+            Log.v(TAG, "Error while loading1...");}
     }
 
-    XmlTestLoader(String fileName, AssetManager assetManager, int mass[]) {
+    XmlTestLoader(String fileName, AssetManager assetManager, int mass) {
         FileName = fileName;
 
-        int AbstractSize = 0;
-        TestStructure allQuestions[] = new TestStructure[mass.length];
+        TestStructure allQuestions = null;
 
         try {
-            InputStream is = assetManager.open(FileName + ".xml");
+
+            int del = 250;
+            double src = mass/((double)del);
+            //int code = (int)src;
+            int code = (int)(src);
+            double ost = src - code;
+            if(ost==0) {
+                code = code-1;
+            }
+            String s_code = Integer.toString(code);
+            if (code == 0.0) {
+                s_code ="";
+            }
+            Log.v(TAG, FileName + " " + Integer.toString(mass) + " " + s_code);
+            Log.v(TAG, "Size " + code + " " + s_code + " " + mass);
+            InputStream is = assetManager.open(FileName + s_code+ ".xml");
 
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -60,45 +76,18 @@ class XmlTestLoader {
             NodeList quize = doc.getElementsByTagName("quize");
             Node node = quize.item(0);
             Element el = (Element) node;
-            Path = el.getAttribute("file");
+            Path = FileName;
             Name = el.getAttribute("name");
-
 
             NodeList nList = doc.getElementsByTagName("question");
 
-            main:
-            // i < SIZE?
-            for (int i = 0; i < mass.length; i++) {
-
-                //Вернуть в случае ошибок
-                //if (AbstractSize == mass.length) break;
-                //Вернуть в случае ошибок
-                //Node nNode = nList.item(i);
-                Node nNode = nList.item(mass[i]-1);
+            Node nNode = nList.item(mass - 1 - code * del);
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) nNode;
 
                     String ID = element.getAttribute("id");
                     int id = Integer.parseInt(ID);
-                    boolean flag = false;
-
-                    //Вернуть в случае ошибок
-                    /*
-                    //Log.v(TAG, "ОШИБКА " + Integer.toString(mass.length));
-                    for (int j = 0; j < mass.length; j++) {
-
-                        //Log.v(TAG, "ОШИБКА2 " + Integer.toString(id) + " " + Integer.toString(mass[j]));
-                        if (mass[j] == id) {
-                            flag = true;
-                            //Log.v(TAG, "ОШИБКА3 " + Integer.toString(id));
-                        }
-
-                        if (flag) break;
-                    }
-
-                    //if (!flag) continue;
-                    */
 
                     String TYPE = element.getAttribute("type");
                     int type = Integer.parseInt(TYPE);
@@ -134,15 +123,6 @@ class XmlTestLoader {
                                     String s_Flag = element_Second.getAttribute("flag");
 
                                     Flag[mass_size] = !(s_Flag.equals("0"));
-
-                                    /*
-                                    if (s_Flag.equals("0")) {
-                                        Flag[mass_size] = false;
-                                    } else {
-                                        Flag[mass_size] = true;
-                                    }*/
-
-
                                     Log.v(TAG, Options[mass_size] + " " + Flag[mass_size]);
                                     mass_size++;
                                 }
@@ -159,8 +139,8 @@ class XmlTestLoader {
                         Log.v(TAG, " " + "ID"  + " " + id);
                         question.setID(id);
 
-                        allQuestions[AbstractSize] = question;
-                        AbstractSize++;
+                        allQuestions = new TestCheckBox();
+                        allQuestions = question;
                     }
                     else {
                         if (type == 2) {
@@ -243,12 +223,6 @@ class XmlTestLoader {
                                         if (nNode_Second.getNodeName().equals("child")) {
 
                                             Children[mass_size_y] = nNode_Second.getTextContent();
-                                            //Element element_Second = (Element) nNode_Second;
-                                            //String s_Flag = element_Second.getAttribute("pair");
-
-                                            //Relations[mass_size_y] = Integer.parseInt(s_Flag);
-
-                                            //Log.v(TAG, Children[mass_size_y] + " " + Relations[mass_size_y]);
                                             mass_size_y++;
 
                                         }
@@ -266,16 +240,16 @@ class XmlTestLoader {
                             question.setRelations(Relations);
                             question.setID(id);
 
-                            allQuestions[AbstractSize] = question;
-                            AbstractSize++;
+                            allQuestions = new MultipleChoices();
+                            allQuestions = question;
                         }
                     }
 
                 }
-            }
+
             Questions = allQuestions;
         } catch (Exception e) {
-            Log.v(TAG, "Error while loading...");
+            Log.v(TAG, "Error while loading2...");
         }
     }
 
@@ -287,7 +261,7 @@ class XmlTestLoader {
     String getPath() {return Path;}
     public String getName() {return Name;}
 
-    TestStructure[] getTestStructure() {
+    TestStructure getTestStructure() {
         return Questions;
     }
 

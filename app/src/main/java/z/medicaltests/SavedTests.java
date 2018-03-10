@@ -116,22 +116,17 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                             break;
                         }
                     }
-                    int mass[];
-
-                    mass = MainWindow.Randomize(savedBundle[it].getMaxSize());
-
-                    XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(),
-                            getActivity().getAssets(),
-                            savedBundle[it].getMassive());
-
-                    TestStructure Questions[] = loader.getTestStructure();
 
 
                     TestFragmentCheckBox fragment;
                     fragment = new TestFragmentCheckBox();
+
+                    XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(), getActivity().getAssets(), savedBundle[it].getNumber());
+                    TestStructure Question = loader.getTestStructure();
+
                     fragment.SetMessage(savedBundle[it].getName(),
                             savedBundle[it].getPath(),
-                            Questions,
+                            Question,
                             savedBundle[it].getNumber(),
                             savedBundle[it].getShow(),
                             false,
@@ -139,7 +134,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                             savedBundle[it].getMaxSize(),
                             0,
                             savedBundle[it].getMistakes(),
-                            savedBundle[it].getAbsoluteSize());
+                            savedBundle[it].getAbsoluteSize(), savedBundle[it].getMassive());
 
                     FragmentTransaction ft = getFragmentManager().beginTransaction();
                     ft.replace(R.id.content_frame, fragment, "fragment");
@@ -206,22 +201,16 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                                     break;
                                 }
                             }
-                            int mass[];
 
-                            mass = MainWindow.Randomize(savedBundle[it].getMaxSize());
-
-                            XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(),
-                                    getActivity().getAssets(),
-                                    savedBundle[it].getMassive());
-
-                            TestStructure Questions[] = loader.getTestStructure();
-
+                            XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(), getActivity().getAssets(),
+                                    savedBundle[it].getMassive()[savedBundle[it].getNumber()-1]);
+                            TestStructure Question = loader.getTestStructure();
 
                             TestFragmentCheckBox fragment;
                             fragment = new TestFragmentCheckBox();
                             fragment.SetMessage(savedBundle[it].getName(),
                                     savedBundle[it].getPath(),
-                                    Questions,
+                                    Question,
                                     savedBundle[it].getNumber(),
                                     savedBundle[it].getShow(),
                                     false,
@@ -229,7 +218,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                                     savedBundle[it].getMaxSize(),
                                     0,
                                     savedBundle[it].getMistakes(),
-                                    savedBundle[it].getAbsoluteSize());
+                                    savedBundle[it].getAbsoluteSize(), savedBundle[it].getMassive());
 
                             FragmentTransaction ft = getFragmentManager().beginTransaction();
                             ft.replace(R.id.content_frame, fragment, "fragment");
@@ -444,20 +433,6 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                         R.layout.list_source,
                         Strokes);
 
-
-            /*
-            AdapterView.OnItemClickListener itemClickListener =
-                    new AdapterView.OnItemClickListener(){
-                        public void onItemClick(AdapterView<?> listView,
-                                                View v,
-                                                int position,
-                                                long id) {
-                            if (listener != null) {
-                                listener.itemClicked(id, Files, Test);
-                            }
-                        }
-                    };*/
-
                 listView.setAdapter(adapter);
                 listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 
@@ -480,7 +455,6 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                 TextView textView = (TextView) view.findViewById(R.id.ww);
                 textView.setVisibility(View.GONE);
 
-                //listView.setOnItemClickListener(itemClickListener);
             }
             else {
                 TextView textView = (TextView) view.findViewById(R.id.ww);
@@ -640,47 +614,6 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
     }
 
-/*
-    public class SavedTestParcerable implements Parcelable {
-        private SavedBundle savedBundle[];
-        private int mData;
-
-        public int describeContents() {
-            return 0;
-        }
-
-        public void writeToParcel(Parcel out, int flags) {
-            out.writeInt(mData);
-        }
-
-        public final Parcelable.Creator<SavedTests.SavedTestParcerable> CREATOR
-                = new Parcelable.Creator<SavedTests.SavedTestParcerable>() {
-            public SavedTests.SavedTestParcerable createFromParcel(Parcel in) {
-                return new SavedTests.SavedTestParcerable(in);
-            }
-
-            public SavedTests.SavedTestParcerable[] newArray(int size) {
-                return new SavedTests.SavedTestParcerable[size];
-            }
-        };
-
-        private SavedTestParcerable(Parcel in) {
-            mData = in.readInt();
-        }
-
-        private SavedTestParcerable() {
-        }
-
-        void setSavedBundle(SavedBundle savedBundle[]) {
-            this.savedBundle = savedBundle;
-        }
-
-         SavedBundle[] getSavedBundle() {
-            return savedBundle;
-        }
-    }
-    */
-
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
 
@@ -689,12 +622,6 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         savedInstanceState.putStringArray("strokes", Strokes);
         savedInstanceState.putBoolean("condition", condition);
         savedInstanceState.putBooleanArray("isChecked", isChecked);
-
-        /*
-        SavedTests.SavedTestParcerable question = new SavedTests.SavedTestParcerable();
-        question.setSavedBundle(savedBundle);
-        savedInstanceState.putParcelable("question", question);
-        */
         savedInstanceState.putParcelableArray("question", savedBundle);
     }
 }

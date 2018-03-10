@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quize size="652" file="genes1" name = "Генетика">
+	<question id = "251" size = "5" type = "1">
+            <text>Голандрически наследуются</text>
+            <item flag = "0">Гемофилия</item>
+            <item flag = "0">Дальтонизм</item>
+            <item flag = "0">Пигментная ксеродерма</item>
+            <item flag = "1">Гипертрихоз мочки уха</item>
+            <item flag = "0">Витаминоустойчивый рахит</item>
+    </question>
+	<question id = "252" size = "5" type = "1">
+            <text>В гомологичных участках X и Y-хромосом расположены гены</text>
+            <item flag = "0">Дальтонизма</item>
+            <item flag = "1">Пигментной ксеродермы</item>
+            <item flag = "1">Геморрагического диатеза</item>
+            <item flag = "0">Мышечной дистрофии</item>
+            <item flag = "1">Общей цветовой слепоты</item>
+    </question>
+	<question id = "253" size = "5" type = "1">
+            <text>Рецессивные гемизиготные признаки проявляются чаще у мужчин, потому что</text>
+            <item flag = "0">Кодируются только одним геном у женщин</item>
+            <item flag = "1">Кодируются только одним геном у мужчин</item>
+            <item flag = "0">Регулируются мужскими половыми органами</item>
+            <item flag = "0">Регулируются женскими половыми органами</item>
+            <item flag = "0">Становятся доминантными у мужчин</item>
+    </question>
+	<question id = "254" size = "5" type = "1">
+            <text>Гемизиготными называют признаки, которые наследуются</text>
+            <item flag = "1">Только через Y-хромосому</item>
+            <item flag = "0">Через X и Y-хромосомы, составляя аллель</item>
+            <item flag = "1">Только через X-хромосому</item>
+            <item flag = "0">Если оба аллеля кодируют одинаковое проявление признаков</item>
+            <item flag = "0">Аутосомно</item>
+    </question>
+	<question id = "255" size = "5" type = "1">
+            <text>К гемизиготным признакам у мужчин относят</text>
+            <item flag = "1">Гемофилию</item>
+            <item flag = "1">Гипертрихоз мочки уха</item>
+            <item flag = "1">Дальтонизм</item>
+            <item flag = "0">Альбинизм</item>
+            <item flag = "0">Полидактилию</item>
+    </question>
+	<question id = "256" size = "5" type = "1">
+            <text>Гемизиготность - это наличие</text>
+            <item flag = "1">Гена в генотипе в единственном числе</item>
+            <item flag = "0">Более двух аллелей гена в генотипе</item>
+            <item flag = "0">Более двух аллелей одного гена в гомологичных хромосомах</item>
+            <item flag = "0">Серии аллелей одного гена в популяции</item>
+            <item flag = "0">Одного из двух аллелей в неактивном состоянии</item>
+    </question>
+	<question id = "257" size = "5" type = "1">
+            <text>У человека гомизиготно наследуются</text>
+            <item flag = "1">Гемофилия</item>
+            <item flag = "1">Дальтонизм</item>
+            <item flag = "0">Пигментная ксеродерма</item>
+            <item flag = "1">Гипертрихоз мочки уха</item>
+            <item flag = "1">Витаминоустойчивый рахит</item>
+    </question>
+	<question id = "258" size = "5" type = "1">
+            <text>Признаки, ограниченные полом</text>
+            <item flag = "1">Продукция молока</item>
+            <item flag = "0">Облысение</item>
+            <item flag = "0">Вторичные половые признаки</item>
+            <item flag = "0">Биосинтез половых гормонов</item>
+            <item flag = "0">Фенилкетонурия</item>
+    </question>
+	<question id = "259" size = "5" type = "1">
+            <text>Ограниченные полом признаки</text>
+            <item flag = "1">"Молчат" у одного из полов</item>
+            <item flag = "0">Регулируются половыми гормонами</item>
+            <item flag = "1">Реализуются в фенотипе только у одного из полов</item>
+            <item flag = "0">Не передаются по наследству одному из полов</item>
+            <item flag = "0">Проявляются с разной экспрессивностью у разных полов</item>
+    </question>
+	<question id = "260" size = "5" type = "1">
+            <text>Признаки, зависимые от пола</text>
+            <item flag = "0">"Молчат" у одного из полов</item>
+            <item flag = "1">Регулируются половыми гормонами</item>
+            <item flag = "0">Реализуются в фенотипе только у одного из полов</item>
+            <item flag = "0">Не передаются по наследству одному из полов</item>
+            <item flag = "1">Проявляются с разной экспрессивностью у разных полов</item>
+    </question>
+	<question id = "261" size = "5" type = "1">
+            <text>Синдром тестикулярной феминизации характеризуется</text>
+            <item flag = "0">Мужским фенотипом при женском кариотипе</item>
+            <item flag = "1">Бесплодием</item>
+            <item flag = "1">Женским фенотипом при мужском кариотипе</item>
+            <item flag = "1">Неспособностью клеток воспринимать андрогены</item>
+            <item flag = "1">Гомозиготностью по рецессиву tfm (transformer)</item>
+    </question>
+	<question id = "262" size = "5" type = "1">
+            <text>Генотип и фенотип человека с синдромом Морриса</text>
+            <item flag = "0">Женский генотип, мужской фенотип</item>
+            <item flag = "1">Мужской генотип, женский фенотип</item>
+            <item flag = "0">Одна часть тела имеет женский генотип, другая - мужской</item>
+            <item flag = "0">Увеличение половых хромосом XXY и женский фенотип</item>
+            <item flag = "0">Увеличение половых хромосом XYY и мужской фенотип</item>
+    </question>
+	<question id = "263" size = "5" type = "1">
+            <text>Наследственный материал максимально спирализован в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "264" size = "5" type = "1">
+            <text>Кариотип человека изучают в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>	
+	<question id = "265" size = "5" type = "1">
+            <text>Наследственный материал максимально деспирализован в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "0">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "1">Интерфазы</item>
+    </question>
+	<question id = "266" size = "5" type = "1">
+            <text>Тельце Барра изучают в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "0">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "1">Интерфазы</item>
+    </question>
+	<question id = "267" size = "5" type = "1">
+            <text>Наследственный материал максимально активен в период</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "0">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "1">Интерфазы</item>
+    </question>
+	<question id = "268" size = "5" type = "1">
+            <text>Наследственный материал функционально неактивен в периоды</text>
+            <item flag = "1">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "1">Анафазы</item>
+            <item flag = "1">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "269" size = "5" type = "1">
+            <text>Функционально неактивен весь генотип клетки в периоды</text>
+            <item flag = "1">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "1">Анафазы</item>
+            <item flag = "1">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "270" size = "5" type = "1">
+            <text>Структуру хромосом изучают в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "271" size = "5" type = "1">
+            <text>Определить пол человека можно в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "0">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "1">Интерфазы</item>
+    </question>
+	<question id = "272" size = "5" type = "1">
+            <text>Обнаружить нарушения структуры отдельных хромосом можно в клетках на стадии</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "273" size = "5" type = "1">
+            <text>Наследственный материал клетки максимально компактизован в фазе митотического цикла</text>
+            <item flag = "0">Профазы</item>
+            <item flag = "1">Метафазы</item>
+            <item flag = "0">Анафазы</item>
+            <item flag = "0">Телофазы</item>
+            <item flag = "0">Интерфазы</item>
+    </question>
+	<question id = "274" size = "5" type = "1">
+            <text>Компактизация наследственного материала обеспечивает</text>
+            <item flag = "0">Полноценную работу генов в интерфазе</item>
+            <item flag = "0">Активацию генов</item>
+            <item flag = "1">Укорочение наследственного материала</item>
+            <item flag = "1">Инактивацию генов</item>
+            <item flag = "1">Полноценное разделение наследственного материала в дочерние клетки</item>
+    </question>
+	<question id = "275" size = "5" type = "1">
+            <text>Эухроматин - это</text>
+            <item flag = "0">Суперспирализованный участок хромосомы</item>
+            <item flag = "1">Транскрибируемый участок хромосомы</item>
+            <item flag = "0">Одна из X-хромосом в компактизованном состоянии</item>
+            <item flag = "0">Хроматин в теломерных участках хромосом</item>
+            <item flag = "1">Генетически активный хроматин</item>
+    </question>
+	<question id = "276" size = "5" type = "1">
+            <text>Эухроматин - это хроматин</text>
+            <item flag = "0">Генетически неактивный</item>
+            <item flag = "0">В окрашенных участках хромосом</item>
+            <item flag = "1">Деспирализованный</item>
+            <item flag = "1">В неокрашенных (невидимых) участках хромосом</item>
+            <item flag = "0">В области центромеры</item>
+    </question>
+	<question id = "277" size = "5" type = "1">
+            <text>Эухроматин - это хроматин</text>
+            <item flag = "1">Рыхлый, деспирализованный хроматин</item>
+            <item flag = "0">Нетранскрибируемый участок хромосомы</item>
+            <item flag = "1">Неокрашенный участок хромосомы</item>
+            <item flag = "1">Хроматин, образующий пуфы политенных хромосом</item>
+            <item flag = "0">Хроматин в теломерных участках хромосом</item>
+    </question>
+	<question id = "278" size = "5" type = "1">
+            <text>Эухроматин - это</text>
+            <item flag = "1">Деспирализованный (декомпактизованный) участок хромосом</item>
+            <item flag = "0">Спирализованный (компактизованный) участок хромосомы</item>
+            <item flag = "1">Генетически активный участок</item>
+            <item flag = "0">Генетически нефункционирующий участок</item>
+            <item flag = "0">Участок хромосомы, содержащий несколько молекул ДНК</item>
+    </question>
+	<question id = "279" size = "5" type = "1">
+            <text>Эухроматин ядра - это</text>
+            <item flag = "0">Компактизованная ДНК</item>
+            <item flag = "1">Декомпактизованная ДНК</item>
+            <item flag = "1">Генетически активная ДНК</item>
+            <item flag = "0">Генетически неактивная ДНК</item>
+            <item flag = "1">Компактизованная ДНК в форме нуклеосомной нити</item>
+    </question>
+	<question id = "280" size = "5" type = "1">
+            <text>Гетерохроматин - это</text>
+            <item flag = "0">Генетически активные участки хромосомы</item>
+            <item flag = "0">Неокрашенные участки хромосом</item>
+            <item flag = "1">Нетранскрибируемые участки хромосом</item>
+            <item flag = "1">Теломерные участки хромосом</item>
+            <item flag = "1">Одна из X-хромосом в спирализованном состоянии</item>
+    </question>
+	<question id = "281" size = "5" type = "1">
+            <text>Гетерохроматин - это</text>
+            <item flag = "1">Видимый хроматин в интерфазном ядре</item>
+            <item flag = "1">Нетранскрибируемые участки хромосом</item>
+            <item flag = "1">Компактизированный хроматин</item>
+            <item flag = "0">Деспирализованные участки хромосом</item>
+            <item flag = "0">Неокрашенные участки хромосом</item>
+    </question>
+	<question id = "282" size = "5" type = "1">
+            <text>Гетерохроматин - это</text>
+            <item flag = "1">Суперспирализованный хроматин</item>
+            <item flag = "0">Транскрибируемый хроматин</item>
+            <item flag = "0">Неокрашенные участки хромосом</item>
+            <item flag = "1">Тельце Барра или половой хроматин</item>
+            <item flag = "1">Функионально неактивный хроматин</item>
+    </question>
+	<question id = "283" size = "5" type = "1">
+            <text>Гетерохроматин - это ДНК</text>
+            <item flag = "1">Компактизованная</item>
+            <item flag = "0">Декомпактизованная</item>
+            <item flag = "0">Генетически активная</item>
+            <item flag = "1">Генетически неактивная</item>
+            <item flag = "0">Компактизованная в форме нуклеосомной нити</item>
+    </question>
+	<question id = "284" size = "5" type = "1">
+            <text>Гетерохроматин - это участок хромосомы</text>
+            <item flag = "1">Компактизированный</item>
+            <item flag = "0">Декомпактизованный</item>
+            <item flag = "1">Генетически нефункционирующий</item>
+            <item flag = "0">Генетически активный</item>
+            <item flag = "0">Из нескольких молекул ДНК</item>
+    </question>
+	<question id = "285" size = "5" type = "1">
+            <text>Структурный (конститутивный) хроматин</text>
+            <item flag = "0">Транскрибируемый хроматин</item>
+            <item flag = "0">Тельце Барра или половой хроматин</item>
+            <item flag = "1">Хроматин в теломерных участках хромосом</item>
+            <item flag = "1">Неактивный, нетранскрибируемый хроматин</item>
+            <item flag = "0">Деспирализованные участки хромосом</item>
+    </question>
+	<question id = "286" size = "5" type = "1">
+            <text>Характеристика структурного гетерохроматина</text>
+            <item flag = "1">Генетически неактивный материал</item>
+            <item flag = "1">Высоко спирализован на протяжении митотического цикла</item>
+            <item flag = "1">Прилегает к области центромеры</item>
+            <item flag = "0">Генетически активный материал</item>
+            <item flag = "0">Образуется при спирализации одной или двух гомологичных хромосом</item>
+    </question>
+	<question id = "287" size = "5" type = "1">
+            <text>Конститутивный гетерохроматин</text>
+            <item flag = "1">Расположен в области центромеры</item>
+            <item flag = "1">Расположен в области теломеров</item>
+            <item flag = "1">Постоянно неактивен</item>
+            <item flag = "0">Постоянно активен</item>
+            <item flag = "0">Не содержит генов</item>
+    </question>
+	<question id = "288" size = "5" type = "1">
+            <text>Нетранскрибируемые, высокоспирализованные участки ДНК на теломерных концах хромосом называют</text>
+            <item flag = "0">Эухроматином</item>
+            <item flag = "0">Половым хроматином</item>
+            <item flag = "1">Конститутивным хроматином</item>
+            <item flag = "0">Факультативным гетерохроматином</item>
+            <item flag = "0">Тельцем Барра</item>
+    </question>
+	<question id = "289" size = "5" type = "1">
+            <text>Факультативный гетерохроматин</text>
+            <item flag = "0">Постоянно неактивен</item>
+            <item flag = "1">Временно неактивен</item>
+            <item flag = "0">Расположен в области центромеры</item>
+            <item flag = "0">Расположен в области плеч</item>
+            <item flag = "1">Компактизованная X-хромосома</item>
+    </question>
+	<question id = "290" size = "5" type = "1">
+            <text>Факультативный гетерохроматин</text>
+            <item flag = "0">Генетически активный материал</item>
+            <item flag = "0">Активно транскрибируемый материал</item>
+            <item flag = "0">Генетический материал в теломерных участках хромосом</item>
+            <item flag = "1">Генетически неактивный материал</item>
+            <item flag = "1">Одна из X-хромосом в спирализованном состоянии</item>
+    </question>
+	<question id = "291" size = "5" type = "1">
+            <text>Для факультативного гетерохроматина характерно</text>
+            <item flag = "0">Прилегает к области центромеры</item>
+            <item flag = "0">Обнаруживается в метафазе</item>
+            <item flag = "1">Образует половой хроматин или тельце Барра</item>
+            <item flag = "1">Обнаруживается в интерфазе</item>
+            <item flag = "1">Генетически неактивый материал</item>
+    </question>
+	<question id = "292" size = "5" type = "1">
+            <text>Факультативный гетерохроматин</text>
+            <item flag = "1">Одна из X-хромосом в компактизованном состоянии</item>
+            <item flag = "0">Y-хромосома в компактизованном состоянии</item>
+            <item flag = "0">Генетический материал в теломерных участках хромосом</item>
+            <item flag = "1">Генетически неактивный материал</item>
+            <item flag = "0">Активно транскрибируемый наследственный материал</item>
+    </question>
+	<question id = "293" size = "5" type = "1">
+            <text>Факультативный гетерохроматин</text>
+            <item flag = "1">Генетически неактивный материал</item>
+            <item flag = "0">Генетически активный материал</item>
+            <item flag = "1">Образуется при спирализации одной из двух гомологичных хромосом</item>
+            <item flag = "0">Прилегает к области центромеры</item>
+            <item flag = "0">Активно транскрибируется</item>
+    </question>
+	<question id = "294" size = "5" type = "1">
+            <text>Тельце Барра</text>
+            <item flag = "0">Эухроматин ядра</item>
+            <item flag = "0">Структурный гетерохроматин</item>
+            <item flag = "1">Факультативный гетерохроматин</item>
+            <item flag = "1">Компактизованная X-хромосома в женском кариотипе</item>
+            <item flag = "0">Декомпактизованная X-хромосома в женском кариотипе</item>
+    </question>
+	<question id = "295" size = "5" type = "1">
+            <text>Половой хроматин или тельце Барра - это</text>
+            <item flag = "1">Генетически неактивная одно из двух X-хромосом в соматических клетках</item>
+            <item flag = "0">Генетически активная одна из двух X-хромосом в соматических клетках</item>
+            <item flag = "1">Факультативный гетерохроматин</item>
+            <item flag = "0">Структурный (конститутивный) гетерохроматин</item>
+            <item flag = "0">Эухроматин</item>
+    </question>
+	<question id = "296" size = "5" type = "1">
+            <text>Кариотип - это</text>
+            <item flag = "0">Система взаимодействующих генов диплоидной клетки</item>
+            <item flag = "0">Система взаимодействующих генов гаплоидной клетки</item>
+            <item flag = "1">Набор хромосом характерный для вида</item>
+            <item flag = "0">Набор хромосом половой клетки</item>
+            <item flag = "0">Систем взаимодействующих генов половой клетки</item>
+    </question>
+	<question id = "297" size = "5" type = "1">
+            <text>Кариотип - это</text>
+            <item flag = "0">Совокупность генов соматической клетки</item>
+            <item flag = "1">Набор хромосом характерный для вида</item>
+            <item flag = "0">Совокупность генов половой клетки</item>
+            <item flag = "0">Гены одной хромосомы</item>
+            <item flag = "0">Совокупность аутосом диплоидной клетки</item>
+    </question>
+	<question id = "298" size = "5" type = "1">
+            <text>Кариотип - это набор</text>
+            <item flag = "0">Генов соматической клетки</item>
+            <item flag = "0">Генов сперматозоида</item>
+            <item flag = "0">Генов яйцеклетки</item>
+            <item flag = "1">Хромосом характерный для вида</item>
+            <item flag = "0">Взаимодействующих аллельных генов половой клетки</item>
+    </question>
+	<question id = "299" size = "5" type = "1">
+            <text>Кариотип - это</text>
+            <item flag = "0">Гаплоидный набор хромосом, характерный для вида (дрозофила)</item>
+            <item flag = "1">Диплоидный набор хромосом, характерный для вида (человек)</item>
+            <item flag = "0">Набор аутосом вида</item>
+            <item flag = "1">Совокупность аутосом и гетеросом вида</item>
+            <item flag = "0">Набор генов диплоидной клетки</item>
+        </question>
+	<question id = "300" size = "5" type = "1">
+            <text>Кариотип человека состоит из</text>
+            <item flag = "0">Парных гетеросом и половых хромосом</item>
+            <item flag = "1">Парных аутосом и гетеросом</item>
+            <item flag = "0">Непарных аутосом и гетеросом</item>
+            <item flag = "0">Парных мета- и непарных телоцентрических хромосом</item>
+            <item flag = "1">Актро-, мета- и субметацентрических хромосом (человек)</item>
+    </question>
+	<question id = "301" size = "5" type = "1">
+            <text>Нормальный кариотип человека - это набор</text>
+            <item flag = "0">Непарных хромосом индивида</item>
+            <item flag = "0">Хромосом характерный для популяции</item>
+            <item flag = "0">Парных хромосом характерный для вида</item>
+            <item flag = "1">Парных хромосом индивида</item>
+            <item flag = "0">Непарных хромосом характерный для вида</item>
+    </question>
+	<question id = "302" size = "5" type = "1">
+            <text>Кариотип человека - это хромосомы в количестве (А - аутосомы)</text>
+            <item flag = "1">44A + XX</item>
+            <item flag = "1">46</item>
+            <item flag = "1">23 пары</item>
+            <item flag = "0">22A + XX</item>
+            <item flag = "0">22A+ XY</item>
+    </question>
+	<question id = "303" size = "5" type = "1">
+            <text>Кариотип дрозофилы - это хромосомы в количестве</text>
+            <item flag = "1">6A + XX</item>
+            <item flag = "1">8</item>
+            <item flag = "1">4 пары</item>
+            <item flag = "1">6A + XY</item>
+            <item flag = "0">4A + XX</item>
+        </question>
+	<question id = "304" size = "5" type = "1">
+            <text>Кариотип человека - это хромосомы в количестве</text>
+            <item flag = "0">22A+ XX</item>
+            <item flag = "0">48</item>
+            <item flag = "1">44A + XX</item>
+            <item flag = "0">23A + XY</item>
+            <item flag = "1">44A + XY</item>
+    </question>
+	<question id = "305" size = "5" type = "1">
+            <text>Кариотип дрозофилы - это хромосомы в количестве</text>
+            <item flag = "0">4A + XX</item>
+            <item flag = "1">6A + XY</item>
+            <item flag = "0">8A + XX</item>
+            <item flag = "1">8</item>
+            <item flag = "1">6A + XX</item>
+    </question>
+	<question id = "306" size = "5" type = "1">
+            <text>Кариотип - это</text>
+            <item flag = "1">Совокупность хромосом организма, локализованных в ядрах соматических клеток</item>
+            <item flag = "0">Гаплоидный набор хромосом половой клетки</item>
+            <item flag = "1">Диплоидный набор хромосом</item>
+            <item flag = "0">Аутосомы</item>
+            <item flag = "0">Гетерохромосомы</item>
+    </question>
+	<question id = "307" size = "5" type = "1">
+            <text>Метафазная хромосома</text>
+            <item flag = "0">Состоит из одной хроматиды</item>
+            <item flag = "1">Имеет первичную стяжку</item>
+            <item flag = "1">Состоит из двух хроматид</item>
+            <item flag = "0">Обязательно имеет вторичную стяжку</item>
+            <item flag = "0">Имеет плечи обязательно одинаковой длины</item>
+    </question>
+	<question id = "308" size = "5" type = "1">
+            <text>Концевые участки плеч хромосом</text>
+            <item flag = "0">Центромеры</item>
+            <item flag = "0">Хромомеры</item>
+            <item flag = "1">Теломеры</item>
+            <item flag = "0">Сателлиты</item>
+            <item flag = "0">Спутники</item>
+    </question>
+	<question id = "309" size = "5" type = "1">
+            <text>Функции центромеры (первичной стяжки)</text>
+            <item flag = "1">Делит хромосому на плечи</item>
+            <item flag = "0">Делит хромосому на хроматиды</item>
+            <item flag = "0">Отделяет от хромосом спутники</item>
+            <item flag = "0">Отделяет от хромосомы сателлит</item>
+            <item flag = "1">Центр организации микротрубочек</item>
+    </question>
+	<question id = "310" size = "5" type = "1">
+            <text>Центромера</text>
+            <item flag = "1">Первичная перетяжка</item>
+            <item flag = "0">Плечо хромосомы</item>
+            <item flag = "1">Место соединения хроматид</item>
+            <item flag = "0">Вторичная перетяжка</item>
+            <item flag = "0">Клеточный центр</item>
+	</question>	
+	<question id = "311" size = "5" type = "1">
+            <text>Функции вторичной перетяжки</text>
+            <item flag = "0">Делит хромосому на хроматиды</item>
+            <item flag = "1">Отделяет от хромосомы спутник</item>
+            <item flag = "0">Центр синтеза микротрубочек</item>
+            <item flag = "1">Отделяет от хромосомы сателлит</item>
+            <item flag = "1">Место образования ядрышка</item>
+    </question>
+	<question id = "312" size = "5" type = "1">
+            <text>Ядрышковые организаторы выполняют функции</text>
+            <item flag = "1">Содержат ген, кодирующие р-РНК</item>
+            <item flag = "1">Служат местом образования ядрышка</item>
+            <item flag = "1">Служат местом образования рибосом</item>
+            <item flag = "0">Служат местом образования ядерной мембраны</item>
+            <item flag = "0">Содержат гены, кодирующие т-РНК</item>
+    </question>
+	<question id = "313" size = "5" type = "1">
+            <text>По положению центромеры хромосомы делят на</text>
+            <item flag = "1">Равноплечие</item>
+            <item flag = "0">Политенные</item>
+            <item flag = "1">Акроцентрические</item>
+            <item flag = "0">Половые</item>
+            <item flag = "1">Телоцентрические</item>
+    </question>
+	<question id = "314" size = "5" type = "1">
+            <text>По положению центромеры хромосомы делят на</text>
+            <item flag = "0">Многонитчатые</item>
+            <item flag = "0">Аутосомы</item>
+            <item flag = "0">Кольцевые</item>
+            <item flag = "1">Метацентрические</item>
+            <item flag = "1">Акроцентрические</item>
+    </question>
+	<question id = "315" size = "5" type = "1">
+            <text>Метацентрическая хромосома в метафазе</text>
+            <item flag = "0">Обязательно имеет вторичную перетяжку</item>
+            <item flag = "1">Состоит из двух хроматид</item>
+            <item flag = "0">Имеет плечи неравной длины</item>
+            <item flag = "0">Состоит из одной хроматиды</item>
+            <item flag = "1">Имеет плечи одинаковой длины</item>
+    </question>
+	<question id = "316" size = "5" type = "1">
+            <text>Метацентрическая хромосома в метафазе</text>
+            <item flag = "0">Состоит из одной хроматиды</item>
+            <item flag = "0">Одно плечо значительно короче другого</item>
+            <item flag = "0">Обязательно имеет вторичную перетяжку</item>
+            <item flag = "1">Имеет плечи одинаковой длины</item>
+            <item flag = "1">Состоит из двух хроматид</item>
+    </question>
+	<question id = "317" size = "5" type = "1">
+            <text>Метацентрическая хромосома</text>
+            <item flag = "1">Равноплечая</item>
+            <item flag = "0">Неравноплечая</item>
+            <item flag = "1">Может иметь вторичную перетяжку</item>
+            <item flag = "0">Выраженно неравноплечая</item>
+            <item flag = "0">С первичной перетяжкой на конце</item>
+    </question>
+	<question id = "318" size = "5" type = "1">
+            <text>Субметацентрическая хромосома</text>
+            <item flag = "1">Неравноплечая</item>
+            <item flag = "1">Без вторичной перетяжки</item>
+            <item flag = "1">Может иметь вторичную перетяжку</item>
+            <item flag = "0">Равноплечая</item>
+            <item flag = "0">С первичной перетяжкой на конце</item>
+    </question>
+	<question id = "319" size = "5" type = "1">
+            <text>Субметацентрическая хромосома в метафазе имеет</text>
+            <item flag = "0">Плечи одинаковой длины</item>
+            <item flag = "1">Плечи неравной длины</item>
+            <item flag = "0">Одну хроматиду</item>
+            <item flag = "0">Обязательно спутника</item>
+            <item flag = "1">Две хроматиды</item>
+    </question>
+	<question id = "320" size = "5" type = "1">
+            <text>Акроцентрическая хромосома в метафазе имеет</text>
+            <item flag = "0">Плечи одинаковой длины</item>
+            <item flag = "1">Одно плечо значительно короче другого</item>
+            <item flag = "0">Одну хроматиду</item>
+            <item flag = "0">Обязательно спутника</item>
+            <item flag = "1">Две хроматиды</item>
+    </question>
+	<question id = "321" size = "5" type = "1">
+            <text>Акроцентрическая хромосома</text>
+            <item flag = "0">Равноплечая</item>
+            <item flag = "0">Без теломеров</item>
+            <item flag = "1">Неравноплечая</item>
+            <item flag = "0">Без центромеры</item>
+            <item flag = "1">С первичной перетяжкой почти на конце</item>
+    </question>
+	<question id = "322" size = "5" type = "1">
+            <text>По количеству нитей ДНК выделяют хромосомы</text>
+            <item flag = "0">Акроцентрические</item>
+            <item flag = "1">Аутосомы</item>
+            <item flag = "0">Половые</item>
+            <item flag = "0">Гетеросомы</item>
+            <item flag = "1">Политенные</item>
+    </question>
+	<question id = "323" size = "5" type = "1">
+            <text>Политения - это</text>
+            <item flag = "0">Спирализация одной из двух гомологичных хромосом</item>
+            <item flag = "1">Одновременное присутствие нескольких двойных спиралей ДНК в хромосоме</item>
+            <item flag = "0">Присутствие одной двойной спирали ДНК в хромосоме</item>
+            <item flag = "0">Присутствие двух двойных спиралей ДНК в хромосоме</item>
+            <item flag = "1">Большое количество хромомер в хромосоме</item>
+    </question>
+	<question id = "324" size = "5" type = "1">
+            <text>Аутосомы - это хромосомы</text>
+            <item flag = "1">По которым самцы и самки не отличаются</item>
+            <item flag = "0">По которым самки отличаются от самцов</item>
+            <item flag = "0">Встречаются только у самок</item>
+            <item flag = "0">Встречаются только у самцов</item>
+            <item flag = "1">Характерны для самцов и самок</item>
+    </question>
+	<question id = "325" size = "5" type = "1">
+            <text>Аутосомы</text>
+            <item flag = "1">Отвечают за формообразующие процессы</item>
+            <item flag = "0">Отвечают за развитие первичных половых признаков</item>
+            <item flag = "0">Отвечают за развитие вторичных половых признаков</item>
+            <item flag = "0">Различаются у особей мужского и женского пола</item>
+            <item flag = "1">Одинаковые у особей мужского и женского пола</item>
+    </question>
+	<question id = "326" size = "5" type = "1">
+            <text>Половые хромосомы - это хромосомы</text>
+            <item flag = "1">По которым один пол отличается от другого</item>
+            <item flag = "1">Несущие гены, отвечающие за половую дифференцировку</item>
+            <item flag = "0">Имеющиеся только у одного из полов</item>
+            <item flag = "0">По которым один пол не отличается от другого</item>
+            <item flag = "1">X и Y</item>
+    </question>
+	<question id = "327" size = "5" type = "1">
+            <text>Половые хромосомы</text>
+            <item flag = "0">Отвечают за формообразующие процессы</item>
+            <item flag = "1">Отвечают за развитие первичных половых признаков</item>
+            <item flag = "0">Отвечают за развитие вторичных половых признаков</item>
+            <item flag = "1">Различаются у особей женского и мужского пола</item>
+            <item flag = "0">Одинаковые у особей женского и мужского пола</item>
+    </question>
+	<question id = "328" size = "5" type = "1">
+            <text>Половые хромосомы человека в клетках</text>
+            <item flag = "1">Женского организма  одинаковые</item>
+            <item flag = "0">Мужского организма - образуют половой хроматин</item>
+            <item flag = "0">Женского организма - разные</item>
+            <item flag = "0">Мужского организма - одинаковые</item>
+            <item flag = "1">Женского организма образуют тельце Барра</item>
+    </question>
+	<question id = "329" size = "5" type = "1">
+            <text>Y-хромосому относят к</text>
+            <item flag = "0">Метацентрикам</item>
+            <item flag = "0">Средним субметацентрикам</item>
+            <item flag = "0">Телоцентрикам</item>
+            <item flag = "0">Средним акроцентрикам</item>
+            <item flag = "1">Мелким акроцентрикам</item>
+    </question>
+	<question id = "330" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющие мужской пол человека</text>
+            <item flag = "0">Крупная</item>
+            <item flag = "1">Мелкая</item>
+            <item flag = "0">X-хромосома</item>
+            <item flag = "1">Y-хромосома</item>
+            <item flag = "0">Метацентрическая</item>
+    </question>
+	<question id = "331" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющей мужской пол человека</text>
+            <item flag = "0">Крупная</item>
+            <item flag = "0">X-хромосома</item>
+            <item flag = "1">Y-хромосома</item>
+            <item flag = "1">Акроцентрическая</item>
+            <item flag = "0">Содержит вторичную перетяжку</item>
+    </question>
+	<question id = "332" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющей мужской пол человека</text>
+            <item flag = "0">Может образовывать половой хроматин</item>
+            <item flag = "0">Средняя</item>
+            <item flag = "1">Акроцентирческая</item>
+            <item flag = "0">X-хромосома</item>
+            <item flag = "1">Y-хромосома</item>
+    </question>
+	<question id = "333" size = "5" type = "1">
+            <text>X-хромосому относят к</text>
+            <item flag = "0">Метацентрикам</item>
+            <item flag = "1">Средним субметацентрикам</item>
+            <item flag = "0">Телоцентрикам</item>
+            <item flag = "0">Средним акроцентрикам</item>
+            <item flag = "0">Мелким акроцентрикам</item>
+    </question>
+	<question id = "334" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющие женский пол человека</text>
+            <item flag = "1">Средняя</item>
+            <item flag = "0">Мелкая</item>
+            <item flag = "1">X-хромосома</item>
+            <item flag = "0">Y-хромосома</item>
+            <item flag = "1">Метацентрическая</item>
+    </question>
+	<question id = "335" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющие женский пол человека</text>
+            <item flag = "0">Акроцентирческая</item>
+            <item flag = "1">Субметацентрическая</item>
+            <item flag = "1">Средняя</item>
+            <item flag = "1">X-хромосома</item>
+            <item flag = "0">Y-хромосома</item>
+    </question>
+	<question id = "336" size = "5" type = "1">
+            <text>Признаки хромосомы, определяющие женский пол человека</text>
+            <item flag = "0">Акроцентирческая</item>
+            <item flag = "1">Может образовывать тельце Барра</item>
+            <item flag = "0">Крупная</item>
+            <item flag = "1">X-хромосома</item>
+            <item flag = "0">Y-хромосома</item>
+    </question>
+	<question id = "337" size = "5" type = "1">
+            <text>Половой хроматин или тельце Барра</text>
+            <item flag = "0">Одна из X-хромосом в деспирализованном состоянии</item>
+            <item flag = "1">Факультативный гетерохроматин</item>
+            <item flag = "1">Одна из X-хромосом в спирализованном состоянии</item>
+            <item flag = "0">Структурный гетерохроматин</item>
+            <item flag = "0">Эухроматин</item>
+    </question>
+	<question id = "338" size = "5" type = "1">
+            <text>Структурная единица хромосомы</text>
+            <item flag = "0">Нуклеозид</item>
+            <item flag = "0">Нуклеоид</item>
+            <item flag = "1">Нуклеосома</item>
+            <item flag = "0">Кор</item>
+            <item flag = "0">Нуклеотид</item>
+    </question>
+	<question id = "339" size = "5" type = "1">
+            <text>Нуклеосома состоит из</text>
+            <item flag = "0">Белка H-1</item>
+            <item flag = "1">Линкерной ДНК</item>
+            <item flag = "1">Белкового кора</item>
+            <item flag = "1">Участка ДНК (около 140 п.н)</item>
+            <item flag = "0">Негистоновых белков</item>
+    </question>
+	<question id = "340" size = "5" type = "1">
+            <text>В состав нуклеосомы входят</text>
+            <item flag = "1">ДНК</item>
+            <item flag = "0">Гистон</item>
+            <item flag = "1">Кор</item>
+            <item flag = "1">Линкер</item>
+            <item flag = "0">Негистоновые белки</item>
+    </question>
+	<question id = "341" size = "5" type = "1">
+            <text>Нуклеосома имеет структуры</text>
+            <item flag = "1">Белковый октамер</item>
+            <item flag = "0">Негистоновые белки</item>
+            <item flag = "1">Линкерный участок ДНК</item>
+            <item flag = "1">Участок ДНК (около 140 п.н)</item>
+            <item flag = "0">Белок H-1</item>
+    </question>
+	<question id = "342" size = "5" type = "1">
+            <text>Нуклеосома имеет структуры</text>
+            <item flag = "1">Кор, состоящий из восьми молекул гистонов</item>
+            <item flag = "0">Отрезок молекулы ДНК, компактизованный в спираль</item>
+            <item flag = "1">Белковое тело в форме шайбы из гистонов H2A, H2B, H3, H4</item>
+            <item flag = "1">Отрезок молекулы ДНК вместе с белковым кором (около 200 п.н)</item>
+            <item flag = "1">Линкерная ДНК</item>
+    </question>
+	<question id = "343" size = "5" type = "1">
+            <text>Химические компоненты кора</text>
+            <item flag = "1">Гистоны H2A</item>
+            <item flag = "1">Гистоны H3, H4</item>
+            <item flag = "0">ДНК</item>
+            <item flag = "0">H1</item>
+            <item flag = "0">Негистоновые белки</item>
+    </question>
+	<question id = "344" size = "5" type = "1">
+            <text>Линкерная ДНК - это участок ДНК</text>
+            <item flag = "0">Закрученный вокруг белкового кора</item>
+            <item flag = "0">Бактерий</item>
+            <item flag = "1">Между двумя нуклеосомами</item>
+            <item flag = "0">Вируса</item>
+            <item flag = "0">Плазмиды</item>
+    </question>
+	<question id = "345" size = "5" type = "1">
+            <text>Линкеры</text>
+            <item flag = "0">140 пар нуклеотидов</item>
+            <item flag = "1">15-100 пар нуклеотидов</item>
+            <item flag = "0">Гистоновые коры с ДНК</item>
+            <item flag = "1">Межнуклеосомные промежутки ДНК</item>
+            <item flag = "1">Участок ДНК, к которому прикреплен гистон 1</item>
+    </question>
+	<question id = "346" size = "5" type = "1">
+            <text>Нуклеосомный кор состоит из белков</text>
+            <item flag = "0">Негистоновых</item>
+            <item flag = "1">H2A</item>
+            <item flag = "1">H3</item>
+            <item flag = "0">H1</item>
+            <item flag = "1">H2B</item>
+    </question>
+	<question id = "347" size = "5" type = "1">
+            <text>Нуклеосомный кор</text>
+            <item flag = "0">Белковый октамер с накрученным на него участком ДНК</item>
+            <item flag = "1">Структура в виде шайбы из 8 гистоновых белков</item>
+            <item flag = "0">Структура в виде шайбы из 8 негистоновых белков</item>
+            <item flag = "0">Участок ДНК между нуклеосомами</item>
+            <item flag = "0">Нить из нуклеосом</item>
+    </question>
+	<question id = "348" size = "5" type = "1">
+            <text>Кор из нуклеосомы имеет гистоны</text>
+            <item flag = "0">H1</item>
+            <item flag = "1">H2A</item>
+            <item flag = "1">H2B</item>
+            <item flag = "1">H3</item>
+            <item flag = "1">H4</item>
+    </question>
+	<question id = "349" size = "5" type = "1">
+            <text>Диаметр нуклеосомы</text>
+            <item flag = "0">2 нм</item>
+            <item flag = "1">10 нм</item>
+            <item flag = "0">20 нм</item>
+            <item flag = "0">30 нм</item>
+            <item flag = "0">100 нм</item>
+    </question>
+	<question id = "350" size = "5" type = "1">
+            <text>Между собой нуклеосомы "сшиваются" белком гистоном</text>
+            <item flag = "0">H3</item>
+            <item flag = "0">H4</item>
+            <item flag = "0">H2A</item>
+            <item flag = "1">H1</item>
+            <item flag = "0">H2B</item>
+    </question>
+	<question id = "351" size = "5" type = "1">
+            <text>Нуклеосомная нить укорачивается за счет белка гистона</text>
+            <item flag = "0">H2A</item>
+            <item flag = "0">H2B</item>
+            <item flag = "0">H3</item>
+            <item flag = "0">H4</item>
+            <item flag = "1">H1</item>
+    </question>
+	<question id = "352" size = "5" type = "1">
+            <text>Прикрепляется к линкеру и стабилизирует связь нуклеосом</text>
+            <item flag = "1">H1</item>
+            <item flag = "0">H2A</item>
+            <item flag = "0">H3</item>
+            <item flag = "0">H4</item>
+            <item flag = "0">Негистоновые белки</item>
+    </question>
+	<question id = "353" size = "5" type = "1">
+            <text>Связь кор в нуклеосомах стабилизирует белок</text>
+            <item flag = "0">H2A</item>
+            <item flag = "0">Негистоновые белки</item>
+            <item flag = "1">H3</item>
+            <item flag = "0">H1</item>
+            <item flag = "0">H2B</item>
+	</question>
+	<question id = "354" size = "5" type = "1">
+            <text>Роль гистоновых белков в организации хроматина</text>
+            <item flag = "1">Структурная</item>
+            <item flag = "1">Участвуют в образовании нуклеосом</item>
+            <item flag = "1">Регулируют активность генов</item>
+            <item flag = "1">Обеспечивают репликацию</item>
+            <item flag = "1">Обеспечивают репарацию</item>
+	</question>
+	<question id = "355" size = "5" type = "1">
+            <text>Функции негистоновых белков хромосом</text>
+            <item flag = "0">Структурная</item>
+            <item flag = "1">Регуляторная</item>
+            <item flag = "1">Обеспечивают репликацию</item>
+            <item flag = "0">Входят в состав коры</item>
+            <item flag = "0">Обеспечивают связь кор в нуклеосомах</item>
+    </question>
+	<question id = "356" size = "5" type = "1">
+            <text>Особенности строения молекулы ДНК</text>
+            <item flag = "1">Двойная спираль</item>
+            <item flag = "1">Правовращающаяся</item>
+            <item flag = "0">Диаметр 10 нм</item>
+            <item flag = "1">Диаметр 2 нм</item>
+            <item flag = "0">Одинарная спираль</item>
+    </question>
+	<question id = "357" size = "5" type = "1">
+            <text>Особенности строения нуклеосомной нити</text>
+            <item flag = "1">Состоит из нуклеосом, соединённых участками линкерной ДНК</item>
+            <item flag = "0">Нить, уложенная петлями</item>
+            <item flag = "1">Упакована за счет "сшивания" линкерной ДНК белком H-1</item>
+            <item flag = "0">Нить укорачивается путем спирализации вокруг воображаемой оси</item>
+            <item flag = "0">диаметр 100 нм</item>
+    </question>
+	<question id = "358" size = "5" type = "1">
+            <text>Регуляцию компактизации ДНК в хроматине ядра осуществляют белки</text>
+            <item flag = "1">H1</item>
+            <item flag = "0">H2A</item>
+            <item flag = "0">H3</item>
+            <item flag = "0">H4</item>
+            <item flag = "1">Негистоновые</item>
+    </question>
+	<question id = "359" size = "5" type = "1">
+            <text>Гистоновые белки, участвующие в образовании нуклеосом</text>
+            <item flag = "0">H1</item>
+            <item flag = "1">H3</item>
+            <item flag = "1">H4</item>
+            <item flag = "1">H2A</item>
+            <item flag = "1">H2B</item>
+    </question>
+	<question id = "360" size = "5" type = "1">
+            <text>Диаметр нуклеосомной нити</text>
+            <item flag = "0">2 нм</item>
+            <item flag = "1">10 нм</item>
+            <item flag = "0">20 нм</item>
+            <item flag = "0">100 нм</item>
+            <item flag = "0">200 нм</item>
+    </question>
+	<question id = "361" size = "5" type = "1">
+            <text>Соленоид - это</text>
+            <item flag = "0">Нуклеосомная нить, уложенная в петли</item>
+            <item flag = "0">Кольцевая хромосома</item>
+            <item flag = "1">Упаковка нуклеосомной нити путем спирализации вокруг воображаемой оси</item>
+            <item flag = "1">Структура диаметром 20 нм</item>
+            <item flag = "0">Вариант упаковки метафазной хромосомы</item>
+    </question>
+		<question id = "362" size = "5" type = "1">
+            <text>Соленоид имеет</text>
+            <item flag = "0">Диаметр 10 нм</item>
+            <item flag = "0">Диаметр 200 нм</item>
+            <item flag = "1">Вид спирализованной нуклеосомной нити</item>
+            <item flag = "1">Диаметр 20-30 нм</item>
+            <item flag = "0">Петлеобразное укладывание наследственного материала</item>
+        </question>
+		<question id = "363" size = "5" type = "1">
+            <text>Глыбки хроматина интерфазного ядра образуются</text>
+            <item flag = "0">Петлеобразным укладыванием наследственного материала</item>
+            <item flag = "0">Спиралевидным укладыванием</item>
+            <item flag = "1">Конденсацией уложенных петель</item>
+            <item flag = "0">Укладыванием ДНК в нуклеосомную нить</item>
+            <item flag = "0">Конденсацией соленоидов</item>
+        </question>
+		<question id = "364" size = "5" type = "1">
+            <text>Интерфазная хромонема образуется</text>
+            <item flag = "0">Спиралевидным укладыванием наследственного материала</item>
+            <item flag = "1">Петлеобразным укладыванием наследственного материала</item>
+            <item flag = "1">Конденсацией уложенных петель</item>
+            <item flag = "1">Уменьшением длины ДНК в 1500 раз</item>
+            <item flag = "0">Уменьшением длины ДНК в 70 раз</item>
+        </question>
+		<question id = "365" size = "5" type = "1">
+            <text>Диаметр интерфазной хромонемы</text>
+            <item flag = "0">2 нм</item>
+            <item flag = "0">10 нм</item>
+            <item flag = "0">20 нм</item>
+            <item flag = "0">30 нм </item>
+            <item flag = "1">100 нм</item>
+        </question>
+		<question id = "366" size = "5" type = "1">
+            <text>Элементарная фибрилла имеет</text>
+            <item flag = "1">Диаметр 20-30 нм</item>
+            <item flag = "1">Меньше длины ДНК в 6 раз</item>
+            <item flag = "0">Диаметр до 200 нм</item>
+            <item flag = "0">Меньше длины ДНК в 40 раз</item>
+            <item flag = "1">Спиралевидное укладывание нуклеосомной нити</item>
+        </question>
+		<question id = "367" size = "5" type = "1">
+            <text>Диаметр элементарной фибриллы</text>
+            <item flag = "0">10 нм</item>
+            <item flag = "1">20 нм</item>
+            <item flag = "0">100 нм</item>
+            <item flag = "0">200 нм</item>
+            <item flag = "0">300 нм</item>
+        </question>
+		<question id = "368" size = "5" type = "1">
+            <text>Уровень компактизации наследственного материала, возникающий укладкой петлей</text>
+            <item flag = "0">Нуклеосомная нить</item>
+            <item flag = "0">Хроматиновая фибрилла</item>
+            <item flag = "0">Элементарная фибрилла</item>
+            <item flag = "0">Соленоид</item>
+            <item flag = "1">Интерфазная хромонема</item>
+        </question>
+		<question id = "369" size = "5" type = "1">
+            <text>Сверхспирализация метафазных хромосом осуществляется путем образования</text>
+            <item flag = "0">Нуклеосом</item>
+            <item flag = "1">Петель с участием негистоновых белков</item>
+            <item flag = "0">Петель</item>
+            <item flag = "0">Нуклеосомной нити</item>
+            <item flag = "0">Соленоида</item>
+        </question>
+		<question id = "370" size = "5" type = "1">
+            <text>Сверхспирализация метафазных хромосом осуществляется путем</text>
+            <item flag = "0">Спирализации нуклеосомной нити вокруг воображаемой оси</item>
+            <item flag = "0">Формирования нуклеосомной нити</item>
+            <item flag = "0">Сшивания нуклеосомной нити белком H-1</item>
+            <item flag = "1">Образования петель с участием негистоновых белков</item>
+            <item flag = "0">Образования соленоида</item>
+        </question>
+		<question id = "371" size = "5" type = "1">
+            <text>Хромосомы типа "ламповых щеток" - это хромосомы</text>
+            <item flag = "1">На стадии диктиотены оогенеза</item>
+            <item flag = "0">В слюнных железах насекомых</item>
+            <item flag = "1">Высокоспирализованные с участками деспирализованного, транскрибируемого хроматина в виде крупных петель (как ершик)</item>
+            <item flag = "0">Многонитчатые, гигантские хромосомы</item>
+            <item flag = "0">Кольцевые, свернутые в клубок</item>
+        </question>
+		<question id = "372" size = "5" type = "1">
+            <text>Хромосомы типа "ламповых щеток" - это хромосомы</text>
+            <item flag = "0">В слюнных железах некоторых насекомых</item>
+            <item flag = "0">Многонитчатые, гигантские</item>
+            <item flag = "0">На стадии лептотены оогенеза</item>
+            <item flag = "1">Высокоспирализованные с участками деспирализованного, транскрибируемого хроматина в виде крупных петель</item>
+            <item flag = "0">Кольцевые, свернутые в клубок</item>
+        </question>
+		<question id = "373" size = "5" type = "1">
+            <text>Спаренные мейотические хромосомы в растущих ооцитах с необычно крупными петлями деспирализации - это хромосомы</text>
+            <item flag = "0">Политенные</item>
+            <item flag = "0">Кольцевые</item>
+            <item flag = "1">Типа ламповых щеток</item>
+            <item flag = "0">Хромосомы с пуфами</item>
+            <item flag = "0">С кольцами Бальбиани</item>
+        </question>
+		<question id = "374" size = "5" type = "1">
+            <text>Политенные хромосомы - это хромосомы</text>
+            <item flag = "0">В слюнных железах некоторых насекомых</item>
+            <item flag = "0">На стадии диктиотены оогенеза</item>
+            <item flag = "1">Многонитчатые, гигантские</item>
+            <item flag = "0">С участками деспирализации в виде пуфов</item>
+            <item flag = "0">С участками деспирализации в виде колец Бальбиани</item>
+        </question>
+		<question id = "375" size = "5" type = "1">
+            <text>Политенные хромосомы</text>
+            <item flag = "0">Гигантские, многонитчатые хромосомы</item>
+            <item flag = "0">Кольцевые хромосомы</item>
+            <item flag = "1">Хромосомы на стадии диктиотены оогенеза</item>
+            <item flag = "1">Хромосомы в слюнных железах личинок насекомых</item>
+            <item flag = "1">Хромосомы с участками деспирализации в виде пуфов</item>
+        </question>
+		<question id = "376" size = "5" type = "1">
+            <text>Политенные хромосомы</text>
+            <item flag = "0">Встречаются во всех клетках</item>
+            <item flag = "0">Встречаются в половых клетках</item>
+            <item flag = "1">Состоят из большого числа молекул ДНК в ядре клетки</item>
+            <item flag = "1">Содержат кратное увеличение наследственного материала</item>
+            <item flag = "1">Встречаются в клетках слюнных желез личинок насекомых</item>
+        </question>
+		<question id = "377" size = "5" type = "1">
+            <text>Активно транскрибируемые области деспирализации на политенных хромосомах</text>
+            <item flag = "0">Ламповые щетки</item>
+            <item flag = "1">Пуфы</item>
+            <item flag = "0">Перетяжки</item>
+            <item flag = "0">Ядерный организатор</item>
+            <item flag = "0">Центромера</item>
+        </question>
+		<question id = "378" size = "5" type = "1">
+            <text>Особенности организации молекулы ДНК у прокариот</text>
+            <item flag = "1">Не содержит гистонов</item>
+            <item flag = "0">Содержит гистоны</item>
+            <item flag = "1">Имеет кольцевую структуру</item>
+            <item flag = "0">Образует хромосомы</item>
+            <item flag = "0">Имеет нуклеосомную организацию</item>
+        </question>
+		<question id = "379" size = "5" type = "1">
+            <text>Особенности наследственного материала у прокариот</text>
+            <item flag = "0">Все хромосомы имеют вторичные перетяжки</item>
+            <item flag = "0">Число хромосом характерно для вида</item>
+            <item flag = "1">Единственная хромосома кольцевого типа</item>
+            <item flag = "0">Единственная хромосома линейного типа</item>
+            <item flag = "1">Отсутствие гистоновых белков</item>
+        </question>
+		<question id = "380" size = "5" type = "1">
+            <text>Особенности наследственного материала прокариот</text>
+            <item flag = "1">Двойное кольцо ДНК</item>
+            <item flag = "0">Одинарное кольцо ДНК</item>
+            <item flag = "1">Отсутствие гистоновых белков</item>
+            <item flag = "0">Упаковка с образованием нуклеосом</item>
+            <item flag = "1">Наследственный материал не отделен от цитоплазмы</item>
+        </question>
+		<question id = "381" size = "5" type = "1">
+            <text>В митохондриальной ДНК</text>
+            <item flag = "0">Линейная форма</item>
+            <item flag = "1">Кольцевая форма</item>
+            <item flag = "0">Есть интроны</item>
+            <item flag = "1">Нет интронов</item>
+            <item flag = "1">Есть гены, кодирующие работу дыхательных систем клетки</item>
+        </question>
+		<question id = "382" size = "5" type = "1">
+            <text>Отсутствие гистонов в структуре хромосом присуще</text>
+            <item flag = "1">Прокариотам</item>
+            <item flag = "1">Бактериям</item>
+            <item flag = "0">Эукариотам</item>
+            <item flag = "1">Цианобактериям</item>
+            <item flag = "0">Клеткам растений</item>
+        </question>
+		<question id = "383" size = "5" type = "1">
+            <text>Опыты служащие первым доказательством роли ДНК как носительницы наследственной информации</text>
+            <item flag = "0">Гриффитса-Эвери</item>
+            <item flag = "0">Бидла-Татума</item>
+            <item flag = "1">По трансформации пневмококков</item>
+            <item flag = "0">Моргана</item>
+            <item flag = "0">Уотсона и Крика</item>
+        </question>
+		<question id = "384" size = "5" type = "1">
+            <text>ДНК характеризуют как</text>
+            <item flag = "0">Гомополимер</item>
+            <item flag = "1">Гетерополимер</item>
+            <item flag = "1">Нить толщиной 2 нм</item>
+            <item flag = "0">Нить толщиной 10 нм</item>
+            <item flag = "1">Двойную спиральную цепочку</item>
+        </question>
+		<question id = "385" size = "5" type = "1">
+            <text>Полинуклеотиды в молекуле ДНК образованы</text>
+            <item flag = "1">Фосфодиэфирными связями</item>
+            <item flag = "1">Ковалентными связями</item>
+            <item flag = "0">Водородными связями</item>
+            <item flag = "0">Дисульфидными мостиками</item>
+            <item flag = "0">Ионными связями</item>
+        </question>
+		<question id = "386" size = "5" type = "1">
+            <text>Две полинуклеотидные цепочки в молекуле ДНК связаны</text>
+            <item flag = "0">Фосфодиэфирными связями</item>
+            <item flag = "0">Ковалентными связями</item>
+            <item flag = "1">Водородными связями</item>
+            <item flag = "0">Дисульфидными мостиками</item>
+            <item flag = "1">Комплементарным взаимодействием</item>
+        </question>
+		<question id = "387" size = "5" type = "1">
+            <text>р-РНК входит в состав</text>
+            <item flag = "0">Только малой субъединицы рибосомы</item>
+            <item flag = "0">Только большой субъединицы рибосомы</item>
+            <item flag = "1">Малой и большой субъединиц рибосомы</item>
+            <item flag = "0">РНК-полимеразы</item>
+            <item flag = "0">ДНК-полимеразы</item>
+        </question>
+		<question id = "388" size = "5" type = "1">
+            <text>т-РНК состоит из ... нуклеотидов</text>
+            <item flag = "1">75-95</item>
+            <item flag = "0">100-200</item>
+            <item flag = "0">200-500</item>
+            <item flag = "0">500-1000</item>
+            <item flag = "0">20-50</item>
+        </question>
+		<question id = "389" size = "5" type = "1">
+            <text>При формировании хромосомы молекула ДНК проходит этапы упаковки</text>
+            <item flag = "0">Хроматида</item>
+            <item flag = "1">Хромонема</item>
+            <item flag = "1">Соленоид</item>
+            <item flag = "0">Микрофибрилла</item>
+            <item flag = "1">Нуклеосомная нить</item>
+        </question>
+		<question id = "390" size = "5" type = "1">
+            <text>Структурный ген - это</text>
+            <item flag = "0">Промотор</item>
+            <item flag = "0">Рекон</item>
+            <item flag = "0">Мутон</item>
+            <item flag = "1">Цистрон</item>
+            <item flag = "0">Оператор</item>
+        </question>
+		<question id = "391" size = "5" type = "1">
+            <text>Структурные гены</text>
+            <item flag = "1">Занимают определенное место в молекуле ДНК</item>
+            <item flag = "0">Регулируют трансляцию</item>
+            <item flag = "1">Кодируют синтез белка-фермента</item>
+            <item flag = "0">Меняют положение в хромосоме в зависимости от фазы жизненного цикла</item>
+            <item flag = "0">Регулируют транскрипцию</item>
+        </question>
+		<question id = "392" size = "5" type = "1">
+            <text>Интрон - это участок</text>
+            <item flag = "0">Информационный структурного гена</item>
+            <item flag = "1">Неинформационный структурного гена</item>
+            <item flag = "0">Регуляторный в ДНК</item>
+            <item flag = "0">Промоторный в ДНК</item>
+            <item flag = "0">Неинформационный в ДНК между генами</item>
+        </question>
+		<question id = "393" size = "5" type = "1">
+            <text>Интрон - это участок</text>
+            <item flag = "0">Прокариотического гена</item>
+            <item flag = "1">Эукариотического гена</item>
+            <item flag = "1">ДНК, удаляется в ходе процессинга</item>
+            <item flag = "0">остается после процессинга</item>
+            <item flag = "0">Между генами эукариот</item>
+        </question>
+		<question id = "394" size = "5" type = "1">
+            <text>Интронов нет в клетках</text>
+            <item flag = "1">Прокариот</item>
+            <item flag = "0">Эукариот</item>
+            <item flag = "1">Бактериальных</item>
+            <item flag = "0">Половых</item>
+            <item flag = "0">Специализированных эукариот</item>
+        </question>
+		<question id = "395" size = "5" type = "1">
+            <text>Экзон - это участок</text>
+            <item flag = "0">Структурного гена, неинформационный</item>
+            <item flag = "1">Структурного гена, информационный</item>
+            <item flag = "0">ДНК, регуляторный</item>
+            <item flag = "0">ДНК, промоторный</item>
+            <item flag = "0">ДНК между генами, неинформационный</item>
+        </question>
+		<question id = "396" size = "5" type = "1">
+            <text>Экзон - это участок</text>
+            <item flag = "0">Прокариотического гена</item>
+            <item flag = "1">Эукариотического гена</item>
+            <item flag = "0">Удаляется в ходе процессинга</item>
+            <item flag = "1">Остается в ходе процессинга</item>
+            <item flag = "0">Между генами эукариот</item>
+        </question>
+		<question id = "397" size = "5" type = "1">
+            <text>Универсальность генетического кода состоит в том, что</text>
+            <item flag = "1">Идентичен у всех организмов</item>
+            <item flag = "0">Кодирует одну аминокислоту 2-мя, 3-мя и 4-мя триплетами</item>
+            <item flag = "0">Одинаковые аминокислоты кодируются одинаковыми триплетами у всех организмов</item>
+            <item flag = "0">Совпадает порядок расположения кодонов и-РНК с порядком кодируемых аминокислот в белке</item>
+            <item flag = "0">Отсутствуют разделительные знаки между триплетами</item>
+        </question>
+		<question id = "398" size = "5" type = "1">
+            <text>Колинеарность генетического кода состоит в том, что</text>
+            <item flag = "0">Кодирует одну аминокислоту 2-мя, 3-мя и 4-мя триплетами</item>
+            <item flag = "0">Идентичен у всех организмов</item>
+            <item flag = "0">Отсутствуют разделительные знаки между триплетами</item>
+            <item flag = "1">Совпадает порядок расположения кодонов РНК с порядком кодируемых аминокислот в белке</item>
+            <item flag = "0">Одинаковые аминокислоты кодируются одинаковыми триплетами у всех организмов</item>
+        </question>
+		<question id = "399" size = "5" type = "1">
+            <text>Избыточность (вырожденность) генетического кода состоит в том, что</text>
+            <item flag = "0">Одинаковые аминокислоты кодируются одинаковыми триплетами у всех организмов</item>
+            <item flag = "0">Совпадает порядок расположения кодонов и-РНК с порядком кодируемых аминокислот в белке</item>
+            <item flag = "0">Отсутствуют разделительные знаки между триплетами</item>
+            <item flag = "0">Идентичен у всех организмов</item>
+            <item flag = "1">Кодирует одну аминокислоту 2-мя, 3-мя и 4-мя триплетами</item>
+        </question>
+		<question id = "400" size = "5" type = "1">
+            <text>Кодоны, относящиеся к бессмысленным "нонсенс" кодонам</text>
+            <item flag = "1">Не кодируют аминокислот</item>
+            <item flag = "1">Определяют конец трансляции</item>
+            <item flag = "1">Называют терминаторами</item>
+            <item flag = "0">Кодируют одну аминокислоту</item>
+            <item flag = "0">Кодируют аминокислоту формил-метионин</item>
+        </question>
+		<question id = "401" size = "5" type = "1">
+            <text>Правило Э. Чаргаффа (1951 г.) утверждает, что в молекуле ДНК равное количество ... нуклеотидов</text>
+            <item flag = "0">У = А</item>
+            <item flag = "1">А = Т</item>
+            <item flag = "0">Ц = Т</item>
+            <item flag = "0">Г = У</item>
+            <item flag = "1">Г = Ц</item>
+        </question>
+		<question id = "402" size = "5" type = "1">
+            <text>Стартовый кодон у эукариот при трансляции</text>
+            <item flag = "0">УАА</item>
+            <item flag = "0">УГА</item>
+            <item flag = "0">УАГ</item>
+            <item flag = "0">АГУ</item>
+            <item flag = "1">АУГ</item>
+        </question>
+		<question id = "403" size = "5" type = "1">
+            <text>Нонсенс кодонами (или терминаторами) являются триплеты ДНК</text>
+            <item flag = "1">АТТ</item>
+            <item flag = "0">ГЦЦ</item>
+            <item flag = "1">АЦТ</item>
+            <item flag = "1">АТЦ</item>
+            <item flag = "0">ЦТА</item>
+        </question>
+		<question id = "404" size = "5" type = "1">
+            <text>Антикодон - это триплет</text>
+            <item flag = "0">Кодирующей нити молекулы ДНК</item>
+            <item flag = "0">Некодирующей нити молекулы ДНК</item>
+            <item flag = "0">м-РНК</item>
+            <item flag = "1">т-РНК</item>
+            <item flag = "0">р-РНК</item>
+        </question>
+		<question id = "405" size = "5" type = "1">
+            <text>Нуклеотидов в триплете (кодоне) для кодирования аминокислоты</text>
+            <item flag = "0">1 и 2</item>
+            <item flag = "0">2</item>
+            <item flag = "1">3</item>
+            <item flag = "0">1 и 3</item>
+            <item flag = "0">1</item>
+        </question>
+		<question id = "406" size = "5" type = "1">
+            <text>Комплементарны кодон на</text>
+            <item flag = "0">т-РНК антикодону на м-РНК</item>
+            <item flag = "0">м-РНК антикодону на р-РНК</item>
+            <item flag = "1">м-РНК антикодону на т-РНК</item>
+            <item flag = "0">т-РНК антикодону на р-РНК</item>
+            <item flag = "0">р-РНК антикодону на м-РНК</item>
+        </question>
+		<question id = "407" size = "5" type = "1">
+            <text>Связи удерживающие комплементарные нуклеотиды - адениловый и тимидиловый</text>
+            <item flag = "0">Две ковалентные</item>
+            <item flag = "1">Две водородные</item>
+            <item flag = "0">Три фосфорно-эфирные</item>
+            <item flag = "0">Три водородные</item>
+            <item flag = "0">Одна водородная связь</item>
+        </question>
+		<question id = "408" size = "5" type = "1">
+            <text>Связи, удерживаюшие комплементарные нуклеотиды - гуаниловый и цитидиловый</text>
+            <item flag = "0">Три ковалентные</item>
+            <item flag = "0">Две фосфорно-эфирные</item>
+            <item flag = "0">Две водородные</item>
+            <item flag = "1">Три водородные</item>
+            <item flag = "0">Одна водородная</item>
+        </question>
+		<question id = "409" size = "5" type = "1">
+            <text>Фермент, осуществляющий синтез РНК-затравки при репликации ДНК</text>
+            <item flag = "0">Геликаза</item>
+            <item flag = "0">Лигаза</item>
+            <item flag = "1">Праймаза</item>
+            <item flag = "0">Рестриктаза</item>
+            <item flag = "0">Трансизомераза</item>
+        </question>
+		<question id = "410" size = "5" type = "1">
+            <text>Репликация ДНК на лидирующей цепи происходит</text>
+            <item flag = "1">Непрерывно</item>
+            <item flag = "0">Фрагментами Оказаки</item>
+            <item flag = "0">В направлении 3` -> 5`</item>
+            <item flag = "1">В направлении 5` -> 3`</item>
+            <item flag = "0">Консервативным способом</item>
+        </question>
+		<question id = "411" size = "5" type = "1">
+            <text>Репликация ДНК на отстающей цепи происходит</text>
+            <item flag = "0">Непрерывно</item>
+            <item flag = "1">Фрагментами Оказаки</item>
+            <item flag = "0">В направлении 3` -> 5`</item>
+            <item flag = "0">В период дифференцировки</item>
+            <item flag = "0">Консервативным способом</item>
+        </question>
+		<question id = "412" size = "5" type = "1">
+            <text>При репликации ДНК двойную спираль расплетает фермент</text>
+            <item flag = "0">Лизага</item>
+            <item flag = "0">Праймаза</item>
+            <item flag = "0">Рестриктаза</item>
+            <item flag = "1">Геликаза</item>
+            <item flag = "0">ДНК-топоизомераза</item>
+        </question>
+		<question id = "413" size = "5" type = "1">
+            <text>Фрагменты Оказаки синтезируются на</text>
+            <item flag = "0">Лидирующей цепи ДНК</item>
+            <item flag = "1">Запаздывающей цепи ДНК</item>
+            <item flag = "1">Полинуклеотидной цепи, имеющей направление 3` -> 5`</item>
+            <item flag = "0">Полинуклеотидной цепи, имеющей направление 5` -> 3`</item>
+            <item flag = "0">Запаздывающей цепи РНК</item>
+        </question>
+		<question id = "414" size = "5" type = "1">
+            <text>Для синтеза дочерней цепочки ДНК с помощью ДНК-полимеразы необходимо наличие свободной</text>
+            <item flag = "1">OH-группы в C3 положении</item>
+            <item flag = "0">OH-группы В C5 положении</item>
+            <item flag = "0">OH-группы в C2 положении</item>
+            <item flag = "0">OH-группы в C3 и C5 положении</item>
+            <item flag = "0">Фосфатной группы в C5 положении</item>
+        </question>
+		<question id = "415" size = "5" type = "1">
+            <text>	Кодогенная цепочка молекулы ДНК</text>
+            <item flag = "1">Является матрицей при транскрипции</item>
+            <item flag = "1">Считывается с помощью РНК-полимеразы</item>
+            <item flag = "0">Считывается в направлении 3` -> 5`</item>
+            <item flag = "1">Считывается в направлении 5`- > 3`</item>
+            <item flag = "0">Никогда не считывается</item>
+        </question>
+		<question id = "416" size = "5" type = "1">
+            <text>Во время транскрипции у прокариот синтезируются</text>
+            <item flag = "1">Матрицы для трансляции</item>
+            <item flag = "1">Одна РНК-полимераза</item>
+            <item flag = "0">Три ядерных РНК полимеразы</item>
+            <item flag = "1">Полицистиронная м-РНК</item>
+            <item flag = "0">Моноцистиронная м-РНК</item>
+        </question>
+		<question id = "417" size = "5" type = "1">
+            <text>В ходе процессинга эукариотической м-РНК происходит</text>
+            <item flag = "1">Сплайсинг экзонов</item>
+            <item flag = "0">Альтернативная транскрипция</item>
+            <item flag = "0">Конформация белковой молекулы</item>
+            <item flag = "1">Формирование КЭПа на 5` конце м-РНК</item>
+            <item flag = "1">Модифирование первичного транскрипта (про м-РНК)</item>
+        </question>
+		<question id = "418" size = "5" type = "1">
+            <text>Процесс созревания РНК-предшественника у эукариот</text>
+            <item flag = "0">Инициация</item>
+            <item flag = "0">Трансляция</item>
+            <item flag = "0">Терминация</item>
+            <item flag = "1">Процессинг</item>
+            <item flag = "0">Транскрипция</item>
+        </question>
+		<question id = "419" size = "5" type = "1">
+            <text>Особенности процессинга у эукариот</text>
+            <item flag = "1">Присутствие сплайсинга</item>
+            <item flag = "1">Укорачивание молекулы про-м-РНК</item>
+            <item flag = "1">Разрушение избыточной (неинформационной) РНК</item>
+            <item flag = "0">Отсутствие сплайсинга</item>
+            <item flag = "0">и-РНК и про-м-РНК одинаковы</item>
+        </question>
+		<question id = "420" size = "5" type = "1">
+            <text>Преобразование про-м-РНК у эукариот</text>
+            <item flag = "1">Вырезаются все интроны, а экзоны сшиваются</item>
+            <item flag = "0">Вырезаются все экзоны, а интроны сшиваются</item>
+            <item flag = "1">м-РНК становится короче проматричной</item>
+            <item flag = "0">Экзоны меняются местами с нитронами</item>
+            <item flag = "0">Матричная РНК становится длиннее проматричной</item>
+        </question>
+		<question id = "421" size = "5" type = "1">
+            <text>Процесс вырезания неинформационных участков из молекул первичного транскрипта</text>
+            <item flag = "0">Репликация</item>
+            <item flag = "1">Процессинг</item>
+            <item flag = "0">Транскрипция</item>
+            <item flag = "0">Рекогниция</item>
+            <item flag = "0">Трансляция</item>
+        </question>
+		<question id = "422" size = "5" type = "1">
+            <text>Процесс процессинга включает этапы</text>
+            <item flag = "1">Сплайсинга</item>
+            <item flag = "1">Полиаденилирования</item>
+            <item flag = "1">Кэпирования</item>
+            <item flag = "0">Репарации</item>
+            <item flag = "0">Рекогниции</item>
+        </question>
+		<question id = "423" size = "5" type = "1">
+            <text>Процессинг про-м-РНК происходит в</text>
+            <item flag = "0">Цитоплазме прокариот</item>
+            <item flag = "0">Нуклеоиде прокариот</item>
+            <item flag = "1">Ядре эукариот</item>
+            <item flag = "0">Рибосоме</item>
+            <item flag = "0">Ядрышке</item>
+        </question>
+		<question id = "424" size = "5" type = "1">
+            <text>Механизм репарации ДНК осуществляют ферменты</text>
+            <item flag = "1">Рестриктаза</item>
+            <item flag = "0">Праймаза</item>
+            <item flag = "1">Эндонуклеаза</item>
+            <item flag = "1">ДНК-полимераза</item>
+            <item flag = "0">РНК-полимераза</item>
+        </question>
+		<question id = "425" size = "5" type = "1">
+            <text>Естественные антимутационные барьеры</text>
+            <item flag = "1">Триплетность генетического кода</item>
+            <item flag = "1">Экстракопирование генов</item>
+            <item flag = "1">Вырожденность генетического кода</item>
+            <item flag = "1">Дорепликативная репарация</item>
+            <item flag = "1">Пострепликативная репарация</item>
+        </question>
+		<question id = "426" size = "5" type = "1">
+            <text>Фрагмент молекулы ДНК-транскриптон содержит</text>
+            <item flag = "0">Регулятор, промотор, оператор</item>
+            <item flag = "0">Промотор, оператор, терминатор</item>
+            <item flag = "0">Регулятор, оперон, терминатор</item>
+            <item flag = "1">Оператор, структурные гены, терминатор</item>
+            <item flag = "0">Промотор, структурные гены, терминатор</item>
+        </question>
+		<question id = "427" size = "5" type = "1">
+            <text>Оператор - это</text>
+            <item flag = "0">Только регулирующая система генов</item>
+            <item flag = "1">Система структурных и регуляторных генов</item>
+            <item flag = "0">Только кодирующая система генов</item>
+            <item flag = "0">Неинформационная часть молекул ДНК</item>
+            <item flag = "0">Информационная часть молекул ДНК</item>
+        </question>
+		<question id = "428" size = "5" type = "1">
+            <text>В регуляции экспрессии генов у прокариот наблюдается</text>
+            <item flag = "1">Оперонная организация</item>
+            <item flag = "0">Отсутствие оперонной организации</item>
+            <item flag = "0">Участие сенсорных генов</item>
+            <item flag = "1">Участие энхансеров и сайленсеров</item>
+            <item flag = "0">Образование моноцистронных м-РНК</item>
+        </question>
+		<question id = "429" size = "5" type = "1">
+            <text>Регуляторные участки энхансеры</text>
+            <item flag = "1">Усиливают транскрипцию</item>
+            <item flag = "0">Понижают роль трансляции</item>
+            <item flag = "1">Имеются в хромосомах эукариот</item>
+            <item flag = "0">Имеются в хромосомах прокариот</item>
+            <item flag = "0">Находятся внутри гена или на расстоянии от него</item>
+        </question>
+		<question id = "430" size = "5" type = "1">
+            <text>В геноме эукариот наблюдается</text>
+            <item flag = "0">Участие сенсорных генов</item>
+            <item flag = "0">Оперонная организация</item>
+            <item flag = "1">Множество генов-регуляторов</item>
+            <item flag = "0">Единственный ген-регулятор</item>
+            <item flag = "1">Отсутствие оперонной организации</item>
+        </question>
+		<question id = "431" size = "5" type = "1">
+            <text>Оператор - это участок ДНК</text>
+            <item flag = "1">Присоединяющий регулирующий белок</item>
+            <item flag = "1">Прекращающий продвижение РНК-полимеразы</item>
+            <item flag = "1">Отделяющий промотор от структурных генов</item>
+            <item flag = "0">Регулирующий набор оперона</item>
+            <item flag = "0">Опознаваемый РНК-полимеразой</item>
+        </question>
+		<question id = "432" size = "5" type = "1">
+            <text>Промотор - это участок ДНК</text>
+            <item flag = "0">Присоединяющий белок активатор</item>
+            <item flag = "0">Регулирующий работу оперона</item>
+            <item flag = "0">Отделяющий оператор от структурных генов</item>
+            <item flag = "1">Опознаваемый РНК- полимеразой</item>
+            <item flag = "0">Прекращающий движение РНК-полимеразы</item>
+        </question>
+		<question id = "433" size = "5" type = "1">
+            <text>Промоторная область содержит высококонсервативную последовательность нуклеотидов</text>
+            <item flag = "0">АУГ</item>
+            <item flag = "0">УАГ</item>
+            <item flag = "1">ТАТА</item>
+            <item flag = "0">Служит для связывания с ДНК-полимеразой</item>
+            <item flag = "1">Служит для связи с РНК-полимеразой</item>
+        </question>
+		<question id = "434" size = "5" type = "1">
+            <text>Оперон - это</text>
+            <item flag = "0">Участок связывания с ДНК-полимеразой</item>
+            <item flag = "0">Участок связывания с РНК-полимеразой</item>
+            <item flag = "1">Структурно-функциональная единица генома прокариот</item>
+            <item flag = "0">Структурно-функциональная единица генома эукариот</item>
+            <item flag = "0">Участок связывания с белком-репрессором</item>
+        </question>
+		<question id = "435" size = "5" type = "1">
+            <text>Оператор - это</text>
+            <item flag = "0">Участок связывания с ДНК-полимеразой</item>
+            <item flag = "0">Участок связывания с РНК-полимеразой</item>
+            <item flag = "0">Структурно-функциональная единица генома прокариот</item>
+            <item flag = "0">Структурно-функциональная единица генома эукариот</item>
+            <item flag = "1">Участок связывания с белком-репрессором</item>
+        </question>
+		<question id = "436" size = "5" type = "1">
+            <text>Регуляция по типу репрессии происходит при условии, если</text>
+            <item flag = "0">Оператор расположен перед промотором</item>
+            <item flag = "1">Оператор расположен после промотора</item>
+            <item flag = "0">Присутствует белок-репрессор</item>
+            <item flag = "1">Присутствует белок-апоиндуктор</item>
+            <item flag = "1">Активен ген-регулятор</item>
+        </question>
+		<question id = "437" size = "5" type = "1">
+            <text>Регуляция по типу индукции происходит при условии</text>
+            <item flag = "0">Оператор расположен перед промотором</item>
+            <item flag = "1">Оператор расположен после промотора</item>
+            <item flag = "1">Присутствует белок-репрессор</item>
+            <item flag = "0">Присутствует белок-апоиндуктор</item>
+            <item flag = "1">Активен ген-регулятор</item>
+        </question>
+		<question id = "438" size = "5" type = "1">
+            <text>ТАТА-бокс - это участок в составе</text>
+            <item flag = "1">Промотора прокариот</item>
+            <item flag = "1">Промотора эукариот</item>
+            <item flag = "0">Интрона</item>
+            <item flag = "0">Экзона</item>
+            <item flag = "0">Терминатора</item>
+        </question>
+		<question id = "439" size = "5" type = "1">
+            <text>Хогнесс бокс - это участок в составе</text>
+            <item flag = "1">Промотора прокариот</item>
+            <item flag = "1">Промотора эукариот</item>
+            <item flag = "0">Интрона</item>
+            <item flag = "0">Экзона</item>
+            <item flag = "0">Терминатора</item>
+        </question>
+		<question id = "440" size = "5" type = "1">
+            <text>Шайна-Дельгарпо последовательность - это участок</text>
+            <item flag = "0">Промотор эукариот</item>
+            <item flag = "0">Промотор прокариот</item>
+            <item flag = "1">м-РНК в составе малой субъединицы</item>
+            <item flag = "0">р-РНК в составе большой субъединицы</item>
+            <item flag = "0">Терминаторной области</item>
+        </question>
+		<question id = "441" size = "5" type = "1">
+            <text>Фазы трансляции</text>
+            <item flag = "1">Инициация</item>
+            <item flag = "1">Элонгация</item>
+            <item flag = "1">Терминация</item>
+            <item flag = "0">Рекогниция</item>
+            <item flag = "0">Репликация</item>
+        </question>
+		<question id = "442" size = "5" type = "1">
+            <text>Особенности инициации в процессе трансляции</text>
+            <item flag = "1">Объединение двух субчастиц рибосомы</item>
+            <item flag = "0">Копирование м-РНК</item>
+            <item flag = "1">Присоединение стартовой аминоацил-т-РНК к рибосоме</item>
+            <item flag = "0">Присоединение аминокислоты к т-РНК</item>
+            <item flag = "0">Присоединение последней аминоацил-т-РНК к рибосоме</item>
+        </question>
+		<question id = "443" size = "5" type = "1">
+            <text>Процесс узнавания т-РНК своей аминокислоты</text>
+            <item flag = "0">Репликация</item>
+            <item flag = "0">Сплайсинг</item>
+            <item flag = "0">Процессинг</item>
+            <item flag = "1">Рекогниция</item>
+            <item flag = "0">Трансляция</item>
+        </question>
+		<question id = "444" size = "5" type = "1">
+            <text>Транспозоны</text>
+            <item flag = "0">Вызывают дупликацию и делецию</item>
+            <item flag = "0">Отсутствуют в клетке</item>
+            <item flag = "0">Влияют на экспрессию генов</item>
+            <item flag = "1">Меняют локализацию в геноме</item>
+            <item flag = "0">Содержат ген для фермента транспозазы</item>
+        </question>
+		<question id = "445" size = "5" type = "1">
+            <text>Модификационную изменчивость характеризуют</text>
+            <item flag = "0">Необратимость</item>
+            <item flag = "1">Временность</item>
+            <item flag = "0">Наследуемость</item>
+            <item flag = "1">Норма реакции</item>
+            <item flag = "1">Адаптивность</item>
+        </question>
+		<question id = "446" size = "5" type = "1">
+            <text>Комбинативную изменчивость характеризуют</text>
+            <item flag = "1">Необратимость</item>
+            <item flag = "0">Временность</item>
+            <item flag = "1">Наследуемость</item>
+            <item flag = "0">Норма реакции</item>
+            <item flag = "0">Адаптивность</item>
+        </question>
+		<question id = "447" size = "5" type = "1">
+            <text>Мутационную изменчивость характеризуют</text>
+            <item flag = "1">Необратимость</item>
+            <item flag = "0">Временность</item>
+            <item flag = "1">Наследуемость</item>
+            <item flag = "0">Адаптивность</item>
+            <item flag = "0">Статистический характер</item>
+        </question>
+		<question id = "448" size = "5" type = "1">
+            <text>Генотипическую изменчивость характеризуют</text>
+            <item flag = "1">Индивидуальность</item>
+            <item flag = "0">Обратимость</item>
+            <item flag = "0">Временность</item>
+            <item flag = "1">Наследуемость</item>
+            <item flag = "1">Статистический характер</item>
+        </question>
+		<question id = "449" size = "5" type = "1">
+            <text>Модификационную изменчивость характеризуют</text>
+            <item flag = "0">Случайность</item>
+            <item flag = "0">Неопределенность</item>
+            <item flag = "0">Индивидуальность</item>
+            <item flag = "1">Временность</item>
+            <item flag = "1">Норма реакции</item>
+        </question>
+		<question id = "450" size = "5" type = "1">
+            <text>Комбинативную изменчивость характеризуют</text>
+            <item flag = "1">Случайность</item>
+            <item flag = "0">Неопределенность</item>
+            <item flag = "1">Индивидуальность</item>
+            <item flag = "0">Временность</item>
+            <item flag = "0">Обратимость</item>
+        </question>
+		<question id = "451" size = "5" type = "1">
+            <text>Мутационную изменчивость характеризуют</text>
+            <item flag = "1">Случайность</item>
+            <item flag = "1">Неопределенность</item>
+            <item flag = "0">Обратимость</item>
+            <item flag = "0">Временность</item>
+            <item flag = "0">Групповой характер</item>
+        </question>
+		<question id = "452" size = "5" type = "1">
+            <text>Фенотипическую изменчивость характеризуют</text>
+            <item flag = "1">Групповой характер</item>
+            <item flag = "0">Необратимость</item>
+            <item flag = "1">Адаптивность</item>
+            <item flag = "1">Норма реакции</item>
+            <item flag = "0">Случайность</item>
+        </question>
+		<question id = "453" size = "5" type = "1">
+            <text>Комбинативную изменчивость характеризуют</text>
+            <item flag = "0">Групповой характер</item>
+            <item flag = "0">Обратимость</item>
+            <item flag = "1">Случайность</item>
+            <item flag = "0">Норма реакции</item>
+            <item flag = "1">Наследуемость</item>
+        </question>
+		<question id = "454" size = "5" type = "1">
+            <text>Генотипическую изменчивость характеризуют</text>
+            <item flag = "0">Норма реакции</item>
+            <item flag = "1">Необратимость</item>
+            <item flag = "1">Случайность</item>
+            <item flag = "1">Индивидуальность</item>
+            <item flag = "0">Ненаследуемость</item>
+        </question>
+		<question id = "455" size = "5" type = "1">
+            <text>Для геномных мутаций характерно изменение</text>
+            <item flag = "0">В виде утраты или удвоения участков хромосом</item>
+            <item flag = "0">Структуры гена или структуры хромосом</item>
+            <item flag = "0">Числа хромосом только кратно гаплоидному набору</item>
+            <item flag = "0">Числа хромосом только не кратно гаплоидному набору</item>
+            <item flag = "1">Числа хромосом кратно и не кратно гаплоидному набору</item>
+        </question>
+		<question id = "456" size = "5" type = "1">
+            <text>Для фенотипической изменчивости характерны</text>
+            <item flag = "1">Обратимость</item>
+            <item flag = "0">Индивидуальность</item>
+            <item flag = "1">Адаптивность</item>
+            <item flag = "0">Наследственный характер</item>
+            <item flag = "1">Зависимость от внешней среды</item>
+        </question>
+		<question id = "457" size = "5" type = "1">
+            <text>Комбинативная изменчивость обусловлена</text>
+            <item flag = "1">Оплодотворением</item>
+            <item flag = "0">Внешней средой</item>
+            <item flag = "1">Кроссинговером</item>
+            <item flag = "1">Взаимодействием генов</item>
+            <item flag = "0">Изменением нуклеотидов в генах</item>
+        </question>
+		<question id = "458" size = "5" type = "1">
+            <text>Комбинативная изменчивость связана с</text>
+            <item flag = "0">Воздействием на организм факторов внешней среды</item>
+            <item flag = "1">Кроссинговером</item>
+            <item flag = "1">Независимым расхождением негомологичных хромосом в мейозе</item>
+            <item flag = "1">Случайным сочетанием гамет при оплодотворении</item>
+            <item flag = "0">Прыгающими генами</item>
+        </question>
+		<question id = "459" size = "5" type = "1">
+            <text>Мутационная изменчивость связана с</text>
+            <item flag = "0">Рекомбинацией генетического материала при кроссинговере</item>
+            <item flag = "1">Нарушением структуры хромосомы</item>
+            <item flag = "1">Нарушением структуры гена</item>
+            <item flag = "1">Изменением числа хромосом</item>
+            <item flag = "0">Равновероятным слиянием гамет при оплодотворении</item>
+        </question>
+		<question id = "460" size = "5" type = "1">
+            <text>Увеличение количества эритроцитов в крови у жителей горных местностей является примером ... изменчивости</text>
+            <item flag = "0">Генотипической</item>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "1">Модификационной</item>
+            <item flag = "0">Мутационной</item>
+            <item flag = "0">Генеративной</item>
+        </question>
+		<question id = "461" size = "5" type = "1">
+            <text>Потемнение кожи при загаре является примером ... изменчивости</text>
+            <item flag = "0">Генотипической</item>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "1">Модификационной</item>
+            <item flag = "0">Мутационной</item>
+            <item flag = "0">Генеративной</item>
+        </question>
+		<question id = "462" size = "5" type = "1">
+            <text>Фенокомии - это разновидность ... изменчивости</text>
+            <item flag = "0">Генотипической</item>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "0">Мутационной</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "463" size = "5" type = "1">
+            <text>Адаптации - это разновидность ... изменчивости</text>
+            <item flag = "0">Генотипической</item>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "1">Модификационной</item>
+            <item flag = "0">Мутационной</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "464" size = "5" type = "1">
+            <text>Морфозы (уродства) - это разновидность .. изменчивости</text>
+            <item flag = "0">Генотипической</item>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Мутационной</item>
+            <item flag = "0">Соматической</item>
+            <item flag = "1">Модификационной</item>
+        </question> 
+		<question id = "465" size = "5" type = "1">
+            <text>Синдром Дауна - это пример ... изменчивости</text>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "1">Мутационной</item>
+            <item flag = "0">Фенотипической</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "466" size = "5" type = "1">
+            <text>Синдром кошачьего крика - это пример ... изменчивости</text>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "1">Мутационной</item>
+            <item flag = "0">Фенотипической</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "467" size = "5" type = "1">
+            <text>Серповидноклеточная анемия - это пример ... изменчивости</text>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "1">Мутационной</item>
+            <item flag = "0">Фенотипической</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "468" size = "5" type = "1">
+            <text>Уменьшение числа фасеток глаза у Drosophila melanogaster (узкие глаза) - это пример ... изменчивости</text>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "0">Фенотипической</item>
+            <item flag = "1">Мутационной</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "469" size = "5" type = "1">
+            <text>Синдром Клайнфельтера - это пример ... изменчивости</text>
+            <item flag = "0">Комбинативной</item>
+            <item flag = "0">Модификационной</item>
+            <item flag = "0">Фенотипической</item>
+            <item flag = "1">Мутационной</item>
+            <item flag = "0">Соматической</item>
+        </question>
+		<question id = "470" size = "5" type = "1">
+            <text>Механизмы комбинационной изменчивости</text>
+            <item flag = "1">Оплодотворение</item>
+            <item flag = "1">Кроссинговер</item>
+            <item flag = "1">Мейоз, происходящий при гаметогенезе</item>
+            <item flag = "0">Митоз, происходящий при гаметогенезе</item>
+            <item flag = "1">Взаимодействие генов</item>
+        </question>
+		<question id = "471" size = "5" type = "1">
+            <text>Фенокопии</text>
+            <item flag = "0">Модификации, связанные с изменением аллеля</item>
+            <item flag = "0">Фенотипические изменения, вызванные с изменение генотипа</item>
+            <item flag = "1">Модификации, вызванные факторами внешней среды и сходные с изменениями гена</item>
+            <item flag = "0">Изменения фенотипа, вызванные мутагенными факторами</item>
+            <item flag = "0">Модификации, связанные с изменением генома</item>
+        </question>
+		<question id = "472" size = "5" type = "1">
+            <text>Норма реакции</text>
+            <item flag = "0">Реакция на мутаген</item>
+            <item flag = "1">Диапазон изменения фенотипа на базе данного генотипа</item>
+            <item flag = "1">Проявление генотипа в конкретных условиях среды</item>
+            <item flag = "0">Совокупность внешних признаков</item>
+            <item flag = "0">Степень проявления признака</item>
+        </question>
+		<question id = "473" size = "5" type = "1">
+            <text>норма реакции</text>
+            <item flag = "1">Диапазон модификационной изменчивости, обусловленный генотипом</item>
+            <item flag = "1">Наследуемые изменения фенотипа</item>
+            <item flag = "1">Диапазон изменений, в пределах которого один и тот же генотип дает разные фенотипы</item>
+            <item flag = "0">Ненаследуемые изменения фенотипа</item>
+            <item flag = "0">Реакция на мутаген</item>
+        </question>
+		<question id = "474" size = "5" type = "1">
+            <text>Проявление генотипа</text>
+            <item flag = "0">Мутон</item>
+            <item flag = "0">Мутация</item>
+            <item flag = "1">Фен</item>
+            <item flag = "1">Модификация</item>
+            <item flag = "0">Комбинация</item>
+        </question>
+		<question id = "475" size = "5" type = "1">
+            <text>Адаптация</text>
+            <item flag = "0">Наследуемое изменение фенотипа</item>
+            <item flag = "1">Модификация, вызванная изменением среды</item>
+            <item flag = "0">Комбинации наследственного материала</item>
+            <item flag = "0">Спонтанные мутации</item>
+            <item flag = "0">Степень проявления признака</item>
+        </question>
+		<question id = "476" size = "5" type = "1">
+            <text>Модификация (фен)</text>
+            <item flag = "0">Комбинация генов</item>
+            <item flag = "0">Степень проявления признака</item>
+            <item flag = "0">Способность гена проявляться в фенотипе</item>
+            <item flag = "1">Проявление генотипа в конкретных условиях среды</item>
+            <item flag = "0">Спонтанная мутация</item>
+        </question>
+		<question id = "477" size = "5" type = "1">
+            <text>Морфоз (уродство) - это</text>
+            <item flag = "0">Хромосомная мутация</item>
+            <item flag = "0">Спонтанная мутация</item>
+            <item flag = "0">Комбинация наследственного материала</item>
+            <item flag = "1">Грубое нарушение индивидуального развития факторами среды</item>
+            <item flag = "0">Степень проявления признака</item>
+        </question>
+		<question id = "478" size = "5" type = "1">
+            <text>Длительные модификации</text>
+            <item flag = "1">Модификации, передающиеся по наследству при бесполом размножении</item>
+            <item flag = "1">Модификации, передающиеся по наследству при половом размножении</item>
+            <item flag = "0">Новая комбинация генов</item>
+            <item flag = "0">Мутации со сдвигом рамки считывания</item>
+            <item flag = "0">Индуцируемые мутации</item>
+        </question>
+		<question id = "479" size = "5" type = "1">
+            <text>Вариационный ряд - это ряд</text>
+            <item flag = "0">Наследуемых проявлений признаков</item>
+            <item flag = "1">Ненаследуемых изменений признака, расположенных по степени изменения</item>
+            <item flag = "0">Фенотипических изменений, вызванных изменением генотипа</item>
+            <item flag = "0">Изменений фенотипа под влиянием мутагенов</item>
+            <item flag = "0">Комбинаций наследственного материала</item>
+        </question>
+		<question id = "480" size = "5" type = "1">
+            <text>Уменьшение количества гемоглобина к крови из-за плохого питания является примером</text>
+            <item flag = "0">Морфоза</item>
+            <item flag = "0">Длительной модификации</item>
+            <item flag = "0">Фенокопии</item>
+            <item flag = "1">Адаптации</item>
+            <item flag = "0">Уродства</item>
+        </question>
+		<question id = "481" size = "5" type = "1">
+            <text>Сохранение свойств коллекционных цветов при вегетативном размножении (при отсутствии возможности опыления) является примером</text>
+            <item flag = "0">Морфоза</item>
+            <item flag = "0">Адаптации</item>
+            <item flag = "1">Длительной модификации</item>
+            <item flag = "0">Уродства</item>
+            <item flag = "0">Фенокопии</item>
+        </question>
+		<question id = "482" size = "5" type = "1">
+            <text>Фенокопии</text>
+            <item flag = "1">Сходство по признакам с наследственными болезнями</item>
+            <item flag = "1">Фенотипические проявления, напоминающие мутацию</item>
+            <item flag = "0">Фенотипическое сходство при разных наследственных болезнях</item>
+            <item flag = "0">Сходные симптомы болезни при разных генетических нарушениях</item>
+            <item flag = "0">Разнообразие признаков болезни при одинаковом генетическом поражении</item>
+        </question> 
+		<question id = "483" size = "5" type = "1">
+            <text>Фенокопии - это изменение фенотипа, обусловленные</text>
+            <item flag = "0">Действием средовых факторов, не затрагивающих генотипа</item>
+            <item flag = "0">Изменением генотипа</item>
+            <item flag = "1">Сходными с мутациями и действием средовых факторов только на признаки</item>
+            <item flag = "0">Комбинациями генов</item>
+            <item flag = "0">Изменением структуры отдельных хромосом</item>
+        </question> 
+		<question id = "484" size = "5" type = "1">
+            <text>Фенокопии - это изменения</text>
+            <item flag = "1">Фенотипически напоминающие то или иное состояние признака, связанное с изменением аллеля</item>
+            <item flag = "0">Фенотипические, вызванные изменением генотипа</item>
+            <item flag = "1">Фенотипа, сходные с изменением гена, но вызванные только факторами внешней среды</item>
+            <item flag = "0">Фенотипа под влиянием мутагенов</item>
+            <item flag = "0">Генотипа под влиянием мутагенов</item>
+        </question> 
+		<question id = "485" size = "5" type = "1">
+            <text>Значение мутаций</text>
+            <item flag = "1">Материал для естественного отбора</item>
+            <item flag = "1">Обеспечивают полиморфность организмов</item>
+            <item flag = "1">Причина бесплодия</item>
+            <item flag = "1">Необходимы для эволюции вида</item>
+            <item flag = "1">Причина наследственных болезней</item>
+        </question> 
+		<question id = "486" size = "5" type = "1">
+            <text>Наименьшая единица мутационной изменчивости</text>
+            <item flag = "0">Рекон</item>
+            <item flag = "0">Цистрон</item>
+            <item flag = "1">Мутон</item>
+            <item flag = "0">Репликон</item>
+            <item flag = "0">Мутаген</item>
+        </question> 
+		<question id = "487" size = "5" type = "1">
+            <text>Характеристика полулетальных мутаций</text>
+            <item flag = "0">Повышают плодовитость</item>
+            <item flag = "1">Приводят к бесплодию</item>
+            <item flag = "1">Понижают жизнеспособность</item>
+            <item flag = "0">Вызывают гибель особи</item>
+            <item flag = "0">Приводят к гибели эмбриона</item>
+        </question> 
+		<question id = "488" size = "5" type = "1">
+            <text>Характеристика летальных мутаций</text>
+            <item flag = "0">Повышают плодовитость</item>
+            <item flag = "0">Понижают жизнеспособность</item>
+            <item flag = "0">Приводят к бесплодию</item>
+            <item flag = "1">Вызывают гибель эмбриона</item>
+            <item flag = "0">Являются причиной болезней</item>
+        </question> 
+		<question id = "489" size = "5" type = "1">
+            <text>Стерильные мутации характеризуют</text>
+            <item flag = "0">Понижение жизнеспособности</item>
+            <item flag = "1">Бесплодие</item>
+            <item flag = "0">Гибель особи</item>
+            <item flag = "0">Гибель эмбриона</item>
+            <item flag = "1">Не участвуют в эволюции вида</item>
+        </question> 
+	<question id = "490" size = "5" type = "1">
+            <text>Индуцируемые мутации характеризуют признаки</text>
+            <item flag = "1">Направленные</item>
+            <item flag = "0">Естественные</item>
+            <item flag = "1">Создаются человеком</item>
+            <item flag = "0">Обратимые</item>
+            <item flag = "0">Случайные</item>
+    </question> 
+	<question id = "491" size = "5" type = "1">
+            <text>Спонтанные мутации характеризуют признаки</text>
+            <item flag = "0">Обратимые</item>
+            <item flag = "1">Ненаправленные</item>
+            <item flag = "0">Временные</item>
+            <item flag = "1">Естественные</item>
+            <item flag = "1">Случайные</item>
+	</question> 
+	<question id = "492" size = "5" type = "1">
+            <text>Мутации, приводящие к бесплодию</text>
+            <item flag = "0">Полулетальные</item>
+            <item flag = "0">Летальные</item>
+            <item flag = "1">Стерильные</item>
+            <item flag = "0">Нейтральные</item>
+            <item flag = "0">Положительные</item>
+    </question> 
+	<question id = "493" size = "5" type = "1">
+            <text>Мутации, приводящие к болезни организма</text>
+            <item flag = "1">Полулетальные</item>
+            <item flag = "0">Летальные</item>
+            <item flag = "0">Стерильные</item>
+            <item flag = "0">Нейтральные</item>
+            <item flag = "0">Положительные</item>
+    </question> 
+	<question id = "494" size = "5" type = "1">
+            <text>Мутации, приводящие к гибели плода внутриутробно</text>
+            <item flag = "0">Полулетальные</item>
+            <item flag = "1">Летальные</item>
+            <item flag = "0">Стерильные</item>
+            <item flag = "0">Положительные</item>
+            <item flag = "0">Нейтральные</item>
+    </question> 
+	<question id = "495" size = "5" type = "1">
+            <text>Фреймшифт-мутации возникают в результате</text>
+            <item flag = "0">Замены азотистого основания в нуклеотиде</item>
+            <item flag = "1">Нуклеотидной вставки</item>
+            <item flag = "1">Выпадения нуклеотида</item>
+            <item flag = "1">Сдвига рамки считывания</item>
+            <item flag = "0">Образования нонсенс кодона в начале цистрона</item>
+    </question> 
+	<question id = "496" size = "5" type = "1">
+            <text>Нонсенс-мутации</text>
+            <item flag = "0">Сдвиг рамки считывания</item>
+            <item flag = "0">Нуклеотидная вставка</item>
+            <item flag = "0">Замена азотистого основания в нуклеотиде</item>
+            <item flag = "0">Транзиция в ДНК</item>
+            <item flag = "1">Образование нонсенс кодона в начале цистрона</item>
+    </question> 
+	<question id = "497" size = "5" type = "1">
+            <text>Признаки мутаций</text>
+            <item flag = "1">Изменяется генотип</item>
+            <item flag = "1">Признаки возникают внезапно</item>
+            <item flag = "1">Изменения наследуются, если доминантны</item>
+            <item flag = "0">Признаки развиваются постепенно</item>
+            <item flag = "0">Изменяется только фенотипа</item>
+    </question>
+	<question id = "498" size = "5" type = "1">
+            <text>Полулетальные мутации</text>
+            <item flag = "1">Понижают жизнеспособность</item>
+            <item flag = "0">Повышают жизнеспособность организма</item>
+            <item flag = "0">Уменьшают продолжительность жизни</item>
+            <item flag = "0">Вызывают гибель в эмбриональном состоянии</item>
+            <item flag = "0">Повышают плодовитость</item>
+    </question>
+	<question id = "499" size = "5" type = "1">
+            <text>Значение мутаций</text>
+            <item flag = "1">Дезадаптация организма к окружающей среде</item>
+            <item flag = "1">Необходимы для эволюции видов</item>
+            <item flag = "1">Материал для естественного отбора</item>
+            <item flag = "0">Адаптация организма к окружающей среде</item>
+            <item flag = "0">Не участвуют в эволюции вида</item>
+    </question>
+	<question id = "500" size = "5" type = "1">
+            <text>Летальные мутации приводят к</text>
+            <item flag = "0">Понижению жизнеспособности организма</item>
+            <item flag = "0">Смерти в постэмбриональном состоянии</item>
+            <item flag = "0">Понижению плодовитости</item>
+            <item flag = "0">Различным заболеваниям</item>
+            <item flag = "1">Смерти в эмбриогенезе</item>
+    </question>
+
+</quize>

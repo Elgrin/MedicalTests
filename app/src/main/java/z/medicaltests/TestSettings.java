@@ -27,13 +27,14 @@ public class TestSettings extends Fragment implements View.OnClickListener {
     private String Text;
     private boolean Flag;
     private int Mode;
+    //private  int Mass[];
 
 
     private static final String TAG = "SETTINGS";
     public TestSettings.TestSettingsListener listener;
 
     static interface TestSettingsListener {
-        void onButtonCommitListener(boolean show, int Size_all, int Size_exam, String File, int Mode);
+        void onButtonSettingsCommitListener(boolean show, int Size_all, int Size_exam, String File, int Mode);
     }
 
     public TestSettings() {
@@ -59,7 +60,6 @@ public class TestSettings extends Fragment implements View.OnClickListener {
         this.Text = Text_1 + " " + Integer.toString(Size) + "\n" + Text;
         Flag = true;
         Mode = 1;
-
     }
 
 
@@ -75,6 +75,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
             Text = savedInstanceState.getString("text");
             Flag = savedInstanceState.getBoolean("flag");
             Mode = savedInstanceState.getInt("mode");
+            //Mass = savedInstanceState.getIntArray("mass");
         }
 
         TextView textView = (TextView) layout.findViewById(R.id.Size);
@@ -199,7 +200,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
                 //commit.setText("Загрузка вопросов");
                 commit.setEnabled(false);
 
-                listener.onButtonCommitListener(show, Size, Size_exam, File, Mode);
+                listener.onButtonSettingsCommitListener(show, Size, Size_exam, File, Mode);
             }
         }
     }
