@@ -2,10 +2,10 @@ package z.medicaltests;
 
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +14,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
 
 /**
  * A simple {@link Fragment} subclass.
@@ -44,10 +43,9 @@ public class XmlReader extends Fragment{
 
     /**
      * @param msg          Имя файла для чтения
-     * @param Text         Текст для вывода
      * @param assetManager Контекст
      */
-    public  void SetMessage(String msg, String Text, AssetManager assetManager) {
+    public  void SetMessage(String msg, AssetManager assetManager) {
         message = msg;
         this.Text = Text;
         Log.v(TAG, "This");

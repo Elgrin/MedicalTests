@@ -1,24 +1,24 @@
 package z.medicaltests;
 
-import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.google.android.gms.ads.AdListener;
@@ -28,9 +28,8 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.Random;
 
-
-
-public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
+     public   class MainWindow extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener, XmlReader.XmlReaderListener,
         ButtonMenu.ButtonMenuListener,
         TestSettings.TestSettingsListener,
         TestFragmentCheckBox.TestFragmentCheckBoxListener,
@@ -43,9 +42,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
     private FirebaseAnalytics mFirebaseAnalytics;
 
-    private ListView drawerList;
-    private ActionBarDrawerToggle drawerToggle;
-    private DrawerLayout drawerLayout;
+    //private ListView drawerList;
+    //private DrawerLayout drawerLayout;
     private static final String TAG = "MAIN";
     //private boolean MenuFlag = false;
     private String[] titles;
@@ -75,12 +73,12 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 Question,
                 1, Show, false, 0, Max, Mode, null, AbsoluteSize, Mass);
 
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
         //ft.disallowAddToBackStack();
 
         try {
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
 
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -188,15 +186,14 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
         XmlReader fragment;
         fragment = new XmlReader();
 
-        fragment.SetMessage(getResources().getString(R.string.subjects),
-                getResources().getString(R.string.subjects_text), getAssets());
+        fragment.SetMessage(getResources().getString(R.string.subjects), getAssets());
 
         ///Временно вынесено сюда
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
 
         try {
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
 
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -236,13 +233,13 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                     Mode,
                     MistakesIndexesArray, Mass, AbsoluteSize);
 
-            FragmentTransaction ft = getFragmentManager().beginTransaction();
-            FragmentManager f = getFragmentManager();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            FragmentManager f = getSupportFragmentManager();
             f.popBackStack();
             ft.replace(R.id.content_frame, fragment, "fragment");
 
             try {
-                FragmentManager fragMan = getFragmentManager();
+                FragmentManager fragMan = getSupportFragmentManager();
                 Fragment frag = fragMan.findFragmentByTag("fragment");
 
                 if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -271,12 +268,12 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                     MistakesIndexesArray,
                     AbsoluteSize, Mass);
 
-            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
             //ft.disallowAddToBackStack();
 
             try {
-                FragmentManager fragMan = getFragmentManager();
+                FragmentManager fragMan = getSupportFragmentManager();
                 Fragment frag = fragMan.findFragmentByTag("fragment");
 
                 if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -329,11 +326,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 Question,
                 1, Show, false, 0, Size_exam, Mode, null, Size_exam, mass);
 
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
 
         try {
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
 
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -361,11 +358,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 getResources().getString(R.string.text_mistakes_1),
                 getResources().getString(R.string.text_mistakes_2));
 
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
 
         try {
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
 
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -395,11 +392,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 getResources().getString(R.string.text_mistakes_1),
                 getResources().getString(R.string.text_mistakes_2));
 
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
 
         try {
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
 
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -422,14 +419,13 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
             if (!(Files[(int) id].equals(""))) {
                 XmlReader fragment;
                 fragment = new XmlReader();
-                fragment.SetMessage(Files[(int) id],
-                        getResources().getString(R.string.themes_text), getAssets());
+                fragment.SetMessage(Files[(int) id], getAssets());
 
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -459,11 +455,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 fragment.setMessage((Test[(int) id]),
                         getResources().getString(R.string.mode_text), getAssets());
 
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -500,68 +496,37 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        setContentView(R.layout.activity_main_window);
+        setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
 
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
 
 
-        //Заполнение панели строковыми знаечниями
-        titles = getResources().getStringArray(R.array.menu);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
-        drawerList = (ListView) findViewById(R.id.drawer);
-
-        drawerList.setAdapter(new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_activated_1,
-                titles));
-
-
-        drawerList.setOnItemClickListener(new DrawerItemClickListener());
-
-
-        //При первом запуске выбор первого фрагмента
         if (savedInstanceState == null) {
-            selectedItem(0);
+            onNavigationItemSelected(navigationView.getMenu().getItem(0));
         }
         else {
-            currentPosition = savedInstanceState.getInt("position");
-            setActionBarTitle(currentPosition);
+            currentPosition = savedInstanceState.getInt("currentPosition)");
+            onNavigationItemSelected(navigationView.getMenu().getItem(currentPosition));
         }
-
-        //Создание ActionBarDrawerToggle
-        drawerToggle = new ActionBarDrawerToggle(this,
-                drawerLayout,
-                R.string.open_drawer,
-                R.string.close_drawer) {
-            //Вызывается при переходе выдвижной панели в полностью закрытое состояние.
-            public void onDrawerClosed(View view) {
-                super.onDrawerClosed(view);
-                invalidateOptionsMenu();
-            }
-
-            //Вызывается при переходе выдвижной панели в полностью открытое состояние.
-            public void onDrawerOpened(View drawerView) {
-                super.onDrawerOpened(drawerView);
-                invalidateOptionsMenu();
-            }
-        };
-
-        drawerLayout.addDrawerListener(drawerToggle);
-
-
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-        getActionBar().setHomeButtonEnabled(true);
-
-        //Прослушка нажатий кнопок
-        drawerList.setOnItemClickListener(new DrawerItemClickListener());
 
 
         //Обеспечение корректного отображения
         // заголовка меню при нажатии кнопки возврата
-        getFragmentManager().addOnBackStackChangedListener(
+        getSupportFragmentManager().addOnBackStackChangedListener(
                 new FragmentManager.OnBackStackChangedListener() {
                     public void onBackStackChanged() {
-                        FragmentManager fragMan = getFragmentManager();
+                        FragmentManager fragMan = getSupportFragmentManager();
                         Fragment fragment = fragMan.findFragmentByTag("fragment");
 
                         if (fragment instanceof AboutFragment) {
@@ -578,15 +543,13 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                         }
 
 
-                        setActionBarTitle(currentPosition);
-                        drawerList.setItemChecked(currentPosition, false);
+                       // drawerList.setItemChecked(currentPosition, false);
                     }
 
                 }
         );
 
         //Блок рекламы
-
 
         final AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -663,7 +626,7 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
             drawer.closeDrawer(GravityCompat.START);
         } else {
 
-            FragmentManager fragMan = getFragmentManager();
+            FragmentManager fragMan = getSupportFragmentManager();
             Fragment fragment = fragMan.findFragmentByTag("fragment");
 
             Log.v("COUNT", fragment.getClass().toString());
@@ -708,20 +671,9 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
 
     @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        drawerToggle.syncState();
-    }
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        drawerToggle.onConfigurationChanged(newConfig);
-    }
-    @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // Если выдвижная панель открыта, скрыть элементы, связанные с контентом
-        boolean drawerOpen = drawerLayout.isDrawerOpen(drawerList);
+        //boolean drawerOpen = drawerLayout.isDrawerOpen(drawerList);
         // menu.findItem(R.id.action_share).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);
     }
@@ -746,11 +698,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 SavedTests fragment;
                 fragment = new SavedTests();
                 fragment.setMessage(loader.getBundle());
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -772,11 +724,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 //Справка
                 //fragment =
                 HelpFragment fragment = new HelpFragment();
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -798,11 +750,11 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 //fragment = new XmlReader();
 
                 AboutFragment fragment = new AboutFragment();
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -823,15 +775,14 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
                 XmlReader fragment;
                 fragment = new XmlReader();
 
-                fragment.SetMessage(getResources().getString(R.string.subjects),
-                        getResources().getString(R.string.subjects_text), getAssets());
+                fragment.SetMessage(getResources().getString(R.string.subjects), getAssets());
 
                 ///Временно вынесено сюда
-                FragmentTransaction ft = getFragmentManager().beginTransaction();
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.content_frame, fragment, "fragment");
 
                 try {
-                    FragmentManager fragMan = getFragmentManager();
+                    FragmentManager fragMan = getSupportFragmentManager();
                     Fragment frag = fragMan.findFragmentByTag("fragment");
 
                     if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
@@ -850,9 +801,8 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
 
 
         }
-        setActionBarTitle(position);
-        drawerList.setItemChecked(currentPosition, false);
-        drawerLayout.closeDrawer(drawerList);
+        //drawerList.setItemChecked(currentPosition, false);
+        //drawerLayout.closeDrawer(drawerList);
 
     }
 
@@ -864,20 +814,73 @@ public class MainWindow extends Activity implements XmlReader.XmlReaderListener,
     }
 
 
-    private void setActionBarTitle(int position) {
-        String title;
-        title = titles[position];
-        getActionBar().setTitle(title);
-    }
 
+    @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
 
-        if (drawerToggle.onOptionsItemSelected(item)) {
-            return true;
+        android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
+
+        if (id == R.id.tests) {
+
+            currentPosition = 0;
+
+            XmlReader fragment;
+            fragment = new XmlReader();
+            fragment.SetMessage(getResources().getString(R.string.subjects), getAssets());
+            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, fragment, "fragment");
+            ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            Log.v("Entry", Integer.toString(fragmentManager.getBackStackEntryCount()));
+            if(fragmentManager.getBackStackEntryCount() != 0) {
+                ft.addToBackStack(null);
+            }
+            ft.commit();
+
+        } else if (id == R.id.bookmarks) {
+
+            currentPosition = 1;
+
+            SavedTests fragment;
+            fragment = new SavedTests();
+            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, fragment, "fragment");
+            ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.addToBackStack(null);
+            ft.commit();
+
+        } else if (id == R.id.faq) {
+
+            currentPosition = 2;
+
+            HelpFragment fragment;
+            fragment = new HelpFragment();
+            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, fragment, "fragment");
+            ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.addToBackStack(null);
+            ft.commit();
+
+
+        } else if (id == R.id.about) {
+
+            currentPosition = 3;
+
+            AboutFragment fragment;
+            fragment = new AboutFragment();
+            android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.content_frame, fragment, "fragment");
+            ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            ft.addToBackStack(null);
+            ft.commit();
+
         }
 
-        return drawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 
 
