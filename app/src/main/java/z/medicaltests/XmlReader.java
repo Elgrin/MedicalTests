@@ -108,7 +108,7 @@ public class XmlReader extends Fragment{
             catch (Exception e) {Log.v("Error", "Filed to load list");}
         }
         return view;
-                //inflater.inflate(R.layout.fragment_xml_reader, container, false);
+        //inflater.inflate(R.layout.fragment_xml_reader, container, false);
     }
 
     @Override

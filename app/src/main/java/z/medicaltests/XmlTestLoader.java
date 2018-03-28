@@ -17,7 +17,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 class XmlTestLoader {
     private String FileName;
     private int iSize;
-    private String size;
     //private TestStructure Questions[];
     private TestStructure Questions;
     private static final String TAG = "TestLoader";
@@ -37,13 +36,11 @@ class XmlTestLoader {
             NodeList Properties = doc.getElementsByTagName("quize");
             Node node = Properties.item(0);
             Element el = (Element) node;
-            size = el.getAttribute("size");
-
-            iSize = Integer.parseInt(size);
+            iSize = Integer.parseInt(el.getAttribute("size"));
 
         }
         catch (Exception e){
-            Log.v(TAG, "Error while loading1...");}
+            Log.v(TAG, "Error while loading  - 1");}
     }
 
     XmlTestLoader(String fileName, AssetManager assetManager, int mass) {
@@ -55,18 +52,21 @@ class XmlTestLoader {
 
             int del = 250;
             double src = mass/((double)del);
-            //int code = (int)src;
             int code = (int)(src);
             double ost = src - code;
+
             if(ost==0) {
                 code = code-1;
             }
+
             String s_code = Integer.toString(code);
             if (code == 0.0) {
                 s_code ="";
             }
+
             Log.v(TAG, FileName + " " + Integer.toString(mass) + " " + s_code);
             Log.v(TAG, "Size " + code + " " + s_code + " " + mass);
+
             InputStream is = assetManager.open(FileName + s_code+ ".xml");
 
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -139,7 +139,7 @@ class XmlTestLoader {
                         Log.v(TAG, " " + "ID"  + " " + id);
                         question.setID(id);
 
-                        allQuestions = new TestCheckBox();
+                        //allQuestions = new TestCheckBox();
                         allQuestions = question;
                     }
                     else {
@@ -240,7 +240,7 @@ class XmlTestLoader {
                             question.setRelations(Relations);
                             question.setID(id);
 
-                            allQuestions = new MultipleChoices();
+                            //allQuestions = new MultipleChoices();
                             allQuestions = question;
                         }
                     }
@@ -257,9 +257,8 @@ class XmlTestLoader {
     int getSize() {
         return iSize;
     }
-    public String getS() {return size;}
     String getPath() {return Path;}
-    public String getName() {return Name;}
+    String getName() {return Name;}
 
     TestStructure getTestStructure() {
         return Questions;

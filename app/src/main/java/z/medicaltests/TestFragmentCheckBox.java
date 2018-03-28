@@ -116,7 +116,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                             intent.putExtra(Intent.EXTRA_SUBJECT,
                                     getResources().
                                             getString(R.string.header));
-                            intent.putExtra(Intent.EXTRA_TEXT, "Найдена ошибка" + "\n\nНомер вопроса: " + Number + ". Тема: " + Name + ". Путь: " + Path + "\n\nВаши комментарии:\n");
+                            intent.putExtra(Intent.EXTRA_TEXT, "Найдена ошибка" + "\n\nНомер вопроса: " + Question.getID() + ". Тема: " + Name + ". Путь: " + Path + "\n\nВаши комментарии:\n");
                             startActivity(intent);
 
                             /*
