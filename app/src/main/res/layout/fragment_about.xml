@@ -1,25 +1,22 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="3dp"
+    android:paddingLeft="3dp"
+    android:paddingStart="3dp"
+    android:paddingEnd="3dp"
     tools:context="z.medicaltests.AboutFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="3dp"
-        android:paddingBottom="3dp">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@android:color/darker_gray"
-            android:text="Версия приложения:" />
-
+            android:text="@string/versionText" />
         <TextView
             android:id="@+id/version"
             android:layout_width="wrap_content"
@@ -27,21 +24,18 @@
             android:layout_gravity="center_horizontal"
             android:textSize="20sp"
             android:textColor="@android:color/black"/>
-
         <View
             android:id="@+id/view1"
             android:layout_width="wrap_content"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@android:color/darker_gray"
-            android:text="Для связи используйте почту:" />
-
+            android:text="@string/mailText" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +46,4 @@
             android:text="@string/email"
             android:clickable="true"
             android:focusable="true"/>
-
-    </LinearLayout>
-
-</FrameLayout>
+</LinearLayout>

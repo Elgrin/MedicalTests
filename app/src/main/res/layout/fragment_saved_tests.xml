@@ -1,37 +1,22 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context="z.medicaltests.SavedTests"
     android:id="@+id/main_saved"
     android:padding="5dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/ww"
                 android:textSize="24sp"
                 android:layout_gravity="center"/>
-            <!--
-            <ListView
-                android:layout_height="0dp"
-                android:layout_width="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/list_saved">
-            </ListView>
-            -->
             <ListView
                 android:layout_height="0dp"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:id="@+id/list_saved"/>
-
-
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -43,8 +28,4 @@
                 android:background="@drawable/outline"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"/>
-
-        </LinearLayout>
-
-
-</FrameLayout>
+</LinearLayout>

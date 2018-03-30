@@ -1,13 +1,10 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:paddingTop="5dp"
     tools:context="z.medicaltests.HelpFragment">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="none"
-        android:paddingTop="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -16,7 +13,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• В режиме *Все вопросы* представлены все вопросы по данной теме, так же вы можете включить отображение верных вариантов ответа (будут подсвечиваться зеленым цветом)."
+                android:text="@string/faq1"
                 android:padding="5dp"
                 android:gravity="fill_horizontal" />
 
@@ -29,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• В *Режиме экзамена* можно выбрать определенное количество вопросов по данной теме из всех имеющихся."
+                android:text="@string/faq2"
                 android:gravity="fill_horizontal"
                 android:padding="5dp"/>
 
@@ -42,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• Доступ к дополнительным функциям осуществляется через кнопки в правом верхнем углу вашего устройства"
+                android:text="@string/faq3"
                 android:gravity="fill_horizontal"
                 android:padding="5dp"/>
 
@@ -55,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• Во время прохождения теста вы можете:\n 1) начать тест заново; \n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\n 3) отправить разработчику письмо об ошибке (при наличии опечаток, или если вы не согласны с правильностью ответа)"
+                android:text="@string/faq4"
                 android:gravity="fill_horizontal"
                 android:padding="5dp"/>
 
@@ -68,10 +65,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:text="• В окне закладок можно удалить либо все закладки, либо выбранные. Для загрузки теста необходимо выбрать его и нажать кнопку загрузки"
+                android:text="@string/faq5"
                 android:gravity="fill_horizontal"
                 android:padding="4dp"/>
         </LinearLayout>
-    </ScrollView>
-
-</FrameLayout>
+</ScrollView>

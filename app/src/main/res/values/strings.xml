@@ -1,13 +1,7 @@
 <resources>
-    <string name="app_name">Мед. тесты (ПМГМУ)</string>
+    <string name="app_name">Тесты для врачей (ПМГМУ)</string>
     <string name="lessons">Предметы</string>
     <string name="statisctics">Статистика</string>
-    <string-array name="menu">
-        <item>Тесты</item>
-        <item>Закладки</item>
-        <item>Справка</item>
-        <item>О приложении</item>
-    </string-array>
 
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
@@ -41,10 +35,6 @@
     <string name="button_next_colors">Проверить</string>
     <string name="button_save">Сохранить и выйти</string>
 
-    <string name="color_green">#7FFF00</string>
-    <string name="color_red">#FF69B4</string>
-    <string name="color_blue">#7B68EE</string>
-
     <string name="result_page_text">Итоги:</string>
     <string name="result_page_button">Перейти к предметам</string>
     <string name="mistakes_page_button">Повторить неправильные</string>
@@ -55,29 +45,32 @@
     <string name="alert_dialogue_again_header">Начать тест заново?</string>
     <string name="alert_dialogue_save_header">Сохранить тест?</string>
     <string name="alert_dialogue_save_out">Сохранить и выйти в главное меню?</string>
-    <string name="alert_dialogue_bug_report">Отправить разработчику сообщение об ошибке?</string>
+    <string name="alert_dialogue_bug_report">Отправить сообщение об ошибке?</string>
 
     <string name="alert_dialogue_delete_all">Удалить все сохранения?</string>
     <string name="alert_dialogue_delete_chosen">Удалить выбранные сохранения?</string>
     <string name="alert_dialogue_button">Продолжить тест (сохранение будет удалено)?</string>
-
     <string name="load_button_text">Загрузить тест</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email">norashironeko@gmail.com</string>
-    <string name="choser">Выберите средство отправки... </string>
+    <string name="choser">Выберите средство отправки</string>
     <string name="header">Отчёт об ошибке/Приложение по медицинским тестам</string>
-
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="tests">Тесты</string>
     <string name="bookmarks">Закладки</string>
     <string name="faq">Справка</string>
     <string name="about">О приложении</string>
     <string name="edit_about"> </string>
+
+    <string name="mailText">Почта для связи:</string>
+    <string name="versionText">Версия приложения:</string>
+
+    <string name="faq1">• В режиме *Все вопросы* представлены все вопросы по данной теме, так же вы можете включить отображение верных вариантов ответа (будут подсвечиваться зеленым цветом)</string>
+    <string name="faq2">• В *Режиме экзамена* можно выбрать определенное количество вопросов по данной теме из всех имеющихся</string>
+    <string name="faq3">• Доступ к дополнительным функциям осуществляется через кнопки в правом верхнем углу вашего устройства</string>
+    <string name="faq4">• Во время прохождения теста вы можете:\n 1) начать тест заново; \n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\n 3) отправить разработчику письмо об ошибке (при наличии опечаток, или если вы не согласны с правильностью ответа)</string>
+    <string name="faq5">• В окне закладок можно удалить либо все закладки, либо выбранные. Для загрузки теста необходимо выбрать его и нажать кнопку загрузки</string>
 </resources>
