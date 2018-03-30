@@ -12,6 +12,7 @@
     <string name="action_mail_chosen">Сообщить об ошибке</string>
     <string name="banner_id">ca-app-pub-4783454866533768/8434709134</string>
 
+    
     <string name="subjects">subjects</string>
     <string name="subjects_text">Выберите предмет для теста:</string>
     <string name="themes_text">Выберите тему теста:</string>
