@@ -43,7 +43,9 @@
             android:layout_below="@+id/result_text"
             android:layout_centerHorizontal="true"
             android:layout_alignStart="@+id/mistakes_page_button"
-            android:layout_alignEnd="@+id/mistakes_page_button"/>
+            android:layout_alignEnd="@+id/mistakes_page_button"
+            android:layout_alignLeft="@+id/mistakes_page_button"
+            android:layout_alignRight="@+id/mistakes_page_button"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -69,7 +71,9 @@
             android:layout_below="@+id/mistakes_page_button"
             android:layout_centerHorizontal="true"
             android:layout_alignStart="@+id/result_page_button"
-            android:layout_alignEnd="@+id/result_page_button"/>
+            android:layout_alignEnd="@+id/result_page_button"
+            android:layout_alignLeft="@+id/result_page_button"
+            android:layout_alignRight="@+id/result_page_button"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -83,12 +87,11 @@
             android:layout_below="@+id/again_page_button"
             android:layout_centerHorizontal="true"
             android:layout_alignStart="@+id/result_page_button"
-            android:layout_alignEnd="@+id/result_page_button"/>
-
+            android:layout_alignEnd="@+id/result_page_button"
+            android:layout_alignLeft="@+id/result_page_button"
+            android:layout_alignRight="@+id/result_page_button"/>
 
 
     </RelativeLayout>
     </ScrollView>
-
-
 </FrameLayout>

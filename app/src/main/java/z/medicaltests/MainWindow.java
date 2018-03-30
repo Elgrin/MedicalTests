@@ -18,8 +18,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -58,7 +56,8 @@ import java.util.Random;
     @Override
     public void onBackClick() {
         getFragmentManager().popBackStack();
-        selectedItem(0);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        onNavigationItemSelected(navigationView.getMenu().getItem(0));
     }
     public void BarDrawer(String Name, String Path, TestStructure Questions,
                           boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize, int Mass[]) {
@@ -500,6 +499,7 @@ import java.util.Random;
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("");
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -514,10 +514,11 @@ import java.util.Random;
 
         if (savedInstanceState == null) {
             onNavigationItemSelected(navigationView.getMenu().getItem(0));
+            navigationView.getMenu().getItem(0).setChecked(true);
         }
         else {
             currentPosition = savedInstanceState.getInt("currentPosition)");
-            onNavigationItemSelected(navigationView.getMenu().getItem(currentPosition));
+            //onNavigationItemSelected(navigationView.getMenu().getItem(currentPosition));
         }
 
 
@@ -531,15 +532,27 @@ import java.util.Random;
 
                         if (fragment instanceof AboutFragment) {
                             currentPosition = 3;
+                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else if (fragment instanceof HelpFragment) {
                             currentPosition = 2;
+                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else if (fragment instanceof SavedTests) {
                             currentPosition = 1;
+                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
-                        else {
+                        else if(fragment instanceof XmlReader){
                             currentPosition = 0;
+                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            navigationView.getMenu().getItem(currentPosition).setChecked(true);
+                        }
+                        else  {
+                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            navigationView.getMenu().getItem(currentPosition).setChecked(false);
                         }
 
 
@@ -634,32 +647,14 @@ import java.util.Random;
             if (fragment.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
                 Log.v("COUNT", "Haha");
             }
-        /*
-        if (fragment instanceof TestFragmentCheckBox
-                || fragment instanceof Check_Boxes
-                || fragment instanceof ResultPage
-                //|| fragMan.getBackStackEntryCount() == 1)
-        ) {
-            //Alert("z");
-            // super.onBackPressed();
-        }
-        else {
-            if(fragMan.getBackStackEntryCount() <= 1) {
-                finish();
-            }
-                else
-                    super.onBackPressed();
-        }*/
 
-            //FrameLayout frameLayout = (FrameLayout) findViewById(R.id.content_frame);
-            //frameLayout.removeAllViews();
-
-            if (fragMan.getBackStackEntryCount() <= 1) {
+            if (fragMan.getBackStackEntryCount() <= 0) {
                 if (fragment.getClass().toString().equals("class z.medicaltests.XmlReader")) {
                     finish();
                 } else {
                     getFragmentManager().popBackStack();
-                    selectedItem(0);
+                    NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                    onNavigationItemSelected(navigationView.getMenu().getItem(0));
                 }
                 Log.v("COUNT", "YES");
             } else {
@@ -667,143 +662,6 @@ import java.util.Random;
                 Log.v("COUNT", "No");
             }
         }
-    }
-
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        // Если выдвижная панель открыта, скрыть элементы, связанные с контентом
-        //boolean drawerOpen = drawerLayout.isDrawerOpen(drawerList);
-        // menu.findItem(R.id.action_share).setVisible(!drawerOpen);
-        return super.onPrepareOptionsMenu(menu);
-    }
-
-
-    private class DrawerItemClickListener implements ListView.OnItemClickListener {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            //Код для обработки нажатия
-            selectedItem(position);
-        }
-    }
-
-    private void selectedItem(int position) {
-        currentPosition = position;
-        switch (position) {
-
-            case 1: {
-
-                XmlSavedReader loader = new XmlSavedReader(getBaseContext());
-
-                SavedTests fragment;
-                fragment = new SavedTests();
-                fragment.setMessage(loader.getBundle());
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.content_frame, fragment, "fragment");
-
-                try {
-                    FragmentManager fragMan = getSupportFragmentManager();
-                    Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                            getFragmentManager().popBackStack();
-                        }
-                    }
-                }
-                catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                ft.addToBackStack(null);
-                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                ft.commit();
-
-                //fragment.SetMessage(getResources().getString(R.string.subjects));
-                break;
-            }
-            case 2: {
-                //Справка
-                //fragment =
-                HelpFragment fragment = new HelpFragment();
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.content_frame, fragment, "fragment");
-
-                try {
-                    FragmentManager fragMan = getSupportFragmentManager();
-                    Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                            getFragmentManager().popBackStack();
-                        }
-                    }
-                }
-                catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                ft.addToBackStack(null);
-                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                ft.commit();
-
-                break;
-            }
-            case 3: {
-                //О приложении
-                //fragment = new XmlReader();
-
-                AboutFragment fragment = new AboutFragment();
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.content_frame, fragment, "fragment");
-
-                try {
-                    FragmentManager fragMan = getSupportFragmentManager();
-                    Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                            getFragmentManager().popBackStack();
-                        }
-                    }
-                }
-                catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                ft.addToBackStack(null);
-                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                ft.commit();
-
-                break;
-            }
-            default: {
-                XmlReader fragment;
-                fragment = new XmlReader();
-
-                fragment.SetMessage(getResources().getString(R.string.subjects), getAssets());
-
-                ///Временно вынесено сюда
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.content_frame, fragment, "fragment");
-
-                try {
-                    FragmentManager fragMan = getSupportFragmentManager();
-                    Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                            getFragmentManager().popBackStack();
-                        }
-                    }
-                }
-                catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                ft.addToBackStack(null);
-                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                ft.commit();
-
-            }
-
-
-        }
-        //drawerList.setItemChecked(currentPosition, false);
-        //drawerLayout.closeDrawer(drawerList);
-
     }
 
     @Override
@@ -823,7 +681,7 @@ import java.util.Random;
 
         android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if (id == R.id.tests) {
+        if (id == R.id.tests && isSame("class z.medicaltests.XmlReader")) {
 
             currentPosition = 0;
 
@@ -834,24 +692,30 @@ import java.util.Random;
             ft.replace(R.id.content_frame, fragment, "fragment");
             ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
             Log.v("Entry", Integer.toString(fragmentManager.getBackStackEntryCount()));
+            clearStack();
             if(fragmentManager.getBackStackEntryCount() != 0) {
                 ft.addToBackStack(null);
             }
             ft.commit();
 
-        } else if (id == R.id.bookmarks) {
+        } else if (id == R.id.bookmarks && isSame("class z.medicaltests.XmlSavedReader")) {
 
             currentPosition = 1;
 
+            XmlSavedReader loader = new XmlSavedReader(getBaseContext());
+
             SavedTests fragment;
             fragment = new SavedTests();
+            fragment.setMessage(loader.getBundle());
+
             android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
             ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            clearStack();
             ft.addToBackStack(null);
             ft.commit();
 
-        } else if (id == R.id.faq) {
+        } else if (id == R.id.faq && isSame("class z.medicaltests.HelpFragment")) {
 
             currentPosition = 2;
 
@@ -860,11 +724,12 @@ import java.util.Random;
             android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
             ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            clearStack();
             ft.addToBackStack(null);
             ft.commit();
 
 
-        } else if (id == R.id.about) {
+        } else if (id == R.id.about && isSame("class z.medicaltests.AboutFragment")) {
 
             currentPosition = 3;
 
@@ -873,6 +738,7 @@ import java.util.Random;
             android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.content_frame, fragment, "fragment");
             ft.setTransition(android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            clearStack();
             ft.addToBackStack(null);
             ft.commit();
 
@@ -883,5 +749,26 @@ import java.util.Random;
         return true;
     }
 
+    protected boolean isSame(String className) {
+        try{
+            FragmentManager fragMan = getSupportFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+            return !frag.getClass().toString().equals(className);
+        }
+        catch (Exception e) {return true; }
 
+    }
+    protected  void clearStack() {
+        try {
+            FragmentManager fragMan = getSupportFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                for(int i = 0; i < getSupportFragmentManager().getBackStackEntryCount(); ++i) {
+                    getSupportFragmentManager().popBackStack();
+                }
+            }
+        }
+        catch (Exception e) {Log.v("Error", "Error in popstack");}
+    }
 }

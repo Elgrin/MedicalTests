@@ -793,7 +793,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 StreamResult result = new StreamResult(new File(getActivity().getFilesDir().getAbsolutePath()+"/" + filePath));
                 transformer.transform(source, result);
                 is.close();
-
+                Log.v(TAG + "A", "Done");
                 /*
                 FileOutputStream fos;
                 fos = getActivity().openFileOutput(filePath, MODE_APPEND);

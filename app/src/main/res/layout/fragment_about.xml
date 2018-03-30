@@ -2,7 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15dp"
     tools:context="z.medicaltests.AboutFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -10,18 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/rounded"
-        android:paddingStart="15dip"
-        android:paddingEnd="4dip"
-        android:paddingTop="15dip"
-        android:paddingBottom="15dip">
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
 
         <TextView
-            android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="20sp"
+            android:textSize="15sp"
+            android:textColor="@android:color/darker_gray"
             android:text="Версия приложения:" />
 
         <TextView
@@ -29,18 +25,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
 
         <TextView
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textSize="20sp"
+            android:textSize="15sp"
+            android:textColor="@android:color/darker_gray"
             android:text="Для связи используйте почту:" />
 
         <TextView
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mailto"
@@ -48,7 +50,8 @@
             android:textColor="@drawable/mailcolor"
             android:textSize="20sp"
             android:text="@string/email"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:focusable="true"/>
 
     </LinearLayout>
 

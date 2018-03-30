@@ -13,8 +13,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/linear_layout"
             android:orientation="vertical"
-            android:padding="15dp">
-
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -65,6 +64,8 @@
                     android:textSize="20sp"
                     android:layout_alignStart="@+id/button_save"
                     android:layout_alignEnd="@+id/button_save"
+                    android:layout_alignLeft="@+id/button_save"
+                    android:layout_alignRight="@+id/button_save"
                     android:id="@+id/button_next"
                     android:background="@drawable/outline"
                     android:padding="25dp" />

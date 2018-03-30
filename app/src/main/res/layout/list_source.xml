@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+    android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
     android:gravity="center_vertical"
     android:textSize="20sp"
     android:padding="2dp"/>

@@ -79,4 +79,5 @@
     <string name="bookmarks">Закладки</string>
     <string name="faq">Справка</string>
     <string name="about">О приложении</string>
+    <string name="edit_about"> </string>
 </resources>

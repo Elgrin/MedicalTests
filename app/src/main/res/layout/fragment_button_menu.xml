@@ -19,6 +19,8 @@
            android:layout_centerHorizontal="true"
            android:layout_alignStart="@+id/ExamMode"
            android:layout_alignEnd="@+id/ExamMode"
+           android:layout_alignLeft="@+id/ExamMode"
+           android:layout_alignRight="@+id/ExamMode"
            android:background="@drawable/outline"
            android:padding="45dp" />
 
