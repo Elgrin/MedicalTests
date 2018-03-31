@@ -1,6 +1,5 @@
 package z.medicaltests;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -30,9 +29,9 @@ public class TestSettings extends Fragment implements View.OnClickListener {
 
 
     private static final String TAG = "SETTINGS";
-    public TestSettings.TestSettingsListener listener;
+    private TestSettings.TestSettingsListener listener;
 
-    static interface TestSettingsListener {
+    interface TestSettingsListener {
         void onButtonSettingsCommitListener(boolean show, int Size_all, int Size_exam, String File, int Mode);
     }
 
@@ -41,8 +40,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
     }
 
     public void SetMessage(String File, int Size,
-                           String Text_1,
-                           String Text_2) {
+                           String Text_1) {
         this.File = File;
         this.Size = Size;
         Text = Text_1 + " " + Integer.toString(Size);
@@ -52,8 +50,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
 
     public  void SetMessage(String File, int Size,
                             String Text,
-                            String Text_1,
-                            String Text_2) {
+                            String Text_1) {
         this.File = File;
         this.Size = Size;
         this.Text = Text_1 + " " + Integer.toString(Size) + "\n" + Text;
@@ -77,10 +74,10 @@ public class TestSettings extends Fragment implements View.OnClickListener {
             //Mass = savedInstanceState.getIntArray("mass");
         }
 
-        TextView textView = (TextView) layout.findViewById(R.id.Size);
+        TextView textView = layout.findViewById(R.id.Size);
         textView.setText(Text);
 
-        Button commit = (Button) layout.findViewById(R.id.commit_settings);
+        Button commit = layout.findViewById(R.id.commit_settings);
         commit.setOnClickListener(this);
 
         return layout;
@@ -92,25 +89,16 @@ public class TestSettings extends Fragment implements View.OnClickListener {
 
 
         View view = getView();
-        if(!Flag) {
-            EditText editText = (EditText) view.findViewById(R.id.Exam_size);
-            editText.setVisibility(View.GONE);
+        if (view!=null) {
+            if(!Flag) {
+                EditText editText = view.findViewById(R.id.Exam_size);
+                editText.setVisibility(View.GONE);
+
+            }
 
         }
-        else {
-            CheckBox checkBox = (CheckBox) view.findViewById(R.id.Show_mistakes);
-            //checkBox.setVisibility(View.GONE);
-        }
-
-
     }
 
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-        this.listener = (TestSettings.TestSettingsListener) context;
-        Log.v(TAG, "Activity");
-    }
 
     @Override
     public void onAttach(Context context) {
@@ -136,7 +124,7 @@ public class TestSettings extends Fragment implements View.OnClickListener {
     }
 
 
-    protected void Alert(String Error) {
+    private void Alert(String Error) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle("Ошибка!")
                 .setMessage(Error)
@@ -160,48 +148,51 @@ public class TestSettings extends Fragment implements View.OnClickListener {
 
         if (View != null) {
             InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-        }
 
-        int Size_exam;
-        CheckBox checkBox = (CheckBox) View.findViewById(R.id.Show_mistakes);
-        boolean show = checkBox.isChecked();
+            int Size_exam;
+            CheckBox checkBox = View.findViewById(R.id.Show_mistakes);
+            boolean show = checkBox.isChecked();
 
-        if (Flag) {
-            EditText editText = (EditText) View.findViewById(R.id.Exam_size);
+            if (Flag) {
+                EditText editText = View.findViewById(R.id.Exam_size);
 
-            try {
-                Size_exam = Integer.parseInt(editText.getText().toString());
-            } catch (Exception e) {
-                Size_exam = 0;
-                Alert("Не выбрано количество вопросов.");
-                return;
+                try {
+                    Size_exam = Integer.parseInt(editText.getText().toString());
+                } catch (Exception e) {
+                    //Size_exam = 0;
+                    Alert("Не выбрано количество вопросов.");
+                    return;
+                }
+            } else {
+                Size_exam = Size;
             }
-        } else {
-            Size_exam = Size;
-        }
 
-        if (Size_exam > Size) {
-            EditText editText = (EditText) View.findViewById(R.id.Exam_size);
-            editText.setText(null);
-            Alert("Количество вопросов для теста больше доступного.");
-
-        } else {
-            if (Size_exam == 0) {
-                EditText editText = (EditText) View.findViewById(R.id.Exam_size);
+            if (Size_exam > Size) {
+                EditText editText = View.findViewById(R.id.Exam_size);
                 editText.setText(null);
-                Alert("Количество вопросов в тесте не должно равняться 0");
-                return;
-            }
-            if (listener != null) {
-                View layout = getView();
-                Button commit = (Button) layout.findViewById(R.id.commit_settings);
-                //commit.setText("Загрузка вопросов");
-                commit.setEnabled(false);
+                Alert("Количество вопросов для теста больше доступного.");
 
-                listener.onButtonSettingsCommitListener(show, Size, Size_exam, File, Mode);
+            } else {
+                if (Size_exam == 0) {
+                    EditText editText = View.findViewById(R.id.Exam_size);
+                    editText.setText(null);
+                    Alert("Количество вопросов в тесте не должно равняться 0");
+                    return;
+                }
+                if (listener != null) {
+                    View layout = getView();
+                    Button commit = layout.findViewById(R.id.commit_settings);
+                    //commit.setText("Загрузка вопросов");
+                    commit.setEnabled(false);
+
+                    listener.onButtonSettingsCommitListener(show, Size, Size_exam, File, Mode);
+                }
             }
         }
+
+
     }
 
 }

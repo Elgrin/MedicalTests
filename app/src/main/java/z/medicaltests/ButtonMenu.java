@@ -1,7 +1,6 @@
 package z.medicaltests;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -17,13 +16,13 @@ import android.widget.Button;
  */
 public class ButtonMenu extends Fragment implements View.OnClickListener{
 
-    public ButtonMenuListener listener;
+    private ButtonMenuListener listener;
     private static final String TAG = "Button";
     private String File="";
     private int Size;
-    protected String Text ="";
+    private String Text ="";
 
-    static  interface  ButtonMenuListener {
+    interface  ButtonMenuListener {
         void onButtonClickAllQuestions(int Size, String Filez);
         void  onButtonClickExamMode(int Size, String File);
     }
@@ -50,28 +49,15 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
             Text = savedInstanceState.getString("text");
         }
 
-        Button allQuestions = (Button) layout.findViewById(R.id.allQuestions);
+        Button allQuestions = layout.findViewById(R.id.allQuestions);
         allQuestions.setOnClickListener(this);
 
-        Button examMode = (Button) layout.findViewById(R.id.ExamMode);
+        Button examMode = layout.findViewById(R.id.ExamMode);
         examMode.setOnClickListener(this);
 
         return layout;
     }
 
-
-    @Override
-    public  void onStart() {
-        super.onStart();
-
-    }
-
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-        this.listener = (ButtonMenuListener) context;
-        Log.v(TAG, "Activity");
-    }
 
     @Override
     public void onAttach(Context context) {
@@ -94,13 +80,11 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
 
             case R.id.allQuestions:
-                onClickAllQuestions();
                 if (listener != null) {
                     listener.onButtonClickAllQuestions(Size, File);
                 }
                 break;
             case R.id.ExamMode:
-                onClickExamMode();
                 if (listener != null) {
                     listener.onButtonClickExamMode(Size, File);
                 }
@@ -109,13 +93,6 @@ public class ButtonMenu extends Fragment implements View.OnClickListener{
     }
 
 
-    public void onClickAllQuestions() {
-
-    }
-
-    public void onClickExamMode() {
-
-    }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {

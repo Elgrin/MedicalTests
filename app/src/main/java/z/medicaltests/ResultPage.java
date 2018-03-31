@@ -1,7 +1,6 @@
 package z.medicaltests;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -21,19 +20,19 @@ public class ResultPage extends Fragment implements View.OnClickListener {
     private int Result;
     private int All;
     private ResultPageListener listener;
-    private TestStructure Question;
+    //private TestStructure Question;
     private int Max;
     private String Path;
     private String Name;
     private int Mode;
-    protected boolean Show;
+    private boolean Show;
     private int[] MistakesIndexesArray;
     private int AbsoluteSize;
     private int Mass[];
 
     private TestFragmentCheckBox.TestFragmentBarListener barListener;
 
-    static interface ResultPageListener {
+    interface ResultPageListener {
         void onButtonResultPageListener();
     }
 
@@ -59,19 +58,19 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
 
                 Mass = newMass;
-                int iter []= {Mass[0]};
+                //int iter []= {Mass[0]};
                 Max = Mass.length;
 
-                XmlTestLoader loader = new XmlTestLoader(Path, getActivity().getAssets(), Mass[0]);
-                TestStructure Question = loader.getTestStructure();
+                //XmlTestLoader loader = new XmlTestLoader(Path, getActivity().getAssets(), Mass[0]);
+                //TestStructure Question = loader.getTestStructure();
 
                 Log.v("Baba", Integer.toString(AbsoluteSize)  +" " + Path + " " + Mass[0]);
-                barListener.BarDrawer(Name, Path, Question, Show, Max, Mode, null, AbsoluteSize, Mass);
+                barListener.BarDrawer(Name, Path, Show, Max, Mode, AbsoluteSize, Mass);
 
                 break;
             }
             case R.id.again_page_button: {
-                barListener.BarDrawer(Name, Path, Question, Show, Max, Mode, null, AbsoluteSize, Mass);
+                barListener.BarDrawer(Name, Path, Show, Max, Mode, AbsoluteSize, Mass);
                 break;
             }
 
@@ -128,16 +127,16 @@ public class ResultPage extends Fragment implements View.OnClickListener {
 
         final View view = inflater.inflate(R.layout.fragment_result_page, container, false);
 
-        Button button = (Button) view.findViewById(R.id.result_page_button);
+        Button button = view.findViewById(R.id.result_page_button);
         button.setOnClickListener(this);
 
-        Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
+        Button mistakes = view.findViewById(R.id.mistakes_page_button);
         mistakes.setOnClickListener(this);
 
-        Button again = (Button) view.findViewById(R.id.again_page_button);
+        Button again = view.findViewById(R.id.again_page_button);
         again.setOnClickListener(this);
 
-        Button start = (Button) view.findViewById(R.id.main_page_button);
+        Button start = view.findViewById(R.id.main_page_button);
         start.setOnClickListener(this);
         // Inflate the layout for this fragment
         return view;
@@ -148,30 +147,24 @@ public class ResultPage extends Fragment implements View.OnClickListener {
         super.onStart();
 
         View view = getView();
-        TextView textView = (TextView) view.findViewById(R.id.result_text);
-        textView.setText("Получено баллов: "
-                + Integer.toString(Result)
-                + " из "
-                + Integer.toString(All));
 
-        Button mistakes = (Button) view.findViewById(R.id.mistakes_page_button);
+        if(view!=null) {
+            TextView textView = view.findViewById(R.id.result_text);
+            String txt = "Получено баллов: "
+                    + Integer.toString(Result)
+                    + " из "
+                    + Integer.toString(All);
+            textView.setText(txt);
 
-        Button main = (Button) view.findViewById(R.id.main_page_button);
-        main.setVisibility(View.GONE);
+            Button mistakes = view.findViewById(R.id.mistakes_page_button);
 
-        if(MistakesIndexesArray == null)  {
-            mistakes.setVisibility(View.GONE);
+            Button main = view.findViewById(R.id.main_page_button);
+            main.setVisibility(View.GONE);
+
+            if(MistakesIndexesArray == null)  {
+                mistakes.setVisibility(View.GONE);
+            }
         }
-
-    }
-
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-        this.listener = (ResultPageListener) context;
-
-        this.barListener = (TestFragmentCheckBox.TestFragmentBarListener) context;
-
 
     }
 

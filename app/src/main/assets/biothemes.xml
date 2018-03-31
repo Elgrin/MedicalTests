@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
     <item test="cells">Цитология</item>
     <item test="genes">Генетика</item>
     <item test="ontogenesis">Онтогенез</item>

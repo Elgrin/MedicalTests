@@ -2,23 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/tests"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_assignment_black_48dp"
             android:title="@string/tests" />
         <item
             android:id="@+id/bookmarks"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_bookmark_border_black_48dp"
             android:title="@string/bookmarks" />
         <item
             android:id="@+id/faq"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_help_black_48dp"
             android:title="@string/faq" />
         <item
             android:id="@+id/about"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_info_black_48dp"
             android:title="@string/about" />
     </group>
 </menu>

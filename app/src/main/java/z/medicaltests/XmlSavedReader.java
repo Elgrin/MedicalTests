@@ -100,11 +100,10 @@ class SavedBundle implements Parcelable {
  class XmlSavedReader {
 
     private SavedBundle bundle[];
-    private  final String filePath = "Save_massive.xml";
     private static final String TAG = "XmlSavedReader";
 
     XmlSavedReader(Context context) {
-
+        final String filePath = "Save_massive.xml";
         try {
 
             InputStream is = context.openFileInput(filePath);

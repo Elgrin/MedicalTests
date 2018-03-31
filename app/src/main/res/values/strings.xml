@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">Тесты для врачей (ПМГМУ)</string>
-    <string name="lessons">Предметы</string>
-    <string name="statisctics">Статистика</string>
 
-    <string name="open_drawer">Open drawer</string>
-    <string name="close_drawer">Close drawer</string>
     <string name="action_settings">Заново</string>
     <string name="action_save">Сохранить</string>
     <string name="action_delete_all">Удалить все</string>
@@ -12,10 +8,8 @@
     <string name="action_mail_chosen">Сообщить об ошибке</string>
     <string name="banner_id">ca-app-pub-4783454866533768/8434709134</string>
 
-    
+
     <string name="subjects">subjects</string>
-    <string name="subjects_text">Выберите предмет для теста:</string>
-    <string name="themes_text">Выберите тему теста:</string>
     <string name="mode_text">Выберите режим тестирования:</string>
 
     <string name="button_all_questions">Все вопросы</string>
@@ -23,14 +17,9 @@
     <string name="check_box_mistakes">Показывать ошибки сразу?</string>
 
     <string name="text_mistakes_1">Всего в тесте вопросов:</string>
-    <string name="text_mistakes_2">вопросов.</string>
     <string name="text_mistales_set">Выберите нужное количество вопросов</string>
 
     <string name="commit_settings_text">Начать тест</string>
-
-    <string name="fragment_right">Правильные</string>
-    <string name="fragment_mistake">Неправильные </string>
-    <string name="fragment_unchosen">Невыбранные правильные</string>
 
     <string name="button_next">Далее</string>
     <string name="button_next_colors">Проверить</string>
@@ -54,12 +43,10 @@
     <string name="load_button_text">Загрузить тест</string>
 
     <string name="email">norashironeko@gmail.com</string>
-    <string name="choser">Выберите средство отправки</string>
     <string name="header">Отчёт об ошибке/Приложение по медицинским тестам</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_desc">Navigation header</string>
     <string name="tests">Тесты</string>
     <string name="bookmarks">Закладки</string>
     <string name="faq">Справка</string>
@@ -72,6 +59,6 @@
     <string name="faq1">• В режиме *Все вопросы* представлены все вопросы по данной теме, так же вы можете включить отображение верных вариантов ответа (будут подсвечиваться зеленым цветом)</string>
     <string name="faq2">• В *Режиме экзамена* можно выбрать определенное количество вопросов по данной теме из всех имеющихся</string>
     <string name="faq3">• Доступ к дополнительным функциям осуществляется через кнопки в правом верхнем углу вашего устройства</string>
-    <string name="faq4">• Во время прохождения теста вы можете:\n 1) начать тест заново; \n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\n 3) отправить разработчику письмо об ошибке (при наличии опечаток, или если вы не согласны с правильностью ответа)</string>
+    <string name="faq4">• Во время прохождения теста вы можете:\n 1) начать тест заново; \n 2) сохранить текущую позицию в тесте, чтобы завершить его позже;\n 3) отправить письмо об ошибке</string>
     <string name="faq5">• В окне закладок можно удалить либо все закладки, либо выбранные. Для загрузки теста необходимо выбрать его и нажать кнопку загрузки</string>
 </resources>

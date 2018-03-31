@@ -1,10 +1,7 @@
 package z.medicaltests;
 
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -23,8 +20,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.TextView;
+
+import com.crashlytics.android.Crashlytics;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -33,6 +31,7 @@ import org.w3c.dom.Node;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.Arrays;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -48,13 +47,14 @@ import static android.content.Context.MODE_APPEND;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TestFragmentCheckBox extends Fragment implements View.OnClickListener{
+public class TestFragmentCheckBox extends Fragment implements View.OnClickListener,
+MyDialogFragment.YesNoListener{
 
-    protected int Number;
-    protected TestStructure Question;
-    protected int RightAnswers;
-    protected boolean Show;
-    static protected boolean Colors;
+    private int Number;
+    private TestStructure Question;
+    private int RightAnswers;
+    private boolean Show;
+    private static boolean Colors;
     private int Max;
     private String Path;
     private String Name;
@@ -67,168 +67,92 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     private TestFragmentBarListener barListener;
     private onBackClickListener backClickListener;
 
-
-    private void toastMessage(String message, final int mode) {
-
-        DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        }
-
-        AlertDialog.Builder ad;
-        ad = new AlertDialog.Builder(getActivity());
-
-        ad.setTitle(getResources().
-                getString(R.string.alert_header));  // заголовок
-        ad.setMessage(message); // сообщение
-        ad.setCancelable(false);
-
-        ad.setPositiveButton("Да", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-                if(mode == 0) {
-
-                    try {
-                        FragmentManager fragMan = getFragmentManager();
-                        Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                        if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                            for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                                getFragmentManager().popBackStack();
-                            }
-                            Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
-                        }
-                    }
-                    catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                    barListener.BarDrawer(Name, Path, Question, Show, Max, Mode, MistakesIndexesArray,
-                            AbsoluteSize, Mass);
-                }
-                else {
-                    if(mode == 1) {
-                        onClickSave();
-                    }
-                    else {
-                        if(mode == 2) {
-
-                            Intent intent = new Intent(Intent.ACTION_SENDTO);
-                            intent.setData(Uri.parse("mailto:" + getResources().
-                                    getString(R.string.email)));
-                            intent.putExtra(Intent.EXTRA_SUBJECT,
-                                    getResources().
-                                            getString(R.string.header));
-                            intent.putExtra(Intent.EXTRA_TEXT, "Найдена ошибка" + "\n\nНомер вопроса: " + Question.getID() + ". Тема: " + Name + ". Путь: " + Path + "\n\nВаши комментарии:\n");
-                            startActivity(intent);
-
-                            /*
-                            intent.setType("text/plain");
-                            intent.putExtra(Intent.EXTRA_EMAIL, new String[] {getResources().
-                                    getString(R.string.email)});
-                            intent.putExtra(Intent.EXTRA_SUBJECT,
-                                    getResources().
-                                            getString(R.string.header));
-
-                            String chooserTitle = getString(R.string.choser);
-                            Intent chosenIntent = Intent.createChooser(intent, chooserTitle);
-                            startActivity(chosenIntent);*/
-                        }
-                        else {
-                            if(mode == 3) {
-                                try {
-                                    FragmentManager fragMan = getFragmentManager();
-                                    Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                                    if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                                        for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                                            getFragmentManager().popBackStack();
-                                        }
-                                        Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
-                                    }
-                                }
-                                catch (Exception e) {Log.v("Error", "Error in popstack");}
-                                onClickSave();
-                                backClickListener.onBackClick();
-                            }
-                        }
-                    }
-                }
-
-
-            }
-        });
-        ad.setNegativeButton("Нет", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-
-            }
-        });
-
-        ad.show();
-    }
-
-
-    interface TestFragmentBarListener {
-        public void BarDrawerTrue(boolean MenuFlag);
-        public void BarDrawer(String Name, String Path, TestStructure Question, boolean Show, int Max, int Mode,
-                              int[] MistakesIndexesArray,
-                              int AbsoluteSize, int Mass[]);
-    }
-
-    interface onBackClickListener {
-        public void onBackClick();
-    }
-
     public static boolean getColor() {
         return Colors;
     }
 
+    @Override
+    public void onYes(int mode) {
 
-    /*
-    public class TestFragmentPacerable implements Parcelable {
-        private TestStructure Questions[];
-        private int mData;
-
-        public int describeContents() {
-            return 0;
+        DrawerLayout drawer = getActivity().findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
         }
 
-        public void writeToParcel(Parcel out, int flags) {
-            out.writeInt(mData);
-        }
+        if(mode == 0) {
 
-        public final Parcelable.Creator<TestFragmentPacerable> CREATOR
-                = new Parcelable.Creator<TestFragmentPacerable>() {
-            public TestFragmentPacerable createFromParcel(Parcel in) {
-                return new TestFragmentPacerable(in);
+            try {
+                FragmentManager fragMan = getFragmentManager();
+                Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                    for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                        getFragmentManager().popBackStack();
+                    }
+                    Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
+                }
             }
+            catch (Exception e) {Log.v("Error", "Error in popstack");}
 
-            public TestFragmentPacerable[] newArray(int size) {
-                return new TestFragmentPacerable[size];
+            barListener.BarDrawer(Name, Path, Show, Max, Mode,
+                    AbsoluteSize, Mass);
+        }
+        else {
+            if(mode == 1) {
+                onClickSave();
             }
-        };
+            else {
+                if(mode == 2) {
 
-        private TestFragmentPacerable(Parcel in) {
-            mData = in.readInt();
+                    Intent intent = new Intent(Intent.ACTION_SENDTO);
+                    intent.setData(Uri.parse("mailto:" + getResources().
+                            getString(R.string.email)));
+                    intent.putExtra(Intent.EXTRA_SUBJECT,
+                            getResources().
+                                    getString(R.string.header));
+                    intent.putExtra(Intent.EXTRA_TEXT, "Найдена ошибка" + "\n\nНомер вопроса: " + Question.getID() + ". Тема: " + Name + ". Путь: " + Path + "\n\nВаши комментарии:\n");
+                    startActivity(intent);
+
+                }
+                else {
+                    if(mode == 3) {
+                        try {
+                            FragmentManager fragMan = getFragmentManager();
+                            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+                            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                    getFragmentManager().popBackStack();
+                                }
+                                Log.v("Error", "Okie dokie_outside" + getFragmentManager().getBackStackEntryCount());
+                            }
+                        }
+                        catch (Exception e) {Log.v("Error", "Error in popstack");}
+                        onClickSave();
+                        backClickListener.onBackClick();
+                    }
+                }
+            }
         }
 
-        private TestFragmentPacerable() {
-        }
-
-        void setTestStruscture(TestStructure Questions[]) {
-            this.Questions = Questions;
-        }
-
-        TestStructure[] getTestStruscture() {
-            return Questions;
-        }
     }
-    */
+
+    interface TestFragmentBarListener {
+        void BarDrawerTrue();
+        void BarDrawer(String Name, String Path, boolean Show, int Max, int Mode,
+                              int AbsoluteSize, int Mass[]);
+    }
+
+    interface onBackClickListener {
+        void onBackClick();
+    }
 
     private TestFragmentCheckBox.TestFragmentCheckBoxListener listener;
 
 
-    static interface TestFragmentCheckBoxListener {
+    interface TestFragmentCheckBoxListener {
         void onButtonCommitListener(String Name, String Path,
                                             boolean Show,
-                                            TestStructure Question,
                                             int Number,
                                             int RighAnswers,
                                             int Max,
@@ -237,13 +161,6 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                                             int AbsoluteSize,
                                             int Mass[]);
     }
-
-
-    //public static void Save(Check_Boxes fragment) {
-        //Frag = fragment;
-    //}
-
-    //public static void SaveMultiple(MultipleChoicesFragment fragment) {Frag_Multiple = fragment;}
 
     public TestFragmentCheckBox() {
         // Required empty public constructor
@@ -322,44 +239,58 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
         } else {
             //Check_Boxes fragment;
+            //Question = null;
+            try {
+                if (Question.getType() == 1) {
+                    //CheckBox Boxes[] = new CheckBox[Question.getOptions().length];
+                    int BackGroundColor[] = new int[Question.getOptions().length];
+                    boolean Checked[] = new boolean[Question.getOptions().length];
+
+                    Check_Boxes fragment = new Check_Boxes();
 
 
-            if (Question.getType() == 1) {
-                CheckBox Boxes[] = new CheckBox[Question.getOptions().length];
-                int BackGroundColor[] = new int[Question.getOptions().length];
-                boolean Checked[] = new boolean[Question.getOptions().length];
+                    fragment.SetMessage(Question, BackGroundColor, Checked);
 
-                Check_Boxes fragment = new Check_Boxes();
-
-
-                fragment.SetMessage(Question, Boxes, BackGroundColor, Checked);
-
-                FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-                ft.replace(R.id.fragment_frame, fragment, "fragment");
-                //ft.disallowAddToBackStack();
-                ft.addToBackStack(null);
-                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                ft.commit();
-            }
-            else {
-                if (Question.getType() == 2) {
+                    FragmentTransaction ft = getChildFragmentManager().beginTransaction();
+                    ft.replace(R.id.fragment_frame, fragment, "fragment");
+                    //ft.disallowAddToBackStack();
+                    ft.addToBackStack(null);
+                    ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                    ft.commit();
+                }
+                else {
+                    if (Question.getType() == 2) {
                 /*
                 CheckBox Boxes[] = new CheckBox[Questions[Number - 1].getOptions().length];
                 int BackGroundColor[] = new int[Questions[Number - 1].getOptions().length];
                 boolean Checked[] = new boolean[Questions[Number - 1].getOptions().length];
                 */
 
-                    MultipleChoicesFragment  fragmentMultiple = new MultipleChoicesFragment();
+                        MultipleChoicesFragment  fragmentMultiple = new MultipleChoicesFragment();
 
-                    fragmentMultiple.SetMessage(Question);
+                        fragmentMultiple.SetMessage(Question);
 
-                    FragmentTransaction ft = getChildFragmentManager().beginTransaction();
-                    ft.replace(R.id.fragment_frame, fragmentMultiple, "fragment");
-                    //ft.disallowAddToBackStack();
-                    ft.addToBackStack(null);
-                    ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                    ft.commit();
+                        FragmentTransaction ft = getChildFragmentManager().beginTransaction();
+                        ft.replace(R.id.fragment_frame, fragmentMultiple, "fragment");
+                        //ft.disallowAddToBackStack();
+                        ft.addToBackStack(null);
+                        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                        ft.commit();
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                Crashlytics.setString("NullPointerException", "getType()");
+                Crashlytics.log(0, "Number RightAnswers Show Colors Max Path Name AbsoluteSize",
+                        Integer.toString(Mass[Number-1]) + " "
+                +Integer.toString(RightAnswers) + " "
+                +Boolean.toString(Show) + " "
+                +Boolean.toString(Colors) + " "
+                +Integer.toString(Max) + " "
+                +Path + " "
+                +Name + " "
+                +Integer.toString(AbsoluteSize));
             }
 
         }
@@ -391,21 +322,48 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         switch (item.getItemId()) {
             case R.id.action_settings: {
                 //barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode);
-                toastMessage(getResources().
-                        getString(R.string.alert_dialogue_again_header), 0);
+                //toastMessage(getResources().
+                        //getString(R.string.alert_dialogue_again_header), 0);
+
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage(getResources().
+                        getString(R.string.alert_dialogue_again_header));
+                dialog.setMode(0);
+                dialog.show(getFragmentManager(), "tag");
                 break;
+
             }
             case R.id.action_save: {
                     //onClickSave();
-                toastMessage(getResources().
-                        getString(R.string.alert_dialogue_save_header), 1);
+                //toastMessage(getResources().
+                        //getString(R.string.alert_dialogue_save_header), 1);
+
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage(getResources().
+                        getString(R.string.alert_dialogue_save_header));
+                dialog.setMode(1);
+                dialog.show(getFragmentManager(), "tag");
+
                 break;
             }
 
             case R.id.action_bug_report: {
                 //onClickSave();
-                toastMessage(getResources().
-                        getString(R.string.alert_dialogue_bug_report), 2);
+                //toastMessage(getResources().
+                        //getString(R.string.alert_dialogue_bug_report), 2);
+
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage(getResources().
+                        getString(R.string.alert_dialogue_bug_report));
+                dialog.setMode(2);
+                dialog.show(getFragmentManager(), "tag");
+
                 break;
             }
         }
@@ -420,11 +378,11 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_test_fragment_check_box, container, false);
 
-        Button Next = (Button) view.findViewById(R.id.button_next);
+        Button Next = view.findViewById(R.id.button_next);
         Log.v("COUNT", this.getClass().toString());
         Next.setOnClickListener(this);
 
-        Button Save = (Button) view.findViewById(R.id.button_save);
+        Button Save = view.findViewById(R.id.button_save);
         Save.setOnClickListener(this);
 
         view.setFocusableInTouchMode(true);
@@ -438,13 +396,22 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                     Log.i("TAG", "onKey Back listener is working!!!");
                     Log.v("COUNT", Integer.toString(getFragmentManager().getBackStackEntryCount()));
 
-                    DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
+                    DrawerLayout drawer = getActivity().findViewById(R.id.drawer_layout);
                     if (drawer.isDrawerOpen(GravityCompat.START)) {
                         drawer.closeDrawer(GravityCompat.START);
                     }
                     else {
-                        toastMessage(getResources().
-                                getString(R.string.alert_dialogue_save_out), 3);
+                        //toastMessage(getResources().
+                                //getString(R.string.alert_dialogue_save_out), 3);
+
+                        MyDialogFragment dialog = new MyDialogFragment();
+                        dialog.setTitle(getResources().
+                                getString(R.string.alert_header));
+                        dialog.setMessage(getResources().
+                                getString(R.string.alert_dialogue_save_out));
+                        dialog.setMode(3);
+                        dialog.show(getFragmentManager(), "tag");
+
                         Log.v("COUNT", Integer.toString(getFragmentManager().getBackStackEntryCount()));
                     }
                     return true;
@@ -454,7 +421,6 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             }
         });
 
-
         return view;
     }
 
@@ -463,30 +429,35 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         super.onStart();
 
         View view = getView();
+        if(view!=null) {
 
-        Button Next = (Button) view.findViewById(R.id.button_next);
-        Button Save = (Button) view.findViewById(R.id.button_save);
-        //Next.setText(Integer.toString(MistakesIndexesArray.length));
+            Button Next = view.findViewById(R.id.button_next);
+            Button Save = view.findViewById(R.id.button_save);
+            //Next.setText(Integer.toString(MistakesIndexesArray.length));
 
-        if (Show && !Colors)
-            Next.setText(getResources().getString(R.string.button_next_colors));
+            if (Show && !Colors)
+                Next.setText(getResources().getString(R.string.button_next_colors));
 
-        Save.setVisibility(View.GONE);
-
-
-        TextView textView = (TextView) view.findViewById(R.id.exercise_text);
-        textView.setText(Question.getText());
-        textView.setGravity(Gravity.CENTER_HORIZONTAL);
-
-        TextView textView_2 = (TextView) view.findViewById(R.id.exercise_number);
-        textView_2.setText("Вопрос " + Integer.toString(Number) + " из " + Integer.toString(Max));
+            Save.setVisibility(View.GONE);
 
 
-        barListener.BarDrawerTrue(true);
+            TextView textView = view.findViewById(R.id.exercise_text);
+            textView.setText(Question.getText());
+            textView.setGravity(Gravity.CENTER_HORIZONTAL);
+
+            TextView textView_2 = view.findViewById(R.id.exercise_number);
+            String txt = "Вопрос " + Integer.toString(Number) + " из " + Integer.toString(Max);
+            textView_2.setText(txt);
+
+
+            barListener.BarDrawerTrue();
+
+        }
+
     }
 
 
-    public void mistakesArray(int digit) {
+    private void mistakesArray(int digit) {
 
 
         if(digit!= 1) {
@@ -498,13 +469,13 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 MistakesIndexesArray = new int[0];
             }
 
-            int t[] = new int[MistakesIndexesArray.length+1];
+            MistakesIndexesArray = Arrays.copyOf(MistakesIndexesArray, MistakesIndexesArray.length+1);
+            //int t[] = new int[MistakesIndexesArray.length+1];
 
+            /*
             for(int j = 0; j < MistakesIndexesArray.length; j++) {
                 t[j] = MistakesIndexesArray[j];
-            }
-
-            MistakesIndexesArray = t;
+            }*/
             int i = MistakesIndexesArray.length;
             MistakesIndexesArray[i-1] = Question.getID()-1;
             Log.v(TAG, Integer.toString(Number-1));
@@ -521,9 +492,12 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 case R.id.button_next: {
                     if(Show) {
                         View v = getView();
-                        Button Next = (Button) v.findViewById(R.id.button_next);
-                        Next.setText(getResources().getString(R.string.button_next));
-                        onClickNext();
+
+                        if(v!=null) {
+                            Button Next = v.findViewById(R.id.button_next);
+                            Next.setText(getResources().getString(R.string.button_next));
+                            onClickNext();
+                        }
                         break;
                     }
                     else {
@@ -551,7 +525,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                         }
 
                         if (listener != null) {
-                            listener.onButtonCommitListener(Name, Path, Show, Question,
+                            listener.onButtonCommitListener(Name, Path, Show,
                                     Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray,
                                     AbsoluteSize, Mass);
                         }
@@ -608,7 +582,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 catch (Exception e) {Log.v("Error", "Error in popstack");}
 
                 if (listener != null) {
-                    listener.onButtonCommitListener(Name, Path, Show, Question,
+                    listener.onButtonCommitListener(Name, Path, Show,
                             Number + 1, RightAnswers, Max, Mode, MistakesIndexesArray,
                             AbsoluteSize, Mass);
                 }
@@ -618,7 +592,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
     }
 
-    public void onClickNext() {
+    private void onClickNext() {
 
         if (Question.getType() == 1) {
             Colors = true;
@@ -626,17 +600,19 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
             View view = getView();
             //fragment = Frag;
 
-            Button Save = (Button) view.findViewById(R.id.button_save);
-            Save.setVisibility(View.GONE);
+            if(view!=null) {
+                Button Save = view.findViewById(R.id.button_save);
+                Save.setVisibility(View.GONE);
 
-            getActivity().invalidateOptionsMenu();
+                getActivity().invalidateOptionsMenu();
 
-            //fragment.Paint();
+                //fragment.Paint();
 
-            FragmentManager fragMan = getChildFragmentManager();
-            Fragment fragment = fragMan.findFragmentByTag("fragment");
-            Check_Boxes s = (Check_Boxes) fragment;
-            s.Paint();
+                FragmentManager fragMan = getChildFragmentManager();
+                Fragment fragment = fragMan.findFragmentByTag("fragment");
+                Check_Boxes s = (Check_Boxes) fragment;
+                s.Paint();
+            }
 
             Log.v(TAG, "Paint");
         }
@@ -655,7 +631,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
         }
     }
 
-    public void onClickSave() {
+    private void onClickSave() {
 
         Log.v(TAG, "Save");
         final String filePath = "Save_massive.xml";
@@ -663,13 +639,11 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
 
          //FileInputStream fin;
         //getActivity().deleteFile(filePath);
-
-        View view = getView();
         //Button Save = (Button) view.findViewById(R.id.button_save);
 
         String massive[] = getActivity().fileList();
-        for(int i = 0; i < massive.length; i++) {
-            if(massive[i].equals(filePath)) {
+        for (String s:massive) {
+            if(s.equals(filePath)) {
                 exist = true;
                 break;
             }
@@ -691,159 +665,110 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
                 Log.v(TAG, "Error");
             }
 
-            exist = true;
         }
 
-        //getActivity().deleteFile(filePath);
-        if(exist) {
-            try {
-                InputStream is = getActivity().openFileInput(filePath);
+        try {
+            InputStream is = getActivity().openFileInput(filePath);
 
 
-                //Save.setText(getActivity().getFilesDir().getAbsolutePath()+"/" + filePath);
+            //Save.setText(getActivity().getFilesDir().getAbsolutePath()+"/" + filePath);
 
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                DocumentBuilder builder = factory.newDocumentBuilder();
-                Document doc = builder.parse(is);
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(is);
 
-                Node nNode = doc.getFirstChild();
-                String allString = ((Element) nNode).getAttribute("all");
-                int allInt = Integer.parseInt(allString);
-                //Save.setText(allString);
-                ((Element) nNode).setAttribute("all", Integer.toString(allInt+1));
+            Node nNode = doc.getFirstChild();
+            String allString = ((Element) nNode).getAttribute("all");
+            int allInt = Integer.parseInt(allString);
+            //Save.setText(allString);
+            ((Element) nNode).setAttribute("all", Integer.toString(allInt+1));
 
-                Element NameElementTitle=doc.createElement("unit");
-                //NameElementTitle.appendChild(doc.createTextNode("true")); //Внутренний текст
-                NameElementTitle.setAttribute("id", Integer.toString(allInt));
-                Log.v(TAG, "0");
+            Element NameElementTitle=doc.createElement("unit");
+            //NameElementTitle.appendChild(doc.createTextNode("true")); //Внутренний текст
+            NameElementTitle.setAttribute("id", Integer.toString(allInt));
+            Log.v(TAG, "0");
 
-                Element NameElementPath = doc.createElement("path");
-                Log.v(TAG, Path);
-                NameElementPath.appendChild(doc.createTextNode(Path));
-                Log.v(TAG, "1");
-                Element NameElementNumber = doc.createElement("number");
-                NameElementNumber.appendChild(doc.createTextNode(Integer.toString(Number)));
-                Log.v(TAG, "2");
-                Element NameElementShow = doc.createElement("show");
-                NameElementShow.appendChild(doc.createTextNode(Boolean.toString(Show)));
-                Log.v(TAG, "3");
-                Element NameElementRightAnswers = doc.createElement("answers");
-                NameElementRightAnswers.appendChild(doc.createTextNode(Integer.toString(RightAnswers)));
-                Log.v(TAG, "4");
-                Element NameElementMaxSize = doc.createElement("max");
-                NameElementMaxSize.appendChild(doc.createTextNode(Integer.toString(Max)));
-                Element NameElementName = doc.createElement("name");
-                Log.v(TAG, Name);
-                NameElementName.appendChild(doc.createTextNode(Name));
+            Element NameElementPath = doc.createElement("path");
+            Log.v(TAG, Path);
+            NameElementPath.appendChild(doc.createTextNode(Path));
+            Log.v(TAG, "1");
+            Element NameElementNumber = doc.createElement("number");
+            NameElementNumber.appendChild(doc.createTextNode(Integer.toString(Number)));
+            Log.v(TAG, "2");
+            Element NameElementShow = doc.createElement("show");
+            NameElementShow.appendChild(doc.createTextNode(Boolean.toString(Show)));
+            Log.v(TAG, "3");
+            Element NameElementRightAnswers = doc.createElement("answers");
+            NameElementRightAnswers.appendChild(doc.createTextNode(Integer.toString(RightAnswers)));
+            Log.v(TAG, "4");
+            Element NameElementMaxSize = doc.createElement("max");
+            NameElementMaxSize.appendChild(doc.createTextNode(Integer.toString(Max)));
+            Element NameElementName = doc.createElement("name");
+            Log.v(TAG, Name);
+            NameElementName.appendChild(doc.createTextNode(Name));
 
-                Log.v(TAG, "Massive");
-                Element NameElementMassive = doc.createElement("massive");
-                NameElementMassive.setAttribute("size", Integer.toString(Mass.length));
-                for(int i=0; i < Mass.length; i++) {
+            Log.v(TAG, "Massive");
+            Element NameElementMassive = doc.createElement("massive");
+            NameElementMassive.setAttribute("size", Integer.toString(Mass.length));
 
+            for (int s:Mass) {
+                Element element = doc.createElement("element");
+                element.appendChild(doc.createTextNode(Integer.toString(s)));
+                NameElementMassive.appendChild(element);
+            }
+
+            // NameElementMassive.setAttribute("size", Integer.toString(Questions.length));
+
+            Log.v(TAG, "Mistakes");
+            Element NameElementMistakes = doc.createElement("mistakes");
+            if(!(MistakesIndexesArray == null)) {
+                NameElementMistakes.setAttribute("size", Integer.toString(MistakesIndexesArray.length));
+
+
+                Log.v(TAG + "A", "Mistakes");
+                Log.v(TAG + "A", Integer.toString(MistakesIndexesArray.length));
+
+                for(int s:MistakesIndexesArray) {
+                    Log.v(TAG + "A", Integer.toString(s + 1));
                     Element element = doc.createElement("element");
-                    element.appendChild(doc.createTextNode(Integer.toString(Mass[i])));
-                    NameElementMassive.appendChild(element);
+                    element.appendChild(doc.createTextNode(Integer.toString(s)));
+                    NameElementMistakes.appendChild(element);
                 }
-
-               // NameElementMassive.setAttribute("size", Integer.toString(Questions.length));
-
-                Log.v(TAG, "Mistakes");
-                Element NameElementMistakes = doc.createElement("mistakes");
-                if(!(MistakesIndexesArray == null)) {
-                    NameElementMistakes.setAttribute("size", Integer.toString(MistakesIndexesArray.length));
-
-
-                    Log.v(TAG + "A", "Mistakes");
-                    Log.v(TAG + "A", Integer.toString(MistakesIndexesArray.length));
-                    for (int i = 0; i < MistakesIndexesArray.length; i++) {
-
-                        Log.v(TAG + "A", Integer.toString(MistakesIndexesArray[i] + 1));
-                        Element element = doc.createElement("element");
-                        element.appendChild(doc.createTextNode(Integer.toString(MistakesIndexesArray[i])));
-                        NameElementMistakes.appendChild(element);
-                    }
-                }
-                else  {
-                    NameElementMistakes.setAttribute("size", Integer.toString(0));
-                }
-
-                Element NameElementAbsoluteSize = doc.createElement("absolute");
-                Log.v(TAG, Name);
-                NameElementAbsoluteSize.appendChild(doc.createTextNode(Integer.toString(AbsoluteSize)));
-
-
-                NameElementTitle.appendChild(NameElementPath);
-                NameElementTitle.appendChild(NameElementNumber);
-                NameElementTitle.appendChild(NameElementShow);
-                NameElementTitle.appendChild(NameElementRightAnswers);
-                NameElementTitle.appendChild(NameElementMaxSize);
-                NameElementTitle.appendChild(NameElementName);
-                NameElementTitle.appendChild(NameElementMassive);
-                NameElementTitle.appendChild(NameElementMistakes);
-                NameElementTitle.appendChild(NameElementAbsoluteSize);
-
-                nNode.appendChild(NameElementTitle);
-
-                Transformer transformer = TransformerFactory.newInstance()
-                        .newTransformer();
-                transformer.setOutputProperty(OutputKeys.METHOD, "xml");
-                transformer.setOutputProperty(OutputKeys.INDENT, "no");
-                DOMSource source = new DOMSource(doc);
-                StreamResult result = new StreamResult(new File(getActivity().getFilesDir().getAbsolutePath()+"/" + filePath));
-                transformer.transform(source, result);
-                is.close();
-                Log.v(TAG + "A", "Done");
-                /*
-                FileOutputStream fos;
-                fos = getActivity().openFileOutput(filePath, MODE_APPEND);
-                String Massive = "<unit id = \"" + allInt + "\">" +
-                        "<path>" + Path + "</path>" +
-                        "<number>" + Integer.toString(Number)+"</number>" +
-                        "<show>" + Boolean.toString(Show)+"</show>" +
-                        "<answers>" + Double.toString(RightAnswers)+"</answers>" +
-                        "<max>" + Integer.toString(Max)+"</max>" +
-                        "</unit>";
-                fos.write(Massive.getBytes());*/
-
             }
-            catch (Exception e) {
-                Log.v(TAG, "Error writing");
+            else  {
+                NameElementMistakes.setAttribute("size", Integer.toString(0));
             }
+
+            Element NameElementAbsoluteSize = doc.createElement("absolute");
+            Log.v(TAG, Name);
+            NameElementAbsoluteSize.appendChild(doc.createTextNode(Integer.toString(AbsoluteSize)));
+
+
+            NameElementTitle.appendChild(NameElementPath);
+            NameElementTitle.appendChild(NameElementNumber);
+            NameElementTitle.appendChild(NameElementShow);
+            NameElementTitle.appendChild(NameElementRightAnswers);
+            NameElementTitle.appendChild(NameElementMaxSize);
+            NameElementTitle.appendChild(NameElementName);
+            NameElementTitle.appendChild(NameElementMassive);
+            NameElementTitle.appendChild(NameElementMistakes);
+            NameElementTitle.appendChild(NameElementAbsoluteSize);
+
+            nNode.appendChild(NameElementTitle);
+
+            Transformer transformer = TransformerFactory.newInstance()
+                    .newTransformer();
+            transformer.setOutputProperty(OutputKeys.METHOD, "xml");
+            transformer.setOutputProperty(OutputKeys.INDENT, "no");
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(new File(getActivity().getFilesDir().getAbsolutePath()+"/" + filePath));
+            transformer.transform(source, result);
+            is.close();
+            Log.v(TAG + "A", "Done");
         }
-        else {
+        catch (Exception e) {
+            Log.v(TAG, "Error writing");
         }
-
-
-
-        /*
-         try {
-
-             /**
-              * Проверить, существует ли файл, затем, если нет -
-              * fos = getActivity().
-              openFileOutput(filePath, MODE_APPEND); - чтобы он создался.
-              Записать туду шапку и первичный тег
-              Затем уже работать с XmlReader
-              */
-             //InputStream is = getActivity().openFileInput(FileName + ".xml");
-
-             //InputStream is = getActivity().openFileInput(filePath);
-        /*
-            fin = getActivity().openFileInput(filePath);
-            byte[] bytes = new byte[fin.available()];
-            fin.read(bytes);
-            String text = new String (bytes);
-            Log.v(TAG, text);
-
-
-        }
-    /*
-        catch(IOException ex) {
-
-             Log.v(TAG, "Error");
-        }*/
-
 
     }
 
@@ -869,21 +794,12 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     }
 
 
-
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-        this.listener = (TestFragmentCheckBox.TestFragmentCheckBoxListener) context;
-        this.barListener = (TestFragmentBarListener) context;
-        this.backClickListener = (onBackClickListener) context;
-        //Log.v(TAG, "Activity");
-    }
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         this.listener = (TestFragmentCheckBox.TestFragmentCheckBoxListener) context;
         this.barListener = (TestFragmentBarListener) context;
+        this.backClickListener = (TestFragmentCheckBox.onBackClickListener) context;
         //Log.v(TAG, "Context");
     }
 
@@ -891,7 +807,7 @@ public class TestFragmentCheckBox extends Fragment implements View.OnClickListen
     public void onDetach() {
         super.onDetach();
         listener = null;
-        barListener.BarDrawerTrue(false);
+        barListener.BarDrawerTrue();
         barListener = null;
         backClickListener = null;
         Log.v("WAWA", "Detach");

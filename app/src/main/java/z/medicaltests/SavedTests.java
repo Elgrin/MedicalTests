@@ -1,16 +1,10 @@
 package z.medicaltests;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -60,17 +54,15 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
     public void onClick(View view) {
 
         Log.v(TAG, "Click");
-        View view_text = getView();
-        /*
-        TextView textView = (TextView)view_text.findViewById(R.id.ww);
-        textView.setText("");
-        textView.setVisibility(View.VISIBLE);
+        //toastMessage(getResources().getString(R.string.alert_dialogue_button), 3);
 
-        for(int i = 0; i < isChecked.length; i++) {
-            textView.append(Boolean.toString(isChecked[i]) + "\n");
-        }*/
-
-        toastMessage(getResources().getString(R.string.alert_dialogue_button), 3);
+        MyDialogFragment dialog = new MyDialogFragment();
+        dialog.setTitle(getResources().
+                getString(R.string.alert_header));
+        dialog.setMessage(getResources().
+                getString(R.string.alert_dialogue_button));
+        dialog.setMode(3);
+        dialog.show(getFragmentManager(), "tag");
     }
 
     private void DeleteAll() {
@@ -78,20 +70,23 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         getActivity().deleteFile(filePath);
 
         View view = getView();
-        ListView listView = (ListView) view.findViewById(R.id.list_saved);
 
-        savedBundle = null;
-        Strokes = null;
-        listView.setAdapter(null);
-        listView.invalidate();
+        if(view!=null) {
+            ListView listView = view.findViewById(R.id.list_saved);
 
-        TextView textView = (TextView) view.findViewById(R.id.ww);
-        textView.setVisibility(View.VISIBLE);
-        textView.setText("Нет сохранений");
+            savedBundle = null;
+            Strokes = null;
+            listView.setAdapter(null);
+            listView.invalidate();
 
-        for (int i = 0; i < isChecked.length; i++) {
-            isChecked[i]=false;
-            buttonVisibility();
+            TextView textView = view.findViewById(R.id.ww);
+            textView.setVisibility(View.VISIBLE);
+            textView.setText("Нет сохранений");
+
+            for (int i = 0; i < isChecked.length; i++) {
+                isChecked[i]=false;
+                buttonVisibility();
+            }
         }
     }
 
@@ -160,110 +155,15 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         }
     }
 
-    @Override
-    public void onNo() {
-
-    }
-
-    private void toastMessage(String message, final int mode) {
-
-        DrawerLayout drawer = (DrawerLayout) getActivity().findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        }
-
-        final AlertDialog.Builder ad;
-        ad = new AlertDialog.Builder(getActivity());
-
-        ad.setTitle(getResources().
-                getString(R.string.alert_header));  // заголовок
-        ad.setMessage(message); // сообщение
-        ad.setCancelable(false);
-
-        ad.setPositiveButton("Да", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-                if(mode == 0) {
-                    //barListener.BarDrawer(Name, Path, Questions, Show, Max, Mode);
-                    DeleteAll();
-                }
-                else {
-                    if(mode == 1) {
-                        //onClickSave();
-                        deleteChecked();
-                    }
-                    else {
-                        if(mode==3) {
-                            int it = 0;
-                            for (int  i = 0; i < isChecked.length; i++) {
-                                if(isChecked[i]) {
-                                    it = i;
-                                    break;
-                                }
-                            }
-
-                            XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(), getActivity().getAssets(),
-                                    savedBundle[it].getMassive()[savedBundle[it].getNumber()-1]);
-                            TestStructure Question = loader.getTestStructure();
-
-                            TestFragmentCheckBox fragment;
-                            fragment = new TestFragmentCheckBox();
-                            fragment.SetMessage(savedBundle[it].getName(),
-                                    savedBundle[it].getPath(),
-                                    Question,
-                                    savedBundle[it].getNumber(),
-                                    savedBundle[it].getShow(),
-                                    false,
-                                    savedBundle[it].getRightAnswers(),
-                                    savedBundle[it].getMaxSize(),
-                                    0,
-                                    savedBundle[it].getMistakes(),
-                                    savedBundle[it].getAbsoluteSize(), savedBundle[it].getMassive());
-
-                            FragmentTransaction ft = getFragmentManager().beginTransaction();
-                            ft.replace(R.id.content_frame, fragment, "fragment");
-                            //ft.disallowAddToBackStack();
-
-                            try {
-                                FragmentManager fragMan = getFragmentManager();
-                                Fragment frag = fragMan.findFragmentByTag("fragment");
-
-                                if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                                    for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                                        getFragmentManager().popBackStack();
-                                    }
-                                }
-                            }
-                            catch (Exception e) {Log.v("Error", "Error in popstack");}
-
-                            ft.addToBackStack(null);
-                            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                            ft.commit();
-                            deleteChecked();
-                        }
-                    }
-                }
-
-
-            }
-        });
-        ad.setNegativeButton("Нет", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-
-            }
-        });
-
-        ad.show();
-    }
 
     private void deleteChecked()  {
 
         int iterator =0;
-        for(int i = 0; i < isChecked.length; i++) {
-            if(isChecked[i]) {
+        for (boolean i:isChecked) {
+            if(i) {
                 iterator++;
             }
         }
-
 
         int k =1;
         for (int i = 0; i <isChecked.length; i++, k++) {
@@ -311,9 +211,9 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
                 //Node nNodeMain = doc.getFirstChild();
                 //((Element) nNodeMain).setAttribute("all", Integer.toString(isChecked.length-count));
+                //boolean newChecked[] = new boolean[isChecked.length-count];
 
-                boolean newChecked[] = new boolean[isChecked.length-count];
-                isChecked = newChecked;
+                isChecked = new boolean[isChecked.length-count];
                 Log.v("TEXT", "____________________________\n");
                 for (int i = 0; i <isChecked.length; i++, k++) {
                     Log.v("TEXT"," " + Integer.toString(i) + " " + Boolean.toString(isChecked[i]) + "\n");
@@ -334,41 +234,44 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                 savedBundle = loader.getBundle();
 
                 View view = getView();
-                ListView listView = (ListView) view.findViewById(R.id.list_saved);
 
-                try {
-                    Strokes = new String[savedBundle.length];
-                    isChecked = new boolean[savedBundle.length];
-                    for (int i = 0; i < savedBundle.length; i++) {
+                if(view!=null) {
+                    ListView listView = view.findViewById(R.id.list_saved);
 
-                        Strokes[i] = savedBundle[i].getName() +
-                                ": " + savedBundle[i].getNumber() + " вопрос из "
-                                + savedBundle[i].getMaxSize();
-                        if(savedBundle[i].getShow()) {
-                            Strokes[i] += "" + ". Правильные показываются";
-                        }
-                        else {
-                            Strokes[i] += "" + ". Правильные не показываются";
-                        }
+                    try {
+                        Strokes = new String[savedBundle.length];
+                        isChecked = new boolean[savedBundle.length];
+                        for (int i = 0; i < savedBundle.length; i++) {
+
+                            Strokes[i] = savedBundle[i].getName() +
+                                    ": " + savedBundle[i].getNumber() + " вопрос из "
+                                    + savedBundle[i].getMaxSize();
+                            if(savedBundle[i].getShow()) {
+                                Strokes[i] += "" + ". Правильные показываются";
+                            }
+                            else {
+                                Strokes[i] += "" + ". Правильные не показываются";
+                            }
 
                         /*
                         Strokes[i] +="" + "Верно отвечено " + savedBundle[i].getRightAnswers()
                                 + " из " + (savedBundle[i].getNumber() -1) + ".";
                                 */
-                        condition = true;
+                            condition = true;
+                        }
                     }
+                    catch (Exception e) {condition = false;}
+
+                    ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
+                            //android.R.layout.simple_list_item_multiple_choice,
+                            R.layout.list_source,
+                            Strokes);
+
+                    listView.setAdapter(adapter);
+                    listView.invalidate();
+
+                    buttonVisibility();
                 }
-                catch (Exception e) {condition = false;}
-
-                ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
-                        //android.R.layout.simple_list_item_multiple_choice,
-                        R.layout.list_source,
-                        Strokes);
-
-                listView.setAdapter(adapter);
-                listView.invalidate();
-
-                buttonVisibility();
 
 
             } catch (Exception e) {
@@ -424,7 +327,7 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
             if(condition) {
 
-                ListView listView = (ListView) view.findViewById(R.id.list_saved);
+                ListView listView = view.findViewById(R.id.list_saved);
 
 
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
@@ -451,12 +354,12 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                     }
                 };
                 listView.setOnItemClickListener(itemClickListener);
-                TextView textView = (TextView) view.findViewById(R.id.ww);
+                TextView textView = view.findViewById(R.id.ww);
                 textView.setVisibility(View.GONE);
 
             }
             else {
-                TextView textView = (TextView) view.findViewById(R.id.ww);
+                TextView textView = view.findViewById(R.id.ww);
                 textView.setVisibility(View.VISIBLE);
                 textView.setText("Нет сохранений");
             }
@@ -467,32 +370,34 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
 
     private void buttonVisibility() {
-        boolean visible;
         int count = 0;
         View btn_view = getView();
-        Button button = (Button)btn_view.findViewById(R.id.load);
-        try {
-            for(int i = 0; i < isChecked.length; i++) {
-                if(isChecked[i]) {
-                    count++;
-                    if(count > 1) {
-                        break;
+
+        if(btn_view!=null) {
+            Button button = btn_view.findViewById(R.id.load);
+            try {
+                for (boolean i:isChecked) {
+                    if(i) {
+                        count++;
+                        if(count > 1) {
+                            break;
+                        }
+                    }
+                }
+                if(count > 1 || count ==0) {
+                    button.setVisibility(View.GONE);
+                }
+                else {
+                    if(count == 1) {
+                        button.setVisibility(View.VISIBLE);
                     }
                 }
             }
-            if(count > 1 || count ==0) {
+            catch (Exception e) {
                 button.setVisibility(View.GONE);
             }
-            else {
-                if(count == 1) {
-                    button.setVisibility(View.VISIBLE);
-                }
-            }
-        }
-        catch (Exception e) {
-            button.setVisibility(View.GONE);
-        }
 
+        }
     }
 
     @Override
@@ -540,8 +445,8 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         } else {
             menu.getItem(2).setVisible(true);
             int iterator = 0;
-            for (int i = 0; i < isChecked.length; i++) {
-                if (isChecked[i]) {
+            for (boolean i: isChecked) {
+                if (i) {
                     iterator++;
                 }
                 if (iterator == 0) {
@@ -561,21 +466,27 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
         switch (item.getItemId()) {
             case R.id.action_delete_all: {
 
-                toastMessage(getResources().
-                        getString(R.string.alert_dialogue_delete_all), 0);
-                /*
+                //toastMessage(getResources().getString(R.string.alert_dialogue_delete_all), 0);
+
                 MyDialogFragment dialog = new MyDialogFragment();
-                dialog.Title = getResources().
-                        getString(R.string.alert_header);
-                dialog.Message = getResources().
-                        getString(R.string.alert_dialogue_delete_all);
-                dialog.Mode = 0;
-                dialog.show(getFragmentManager(), "tag");*/
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage(getResources().
+                        getString(R.string.alert_dialogue_delete_all));
+                dialog.setMode(0);
+                dialog.show(getFragmentManager(), "tag");
                 break;
             }
             case R.id.action_delete_chosen: {
-                toastMessage(getResources().
-                        getString(R.string.alert_dialogue_delete_chosen), 1);
+                //toastMessage(getResources().getString(R.string.alert_dialogue_delete_chosen), 1);
+
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage(getResources().
+                        getString(R.string.alert_dialogue_delete_chosen));
+                dialog.setMode(1);
+                dialog.show(getFragmentManager(), "tag");
                 break;
             }
         }
@@ -592,26 +503,12 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
 
         final View layout = inflater.inflate(R.layout.fragment_saved_tests, container, false);
 
-        Button commit = (Button) layout.findViewById(R.id.load);
+        Button commit = layout.findViewById(R.id.load);
         commit.setOnClickListener(this);
 
         return layout;
     }
 
-
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-
-
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-
-
-    }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {

@@ -5,35 +5,25 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_restore_page_white_48dp"
-        android:title="@string/action_settings"
-        android:showAsAction="always" />
+        android:title="@string/action_settings" />
     <item
         android:id="@+id/action_save"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_backup_white_48dp"
-        android:title="@string/action_save"
-        android:showAsAction="always" />
+        android:title="@string/action_save" />
     <item
         android:id="@+id/action_delete_all"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_backup_white_48dp"
-        android:title="@string/action_delete_all"
-        android:showAsAction="never" />
+        android:title="@string/action_delete_all" />
 
     <item
         android:id="@+id/action_delete_chosen"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_backup_white_48dp"
-        android:title="@string/action_delete_chosen"
-        android:showAsAction="never" />
+        android:title="@string/action_delete_chosen" />
 
     <item
         android:id="@+id/action_bug_report"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_bug_report_white_48dp"
-        android:title="@string/action_mail_chosen"
-        android:showAsAction="never" />
+        android:title="@string/action_mail_chosen" />
 
 </menu>
 

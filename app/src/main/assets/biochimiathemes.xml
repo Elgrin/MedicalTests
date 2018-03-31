@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
     <item test="biochimia">Экзамен по биохимии</item>
 </themes>

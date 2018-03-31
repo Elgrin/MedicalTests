@@ -20,7 +20,7 @@ import android.widget.TextView;
  */
 public class MultipleChoicesFragment extends Fragment {
 
-    protected TestStructure Question;
+    private TestStructure Question;
     private boolean Checked[];
 
     private int Relations_ID[];
@@ -172,54 +172,20 @@ public class MultipleChoicesFragment extends Fragment {
     public void Paint() {
 
         View view = getView();
-        for(int i = 0; i < Checked.length; i++) {
+        if(view!=null) {
+            for(int i = 0; i < Checked.length; i++) {
 
-            CheckBox checkBox = (CheckBox) view.findViewById(i);
-            checkBox.setEnabled(false);
+                CheckBox checkBox = view.findViewById(i);
+                checkBox.setEnabled(false);
 
-            if (Question.getRelations()[i]) {
-                checkBox.setTextColor(Color.GREEN);
-            }
-            if(Checked[i] && Question.getRelations()[i]) {
-                //checkBox.setTextColor(Color.GREEN);
-            }
-            else {
-
-                if(!Checked[i] && Question.getRelations()[i] ||
-                        Checked[i] && !Question.getRelations()[i]) {
-                    //checkBox.setTextColor(Color.RED);
+                if (Question.getRelations()[i]) {
+                    checkBox.setTextColor(Color.GREEN);
                 }
+
             }
         }
     }
 
-        /*
-        View view = getView();
-        TextView textView = (TextView) view.findViewById(R.id.www);
-        //textView.setText(Integer.toString(Relations_ID.length) + " "+
-                //Integer.toString(Question.getRelations().length));
-
-
-        for (int i = 0; i < Question.getRelations().length; i++) {
-            Spinner spinner = (Spinner) view.findViewById(Relations_ID[i]);
-            TextView spinner1 = (TextView) view.findViewById(Answers_ID[i]);
-            spinner.setEnabled(false);
-
-
-            //spinner.setBackgroundColor(Color.GREEN);
-
-            if((spinner.getSelectedItemPosition() + 1)== Question.getRelations()[i]) {
-                spinner.setBackgroundColor(Color.GREEN);
-            }
-            else {
-                if ((spinner.getSelectedItemPosition() + 1) != Question.getRelations()[i]) {
-                    spinner.setBackgroundColor(Color.RED);
-                    spinner1.setVisibility(View.VISIBLE);
-                    spinner1.setBackgroundColor(Color.GREEN);
-                }
-            }
-        }
-        */
 
     public void SetMessage(TestStructure Question){
         this.Question=Question;
@@ -278,18 +244,16 @@ public class MultipleChoicesFragment extends Fragment {
 
         if(view!=null) {
 
-            LinearLayout layout = (LinearLayout) view.findViewById(R.id.multiple_layout);
+            LinearLayout layout = view.findViewById(R.id.multiple_layout);
             layout.removeAllViews();
 
             TextView parentsStrings[] = new TextView[Question.getParents().length];
-            TextView childrenStrings[] = new TextView[Question.getChildren().length];
+            //TextView childrenStrings[] = new TextView[Question.getChildren().length];
 
             CheckBox variants[] = new CheckBox[Question.getParents().length
                     *Question.getChildren().length];
             //Spinner relations[] = new Spinner[Question.getRelations().length];
-            TextView answers[] = new TextView[Question.getRelations().length];
-
-            View v = new View(getActivity());
+            //TextView answers[] = new TextView[Question.getRelations().length];
 
             for (int i = 0; i < Question.getParents().length; i++) {
                 parentsStrings[i] = new TextView(getActivity());
@@ -298,11 +262,7 @@ public class MultipleChoicesFragment extends Fragment {
                     *Question.getChildren().length; i++) {
                 variants[i] = new CheckBox(getActivity());
             }
-            for (int i = 0; i < Question.getChildren().length; i++) {
-                childrenStrings[i] = new TextView(getActivity());
-                //relations[i] = new Spinner(getActivity());
-                answers[i] = new TextView(getActivity());
-            }
+
 
 
             int ID =0;

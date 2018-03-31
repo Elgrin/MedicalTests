@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
     <item test="one">Первый</item>
     <item test="two">Второй</item>
 	<item test="three">Третий</item>

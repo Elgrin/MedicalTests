@@ -4,7 +4,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context="z.medicaltests.SavedTests"
-    android:id="@+id/main_saved"
     android:padding="5dp">
             <TextView
                 android:layout_width="wrap_content"

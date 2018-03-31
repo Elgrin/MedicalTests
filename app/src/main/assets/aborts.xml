@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
 	<item test="abort0">Все вопросы</item>
     <item test="abort1">Организация акушерско-гинекологической помощи</item>
 	<item test="abort2">Клиническая анатомия и физиология органов малого таза</item>

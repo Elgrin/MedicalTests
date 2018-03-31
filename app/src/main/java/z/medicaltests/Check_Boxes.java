@@ -1,7 +1,5 @@
 package z.medicaltests;
 
-import android.app.Activity;
-import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -22,31 +20,22 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         CheckBox.OnCheckedChangeListener {
 
 
-    protected TestStructure Question;
-    protected String[] Options;
-    protected boolean[] Flags;
+    private TestStructure Question;
+    private String[] Options;
+    private boolean[] Flags;
     //private CheckBox Boxes[];
     private boolean Checked[];
     private int BackGroundColor[];
     private static final String TAG = "CHECK_BOXES";
-    private Check_Boxes.Check_BoxesListener listener;
+    //private Check_Boxes.Check_BoxesListener listener;
 
-
-    public CheckBox[] getCheckBoxes() {
-        return null;//Boxes;
-    }
-
-    public boolean[] getChecked() {
+    /*public boolean[] getChecked() {
         return Checked;
-    }
+    }*/
 
-    public int[] getBackGroundColor() {
+    /*public int[] getBackGroundColor() {
         return BackGroundColor;
-    }
-
-    static interface Check_BoxesListener {
-        public void contextSave(Check_Boxes boxes);
-    }
+    }*/
 
 
     public int Count() {
@@ -122,57 +111,50 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
     }
 
-    public double Paint() {
+    public void Paint() {
 
         View view = getView();
 
-        //double RighAnswer = 0;
-        int Counter = 0;
+        if(view!=null) {
+            for (int i = 0; i < Options.length; i++) {
+                CheckBox checkBox = view.findViewById(i);
 
-        for (int i = 0; i < Options.length; i++) {
-            CheckBox checkBox = (CheckBox) view.findViewById(i);
+                if(checkBox!=null) {
 
-            Log.v("NETTT", checkBox.isChecked() + "  " + Checked[i]);
+                    Log.v("NETTT", checkBox.isChecked() + "  " + Checked[i]);
 
-            if ( Flags[i]) {
-                checkBox.setTextColor(Color.GREEN);
+                    if ( Flags[i]) {
+                        checkBox.setTextColor(Color.GREEN);
+                    }
+                    if (Checked[i] && Flags[i]) {
+                        //checkBox.setTextColor(Color.GREEN);
+                        Log.v("NETTT", "GR");
+                    }
+
+                    if (Checked[i] && !Flags[i]) {
+                        //checkBox.setTextColor(Color.RED);
+                        Log.v("NETTT", "R");
+                    }
+
+                    if (!Checked[i] && Flags[i]) {
+                        //checkBox.setTextColor(Color.RED);
+                        Log.v("NETTT", "R");
+                    }
+
+
+                    checkBox.setEnabled(false);
+                }
+
             }
-            if (Checked[i] && Flags[i]) {
-                //checkBox.setTextColor(Color.GREEN);
-                Log.v("NETTT", "GR");
-                Counter++;
-            }
-
-            if (Checked[i] && !Flags[i]) {
-                //checkBox.setTextColor(Color.RED);
-                Log.v("NETTT", "R");
-            }
-
-            if (!Checked[i] && Flags[i]) {
-                //checkBox.setTextColor(Color.RED);
-                Log.v("NETTT", "R");
-            }
-
-
-            checkBox.setEnabled(false);
-
         }
 
-        if (Counter == Options.length) {
-            return (1);
-        }
-        if ((Counter * 2) >= Options.length) {
-            return (0.5);
-        }
-
-        return 0;
     }
 
     public Check_Boxes() {
         // Required empty public constructor
     }
 
-    public void SetMessage(TestStructure Question, CheckBox[] Boxes, int[] BackGroundColor, boolean[] Checked) {
+    public void SetMessage(TestStructure Question, int[] BackGroundColor, boolean[] Checked) {
         this.Question = Question;
         Options = Question.getOptions();
         Flags = Question.getFlags();
@@ -249,48 +231,45 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
         Log.v(TAG, "onStart");
 
         View view = getView();
-        LinearLayout layout = (LinearLayout) view.findViewById(R.id.check_box_layout);
-        //layout.setVerticalGravity();
-        /**
-         * LayoutParams lp = new LayoutParams( LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT );
-         lp.gravity = Gravity.CENTER;
-         */
 
-        layout.removeAllViews();
+        if(view!=null) {
+            LinearLayout layout = view.findViewById(R.id.check_box_layout);
+            layout.removeAllViews();
 
-        CheckBox checkBoxes[] = new CheckBox[Question.getOptions().length];
-        //View v_0 = new View(getActivity());
-        // v_0.setMinimumHeight(1);
-        //v_0.setBackgroundColor(Color.GRAY);
-        //layout.addView(v_0);
+            CheckBox checkBoxes[] = new CheckBox[Question.getOptions().length];
+            //View v_0 = new View(getActivity());
+            // v_0.setMinimumHeight(1);
+            //v_0.setBackgroundColor(Color.GRAY);
+            //layout.addView(v_0);
 
 
-        View[] v = new View[Question.getOptions().length];
+            View[] v = new View[Question.getOptions().length];
 
-        for (int i = 0; i < Question.getOptions().length; i++) {
-            Log.v("COUNT", getActivity().getClass().toString());
-            checkBoxes[i] = new CheckBox(getActivity());
-            v[i] = new View(getActivity());
-        }
+            for (int i = 0; i < Question.getOptions().length; i++) {
+                Log.v("COUNT", getActivity().getClass().toString());
+                checkBoxes[i] = new CheckBox(getActivity());
+                v[i] = new View(getActivity());
+            }
 
-        for (int i = 0; i < Question.getOptions().length; i++) {
-            checkBoxes[i].setText(Options[i]);
-            checkBoxes[i].setTextSize(20);
-            checkBoxes[i].setId(i);
-            checkBoxes[i].setGravity(Gravity.FILL_HORIZONTAL);
+            for (int i = 0; i < Question.getOptions().length; i++) {
+                checkBoxes[i].setText(Options[i]);
+                checkBoxes[i].setTextSize(20);
+                checkBoxes[i].setId(i);
+                checkBoxes[i].setGravity(Gravity.FILL_HORIZONTAL);
 
-            checkBoxes[i].setChecked(Checked[i]);
-            checkBoxes[i].setOnCheckedChangeListener(this);
-            v[i].setBackgroundColor(Color.GRAY);
-            layout.addView(checkBoxes[i]);
-            //layout.addView(v[i]);
-            //view.addView(hr, new ViewGroup.LayoutParams( ViewGroup.LayoutParams.FILL_PARENT, 1));
-            layout.addView(v[i], new ViewGroup.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT ,1));
-            //Log.v(TAG, Options[i]);
-        }
+                checkBoxes[i].setChecked(Checked[i]);
+                checkBoxes[i].setOnCheckedChangeListener(this);
+                v[i].setBackgroundColor(Color.GRAY);
+                layout.addView(checkBoxes[i]);
+                //layout.addView(v[i]);
+                //view.addView(hr, new ViewGroup.LayoutParams( ViewGroup.LayoutParams.FILL_PARENT, 1));
+                layout.addView(v[i], new ViewGroup.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT ,1));
+                //Log.v(TAG, Options[i]);
+            }
 
-        if (TestFragmentCheckBox.getColor()) {
-            Paint();
+            if (TestFragmentCheckBox.getColor()) {
+                Paint();
+            }
         }
 
         //TestFragmentCheckBox.Save(this);
@@ -357,14 +336,5 @@ public class Check_Boxes extends Fragment implements View.OnClickListener,
 
     }
 
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
 
 }

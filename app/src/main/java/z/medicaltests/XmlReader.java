@@ -1,7 +1,6 @@
 package z.medicaltests;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -23,16 +22,16 @@ import android.widget.TextView;
 public class XmlReader extends Fragment{
 
 
-    static interface XmlReaderListener {
+    interface XmlReaderListener {
         void itemClicked(long id, String[] Files, String[] Test);
     }
 
     private XmlReaderListener listener;
-    protected  String message = "";
-    protected String Names[];
-    public  String Files[];
-    public  String Test[];
-    protected String Text ="";
+    private String message = "";
+    private String[] Names;
+    private String[] Files;
+    private String[] Test;
+    private String Text ="";
 
 
     private static final String TAG = "XmlReader";
@@ -47,7 +46,6 @@ public class XmlReader extends Fragment{
      */
     public  void SetMessage(String msg, AssetManager assetManager) {
         message = msg;
-        this.Text = Text;
         Log.v(TAG, "This");
         XmlListLoader loader = new XmlListLoader(message, assetManager);
         Files = loader.getFiles();
@@ -55,12 +53,6 @@ public class XmlReader extends Fragment{
         Test = loader.getTest();
     }
 
-    /**
-     * @param inflater
-     * @param container
-     * @param savedInstanceState
-     * @return
-     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -76,10 +68,10 @@ public class XmlReader extends Fragment{
         View view = inflater.inflate(R.layout.fragment_xml_reader, container, false);
 
         if(view != null) {
-            TextView textView = (TextView) view.findViewById(R.id.text_frag);
+            TextView textView = view.findViewById(R.id.text_frag);
             textView.setText(Text);
             //Адаптер
-            ListView listView = (ListView) view.findViewById(R.id.list_frag);
+            ListView listView = view.findViewById(R.id.list_frag);
 
 
             try {
@@ -110,50 +102,6 @@ public class XmlReader extends Fragment{
     }
 
     @Override
-    public  void onStart(){
-        super.onStart();
-
-        /*
-        View view = getView();
-        if(view != null) {
-            TextView textView = (TextView) view.findViewById(R.id.text_frag);
-            textView.setText(Text);
-            //Адаптер
-            ListView listView = (ListView)view.findViewById(R.id.list_frag);
-
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<>(this.getActivity(),
-                    android.R.layout.simple_list_item_1, Names);
-            Log.v("TITLES", Integer.toString(Names.length));
-
-
-            AdapterView.OnItemClickListener itemClickListener =
-                    new AdapterView.OnItemClickListener(){
-                        public void onItemClick(AdapterView<?> listView,
-                                                View v,
-                                                int position,
-                                                long id) {
-                            if (listener != null) {
-                                listener.itemClicked(id, Files, Test);
-                            }
-                        }
-                    };
-            Log.v(TAG, "This_2");
-            listView.setAdapter(adapter);
-            listView.setOnItemClickListener(itemClickListener);
-        }*/
-    }
-
-    @Override
-    public void onAttach(Activity context) {
-        super.onAttach(context);
-        this.listener = (XmlReaderListener) context;
-
-        Log.v(TAG, "ThisDepreceted");
-
-    }
-
-    @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         this.listener = (XmlReaderListener) context;
@@ -167,7 +115,7 @@ public class XmlReader extends Fragment{
     }
 
 
-    public String[] GetFileName() {return Files;}
+    //public String[] GetFileName() {return Files;}
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {

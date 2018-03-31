@@ -1,10 +1,9 @@
 package z.medicaltests;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -22,33 +21,41 @@ import android.view.View;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.firebase.analytics.FirebaseAnalytics;
 
-import java.util.Random;
-
-     public   class MainWindow extends AppCompatActivity
+public   class MainWindow extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, XmlReader.XmlReaderListener,
         ButtonMenu.ButtonMenuListener,
         TestSettings.TestSettingsListener,
         TestFragmentCheckBox.TestFragmentCheckBoxListener,
         ResultPage.ResultPageListener,
         TestFragmentCheckBox.TestFragmentBarListener,
-        TestFragmentCheckBox.onBackClickListener {
+        TestFragmentCheckBox.onBackClickListener,
+        MyDialogFragment.YesNoListener{
 
     //Переменные для заполнения выдвижной панели
-
-
-    private FirebaseAnalytics mFirebaseAnalytics;
-
     //private ListView drawerList;
     //private DrawerLayout drawerLayout;
     private static final String TAG = "MAIN";
     //private boolean MenuFlag = false;
-    private String[] titles;
+    //private String[] titles;
     private int currentPosition = 0;
 
 
-    public void BarDrawerTrue(boolean MenuFlag) {
+    @Override
+    public void onYes(int Mode) {
+
+        final String appPackageName = "z.medicaltests";
+
+        Log.v("Name", getPackageName());
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+        } catch (android.content.ActivityNotFoundException anfe) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+        }
+
+    }
+
+    public void BarDrawerTrue() {
         //this.MenuFlag = MenuFlag;
         invalidateOptionsMenu();
     }
@@ -56,11 +63,11 @@ import java.util.Random;
     @Override
     public void onBackClick() {
         getFragmentManager().popBackStack();
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
     }
-    public void BarDrawer(String Name, String Path, TestStructure Questions,
-                          boolean Show, int Max, int Mode, int MistakesIndexesArray[], int AbsoluteSize, int Mass[]) {
+    public void BarDrawer(String Name, String Path,
+                          boolean Show, int Max, int Mode, int AbsoluteSize, int Mass[]) {
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
@@ -113,11 +120,11 @@ import java.util.Random;
     }
 
 
-    protected int[] Randomize(int Size, int Up) {
+    private int[] Randomize(int Size, int Up) {
         int mass[] = new int[Size];
 
         //Up+=1;
-        Random rnd = new Random(System.currentTimeMillis());
+        //Random rnd = new Random(System.currentTimeMillis());
 
         first:
         for (int i = 0; i < Size; i++) {
@@ -136,10 +143,9 @@ import java.util.Random;
 
         }
 
-        for (int i = 0; i < mass.length; i++) {
-            Log.v("RAND", Integer.toString(mass[i]));
+        for (int s:mass) {
+            Log.v("RAND", Integer.toString(s));
         }
-
         /*
         for (int i = 0; i < Size; i++) {
 
@@ -164,7 +170,7 @@ import java.util.Random;
         return mass;
     }
 
-    protected static int[] Randomize(int Size) {
+    private static int[] Randomize(int Size) {
         int mass[] = new int[Size];
         for (int i = 0; i < Size; i++) {
             mass[i] = i + 1;
@@ -198,7 +204,7 @@ import java.util.Random;
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
                 for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
                     getFragmentManager().popBackStack();
-                };
+                }
             }
         }
         catch (Exception e) {Log.v("Error", "Error in popstack");}
@@ -212,7 +218,6 @@ import java.util.Random;
 
     @Override
     public void onButtonCommitListener(String Name, String Path, boolean Show,
-                                               TestStructure Question,
                                                int Number,
                                                int RighAnswers,
                                                int Max,
@@ -354,8 +359,7 @@ import java.util.Random;
         TestSettings fragment;
         fragment = new TestSettings();
         fragment.SetMessage(File, Size,
-                getResources().getString(R.string.text_mistakes_1),
-                getResources().getString(R.string.text_mistakes_2));
+                getResources().getString(R.string.text_mistakes_1));
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -367,7 +371,7 @@ import java.util.Random;
             if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
                 for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
                     getFragmentManager().popBackStack();
-                };
+                }
             }
         }
         catch (Exception e) {Log.v("Error", "Error in popstack");}
@@ -386,10 +390,8 @@ import java.util.Random;
         TestSettings fragment;
         fragment = new TestSettings();
         fragment.SetMessage(File, Size,
-
                 getResources().getString(R.string.text_mistales_set),
-                getResources().getString(R.string.text_mistakes_1),
-                getResources().getString(R.string.text_mistakes_2));
+                getResources().getString(R.string.text_mistakes_1));
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.content_frame, fragment, "fragment");
@@ -440,7 +442,14 @@ import java.util.Random;
                 ft.commit();
             }
             else {
-                toastMessage("Доступно только в платной версии!");
+                //toastMessage("Доступно только в платной версии!");
+
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage("Доступно только в платной версии!");
+                dialog.setMode(0);
+                dialog.show(getSupportFragmentManager(), "tag");
             }
         }
 
@@ -481,7 +490,13 @@ import java.util.Random;
 
             }
             else {
-                toastMessage("Доступно только в платной версии!");
+                //toastMessage("Доступно только в платной версии!");
+                MyDialogFragment dialog = new MyDialogFragment();
+                dialog.setTitle(getResources().
+                        getString(R.string.alert_header));
+                dialog.setMessage("Доступно только в платной версии!");
+                dialog.setMode(0);
+                dialog.show(getSupportFragmentManager(), "tag");
             }
         }
 
@@ -493,23 +508,22 @@ import java.util.Random;
 
         super.onCreate(savedInstanceState);
 
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        //FirebaseAnalytics mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("");
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("");
 
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
         if (savedInstanceState == null) {
@@ -532,26 +546,26 @@ import java.util.Random;
 
                         if (fragment instanceof AboutFragment) {
                             currentPosition = 3;
-                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            final NavigationView navigationView = findViewById(R.id.nav_view);
                             navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else if (fragment instanceof HelpFragment) {
                             currentPosition = 2;
-                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            final NavigationView navigationView = findViewById(R.id.nav_view);
                             navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else if (fragment instanceof SavedTests) {
                             currentPosition = 1;
-                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            final NavigationView navigationView = findViewById(R.id.nav_view);
                             navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else if(fragment instanceof XmlReader){
                             currentPosition = 0;
-                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            final NavigationView navigationView = findViewById(R.id.nav_view);
                             navigationView.getMenu().getItem(currentPosition).setChecked(true);
                         }
                         else  {
-                            final NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                            final NavigationView navigationView = findViewById(R.id.nav_view);
                             navigationView.getMenu().getItem(currentPosition).setChecked(false);
                         }
 
@@ -564,7 +578,7 @@ import java.util.Random;
 
         //Блок рекламы
 
-        final AdView mAdView = (AdView) findViewById(R.id.adView);
+        final AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
@@ -583,6 +597,7 @@ import java.util.Random;
         });
     }
 
+    /*
     protected void Alert(String Error) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Сообщение:")
@@ -596,45 +611,12 @@ import java.util.Random;
                         });
         AlertDialog alert = builder.create();
         alert.show();
-    }
-
-    private void toastMessage(String message) {
-
-        AlertDialog.Builder ad;
-        ad = new AlertDialog.Builder(this);
-
-        ad.setTitle("Сообщение:");  // заголовок
-        ad.setMessage(message); // сообщение
-        ad.setCancelable(false);
-
-        ad.setPositiveButton("Перейти в магазин", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-
-                //final String appPackageName = getPackageName(); //
-                final String appPackageName = "z.medicaltests";
-
-                Log.v("Name", getPackageName());
-                try {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
-                } catch (android.content.ActivityNotFoundException anfe) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
-                }
-
-            }
-        });
-        ad.setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int arg1) {
-
-            }
-        });
-
-        ad.show();
-    }
+    }*/
 
     @Override
     public void onBackPressed() {
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -653,7 +635,7 @@ import java.util.Random;
                     finish();
                 } else {
                     getFragmentManager().popBackStack();
-                    NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+                    NavigationView navigationView = findViewById(R.id.nav_view);
                     onNavigationItemSelected(navigationView.getMenu().getItem(0));
                 }
                 Log.v("COUNT", "YES");
@@ -675,13 +657,13 @@ import java.util.Random;
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
 
-        if (id == R.id.tests && isSame("class z.medicaltests.XmlReader")) {
+        if (id == R.id.tests) {
 
             currentPosition = 0;
 
@@ -744,12 +726,12 @@ import java.util.Random;
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    protected boolean isSame(String className) {
+    private boolean isSame(String className) {
         try{
             FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");
@@ -758,7 +740,7 @@ import java.util.Random;
         catch (Exception e) {return true; }
 
     }
-    protected  void clearStack() {
+    private void clearStack() {
         try {
             FragmentManager fragMan = getSupportFragmentManager();
             Fragment frag = fragMan.findFragmentByTag("fragment");

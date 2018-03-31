@@ -35,26 +35,27 @@ public class AboutFragment extends Fragment {
 
         View view = getView();
 
-        int versionCode = BuildConfig.VERSION_CODE;
-        String versionName = BuildConfig.VERSION_NAME;
+        if(view!=null) {
+            String versionName = BuildConfig.VERSION_NAME;
 
-        TextView ver = (TextView) view.findViewById(R.id.version);
-        ver.setText(versionName);
+            TextView ver = view.findViewById(R.id.version);
+            ver.setText(versionName);
 
-        TextView textView = (TextView) view.findViewById(R.id.mailto);
+            TextView textView = view.findViewById(R.id.mailto);
 
-        textView.setOnClickListener(new View.OnClickListener() {
+            textView.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View view) {
+                @Override
+                public void onClick(View view) {
 
-                Intent intent = new Intent(Intent.ACTION_SENDTO);
-                intent.setData(Uri.parse("mailto:" + getResources().
-                        getString(R.string.email)));
-                startActivity(intent);
+                    Intent intent = new Intent(Intent.ACTION_SENDTO);
+                    intent.setData(Uri.parse("mailto:" + getResources().
+                            getString(R.string.email)));
+                    startActivity(intent);
 
-            }
-        });
+                }
+            });
+        }
     }
 
 }

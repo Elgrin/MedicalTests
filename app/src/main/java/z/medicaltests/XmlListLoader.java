@@ -15,16 +15,14 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 
  class XmlListLoader {
-    private String FileName = "";
     private String Names[],Files[], Test[];
-    public String Example;
+    //public String Example;
     private static final String TAG = "XmlListLoaderLogs";
 
     XmlListLoader(String message, AssetManager assetManager) {
-        FileName = message;
         try {
            // AssetManager assetManager = context.getAssets();
-            InputStream is = assetManager.open(FileName + ".xml");
+            InputStream is = assetManager.open(message + ".xml");
 
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();

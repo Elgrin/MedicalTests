@@ -19,7 +19,7 @@ abstract class TestStructure implements Parcelable {
     public String[] getParents(){return null;}
     public String[] getChildren(){return null;}
     public boolean[] getRelations(){return null;}
-    public TestStructure getThis(){return this;}
+    //public TestStructure getThis(){return this;}
     public int getID() {
         return -1;
     }
@@ -50,7 +50,7 @@ class TestCheckBox extends TestStructure {
     public boolean[] getFlags() {
         return Flags;
     }
-    public TestCheckBox getThis(){return this;}
+    //public TestCheckBox getThis(){return this;}
     public int getID() {
         return ID;
     }
@@ -69,7 +69,7 @@ class TestCheckBox extends TestStructure {
     }
     void setID(int ID) {this.ID = ID;}
 
-    protected TestCheckBox(Parcel in) {
+    private TestCheckBox(Parcel in) {
         Text = in.readString();
         Type = in.readInt();
         Options = in.createStringArray();
@@ -111,7 +111,7 @@ class MultipleChoices extends TestStructure{
     public String[] getParents(){return Parents;}
     public String[] getChildren(){return Children;}
     public boolean[] getRelations(){return Relations;}
-    public MultipleChoices getThis(){return this;}
+    //public MultipleChoices getThis(){return this;}
     public int getID() {
         return ID;
     }
@@ -123,7 +123,7 @@ class MultipleChoices extends TestStructure{
     void setRelations(boolean Relations[]){this.Relations=Relations;}
     void setID(int ID) {this.ID  = ID;}
 
-    protected MultipleChoices(Parcel in) {
+    private MultipleChoices(Parcel in) {
         Text = in.readString();
         Type = in.readInt();
         Parents = in.createStringArray();

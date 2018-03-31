@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
     <item test="psychoSubject">Предмет психологии</item>
 	<item test="personality">Личность и индивидульность</item>
 	<item test="behaviourStudying">Уровни поведения. Научение</item>

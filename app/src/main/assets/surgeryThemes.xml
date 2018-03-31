@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <themes>
-    <properties it="themes"></properties>
+    <properties it="themes"/>
     <item test="h0">Все вопросы</item>
 	<item test="h1">Аппендицит,осложнения аппендицита</item>
 	<item test="h2">Заболевания поджелудочной железы (доброкачественные и злокачественные)</item>

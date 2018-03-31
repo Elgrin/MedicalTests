@@ -1,63 +1,99 @@
 package z.medicaltests;
 
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
-
+import android.support.v4.app.FragmentManager;
 /**
  * A simple {@link Fragment} subclass.
  */
 public class MyDialogFragment extends DialogFragment {
-    public String Title;
-    public String Message;
-    public int Mode;
-    public MyDialogFragment.YesNoListener listener;
+    private String Title;
+    private String Message;
+    private int Mode;
+    private YesNoListener listener;
 
     public interface YesNoListener {
         void onYes(int Mode);
+    }
 
-        void onNo();
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public void setMessage(String message) {
+        Message = message;
+    }
+
+    public void setMode(int mode) {
+        Mode = mode;
     }
 
     @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
+    public void onCreate(Bundle savedInstanceState) {
 
-        if (!(activity instanceof YesNoListener)) {
-            throw new ClassCastException(activity.toString() + " must implement YesNoListener");
+        super.onCreate(savedInstanceState);
+
+        if (savedInstanceState != null) {
+
+            Title = savedInstanceState.getString("title");
+            Message = savedInstanceState.getString("message");
+            Mode = savedInstanceState.getInt("mode");
         }
     }
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
+    public void onAttach(Context activity) {
+        super.onAttach(activity);
+        try {
+
+            FragmentManager fragMan = getFragmentManager();
+            Fragment frag = fragMan.findFragmentByTag("fragment");
+
+            this.listener = (YesNoListener) frag;
+        }
+        catch (ClassCastException e) {
+            throw new ClassCastException(getFragmentManager().toString()
+                    + " must implement NoticeDialogListener");
+        }
+
     }
 
+    @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
                 .setTitle(Title)
                 .setMessage(Message)
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                .setPositiveButton("Да", new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        ((YesNoListener) getActivity()).onYes(Mode);
+                        listener.onYes(Mode);
                     }
                 })
-                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                .setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        ((YesNoListener) getFragmentManager()).onNo();
                     }
                 })
                 .create();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+
+        super.onSaveInstanceState(savedInstanceState);
+
+        savedInstanceState.putString("title", Title);
+        savedInstanceState.putString("message", Message);
+        savedInstanceState.putInt("mode", Mode);
     }
 }
