@@ -21,6 +21,7 @@ import android.view.View;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 public   class MainWindow extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, XmlReader.XmlReaderListener,
@@ -39,6 +40,7 @@ public   class MainWindow extends AppCompatActivity
     //private boolean MenuFlag = false;
     //private String[] titles;
     private int currentPosition = 0;
+    private InterstitialAd mInterstitialAd;
 
 
     @Override
@@ -226,6 +228,10 @@ public   class MainWindow extends AppCompatActivity
                                                int AbsoluteSize, int Mass[]) {
 
         if ((Max + 1) == (Number)) {
+
+            if (mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+            }
 
             ResultPage fragment;
             fragment = new ResultPage();
@@ -579,7 +585,11 @@ public   class MainWindow extends AppCompatActivity
         //Блок рекламы
 
         final AdView mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
+        AdRequest adRequest;
+
+        adRequest = new AdRequest.Builder()
+                .addTestDevice("tca-app-pub-3940256099942544/6300978111")
+                .build();
         mAdView.loadAd(adRequest);
 
         mAdView.setAdListener(new AdListener() {
@@ -595,6 +605,21 @@ public   class MainWindow extends AppCompatActivity
                 mAdView.setVisibility(View.GONE);
             }
         });
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-4783454866533768/1890323795");
+
+        mInterstitialAd.loadAd(new AdRequest.Builder().addTestDevice("ca-app-pub-3940256099942544/1033173712").build());
+
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                // Load the next interstitial.
+                mInterstitialAd.loadAd(new AdRequest.Builder().addTestDevice("ca-app-pub-3940256099942544/1033173712").build());
+            }
+
+        });
+
     }
 
     /*
