@@ -218,22 +218,6 @@ MyDialogFragment.YesNoListener{
             AbsoluteSize = savedInstanceState.getInt("AbsoluteSize");
             Mass = savedInstanceState.getIntArray("mass");
 
-            /*
-            TestFragmentPacerable question;
-            question = savedInstanceState.getParcelable("question");
-            Questions = question.getTestStruscture();
-            */
-
-            //Questions = (TestStructure[]) savedInstanceState.getParcelableArray("questions");
-
-            /*
-            Parcelable[] allParcelables = savedInstanceState.getParcelableArray("questions");
-            Questions = new TestStructure[allParcelables.length];
-
-            for (int i = 0 ; i < allParcelables.length; i++) {
-                Questions[i] = (TestStructure)allParcelables[i];
-            }*/
-
             Question = savedInstanceState.getParcelable("question");
 
 
@@ -707,6 +691,7 @@ MyDialogFragment.YesNoListener{
             Log.v(TAG, Name);
             NameElementName.appendChild(doc.createTextNode(Name));
 
+
             Log.v(TAG, "Massive");
             Element NameElementMassive = doc.createElement("massive");
             NameElementMassive.setAttribute("size", Integer.toString(Mass.length));
@@ -744,6 +729,9 @@ MyDialogFragment.YesNoListener{
             NameElementAbsoluteSize.appendChild(doc.createTextNode(Integer.toString(AbsoluteSize)));
 
 
+            Element NameElementCurID = doc.createElement("curID");
+            NameElementCurID.appendChild(doc.createTextNode(Integer.toString(Question.getID())));
+
             NameElementTitle.appendChild(NameElementPath);
             NameElementTitle.appendChild(NameElementNumber);
             NameElementTitle.appendChild(NameElementShow);
@@ -753,6 +741,7 @@ MyDialogFragment.YesNoListener{
             NameElementTitle.appendChild(NameElementMassive);
             NameElementTitle.appendChild(NameElementMistakes);
             NameElementTitle.appendChild(NameElementAbsoluteSize);
+            NameElementTitle.appendChild(NameElementCurID);
 
             nNode.appendChild(NameElementTitle);
 

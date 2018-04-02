@@ -71,8 +71,7 @@ public   class MainWindow extends AppCompatActivity
     public void BarDrawer(String Name, String Path,
                           boolean Show, int Max, int Mode, int AbsoluteSize, int Mass[]) {
 
-        TestFragmentCheckBox fragment;
-        fragment = new TestFragmentCheckBox();
+        TestFragmentCheckBox fragment = new TestFragmentCheckBox();
 
         XmlTestLoader loader = new XmlTestLoader(Path, getAssets(), Mass[0]);
         TestStructure Question = loader.getTestStructure();
@@ -272,6 +271,7 @@ public   class MainWindow extends AppCompatActivity
 
             XmlTestLoader loader = new XmlTestLoader(Path, getAssets(), Mass[Number-1]);
             TestStructure Question_1 = loader.getTestStructure();
+
             fragment.SetMessage(Name, Path,
                     Question_1,
                     Number, Show, false, RighAnswers, Max, Mode,

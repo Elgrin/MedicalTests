@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <quize size="6" file="three1" name = "Первый">
 	<question id="3" size="5" type="1">
-		<text>Живые системы отличаются от неживых систем наличием</text>
+		<text>Живые системы отличаются от неживых систем наличием 3</text>
 		<item flag="0">Первый</item>
 		<item flag="1">Второй+</item>
 		<item flag="0">Третий</item>
@@ -9,7 +9,7 @@
 		<item flag="0">Пятый</item>
 	</question>
 	<question id="4" size="5" type="1">
-		<text>Живые системы отличаются от неживых систем наличием</text>
+		<text>Живые системы отличаются от неживых систем наличием 4</text>
 		<item flag="0">Первый</item>
 		<item flag="1">Второй+</item>
 		<item flag="0">Третий</item>

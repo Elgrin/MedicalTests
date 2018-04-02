@@ -26,6 +26,8 @@ class SavedBundle implements Parcelable {
     private int[] Massive;
     private int[] Mistakes;
     private int AbsoluteSize;
+    private int curID;
+    private boolean error;
 
     SavedBundle() {}
     void setPath(String Path) {this.Path = Path;}
@@ -38,6 +40,10 @@ class SavedBundle implements Parcelable {
     void setMassive(int Massive[]){this.Massive=Massive;}
     void setMistakes(int Mistakes[]){this.Mistakes=Mistakes;}
     void setAbsolute(int AbsoluteSize){this.AbsoluteSize=AbsoluteSize;}
+    void setError(boolean error) {this.error = error;}
+    void setCurID(int curID) {
+        this.curID = curID;
+    }
 
     String getPath() {return Path;}
     int getNumber() {return Number;}
@@ -49,6 +55,8 @@ class SavedBundle implements Parcelable {
     int[] getMassive() {return Massive;}
     int[] getMistakes() {return Mistakes;}
     int getAbsoluteSize() {return  AbsoluteSize;}
+    int getCurID() {return curID;}
+    boolean getError() {return error;}
 
     /**
      * Implementing Parcelable
@@ -71,6 +79,8 @@ class SavedBundle implements Parcelable {
         //in.readIntArray(Massive);
         //in.readIntArray(Mistakes);
         AbsoluteSize = in.readInt();
+        curID = in.readInt();
+        error = in.readByte() != 0;
     }
 
     public void writeToParcel(Parcel out, int flags) {
@@ -84,6 +94,8 @@ class SavedBundle implements Parcelable {
         out.writeIntArray(Massive);
         out.writeIntArray(Mistakes);
         out.writeInt(AbsoluteSize);
+        out.writeInt(curID);
+        out.writeByte((byte) (error ? 1 : 0));
     }
 
     public static final Parcelable.Creator<SavedBundle> CREATOR = new Parcelable.Creator<SavedBundle>() {
@@ -143,8 +155,13 @@ class SavedBundle implements Parcelable {
 
                     int ID = Integer.parseInt(((Element) nNode).getAttribute("id"));
                     bundle[Iterator].setID(ID);
+                    bundle[Iterator].setError(false);
 
                     NodeList nList_Second = nNode.getChildNodes();
+
+                    if(nList_Second.getLength()==9) {
+                        bundle[Iterator].setError(true);
+                    }
 
                     for(int j = 0; j<nList_Second.getLength(); j++) {
 
@@ -182,29 +199,35 @@ class SavedBundle implements Parcelable {
                                 Log.v(TAG, "Name " + nNode_Second.getTextContent());
                             }
                             if(j==6) {
-                                Element element = (Element) nNode_Second;
-                                String SIZE = element.getAttribute("size");
-                                Log.v(TAG, SIZE);
 
-                                int[] Massive = new int[Integer.parseInt(SIZE)];
-                                NodeList nList_Massive = element.getElementsByTagName("element");
+                                try {
+                                    Element element = (Element) nNode_Second;
+                                    String SIZE = element.getAttribute("size");
+                                    Log.v(TAG, SIZE);
 
-                                Log.v(TAG, Integer.toString(nList_Massive.getLength()));
+                                    int[] Massive = new int[Integer.parseInt(SIZE)];
+                                    NodeList nList_Massive = element.getElementsByTagName("element");
 
-                                int iter = 0;
-                                for (int q = 0; q < nList_Massive.getLength(); q++) {
-                                    Node nNode_Massive = nList_Massive.item(q);
+                                    Log.v(TAG, Integer.toString(nList_Massive.getLength()));
 
-                                    if (nNode_Second.getNodeType() == Node.ELEMENT_NODE) {
+                                    int iter = 0;
+                                    for (int q = 0; q < nList_Massive.getLength(); q++) {
+                                        Node nNode_Massive = nList_Massive.item(q);
 
-                                        Element element_Massive = (Element) nNode_Massive;
-                                        Log.v(TAG, "Massive ");
-                                        Log.v(TAG, element_Massive.getTextContent());
-                                        Massive[iter] = Integer.parseInt(element_Massive.getTextContent());
-                                        bundle[Iterator].setMassive(Massive);
-                                        iter++;
+                                        if (nNode_Second.getNodeType() == Node.ELEMENT_NODE) {
+
+                                            Element element_Massive = (Element) nNode_Massive;
+                                            Log.v(TAG, "Massive ");
+                                            Log.v(TAG, element_Massive.getTextContent());
+                                            Massive[iter] = Integer.parseInt(element_Massive.getTextContent());
+                                            bundle[Iterator].setMassive(Massive);
+                                            iter++;
+                                        }
+
                                     }
-
+                                }
+                                catch (Exception e) {
+                                    bundle[Iterator].setError(true);
                                 }
 
                             }
@@ -243,6 +266,15 @@ class SavedBundle implements Parcelable {
                             if(j==8) {
                                 bundle[Iterator].setAbsolute(Integer.parseInt(nNode_Second.getTextContent()));
                                 Log.v(TAG, "Max " + nNode_Second.getTextContent());
+                            }
+                            if(j==9) {
+                                try {
+                                    bundle[Iterator].setCurID(Integer.parseInt(nNode_Second.getTextContent()));
+                                }
+                                catch (Exception e) {
+                                    bundle[Iterator].setError(true);
+                                }
+
                             }
                         }
                     }

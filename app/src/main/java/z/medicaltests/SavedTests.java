@@ -111,47 +111,61 @@ public class SavedTests extends Fragment implements View.OnClickListener, MyDial
                         }
                     }
 
+                    if(!savedBundle[it].getError()) {
 
-                    TestFragmentCheckBox fragment;
-                    fragment = new TestFragmentCheckBox();
+                        TestFragmentCheckBox fragment;
+                        fragment = new TestFragmentCheckBox();
 
-                    XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(), getActivity().getAssets(), savedBundle[it].getNumber());
-                    TestStructure Question = loader.getTestStructure();
+                        XmlTestLoader loader = new XmlTestLoader(savedBundle[it].getPath(), getActivity().getAssets(), savedBundle[it].getCurID());
+                        TestStructure Question = loader.getTestStructure();
 
-                    fragment.SetMessage(savedBundle[it].getName(),
-                            savedBundle[it].getPath(),
-                            Question,
-                            savedBundle[it].getNumber(),
-                            savedBundle[it].getShow(),
-                            false,
-                            savedBundle[it].getRightAnswers(),
-                            savedBundle[it].getMaxSize(),
-                            0,
-                            savedBundle[it].getMistakes(),
-                            savedBundle[it].getAbsoluteSize(), savedBundle[it].getMassive());
+                        fragment.SetMessage(savedBundle[it].getName(),
+                                savedBundle[it].getPath(),
+                                Question,
+                                savedBundle[it].getNumber(),
+                                savedBundle[it].getShow(),
+                                false,
+                                savedBundle[it].getRightAnswers(),
+                                savedBundle[it].getMaxSize(),
+                                0,
+                                savedBundle[it].getMistakes(),
+                                savedBundle[it].getAbsoluteSize(), savedBundle[it].getMassive());
 
-                    FragmentTransaction ft = getFragmentManager().beginTransaction();
-                    ft.replace(R.id.content_frame, fragment, "fragment");
-                    //ft.disallowAddToBackStack();
+                        FragmentTransaction ft = getFragmentManager().beginTransaction();
+                        ft.replace(R.id.content_frame, fragment, "fragment");
+                        //ft.disallowAddToBackStack();
 
-                    try {
-                        FragmentManager fragMan = getFragmentManager();
-                        Fragment frag = fragMan.findFragmentByTag("fragment");
+                        try {
+                            FragmentManager fragMan = getFragmentManager();
+                            Fragment frag = fragMan.findFragmentByTag("fragment");
 
-                        if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
-                            for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
-                                getFragmentManager().popBackStack();
+                            if (frag.getClass().toString().equals("class z.medicaltests.TestFragmentCheckBox")) {
+                                for(int i = 0; i < getFragmentManager().getBackStackEntryCount(); ++i) {
+                                    getFragmentManager().popBackStack();
+                                }
                             }
                         }
-                    }
-                    catch (Exception e) {Log.v("Error", "Error in popstack");}
+                        catch (Exception e) {Log.v("Error", "Error in popstack");}
 
-                    ft.addToBackStack(null);
-                    ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                    ft.commit();
-                    deleteChecked();
+                        ft.addToBackStack(null);
+                        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                        ft.commit();
+                        deleteChecked();
+
+                    }
+                    else {
+
+                        MyDialogYes dialog = new MyDialogYes();
+                        dialog.setTitle(getResources().
+                                getString(R.string.alert_header));
+                        dialog.setMessage(getResources().
+                                getString(R.string.alert_dialogue_crashed));
+                        dialog.show(getFragmentManager(), "tag");
+                        deleteChecked();
+                    }
                 }
             }
+
         }
     }
 
