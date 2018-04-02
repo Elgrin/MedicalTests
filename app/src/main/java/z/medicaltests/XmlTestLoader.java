@@ -206,7 +206,7 @@ class XmlTestLoader {
 
         try {
 
-            int del = 2;
+            int del = 250;
             double src = mass/((double)del);
             int code = (int)(src);
             double ost = src - code;
