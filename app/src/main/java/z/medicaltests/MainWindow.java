@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -41,6 +42,7 @@ public   class MainWindow extends AppCompatActivity
     //private String[] titles;
     private int currentPosition = 0;
     private InterstitialAd mInterstitialAd;
+    private int adCount;
 
 
     @Override
@@ -70,6 +72,9 @@ public   class MainWindow extends AppCompatActivity
     }
     public void BarDrawer(String Name, String Path,
                           boolean Show, int Max, int Mode, int AbsoluteSize, int Mass[]) {
+
+
+        adCount = 0;
 
         TestFragmentCheckBox fragment = new TestFragmentCheckBox();
 
@@ -232,6 +237,8 @@ public   class MainWindow extends AppCompatActivity
                 mInterstitialAd.show();
             }
 
+            adCount = 0;
+
             ResultPage fragment;
             fragment = new ResultPage();
             fragment.setMessage(RighAnswers, Max,
@@ -265,6 +272,14 @@ public   class MainWindow extends AppCompatActivity
 
         } else {
 
+            adCount++;
+
+            if(adCount == 20) {
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                }
+                adCount = 0;
+            }
 
             TestFragmentCheckBox fragment;
             fragment = new TestFragmentCheckBox();
@@ -323,7 +338,6 @@ public   class MainWindow extends AppCompatActivity
         for(int i = 0; i < mass.length; i++) {
             text.append(Integer.toString(mass[i]));
         }*/
-
 
         TestFragmentCheckBox fragment;
         fragment = new TestFragmentCheckBox();
@@ -535,9 +549,11 @@ public   class MainWindow extends AppCompatActivity
         if (savedInstanceState == null) {
             onNavigationItemSelected(navigationView.getMenu().getItem(0));
             navigationView.getMenu().getItem(0).setChecked(true);
+            adCount = 0;
         }
         else {
             currentPosition = savedInstanceState.getInt("currentPosition)");
+            adCount = savedInstanceState.getInt("adCount");
             //onNavigationItemSelected(navigationView.getMenu().getItem(currentPosition));
         }
 
@@ -584,6 +600,25 @@ public   class MainWindow extends AppCompatActivity
 
         //Блок рекламы
 
+        final Button removeAd = findViewById(R.id.removeAd);
+
+        removeAd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                final String appPackageName = "z.medicaltestspro";
+
+                Log.v("Name", getPackageName());
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id="
+                            + appPackageName)));
+                }
+
+            }
+        });
+
         final AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest;
 
@@ -597,12 +632,14 @@ public   class MainWindow extends AppCompatActivity
             public void onAdLoaded() {
                 super.onAdLoaded();
                 mAdView.setVisibility(View.VISIBLE);
+                removeAd.setVisibility(View.VISIBLE);
             }
 
             @Override
             public void onAdFailedToLoad(int errorCode) {
                 super.onAdFailedToLoad(errorCode);
                 mAdView.setVisibility(View.GONE);
+                removeAd.setVisibility(View.GONE);
             }
         });
 
@@ -675,6 +712,7 @@ public   class MainWindow extends AppCompatActivity
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt("position", currentPosition);
+        outState.putInt("adCount", adCount);
         Log.v(TAG, "as");
     }
 

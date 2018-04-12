@@ -74,10 +74,13 @@ MyDialogFragment.YesNoListener{
     @Override
     public void onYes(int mode) {
 
-        DrawerLayout drawer = getActivity().findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
+        try {
+            DrawerLayout drawer = getActivity().findViewById(R.id.drawer_layout);
+            if (drawer.isDrawerOpen(GravityCompat.START)) {
+                drawer.closeDrawer(GravityCompat.START);
+            }
         }
+        catch (Exception e) {}
 
         if(mode == 0) {
 
