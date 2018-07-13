@@ -711,7 +711,7 @@ public   class MainWindow extends AppCompatActivity
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("position", currentPosition);
+        outState.putInt("currentPosition", currentPosition);
         outState.putInt("adCount", adCount);
         Log.v(TAG, "as");
     }
